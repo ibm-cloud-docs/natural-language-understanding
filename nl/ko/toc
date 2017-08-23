@@ -1,0 +1,44 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="natural-language-understanding" audience="service" href="/docs/services/NaturalLanguageUnderstanding/getting-started.html"}
+자연어 이해
+
+    {: .navgroup id="learn"}
+    getting-started.md
+    [데모](https://natural-language-understanding-demo.mybluemix.net/)
+
+    {: .topicgroup}
+    추가 자원
+        [블로그](https://developer.ibm.com/watson/blog/)
+        [온라인 회의](http://www.ibm.com/watson/building-with-watson-webinar.html)
+        [Watson 동영상](https://www.youtube.com/user/IBMWatsonSolutions)
+    {: .navgroup-end}
+
+    {: .navgroup id="howto"}
+    [확장된 문서](https://www.ibm.com/watson/developercloud/doc/natural-language-understanding/index.html)
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    [API 참조](https://www.ibm.com/watson/developercloud/natural-language-understanding/api/v1/)
+
+    {: .topicgroup}
+    Watson SDK
+        [Java SDK](https://github.com/watson-developer-cloud/java-sdk)
+        [Node.js SDK](https://github.com/watson-developer-cloud/node-sdk)
+        [Python SDK](https://github.com/watson-developer-cloud/python-sdk)
+        [Swift SDK](https://github.com/watson-developer-cloud/ios-sdk)
+        [Unity SDK](https://github.com/watson-developer-cloud/unity-sdk)
+
+    [Watson GitHub 저장소](https://github.com/watson-developer-cloud/)
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    [릴리스 정보](https://www.ibm.com/watson/developercloud/doc/natural-language-understanding/release-notes.html)
+
+    {: .topicgroup}
+    개발자 커뮤니티
+        [StackOverflow](https://stackoverflow.com/questions/tagged/watson-nlu)
+        [developerWorks 응답](https://developer.ibm.com/answers/topics/natural-language-understanding/)
+        [WDC Slack 채널](http://wdc-slack-inviter.mybluemix.net/)
+    {: .navgroup-end}
