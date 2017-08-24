@@ -1,0 +1,44 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="natural-language-understanding" audience="service" href="/docs/services/natural-language-understanding/getting-started.html"}
+Natural Language Understanding
+
+    {: .navgroup id="learn"}
+    getting-started.md
+    [Demo](https://natural-language-understanding-demo.mybluemix.net/)
+
+    {: .topicgroup}
+    Recursos adicionales
+        [Blog](https://developer.ibm.com/watson/blog/)
+        [Webinars](http://www.ibm.com/watson/building-with-watson-webinar.html)
+        [Vídeos de Watson](https://www.youtube.com/user/IBMWatsonSolutions)
+    {: .navgroup-end}
+
+    {: .navgroup id="howto"}
+    [Documentación ampliada](https://www.ibm.com/watson/developercloud/doc/natural-language-understanding/index.html)
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    [Referencia de la API](https://www.ibm.com/watson/developercloud/natural-language-understanding/api/v1/)
+
+    {: .topicgroup}
+    SDK de Watson
+        [SDK de Java](https://github.com/watson-developer-cloud/java-sdk)
+        [SDK de Node.js](https://github.com/watson-developer-cloud/node-sdk)
+        [SDK de Python](https://github.com/watson-developer-cloud/python-sdk)
+        [SDK de Swift](https://github.com/watson-developer-cloud/ios-sdk)
+        [SDK de Unity](https://github.com/watson-developer-cloud/unity-sdk)
+
+    [Repositorios GitHub de Watson](https://github.com/watson-developer-cloud/)
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    [Notas del release](https://www.ibm.com/watson/developercloud/doc/natural-language-understanding/release-notes.html)
+
+    {: .topicgroup}
+    Comunidad de desarrolladores
+        [StackOverflow](https://stackoverflow.com/questions/tagged/watson-nlu)
+        [developerWorks Answers](https://developer.ibm.com/answers/topics/natural-language-understanding/)
+        [Canal WDC de Slack](http://wdc-slack-inviter.mybluemix.net/)
+    {: .navgroup-end}
