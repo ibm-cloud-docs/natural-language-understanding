@@ -32,6 +32,49 @@ When we change the API in a backwards-incompatible way, we release a new minor v
 
 ## Changes
 
+### 30 July 2017
+{: #30-july-2017}
+
+- You can control cost by using the optional `limit_text_characters` parameter to limit the number of characters that are processed. For example:
+
+```
+{
+  "text": "The United States of America, commonly known as the United States (U.S.) or America, is a federal republic composed of 50 states, a federal district, five major self-governing territories, and various possessions. Forty-eight of the fifty states and the federal district are contiguous and located in North America between Canada and Mexico. The state of Alaska is in the northwest corner of North America, bordered by Canada to the east and across the Bering Strait from Russia to the west.",
+  "features": {
+    "entities": {}
+  },
+  "limit_text_characters": 50,
+  "return_analyzed_text": true
+}
+```
+
+- Each character counts as one character, regardless of whether the character is a single-byte character or a multibyte character.
+
+- For metering, one {{site.data.keyword.nlushort}} Item continues to be one feature (also known as an enrichment) per one text unit. One text unit is 10,000 characters or less.
+
+- For detailed pricing information, see [{{site.data.keyword.nlushort}}](https://console.ng.bluemix.net/catalog/services/natural-language-understanding) in the {{site.data.keyword.Bluemix}} Catalog.
+
+- In addition to adding the `limit_text_characters` parameter, the following changes were made to text size limits and truncation:
+
+  - All text greater than 50,000 characters will be truncated before processing. Previously, truncation was based on kilobytes, where one kilobyte equaled 1024 bytes.
+
+  - An informational message is returned in the response when text beyond 50,000 characters is truncated.
+
+  - Text limit size for custom models has been bumped from 10,000 characters to 50,000 characters.
+
+  - Usage information is added to the response for clarity around number of {{site.data.keyword.nlushort}} Items used for each request. For example:
+
+```
+{
+  "usage": {
+    "text_units": 5,
+    "text_characters": 41186,
+    "features": 1
+  },
+  ...
+}
+```
+
 ### 8 May 2017
 {: #8-may-2017}
 
