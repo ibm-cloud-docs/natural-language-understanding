@@ -1,0 +1,44 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="natural-language-understanding" audience="service" href="/docs/services/natural-language-understanding/getting-started.html"}
+Natural Language Understanding
+
+    {: .navgroup id="learn"}
+    getting-started.md
+    [演示](https://natural-language-understanding-demo.mybluemix.net/)
+
+    {: .topicgroup}
+    其他资源
+        [博客](https://developer.ibm.com/watson/blog/)
+        [网络研讨会](http://www.ibm.com/watson/building-with-watson-webinar.html)
+        [Watson 视频](https://www.youtube.com/user/IBMWatsonSolutions)
+    {: .navgroup-end}
+
+    {: .navgroup id="howto"}
+    [展开的文档](https://www.ibm.com/watson/developercloud/doc/natural-language-understanding/index.html)
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    [API 参考](https://www.ibm.com/watson/developercloud/natural-language-understanding/api/v1/)
+
+    {: .topicgroup}
+    Watson SDK
+        [Java SDK](https://github.com/watson-developer-cloud/java-sdk)
+        [Node.js SDK](https://github.com/watson-developer-cloud/node-sdk)
+        [Python SDK](https://github.com/watson-developer-cloud/python-sdk)
+        [Swift SDK](https://github.com/watson-developer-cloud/ios-sdk)
+        [Unity SDK](https://github.com/watson-developer-cloud/unity-sdk)
+
+    [Watson GitHub 存储库](https://github.com/watson-developer-cloud/)
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    [发行说明](https://www.ibm.com/watson/developercloud/doc/natural-language-understanding/release-notes.html)
+
+    {: .topicgroup}
+    开发者社区
+        [StackOverflow](https://stackoverflow.com/questions/tagged/watson-nlu)
+        [developerWorks Answers](https://developer.ibm.com/answers/topics/natural-language-understanding/)
+        [WDC Slack 频道](http://wdc-slack-inviter.mybluemix.net/)
+    {: .navgroup-end}
