@@ -28,7 +28,7 @@ Natural Language Understanding
     detectable-languages.md
     entity-types.md
     relations.md
-    
+
     {: .topicgroup}
     Watson SDKs
         [Android SDK](https://github.com/watson-developer-cloud/android-sdk)
@@ -39,18 +39,16 @@ Natural Language Understanding
         [.NET SDK](https://github.com/watson-developer-cloud/dotnet-standard-sdk)
         [Swift SDK](https://github.com/watson-developer-cloud/ios-sdk)
         [Unity SDK](https://github.com/watson-developer-cloud/unity-sdk)
-        
+
     [Watson GitHub repos](https://github.com/watson-developer-cloud/)
     {: .navgroup-end}
 
     {: .navgroup id="help"}
     release-notes.md
-    
+
     {: .topicgroup}
     Developer community
         [StackOverflow](https://stackoverflow.com/questions/tagged/watson-nlu)
         [developerWorks Answers](https://developer.ibm.com/answers/topics/natural-language-understanding/)
         [WDC Slack channel](http://wdc-slack-inviter.mybluemix.net/)
-        
     {: .navgroup-end}
-    
