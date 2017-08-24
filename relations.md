@@ -19,7 +19,7 @@ lastupdated: "2017-07-21"
 
 # Relation types
 
-The following table lists the types of relations returned from the [Relations ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/watson/developercloud/natural-language-understanding/api/v1/#relations) method.
+The following table lists the types of relations returned from the [Relations ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/watson/developercloud/natural-language-understanding/api/v1/#relations) analysis.
 {: shortdesc}
 
 | Relation        | Description                                                                                                                                                                                                        |
