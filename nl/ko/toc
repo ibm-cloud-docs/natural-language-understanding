@@ -16,7 +16,7 @@
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
-    [확장된 문서](https://www.ibm.com/watson/developercloud/doc/natural-language-understanding/index.html)
+    [확장된 문서 (English)](https://console.bluemix.net/docs/services/natural-language-understanding/index.html?locale=en)
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
