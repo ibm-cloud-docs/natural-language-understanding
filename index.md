@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-07-21"
+lastupdated: "2017-08-30"
 
 ---
 
@@ -134,7 +134,8 @@ The following table shows the supported languages for each feature. {{site.data.
 | French     | X&#42;&#42;&#42;       |          |         | X        | X        | X        | X&#42;&#42;       |                | X         | 
 | German     |            |          |         | X        | X        | X        | X&#42;&#42;       |                | X         | 
 | Italian    | X&#42;&#42;&#42;       |          |         | X        | X        | X        | X&#42;&#42;       |                | X         | 
-| Japanese   |            |          |         |          |          | X        |           |                |           | 
+| Japanese   |            |          |         |X&#42;&#42;|          | X        |X&#42;&#42;|                |           | 
+| Korean     | X | X | | | | X | X | | X |
 | Portuguese | X&#42;&#42;&#42;       |          |         | X        | X        | X        | X&#42;&#42;       |                | X         | 
 | Russian    |            |          |         | X        | X        | X        |           |                | X         | 
 | Spanish    | X&#42;&#42;&#42;       | X        |         | X        | X        | X        | X         | X              | X         | 
