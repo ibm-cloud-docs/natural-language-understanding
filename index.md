@@ -142,7 +142,7 @@ The following table shows the supported languages for each feature. {{site.data.
 | Swedish    |            |          |         | X        | X        | X        |           |                |           | 
 
 
-&#42;You can build {{site.data.keyword.knowledgestudiofull}} custom models for  <tt>entities</tt> and <tt>relations</tt> in English, French, German, Italian, Portuguese, and Spanish. You can use some of these languages in {{site.data.keyword.nlushort}} or you can customize the models.
+&#42;You can build {{site.data.keyword.knowledgestudiofull}} custom models for  <tt>entities</tt> and <tt>relations</tt> in English, French, German, Italian, Japanese, Portuguese, and Spanish. You can use some of these languages in {{site.data.keyword.nlushort}} or you can customize the models.
 
 &#42;&#42;These languages are only supported through custom models in [{{site.data.keyword.knowledgestudioshort}}](https://ibm.biz/watsonknowledgestudio).
 
