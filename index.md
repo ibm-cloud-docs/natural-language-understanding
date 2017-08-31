@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-07-21"
+lastupdated: "2017-08-30"
 
 ---
 
@@ -134,14 +134,15 @@ The following table shows the supported languages for each feature. {{site.data.
 | French     | X&#42;&#42;&#42;       |          |         | X        | X        | X        | X&#42;&#42;       |                | X         | 
 | German     |            |          |         | X        | X        | X        | X&#42;&#42;       |                | X         | 
 | Italian    | X&#42;&#42;&#42;       |          |         | X        | X        | X        | X&#42;&#42;       |                | X         | 
-| Japanese   |            |          |         |          |          | X        |           |                |           | 
+| Japanese   |            |          |         |X&#42;&#42;|          | X        |X&#42;&#42;|                |           | 
+| Korean     | X | X | | | | X | X | | X |
 | Portuguese | X&#42;&#42;&#42;       |          |         | X        | X        | X        | X&#42;&#42;       |                | X         | 
 | Russian    |            |          |         | X        | X        | X        |           |                | X         | 
 | Spanish    | X&#42;&#42;&#42;       | X        |         | X        | X        | X        | X         | X              | X         | 
 | Swedish    |            |          |         | X        | X        | X        |           |                |           | 
 
 
-&#42;You can build {{site.data.keyword.knowledgestudiofull}} custom models for  <tt>entities</tt> and <tt>relations</tt> in English, French, German, Italian, Portuguese, and Spanish. You can use some of these languages in {{site.data.keyword.nlushort}} or you can customize the models.
+&#42;You can build {{site.data.keyword.knowledgestudiofull}} custom models for  <tt>entities</tt> and <tt>relations</tt> in English, French, German, Italian, Japanese, Portuguese, and Spanish. You can use some of these languages in {{site.data.keyword.nlushort}} or you can customize the models.
 
 &#42;&#42;These languages are only supported through custom models in [{{site.data.keyword.knowledgestudioshort}}](https://ibm.biz/watsonknowledgestudio).
 
