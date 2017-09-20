@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-09-07"
+lastupdated: "2017-09-20"
 
 ---
 
@@ -33,6 +33,15 @@ Videos and articles to help you get started faster.
 - [Top 3 reasons to move from AlchemyLanguage to Natural Language Understanding](https://www.ibm.com/blogs/watson/2017/04/watson-natural-language-understanding-advanced-text-analytics/)
 - [Understanding sentiment for publicly traded firms with Natural Language Understanding](https://www.ibm.com/developerworks/library/cc-sentiment-signal-watson-bluemix/index.html)
 - [Lite plan announcement](https://www.ibm.com/blogs/bluemix/2017/07/watson-natural-language-understanding-just-got-lite/)
+
+## Developer journeys
+
+- [Discover hidden Facebook user insights](https://developer.ibm.com/code/journey/discover-hidden-facebook-usage-insights/)
+- [Use Swift to interpret unstructured data from Hacker News](https://developer.ibm.com/code/journey/use-swift-interpret-unstructured-data-hacker-news/)
+- [Accelerate training of machine learning algorithms](https://developer.ibm.com/code/journey/accelerate-training-of-machine-learning-algorithms/)
+- [Extend Watson text classification](https://developer.ibm.com/code/journey/extend-watson-text-classification/)
+- [Create cognitive banking chatbot](https://developer.ibm.com/code/journey/create-cognitive-banking-chatbot/)
+- [Build a cognitive recommendation app with Swift](https://developer.ibm.com/code/journey/build-a-cognitive-recommendation-app-with-swift/)
 
 ## Other resources
 
