@@ -8,12 +8,7 @@ Natural Language Understanding
     getting-started.md
     index.md
     [Demo](https://natural-language-understanding-demo.mybluemix.net/)
-
-    {: .topicgroup}
-    Additional resources
-        [Blog](https://developer.ibm.com/watson/blog/)
-        [Webinars](http://www.ibm.com/watson/building-with-watson-webinar.html)
-        [Watson videos](https://www.youtube.com/user/IBMWatsonSolutions)
+    additional-resources.md
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
