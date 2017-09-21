@@ -124,29 +124,5 @@ Analyze the sentiment toward specific target phrases and the sentiment of the do
 **Response**
 >Positive sentiment (score: 0.91)
 
-## Supported languages
-The following table shows the supported languages for each feature. {{site.data.keyword.nlushort}} [automatically detects the language](/docs/services/natural-language-understanding/detectable-languages.html) of your source text by default. You can [override automatic language detection](/docs/services/natural-language-understanding/detectable-languages.html#overriding-language-detection) if you want to specify the language manually.
-
-|            | Categories | Concepts | Emotion | Entities&#42; | Keywords | Metadata | Relations&#42; | Semantic Roles | Sentiment | 
-|------------|------------|----------|---------|----------|----------|----------|-----------|----------------|-----------| 
-| Arabic     | X&#42;&#42;&#42;       |          |         |          |          | X        | X         |                | X         | 
-| English    | X          | X        | X       | X        | X        | X        | X         | X              | X         | 
-| French     | X&#42;&#42;&#42;       |          |         | X        | X        | X        | X&#42;&#42;       |                | X         | 
-| German     |            |          |         | X        | X        | X        | X&#42;&#42;       |                | X         | 
-| Italian    | X&#42;&#42;&#42;       |          |         | X        | X        | X        | X&#42;&#42;       |                | X         | 
-| Japanese   |            |          |         |X&#42;&#42;|          | X        |X&#42;&#42;|                |           | 
-| Korean     | X | X | | | | X | X | | X |
-| Portuguese | X&#42;&#42;&#42;       |          |         | X        | X        | X        | X&#42;&#42;       |                | X         | 
-| Russian    |            |          |         | X        | X        | X        |           |                | X         | 
-| Spanish    | X&#42;&#42;&#42;       | X        |         | X        | X        | X        | X         | X              | X         | 
-| Swedish    |            |          |         | X        | X        | X        |           |                |           | 
-
-
-&#42;You can build {{site.data.keyword.knowledgestudiofull}} custom models for  <tt>entities</tt> and <tt>relations</tt> in English, French, German, Italian, Japanese, Portuguese, and Spanish. You can use some of these languages in {{site.data.keyword.nlushort}} or you can customize the models.
-
-&#42;&#42;These languages are only supported through custom models in [{{site.data.keyword.knowledgestudioshort}}](https://ibm.biz/watsonknowledgestudio).
-
-&#42;&#42;&#42;These languages are supported in the public service, but not in Bluemix Dedicated.
-
 ## Pricing
 For pricing information, see the [Natural Language Understanding service](https://console.ng.bluemix.net/catalog/services/natural-language-understanding) in Bluemix.
