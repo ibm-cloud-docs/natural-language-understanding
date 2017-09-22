@@ -18,14 +18,19 @@ lastupdated: "2017-08-30"
 {:swift: .ph data-hd-programlang='swift'}
 
 # About
+{: #about}
 
 With {{site.data.keyword.nlufull}}, developers can analyze semantic features of text input, including categories, concepts, emotion, entities, keywords, metadata, relations, semantic roles, and sentiment.
 {: shortdesc}
 
 ## Features
+{: #features}
+
 Send requests to the API with text, HTML, or a public URL, and specify one or more of the following features to analyze:
 
 ### Categories
+{: #categories}
+
 Categorize your content using a five-level classification hierarchy. View the complete list of categories [here](/docs/services/natural-language-understanding/categories.html). For example:
 
 **Input**
@@ -39,6 +44,8 @@ Categorize your content using a five-level classification hierarchy. View the co
 > /international news
 
 ### Concepts
+{: #concepts}
+
 Identify high-level concepts that aren't necessarily directly referenced in the text. For example:
 
 **Input**
@@ -50,6 +57,8 @@ Identify high-level concepts that aren't necessarily directly referenced in the 
 > Natural language understanding
 
 ### Emotion
+{: #emotion}
+
 Analyze emotion conveyed by specific target phrases or by the document as a whole. You can also enable emotion analysis for entities and keywords that are automatically detected by the service. For example:
 
 **Input**
@@ -61,6 +70,8 @@ Analyze emotion conveyed by specific target phrases or by the document as a whol
 > "oranges": anger
 
 ### Entities
+{: #entities}
+
 Find people, places, events, and other types of entities mentioned in your content. View the complete list of entity types and subtypes [here](/docs/services/natural-language-understanding/entity-types.html). For example:
 
 **Input**
@@ -73,6 +84,8 @@ Find people, places, events, and other types of entities mentioned in your conte
 > United States: Location
 
 ### Keywords
+{: #keywords}
+
 Search your content for relevant keywords. For example:
 
 **Input**
@@ -84,6 +97,8 @@ Search your content for relevant keywords. For example:
 >IBM SlamTracker analytics
 
 ### Metadata
+{: #metadata}
+
 For HTML and URL input, get the author of the webpage, the page title, and the publication date. For example:
 
 **Input**
@@ -95,6 +110,8 @@ For HTML and URL input, get the author of the webpage, the page title, and the p
 >Publication date: January 31, 2017
 
 ### Relations
+{: #relations}
+
 Recognize when two entities are related, and identify the type of relation. For example:
 
 **Input**
@@ -105,6 +122,8 @@ Recognize when two entities are related, and identify the type of relation. For 
 >"timeOf" relation between "1921" and "awarded"
 
 ### Semantic Roles
+{: #semantic-roles}
+
 Parse sentences into subject-action-object form, and identify entities and keywords that are subjects or objects of an action. For example:
 
 **Input**
@@ -116,6 +135,8 @@ Parse sentences into subject-action-object form, and identify entities and keywo
 >Object: on Jeopardy
 
 ### Sentiment
+{: #sentiment}
+
 Analyze the sentiment toward specific target phrases and the sentiment of the document as a whole. You can also get sentiment information for detected entities and keywords by enabling the sentiment option for those features. For example:
 
 **Input**
@@ -125,28 +146,11 @@ Analyze the sentiment toward specific target phrases and the sentiment of the do
 >Positive sentiment (score: 0.91)
 
 ## Supported languages
-The following table shows the supported languages for each feature. {{site.data.keyword.nlushort}} [automatically detects the language](/docs/services/natural-language-understanding/detectable-languages.html) of your source text by default. You can [override automatic language detection](/docs/services/natural-language-understanding/detectable-languages.html#overriding-language-detection) if you want to specify the language manually.
+{: #supported-languages}
 
-|            | Categories | Concepts | Emotion | Entities&#42; | Keywords | Metadata | Relations&#42; | Semantic Roles | Sentiment | 
-|------------|------------|----------|---------|----------|----------|----------|-----------|----------------|-----------| 
-| Arabic     | X&#42;&#42;&#42;       |          |         |          |          | X        | X         |                | X         | 
-| English    | X          | X        | X       | X        | X        | X        | X         | X              | X         | 
-| French     | X&#42;&#42;&#42;       |          |         | X        | X        | X        | X&#42;&#42;       |                | X         | 
-| German     |            |          |         | X        | X        | X        | X&#42;&#42;       |                | X         | 
-| Italian    | X&#42;&#42;&#42;       |          |         | X        | X        | X        | X&#42;&#42;       |                | X         | 
-| Japanese   |            |          |         |X&#42;&#42;|          | X        |X&#42;&#42;|                |           | 
-| Korean     | X | X | | | | X | X | | X |
-| Portuguese | X&#42;&#42;&#42;       |          |         | X        | X        | X        | X&#42;&#42;       |                | X         | 
-| Russian    |            |          |         | X        | X        | X        |           |                | X         | 
-| Spanish    | X&#42;&#42;&#42;       | X        |         | X        | X        | X        | X         | X              | X         | 
-| Swedish    |            |          |         | X        | X        | X        |           |                |           | 
-
-
-&#42;You can build {{site.data.keyword.knowledgestudiofull}} custom models for  <tt>entities</tt> and <tt>relations</tt> in English, French, German, Italian, Japanese, Portuguese, and Spanish. You can use some of these languages in {{site.data.keyword.nlushort}} or you can customize the models.
-
-&#42;&#42;These languages are only supported through custom models in [{{site.data.keyword.knowledgestudioshort}}](https://ibm.biz/watsonknowledgestudio).
-
-&#42;&#42;&#42;These languages are supported in the public service, but not in Bluemix Dedicated.
+See the [Language support documentation](/docs/services/natural-language-understanding/language-support.html) for details about supported languages in {{site.data.keyword.nlushort}}.
 
 ## Pricing
+{: #pricing}
+
 For pricing information, see the [Natural Language Understanding service](https://console.ng.bluemix.net/catalog/services/natural-language-understanding) in Bluemix.

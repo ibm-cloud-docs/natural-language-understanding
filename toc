@@ -22,6 +22,7 @@ Natural Language Understanding
     categories.md
     detectable-languages.md
     entity-types.md
+    language-support.md
     relations.md
 
     {: .topicgroup}
