@@ -124,5 +124,12 @@ Analyze the sentiment toward specific target phrases and the sentiment of the do
 **Response**
 >Positive sentiment (score: 0.91)
 
+## Supported languages
+{: #supported-languages}
+
+See the [Language support documentation](/docs/services/natural-language-understanding/language-support.html) for details about supported languages in {{site.data.keyword.nlushort}}.
+
 ## Pricing
+{: #pricing}
+
 For pricing information, see the [Natural Language Understanding service](https://console.ng.bluemix.net/catalog/services/natural-language-understanding) in Bluemix.
