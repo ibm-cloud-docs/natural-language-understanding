@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-07-21"
+lastupdated: "2017-10-04"
 
 ---
 
@@ -43,6 +43,8 @@ The following tables list the possible entity types and subtypes that are return
 | NaturalEvent      |
 | Organization      |
 | Person            |
+| PrintMedia        |
+| Quantity          |
 | Sport             |
 | SportingEvent     |
 | TelevisionShow    |
