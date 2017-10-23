@@ -23,7 +23,7 @@ The following table shows the categories that are returned by the {{site.data.ke
 {: shortdesc}
 
 | LEVEL 1                   | LEVEL 2                                | LEVEL 3                                | LEVEL 4                        | LEVEL 5                       |
-|---------------------------|----------------------------------------|----------------------------------------|--------------------------------|-------------------------------|
+| ------------------------- | -------------------------------------- | -------------------------------------- | ------------------------------ | ----------------------------- |
 | art and entertainment     | books and literature                   | best-sellers                           |                                |                               |
 | art and entertainment     | books and literature                   | children's books                       |                                |                               |
 | art and entertainment     | books and literature                   | e-books                                |                                |                               |
@@ -1024,4 +1024,40 @@ The following table shows the categories that are returned by the {{site.data.ke
 | travel                    | specialty travel                       | sightseeing tours                      |                                |                               |
 | travel                    | specialty travel                       | vineyards                              |                                |                               |
 | travel                    | tourist destinations                   | africa                                 |                                |                               |
-
+| travel                    | tourist destinations                   | australia and new zealand              |                                |                               |
+| travel                    | tourist destinations                   | canada                                 |                                |                               |
+| travel                    | tourist destinations                   | caribbean                              |                                |                               |
+| travel                    | tourist destinations                   | eastern europe                         |                                |                               |
+| travel                    | tourist destinations                   | europe                                 |                                |                               |
+| travel                    | tourist destinations                   | france                                 |                                |                               |
+| travel                    | tourist destinations                   | greece                                 |                                |                               |
+| travel                    | tourist destinations                   | italy                                  |                                |                               |
+| travel                    | tourist destinations                   | japan                                  |                                |                               |
+| travel                    | tourist destinations                   | mexico and central america             |                                |                               |
+| travel                    | tourist destinations                   | national parks                         |                                |                               |
+| travel                    | tourist destinations                   | seaside resort                         |                                |                               |
+| travel                    | tourist destinations                   | ski resorts                            |                                |                               |
+| travel                    | tourist destinations                   | south america                          |                                |                               |
+| travel                    | tourist destinations                   | spas                                   |                                |                               |
+| travel                    | tourist destinations                   | theme parks                            |                                |                               |
+| travel                    | tourist destinations                   | united kingdom                         |                                |                               |
+| travel                    | tourist destinations                   |                                        |                                |                               |
+| travel                    | tourist facilities                     | bed and breakfast                      |                                |                               |
+| travel                    | tourist facilities                     | camping                                |                                |                               |
+| travel                    | tourist facilities                     | hotel                                  |                                |                               |
+| travel                    | transports                             | air travel                             | air and space accident         |                               |
+| travel                    | transports                             | air travel                             | airfare                        |                               |
+| travel                    | transports                             | air travel                             | airlines                       |                               |
+| travel                    | transports                             | air travel                             | airplanes                      |                               |
+| travel                    | transports                             | air travel                             | airports                       |                               |
+| travel                    | transports                             | air travel                             | helicopters                    |                               |
+| travel                    | transports                             | air travel                             |                                |                               |
+| travel                    | transports                             | public transport                       |                                |                               |
+| travel                    | transports                             | road travel                            | road accident                  |                               |
+| travel                    | transports                             | sea travel                             | cruises                        |                               |
+| travel                    | transports                             | train travel                           |                                |                               |
+| travel                    | travel agencies                        |                                        |                                |                               |
+| travel                    | travel guides                          |                                        |                                |                               |
+| travel                    | traveling with kids                    |                                        |                                |                               |
+| travel                    | vacation rentals                       |                                        |                                |                               |
+| travel                    |                                        |                                        |                                |                               |
