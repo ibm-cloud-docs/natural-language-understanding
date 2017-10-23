@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-07-21"
+lastupdated: "2017-10-23"
 
 ---
 
@@ -741,9 +741,9 @@ The following table shows the categories that are returned by the {{site.data.ke
 | society                   | crime                                  | property crime                         | robbery                        |                               |
 | society                   | crime                                  | property crime                         | smuggling                      |                               |
 | society                   | crime                                  | property crime                         | usury                          |                               |
-| society                   | crime                                  | sexual offence                         | paedophilia                    |                               |
-| society                   | crime                                  | sexual offence                         | prostitution                   |                               |
-| society                   | crime                                  | sexual offence                         | rape                           |                               |
+| society                   | crime                                  | sexual offense                         | paedophilia                    |                               |
+| society                   | crime                                  | sexual offense                         | prostitution                   |                               |
+| society                   | crime                                  | sexual offense                         | rape                           |                               |
 | society                   | crime                                  |                                        |                                |                               |
 | society                   | dating                                 |                                        |                                |                               |
 | society                   | gay life                               |                                        |                                |                               |
