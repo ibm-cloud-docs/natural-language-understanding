@@ -558,7 +558,7 @@ The following table shows the categories that are returned by the {{site.data.ke
 | law, govt and politics    | legal issues                           | civil law                              | copyright                      |                               |
 | law, govt and politics    | legal issues                           | civil law                              |                                |                               |
 | law, govt and politics    | legal issues                           | civil rights                           |                                |                               |
-| law, govt and politics    | legal issues                           | civl rights                            | privacy                        |                               |
+| law, govt and politics    | legal issues                           | civil rights                           | privacy                        |                               |
 | law, govt and politics    | legal issues                           | criminal law                           |                                |                               |
 | law, govt and politics    | legal issues                           | death penalty                          |                                |                               |
 | law, govt and politics    | legal issues                           | human rights                           |                                |                               |
@@ -667,7 +667,7 @@ The following table shows the categories that are returned by the {{site.data.ke
 | science                   | medicine                               | surgery                                |                                |                               |
 | science                   | medicine                               | veterinary medicine                    |                                |                               |
 | science                   | medicine                               |                                        |                                |                               |
-| science                   | phyiscs                                | atomic physics                         |                                |                               |
+| science                   | physics                                | atomic physics                         |                                |                               |
 | science                   | physics                                | astrophysics                           |                                |                               |
 | science                   | physics                                | electromagnetism                       |                                |                               |
 | science                   | physics                                | hydraulics                             |                                |                               |
