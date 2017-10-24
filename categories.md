@@ -667,7 +667,7 @@ The following table shows the categories that are returned by the {{site.data.ke
 | science                   | medicine                               | surgery                                |                                |                               |
 | science                   | medicine                               | veterinary medicine                    |                                |                               |
 | science                   | medicine                               |                                        |                                |                               |
-| science                   | phyiscs                                | atomic physics                         |                                |                               |
+| science                   | physics                                | atomic physics                         |                                |                               |
 | science                   | physics                                | astrophysics                           |                                |                               |
 | science                   | physics                                | electromagnetism                       |                                |                               |
 | science                   | physics                                | hydraulics                             |                                |                               |
