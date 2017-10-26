@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-07-21"
+lastupdated: "2017-10-26"
 
 ---
 
@@ -39,6 +39,10 @@ Starting on **April 7, 2017**, it will no longer be possible to create a new ins
 - *TypedRelations* from {{site.data.keyword.alchemylanguageshort}} is *Relations* in {{site.data.keyword.nlushort}}
 - *Relations* from {{site.data.keyword.alchemylanguageshort}} is *Semantic Roles* in {{site.data.keyword.nlushort}}
 - Entity types have changed (see the new entity types [here](/docs/services/natural-language-understanding/entity-types.html))
+- The following words were misspelled in AlchemyLanguage taxonomy results. They have been corrected in Natural Language Understanding categories results.
+  - `offence` -> `offense`
+  - `civl` -> `civil`
+  - `phyiscs` -> `physics`
 
 ## Migration steps
 
