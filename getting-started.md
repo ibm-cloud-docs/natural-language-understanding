@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-06-09"
+lastupdated: "2017-11-02"
 
 ---
 
@@ -36,6 +36,8 @@ If you already know your credentials for the {{site.data.keyword.nlushort}} serv
 
 ## Step 2: Analyze sample content for sentiment
 {: #analyze-sample}
+
+Now you're ready to send requests to the service. Open a command-line interface and use [curl](https://curl.haxx.se/download.html) to run the example commands that appear in the following steps.
 
 First, analyze the sentiment of some sample text. Issue this command to call the `GET /v1/analyze` method, which analyzes the sample text for sentiment and keywords. Replace `{username}` and `{password}` with the service credentials you copied in the previous step:
 
