@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-07-21"
+lastupdated: "2017-11-17"
 
 ---
 
@@ -31,6 +31,16 @@ API requests require a version parameter that takes the date in the format `vers
 When we change the API in a backwards-incompatible way, we release a new minor version. To take advantage of the changes in a new version, change the value of the version parameter to the new date. If you're not ready to update to that version, don't change your version date.
 
 ## Changes
+
+### 17 November 2017
+{: #17-november-2017}
+
+- **[Korean language support](language-support.html#korean)** has expanded to include the following features:
+
+    - Entities
+    - Keywords
+    - Semantic Roles
+
 
 ### 30 July 2017
 {: #30-july-2017}
@@ -74,6 +84,7 @@ When we change the API in a backwards-incompatible way, we release a new minor v
   ...
 }
 ```
+
 
 ### 8 May 2017
 {: #8-may-2017}

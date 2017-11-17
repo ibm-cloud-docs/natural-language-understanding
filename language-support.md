@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-09-13"
+lastupdated: "2017-11-17"
 
 ---
 
@@ -34,7 +34,7 @@ lastupdated: "2017-09-13"
 - [Swedish](#swedish)
 
 
-Language support might be different if you are a Bluemix Dedicated customer. If you are using Bluemix Dedicated, check with your IBM salesperson to confirm which languages are supported in your environment.
+Language support might be different if you are a {{site.data.keyword.Bluemix_dedicated}} customer. If you are using {{site.data.keyword.Bluemix_dedicated}}, check with your IBM salesperson to confirm which languages are supported in your environment.
 {: tip}
 
 ## Arabic
@@ -484,12 +484,12 @@ Language support might be different if you are a Bluemix Dedicated customer. If 
     </tr>
     <tr>
       <td>Entities</td>
-      <td></td>
+      <td>X</td>
       <td>X</td>
     </tr>
     <tr>
       <td>Keywords</td>
-      <td></td>
+      <td>X</td>
       <td></td>
     </tr>
     <tr>
@@ -504,7 +504,7 @@ Language support might be different if you are a Bluemix Dedicated customer. If 
     </tr>
     <tr>
       <td>Semantic Roles</td>
-      <td></td>
+      <td>X</td>
       <td></td>
     </tr>
     <tr>
