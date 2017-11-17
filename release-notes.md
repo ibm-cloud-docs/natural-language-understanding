@@ -38,7 +38,7 @@ When we change the API in a backwards-incompatible way, we release a new minor v
 - **[Korean language support](language-support.html#korean)** has expanded to include the following features:
 
     - Entities
-    - Sentiment
+    - Keywords
     - Semantic Roles
 
 
