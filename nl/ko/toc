@@ -6,7 +6,7 @@
 
     {: .navgroup id="learn"}
     getting-started.md
-    [데모](https://natural-language-understanding-demo.mybluemix.net/)
+    [데모](https://natural-language-understanding-demo.ng.bluemix.net/)
 
     {: .topicgroup}
     추가 자원
