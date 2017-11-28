@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-30"
+lastupdated: "2017-11-28"
 
 ---
 
@@ -153,4 +153,4 @@ See the [Language support documentation](/docs/services/natural-language-underst
 ## Pricing
 {: #pricing}
 
-For pricing information, see the [Natural Language Understanding service](https://console.ng.bluemix.net/catalog/services/natural-language-understanding) in Bluemix.
+For pricing information, see the [{{site.data.keyword.nlushort}} service](https://console.bluemix.net/catalog/services/natural-language-understanding) in the {{site.data.keyword.cloud}} catalog.

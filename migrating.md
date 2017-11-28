@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-10-26"
+lastupdated: "2017-11-28"
 
 ---
 
@@ -19,7 +19,7 @@ lastupdated: "2017-10-26"
 
 # Migrating from AlchemyLanguage
 
-Starting on **April 7, 2017**, it will no longer be possible to create a new instance of AlchemyAPI on Bluemix. Existing service instances will be supported until **March 7, 2018**. To continue using {{site.data.keyword.alchemylanguageshort}} features, you will need to migrate your code to {{site.data.keyword.nlushort}}.
+Starting on **April 7, 2017**, it will no longer be possible to create a new instance of AlchemyAPI on {{site.data.keyword.cloud}}. Existing service instances will be supported until **March 7, 2018**. To continue using {{site.data.keyword.alchemylanguageshort}} features, you will need to migrate your code to {{site.data.keyword.nlushort}}.
 {: shortdesc}
 
 {{site.data.keyword.nlushort}} offers a more economical pricing model and a consolidated API that is much easier to use. Existing features are streamlined to make them more useful and valuable for our customers needs. {{site.data.keyword.nlushort}} makes it easier to manage your brand, gather business intelligence, and cluster for matching, ad-tech, and recommendations.
