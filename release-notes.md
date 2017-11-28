@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-11-17"
+lastupdated: "2017-11-28"
 
 ---
 
@@ -32,6 +32,94 @@ When we change the API in a backwards-incompatible way, we release a new minor v
 
 ## Changes
 
+### 28 November 2017
+{: #28-november-2017}
+
+- **Entity mentions.** Get the locations of entity mentions in your `entities` requests by adding the option `"mentions": true`.
+    
+    Example `POST /analyze` request body:
+    
+    ```json
+    {
+      "text": "Intel planned to announce Monday a laptop-computer chip that combines an Intel processor and an AMD graphics unit.",
+      "features": {
+        "entities": {
+          "mentions": true
+        }
+      }
+    }
+    ```
+    {: pre}
+    
+    Example response:
+    
+    ```json
+    {
+      "usage": {
+        "text_units": 1,
+        "text_characters": 114,
+        "features": 1
+      },
+      "language": "en",
+      "entities": [
+        {
+          "type": "Company",
+          "text": "Intel",
+          "relevance": 0.33,
+          "mentions": [
+            {
+              "text": "Intel",
+              "location": [
+                0,
+                5
+              ]
+            },
+            {
+              "text": "Intel",
+              "location": [
+                73,
+                78
+              ]
+            }
+          ],
+          "disambiguation": {
+            "subtype": [
+              "OperatingSystemDeveloper",
+              "ProcessorManufacturer",
+              "SoftwareDeveloper"
+            ],
+            "name": "Intel",
+            "dbpedia_resource": "http://dbpedia.org/resource/Intel"
+          },
+          "count": 2
+        },
+        {
+          "type": "Company",
+          "text": "AMD",
+          "relevance": 0.33,
+          "mentions": [
+            {
+              "text": "AMD",
+              "location": [
+                96,
+                99
+              ]
+            }
+          ],
+          "disambiguation": {
+            "subtype": [
+              "ProcessorManufacturer"
+            ],
+            "name": "Advanced Micro Devices",
+            "dbpedia_resource": "http://dbpedia.org/resource/Advanced_Micro_Devices"
+          },
+          "count": 1
+        }
+      ]
+    }
+    ```
+    {: pre}
+    
 ### 17 November 2017
 {: #17-november-2017}
 
@@ -62,7 +150,7 @@ When we change the API in a backwards-incompatible way, we release a new minor v
 
 - For metering, one {{site.data.keyword.nlushort}} Item continues to be one feature (also known as an enrichment) per one text unit. One text unit is 10,000 characters or less.
 
-- For detailed pricing information, see [{{site.data.keyword.nlushort}}](https://console.ng.bluemix.net/catalog/services/natural-language-understanding) in the {{site.data.keyword.Bluemix}} Catalog.
+- For detailed pricing information, see [{{site.data.keyword.nlushort}}](https://console.bluemix.net/catalog/services/natural-language-understanding) in the {{site.data.keyword.cloud}} Catalog.
 
 - In addition to adding the `limit_text_characters` parameter, the following changes were made to text size limits and truncation:
 
