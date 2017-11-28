@@ -153,4 +153,4 @@ See the [Language support documentation](/docs/services/natural-language-underst
 ## Pricing
 {: #pricing}
 
-For pricing information, see the [Natural Language Understanding service](https://console.ng.bluemix.net/catalog/services/natural-language-understanding) in the {{site.data.keyword.cloud}} catalog.
+For pricing information, see the [{{site.data.keyword.nlushort}} service](https://console.bluemix.net/catalog/services/natural-language-understanding) in the {{site.data.keyword.cloud}} catalog.
