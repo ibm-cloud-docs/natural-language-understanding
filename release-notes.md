@@ -49,7 +49,7 @@ When we change the API in a backwards-incompatible way, we release a new minor v
       }
     }
     ```
-    {: pre}
+    {: codeblock}
     
     Example response:
     
@@ -118,7 +118,7 @@ When we change the API in a backwards-incompatible way, we release a new minor v
       ]
     }
     ```
-    {: pre}
+    {: codeblock}
     
 ### 17 November 2017
 {: #17-november-2017}
