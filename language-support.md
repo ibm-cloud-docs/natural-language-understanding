@@ -104,7 +104,7 @@ Language support might be different if you are a {{site.data.keyword.Bluemix_ded
   </tbody>
 </table>
 
-&#42; Sentiment detection for this language works best on social media based data, like tweets. Further accuracy improvements are planned in the near future.
+&#42; Sentiment detection for this language works best on social media data, such as tweets. Further accuracy improvements are planned in the near future.
 
 ## Dutch
 {: #dutch}
@@ -372,7 +372,7 @@ Language support might be different if you are a {{site.data.keyword.Bluemix_ded
   </tbody>
 </table>
 
-&#42; Sentiment detection for this language works best on social media based data, like tweets. Further accuracy improvements are planned in the near future.
+&#42; Sentiment detection for this language works best on social media data, such as tweets. Further accuracy improvements are planned in the near future.
 
 
 ## Italian
@@ -441,7 +441,7 @@ Language support might be different if you are a {{site.data.keyword.Bluemix_ded
   </tbody>
 </table>
 
-&#42; Sentiment detection for this language works best on social media based data, like tweets. Further accuracy improvements are planned in the near future.
+&#42; Sentiment detection for this language works best on social media data, such as tweets. Further accuracy improvements are planned in the near future.
 
 
 ## Japanese
@@ -577,7 +577,7 @@ Language support might be different if you are a {{site.data.keyword.Bluemix_ded
   </tbody>
 </table>
 
-&#42; Sentiment detection for this language works best on social media based data, like tweets. Further accuracy improvements are planned in the near future.
+&#42; Sentiment detection for this language works best on social media data, such as tweets. Further accuracy improvements are planned in the near future.
 
 
 ## Portuguese
@@ -646,7 +646,7 @@ Language support might be different if you are a {{site.data.keyword.Bluemix_ded
   </tbody>
 </table>
 
-&#42; Sentiment detection for this language works best on social media based data, like tweets. Further accuracy improvements are planned in the near future.
+&#42; Sentiment detection for this language works best on social media data, such as tweets. Further accuracy improvements are planned in the near future.
 
 
 ## Russian
@@ -715,7 +715,7 @@ Language support might be different if you are a {{site.data.keyword.Bluemix_ded
   </tbody>
 </table>
 
-&#42; Sentiment detection for this language works best on social media based data, like tweets. Further accuracy improvements are planned in the near future.
+&#42; Sentiment detection for this language works best on social media data, such as tweets. Further accuracy improvements are planned in the near future.
 
 
 ## Spanish
@@ -784,7 +784,7 @@ Language support might be different if you are a {{site.data.keyword.Bluemix_ded
   </tbody>
 </table>
 
-&#42; Sentiment detection for this language works best on social media based data, like tweets. Further accuracy improvements are planned in the near future.
+&#42; Sentiment detection for this language works best on social media data, such as tweets. Further accuracy improvements are planned in the near future.
 
 
 ## Swedish
