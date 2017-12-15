@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-11-28"
+lastupdated: "2017-12-15"
 
 ---
 
@@ -31,6 +31,44 @@ API requests require a version parameter that takes the date in the format `vers
 When we change the API in a backwards-incompatible way, we release a new minor version. To take advantage of the changes in a new version, change the value of the version parameter to the new date. If you're not ready to update to that version, don't change your version date.
 
 ## Changes
+
+### 15 December 2017
+{: #15-december-2017}
+
+- Dutch [custom model](customizing.html) support is now available for entities and relations.
+- The French concepts and sentiment models have been improved to deliver better results.
+- We switched to a faster language detection model that detects more languages overall. See the complete list of detectable languages [here](detectable-languages.html).
+
+  The following languages are new additions to the list:
+  - Belarusian (be)
+  - Bihari (bh)
+  - Dhivehi (dv)
+  - Galician (gl)
+  - Ganda (lg)
+  - Inuktitut (iu)
+  - Javanese (jv)
+  - Kannada (kn)
+  - Khmer (km)
+  - Kinyarwanda (rw)
+  - Laothian (lo)
+  - Malayalam (ml)
+  - Marathi (mr)
+  - Oriya (or)
+  - Punjabi (pa)
+  - Scots Gaelic (gd)
+  - Sinhalese (si)
+  - Tamil (ta)
+  - Telugu (te)
+  - Yiddish (yi)
+
+  The following languages are no longer detectable:
+  - Breton (br)
+  - Chamorro (ch)
+  - Esperanto (eo)
+  - Faroese (fo)
+  - Hausa (ha)
+  - Ndebele (nr)
+  - Ojibwa (oj)
 
 ### 28 November 2017
 {: #28-november-2017}
