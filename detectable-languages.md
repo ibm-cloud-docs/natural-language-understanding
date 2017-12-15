@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-07-21"
+lastupdated: "2017-12-15"
 
 ---
 
@@ -36,64 +36,76 @@ The following table lists the detectable languages and corresponding ISO 639-1 c
 |Armenian|hy|
 |Azerbaijani|az|
 |Basque|eu|
+|Belarusian|be|
 |Bengali|bn|
-|Breton|br|
+|Bihari|bh|
 |Bulgarian|bg|
 |Catalan|ca|
-|Chamorro|ch|
 |Chinese|zh|
 |Croatian|hr|
 |Czech|cs|
 |Danish|da|
+|Dhivehi|dv|
 |Dutch|nl|
 |English|en|
-|Esperanto|eo|
 |Estonian|et|
-|Faroese|fo|
 |Fijian|fj|
 |Finnish|fi|
 |French|fr|
+|Galician|gl|
+|Ganda|lg|
 |Georgian|ka|
 |German|de|
 |Greek|el|
 |Gujarati|gu|
 |Haitian Creole|ht|
-|Hausa|ha|
 |Hebrew|he|
 |Hindi|hi|
 |Hungarian|hu|
 |Icelandic|is|
 |Indonesian|id|
+|Inuktitut|iu|
 |Irish|ga|
 |Italian|it|
+|Javanese|jv|
 |Japanese|ja|
+|Kannada|kn|
+|Khmer|km|
+|Kinyarwanda|rw|
 |Kirghiz|ky|
 |Korean|ko|
 |Latin|la|
+|Laothian|lo|
 |Latvian|lv|
 |Lithuanian|lt|
 |Macedonian|mk|
 |Malay|ms|
+|Malayalam|ml|
 |Maltese|mt|
 |Maori|mi|
-|Ndebele|nr|
+|Marathi|mr|
 |Nepali|ne|
 |Norwegian|no|
-|Ojibwa|oj|
+|Oriya|or|
 |Persian|fa|
 |Polish|pl|
 |Portuguese|pt|
+|Punjabi|pa|
 |Pushto|ps|
 |Romanian|ro|
 |Russian|ru|
+|Scots Gaelic|gd|
 |Serbian|sr|
 |Shona|sn|
+|Sinhalese|si|
 |Slovak|sk|
 |Slovenian|sl|
 |Spanish|es|
 |Swahili|sw|
 |Swedish|sv|
 |Tagalog|tl|
+|Tamil|ta|
+|Telugu|te|
 |Thai|th|
 |Turkish|tr|
 |Ukrainian|uk|
@@ -102,4 +114,4 @@ The following table lists the detectable languages and corresponding ISO 639-1 c
 |Welsh|cy|
 |Wolof|wo|
 |Xhosa|xh|
-
+|Yiddish|Yi|
