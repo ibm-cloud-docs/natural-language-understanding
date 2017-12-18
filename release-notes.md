@@ -36,7 +36,8 @@ When we change the API in a backwards-incompatible way, we release a new minor v
 {: #15-december-2017}
 
 - Dutch [custom model](customizing.html) support is now available for entities and relations.
-- The French concepts and sentiment models have been improved to deliver better results.
+- [French language support](language-support.html#french) now includes concepts.
+- The French sentiment model has been improved to deliver better results.
 - The language detection model is faster and detects more languages overall. For the complete list of languages, see [Detectable languages](detectable-languages.html).
 
   The following languages are new additions to the list:
