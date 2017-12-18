@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-12-15"
+lastupdated: "2017-12-18"
 
 ---
 
@@ -264,7 +264,7 @@ Language support might be different if you are a {{site.data.keyword.Bluemix_ded
     </tr>
     <tr>
       <td>Concepts</td>
-      <td></td>
+      <td>X</td>
       <td></td>
     </tr>
     <tr>
