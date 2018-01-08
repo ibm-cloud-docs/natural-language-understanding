@@ -30,10 +30,9 @@ Natural Language Understanding
         [Android SDK](https://github.com/watson-developer-cloud/android-sdk)
         [Java SDK](https://github.com/watson-developer-cloud/java-sdk)
         [Node.js SDK](https://github.com/watson-developer-cloud/node-sdk)
-        [PHP SDK](https://github.com/ThomasIBM/php-sdk)
         [Python SDK](https://github.com/watson-developer-cloud/python-sdk)
         [.NET SDK](https://github.com/watson-developer-cloud/dotnet-standard-sdk)
-        [Swift SDK](https://github.com/watson-developer-cloud/ios-sdk)
+        [Swift SDK](https://github.com/watson-developer-cloud/swift-sdk)
         [Unity SDK](https://github.com/watson-developer-cloud/unity-sdk)
 
     [Watson GitHub repos](https://github.com/watson-developer-cloud/)
@@ -47,4 +46,6 @@ Natural Language Understanding
         [StackOverflow](https://stackoverflow.com/questions/tagged/watson-nlu)
         [developerWorks Answers](https://developer.ibm.com/answers/topics/natural-language-understanding/)
         [WDC Slack channel](http://wdc-slack-inviter.mybluemix.net/)
+
     {: .navgroup-end}
+
