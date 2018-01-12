@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-12-18"
+lastupdated: "2018-01-12"
 
 ---
 
@@ -31,6 +31,11 @@ API requests require a version parameter that takes the date in the format `vers
 When we change the API in a backwards-incompatible way, we release a new minor version. To take advantage of the changes in a new version, change the value of the version parameter to the new date. If you're not ready to update to that version, don't change your version date.
 
 ## Changes
+
+## 12 January 2018
+{: #12-january-2018}
+
+- Added support for German concepts.
 
 ### 15 December 2017
 {: #15-december-2017}
