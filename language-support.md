@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-01-12"
+lastupdated: "2018-01-25"
 
 ---
 
@@ -22,6 +22,7 @@ lastupdated: "2018-01-12"
 {{site.data.keyword.nlushort}} supports a variety of languages depending on which features you analyze. Currently, English is the only language that is supported across all features. The rest of the languages have limited support. To jump to the list of features that are compatible with a language, click the language in the following list.
 
 - [Arabic](#arabic)
+- [Chinese (Simplified)](#chinese-simplified)
 - [Dutch](#dutch)
 - [English](#english)
 - [French](#french)
@@ -105,6 +106,73 @@ Language support might be different if you are a {{site.data.keyword.Bluemix_ded
 </table>
 
 &#42; Sentiment detection for this language works best on social media data, such as tweets. Further accuracy improvements are planned in the near future.
+
+## Chinese (Simplified)
+{: #chinese-simplified}
+
+<table>
+  <thead>
+    <tr>
+      <th>
+        Feature
+      </th>
+      <th>
+        Standard support
+      </th>
+      <th>
+        <a href="/docs/services/natural-language-understanding/customizing.html">Custom model</a> support
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Categories</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Concepts</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Emotion</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Entities</td>
+      <td></td>
+      <td>X</td>
+    </tr>
+    <tr>
+      <td>Keywords</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Metadata</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Relations</td>
+      <td></td>
+      <td>X</td>
+    </tr>
+    <tr>
+      <td>Semantic Roles</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Sentiment</td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
 
 ## Dutch
 {: #dutch}

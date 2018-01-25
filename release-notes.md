@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-01-12"
+lastupdated: "2018-01-25"
 
 ---
 
@@ -32,7 +32,12 @@ When we change the API in a backwards-incompatible way, we release a new minor v
 
 ## Changes
 
-## 12 January 2018
+### 25 January 2018
+{: #25-january-2018}
+
+- Chinese (Simplified) [custom model](customizing.html) support is now available for entities and relations.
+
+### 12 January 2018
 {: #12-january-2018}
 
 - Added support for German concepts.
