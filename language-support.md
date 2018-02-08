@@ -107,6 +107,8 @@ Language support might be different if you are a {{site.data.keyword.Bluemix_ded
 
 &#42; Sentiment detection for this language works best on social media based data, like tweets. Further accuracy improvements are planned in the near future.
 
+The targeted sentiment option for entities is not supported for Arabic text.
+
 ## Chinese (Simplified)
 {: #chinese-simplified}
 
