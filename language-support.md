@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-01-25"
+lastupdated: "2018-02-08"
 
 ---
 
@@ -98,14 +98,16 @@ Language support might be different if you are a {{site.data.keyword.Bluemix_ded
       <td></td>
     </tr>
     <tr>
-      <td>Sentiment&#42;</td>
-      <td>X</td>
+      <td>Sentiment</td>
+      <td>X&#42;</td>
       <td></td>
     </tr>
   </tbody>
 </table>
 
-&#42; Sentiment detection for this language works best on social media data, such as tweets. Further accuracy improvements are planned in the near future.
+&#42; Sentiment detection for this language works best on social media based data, like tweets. Further accuracy improvements are planned in the near future.
+
+The targeted sentiment option for entities and keywords is not supported for Arabic text.
 
 ## Chinese (Simplified)
 {: #chinese-simplified}
@@ -332,7 +334,7 @@ Language support might be different if you are a {{site.data.keyword.Bluemix_ded
     </tr>
     <tr>
       <td>Concepts</td>
-      <td>X</td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -367,11 +369,13 @@ Language support might be different if you are a {{site.data.keyword.Bluemix_ded
     </tr>
     <tr>
       <td>Sentiment</td>
-      <td>X</td>
+      <td>X&#42;</td>
       <td></td>
     </tr>
   </tbody>
 </table>
+
+&#42; The targeted sentiment option for keywords is not supported for French text.
 
 
 ## German
@@ -433,14 +437,14 @@ Language support might be different if you are a {{site.data.keyword.Bluemix_ded
       <td></td>
     </tr>
     <tr>
-      <td>Sentiment&#42;</td>
-      <td>X</td>
+      <td>Sentiment</td>
+      <td>X&#42;</td>
       <td></td>
     </tr>
   </tbody>
 </table>
 
-&#42; Sentiment detection for this language works best on social media data, such as tweets. Further accuracy improvements are planned in the near future.
+&#42; Sentiment detection for this language works best on social media based data, like tweets. Further accuracy improvements are planned in the near future.
 
 
 ## Italian
@@ -502,14 +506,16 @@ Language support might be different if you are a {{site.data.keyword.Bluemix_ded
       <td></td>
     </tr>
     <tr>
-      <td>Sentiment&#42;</td>
-      <td>X</td>
+      <td>Sentiment</td>
+      <td>X&#42;</td>
       <td></td>
     </tr>
   </tbody>
 </table>
 
-&#42; Sentiment detection for this language works best on social media data, such as tweets. Further accuracy improvements are planned in the near future.
+&#42; Sentiment detection for this language works best on social media based data, like tweets. Further accuracy improvements are planned in the near future.
+
+The targeted sentiment option for keywords is not supported for Italian text.
 
 
 ## Japanese
@@ -638,14 +644,14 @@ Language support might be different if you are a {{site.data.keyword.Bluemix_ded
       <td></td>
     </tr>
     <tr>
-      <td>Sentiment&#42;</td>
-      <td>X</td>
+      <td>Sentiment</td>
+      <td>X&#42;</td>
       <td></td>
     </tr>
   </tbody>
 </table>
 
-&#42; Sentiment detection for this language works best on social media data, such as tweets. Further accuracy improvements are planned in the near future.
+&#42; Sentiment detection for this language works best on social media based data, like tweets. Further accuracy improvements are planned in the near future.
 
 
 ## Portuguese
@@ -707,14 +713,16 @@ Language support might be different if you are a {{site.data.keyword.Bluemix_ded
       <td></td>
     </tr>
     <tr>
-      <td>Sentiment&#42;</td>
-      <td>X</td>
+      <td>Sentiment</td>
+      <td>X&#42;</td>
       <td></td>
     </tr>
   </tbody>
 </table>
 
-&#42; Sentiment detection for this language works best on social media data, such as tweets. Further accuracy improvements are planned in the near future.
+&#42; Sentiment detection for this language works best on social media based data, like tweets. Further accuracy improvements are planned in the near future.
+
+The targeted sentiment option for keywords is not supported for Portuguese text.
 
 
 ## Russian
@@ -776,14 +784,16 @@ Language support might be different if you are a {{site.data.keyword.Bluemix_ded
       <td></td>
     </tr>
     <tr>
-      <td>Sentiment&#42;</td>
-      <td>X</td>
+      <td>Sentiment</td>
+      <td>X&#42;</td>
       <td></td>
     </tr>
   </tbody>
 </table>
 
-&#42; Sentiment detection for this language works best on social media data, such as tweets. Further accuracy improvements are planned in the near future.
+&#42; Sentiment detection for this language works best on social media based data, like tweets. Further accuracy improvements are planned in the near future.
+
+The targeted sentiment option for keywords is not supported for Russian text.
 
 
 ## Spanish
@@ -845,14 +855,16 @@ Language support might be different if you are a {{site.data.keyword.Bluemix_ded
       <td></td>
     </tr>
     <tr>
-      <td>Sentiment&#42;</td>
-      <td>X</td>
+      <td>Sentiment</td>
+      <td>X&#42;</td>
       <td></td>
     </tr>
   </tbody>
 </table>
 
-&#42; Sentiment detection for this language works best on social media data, such as tweets. Further accuracy improvements are planned in the near future.
+&#42; Sentiment detection for this language works best on social media based data, like tweets. Further accuracy improvements are planned in the near future.
+
+The targeted sentiment option for keywords is not supported for Spanish text.
 
 
 ## Swedish
