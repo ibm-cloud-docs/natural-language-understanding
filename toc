@@ -32,6 +32,7 @@ Natural Language Understanding
         [Node.js SDK](https://github.com/watson-developer-cloud/node-sdk)
         [Python SDK](https://github.com/watson-developer-cloud/python-sdk)
         [.NET SDK](https://github.com/watson-developer-cloud/dotnet-standard-sdk)
+        [OpenWhisk SDK](https://github.com/watson-developer-cloud/openwhisk-sdk)
         [Salesforce SDK](https://github.com/watson-developer-cloud/salesforce-sdk)
         [Swift SDK](https://github.com/watson-developer-cloud/swift-sdk)
         [Unity SDK](https://github.com/watson-developer-cloud/unity-sdk)
