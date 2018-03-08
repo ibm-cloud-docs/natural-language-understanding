@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-01-25"
+lastupdated: "2018-03-08"
 
 ---
 
@@ -24,13 +24,50 @@ The following new features and changes to the service are available.
 
 ## Service API versioning
 
-**Current API version**: 2017-02-27
+**Current API version**: 2018-03-08
 
 API requests require a version parameter that takes the date in the format `version=YYYY-MM-DD`. Send the version parameter with every API request.
 
 When we change the API in a backwards-incompatible way, we release a new minor version. To take advantage of the changes in a new version, change the value of the version parameter to the new date. If you're not ready to update to that version, don't change your version date.
 
 ## Changes
+
+### 08 March 2018
+{: #03-march-2018}
+
+- Added support for German categories.
+- Added support for Japanese categories and concepts.
+- Improvements for German sentiment and keywords.
+- Language detection improvements.
+- Improved webpage cleaning for requests that fetch content from URLs.
+- An improved French entities model is now available. The model uses a new entity type system. Check out the new entity types and subtypes on the [Entity types and subtypes (v2)](entity-types-v2.html) page. When your application is compatible with the new type system, change the version date in your requests to `2018-03-08` to use the new model. The following are the differences between the `v1` type system and the `v2` type system.
+  - New entity types:
+    - Date
+    - Duration
+    - Measure
+    - Money
+    - Ordinal
+    - Time
+  - Removed entity types:
+    - Anatomy
+    - Award
+    - Broadcaster
+    - Company
+    - Crime
+    - Drug
+    - HealthCondition
+    - Movie
+    - MusicGroup
+    - NaturalEvent
+    - PrintMedia
+    - Quantity
+    - Sport
+    - SportingEvent
+    - TelevisionShow
+    - Vehicle
+  - New entity subtype:
+    - Quantity
+
 
 ### 25 January 2018
 {: #25-january-2018}
