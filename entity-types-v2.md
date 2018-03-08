@@ -17,9 +17,9 @@ lastupdated: "2018-03-08"
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-# Entity types and subtypes (v2)
+# Entity types and subtypes (Version 2)
 
-The following tables list the entity types and subtypes that are used in the `v2` entity type system. You can download a spreadsheet with this information here: [XLSX](resources/entity-types-v2.xlsx)
+The following tables list the entity types and subtypes that are used in the `Version 2` entity type system. You can download a spreadsheet with this information here: [XLSX](resources/entity-types-v2.xlsx)
 {: shortdesc}
 
 ## Entity types
