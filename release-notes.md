@@ -40,7 +40,7 @@ When we change the API in a backwards-incompatible way, we release a new minor v
 - Improvements for German sentiment and keywords.
 - Language detection improvements.
 - Improved webpage cleaning for requests that fetch content from URLs.
-- An improved French entities model is now available. The model uses a new entity type system. Check out the new entity types and subtypes on the [Entity types and subtypes (v2)](entity-types-v2.html) page. When your application is compatible with the new type system, change the version date in your requests to `2018-03-08` to use the new model. The following are the differences between the `v1` type system and the `v2` type system.
+- An improved French entities model is now available. The model uses a new entity type system. Check out the new entity types and subtypes on the [Entity types and subtypes (Version 2)](entity-types-v2.html) page. When your application is compatible with the new type system, change the version date in your requests to `2018-03-08` to use the new model. The following are the differences between the `Version 1` type system and the `Version 2` type system.
   - New entity types:
     - Date
     - Duration
