@@ -22,8 +22,11 @@ Natural Language Understanding
     categories.md
     detectable-languages.md
     entity-types.md
+        entity-types-v1.md
+        entity-types-v2.md
     language-support.md
     relations.md
+    usage-limits.md
 
     {: .topicgroup}
     Watson SDKs
