@@ -22,6 +22,8 @@ lastupdated: "2018-03-08"
 The following tables list the entity types and subtypes that are used in the `Version 2` entity type system. You can download a spreadsheet with this information here: [XLSX](resources/entity-types-v2.xlsx)
 {: shortdesc}
 
+The entity type system that {{site.data.keyword.nlushort}} uses differs based on which version date and which language you are using. For more details, see the [Entity types and subtypes](entity-types.html) page.
+
 ## Entity types
 {: #entity-types}
 
