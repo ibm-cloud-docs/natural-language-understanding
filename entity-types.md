@@ -22,7 +22,7 @@ lastupdated: "2018-03-08"
 The entity type system that {{site.data.keyword.nlushort}} uses differs depending on which version date and which language you are using. This page describes, for each version date, which type system is used for each language.
 {: shortdesc}
 
-For example, analyzing entities in French text with version date set to `2018-03-08` will use the [v2 entity type system][v2]. Requests that specify a previous version date will use the [v1 entity type system][v1].
+For example, analyzing entities in French text with version date set to `2018-03-08` will use the [Version 2 entity type system][v2]. Requests that specify a previous version date will use the [Version 1 entity type system][v1].
 
 
 ## Entity type systems for version 2018-03-08
@@ -32,15 +32,15 @@ The following entity type systems are used when you set the `version` parameter 
 
 |Language|Entity type system|
 | --- | ---|
-| English | [v1] |
-| French | [v2] |
-| German | [v1] |
-| Italian | [v1] |
-| Korean | [v1] |
-| Portuguese | [v1] |
-| Russian | [v1] |
-| Spanish | [v1] |
-| Swedish | [v1] |
+| English | [Version 1][v1] |
+| French | [Version 2][v2] |
+| German | [Version 1][v1] |
+| Italian | [Version 1][v1] |
+| Korean | [Version 1][v1] |
+| Portuguese | [Version 1][v1] |
+| Russian | [Version 1][v1] |
+| Spanish | [Version 1][v1] |
+| Swedish | [Version 1][v1] |
 
 
 ## Entity type systems for version 2017-02-27
@@ -50,16 +50,16 @@ The following entity type systems are used when you set the `version` parameter 
 
 |Language|Entity type system|
 | --- | ---|
-| English | [v1] |
-| French | [v1] |
-| German | [v1] |
-| Italian | [v1] |
-| Korean | [v1] |
-| Portuguese | [v1] |
-| Russian | [v1] |
-| Spanish | [v1] |
-| Swedish | [v1] |
+| English | [Version 1][v1] |
+| French | [Version 1][v1] |
+| German | [Version 1][v1] |
+| Italian | [Version 1][v1] |
+| Korean | [Version 1][v1] |
+| Portuguese | [Version 1][v1] |
+| Russian | [Version 1][v1] |
+| Spanish | [Version 1][v1] |
+| Swedish | [Version 1][v1] |
 
 
-[V1]: entity-types-v1.html
-[V2]: entity-types-v2.html
+[v1]: entity-types-v1.html
+[v2]: entity-types-v2.html
