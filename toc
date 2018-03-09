@@ -21,9 +21,15 @@ Natural Language Understanding
     [API reference](https://www.ibm.com/watson/developercloud/natural-language-understanding/api/v1/)
     categories.md
     detectable-languages.md
+    
+    {: .topicgroup}
     entity-types.md
+        entity-types-v1.md
+        entity-types-v2.md
+
     language-support.md
     relations.md
+    usage-limits.md
 
     {: .topicgroup}
     Watson SDKs
