@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-03-08"
+lastupdated: "2018-02-08"
 
 ---
 
@@ -398,7 +398,7 @@ The targeted sentiment option for entities is not supported for Arabic text.
   <tbody>
     <tr>
       <td>Categories</td>
-      <td>X</td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -538,12 +538,12 @@ The targeted sentiment option for keywords is not supported for Italian text.
   <tbody>
     <tr>
       <td>Categories</td>
-      <td>X</td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
       <td>Concepts</td>
-      <td>X</td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -932,3 +932,4 @@ The targeted sentiment option for keywords is not supported for Spanish text.
     </tr>
   </tbody>
 </table>
+
