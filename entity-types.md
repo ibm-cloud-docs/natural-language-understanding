@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2018-03-08"
+lastupdated: "2017-10-04"
 
 ---
 
@@ -19,47 +19,471 @@ lastupdated: "2018-03-08"
 
 # Entity types and subtypes
 
-The entity type system that {{site.data.keyword.nlushort}} uses differs depending on which version date and which language you are using. This page describes, for each version date, which type system is used for each language.
+The following tables list the possible entity types and subtypes that are returned for the `entities` feature. You can download a spreadsheet with this information here: <a target="_blank" href="https://watson-developer-cloud.github.io/doc-tutorial-downloads/natural-language-understanding/entity-types.xlsx" download>XLSX <img src="../../icons/launch-glyph.svg" alt="External link icon" title="External link icon" class="style-scope doc-content"></a>.
 {: shortdesc}
 
-For example, analyzing entities in French text with version date set to `2018-03-08` will use the [Version 2 entity type system][v2]. Requests that specify a previous version date will use the [Version 1 entity type system][v1].
+| Entity type       |
+|-------------------|
+| Anatomy           |
+| Award             |
+| Broadcaster       |
+| Company           |
+| Crime             |
+| Drug              |
+| EmailAddress      |
+| Facility          |
+| GeographicFeature |
+| HealthCondition   |
+| Hashtag           |
+| IPAddress         |
+| JobTitle          |
+| Location          |
+| Movie             |
+| MusicGroup        |
+| NaturalEvent      |
+| Organization      |
+| Person            |
+| PrintMedia        |
+| Quantity          |
+| Sport             |
+| SportingEvent     |
+| TelevisionShow    |
+| TwitterHandle     |
+| Vehicle           |
 
+| Entity subtype                      |
+|-------------------------------------|
+| AbusedSubstance                     |
+| Academic                            |
+| AcademicInstitution                 |
+| AcademicPostTitle                   |
+| AccidentType                        |
+| Accommodation                       |
+| Actor                               |
+| AdministrativeDivision              |
+| AircraftDesigner                    |
+| AircraftManufacturer                |
+| Airline                             |
+| AirlinerAccident                    |
+| Airport                             |
+| AirportOperator                     |
+| AmericanIndianGroup                 |
+| AminoAcid                           |
+| Animal                              |
+| AnimalBreed                         |
+| API                                 |
+| Appellation                         |
+| AppointedRole                       |
+| Appointer                           |
+| Architect                           |
+| ArchitecturalContractor             |
+| ArchitectureFirm                    |
+| ArmedForce                          |
+| Artery                              |
+| ArtSeries                           |
+| Artwork                             |
+| Asteroid                            |
+| Astronaut                           |
+| AstronomicalDiscovery               |
+| AstronomicalObservatory             |
+| Athlete                             |
+| AutomobileCompany                   |
+| AutomobileGeneration                |
+| AutomobileModel                     |
+| Award                               |
+| AwardCeremony                       |
+| AwardDiscipline                     |
+| AwardJudge                          |
+| AwardNominee                        |
+| AwardPresentingOrganization         |
+| AwardWinner                         |
+| BasketballConference                |
+| BasketballDivision                  |
+| BasketballPlayer                    |
+| BasketballTeam                      |
+| Bassist                             |
+| Beer                                |
+| Belief                              |
+| Beverage                            |
+| BicycleManufacturer                 |
+| BipropellantRocketEngine            |
+| Blog                                |
+| Blogger                             |
+| BoardMember                         |
+| BoardMemberTitle                    |
+| BodyOfWater                         |
+| Bone                                |
+| Book                                |
+| BookEdition                         |
+| BoxingWeightDivision                |
+| Brand                               |
+| Bridge                              |
+| BritishRoyalty                      |
+| Broadcast                           |
+| BroadcastArtist                     |
+| BroadcastContent                    |
+| BroadcastDistributor                |
+| Building                            |
+| BuildingComplex                     |
+| BuildingFunction                    |
+| CameraFormat                        |
+| CanadianAboriginalGroup             |
+| CandyBar                            |
+| CandyBarManufacturer                |
+| Cardinal                            |
+| CauseOfDeath                        |
+| Cave                                |
+| Celebrity                           |
+| CelestialObject                     |
+| Chancellor                          |
+| CharacterOccupation                 |
+| CharacterRank                       |
+| CharacterSpecies                    |
+| Cheese                              |
+| Chef                                |
+| ChemicalCompound                    |
+| ChemicalElement                     |
+| ChineseEthnicGroup                  |
+| ChristianBishop                     |
+| CityTown                            |
+| Club                                |
+| Collector                           |
+| College                             |
+| CollegeCoach                        |
+| CollegeUniversity                   |
+| Comedian                            |
+| ComicBookCreator                    |
+| ComicBookIssue                      |
+| ComicBookPublisher                  |
+| ComicBookSeries                     |
+| ComicBookStory                      |
+| ComicBookStoryArc                   |
+| ComicStripArtist                    |
+| ComicStripSyndicate                 |
+| Company                             |
+| CompanyFounder                      |
+| CompanyShareholder                  |
+| Competition                         |
+| CompetitiveSpace                    |
+| Composer                            |
+| Composition                         |
+| CompositionalForm                   |
+| ComputerPeripheral                  |
+| ComputingPlatform                   |
+| ConcertFilm                         |
+| ConcertTour                         |
+| ConductedEnsemble                   |
+| Conductor                           |
+| Conference                          |
+| ConferenceSeries                    |
+| ConsumerProduct                     |
+| ContentLicense                      |
+| Country                             |
+| CranialNerve                        |
+| CreativeWork                        |
+| CricketAdministrativeBody           |
+| CricketTournamentEvent              |
+| Criminal                            |
+| CriminalOffense                     |
+| Cuisine                             |
+| CulinaryMeasure                     |
+| CulinaryTool                        |
+| DedicatedWork                       |
+| Dedicatee                           |
+| Dedicator                           |
+| Degree                              |
+| Deity                               |
+| DietFollower                        |
+| DigitalCamera                       |
+| DisasterSurvivor                    |
+| Disease                             |
+| DiseaseCause                        |
+| DiseaseOrMedicalCondition           |
+| Dish                                |
+| DomesticatedAnimal                  |
+| DrinkingEstablishment               |
+| Drug                                |
+| Election                            |
+| ElectionCampaign                    |
+| EndorsedProduct                     |
+| Engine                              |
+| Facility                            |
+| Family                              |
+| FamilyName                          |
+| FashionLabel                        |
+| FictionalCreature                   |
+| FictionalJobTitle                   |
+| FictionalUniverse                   |
+| FictionalUniverseCreator            |
+| FieldOfStudy                        |
+| FileFormat                          |
+| Film                                |
+| FilmActor                           |
+| FilmCharacter                       |
+| FilmCinematographer                 |
+| FilmCompany                         |
+| FilmCritic                          |
+| FilmDirector                        |
+| FilmDistributor                     |
+| FilmEditor                          |
+| FilmFestival                        |
+| FilmFestivalEvent                   |
+| FilmFestivalFocus                   |
+| FilmJob                             |
+| FilmMusicContributor                |
+| FilmProducer                        |
+| FilmSeries                          |
+| FilmWriter                          |
+| FootballCompetition                 |
+| FootballDivision                    |
+| FootballLeague                      |
+| FootballManager                     |
+| FootballMatch                       |
+| FootballOrganization                |
+| FootballPlayer                      |
+| FootballPosition                    |
+| FootballTeam                        |
+| FootballWorldCup                    |
+| Galaxy                              |
+| Game                                |
+| GameDesigner                        |
+| GameExpansion                       |
+| GamePublisher                       |
+| GeneralElection                     |
+| GeographicFeature                   |
+| GovernmentAgency                    |
+| GovernmentalBody                    |
+| GovernmentOfficeOrTitle             |
+| Governor                            |
+| Guitar                              |
+| Guitarist                           |
+| HallOfFame                          |
+| HallOfFameInductee                  |
+| HistoricPlace                       |
+| Hobby                               |
+| HockeyCoach                         |
+| HockeyConference                    |
+| HockeyDivision                      |
+| HockeyPlayer                        |
+| HockeyTeam                          |
+| Holiday                             |
+| Hormone                             |
+| Hospital                            |
+| House                               |
+| HumanLanguage                       |
+| Illustrator                         |
+| Industry                            |
+| InfectiousDisease                   |
+| Interest                            |
+| InternetProtocol                    |
+| Invention                           |
+| Inventor                            |
+| Island                              |
+| JobTitle                            |
+| Journal                             |
+| Journalist                          |
+| Judge                               |
+| Kingdom                             |
+| Lake                                |
+| LanguageDialect                     |
+| LanguageFamily                      |
+| LanguageWritingSystem               |
+| LaunchSite                          |
+| LegislativeCommittee                |
+| Legislature                         |
+| Ligament                            |
+| Lighthouse                          |
+| LiterarySchoolOrMovement            |
+| Location                            |
+| Magazine                            |
+| ManufacturingPlant                  |
+| MartialArt                          |
+| MartialArtsOrganization             |
+| Mascot                              |
+| Material                            |
+| Mayor                               |
+| MeansOfPropulsion                   |
+| MedicalSpecialty                    |
+| MedicalTreatment                    |
+| MemberOfParliament                  |
+| MeteorologicalService               |
+| MeteorShower                        |
+| MilitaryConflict                    |
+| MilitaryPerson                      |
+| MilitaryPost                        |
+| MilitaryUnit                        |
+| Model                               |
+| Monarch                             |
+| Mountain                            |
+| MultipartTVEpisode                  |
+| Muscle                              |
+| Museum                              |
+| MusicalAlbum                        |
+| MusicalArtist                       |
+| MusicalGameSong                     |
+| MusicalGroup                        |
+| MusicalGroupMember                  |
+| MusicalInstrumentCompany            |
+| MusicalPerformanceRole              |
+| MusicalRelease                      |
+| MusicalTrack                        |
+| MusicFestival                       |
+| NaturalOrCulturalPreservationAgency |
+| Nerve                               |
+| Newspaper                           |
+| NobleRank                           |
+| NobleTitle                          |
+| Non-ProfitOrganisation              |
+| Nutrient                            |
+| OfficeHolder                        |
+| OilField                            |
+| OlympicAthlete                      |
+| OlympicDemonstrationCompetition     |
+| OlympicEvent                        |
+| OlympicEventCompetition             |
+| OlympicGames                        |
+| Opera                               |
+| OperaCharacter                      |
+| OperaCompany                        |
+| OperaHouse                          |
+| OperaLibretto                       |
+| OperatingSystem                     |
+| OperatingSystemDeveloper            |
+| OrganismClassification              |
+| Organization                        |
+| OrganizationCommittee               |
+| OrganizationSector                  |
+| Park                                |
+| ParliamentaryElection               |
+| PeriodicalPublisher                 |
+| Person                              |
+| PersonalAppearanceRole              |
+| Philosopher                         |
+| Physician                           |
+| Play                                |
+| Poem                                |
+| PoeticVerseForm                     |
+| PoliticalDistrict                   |
+| PoliticalIdeology                   |
+| PoliticalParty                      |
+| Politician                          |
+| Prayer                              |
+| ProductionCompany                   |
+| Profession                          |
+| ProfessionalField                   |
+| ProgrammingLanguage                 |
+| ProgrammingLanguageDesigner         |
+| ProjectParticipant                  |
+| ProtectedArea                       |
+| Protein                             |
+| Protocol                            |
+| ProtocolProvider                    |
+| PublicLibrary                       |
+| PublicSpeakingEvent                 |
+| PublishedWork                       |
+| RadioFormat                         |
+| RadioNetwork                        |
+| RadioStation                        |
+| Rank                                |
+| RecordLabel                         |
+| RecordProducer                      |
+| RecurringEvent                      |
+| Religion                            |
+| ReligiousLeadershipRole             |
+| ReligiousOrganization               |
+| ReligiousPractice                   |
+| ReligiousText                       |
+| ReportIssuingInstitution            |
+| RiskFactor                          |
+| River                               |
+| Road                                |
+| Rocket                              |
+| RocketEngine                        |
+| RocketEngineFuel                    |
+| RocketFuel                          |
+| RocketFunction                      |
+| RocketManufacturer                  |
+| Saint                               |
+| Satellite                           |
+| School                              |
+| SchoolDistrict                      |
+| SchoolMascot                        |
+| SchoolNewspaper                     |
+| SchoolSportsTeam                    |
+| Scientist                           |
+| ShipBuilder                         |
+| ShoppingCenter                      |
+| ShortStory                          |
+| SkiArea                             |
+| Skyscraper                          |
+| SoccerClub                          |
+| Software                            |
+| SoftwareDeveloper                   |
+| SoftwareLicense                     |
+| Soundtrack                          |
+| SpaceAgency                         |
+| Spacecraft                          |
+| SpaceMission                        |
+| Spaceport                           |
+| Sport                               |
+| SportsAssociation                   |
+| SportsEquipment                     |
+| SportsLeagueChampionship            |
+| SportsLeagueChampionshipEvent       |
+| SportsLeagueDraft                   |
+| SportsOfficial                      |
+| SportsTeam                          |
+| Stadium                             |
+| Star                                |
+| StarSystem                          |
+| StarSystemBody                      |
+| Station                             |
+| Supercouple                         |
+| Symptom                             |
+| Synthesizer                         |
+| Telescope                           |
+| TelescopePlatform                   |
+| TelevisionShow                      |
+| TennisPlayer                        |
+| TennisTournament                    |
+| Theater                             |
+| TheaterCharacter                    |
+| TheaterProduction                   |
+| TopLevelDomainRegistry              |
+| TouristAttraction                   |
+| Tower                               |
+| TradeUnion                          |
+| TransitLine                         |
+| TransportOperator                   |
+| TransportTerminus                   |
+| TropicalCyclone                     |
+| TVActor                             |
+| TVCharacter                         |
+| TVCrewRole                          |
+| TVEpisode                           |
+| TVNetwork                           |
+| TVPersonality                       |
+| TVProducer                          |
+| TVSeason                            |
+| TVWriter                            |
+| TypeOfPlaceOfWorship                |
+| UnfinishedWork                      |
+| UnitOfMass                          |
+| UnitOfVolume                        |
+| University                          |
+| U.S.Congressperson                  |
+| Vein                                |
+| VideoGame                           |
+| VideoGameDesigner                   |
+| VideoGameDeveloper                  |
+| VideoGameEngine                     |
+| VideoGamePlatform                   |
+| VideoGamePublisher                  |
+| VisualArtist                        |
+| WebBrowserExtension                 |
+| Website                             |
+| WineProducer                        |
+| WineRegion                          |
+| WorkOfFiction                       |
+| Writer                              |
 
-## Entity type systems for version 2018-03-08
-{: #2018-03-08}
-
-The following entity type systems are used when you set the `version` parameter to `2018-03-08`.
-
-|Language|Entity type system|
-| --- | ---|
-| English | [Version 1][v1] |
-| French | [Version 2][v2] |
-| German | [Version 1][v1] |
-| Italian | [Version 1][v1] |
-| Korean | [Version 1][v1] |
-| Portuguese | [Version 1][v1] |
-| Russian | [Version 1][v1] |
-| Spanish | [Version 1][v1] |
-| Swedish | [Version 1][v1] |
-
-
-## Entity type systems for version 2017-02-27
-{: #2017-02-27}
-
-The following entity type systems are used when you set the `version` parameter to `2017-02-27`.
-
-|Language|Entity type system|
-| --- | ---|
-| English | [Version 1][v1] |
-| French | [Version 1][v1] |
-| German | [Version 1][v1] |
-| Italian | [Version 1][v1] |
-| Korean | [Version 1][v1] |
-| Portuguese | [Version 1][v1] |
-| Russian | [Version 1][v1] |
-| Spanish | [Version 1][v1] |
-| Swedish | [Version 1][v1] |
-
-
-[v1]: entity-types-v1.html
-[v2]: entity-types-v2.html
