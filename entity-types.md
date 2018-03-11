@@ -178,6 +178,7 @@ The following tables list the possible entity types and subtypes that are return
 | ConferenceSeries                    |
 | ConsumerProduct                     |
 | ContentLicense                      |
+| Continent                           |
 | Country                             |
 | CranialNerve                        |
 | CreativeWork                        |
