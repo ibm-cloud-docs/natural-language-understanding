@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-01-25"
+lastupdated: "2018-03-16"
 
 ---
 
@@ -24,13 +24,58 @@ The following new features and changes to the service are available.
 
 ## Service API versioning
 
-**Current API version**: 2017-02-27
+**Current API version**: 2018-03-16
 
 API requests require a version parameter that takes the date in the format `version=YYYY-MM-DD`. Send the version parameter with every API request.
 
 When we change the API in a backwards-incompatible way, we release a new minor version. To take advantage of the changes in a new version, change the value of the version parameter to the new date. If you're not ready to update to that version, don't change your version date.
 
 ## Changes
+
+### 16 March 2018
+{: #03-march-2018}
+
+- Added support for German categories, relations, and semantic roles.
+  - A new relation type system is used for German relations. To view details, see the [Relation types (Version 2)](relations-v2.html) page.
+- Improved German keywords and sentiment.
+- Added support for Japanese categories and concepts.
+- Language detection improvements.
+- Improved webpage cleaning.
+- Improved French and German entities models. The models use a new entity type system. Check out the new entity types and subtypes on the [Entity types and subtypes (Version 2)](entity-types-v2.html) page. When your application is compatible with the new type system, change the version date parameter in your requests to `2018-03-16` to use the new model. The following are the differences between the _Version 1_ type system and the _Version 2_ type system.
+  - New entity types:
+    - Date
+    - Duration
+    - Measure
+    - Money
+    - Number&#42;
+    - Percent&#42;
+    - PhoneNumber&#42;
+    - Ordinal
+    - Time
+    - URL&#42;
+  - Removed entity types:
+    - Anatomy
+    - Award
+    - Broadcaster
+    - Company
+    - Crime
+    - Drug
+    - HealthCondition
+    - Movie
+    - MusicGroup
+    - NaturalEvent
+    - PrintMedia
+    - Quantity
+    - Sport
+    - SportingEvent
+    - TelevisionShow
+    - Vehicle
+  - New entity subtype:
+    - Quantity
+
+&#42; This entity type is not yet detectable in French text.
+
+
 
 ### 25 January 2018
 {: #25-january-2018}

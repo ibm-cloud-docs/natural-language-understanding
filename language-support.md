@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-02-08"
+lastupdated: "2018-03-16"
 
 ---
 
@@ -398,7 +398,7 @@ The targeted sentiment option for entities is not supported for Arabic text.
   <tbody>
     <tr>
       <td>Categories</td>
-      <td></td>
+      <td>X</td>
       <td></td>
     </tr>
     <tr>
@@ -428,23 +428,21 @@ The targeted sentiment option for entities is not supported for Arabic text.
     </tr>
     <tr>
       <td>Relations</td>
-      <td></td>
+      <td>X</td>
       <td>X</td>
     </tr>
     <tr>
       <td>Semantic Roles</td>
-      <td></td>
+      <td>X</td>
       <td></td>
     </tr>
     <tr>
       <td>Sentiment</td>
-      <td>X&#42;</td>
+      <td>X</td>
       <td></td>
     </tr>
   </tbody>
 </table>
-
-&#42; Sentiment detection for this language works best on social media based data, like tweets. Further accuracy improvements are planned in the near future.
 
 
 ## Italian
@@ -538,12 +536,12 @@ The targeted sentiment option for keywords is not supported for Italian text.
   <tbody>
     <tr>
       <td>Categories</td>
-      <td></td>
+      <td>X</td>
       <td></td>
     </tr>
     <tr>
       <td>Concepts</td>
-      <td></td>
+      <td>X</td>
       <td></td>
     </tr>
     <tr>
@@ -932,4 +930,3 @@ The targeted sentiment option for keywords is not supported for Spanish text.
     </tr>
   </tbody>
 </table>
-
