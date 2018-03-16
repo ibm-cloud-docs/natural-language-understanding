@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2018-03-08"
+lastupdated: "2018-03-16"
 
 ---
 
@@ -19,7 +19,7 @@ lastupdated: "2018-03-08"
 
 # Entity types and subtypes (Version 1)
 
-The following tables list the entity types and subtypes that are used in the `Version 1` entity type system. You can download a spreadsheet with this information here: [XLSX](resources/entity-types-v1.xlsx)
+The following tables list the entity types and subtypes that are used in the _Version 1_ entity type system.
 {: shortdesc}
 
 The entity type system that {{site.data.keyword.nlushort}} uses differs based on which version date and which language you are using. For more details, see the [Entity types and subtypes](entity-types.html) page.

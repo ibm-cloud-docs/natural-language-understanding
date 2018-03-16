@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2018-03-08"
+lastupdated: "2018-03-16"
 
 ---
 
@@ -19,7 +19,7 @@ lastupdated: "2018-03-08"
 
 # Entity types and subtypes (Version 2)
 
-The following tables list the entity types and subtypes that are used in the `Version 2` entity type system. You can download a spreadsheet with this information here: [XLSX](resources/entity-types-v2.xlsx)
+The following tables list the entity types and subtypes that are used in the _Version 2_ entity type system.
 {: shortdesc}
 
 The entity type system that {{site.data.keyword.nlushort}} uses differs based on which version date and which language you are using. For more details, see the [Entity types and subtypes](entity-types.html) page.
@@ -40,11 +40,18 @@ The entity type system that {{site.data.keyword.nlushort}} uses differs based on
 | Location          |
 | Measure           |
 | Money             |
+| Number&#42;       |
 | Ordinal           |
 | Organization      |
+| Percent&#42;      |
 | Person            |
+| PhoneNumber&#42;  |
 | Time              |
 | TwitterHandle     |
+| URL&#42;          |
+
+&#42; This entity type is not yet detectable in French text.
+
 
 ## Entity subtypes
 {: #entity-subtypes}

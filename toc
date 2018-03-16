@@ -28,7 +28,12 @@ Natural Language Understanding
         entity-types-v2.md
 
     language-support.md
+
+    {: .topicgroup}
     relations.md
+        relations-v1.md
+        relations-v2.md
+    
     usage-limits.md
 
     {: .topicgroup}
