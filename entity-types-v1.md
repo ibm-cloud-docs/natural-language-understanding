@@ -186,6 +186,7 @@ The entity type system that {{site.data.keyword.nlushort}} uses differs based on
 | ConferenceSeries                    |
 | ConsumerProduct                     |
 | ContentLicense                      |
+| Continent                           |
 | Country                             |
 | CranialNerve                        |
 | CreativeWork                        |
