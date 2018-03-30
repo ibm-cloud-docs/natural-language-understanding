@@ -30,7 +30,7 @@ Videos and articles to help you get started faster.
 
 - [Natural Language Understanding launch announcement](https://www.ibm.com/blogs/bluemix/2017/02/hello-nlu/)
 - [Watson Natural Language Understanding for advanced text analytics](https://www.ibm.com/blogs/watson/2017/04/watson-natural-language-understanding-advanced-text-analytics/)
-- [Top 3 reasons to move from AlchemyLanguage to Natural Language Understanding](https://www.ibm.com/blogs/watson/2017/04/watson-natural-language-understanding-advanced-text-analytics/)
+- [Top 3 reasons to move from AlchemyLanguage to Natural Language Understanding](https://www.ibm.com/blogs/watson/2017/05/top-3-reasons-move-alchemylanguage-watson-natural-language-understanding/)
 - [Understanding sentiment for publicly traded firms with Natural Language Understanding](https://www.ibm.com/developerworks/library/cc-sentiment-signal-watson-bluemix/index.html)
 - [Lite plan announcement](https://www.ibm.com/blogs/bluemix/2017/07/watson-natural-language-understanding-just-got-lite/)
 
