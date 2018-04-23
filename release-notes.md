@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-04-05"
+lastupdated: "2018-04-23"
 
 ---
 
@@ -32,6 +32,16 @@ When we change the API in a backwards-incompatible way, we release a new minor v
 
 ## Changes
 
+### 19 April 2018
+{: #19-april-2018}
+
+- Added support for Japanese relations.
+- Improved German keywords.
+- Fixed a bug that caused incorrect entity mention text to be returned.
+- Fixed a bug that could cause poor results for targeted sentiment.
+- Fixed a bug that caused the returned `analyzed_text` to include characters that were not analyzed.
+
+
 ### 5 April 2018
 {: #05-april-2018}
 
@@ -53,12 +63,12 @@ When we change the API in a backwards-incompatible way, we release a new minor v
     - Duration
     - Measure
     - Money
-    - Number&#42;
-    - Percent&#42;
-    - PhoneNumber&#42;
+    - Number&ast;
+    - Percent&ast;
+    - PhoneNumber&ast;
     - Ordinal
     - Time
-    - URL&#42;
+    - URL&ast;
   - Removed entity types:
     - Anatomy
     - Award
@@ -79,7 +89,7 @@ When we change the API in a backwards-incompatible way, we release a new minor v
   - New entity subtype:
     - Quantity
 
-&#42; This entity type is not yet detectable in French text.
+&ast; This entity type is not yet detectable in French text.
 
 
 
