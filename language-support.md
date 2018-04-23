@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-03-16"
+lastupdated: "2018-04-23"
 
 ---
 
@@ -99,13 +99,13 @@ Language support might be different if you are a {{site.data.keyword.Bluemix_ded
     </tr>
     <tr>
       <td>Sentiment</td>
-      <td>X&#42;</td>
+      <td>X&ast;</td>
       <td></td>
     </tr>
   </tbody>
 </table>
 
-&#42; Sentiment detection for this language works best on social media based data, like tweets. Further accuracy improvements are planned in the near future.
+&ast; Sentiment detection for this language works best on social media based data, like tweets. Further accuracy improvements are planned in the near future.
 
 The targeted sentiment option for entities is not supported for Arabic text.
 
@@ -334,7 +334,7 @@ The targeted sentiment option for entities is not supported for Arabic text.
     </tr>
     <tr>
       <td>Concepts</td>
-      <td></td>
+      <td>X</td>
       <td></td>
     </tr>
     <tr>
@@ -369,13 +369,13 @@ The targeted sentiment option for entities is not supported for Arabic text.
     </tr>
     <tr>
       <td>Sentiment</td>
-      <td>X&#42;</td>
+      <td>X&ast;</td>
       <td></td>
     </tr>
   </tbody>
 </table>
 
-&#42; The targeted sentiment option for keywords is not supported for French text.
+&ast; The targeted sentiment option for keywords is not supported for French text.
 
 
 ## German
@@ -505,13 +505,13 @@ The targeted sentiment option for entities is not supported for Arabic text.
     </tr>
     <tr>
       <td>Sentiment</td>
-      <td>X&#42;</td>
+      <td>X&ast;</td>
       <td></td>
     </tr>
   </tbody>
 </table>
 
-&#42; Sentiment detection for this language works best on social media based data, like tweets. Further accuracy improvements are planned in the near future.
+&ast; Sentiment detection for this language works best on social media based data, like tweets. Further accuracy improvements are planned in the near future.
 
 The targeted sentiment option for keywords is not supported for Italian text.
 
@@ -566,7 +566,7 @@ The targeted sentiment option for keywords is not supported for Italian text.
     </tr>
     <tr>
       <td>Relations</td>
-      <td></td>
+      <td>X</td>
       <td>X</td>
     </tr>
     <tr>
@@ -643,13 +643,13 @@ The targeted sentiment option for keywords is not supported for Italian text.
     </tr>
     <tr>
       <td>Sentiment</td>
-      <td>X&#42;</td>
+      <td>X&ast;</td>
       <td></td>
     </tr>
   </tbody>
 </table>
 
-&#42; Sentiment detection for this language works best on social media based data, like tweets. Further accuracy improvements are planned in the near future.
+&ast; Sentiment detection for this language works best on social media based data, like tweets. Further accuracy improvements are planned in the near future.
 
 
 ## Portuguese
@@ -712,13 +712,13 @@ The targeted sentiment option for keywords is not supported for Italian text.
     </tr>
     <tr>
       <td>Sentiment</td>
-      <td>X&#42;</td>
+      <td>X&ast;</td>
       <td></td>
     </tr>
   </tbody>
 </table>
 
-&#42; Sentiment detection for this language works best on social media based data, like tweets. Further accuracy improvements are planned in the near future.
+&ast; Sentiment detection for this language works best on social media based data, like tweets. Further accuracy improvements are planned in the near future.
 
 The targeted sentiment option for keywords is not supported for Portuguese text.
 
@@ -783,13 +783,13 @@ The targeted sentiment option for keywords is not supported for Portuguese text.
     </tr>
     <tr>
       <td>Sentiment</td>
-      <td>X&#42;</td>
+      <td>X&ast;</td>
       <td></td>
     </tr>
   </tbody>
 </table>
 
-&#42; Sentiment detection for this language works best on social media based data, like tweets. Further accuracy improvements are planned in the near future.
+&ast; Sentiment detection for this language works best on social media based data, like tweets. Further accuracy improvements are planned in the near future.
 
 The targeted sentiment option for keywords is not supported for Russian text.
 
@@ -854,13 +854,13 @@ The targeted sentiment option for keywords is not supported for Russian text.
     </tr>
     <tr>
       <td>Sentiment</td>
-      <td>X&#42;</td>
+      <td>X&ast;</td>
       <td></td>
     </tr>
   </tbody>
 </table>
 
-&#42; Sentiment detection for this language works best on social media based data, like tweets. Further accuracy improvements are planned in the near future.
+&ast; Sentiment detection for this language works best on social media based data, like tweets. Further accuracy improvements are planned in the near future.
 
 The targeted sentiment option for keywords is not supported for Spanish text.
 
