@@ -30,6 +30,7 @@ In this short tutorial, we introduce {{site.data.keyword.nlushort}} by analyzing
     1.  Sign up for a free {{site.data.keyword.Bluemix_notm}} account or log in.
     1.  Click **Create**.
 - Copy the credentials to authenticate to your service instance:
+    1.  On the service dashboard, click the **Service credentials** tab.
     1.  Click **Show** to view your credentials.
     1.  Copy the `username`, `password`, and `url` values.
 - Make sure you have cURL:
