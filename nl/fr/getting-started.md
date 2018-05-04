@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-06-09"
+lastupdated: "2017-11-03"
 
 ---
 
@@ -16,28 +16,41 @@ lastupdated: "2017-06-09"
 {:java: .ph data-hd-programlang='java'}
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
+{:download: .download}
 
-# Tutoriel Initiation
-Ce bref tutoriel présente {{site.data.keyword.nlushort}} en analysant un exemple de texte pour y révéler les opinions qu'il recèle.
+# Tutoriel d'initiation
+Ce bref tutoriel présente {{site.data.keyword.nlushort}} en analysant un exemple de texte pour révéler le sentiment qu'il recèle.
 {:shortdesc}
 
-## Etape 1 : Connectez-vous, créez l'instance de service et obtenez vos données d'identification
-{: #create-service}
+## Avant de commencer
+{: #before-you-begin}
 
-Si vous connaissez déjà vos données d'identification pour l'instance de service {{site.data.keyword.nlushort}}, ignorez cette étape.
-{: tip}
+- Créez une instance du service :
+    - {: download} Si vous voyez ceci, cela signifie que vous avez créé votre instance de service. A présent, procurez-vous vos données d'identification. 
+    - Créez un projet à partir d'un service :
+        1.  Accédez à la page {{site.data.keyword.watson}} Developer Console [Services ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://console.{DomainName}/developer/watson/services){: new_window}. 
+        1.  Sélectionnez {{site.data.keyword.nlushort}}, cliquez sur **Ajouter un service**, puis inscrivez-vous afin d'obtenir un compte {{site.data.keyword.Bluemix_notm}} gratuit ou connectez-vous. 
+        1.  Entrez `sentiment-tutorial` comme nom de projet et cliquez sur **Créer un projet**.
+- Copiez les données d'identification afin de vous authentifier auprès de votre instance de service :
+    - {: download} Depuis le tableau de bord de service (que vous avez sous les yeux) :
+        1.  Sélectionnez l'onglet **Données d'identification pour le service**. 
+        1.  Cliquez sur **Afficher les données d'identification** sous **Actions**.
+        1.  Copiez les valeurs `username`, `password` et `url`.
+        {: download}
+    - Depuis le projet **sentiment-tutorial** dans Developer Console, copiez les valeurs `username`, `password`, et `url` pour `"natural_language_understanding"` de la section **Données d'identification**. 
+- Vérifiez que cURL est installé : 
+    - Les exemples utilisent cURL pour appeler des méthodes de l'interface HTTP. Installez la version correspondant à votre système d'exploitation depuis le site [curl.haxx.se ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://curl.haxx.se/){: new_window}. Installez la version qui prend en charge le protocole SSL (Secure Sockets Layer). Veillez à inclure le fichier binaire installé indiqué dans votre variable d'environnement `PATH`.
 
-1.  Accédez au [service {{site.data.keyword.nlushort}}](https://console.{DomainName}/catalog/services/natural-language-understanding/) et inscrivez-vous pour un compte {{site.data.keyword.Bluemix_notm}} gratuit ou connectez-vous.
-1.  Après vous être connecté, entrez `sentiment-tutorial` dans la zone **Nom du service** et cliquez sur **Créer**.
-1.  Copiez vos données d'identification :
-    1.  Cliquez sur **Données d'identification pour le service**.
-    1.  Cliquez sur **Afficher les données d'identification** sous **Actions**.
-    1.  Copiez les valeurs `username` et `password`.
+<!-- Remove this text after dedicated instances have the Developer Console: begin -->
 
-## Etape 2 : Analysez le contenu de l'exemple pour révéler les opinions qu'il recèle
+Si vous utilisez {{site.data.keyword.Bluemix_dedicated_notm}}, créez votre instance de service depuis la page [{{site.data.keyword.nlushort}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://console.{DomainName}/catalog/services/natural-language-understanding/){: new_window} du catalogue. Pour savoir comment rechercher vos données d'identification pour le service, voir [Données d'identification de service pour des services Watson ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](/docs/services/watson/getting-started-credentials.html#getting-credentials-manually){: new_window}.
+
+<!-- Remove this text after dedicated instances have the Developer Console: end -->
+
+## Etape 1 : Analysez le contenu de l'exemple pour révéler le sentiment qu'il recèle
 {: #analyze-sample}
 
-Analysez d'abord les opinions que recèle l'exemple de texte. Lancez la commande suivante pour appeler la méthode `GET /v1/analyze`, laquelle analyse l'exemple de texte pour révéler les opinions qu'il dénote et les mots-clés. Remplacez `{nom_utilisateur}` et `{mot_de_passe}` par les données d'identification du service copiées à l'étape précédente :
+Analysez d'abord le sentiment que recèle l'exemple de texte. Ouvrez une interface de ligne de commande et exécutez la commande suivante pour appeler la méthode `GET /v1/analyze`, qui analyse l'exemple de texte pour identifier le sentiment et des mots clés. Remplacez `{nom_utilisateur}` et `{mot_de_passe}` par les données d'identification du service copiées à l'étape précédente :
 
 ```bash
 curl --user "{nom_utilisateur}":"{mot_de_passe}" \
@@ -45,10 +58,10 @@ curl --user "{nom_utilisateur}":"{mot_de_passe}" \
 ```
 {:pre}
 
-## Etape 3 : Extrayez les informations sur les mots clés
+## Etape 2 : Procédez à l'extraction des informations sur les mots clés
 {: #analyze-keywords}
 
-L'appel précédent a renvoyé les informations concernant les opinions sur l'ensemble du texte. Développez à présent les résultats pour extraire une analyse des opinions portant spécifiquement sur chaque mot clé. Incluez le paramètre **keywords.sentiment** en lui affectant la valeur `true`. Remplacez `{nom_utilisateur}` et `{mot_de_passe}` par vos informations.
+L'appel précédent a renvoyé des informations concernant le sentiment pour l'ensemble du texte. A présent, développez les résultats pour extraire une analyse du sentiment spécifique à chaque mot clé. Incluez le paramètre **keywords.sentiment** en lui affectant la valeur `true`. Remplacez `{nom_utilisateur}` et `{mot_de_passe}` par vos informations.
 
 ```bash
 curl --user "{nom_utilisateur}":"{mot_de_passe}" \
@@ -56,10 +69,10 @@ curl --user "{nom_utilisateur}":"{mot_de_passe}" \
 ```
 {:pre}
 
-## Etape 4 : Ciblez une phrase
+## Etape 3 : Ciblez une phrase
 {: #analyze-phrase}
 
-Ciblez à présent un contenu spécifique pour examiner une analyse au niveau d'une phrase ou d'une expression (au lieu d'une analyse au niveau d'un document ou d'un mot clé) en incluant la phrase `the%20American%20dream%20` dans le paramètre **sentiment.targets**. N'oubliez pas de remplacer `{nom_utilisateur}` et `{mot_de_passe}` par vos informations.
+Ciblez à présent un contenu spécifique pour examiner une analyse au niveau d'une phrase ou d'une expression (au lieu d'une analyse au niveau d'un document ou d'un mot clé) en incluant l'expression `the%20American%20dream%20` dans le paramètre **sentiment.targets**. N'oubliez pas de remplacer `{nom_utilisateur}` et `{mot_de_passe}` par vos informations.
 
 ```bash
 curl --user "{nom_utilisateur}":"{mot_de_passe}" \
@@ -72,5 +85,5 @@ curl --user "{nom_utilisateur}":"{mot_de_passe}" \
 
 Vous avez terminé ! Ce tutoriel ne fait qu'effleurer l'éventail de vos possibilités avec {{site.data.keyword.nlushort}}. Pour plus d'informations sur les fonctionnalités de l'API, reportez-vous aux ressources suivantes :
 
-- Cliquez sur l'icône [Référence d'API ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/watson/developercloud/natural-language-understanding/api/v1/){: new_window} pour plus de détails et des exemples de chaque paramètre.
-- Cliquez sur cette icône pour découvrir les [entités personnalisées et les relations![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/watson/developercloud/doc/natural-language-understanding/customizing.html){: new_window}.
+- Consultez la rubrique [Référence d'API ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://www.ibm.com/watson/developercloud/natural-language-understanding/api/v1/){: new_window} pour plus de détails et des exemples de chaque paramètre.
+- Apprenez à identifier les [entités personnalisées et les relations](/docs/services/natural-language-understanding/customizing.html).
