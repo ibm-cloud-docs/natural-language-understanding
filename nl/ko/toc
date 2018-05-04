@@ -2,43 +2,63 @@
 {:topicgroup: .topicgroup}
 
 {: .toc subcollection="natural-language-understanding" audience="service" href="/docs/services/natural-language-understanding/getting-started.html"}
-자연어 이해
+Natural Language Understanding
 
     {: .navgroup id="learn"}
     getting-started.md
+    index.md
     [데모](https://natural-language-understanding-demo.ng.bluemix.net/)
-
-    {: .topicgroup}
-    추가 자원
-        [블로그](https://developer.ibm.com/watson/blog/)
-        [온라인 회의](http://www.ibm.com/watson/building-with-watson-webinar.html)
-        [Watson 동영상](https://www.youtube.com/user/IBMWatsonSolutions)
+    additional-resources.md
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
-    [확장된 문서 (English)](https://console.bluemix.net/docs/services/natural-language-understanding/index.html?locale=en)
+    customizing.md
+    overriding-language-detection.md
+    migrating.md
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
     [API 참조](https://www.ibm.com/watson/developercloud/natural-language-understanding/api/v1/)
+    categories.md
+    detectable-languages.md
+    
+    {: .topicgroup}
+    entity-types.md
+        entity-types-v1.md
+        entity-types-v2.md
+
+    language-support.md
+
+    {: .topicgroup}
+    relations.md
+        relations-v1.md
+        relations-v2.md
+    
+    usage-limits.md
 
     {: .topicgroup}
     Watson SDK
+        [Android SDK](https://github.com/watson-developer-cloud/android-sdk)
         [Java SDK](https://github.com/watson-developer-cloud/java-sdk)
         [Node.js SDK](https://github.com/watson-developer-cloud/node-sdk)
         [Python SDK](https://github.com/watson-developer-cloud/python-sdk)
-        [Swift SDK](https://github.com/watson-developer-cloud/ios-sdk)
+        [.NET SDK](https://github.com/watson-developer-cloud/dotnet-standard-sdk)
+        [OpenWhisk SDK](https://github.com/watson-developer-cloud/openwhisk-sdk)
+        [Salesforce SDK](https://github.com/watson-developer-cloud/salesforce-sdk)
+        [Swift SDK](https://github.com/watson-developer-cloud/swift-sdk)
         [Unity SDK](https://github.com/watson-developer-cloud/unity-sdk)
 
     [Watson GitHub 저장소](https://github.com/watson-developer-cloud/)
     {: .navgroup-end}
 
     {: .navgroup id="help"}
-    [릴리스 정보](https://www.ibm.com/watson/developercloud/doc/natural-language-understanding/release-notes.html)
+    release-notes.md
 
     {: .topicgroup}
     개발자 커뮤니티
         [StackOverflow](https://stackoverflow.com/questions/tagged/watson-nlu)
-        [developerWorks 응답](https://developer.ibm.com/answers/topics/natural-language-understanding/)
+        [developerWorks Answers](https://developer.ibm.com/answers/topics/natural-language-understanding/)
         [WDC Slack 채널](http://wdc-slack-inviter.mybluemix.net/)
+
     {: .navgroup-end}
+
