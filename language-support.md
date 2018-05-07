@@ -571,12 +571,12 @@ The targeted sentiment option for keywords is not supported for Italian text.
     </tr>
     <tr>
       <td>Semantic Roles</td>
-      <td></td>
+      <td>X</td>
       <td></td>
     </tr>
     <tr>
       <td>Sentiment</td>
-      <td></td>
+      <td>X</td>
       <td></td>
     </tr>
   </tbody>
