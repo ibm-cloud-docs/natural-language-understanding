@@ -32,6 +32,14 @@ When we change the API in a backwards-incompatible way, we release a new minor v
 
 ## Changes
 
+### 4 May 2018
+{: #4-may-2018}
+
+- Added support for Japanese sentiment and semantic roles.
+- Improved performance for metadata requests.
+- Fixed a bug that caused `NAN` relevance scores to appear in some entities results.
+- Fixed a bug that returned `400` error codes in German and Korean keywords requests when `500` error codes were more appropriate.
+
 ### 19 April 2018
 {: #19-april-2018}
 
