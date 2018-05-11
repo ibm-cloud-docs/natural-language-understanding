@@ -26,7 +26,7 @@ Natural Language Understanding
     entity-types.md
         entity-types-v1.md
         entity-types-v2.md
-
+        
     language-support.md
 
     {: .topicgroup}
@@ -35,6 +35,7 @@ Natural Language Understanding
         relations-v2.md
     
     usage-limits.md
+    information-security.md
 
     {: .topicgroup}
     Watson SDKs
@@ -61,4 +62,3 @@ Natural Language Understanding
         [WDC Slack channel](http://wdc-slack-inviter.mybluemix.net/)
 
     {: .navgroup-end}
-
