@@ -96,7 +96,6 @@ In your application, check the access token's expiration time before you use it 
 - Fixed a bug that caused `NAN` relevance scores to appear in some entities results.
 - Fixed a bug that returned `400` error codes in German and Korean keywords requests when `500` error codes were more appropriate.
 
-
 ### 19 April 2018
 {: #19-april-2018}
 
@@ -106,11 +105,10 @@ In your application, check the access token's expiration time before you use it 
 - Fixed a bug that could cause poor results for targeted sentiment.
 - Fixed a bug that caused the returned `analyzed_text` to include characters that were not analyzed.
 
-
 ### 5 April 2018
 {: #05-april-2018}
 
-- Improved webpage content fetching. If you use the `url` parameter to analyze webpages, you'll see better results, especially on webpages that use framesets and cookies.
+- Improved webpage content fetching. If you use the `url` parameter to analyze webpages, you'll see better results, especially from webpages that use framesets and cookies.
 - Minor improvements to Korean concepts.
 
 ### 16 March 2018
