@@ -35,7 +35,7 @@ In this short tutorial, we introduce {{site.data.keyword.nlushort}} by analyzing
     
     **Important:** The tutorial uses service instance credentials to authenticate to the {{site.data.keyword.nlushort}} service. In some regions, new service instances instead use {{site.data.keyword.cloud}} Identity and Access Management (IAM) tokens for authentication. Authenticate by using the approach that is right for your region and service instance.
 
-    For more information about where the service uses IAM access tokens and how to use them for authentication, see the May 29th service update in the [Release notes](/docs/services/discovery/release-notes.html#29-may-2018).
+    For more information about where the service uses IAM access tokens and how to use them for authentication, see the May 29th service update in the [Release notes](/docs/services/natural-language-understanding/release-notes.html#29-may-2018).
 
 - Make sure you have cURL:
     - The examples use cURL to call methods of the HTTP interface. Install the version for your operating system from [curl.haxx.se ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://curl.haxx.se/){: new_window}. Install the version that supports the Secure Sockets Layer (SSL) protocol. Make sure to include the installed binary file on your `PATH` environment variable.
