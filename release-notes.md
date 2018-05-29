@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-05-10"
+lastupdated: "2018-05-29"
 
 ---
 
@@ -32,6 +32,57 @@ When we change the API in a backwards-incompatible way, we release a new minor v
 
 ## Changes
 
+### 29 May 2018
+{: 29-may-2018}
+
+
+The service now supports a new API authentication process for service instances created in Sydney (**au-syd**). {{site.data.keyword.cloud}} is in the process of migrating to token-based Identity and Access Management (IAM) authentication. IAM uses access tokens rather than service credentials for authentication with a service.
+
+In the Sydney region, you use IAM access tokens with the {{site.data.keyword.nlushort}} service for
+
+- *New service instances* that you create after May 29. For more information, see [Authenticating with IAM tokens](/docs/services/watson/getting-started-iam.html).
+- *Existing service instances* that you migrate from Cloud Foundry to a resource group that is managed by the Resource Controller (RC). Service instances that were created before May 29 continue to use service credentials for authentication until you migrate them. For more information, see [Migrating Cloud Foundry service instances to a resource group](/docs/account/instance_migration.html).
+
+All new and existing service instances in other regions continue to use service credentials (`{username}:{password}`) for authentication.
+
+#### Using an IAM access token to authenticate
+
+When you use IAM access tokens, you authenticate before you send a request to the {{site.data.keyword.nlushort}} service.
+
+1. Get an API key from IBM Cloud. Use that key to generate an IAM access token. For more information, see [How to get an IAM token by using a {{site.data.keyword.watson}} service API key](/docs/services/watson/getting-started-iam.html#iamtoken).
+1. Pass the IAM access token to the {{site.data.keyword.nlushort}} service by using the `Authorization` header. In the header, indicate that the access token is a `Bearer` token by specifying `Authorization: Bearer {access_token}`.
+
+    The following simple cURL example uses an access token:
+
+    ```bash
+    curl -X GET \
+    --header "Authorization: Bearer eyJhbGciOiJIUz......sgrKIi8hdFs" \
+    "https://gateway.watsonplatform.net/natural-language-understanding/api/v1/models?version=2018-03-16"
+    ```
+    {: pre}
+
+For more information, see [Using a token to authenticate](/docs/services/watson/getting-started-iam.html#use_token).
+
+#### Refreshing an IAM access token
+
+IAM access tokens that you generate have the following structure. You use the value of the `access_token` field to make an authenticated request to the service.
+
+```javascript
+{
+  "access_token": "eyJhbGciOiJIUz......sgrKIi8hdFs",
+  "refresh_token": "SPrXw5tBE3......KBQ+luWQVY=",
+  "token_type": "Bearer",
+  "expires_in": 3600,
+  "expiration": 1473188353
+}
+```
+{: codeblock}
+
+Access tokens have a limited time to live. The `expires_in` field indicates how long the token lasts in seconds, in this case one hour. The `expiration` field shows when the token expires as a UNIX timestamp that specifies the number of seconds since January 1, 1970 (midnight UTC/GMT).
+
+In your application, check the access token's expiration time before you use it to make an authenticated request. If it is expired, you must refresh the access token before you can use it. You use the value of the `refresh_token` field to refresh the access token. For more information, see [Refreshing a token](/docs/services/watson/getting-started-iam.html#refresh_token).
+
+
 ### 9 May 2018
 {: #9-may-2018}
 
@@ -44,6 +95,7 @@ When we change the API in a backwards-incompatible way, we release a new minor v
 - Improved performance for metadata requests.
 - Fixed a bug that caused `NAN` relevance scores to appear in some entities results.
 - Fixed a bug that returned `400` error codes in German and Korean keywords requests when `500` error codes were more appropriate.
+
 
 ### 19 April 2018
 {: #19-april-2018}
@@ -58,7 +110,7 @@ When we change the API in a backwards-incompatible way, we release a new minor v
 ### 5 April 2018
 {: #05-april-2018}
 
-- Improved webpage content fetching. If you use the `url` parameter to analyze webpages, you'll see better results, especially from webpages that use framesets and cookies.
+- Improved webpage content fetching. If you use the `url` parameter to analyze webpages, you'll see better results, especially on webpages that use framesets and cookies.
 - Minor improvements to Korean concepts.
 
 ### 16 March 2018
