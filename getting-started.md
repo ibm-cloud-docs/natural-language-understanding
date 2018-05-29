@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2018-04-27"
+lastupdated: "2018-05-29"
 
 ---
 
@@ -30,9 +30,13 @@ In this short tutorial, we introduce {{site.data.keyword.nlushort}} by analyzing
     1.  Sign up for a free {{site.data.keyword.Bluemix_notm}} account or log in.
     1.  Click **Create**.
 - Copy the credentials to authenticate to your service instance:
-    1.  On the service dashboard, click the **Service credentials** tab.
     1.  Click **Show** to view your credentials.
     1.  Copy the `username`, `password`, and `url` values.
+    
+    **Important:** The tutorial uses service instance credentials to authenticate to the {{site.data.keyword.nlushort}} service. In some regions, new service instances instead use {{site.data.keyword.cloud}} Identity and Access Management (IAM) tokens for authentication. Authenticate by using the approach that is right for your region and service instance.
+
+    For more information about where the service uses IAM access tokens and how to use them for authentication, see the May 29th service update in the [Release notes](/docs/services/natural-language-understanding/release-notes.html#29-may-2018).
+
 - Make sure you have cURL:
     - The examples use cURL to call methods of the HTTP interface. Install the version for your operating system from [curl.haxx.se ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://curl.haxx.se/){: new_window}. Install the version that supports the Secure Sockets Layer (SSL) protocol. Make sure to include the installed binary file on your `PATH` environment variable.
 
