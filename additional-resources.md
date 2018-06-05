@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-05-10"
+lastupdated: "2018-06-05"
 
 ---
 
@@ -28,15 +28,18 @@ Videos and articles to help you get started faster.
 
 ## Blog posts
 
+- [Looking to buy a home? Here’s how an AI chatbot can help](https://www.ibm.com/blogs/bluemix/2018/04/australias-first-home-loan-chatbot/)
+- [Improve your machine learning solution with established performance metrics](https://developer.ibm.com/code/2018/04/10/ai-machine-learning-solution-performance-accuracy-precision-recall/)
+- [Analyse call recordings with Watson](https://www.ibm.com/blogs/bluemix/2018/04/analyse-call-recordings-watson/)
+- [Distributed REST Calls to Watson Services using REST Data Source on Apache Spark](https://developer.ibm.com/dwblog/2018/distributed-rest-calls-to-watson-services-using-rest-data-source-on-apache-spark/)
+- [How to exploit the insights you just discovered with AI](https://www.ibm.com/blogs/watson/2018/01/how-to-exploiting-the-insights-you-just-discovered-with-ai/)
+- [All aboard for the Watson Salesforce SDK!](https://developer.ibm.com/dwblog/2018/watson-salesforce-sdk-apis-apex-applications/)
 - [How fund managers can apply AI to turn data into insights, reduce bias in decisions and generate alpha](https://www.ibm.com/blogs/watson/2017/11/how-fund-managers-can-apply-ai-to-turn-data-into-insights/)
+- [Deploy a Cognitive Social CRM pattern to gain insights about your brand](https://developer.ibm.com/code/2017/11/16/deploy-cognitive-social-crm-pattern-gain-insights-brand/)
 - [How to create a custom NLU annotation without writing a line of code](https://developer.ibm.com/dwblog/2017/create-custom-nlu-annotation-without-writing-line-code/)
 - [Security? Languages? Regions? Get it all with Watson Discovery and NLU](https://www.ibm.com/blogs/bluemix/2017/10/security-languages-regions-get-watson-discovery-nlu/)
-- [How to get the most from text enrichments in Watson Natural Language Understanding](https://developer.ibm.com/dwblog/2017/watson-nlu-natural-language-understanding-metadata-concepts-categories/)
-- [Lite plan announcement](https://www.ibm.com/blogs/bluemix/2017/07/watson-natural-language-understanding-just-got-lite/)
-- [Natural Language Understanding launch announcement](https://www.ibm.com/blogs/bluemix/2017/02/hello-nlu/)
-- [Top 3 reasons to move from AlchemyLanguage to Natural Language Understanding](https://www.ibm.com/blogs/watson/2017/04/watson-natural-language-understanding-advanced-text-analytics/)
 
-## Developer journeys
+## Code Patterns
 
 - [Create cognitive banking chatbot](https://developer.ibm.com/code/journey/create-cognitive-banking-chatbot/)
 - [Enrich multimedia files using services](https://developer.ibm.com/code/patterns/enrich-multi-media-files-using-ibm-watson/)
