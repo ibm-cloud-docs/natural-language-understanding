@@ -46,7 +46,7 @@ The service now supports a new API authentication process for service instances 
 In the Sydney region, you use IAM access tokens with the {{site.data.keyword.nlushort}} service for
 
 - *New service instances* that you create after May 29. For more information, see [Authenticating with IAM tokens](/docs/services/watson/getting-started-iam.html).
-- *Existing service instances* that you migrate from Cloud Foundry to a resource group that is managed by the Resource Controller (RC). Service instances that were created before May 29 continue to use service credentials for authentication until you migrate them. For more information, see [Migrating Cloud Foundry service instances to a resource group](/docs/account/instance_migration.html).
+- *Existing service instances* that you migrate from Cloud Foundry to a resource group that is managed by the Resource Controller (RC). Service instances that were created before May 29 continue to use service credentials for authentication until you migrate them. For more information, see [Migrating Cloud Foundry service instances to a resource group](/docs/resources/instance_migration.html).
 
 All new and existing service instances in other regions continue to use service credentials (`{username}:{password}`) for authentication.
 
