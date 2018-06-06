@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-05-29"
+lastupdated: "2018-06-06"
 
 ---
 
@@ -32,8 +32,13 @@ When we change the API in a backwards-incompatible way, we release a new minor v
 
 ## Changes
 
+### 06 June 2018
+{: #06-june-2018}
+
+- Improved results for Korean categories.
+
 ### 29 May 2018
-{: 29-may-2018}
+{: #29-may-2018}
 
 
 The service now supports a new API authentication process for service instances created in Sydney (**au-syd**). {{site.data.keyword.cloud}} is in the process of migrating to token-based Identity and Access Management (IAM) authentication. IAM uses access tokens rather than service credentials for authentication with a service.
