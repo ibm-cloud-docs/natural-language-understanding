@@ -35,7 +35,7 @@ When we change the API in a backwards-incompatible way, we release a new minor v
 ### 06 June 2018
 {: #06-june-2018}
 
-- Improved results for Korean categories.
+- Minor improvements for Korean categories results.
 
 ### 29 May 2018
 {: #29-may-2018}
