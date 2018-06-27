@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-06-06"
+lastupdated: "2018-06-26"
 
 ---
 
@@ -22,6 +22,25 @@ lastupdated: "2018-06-06"
 The following new features and changes to the service are available.
 {: shortdesc}
 
+## New API authentication process
+{: #iam-auth-process }
+
+The {{site.data.keyword.nlushort}} service has a new API authentication process for service instances that are hosted in the following regions and dates:
+
+- Sydney as of May 29, 2018
+- US East as of June 12, 2018
+
+{{site.data.keyword.cloud_notm}} is migrating to token-based Identity and Access Management (IAM) authentication. With some service instances, you authenticate to the API by using IAM.
+
+- For _new_ service instances in the regions and dates indicated previously, you use IAM for authentication. You can pass either a bearer token or an API key. Tokens support authenticated requests without embedding service credentials in every call. API keys use basic authentication.
+
+    When you use any of the Watson SDKs, you can pass the API key and let the SDK manage the lifecycle of the tokens. For more information and examples, see [Authentication ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/watson/developercloud/natural-language-understanding/api/v1/#authentication){: new_window} in the API reference.
+- For _existing_ service instances that you created before the indicated date, you continue to authenticate by providing the username and password for the service instance. Eventually, you will need to migrate these service instances to IAM authentication. Updates will be provided about migration process and dates. For more information about migration, see [Migrating Cloud Foundry service instances to a resource group](/docs/resources/instance_migration.html).
+
+To find out which authentication to use, view the service credentials by clicking the service instance on the [Dashboard ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/dashboard/apps?watson){: new_window}.
+
+All new and existing service instances in other regions continue to use service credentials (`{username}:{password}`) for authentication. IAM access tokens will be enabled for applications that are hosted in other regions soon.
+
 ## Service API versioning
 
 **Current API version**: 2018-03-16
@@ -32,7 +51,24 @@ When we change the API in a backwards-incompatible way, we release a new minor v
 
 ## Changes
 
-### 06 June 2018
+### 26 June 2018
+{: #26-june-2018}
+
+Added support for Japanese entities and keywords.
+
+- For Japanese input, the following entities are not yet supported:
+  - Number
+  - Percent
+  - PhoneNumber
+  - URL
+- IPv6 addresses in Japanese input are not yet detectable as IPAddress entities.
+
+### 12 June 2018
+{: #12-june-2018}
+
+As of 12 June 2018, new service instances created in the US East region use [Identity and Access Management (IAM) authentication](#iam-auth-process).
+
+### 6 June 2018
 {: #06-june-2018}
 
 - Minor improvements for Korean categories results.
@@ -40,53 +76,7 @@ When we change the API in a backwards-incompatible way, we release a new minor v
 ### 29 May 2018
 {: #29-may-2018}
 
-
-The service now supports a new API authentication process for service instances created in Sydney (**au-syd**). {{site.data.keyword.cloud}} is in the process of migrating to token-based Identity and Access Management (IAM) authentication. IAM uses access tokens rather than service credentials for authentication with a service.
-
-In the Sydney region, you use IAM access tokens with the {{site.data.keyword.nlushort}} service for
-
-- *New service instances* that you create after May 29. For more information, see [Authenticating with IAM tokens](/docs/services/watson/getting-started-iam.html).
-- *Existing service instances* that you migrate from Cloud Foundry to a resource group that is managed by the Resource Controller (RC). Service instances that were created before May 29 continue to use service credentials for authentication until you migrate them. For more information, see [Migrating Cloud Foundry service instances to a resource group](/docs/resources/instance_migration.html).
-
-All new and existing service instances in other regions continue to use service credentials (`{username}:{password}`) for authentication.
-
-#### Using an IAM access token to authenticate
-
-When you use IAM access tokens, you authenticate before you send a request to the {{site.data.keyword.nlushort}} service.
-
-1. Get an API key from IBM Cloud. Use that key to generate an IAM access token. For more information, see [How to get an IAM token by using a {{site.data.keyword.watson}} service API key](/docs/services/watson/getting-started-iam.html#iamtoken).
-1. Pass the IAM access token to the {{site.data.keyword.nlushort}} service by using the `Authorization` header. In the header, indicate that the access token is a `Bearer` token by specifying `Authorization: Bearer {access_token}`.
-
-    The following simple cURL example uses an access token:
-
-    ```bash
-    curl -X GET \
-    --header "Authorization: Bearer eyJhbGciOiJIUz......sgrKIi8hdFs" \
-    "https://gateway.watsonplatform.net/natural-language-understanding/api/v1/models?version=2018-03-16"
-    ```
-    {: pre}
-
-For more information, see [Using a token to authenticate](/docs/services/watson/getting-started-iam.html#use_token).
-
-#### Refreshing an IAM access token
-
-IAM access tokens that you generate have the following structure. You use the value of the `access_token` field to make an authenticated request to the service.
-
-```javascript
-{
-  "access_token": "eyJhbGciOiJIUz......sgrKIi8hdFs",
-  "refresh_token": "SPrXw5tBE3......KBQ+luWQVY=",
-  "token_type": "Bearer",
-  "expires_in": 3600,
-  "expiration": 1473188353
-}
-```
-{: codeblock}
-
-Access tokens have a limited time to live. The `expires_in` field indicates how long the token lasts in seconds, in this case one hour. The `expiration` field shows when the token expires as a UNIX timestamp that specifies the number of seconds since January 1, 1970 (midnight UTC/GMT).
-
-In your application, check the access token's expiration time before you use it to make an authenticated request. If it is expired, you must refresh the access token before you can use it. You use the value of the `refresh_token` field to refresh the access token. For more information, see [Refreshing a token](/docs/services/watson/getting-started-iam.html#refresh_token).
-
+As of 29 May 2018, new service instances created in the Sydney region use [Identity and Access Management (IAM) authentication](#iam-auth-process).
 
 ### 9 May 2018
 {: #9-may-2018}
@@ -101,6 +91,7 @@ In your application, check the access token's expiration time before you use it 
 - Fixed a bug that caused `NAN` relevance scores to appear in some entities results.
 - Fixed a bug that returned `400` error codes in German and Korean keywords requests when `500` error codes were more appropriate.
 
+
 ### 19 April 2018
 {: #19-april-2018}
 
@@ -110,10 +101,11 @@ In your application, check the access token's expiration time before you use it 
 - Fixed a bug that could cause poor results for targeted sentiment.
 - Fixed a bug that caused the returned `analyzed_text` to include characters that were not analyzed.
 
+
 ### 5 April 2018
 {: #05-april-2018}
 
-- Improved webpage content fetching. If you use the `url` parameter to analyze webpages, you'll see better results, especially from webpages that use framesets and cookies.
+- Improved webpage content fetching. If you use the `url` parameter to analyze webpages, you'll see better results, especially on webpages that use framesets and cookies.
 - Minor improvements to Korean concepts.
 
 ### 16 March 2018

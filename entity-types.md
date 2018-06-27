@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2018-03-16"
+lastupdated: "2018-06-26"
 
 ---
 
@@ -36,6 +36,7 @@ The following entity type systems are used when you set the `version` parameter 
 | French | [Version 2][v2] |
 | German | [Version 2][v2] |
 | Italian | [Version 1][v1] |
+| Japanese | [Version 2][v2] |
 | Korean | [Version 1][v1] |
 | Portuguese | [Version 1][v1] |
 | Russian | [Version 1][v1] |

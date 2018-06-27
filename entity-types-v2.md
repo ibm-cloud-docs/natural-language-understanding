@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2018-03-22"
+lastupdated: "2018-06-26"
 
 ---
 
@@ -35,22 +35,24 @@ The entity type system that {{site.data.keyword.nlushort}} uses differs based on
 | Facility          |
 | GeographicFeature |
 | Hashtag           |
-| IPAddress         |
+| IPAddress&dagger; |
 | JobTitle          |
 | Location          |
 | Measure           |
 | Money             |
-| Number&#42;       |
+| Number&ast;       |
 | Ordinal           |
 | Organization      |
-| Percent&#42;      |
+| Percent&ast;      |
 | Person            |
-| PhoneNumber&#42;  |
+| PhoneNumber&ast;  |
 | Time              |
 | TwitterHandle     |
-| URL&#42;          |
+| URL&ast;          |
 
-&#42; This entity type is not yet detectable in French text.
+&ast; This entity type is not yet detectable in French or Japanese text.
+
+&dagger; IPv6 addresses are not yet detectable in Japanese text.
 
 
 ## Entity subtypes
@@ -183,7 +185,6 @@ The entity type system that {{site.data.keyword.nlushort}} uses differs based on
 | ConferenceSeries                    |
 | ConsumerProduct                     |
 | ContentLicense                      |
-| Continent                           |
 | Country                             |
 | CranialNerve                        |
 | CreativeWork                        |
