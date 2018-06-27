@@ -105,7 +105,7 @@ As of 29 May 2018, new service instances created in the Sydney region use [Ident
 ### 5 April 2018
 {: #05-april-2018}
 
-- Improved webpage content fetching. If you use the `url` parameter to analyze webpages, you'll see better results, especially on webpages that use framesets and cookies.
+- Improved webpage content fetching. If you use the `url` parameter to analyze webpages, you'll see better results, especially from webpages that use framesets and cookies.
 - Minor improvements to Korean concepts.
 
 ### 16 March 2018
