@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-04-23"
+lastupdated: "2018-06-27"
 
 ---
 
@@ -551,12 +551,12 @@ The targeted sentiment option for keywords is not supported for Italian text.
     </tr>
     <tr>
       <td>Entities</td>
-      <td></td>
+      <td>X</td>
       <td>X</td>
     </tr>
     <tr>
       <td>Keywords</td>
-      <td></td>
+      <td>X</td>
       <td></td>
     </tr>
     <tr>
