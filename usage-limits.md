@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-03-16"
+lastupdated: "2018-07-03"
 
 ---
 
@@ -23,6 +23,7 @@ The following usage limits and restrictions apply to {{site.data.keyword.nlushor
 {: shortdesc}
 
 ## Analyzed text limit
+{: #analyzed-text}
 
 {{site.data.keyword.nlushort}} truncates analyzed text that contains more than 50,000 single-byte or multibyte characters. To view the text that counts toward this limit in your requests, set the `return_analyzed_text` parameter to `true`.
 
@@ -41,14 +42,19 @@ Example parameters object:
 ```
 
 ## Concurrent request limit
+{: #concurrent-requests}
 
 Each {{site.data.keyword.nlushort}} service instance is limited to 30 concurrent requests. It's possible that this limit may decrease for service instances on the Lite and Standard plans when the system is experiencing exceptionally heavy traffic. For example, an application that makes 35 simultaneous requests from a single service instance will exceed the concurrent request limit by five requests, and five of those requests will return a `429: Too Many Requests` error.
 
 To increase your concurrent request limit, [open a support ticket](https://ibm.biz/ibmcloudsupport).
 
+## Custom model size limit for Lite pricing plans
+{: #custom-models}
+
+There is a size limit for {{site.data.keyword.knowledgestudioshort}} custom models that are deployed to {{site.data.keyword.nlushort}} service instances on Lite pricing plans. To remove the custom model size limit, go to the {{site.data.keyword.cloud_notm}} [Dashboard](https://console.bluemix.net/dashboard) and upgrade your {{site.data.keyword.nlushort}} instance to a paid pricing plan.
 
 ## Language support
+{: #language-support}
 
 Different language restrictions apply depending on how you use the service. For details, see the [Language support](language-support.html) page.
-
 
