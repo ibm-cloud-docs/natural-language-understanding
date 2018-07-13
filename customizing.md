@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-01-16"
+lastupdated: "2018-07-13"
 
 ---
 
@@ -54,11 +54,10 @@ entities and relations unique to your domain.
     - Example curl request:
 
         ```bash
-        curl -X POST \
-        -H "Content-Type: application/json" \
-        -u "{username}":"{password}" \
-        -d @parameters.json \
-        "https://gateway.watsonplatform.net/natural-language-understanding/api/v1/analyze?version=2017-02-27"
+        curl --user "{username}":"{password}" \        
+        "{url}/v1/analyze?version=2018-03-16" \
+        --request POST \
+        --header "Content-Type: application/json" \
+        --data @parameters.json
         ```
         {: pre}
-

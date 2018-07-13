@@ -14,7 +14,6 @@ Natural Language Understanding
     {: .navgroup id="howto"}
     customizing.md
     overriding-language-detection.md
-    migrating.md
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
