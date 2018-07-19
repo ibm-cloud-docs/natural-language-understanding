@@ -70,7 +70,7 @@ The number of custom models that you deploy to {{site.data.keyword.nlushort}} af
 Example curl request:
     
 ```bash
-curl --user "{username}":"{password}" \        
+curl --user "{username}":"{password}" \
 "{url}/v1/models/{model_id}?version=2018-03-16" \
 --request DELETE
 ```
