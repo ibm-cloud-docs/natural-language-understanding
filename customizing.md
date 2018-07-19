@@ -61,3 +61,18 @@ entities and relations unique to your domain.
         --data @parameters.json
         ```
         {: pre}
+        
+
+## Deleting a custom model
+
+The number of custom models that you deploy to {{site.data.keyword.nlushort}} affects your {{site.data.keyword.nlushort}} bill according to your [pricing plan](https://www.ibm.com/cloud/watson-natural-language-understanding/pricing). To avoid charges for a model that you no longer use, [undeploy the model with {{site.data.keyword.knowledgestudioshort}}](https://console.bluemix.net/docs/services/watson-knowledge-studio/publish-ml.html#undeploy-view-model), or undeploy the model with the **[Delete model](https://www.ibm.com/watson/developercloud/natural-language-understanding/api/v1/#delete-model)** method.
+
+Example curl request:
+    
+```bash
+curl --user "{username}":"{password}" \        
+"{url}/v1/models/{model_id}?version=2018-03-16" \
+--request DELETE
+```
+{: pre}
+
