@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2018-03-16"
+lastupdated: "2018-07-30"
 
 ---
 
@@ -29,6 +29,7 @@ For example, analyzing relations in German text will use the [Version 2 relation
 | Arabic | [Version 1][v1] |
 | English | [Version 1][v1] |
 | German | [Version 2][v2] |
+| Japanese | [Version 2][v2] |
 | Korean | [Version 1][v1] |
 | Spanish | [Version 1][v1] |
 
