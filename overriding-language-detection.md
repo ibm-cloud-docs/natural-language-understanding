@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-07-21"
+  years: 2015, 2018
+lastupdated: "2018-07-31"
 
 ---
 
@@ -37,10 +37,10 @@ __Example _parameters.json_ file__
 __Example curl request__
 
 ```bash
-curl -X POST \
--H "Content-Type: application/json" \
--u "{username}":"{password}" \
--d @parameters.json \
-"https://gateway.watsonplatform.net/natural-language-understanding/api/v1/analyze?version=2017-02-27"
+curl --user "{username}:{password}" \
+"{url}/v1/analyze?version=2018-03-16" \
+--request POST \
+--header "Content-Type: application/json" \
+--data @parameters.json
 ```
 {: pre}
