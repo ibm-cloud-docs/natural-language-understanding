@@ -12,6 +12,7 @@ Natural Language Understanding
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
+    analyzing-webpages.md
     customizing.md
     overriding-language-detection.md
     {: .navgroup-end}
@@ -53,6 +54,7 @@ Natural Language Understanding
 
     {: .navgroup id="help"}
     release-notes.md
+    troubleshooting.md
 
     {: .topicgroup}
     Developer community
