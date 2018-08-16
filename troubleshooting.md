@@ -26,7 +26,7 @@ If you have problems with {{site.data.keyword.nlushort}}, the following troubles
 ## Entities and relations entity types are not consistent
 {: #inconsistent-entity-types}
 
-The entity type systems for the entities and relations features are not always consistent. For some languages and version dates, relations results will contain entity types that are different from the entity types that appear in entities results. See [Entity types and subtypes](entity-types.html) and [Relation types](relation-types.html) for more details. 
+The entity type systems for the entities and relations features are not always consistent. For some languages and version dates, relations results will contain entity types that are different from the entity types that appear in entities results. See [Entity types and subtypes](entity-types.html) and [Relation types](relations.html) for more details. 
 
 ## Incorrect language detection
 {: #incorrect-language-detection}
