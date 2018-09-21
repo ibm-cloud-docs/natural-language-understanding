@@ -51,7 +51,7 @@ Create charts and graphs for sentiment, emotional tone, and keywords for Twitter
   - [Get the Code  ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.com/IBM/cognitive-social-crm?cm_sp=Developer-_-analyze-twitter-handles-and-hashtags-for-sentiment-and-content-_-Get-the-Code){: new_window}
   - [View the Demo  ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://youtu.be/aWKi4f6gytc?cm_sp=Developer-_-analyze-twitter-handles-and-hashtags-for-sentiment-and-content-_-View-the-Video){: new_window}
 
-##[Analyze SMS messages with Watson Knowledge Studio  ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/code/patterns/analyze-sms-messages-with-watson-knowledge-studio/){: new_window}
+## [Analyze SMS messages with Watson Knowledge Studio  ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/code/patterns/analyze-sms-messages-with-watson-knowledge-studio/){: new_window}
 
 Build a custom model to better categorize SMS message content using Watson Knowledge Studio and Watson Natural Language Understanding.
 
