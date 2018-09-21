@@ -57,6 +57,7 @@ When we change the API in a backwards-incompatible way, we release a new minor v
 - Added support for French relations and Portuguese concepts.
 - The targeted sentiment option is now supported for French and Portuguese keywords.
 - Improved French keywords.
+- Improved Korean sentiment.
 - Improved Portuguese keywords and sentiment.
 - Released a new Portuguese entities model with the latest entity type system. You can learn about the latest type system on the [Entity types and subtypes (Version 2)](entity-types-v2.html) page. When your application is compatible with the new type system, change the version date parameter in your requests to `2018-09-21` to use the new model. 
 
