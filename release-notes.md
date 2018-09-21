@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-06-27"
+lastupdated: "2018-09-21"
 
 ---
 
@@ -43,13 +43,22 @@ All new and existing service instances in other regions continue to use service 
 
 ## Service API versioning
 
-**Current API version**: 2018-03-16
+**Current API version**: 2018-09-21
 
 API requests require a version parameter that takes the date in the format `version=YYYY-MM-DD`. Send the version parameter with every API request.
 
 When we change the API in a backwards-incompatible way, we release a new minor version. To take advantage of the changes in a new version, change the value of the version parameter to the new date. If you're not ready to update to that version, don't change your version date.
 
 ## Changes
+
+### 21 September 2018
+{: #21-september-2018}
+
+- Added support for French relations and Portuguese concepts.
+- The targeted sentiment option is now supported for French and Portuguese keywords.
+- Improved French keywords.
+- Improved Portuguese keywords and sentiment.
+- Released a new Portuguese entities model with the latest entity type system. You can learn about the latest type system on the [Entity types and subtypes (Version 2)](entity-types-v2.html) page. When your application is compatible with the new type system, change the version date parameter in your requests to `2018-09-21` to use the new model. 
 
 ### 26 June 2018
 {: #26-june-2018}
