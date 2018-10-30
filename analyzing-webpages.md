@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-08-07"
+lastupdated: "2018-10-30"
 
 ---
 
@@ -38,8 +38,8 @@ By default, the service "cleans" webpages before they are analyzed. Webpage clea
 To disable webpage cleaning, set the **clean** parameter to `false`. The following example disables webpage cleaning.
 
 ```bash
-curl --user "{username}:{password}" \
-"{url}/v1/analyze?version=2018-03-16" \
+curl --user "apikey:{apikey}" \
+"{url}/v1/analyze?version=2018-09-21" \
 --request POST \
 --header "Content-Type: application/json" \
 --data '{
@@ -87,8 +87,8 @@ By default, the **clean** parameter is set to `true`, and results of an XPath qu
 
 **Example request**
 ```bash
-curl --user "{username}:{password}" \
-"{url}/v1/analyze?version=2018-03-16" \
+curl --user "apikey:{apikey}" \
+"{url}/v1/analyze?version=2018-09-21" \
 --request POST \
 --header "Content-Type: application/json" \
 --data @parameters.json
@@ -117,11 +117,10 @@ To analyze only the result of an XPath query, use the **xpath** parameter and se
 
 **Example request**
 ```bash
-curl --user "{username}:{password}" \
-"{url}/v1/analyze?version=2018-03-16" \
+curl --user "apikey:{apikey}" \
+"{url}/v1/analyze?version=2018-09-21" \
 --request POST \
 --header "Content-Type: application/json" \
 --data @parameters.json
 ```
 {: pre}
-
