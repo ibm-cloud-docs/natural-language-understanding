@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-07-31"
+lastupdated: "2018-10-30"
 
 ---
 
@@ -37,10 +37,11 @@ __Example _parameters.json_ file__
 __Example curl request__
 
 ```bash
-curl --user "{username}:{password}" \
-"{url}/v1/analyze?version=2018-03-16" \
+curl --user "apikey:{apikey}" \
+"{url}/v1/analyze?version=2018-09-21" \
 --request POST \
 --header "Content-Type: application/json" \
 --data @parameters.json
+
 ```
 {: pre}
