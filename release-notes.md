@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-10-30"
+lastupdated: "2018-11-05"
 
 ---
 
@@ -55,7 +55,13 @@ When we change the API in a backwards-incompatible way, we release a new minor v
 
 ## Changes
 
+### 5 November 2018
+{: #5-november-2018}
+
+- Added support for Italian concepts.
+
 ### 30 October 2018
+{: #30-october-2018}
 
 As of 30 October 2018, new service instances created in the Germany and US South regions use [Identity and Access Management (IAM) authentication](#iam-auth-process).
 

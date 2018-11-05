@@ -468,7 +468,7 @@ The targeted sentiment option for entities is not supported for Arabic text.
     </tr>
     <tr>
       <td>Concepts</td>
-      <td></td>
+      <td>X</td>
       <td></td>
     </tr>
     <tr>
