@@ -21,19 +21,20 @@ lastupdated: "2018-09-21"
 
 {{site.data.keyword.nlushort}} supports a variety of languages depending on which features you analyze. Currently, English is the only language that is supported across all features. The rest of the languages have limited support. To jump to the list of features that are compatible with a language, click the language in the following list.
 
-- [Arabic](#arabic)
-- [Chinese (Simplified)](#chinese-simplified)
-- [Dutch](#dutch)
-- [English](#english)
-- [French](#french)
-- [German](#german)
-- [Italian](#italian)
-- [Japanese](#japanese)
-- [Korean](#korean)
-- [Portuguese](#portuguese)
-- [Russian](#russian)
-- [Spanish](#spanish)
-- [Swedish](#swedish)
+- [Language support](#language-support)
+  - [Arabic](#arabic)
+  - [Chinese (Simplified)](#chinese-simplified)
+  - [Dutch](#dutch)
+  - [English](#english)
+  - [French](#french)
+  - [German](#german)
+  - [Italian](#italian)
+  - [Japanese](#japanese)
+  - [Korean](#korean)
+  - [Portuguese](#portuguese)
+  - [Russian](#russian)
+  - [Spanish](#spanish)
+  - [Swedish](#swedish)
 
 
 Language support might be different if you are a {{site.data.keyword.Bluemix_dedicated}} customer. If you are using {{site.data.keyword.Bluemix_dedicated}}, check with your IBM salesperson to confirm which languages are supported in your environment.
@@ -468,7 +469,7 @@ The targeted sentiment option for entities is not supported for Arabic text.
     </tr>
     <tr>
       <td>Concepts</td>
-      <td></td>
+      <td>X</td>
       <td></td>
     </tr>
     <tr>
