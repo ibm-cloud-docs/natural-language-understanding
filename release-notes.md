@@ -45,8 +45,6 @@ The {{site.data.keyword.nlushort}} service has a new API authentication process 
 
 To find out which authentication to use, view the service credentials by clicking the service instance on the [Dashboard ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/dashboard/apps?watson){: new_window}.
 
-All new and existing service instances in other locations continue to use service credentials (`{username}:{password}`) for authentication. IAM access tokens will be enabled for applications that are hosted in other locations soon.
-
 ## Service API versioning
 
 **Current API version**: 2018-09-21
