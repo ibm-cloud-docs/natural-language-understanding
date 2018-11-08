@@ -72,7 +72,7 @@ Example curl request:
 
 ```bash
 curl --user "apikey":"{apikey}" \
-"{url}/v1/models/{model_id}?version=2018-10-30" \
+"{url}/v1/models/{model_id}?version=2018-9-21" \
 --request DELETE
 ```
 {: pre}
