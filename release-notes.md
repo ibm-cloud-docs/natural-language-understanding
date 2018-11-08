@@ -65,7 +65,7 @@ When we change the API in a backwards-incompatible way, we release a new minor v
 ### 30 October 2018
 {: #30-october-2018}
 
-As of 30 October 2018, new service instances created in the Germany and US South regions use Identity and Access Management (IAM) authentication.
+As of 30 October 2018, new service instances created in the Germany and US South regions use [Identity and Access Management (IAM) authentication](#iam-auth-process).
 
 ### 21 September 2018
 {: #21-september-2018}
