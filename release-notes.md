@@ -33,6 +33,7 @@ The {{site.data.keyword.nlushort}} service has a new API authentication process 
 - Dallas as of October 30, 2018
 - Frankfurt as of October 30, 2018
 - Sydney as of May 29, 2018
+- Tokyo
 - Washington, DC as of June 12, 2018
 
 {{site.data.keyword.cloud_notm}} is migrating to token-based Identity and Access Management (IAM) authentication. With some service instances, you authenticate to the API by using IAM.
@@ -53,6 +54,11 @@ API requests require a version parameter that takes the date in the format `vers
 When we change the API in a backwards-incompatible way, we release a new minor version. To take advantage of the changes in a new version, change the value of the version parameter to the new date. If you're not ready to update to that version, don't change your version date.
 
 ## Changes
+
+### 8 November 2018
+{: #8-november-2018}
+
+- You can now create {{site.data.keyword.nlushort}} service instances in the IBM Cloud Tokyo location.
 
 ### 5 November 2018
 {: #5-november-2018}
