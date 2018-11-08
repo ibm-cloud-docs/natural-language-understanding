@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2018-07-13"
+lastupdated: "2018-11-08"
 
 ---
 
@@ -19,7 +19,7 @@ lastupdated: "2018-07-13"
 {:download: .download}
 
 # Getting started tutorial
-This short tutorial introduces the {{site.data.keyword.nlushort}} API with example requests and links to additonal resources. 
+This short tutorial introduces the {{site.data.keyword.nlushort}} API with example requests and links to additonal resources.
 {:shortdesc}
 
 ## Before you begin
@@ -32,7 +32,7 @@ This short tutorial introduces the {{site.data.keyword.nlushort}} API with examp
 - Copy the credentials to authenticate to your service instance:
     1.  Click **Show** to view your credentials.
     2.  Copy the `apikey` and `url` values.
-   
+
 - Make sure you have cURL:
     - The examples use cURL to call methods of the HTTP interface. Install the version for your operating system from [curl.haxx.se ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://curl.haxx.se/){: new_window}. Install the version that supports the Secure Sockets Layer (SSL) protocol. Make sure to include the installed binary file on your `PATH` environment variable.
 
@@ -100,5 +100,5 @@ curl --user "apikey:{apikey}" \
 {: #next-steps}
 
 - Get started with one of the [Watson SDKs](https://console.bluemix.net/docs/services/watson/getting-started-sdks.html#sdks).
-- View the [API Reference ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/watson/developercloud/natural-language-understanding/api/v1/){: new_window}.
+- View the [API reference ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.{DomainName}/apidocs/natural-language-understanding){: new_window}.
 - Learn how to identify [custom entities and relations](/docs/services/natural-language-understanding/customizing.html).

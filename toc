@@ -18,7 +18,7 @@ Natural Language Understanding
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
-    [API reference](https://www.ibm.com/watson/developercloud/natural-language-understanding/api/v1/)
+    [API reference](https://console.bluemix.net/apidocs/natural-language-understanding)
     categories.md
     detectable-languages.md
 
@@ -57,6 +57,7 @@ Natural Language Understanding
     {: .navgroup id="help"}
     release-notes.md
     troubleshooting.md
+    pricing.md
 
     {: .topicgroup}
     Developer community
