@@ -33,7 +33,6 @@ The {{site.data.keyword.nlushort}} service has a new API authentication process 
 - Dallas as of October 30, 2018
 - Frankfurt as of October 30, 2018
 - Sydney as of May 29, 2018
-- Tokyo as of November 8, 2018
 - Washington, DC as of June 12, 2018
 
 {{site.data.keyword.cloud_notm}} is migrating to token-based Identity and Access Management (IAM) authentication. With some service instances, you authenticate to the API by using IAM.
