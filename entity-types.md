@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-09-21"
+lastupdated: "2018-11-16"
 
 ---
 
@@ -23,6 +23,24 @@ The entity type system that {{site.data.keyword.nlushort}} uses differs dependin
 {: shortdesc}
 
 For example, analyzing entities in French text with version date set to `2018-09-21` uses the [Version 2 entity type system][v2]. Analyzing entities in French text with a `2017-02-27` version date uses the [Version 1 entity type system][v1].
+
+## Entity type systems for version 2018-11-16
+{: #2018-11-16}
+
+The following entity type systems are used when you set the `version` parameter to `2018-11-16`.
+
+|Language|Entity type system|
+| --- | ---|
+| English | [Version 1][v1] |
+| French | [Version 2][v2] |
+| German | [Version 2][v2] |
+| Italian | [Version 2][v2] |
+| Japanese | [Version 2][v2] |
+| Korean | [Version 1][v1] |
+| Portuguese | [Version 2][v2] |
+| Russian | [Version 1][v1] |
+| Spanish | [Version 1][v1] |
+| Swedish | [Version 1][v1] |
 
 ## Entity type systems for version 2018-09-21
 {: #2018-09-21}

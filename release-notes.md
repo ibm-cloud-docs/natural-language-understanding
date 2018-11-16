@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-11-09"
+lastupdated: "2018-11-16"
 
 ---
 
@@ -29,7 +29,7 @@ On October 30, 2018, the Dallas (US South) and Frankfurt (Germany) regions trans
 {: important}
 
 The {{site.data.keyword.nlushort}} service has a new API authentication process for service instances that are hosted in the following locations:
- 
+
 - Dallas as of October 30, 2018
 - Frankfurt as of October 30, 2018
 - Sydney as of May 29, 2018
@@ -45,15 +45,25 @@ The {{site.data.keyword.nlushort}} service has a new API authentication process 
 
 To find out which authentication to use, view the service credentials by clicking the service instance on the [Dashboard ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/dashboard/apps?watson){: new_window}.
 
+
 ## Service API versioning
 
-**Current API version**: 2018-09-21
+**Current API version**: 2018-11-16
 
 API requests require a version parameter that takes the date in the format `version=YYYY-MM-DD`. Send the version parameter with every API request.
 
 When we change the API in a backwards-incompatible way, we release a new minor version. To take advantage of the changes in a new version, change the value of the version parameter to the new date. If you're not ready to update to that version, don't change your version date.
 
 ## Changes
+
+### 16 November 2018
+{: #16-november-2018}
+
+- Released new algorithms for English keywords and sentiment to improve accuracy and performance.
+- Improved keywords accuracy and performance for English, French, Japanese, and Portuguese input.
+- Improved Italian sentiment accuracy and performance, including better accuracy for large text samples.
+- Fixed a bug that caused URL-encoded text to appear in Spanish entity disambiguation results.
+- Released a new Italian entities model with the latest entity type system. You can learn about the latest type system on the [Entity types and subtypes (Version 2)](entity-types-v2.html) page. When your application is compatible with the new type system, change the version date parameter in your requests to `2018-11-16` to use the new model.
 
 ### 9 November 2018
 {: #9-november-2018}
@@ -70,10 +80,10 @@ When we change the API in a backwards-incompatible way, we release a new minor v
 
 - Added support for Italian concepts.
 
-### 30 October 2018
-{: #30-october-2018}
+### 30 October 2018	
+{: #30-october-2018}	
 
-As of 30 October 2018, new service instances created in the Germany and US South regions use [Identity and Access Management (IAM) authentication](#iam-auth-process).
+As of 30 October 2018, new service instances created in the Germany and US South regions use [Identity and Access Management (IAM) authentication](#iam-auth-process).	
 
 ### 21 September 2018
 {: #21-september-2018}
