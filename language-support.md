@@ -21,7 +21,6 @@ lastupdated: "2018-11-16"
 
 {{site.data.keyword.nlushort}} supports a variety of languages depending on which features you analyze. Currently, English is the only language that is supported across all features. The rest of the languages have limited support. To jump to the list of features that are compatible with a language, click the language in the following list.
 
-- [Language support](#language-support)
   - [Arabic](#arabic)
   - [Chinese (Simplified)](#chinese-simplified)
   - [Dutch](#dutch)

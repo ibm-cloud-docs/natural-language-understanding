@@ -34,7 +34,7 @@ The {{site.data.keyword.nlushort}} service has a new API authentication process 
 - Frankfurt as of October 30, 2018
 - Sydney as of May 29, 2018
 - Tokyo
-- US East as of June 12, 2018
+- Washington, DC as of June 12, 2018
 
 {{site.data.keyword.cloud_notm}} is migrating to token-based Identity and Access Management (IAM) authentication. With some service instances, you authenticate to the API by using IAM.
 
@@ -45,7 +45,6 @@ The {{site.data.keyword.nlushort}} service has a new API authentication process 
 
 To find out which authentication to use, view the service credentials by clicking the service instance on the [Dashboard ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/dashboard/apps?watson){: new_window}.
 
-All new and existing service instances in other locations continue to use service credentials (`{username}:{password}`) for authentication. IAM access tokens will be enabled for applications that are hosted in other locations soon.
 
 ## Service API versioning
 
@@ -80,6 +79,11 @@ When we change the API in a backwards-incompatible way, we release a new minor v
 {: #5-november-2018}
 
 - Added support for Italian concepts.
+
+### 30 October 2018	
+{: #30-october-2018}	
+
+As of 30 October 2018, new service instances created in the Germany and US South regions use [Identity and Access Management (IAM) authentication](#iam-auth-process).	
 
 ### 21 September 2018
 {: #21-september-2018}
