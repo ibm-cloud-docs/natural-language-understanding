@@ -25,7 +25,7 @@ The following new features and changes to the service are available.
 ## New API authentication process
 {: #iam-auth-process }
 
-On October 30, 2018, the Dallas (US South) and Frankfurt (Germany) regions transitioned to using token-based Identity and Access Management (IAM) authentication. (See [Authenticating with IAM tokens ![External link icon](../../icons/launch-glyph.svg "External link icon")](/docs/services/watson/getting-started-iam.html) for more information.)
+On October 30, 2018, the Dallas (US South) and Frankfurt (Germany) locations transitioned to using token-based Identity and Access Management (IAM) authentication. (See [Authenticating with IAM tokens ![External link icon](../../icons/launch-glyph.svg "External link icon")](/docs/services/watson/getting-started-iam.html) for more information.)
 {: important}
 
 The {{site.data.keyword.nlushort}} service has a new API authentication process for service instances that are hosted in the following locations:
