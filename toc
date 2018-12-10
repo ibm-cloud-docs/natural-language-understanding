@@ -18,7 +18,7 @@ Natural Language Understanding
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
-    [API reference](https://console.bluemix.net/apidocs/natural-language-understanding)
+    [API reference](https://cloud.ibm.com/apidocs/natural-language-understanding)
     categories.md
     detectable-languages.md
 
