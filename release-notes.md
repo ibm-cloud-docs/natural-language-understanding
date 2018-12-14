@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-11-16"
+lastupdated: "2018-12-14"
 
 ---
 
@@ -32,6 +32,7 @@ The {{site.data.keyword.nlushort}} service has a new API authentication process 
 
 - Dallas as of October 30, 2018
 - Frankfurt as of October 30, 2018
+- London
 - Sydney as of May 29, 2018
 - Tokyo
 - Washington, DC as of June 12, 2018
@@ -55,6 +56,30 @@ API requests require a version parameter that takes the date in the format `vers
 When we change the API in a backwards-incompatible way, we release a new minor version. To take advantage of the changes in a new version, change the value of the version parameter to the new date. If you're not ready to update to that version, don't change your version date.
 
 ## Changes
+
+### 14 December 2018
+{: #14-december-2018}
+
+- You can now create {{site.data.keyword.nlushort}} service instances in the IBM Cloud London location.
+- Added support for Portuguese relations.
+- Added support for Italian relations.
+- Added a `limit` parameter for categories requests that controls the number of categories returned up to a maximum of 10.
+
+### 6 December 2018
+{: #6-december-2018}
+
+- Improved accuracy for Italian categories, keywords, entities, and categories.
+
+### 27 November 2018
+{: #27-november-2018}
+
+- Improved quality of keywords results for English, French, Japanese, and Portuguese input.
+- Keywords with different capitalizations now appear in results as the same keyword.
+- The **Get models** method now returns additional fields that you can use to manage custom models across several deployments.
+  - `version`: user-provided version string from {{site.data.keyword.knowledgestudioshort}}
+  - `version_description`: user-provided description of this version from {{site.data.keyword.knowledgestudioshort}} (for example, what changed since the previous version)
+  - `workspace_id`: An ID provided by {{site.data.keyword.knowledgestudioshort}} that remains constant over repeated deployments from the same {{site.data.keyword.knowledgestudioshort}} workspace.
+  - `created`: A datetime string that indicates when the model was deployed to NLU.
 
 ### 16 November 2018
 {: #16-november-2018}

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-11-16"
+lastupdated: "2018-12-14"
 
 ---
 
@@ -34,7 +34,6 @@ lastupdated: "2018-11-16"
   - [Russian](#russian)
   - [Spanish](#spanish)
   - [Swedish](#swedish)
-
 
 Language support might be different if you are a {{site.data.keyword.Bluemix_dedicated}} customer. If you are using {{site.data.keyword.Bluemix_dedicated}}, check with your IBM salesperson to confirm which languages are supported in your environment.
 {: tip}
@@ -493,7 +492,7 @@ The targeted sentiment option for entities is not supported for Arabic text.
     </tr>
     <tr>
       <td>Relations</td>
-      <td></td>
+      <td>X</td>
       <td>X</td>
     </tr>
     <tr>
@@ -695,7 +694,7 @@ The targeted sentiment option for entities is not supported for Arabic text.
     </tr>
     <tr>
       <td>Relations</td>
-      <td></td>
+      <td>X</td>
       <td>X</td>
     </tr>
     <tr>
