@@ -1,55 +1,58 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2018-11-08"
+  years: 2015, 2018
+lastupdated: "2018-12-19"
 
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 {:tip: .tip}
+{:important: .important}
+{:note: .note}
+{:deprecated: .deprecated}
 {:pre: .pre}
 {:codeblock: .codeblock}
 {:screen: .screen}
 {:javascript: .ph data-hd-programlang='javascript'}
+{:go: .ph data-hd-programlang='go'}
 {:java: .ph data-hd-programlang='java'}
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 {:download: .download}
+{:apikey: data-credential-placeholder='apikey'}
+{:url: data-credential-placeholder='url'}
+{:hide-dashboard: .hide-dashboard}
 
 # Getting started tutorial
-This short tutorial introduces the {{site.data.keyword.nlushort}} API with example requests and links to additonal resources.
+This short tutorial introduces the {{site.data.keyword.nlushort}} API with example requests and links to additional resources.
 {:shortdesc}
 
 ## Before you begin
 {: #before-you-begin}
 
-- Create an instance of the service:
-    1.  Go to the [{{site.data.keyword.nlushort}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.{DomainName}/catalog/services/natural-language-understanding){: new_window} page in the {{site.data.keyword.Bluemix_notm}} Catalog.
+- {: hide-dashboard} Create an instance of the service:
+    1.  Go to the [{{site.data.keyword.nlushort}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/catalog/services/natural-language-understanding){: new_window} page in the {{site.data.keyword.Bluemix_notm}} Catalog.
     2.  Sign up for a free {{site.data.keyword.Bluemix_notm}} account or log in.
     3.  Click **Create**.
 - Copy the credentials to authenticate to your service instance:
-    1.  Click **Show** to view your credentials.
-    2.  Copy the `apikey` and `url` values.
+    1.  On the **Manage** page, click **Show** to view your credentials.
+    2.  Copy the `API Key` and `URL` values.
+- Make sure that you have the `curl` command:
+    - The examples use `curl` command to call methods of the HTTP interface. Install the version for your operating system from [curl.haxx.se ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://curl.haxx.se/){: new_window}. Install the version that supports the Secure Sockets Layer (SSL) protocol. Make sure to include the installed binary file on your `PATH` environment variable.
 
-- Make sure you have cURL:
-    - The examples use cURL to call methods of the HTTP interface. Install the version for your operating system from [curl.haxx.se ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://curl.haxx.se/){: new_window}. Install the version that supports the Secure Sockets Layer (SSL) protocol. Make sure to include the installed binary file on your `PATH` environment variable.
-
-
-This tutorial shows you how to use the {{site.data.keyword.nlushort}} API from a command-line interface. To download client libraries for various programming languages, check out the [Watson SDKs](https://console.bluemix.net/docs/services/watson/getting-started-sdks.html#sdks).
+This tutorial shows you how to use the {{site.data.keyword.nlushort}} API from a command-line interface. To download client libraries for various programming languages, check out the [Watson SDKs](/docs/services/watson/getting-started-sdks.html#sdks).
 {:tip}
-
 
 ## Step 1: Analyze a webpage
 {: #analyze-sample}
 
-Open a bash shell and run the following command to analyze a webpage to get sentiment, concepts, categories, entities, and  keywords. Replace `{apikey}` and `{url}` with your service credentials.
+Run the following command to analyze a webpage to get sentiment, concepts, categories, entities, and keywords. <span class="hide-dashboard">Replace `{apikey}` and `{url}` with your service credentials.</span>
 
 ```bash
-curl --user "apikey:{apikey}" \
-"{url}/v1/analyze?version=2018-09-21" \
---request POST \
+curl -X POST -u "apikey:{apikey}" \
+"{url}/v1/analyze?version=2018-11-16" \
 --header "Content-Type: application/json" \
 --data '{
   "url": "http://newsroom.ibm.com/Guerbet-and-IBM-Watson-Health-Announce-Strategic-Partnership-for-Artificial-Intelligence-in-Medical-Imaging-Liver",
@@ -74,8 +77,8 @@ The next step demonstrates how to specify options that customize the analysis fo
 You can also get sentiment and emotion results for entities and keywords that are detected in your text. In the example, the **emotion** option for keywords tells the service to analyze each detected keyword for emotion results.
 
 ```bash
-curl --user "apikey:{apikey}" \
-"{url}/v1/analyze?version=2018-03-16" \
+curl -X POST -u "apikey:{apikey}" \
+"{url}/v1/analyze?version=2018-11-16" \
 --request POST \
 --header "Content-Type: application/json" \
 --data '{
@@ -99,6 +102,5 @@ curl --user "apikey:{apikey}" \
 ## Next steps
 {: #next-steps}
 
-- Get started with one of the [Watson SDKs](https://console.bluemix.net/docs/services/watson/getting-started-sdks.html#sdks).
-- View the [API reference ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.{DomainName}/apidocs/natural-language-understanding){: new_window}.
+- View the [API reference ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/apidocs/natural-language-understanding){: new_window}.
 - Learn how to identify [custom entities and relations](/docs/services/natural-language-understanding/customizing.html).
