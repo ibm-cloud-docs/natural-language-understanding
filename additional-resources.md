@@ -20,6 +20,7 @@ lastupdated: "2018-12-20"
 # Additional resources
 
 ## Case studies
+{: #case-studies}
 
 
 <table>
@@ -125,6 +126,7 @@ lastupdated: "2018-12-20"
 </table>
 
 ## Blogs
+{: #blogs}
 
 - [Box and IBM Watson unveil new skills to power intelligent enterprise cloud content management](https://www.ibm.com/blogs/watson/2018/06/box-and-ibm-watson-unveil-new-skills-to-power-intelligent-enterprise-cloud-content-management/)
 - [Helvetia Seguros launches Watson-powered virtual assistant to support sales staff](https://www.ibm.com/blogs/cloud-computing/2018/12/04/helvetia-seguros-watson-virtual-assistant/)
@@ -151,6 +153,8 @@ lastupdated: "2018-12-20"
 
 
 ## Other resources
+{: #other-resources}
+
 - [NLU Video Playlist](https://www.ibm.biz/nlu_videos): Includes service overviews, a technical deep dive, and Building With Watson videos to help get you started!
 - [NLU Redbook](http://www.redbooks.ibm.com/redbooks/pdfs/sg248398.pdf): In depth walkthrough on how to use the service.
 - [Developing Node.js Applications on IBM Cloud Redbook](http://www.redbooks.ibm.com/redbooks/pdfs/sg248406.pdf): How to create various applications based on Node.js, and deploy and run them on IBM Cloud.
