@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-12-14"
+  years: 2015, 2019
+lastupdated: "2019-01-10"
 
 ---
 
@@ -57,6 +57,12 @@ When we change the API in a backwards-incompatible way, we release a new minor v
 
 ## Changes
 
+### 10 January 2019
+{: #10-january-2019}
+
+- **List models** and **Delete model** requests that don't include a version date parameter now return `400` errors instead of successful responses.
+- Improved entities performance for languages other than English.
+
 ### 14 December 2018
 {: #14-december-2018}
 
@@ -64,6 +70,7 @@ When we change the API in a backwards-incompatible way, we release a new minor v
 - Added support for Portuguese relations.
 - Added support for Italian relations.
 - Added a `limit` parameter for categories requests that controls the number of categories returned up to a maximum of 10.
+- Improved accuracy for Japanese and German sentiment.
 
 ### 6 December 2018
 {: #6-december-2018}
