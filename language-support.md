@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-12-14"
+  years: 2015, 2019
+lastupdated: "2019-01-15"
 
 ---
 
@@ -502,13 +502,11 @@ The targeted sentiment option for entities is not supported for Arabic text.
     </tr>
     <tr>
       <td>Sentiment</td>
-      <td>X&ast;</td>
+      <td>X</td>
       <td></td>
     </tr>
   </tbody>
 </table>
-
-&ast; The targeted sentiment option for keywords is not supported for Italian text.
 
 
 ## Japanese
