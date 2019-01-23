@@ -51,8 +51,8 @@ This tutorial shows you how to use the {{site.data.keyword.nlushort}} API from a
 Run the following command to analyze a webpage to get sentiment, concepts, categories, entities, and keywords. <span class="hide-dashboard">Replace `{apikey}` and `{url}` with your service credentials.</span>
 
 ```bash
-curl -X POST -u "apikey:{apikey}" \
-"{url}/v1/analyze?version=2018-11-16" \
+curl -X POST -u "apikey:{apikey}"{: apikey} \
+"{url}/v1/analyze?version=2018-11-16"{: url} \
 --header "Content-Type: application/json" \
 --data '{
   "url": "http://newsroom.ibm.com/Guerbet-and-IBM-Watson-Health-Announce-Strategic-Partnership-for-Artificial-Intelligence-in-Medical-Imaging-Liver",
@@ -77,8 +77,8 @@ The next step demonstrates how to specify options that customize the analysis fo
 You can also get sentiment and emotion results for entities and keywords that are detected in your text. In the example, the **emotion** option for keywords tells the service to analyze each detected keyword for emotion results.
 
 ```bash
-curl -X POST -u "apikey:{apikey}" \
-"{url}/v1/analyze?version=2018-11-16" \
+curl -X POST -u "apikey:{apikey}"{: apikey} \
+"{url}/v1/analyze?version=2018-11-16"{: url} \
 --request POST \
 --header "Content-Type: application/json" \
 --data '{
