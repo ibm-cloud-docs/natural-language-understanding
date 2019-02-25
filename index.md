@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-11-28"
+  years: 2015, 2019
+lastupdated: "2019-02-25"
 
 ---
 
@@ -31,7 +31,7 @@ Send requests to the API with text, HTML, or a public URL, and specify one or mo
 ### Categories
 {: #categories}
 
-Categorize your content using a five-level classification hierarchy. View the complete list of categories [here](/docs/services/natural-language-understanding/categories.html). For example:
+Categorize your content using a five-level classification hierarchy. View the complete list of categories [here](/docs/services/natural-language-understanding?topic=natural-language-understanding-categories-hierarchy). For example:
 
 **Input**
 > url: "www.cnn.com"
@@ -72,7 +72,7 @@ Analyze emotion conveyed by specific target phrases or by the document as a whol
 ### Entities
 {: #entities}
 
-Find people, places, events, and other types of entities mentioned in your content. View the complete list of entity types and subtypes [here](/docs/services/natural-language-understanding/entity-types.html). For example:
+Find people, places, events, and other types of entities mentioned in your content. View the complete list of entity types and subtypes [here](/docs/services/natural-language-understanding?topic=natural-language-understanding-entity-type-systems). For example:
 
 **Input**
 > text: "IBM is an American multinational technology company headquartered in Armonk, New York, United States, with operations in over 170 countries."
@@ -148,9 +148,4 @@ Analyze the sentiment toward specific target phrases and the sentiment of the do
 ## Supported languages
 {: #supported-languages}
 
-See the [Language support documentation](/docs/services/natural-language-understanding/language-support.html) for details about supported languages in {{site.data.keyword.nlushort}}.
-
-## Pricing
-{: #pricing}
-
-For pricing information, see the [{{site.data.keyword.nlushort}} service](https://console.bluemix.net/catalog/services/natural-language-understanding) in the {{site.data.keyword.cloud}} catalog.
+See the [Language support documentation](/docs/services/natural-language-understanding?topic=natural-language-understanding-language-support) for details about supported languages in {{site.data.keyword.nlushort}}.

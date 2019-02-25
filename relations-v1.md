@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2018-03-16"
+  years: 2015, 2019
+lastupdated: "2019-02-25"
 
 ---
 
@@ -10,6 +10,7 @@ lastupdated: "2018-03-16"
 {:new_window: target="_blank"}
 {:tip: .tip}
 {:pre: .pre}
+{:note: .note}
 {:codeblock: .codeblock}
 {:screen: .screen}
 {:javascript: .ph data-hd-programlang='javascript'}
@@ -18,9 +19,13 @@ lastupdated: "2018-03-16"
 {:swift: .ph data-hd-programlang='swift'}
 
 # Relation types (Version 1)
+{: #relation-types-version-1}
 
-The following table lists the relation types returned by the _Version 1_ relation type system. The relation type system that {{site.data.keyword.nlushort}} uses differs based on which language you are using. For more details, see the [Relation types](relations.html) page.
+The following table lists the relation types returned by the _Version 1_ relation type system. The relation type system that {{site.data.keyword.nlushort}} uses differs based on which language you are using. For more details, see the [Relation type systems](/docs/services/natural-language-understanding?topic=natural-language-understanding-relation-type-systems) page.
 {: shortdesc}
+
+In the _Version 1_ type system, the entity types in relations results are different than the entity types returned in entities results. To see the list of entity types used in _Version 1_ relations, see the [Entity types (Version 1)](/docs/services/natural-language-understanding?topic=natural-language-understanding-entity-types-version-1#relations-entity-types) page.
+{: note}
 
 | Relation        | Description                                                                                                                                                                                                        |
 |-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -77,69 +82,3 @@ The following table lists the relation types returned by the _Version 1_ relatio
 | spouseOf        | Exists between two People that are formal spouses.                                                                                                                                                      |
 | subsidiaryOf    | Exists between two Organizations when the first is a subsidiary of the second, meaning the first entity has a fair amount of autonomy despite being under the control of the second.                               |
 | timeOf          | Indicates the Date, Time, or Duration at or for which an event occurred; a TitleWork was published, performed, or broadcast; or a Law was first drafted, created, passed, or abolished.                            |
-
-## Entity types unique to relations
-
-The entity types involved in the _Version 1_ relation type system are different from the entity types involved in the default entity type systems. You can specify one of the following relations entity models in the `model` parameter for the `entities` feature to override the default entity detection model.
-
-|Model ID|Description|
-|--------|-----------|
-|ar-news|Arabic news|
-|en-news|English news|
-|es-news|Spanish news|
-
-The following entities can be identified with the `relations` models:
-
-|Entity type|
-|---|
-|Age|
-|Anatomy|
-|Animal|
-|Award|
-|Cardinal|
-|Crime|
-|Date|
-|Degree|
-|Duration|
-|EmailAddress|
-|Event|
-|EventBusiness|
-|EventCommunication|
-|EventCustody|
-|EventDemonstration|
-|EventEducation|
-|EventElection|
-|EventGathering|
-|EventLegal|
-|EventLegislation|
-|EventMeeting|
-|EventPerformance|
-|EventPersonnel|
-|EventViolence|
-|Facility|
-|Food|
-|GeographicFeature|
-|GeopoliticalEntity|
-|HealthCondition|
-|Law|
-|Location|
-|Money|
-|Measure|
-|NaturalEvent|
-|Organization|
-|Ordinal|
-|Percent|
-|Person|
-|Phone|
-|Plant|
-|Product|
-|SportingEvent|
-|Substance|
-|Ticker|
-|Time|
-|TitleWork|
-|Vehicle|
-|Weapon|
-|Weather|
-|Web|
-

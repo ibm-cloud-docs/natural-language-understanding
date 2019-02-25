@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-07-03"
+  years: 2015, 2019
+lastupdated: "2019-02-25"
 
 ---
 
@@ -18,6 +18,7 @@ lastupdated: "2018-07-03"
 {:swift: .ph data-hd-programlang='swift'}
 
 # Usage limits
+{: #usage-limits}
 
 The following usage limits and restrictions apply to {{site.data.keyword.nlushort}} service instances.
 {: shortdesc}
@@ -51,10 +52,11 @@ To increase your concurrent request limit, [open a support ticket](https://ibm.b
 ## Custom model size limit for Lite pricing plans
 {: #custom-models}
 
-There is a size limit for {{site.data.keyword.knowledgestudioshort}} custom models that are deployed to {{site.data.keyword.nlushort}} service instances on Lite pricing plans. To remove the custom model size limit, go to the {{site.data.keyword.cloud_notm}} [Dashboard](https://console.bluemix.net/dashboard) and upgrade your {{site.data.keyword.nlushort}} instance to a paid pricing plan.
+There is a size limit for {{site.data.keyword.knowledgestudioshort}} custom models that are deployed to {{site.data.keyword.nlushort}} service instances on Lite pricing plans. To remove the custom model size limit, upgrade your {{site.data.keyword.nlushort}} service instance to a paid pricing plan. You can find your service instances on the {{site.data.keyword.cloud_notm}} [resources page](https://{DomainName}/resources).
 
 ## Language support
 {: #language-support}
 
-Different language restrictions apply depending on how you use the service. For details, see the [Language support](language-support.html) page.
+Different language restrictions apply depending on how you use the service. For details, see the [Language support](/docs/services/natural-language-understanding?topic=natural-language-understanding-language-support) page.
+
 

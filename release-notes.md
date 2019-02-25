@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-01-10"
+lastupdated: "2019-02-25"
 
 ---
 
@@ -18,6 +18,7 @@ lastupdated: "2019-01-10"
 {:swift: .ph data-hd-programlang='swift'}
 
 # Release notes
+{: #release-notes}
 
 The following new features and changes to the service are available.
 {: shortdesc}
@@ -48,6 +49,7 @@ To find out which authentication to use, view the service credentials by clickin
 
 
 ## Service API versioning
+{: #service-api-versioning}
 
 **Current API version**: 2018-11-16
 
@@ -56,6 +58,7 @@ API requests require a version parameter that takes the date in the format `vers
 When we change the API in a backwards-incompatible way, we release a new minor version. To take advantage of the changes in a new version, change the value of the version parameter to the new date. If you're not ready to update to that version, don't change your version date.
 
 ## Changes
+{: #changes}
 
 ### 10 January 2019
 {: #10-january-2019}

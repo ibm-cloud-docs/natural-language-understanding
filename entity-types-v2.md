@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-06-27"
+lastupdated: "2019-02-21"
 
 ---
 
@@ -17,12 +17,13 @@ lastupdated: "2018-06-27"
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-# Entity types and subtypes (Version 2)
+# Entity types (Version 2)
+{: #entity-types-version-2}
 
 The following tables list the entity types and subtypes that are used in the _Version 2_ entity type system.
 {: shortdesc}
 
-The entity type system that {{site.data.keyword.nlushort}} uses differs based on which version date and which language you are using. For more details, see the [Entity types and subtypes](entity-types.html) page.
+The entity type system that {{site.data.keyword.nlushort}} uses differs based on which version date and which language you are using. For more details, see the [Entity types systems](/docs/services/natural-language-understanding?topic=natural-language-understanding-entity-type-systems) page.
 
 ## Entity types
 {: #entity-types}

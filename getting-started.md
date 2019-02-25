@@ -26,6 +26,8 @@ lastupdated: "2018-12-19"
 {:hide-dashboard: .hide-dashboard}
 
 # Getting started tutorial
+{: #getting-started}
+
 This short tutorial introduces the {{site.data.keyword.nlushort}} API with example requests and links to additional resources.
 {:shortdesc}
 
@@ -42,7 +44,7 @@ This short tutorial introduces the {{site.data.keyword.nlushort}} API with examp
 - Make sure that you have the `curl` command:
     - The examples use `curl` command to call methods of the HTTP interface. Install the version for your operating system from [curl.haxx.se ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://curl.haxx.se/){: new_window}. Install the version that supports the Secure Sockets Layer (SSL) protocol. Make sure to include the installed binary file on your `PATH` environment variable.
 
-This tutorial shows you how to use the {{site.data.keyword.nlushort}} API from a command-line interface. To download client libraries for various programming languages, check out the [Watson SDKs](/docs/services/watson/getting-started-sdks.html#sdks).
+This tutorial shows you how to use the {{site.data.keyword.nlushort}} API from a command-line interface. To download client libraries for various programming languages, check out the [Watson SDKs](/docs/services/natural-language-understanding?topic=watson-using-sdks#using-sdks).
 {:tip}
 
 ## Step 1: Analyze a webpage
@@ -103,4 +105,4 @@ curl -X POST -u "apikey:{apikey}"{: apikey} \
 {: #next-steps}
 
 - View the [API reference ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/apidocs/natural-language-understanding){: new_window}.
-- Learn how to identify [custom entities and relations](/docs/services/natural-language-understanding/customizing.html).
+- Learn how to identify [custom entities and relations](/docs/services/natural-language-understanding?topic=natural-language-understanding-customizing).

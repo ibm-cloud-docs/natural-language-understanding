@@ -18,6 +18,7 @@ lastupdated: "2018-12-20"
 {:swift: .ph data-hd-programlang='swift'}
 
 # Additional resources
+{: #additional-resources}
 
 ## Case studies
 {: #case-studies}
