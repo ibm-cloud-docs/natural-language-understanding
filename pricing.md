@@ -18,10 +18,11 @@ lastupdated: "2018-11-08"
 {:swift: .ph data-hd-programlang='swift'}
 
 # Pricing
+{: #pricing}
 
 {{site.data.keyword.nlushort}} has three pricing plans: Lite, Standard and Premium.
 
-This page contains pricing information in USD. To view pricing information in your local currency, see the [{{site.data.keyword.nlushort}}](https://console.bluemix.net/catalog/services/natural-language-understanding) page in the {{site.data.keyword.cloud}} catalog.
+This page contains pricing information in USD. To view pricing information in your local currency, see the [{{site.data.keyword.nlushort}}](https://{DomainName}/catalog/services/natural-language-understanding) page in the {{site.data.keyword.cloud}} catalog.
 {: tip}
 
 ## Lite
@@ -132,5 +133,6 @@ Estimated price = $750 + $50
 
 ### How do I calculate the Standard Plan price for 6,000,000 NLU items?
 - Since you have more than 5,000,000 NLU items, your first 250,000 NLU items are charged at $0.003 per item (Tier 1), your next 4,750,000 NLU items are charged at $0.001 per item (Tier 2), and your remaining 1,000,000 NLU items are charged at $0.0002 per item (Tier 3). Your estimated price would be $5,700. 
+
 
 

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2018-12-14"
+  years: 2015, 2019
+lastupdated: "2019-02-25"
 
 ---
 
@@ -17,7 +17,8 @@ lastupdated: "2018-12-14"
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-# Relation types
+# Relation type systems
+{: #relation-type-systems}
 
 The relation type system that {{site.data.keyword.nlushort}} differs depending on which language you are using. This page describes which relation type system is used for each language.
 {: shortdesc}
@@ -37,5 +38,5 @@ For example, analyzing relations in German text will use the [Version 2 relation
 | Spanish | [Version 1][v1] |
 
 
-[v1]: relations-v1.html
-[v2]: relations-v2.html
+[v1]: /docs/services/natural-language-understanding?topic=natural-language-understanding-relation-types-version-1
+[v2]: /docs/services/natural-language-understanding?topic=natural-language-understanding-relation-types-version-2

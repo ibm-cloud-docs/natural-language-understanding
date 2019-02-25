@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-12-15"
+  years: 2015, 2019
+lastupdated: "2019-02-25"
 
 ---
 
@@ -18,11 +18,12 @@ lastupdated: "2017-12-15"
 {:swift: .ph data-hd-programlang='swift'}
 
 # Detectable languages
+{: #detectable-languages}
 
 When you analyze text or a web page, Natural Language Understanding detects the source language automatically and returns the corresponding ISO 639-1 code in the response. For automatic language detection to work best, it is recommended that you use text with at least 100 characters.
 {: shortdesc}
 
-If automatic language detection isn't working well for your use case, you can [manually specify the language of your content](/docs/services/natural-language-understanding/overriding-language-detection.html) in each request.
+If automatic language detection isn't working well for your use case, you can [manually specify the language of your content](/docs/services/natural-language-understanding?topic=natural-language-understanding-overriding-language-detection) in each request.
 {: tip}
 
 The following table lists the detectable languages and corresponding ISO 639-1 codes.

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-10-30"
+  years: 2015, 2019
+lastupdated: "2019-02-25"
 
 ---
 
@@ -18,6 +18,7 @@ lastupdated: "2018-10-30"
 {:swift: .ph data-hd-programlang='swift'}
 
 # Overriding language detection
+{: #overriding-language-detection}
 
 To override automatic language detection in `/analyze` requests, specify a language code in the `language` attribute of the `parameters` JSON object.
 

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-06-29"
+  years: 2015, 2019
+lastupdated: "2019-02-25"
 
 ---
 
@@ -30,8 +30,8 @@ The products, services, and other capabilities described herein are not suitable
 
 If you need to request GDPR support for {{site.data.keyword.cloud}} {{site.data.keyword.watson}} resources that are created
 
--   In the European Union (EU), see [Requesting support for IBM Cloud Watson resources created in the European Union](/docs/services/watson/getting-started-gdpr-sar.html#request-EU).
--   Outside of the EU, see [Requesting support for resources outside the European Union](/docs/services/watson/getting-started-gdpr-sar.html#request-non-EU).
+-   In the European Union (EU), see [Requesting support for IBM Cloud Watson resources created in the European Union](/docs/services/watson?topic=watson-gdpr-sar#request-EU).
+-   Outside of the EU, see [Requesting support for resources outside the European Union](/docs/services/watson/?topic=watson-gdpr-sar#request-non-EU).
 
 ## European Union General Data Protection Regulation (GDPR)
 {: #gdpr}
@@ -44,4 +44,5 @@ Learn more about IBM's own GDPR readiness journey and our GDPR capabilities and 
 {: #gdpr-in-service}
 
 The {{site.data.keyword.nlushort}} service processes but does not store users’ data. Users of the {{site.data.keyword.nlushort}} service do not need to take any action to identify, protect, or delete their data.
+
 

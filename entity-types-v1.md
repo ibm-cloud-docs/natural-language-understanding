@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2018-03-22"
+  years: 2015, 2019
+lastupdated: "2019-02-21"
 
 ---
 
@@ -17,12 +17,13 @@ lastupdated: "2018-03-22"
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-# Entity types and subtypes (Version 1)
+# Entity types (Version 1)
+{: #entity-types-version-1}
 
 The following tables list the entity types and subtypes that are used in the _Version 1_ entity type system.
 {: shortdesc}
 
-The entity type system that {{site.data.keyword.nlushort}} uses differs based on which version date and which language you are using. For more details, see the [Entity types and subtypes](entity-types.html) page.
+The entity type system that {{site.data.keyword.nlushort}} uses differs based on which version date and which language you are using. For more details, see the [Entity type systems](/docs/services/natural-language-understanding?topic=natural-language-understanding-entity-type-systems) page.
 
 ## Entity types
 {: #entity-types}
@@ -495,3 +496,70 @@ The entity type system that {{site.data.keyword.nlushort}} uses differs based on
 | WineRegion                          |
 | WorkOfFiction                       |
 | Writer                              |
+
+## Relations entity types
+{: #relations-entity-types}
+
+For languages that use the _Version 1_ entity type system that also support relations, relations results contain entity types that are different from the entity types returned in entities results. To return the relations entity types in your entities results, you can specify one of the following public entity models in the `model` option for the `entities` feature to override the default entity detection model.
+
+|Model ID|Description|
+|--------|-----------|
+|ar-news|Arabic news|
+|en-news|English news|
+|es-news|Spanish news|
+
+The following entity types can be identified with the relations entity models:
+
+|Entity type|
+|---|
+|Age|
+|Anatomy|
+|Animal|
+|Award|
+|Cardinal|
+|Crime|
+|Date|
+|Degree|
+|Duration|
+|EmailAddress|
+|Event|
+|EventBusiness|
+|EventCommunication|
+|EventCustody|
+|EventDemonstration|
+|EventEducation|
+|EventElection|
+|EventGathering|
+|EventLegal|
+|EventLegislation|
+|EventMeeting|
+|EventPerformance|
+|EventPersonnel|
+|EventViolence|
+|Facility|
+|Food|
+|GeographicFeature|
+|GeopoliticalEntity|
+|HealthCondition|
+|Law|
+|Location|
+|Money|
+|Measure|
+|NaturalEvent|
+|Organization|
+|Ordinal|
+|Percent|
+|Person|
+|Phone|
+|Plant|
+|Product|
+|SportingEvent|
+|Substance|
+|Ticker|
+|Time|
+|TitleWork|
+|Vehicle|
+|Weapon|
+|Weather|
+|Web|
+

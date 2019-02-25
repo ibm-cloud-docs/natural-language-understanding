@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-01-15"
+lastupdated: "2019-02-25"
 
 ---
 
@@ -18,6 +18,7 @@ lastupdated: "2019-01-15"
 {:swift: .ph data-hd-programlang='swift'}
 
 # Language support
+{: #language-support}
 
 {{site.data.keyword.nlushort}} supports a variety of languages depending on which features you analyze. Currently, English is the only language that is supported across all features. The rest of the languages have limited support. To jump to the list of features that are compatible with a language, click the language in the following list.
 
@@ -507,7 +508,6 @@ The targeted sentiment option for entities is not supported for Arabic text.
     </tr>
   </tbody>
 </table>
-
 
 ## Japanese
 {: #japanese}

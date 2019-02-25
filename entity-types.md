@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-11-16"
+  years: 2015, 2019
+lastupdated: "2019-02-21"
 
 ---
 
@@ -17,7 +17,8 @@ lastupdated: "2018-11-16"
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-# Entity types and subtypes
+# Entity type systems
+{: #entity-type-systems}
 
 The entity type system that {{site.data.keyword.nlushort}} uses differs depending on which version date and which language you are using. This page describes, for each version date, which type system is used for each language.
 {: shortdesc}
@@ -98,5 +99,5 @@ The following entity type systems are used when you set the `version` parameter 
 | Swedish | [Version 1][v1] |
 
 
-[v1]: entity-types-v1.html
-[v2]: entity-types-v2.html
+[v1]: /docs/services/natural-language-understanding/?topic=natural-language-understanding-entity-types-version-1
+[v2]: /docs/services/natural-language-understanding/?topic=natural-language-understanding-entity-types-version-2
