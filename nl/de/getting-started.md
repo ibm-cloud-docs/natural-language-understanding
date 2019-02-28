@@ -19,6 +19,8 @@ lastupdated: "2017-11-03"
 {:download: .download}
 
 # Einführung - Lernprogramm
+{: #getting-started}
+
 Dieses Lernprogramm bietet eine Einführung in {{site.data.keyword.nlushort}}. Hierzu wird Beispieltext analysiert, um Stimmungen zu erkennen.
 {:shortdesc}
 
