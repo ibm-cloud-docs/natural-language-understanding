@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2018-03-16"
+  years: 2015, 2019
+lastupdated: "2019-02-21"
 
 ---
 
@@ -17,24 +17,25 @@ lastupdated: "2018-03-16"
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-# Tipos e subtipos de entidade (versão 1)
+# Tipos de entidade (versão 1)
+{: #entity-types-version-1}
 
 As tabelas a seguir listam os tipos e subtipos de entidade que são usados no sistema de tipos de entidade _Versão 1_.
 {: shortdesc}
 
-O sistema de tipos de entidade usado pelo {{site.data.keyword.nlushort}} difere com base em qual data da versão e qual linguagem você usa. Para obter mais detalhes, veja a página [Tipos e subtipos da entidade](entity-types.html).
+O sistema de tipos de entidade usado pelo {{site.data.keyword.nlushort}} difere com base em qual data da versão e qual linguagem você usa. Para obter mais detalhes, consulte a página [Sistemas de tipos de entidade](/docs/services/natural-language-understanding?topic=natural-language-understanding-entity-type-systems).
 
 ## Tipos de entidade
 {: #entity-types}
 
 | Tipo de entidade       |
 |-------------------|
-| Anatomy           |
+| Anatomia           |
 | Award             |
 | Broadcaster       |
 | Company           |
 | Crime             |
-| Drug              |
+| Medicamento              |
 | EmailAddress      |
 | Facility          |
 | GeographicFeature |
@@ -42,14 +43,14 @@ O sistema de tipos de entidade usado pelo {{site.data.keyword.nlushort}} difere 
 | Hashtag           |
 | IPAddress         |
 | JobTitle          |
-| Location          |
+| Local          |
 | Movie             |
 | MusicGroup        |
 | NaturalEvent      |
-| Organization      |
-| Person            |
+| Organização      |
+| Pessoa            |
 | PrintMedia        |
-| Quantity          |
+| Quantidade          |
 | Sport             |
 | SportingEvent     |
 | TelevisionShow    |
@@ -82,7 +83,7 @@ O sistema de tipos de entidade usado pelo {{site.data.keyword.nlushort}} difere 
 | API                                 |
 | Appellation                         |
 | AppointedRole                       |
-| Appointer                           |
+| Designador                           |
 | Architect                           |
 | ArchitecturalContractor             |
 | ArchitectureFirm                    |
@@ -127,11 +128,11 @@ O sistema de tipos de entidade usado pelo {{site.data.keyword.nlushort}} difere 
 | Brand                               |
 | Bridge                              |
 | BritishRoyalty                      |
-| Broadcast                           |
+| Difusão                           |
 | BroadcastArtist                     |
 | BroadcastContent                    |
 | BroadcastDistributor                |
-| Building                            |
+| Construindo                            |
 | BuildingComplex                     |
 | BuildingFunction                    |
 | CameraFormat                        |
@@ -174,7 +175,7 @@ O sistema de tipos de entidade usado pelo {{site.data.keyword.nlushort}} difere 
 | Competition                         |
 | CompetitiveSpace                    |
 | Composer                            |
-| Composition                         |
+| Composição                         |
 | CompositionalForm                   |
 | ComputerPeripheral                  |
 | ComputingPlatform                   |
@@ -186,6 +187,7 @@ O sistema de tipos de entidade usado pelo {{site.data.keyword.nlushort}} difere 
 | ConferenceSeries                    |
 | ConsumerProduct                     |
 | ContentLicense                      |
+| Continente                           |
 | Country                             |
 | CranialNerve                        |
 | CreativeWork                        |
@@ -210,7 +212,7 @@ O sistema de tipos de entidade usado pelo {{site.data.keyword.nlushort}} difere 
 | Dish                                |
 | DomesticatedAnimal                  |
 | DrinkingEstablishment               |
-| Drug                                |
+| Medicamento                                |
 | Election                            |
 | ElectionCampaign                    |
 | EndorsedProduct                     |
@@ -300,9 +302,9 @@ O sistema de tipos de entidade usado pelo {{site.data.keyword.nlushort}} difere 
 | LegislativeCommittee                |
 | Legislature                         |
 | Ligament                            |
-| Lighthouse                          |
+| Farol                          |
 | LiterarySchoolOrMovement            |
-| Location                            |
+| Local                            |
 | Magazine                            |
 | ManufacturingPlant                  |
 | MartialArt                          |
@@ -358,13 +360,13 @@ O sistema de tipos de entidade usado pelo {{site.data.keyword.nlushort}} difere 
 | OperatingSystem                     |
 | OperatingSystemDeveloper            |
 | OrganismClassification              |
-| Organization                        |
+| Organização                        |
 | OrganizationCommittee               |
 | OrganizationSector                  |
 | Park                                |
 | ParliamentaryElection               |
 | PeriodicalPublisher                 |
-| Person                              |
+| Pessoa                              |
 | PersonalAppearanceRole              |
 | Philosopher                         |
 | Physician                           |
@@ -384,7 +386,7 @@ O sistema de tipos de entidade usado pelo {{site.data.keyword.nlushort}} difere 
 | ProjectParticipant                  |
 | ProtectedArea                       |
 | Protein                             |
-| Protocol                            |
+| Protocolo                            |
 | ProtocolProvider                    |
 | PublicLibrary                       |
 | PublicSpeakingEvent                 |
@@ -493,4 +495,72 @@ O sistema de tipos de entidade usado pelo {{site.data.keyword.nlushort}} difere 
 | WineProducer                        |
 | WineRegion                          |
 | WorkOfFiction                       |
-| Writer                              |
+| Gravador                              |
+
+## Tipos de entidade de relações
+{: #relations-entity-types}
+
+Para idiomas que usam o sistema de tipos de entidade _Versão 1_ que também suportam relações, os resultados das relações contêm tipos de entidade diferentes dos tipos de entidade retornados nos resultados de entidades. Para retornar os tipos de entidade de relações em seus resultados de entidades, é possível especificar um dos modelos de entidade pública a seguir na opção `model` para o recurso `entities` para substituir o modelo de detecção de entidade padrão.
+
+|ID do modelo|Descrição|
+|--------|-----------|
+|ar-news|Notícias em árabe|
+|en-news|Notícias em inglês|
+|es-news|Notícias em espanhol|
+
+Os tipos de entidade a seguir podem ser identificados com os modelos de entidade de relações:
+
+|Tipo de entidade|
+|---|
+|Age|
+|Anatomia|
+|Animal|
+|Award|
+|Cardinal|
+|Crime|
+|Data|
+|Degree|
+|Duração|
+|EmailAddress|
+|Evento|
+|EventBusiness|
+|EventCommunication|
+|EventCustody|
+|EventDemonstration|
+|EventEducation|
+|EventElection|
+|EventGathering|
+|EventLegal|
+|EventLegislation|
+|EventMeeting|
+|EventPerformance|
+|EventPersonnel|
+|EventViolence|
+|Facility|
+|Food|
+|GeographicFeature|
+|GeopoliticalEntity|
+|HealthCondition|
+|Law|
+|Local|
+|Money|
+|Measure|
+|NaturalEvent|
+|Organização|
+|Ordinal|
+|Percentual|
+|Pessoa|
+|Telefone|
+|Plant|
+|Produto|
+|SportingEvent|
+|Substance|
+|Ticker|
+|Time|
+|TitleWork|
+|Vehicle|
+|Weapon|
+|Weather|
+|Web|
+
+

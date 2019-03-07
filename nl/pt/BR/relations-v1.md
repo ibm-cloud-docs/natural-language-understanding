@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2018-03-16"
+  years: 2015, 2019
+lastupdated: "2019-02-25"
 
 ---
 
@@ -10,6 +10,7 @@ lastupdated: "2018-03-16"
 {:new_window: target="_blank"}
 {:tip: .tip}
 {:pre: .pre}
+{:note: .note}
 {:codeblock: .codeblock}
 {:screen: .screen}
 {:javascript: .ph data-hd-programlang='javascript'}
@@ -18,9 +19,13 @@ lastupdated: "2018-03-16"
 {:swift: .ph data-hd-programlang='swift'}
 
 # Tipos de relação (Versão 1)
+{: #relation-types-version-1}
 
-A tabela a seguir lista os tipos de relação retornados pelo sistema de tipos de relação _Versão 1_. O sistema de tipos de entidade usado pelo {{site.data.keyword.nlushort}} difere com base em qual linguagem você usa. Para obter mais detalhes, veja a página [Tipos de relação](relations.html).
+A tabela a seguir lista os tipos de relação retornados pelo sistema de tipos de relação _Versão 1_. O sistema de tipos de entidade usado pelo {{site.data.keyword.nlushort}} difere com base em qual linguagem você usa. Para obter mais detalhes, consulte a página [Sistemas de tipos de relação](/docs/services/natural-language-understanding?topic=natural-language-understanding-relation-type-systems).
 {: shortdesc}
+
+No sistema de tipos _Versão 1_, os tipos de entidade em resultados de relações são diferentes dos tipos de entidade retornados nos resultados de entidades. Para ver a lista de tipos de entidade usados nas relações _Versão 1_, consulte a página [Tipos de entidade (versão 1)](/docs/services/natural-language-understanding?topic=natural-language-understanding-entity-types-version-1#relations-entity-types).
+{: note}
 
 | Relação        | Descrição                                                                                                                                                                                                        |
 |-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -98,72 +103,3 @@ significando que a primeira entidade possui uma quantia razoável de autonomia, 
 controle da segunda.                               |
 | timeOf          | Indica a Date, Time ou Duration em que ou para a qual um evento ocorreu; um TitleWork foi
 publicado, executado ou transmitido ou uma Law foi primeiramente elaborada, criada, aprovada ou abolida.                            |
-
-## Tipos de entidade exclusivos para relações
-
-Os tipos de entidade envolvidos no sistema de tipos de relação _Versão 1_ são
-diferentes dos tipos de entidade envolvidos nos sistemas de tipos de entidade padrão. É possível especificar um dos modelos de entidade
-de relações a seguir no parâmetro `model` para o recurso `entities` para substituir o modelo de
-detecção de entidade padrão.
-
-|ID do modelo|Descrição|
-|--------|-----------|
-|ar-news|Notícias em árabe|
-|en-news|Notícias em inglês|
-|es-news|Notícias em espanhol|
-
-As seguintes entidades podem ser identificadas com os modelos `relations`:
-
-|Tipo de entidade|
-|---|
-|Age |
-|Anatomy |
-|Animal |
-|Award |
-|Cardinal |
-|Crime |
-|Date |
-|Degree |
-|Duration |
-|EmailAddress |
-|Event |
-|EventBusiness |
-|EventCommunication |
-|EventCustody |
-|EventDemonstration |
-|EventEducation |
-|EventElection |
-|EventGathering |
-|EventLegal |
-|EventLegislation |
-|EventMeeting |
-|EventPerformance |
-|EventPersonnel |
-|EventViolence |
-|Facility |
-|Food |
-|GeographicFeature|
-|GeopoliticalEntity |
-|HealthCondition |
-|Law |
-|Location |
-|Money |
-|Measure |
-|NaturalEvent |
-|Organization |
-|Ordinal |
-|Percent |
-|Person |
-|Phone |
-|Plant |
-|Product |
-|SportingEvent |
-|Substance |
-|Ticker |
-|Time |
-|TitleWork |
-|Vehicle |
-|Weapon |
-|Weather |
-|Web |
-

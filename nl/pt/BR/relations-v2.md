@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2018-03-16"
+  years: 2015, 2019
+lastupdated: "2019-02-25"
 
 ---
 
@@ -10,6 +10,7 @@ lastupdated: "2018-03-16"
 {:new_window: target="_blank"}
 {:tip: .tip}
 {:pre: .pre}
+{:note: .note}
 {:codeblock: .codeblock}
 {:screen: .screen}
 {:javascript: .ph data-hd-programlang='javascript'}
@@ -18,12 +19,13 @@ lastupdated: "2018-03-16"
 {:swift: .ph data-hd-programlang='swift'}
 
 # Tipos de relação (versão 2)
+{: #relation-types-version-2}
 
-A tabela a seguir lista os tipos de relação retornados pelo sistema de tipos de relação _Versão 2_. O sistema de tipos de entidade usado pelo {{site.data.keyword.nlushort}} difere com base em qual linguagem você usa. Para obter mais detalhes, veja a página [Tipos de relação](relations.html).
+A tabela a seguir lista os tipos de relação retornados pelo sistema de tipos de relação _Versão 2_. O sistema de tipos de entidade usado pelo {{site.data.keyword.nlushort}} difere com base em qual linguagem você usa. Para obter mais detalhes, consulte a página [Sistemas de tipos de relação](/docs/services/natural-language-understanding?topic=natural-language-understanding-relation-type-systems).
 {: shortdesc}
 
-Os tipos de entidade usados por este sistema de tipos de relação são listados na página
-[Tipos e subtipos de entidade (Versão 2)](entity-types-v2.html).
+Os tipos de entidade usados por esse sistema de tipos de relação são listados na página [Tipos de entidade (versão 2)](/docs/services/natural-language-understanding?topic=natural-language-understanding-entity-types-version-2).
+{: note}
 
 | Relação        | Descrição |
 |-----------------|----------------|
@@ -65,7 +67,7 @@ funcionários que possui. |
 `parentOf`, `siblingOf` e `spouseOf`. |
 | residesIn       | Existe entre uma Person e um lugar onde vive ou viveu anteriormente. |
 | shareholdersOf  | Existe entre uma Person ou Organization e uma Organization da qual a primeira entidade é um acionista. |
-| siblingOf       | Existe entre uma Person e seu irmão ou meio-irmão. |
-| spokespersonFor | Existe entre uma Person e uma Facility, Organization ou Person que ele ou ela representa. |
+| siblingOf       | Existe entre uma Person e seu irmão ou meio-irmão.     |
+| spokespersonFor | Existe entre uma Person e uma Facility, Organization ou Person que ele ou ela representa.  |
 | spouseOf        | Existe entre duas Persons que são cônjuges. |
 | subsidiaryOf    | Existe entre duas Organizations quando a primeira é uma subsidiária da segunda. |

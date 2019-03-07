@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-03-16"
+  years: 2015, 2019
+lastupdated: "2019-02-25"
 
 ---
 
@@ -18,13 +18,40 @@ lastupdated: "2018-03-16"
 {:swift: .ph data-hd-programlang='swift'}
 
 # Notas sobre a liberação
+{: #release-notes}
 
 Os novos recursos e mudanças a seguir para o serviço estão disponíveis.
 {: shortdesc}
 
-## Versionamento da API de serviço
+## Novo processo de autenticação de API
+{: #iam-auth-process }
 
-**Versão da API atual**: 2018-03-16
+Em 30 de outubro de 2018, as localizações Dallas (Sul dos EUA) e Frankfurt (Alemanha) passaram a usar a autenticação Identity and Access Management (IAM) baseada em token. (Consulte [Autenticando com tokens do IAM ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](/docs/services/watson/getting-started-iam.html) para obter mais informações.)
+{: important}
+
+O serviço {{site.data.keyword.nlushort}} possui um novo processo de autenticação de API para instâncias de serviço hospedadas nas localizações a seguir:
+
+- Dallas a partir de 30 de outubro de 2018
+- Frankfurt a partir de 30 de outubro de 2018
+- Londres
+- Sydney, a partir de 29 de maio de 2018
+- Tóquio
+- Washington, DC, a partir de 12 de junho de 2018
+
+O {{site.data.keyword.cloud_notm}} está migrando para a autenticação Identity and Access Management (IAM) baseada em token. Com algumas instâncias de serviço, você autentica para a API usando o IAM.
+
+- Com as *novas* instâncias de serviço que você cria nas localizações nas datas listadas ou depois delas, você autentica para a API usando o IAM. É possível passar um token de acesso em um cabeçalho de autorização ou uma chave de API. Tokens suportam solicitações autenticadas sem a integração de credenciais de serviço em cada chamada. As chaves API usam autenticação básica. Saiba mais sobre o  [ IAM ](/docs/services/watson/getting-started-iam.html).
+
+    Ao usar qualquer um dos SDKs do Watson, é possível passar a chave de API e deixar que o SDK gerencie o ciclo de vida dos tokens. Para obter mais informações e exemplos, consulte [Autenticação ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://{DomainName}/apidocs/natural-language-understanding/#authentication){: new_window} na referência da API.
+- Para instâncias de serviço _existentes_ que você criou antes da data indicada, continue a autenticar fornecendo o nome de usuário e a senha para a instância de serviço. Eventualmente, será necessário migrar essas instâncias de serviço para a autenticação IAM. Atualizações serão fornecidas sobre o processo de migração e as datas. Para obter mais informações sobre migração, consulte [Migrando instâncias de serviço do Cloud Foundry para um grupo de recursos](/docs/resources/instance_migration.html).
+
+Para descobrir qual autenticação deve ser usada, visualize as credenciais de serviço clicando na instância de serviço no [Painel ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://{DomainName}/dashboard/apps?watson){: new_window}.
+
+
+## Versionamento da API de serviço
+{: #service-api-versioning}
+
+** Versão atual da API **: 2018-11-16
 
 Solicitações de API requerem um parâmetro version que obtém a data no formato `version=YYYY-MM-DD`. Envie o parâmetro version com cada solicitação de API.
 
@@ -33,6 +60,134 @@ as mudanças em uma nova versão, mude o valor do parâmetro da versão para a n
 essa versão, não mude sua data da versão.
 
 ## Mudanças
+{: #changes}
+
+### 10 de janeiro de 2019
+{: #10-january-2019}
+
+- Agora, as solicitações **Listar modelos** e **Excluir modelo** que não incluem um parâmetro de data de versão retornam erros `400` em vez de respostas bem-sucedidas.
+- Desempenho melhorado das entidades para idiomas diferentes do inglês.
+
+### 14 de dezembro de 2018
+{: #14-december-2018}
+
+- Agora é possível criar instâncias de serviço do {{site.data.keyword.nlushort}} na localização Londres do IBM Cloud.
+- Incluído suporte para as relações portuguesas.
+- Incluído suporte para as relações italianas.
+- Incluído um parâmetro `limit` para as solicitações de categorias que controla o número de categorias retornadas para 10, no máximo.
+- Precisão melhorada para impressão em japonês e alemão.
+
+### 6 de dezembro de 2018
+{: #6-december-2018}
+
+- Precisão melhorada para as categorias, palavras-chave e entidades em italiano.
+
+### 27 de novembro de 2018
+{: #27-november-2018}
+
+- Qualidade melhorada dos resultados das palavras-chave para entrada em inglês, francês, japonês e português.
+- Agora, as palavras-chave com capitalizações diferentes aparecem em resultados como a mesma palavra-chave.
+- Agora, o método **Obter modelos** retorna campos adicionais que você pode usar para gerenciar modelos customizados em várias implementações.
+  - ` version `: sequência de versão fornecida pelo usuário do  {{site.data.keyword.knowledgestudioshort}}
+  - `version_description`: a descrição fornecida pelo usuário dessa versão do {{site.data.keyword.knowledgestudioshort}} (por exemplo, o que mudou desde a versão anterior)
+  - `workspace_id`: um ID fornecido pelo {{site.data.keyword.knowledgestudioshort}} que permanece constante nas implementações repetidas por meio da mesma área de trabalho do {{site.data.keyword.knowledgestudioshort}}.
+  - `created`: uma sequência de data/hora que indica quando o modelo foi implementado para o NLU.
+
+### 16 de novembro de 2018
+{: #16-november-2018}
+
+- Liberados novos algoritmos para palavras-chave e impressão em inglês para melhorar a precisão e o desempenho.
+- Precisão e desempenho de palavras-chave melhorados para entrada em inglês, francês, japonês e português.
+- Precisão e desempenho de impressão em italiano melhorados, incluindo melhor precisão para amostras de texto grandes.
+- Corrigido um erro que fazia com que o texto codificado por URL aparecesse nos resultados de desambiguação de entidade em espanhol.
+- Liberado um novo modelo de entidades em italiano com o sistema de tipos de entidade mais recente. É possível aprender sobre o sistema de tipos mais recente na página [Tipos e subtipos de entidade (versão 2)](entity-types-v2.html). Quando seu aplicativo for compatível com o novo sistema de tipos, mude o parâmetro de data da versão em suas solicitações para `2018-11-16` para usar o novo modelo.
+
+### 9 de novembro de 2018
+{: #9-november-2018}
+
+- Grande melhoria na precisão para categorias em todos os idiomas suportados.
+
+### 8 de novembro de 2018
+{: #8-november-2018}
+
+- Agora é possível criar instâncias de serviço do {{site.data.keyword.nlushort}} na localização Tóquio do IBM Cloud.
+
+### 5 de novembro de 2018
+{: #5-november-2018}
+
+- Incluído suporte para conceitos italianos.
+
+### 30 de outubro de 2018	
+{: #30-october-2018}	
+
+A partir de 30 de outubro de 2018, novas instâncias de serviço criadas nas regiões Alemanha e Sul dos EUA usam a [autenticação Identity and Access Management (IAM)](#iam-auth-process).	
+
+### 21 de setembro de 2018
+{: #21-september-2018}
+
+- Incluído suporte para as relações em francês e os conceitos em português.
+- Agora, a opção de impressão de destino é suportada para palavras-chave em francês e em português.
+- Palavras-chave francesas melhoradas.
+- Improvada impressão coreana.
+- Palavras-chave e impressão em português melhoradas.
+- Liberado um novo modelo de entidades em português com o sistema de tipos de entidade mais recente. É possível aprender sobre o sistema de tipos mais recente na página [Tipos e subtipos de entidade (versão 2)](entity-types-v2.html). Quando seu aplicativo for compatível com o novo sistema de tipos, mude o parâmetro de data da versão em suas solicitações para `2018-09-21` para usar o novo modelo. 
+
+### 26 de junho de 2018
+{: #26-june-2018}
+
+Incluído suporte para entidades e palavras-chave em japonês.
+
+- Para entrada em japonês, as entidades a seguir ainda não são suportadas:
+  - Number
+  - Percentual
+  - PhoneNumber
+  - URL
+- Os endereços IPv6 na entrada em japonês ainda não são detectáveis como entidades IPAddress.
+
+### 12 de junho de 2018
+{: #12-june-2018}
+
+A partir de 12 de junho de 2018, novas instâncias de serviço criadas na região Leste dos EUA usam a [autenticação Identity and Access Management (IAM)](#iam-auth-process).
+
+### 6 de junho de 2018
+{: #06-june-2018}
+
+- Pequenos aprimoramentos para os resultados das categorias Coreanas.
+
+### 29 de maio de 2018
+{: #29-may-2018}
+
+A partir de 29 de maio de 2018, novas instâncias de serviço criadas na região Sydney usam a [autenticação do Identity and Access Management (IAM)](#iam-auth-process).
+
+### 9 de maio de 2018
+{: #9-may-2018}
+
+- Entidades alemãs melhoradas.
+
+### 4 de maio de 2018
+{: #4-may-2018}
+
+- Incluído suporte para as funções de impressão e semântica em japonês.
+- Desempenho aprimorado para solicitações de metadados.
+- Corrigido um erro que fazia com que as pontuações de relevância de `NAN` aparecessem em alguns resultados de entidades.
+- Corrigido um erro que retornava códigos de erro `400` em solicitações de palavras-chave em alemão e em coreano quando códigos de erro `500` eram mais apropriados.
+
+
+### 19 de abril de 2018
+{: #19-april-2018}
+
+- Incluído suporte para relações Japonesas.
+- Palavras-chave alemãs melhoradas.
+- Corrigido um erro que causava o retorno do texto de menção de entidade incorreto.
+- Corrigido um erro que poderia causar resultados insuficientes para impressão de destino.
+- Corrigido um erro que fazia com que o `analyzed_text` retornado incluísse caracteres que não tinham sido analisados.
+
+
+### 5 de abril de 2018
+{: #05-april-2018}
+
+- Busca de conteúdo de página da web melhorada. Se você usar o parâmetro `url` para analisar as páginas da web, verá melhores resultados, especialmente de páginas da web que usam conjuntos de quadros e cookies.
+- Pequenos aprimoramentos para conceitos coreanos.
 
 ### 16 de março de 2018
 {: #03-march-2018}
@@ -52,13 +207,13 @@ e o sistema de tipos _Versão 2_.
   - Novos tipos de entidade:
     - Data
     - Duração
-    - Medida
+    - Measure
     - Money
     - Number&ast;
     - Percent&ast;
     - PhoneNumber&ast;
     - Ordinal
-    - Tempo
+    - Time
     - URL&ast;
   - Tipos de entidade removidos:
     - Anatomia
@@ -305,4 +460,3 @@ resultado o modelo tem maior precisão em nosso conjunto de dados de avaliação
 {: #27-february-2017}
 
 O serviço Natural Language Understanding é agora GA.
-

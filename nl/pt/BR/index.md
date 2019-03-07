@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-11-28"
+  years: 2015, 2019
+lastupdated: "2019-02-25"
 
 ---
 
@@ -34,17 +34,17 @@ analisar:
 ### Categorias
 {: #categories}
 
-Categorize seu conteúdo usando uma hierarquia de classificação de cinco níveis. Visualize a lista completa de categorias [aqui](/docs/services/natural-language-understanding/categories.html). Por exemplo:
+Categorize seu conteúdo usando uma hierarquia de classificação de cinco níveis. Visualize a lista completa de categorias [aqui](/docs/services/natural-language-understanding?topic=natural-language-understanding-categories-hierarchy). Por exemplo:
 
 **Entrada**
 > URL: "www.cnn.com"
 
 **Resposta**
 > /news </br>
-> /art and entertainment </br>
-> /movies and tv/television </br>
+> /arte e entretenimento </br>
+> /filme e tv/televisão </br>
 > /news </br>
-> /international news
+> /notícias internacionais
 
 ### Conceitos
 {: #concepts}
@@ -52,11 +52,11 @@ Categorize seu conteúdo usando uma hierarquia de classificação de cinco níve
 Identifique conceitos de alto nível que não estejam necessariamente referenciados diretamente no texto. Por exemplo:
 
 **Entrada**
-> text: "Natural Language Understanding uses natural language processing to analyze text."
+> Texto: "O Natural Language Understanding usará processamento de linguagem natural para analisar texto".
 
 **Resposta**
-> Linguistics </br>
-> Natural language processing </br>
+> Linguística </br>
+> Processamento de linguagem natural </br>
 > Natural language understanding
 
 ### Emoção
@@ -66,27 +66,28 @@ Analise a emoção transmitida por frases de destino específicas ou pelo docume
 análise de emoção para entidades e palavras-chave que são automaticamente detectadas pelo serviço. Por exemplo:
 
 **Entrada**
-> text: "I love apples, but I hate oranges." </br>
-> targets: "apples", and "oranges"
+> Texto: "Eu amo maçãs, mas eu odeio laranjas". </br>
+> Destinos: "maçãs" e "laranjas"
 
 **Resposta**
-> "apples": joy </br>
-> "oranges": anger
+> "Maçãs": alegria </br>
+> "Laranjas": raiva
 
 ### Entidades
 {: #entities}
 
 Localize pessoas, lugares, eventos e outros tipos de entidades mencionadas no seu conteúdo. Visualize a lista completa de tipos e subtipos de entidade
-[aqui](/docs/services/natural-language-understanding/entity-types.html). Por exemplo:
+[aqui](/docs/services/natural-language-understanding?topic=natural-language-understanding-entity-type-systems). Por exemplo:
 
 **Entrada**
-> text: "IBM is an American multinational technology company headquartered in Armonk, New York, United States, with operations in over 170 countries."
+> Texto: "A IBM é uma empresa de tecnologia multinacional americana sediada em Armonk, Nova York, Estados Unidos, com
+operações em mais de 170 países".
 
 **Resposta**
-> IBM: Company </br>
-> Armonk: Location </br>
-> New York: Location </br>
-> United States: Location
+> IBM: empresa </br>
+> Armonk: localização </br>
+> Nova York: localização </br>
+> Estados Unidos: localização
 
 ### Palavras-chave
 {: #keywords}
@@ -94,12 +95,13 @@ Localize pessoas, lugares, eventos e outros tipos de entidades mencionadas no se
 Procure seu conteúdo para palavras-chave relevantes. Por exemplo:
 
 **Entrada**
->url: "[http://www-03.ibm.com/press/us/en/pressrelease/51493.wss](http://www-03.ibm.com/press/us/en/pressrelease/51493.wss)"
+>URL:
+"[http://www-03.ibm.com/press/us/en/pressrelease/51493.wss](http://www-03.ibm.com/press/us/en/pressrelease/51493.wss)"
 
 **Resposta**
->Australian Open </br>
->Tennis Australia </br>
->IBM SlamTracker analytics
+>Aberto da Austrália </br>
+>Tênis da Austrália </br>
+>Analítica do IBM SlamTracker
 
 ### Metadados
 {: #metadata}
@@ -107,12 +109,12 @@ Procure seu conteúdo para palavras-chave relevantes. Por exemplo:
 Para entrada HTML e URL, obtenha o autor da página da web, o título da página e a data de publicação. Por exemplo:
 
 **Entrada**
->url: "https://www.ibm.com/blogs/think/2017/01/cognitive-grid/"
+>URL: "https://www.ibm.com/blogs/think/2017/01/cognitive-grid/"
 
 **Resposta**
->Author: Stephen Callahan </br>
->Title: Girding the Grid with Cognitive Computing - THINK Blog </br>
->Publication date: January 31, 2017
+>Autor: Stephen Callahan </br>
+>Título: Preparando a grade com computação cognitiva - Blog THINK </br>
+>Data de publicação: 31 de janeiro de 2017
 
 ### Relações
 {: #relations}
@@ -120,11 +122,11 @@ Para entrada HTML e URL, obtenha o autor da página da web, o título da página
 Reconhecer quando duas entidades estão relacionadas e identificar o tipo de relação. Por exemplo:
 
 **Entrada**
->text: "The Nobel Prize in Physics 1921 was awarded to Albert Einstein."
+>Texto: "O Prêmio Nobel em Física de 1921 foi concedido a Albert Einstein".
 
 **Resposta**
->"awardedTo" relation between "Noble Prize in Physics" and "Albert Einstein" </br>
->"timeOf" relation between "1921" and "awarded"
+>Relação "awardedTo" entre "Prêmio Nobel em Física" e "Albert Einstein" </br>
+>Relação de "timeOf" entre "1921" e "concedido"
 
 ### Funções de semântica
 {: #semantic-roles}
@@ -133,12 +135,12 @@ Analise sentenças no formato assunto-ação-objeto e identifique entidades e pa
 objetos de uma ação. Por exemplo:
 
 **Entrada**
->text: "In 2011, Watson competed on Jeopardy!"
+>Texto: "Em 2011, o Watson competiu no Jeopardy!"
 
 **Resposta**
->Subject: Watson </br>
->Action: competed </br>
->Object: on Jeopardy
+>Sujeito: Watson </br>
+>Ação: competiu </br>
+>Objeto: no Jeopardy
 
 ### Impressão
 {: #sentiment}
@@ -147,18 +149,12 @@ Analise a impressão em relação às frases de destino específicas e o sentime
 obter informações de impressão para entidades e palavras-chave detectadas ativando a opção de impressão para esses recursos. Por exemplo:
 
 **Entrada**
->text: "Thank you and have a nice day!"
+>Texto: "Obrigado e tenha um bom dia!"
 
 **Resposta**
->Positive sentiment (score: 0.91)
+>Impressão positiva (pontuação: 0,91)
 
 ## Idiomas suportados
 {: #supported-languages}
 
-Consulte a documentação de [Suporte ao idioma](/docs/services/natural-language-understanding/language-support.html) do
-para obter detalhes sobre idiomas suportados no {{site.data.keyword.nlushort}}.
-
-## Venda
-{: #pricing}
-
-Para obter informações de precificação, consulte o serviço do [{{site.data.keyword.nlushort}}](https://console.bluemix.net/catalog/services/natural-language-understanding) no catálogo {{site.data.keyword.cloud}}.
+Consulte a [Documentação de suporte a idioma](/docs/services/natural-language-understanding?topic=natural-language-understanding-language-support) para detalhes sobre os idiomas suportados no {{site.data.keyword.nlushort}}.

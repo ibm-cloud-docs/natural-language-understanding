@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2018-03-16"
+  years: 2015, 2018
+lastupdated: "2019-02-21"
 
 ---
 
@@ -17,40 +17,43 @@ lastupdated: "2018-03-16"
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-# Tipos e subtipos de entidade (versão 2)
+# Tipos de Entidade (Versão 2)
+{: #entity-types-version-2}
 
 As tabelas a seguir listam os tipos e subtipos de entidade que são usados no sistema de tipos de entidade _Versão 2_.
 {: shortdesc}
 
-O sistema de tipos de entidade usado pelo {{site.data.keyword.nlushort}} difere com base em qual data da versão e qual linguagem você usa. Para obter mais detalhes, veja a página [Tipos e subtipos da entidade](entity-types.html).
+O sistema de tipos de entidade usado pelo {{site.data.keyword.nlushort}} difere com base em qual data da versão e qual linguagem você usa. Para obter mais detalhes, consulte a página [Sistemas de tipos de entidade](/docs/services/natural-language-understanding?topic=natural-language-understanding-entity-type-systems).
 
 ## Tipos de entidade
 {: #entity-types}
 
 | Tipo de entidade       |
 | ----------------- |
-| Date              |
-| Duration          |
+| Data              |
+| Duração          |
 | EmailAddress      |
 | Facility          |
 | GeographicFeature |
 | Hashtag           |
-| IPAddress         |
+| IPAddress&dagger; |
 | JobTitle          |
-| Location          |
+| Local          |
 | Measure           |
 | Money             |
 | Number&ast;       |
 | Ordinal           |
-| Organization      |
+| Organização      |
 | Percent&ast;      |
-| Person            |
+| Pessoa            |
 | PhoneNumber&ast;  |
 | Time              |
 | TwitterHandle     |
 | URL&ast;          |
 
-&ast; Esse tipo de entidade ainda não é detectável no texto francês.
+&ast; Esse tipo de entidade ainda não é detectável no texto em francês ou japonês.
+
+Os endereços IPv6 do &dagger; ainda não são detectáveis no texto em japonês.
 
 
 ## Subtipos de entidade
@@ -79,7 +82,7 @@ O sistema de tipos de entidade usado pelo {{site.data.keyword.nlushort}} difere 
 | API                                 |
 | Appellation                         |
 | AppointedRole                       |
-| Appointer                           |
+| Designador                           |
 | Architect                           |
 | ArchitecturalContractor             |
 | ArchitectureFirm                    |
@@ -124,11 +127,11 @@ O sistema de tipos de entidade usado pelo {{site.data.keyword.nlushort}} difere 
 | Brand                               |
 | Bridge                              |
 | BritishRoyalty                      |
-| Broadcast                           |
+| Difusão                           |
 | BroadcastArtist                     |
 | BroadcastContent                    |
 | BroadcastDistributor                |
-| Building                            |
+| Construindo                            |
 | BuildingComplex                     |
 | BuildingFunction                    |
 | CameraFormat                        |
@@ -171,7 +174,7 @@ O sistema de tipos de entidade usado pelo {{site.data.keyword.nlushort}} difere 
 | Competition                         |
 | CompetitiveSpace                    |
 | Composer                            |
-| Composition                         |
+| Composição                         |
 | CompositionalForm                   |
 | ComputerPeripheral                  |
 | ComputingPlatform                   |
@@ -183,6 +186,7 @@ O sistema de tipos de entidade usado pelo {{site.data.keyword.nlushort}} difere 
 | ConferenceSeries                    |
 | ConsumerProduct                     |
 | ContentLicense                      |
+| Continente                           |
 | Country                             |
 | CranialNerve                        |
 | CreativeWork                        |
@@ -207,7 +211,7 @@ O sistema de tipos de entidade usado pelo {{site.data.keyword.nlushort}} difere 
 | Dish                                |
 | DomesticatedAnimal                  |
 | DrinkingEstablishment               |
-| Drug                                |
+| Medicamento                                |
 | Election                            |
 | ElectionCampaign                    |
 | EndorsedProduct                     |
@@ -297,9 +301,9 @@ O sistema de tipos de entidade usado pelo {{site.data.keyword.nlushort}} difere 
 | LegislativeCommittee                |
 | Legislature                         |
 | Ligament                            |
-| Lighthouse                          |
+| Farol                          |
 | LiterarySchoolOrMovement            |
-| Location                            |
+| Local                            |
 | Magazine                            |
 | ManufacturingPlant                  |
 | MartialArt                          |
@@ -355,13 +359,13 @@ O sistema de tipos de entidade usado pelo {{site.data.keyword.nlushort}} difere 
 | OperatingSystem                     |
 | OperatingSystemDeveloper            |
 | OrganismClassification              |
-| Organization                        |
+| Organização                        |
 | OrganizationCommittee               |
 | OrganizationSector                  |
 | Park                                |
 | ParliamentaryElection               |
 | PeriodicalPublisher                 |
-| Person                              |
+| Pessoa                              |
 | PersonalAppearanceRole              |
 | Philosopher                         |
 | Physician                           |
@@ -381,12 +385,12 @@ O sistema de tipos de entidade usado pelo {{site.data.keyword.nlushort}} difere 
 | ProjectParticipant                  |
 | ProtectedArea                       |
 | Protein                             |
-| Protocol                            |
+| Protocolo                            |
 | ProtocolProvider                    |
 | PublicLibrary                       |
 | PublicSpeakingEvent                 |
 | PublishedWork                       |
-| Quantity                            |
+| Quantidade                            |
 | RadioFormat                         |
 | RadioNetwork                        |
 | RadioStation                        |
@@ -491,4 +495,4 @@ O sistema de tipos de entidade usado pelo {{site.data.keyword.nlushort}} difere 
 | WineProducer                        |
 | WineRegion                          |
 | WorkOfFiction                       |
-| Writer                              |
+| Gravador                              |

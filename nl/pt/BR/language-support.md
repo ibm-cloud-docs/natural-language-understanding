@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-03-16"
+  years: 2015, 2019
+lastupdated: "2019-02-25"
 
 ---
 
@@ -18,25 +18,24 @@ lastupdated: "2018-03-16"
 {:swift: .ph data-hd-programlang='swift'}
 
 # Suporte ao idioma
+{: #language-support}
 
-O {{site.data.keyword.nlushort}} suporta uma variedade de idiomas dependendo de quais recursos você analisar. 
-Atualmente, o inglês é a única língua que é suportada em todos os recursos. O restante dos idiomas tem suporte limitado. Para ir
+O {{site.data.keyword.nlushort}} suporta uma variedade de idiomas dependendo de quais recursos você analisar. Atualmente, o inglês é a única língua que é suportada em todos os recursos. O restante dos idiomas tem suporte limitado. Para ir
 para a lista de recursos que são compatíveis com um idioma, clique no idioma na lista a seguir.
 
-- [Árabe](#arabic)
-- [Chinês (Simplificado)](#chinese-simplified)
-- [Holandês](#dutch)
-- [Inglês](#english)
-- [Francês](#french)
-- [Alemão](#german)
-- [Italiano](#italian)
-- [Japonês](#japanese)
-- [Coreano ](#korean)
-- [Português](#portuguese)
-- [Russo](#russian)
-- [Espanhol](#spanish)
-- [Sueco](#swedish)
-
+  - [Árabe](#arabic)
+  - [Chinês (Simplificado)](#chinese-simplified)
+  - [Holandês](#dutch)
+  - [Inglês](#english)
+  - [Francês](#french)
+  - [Alemão](#german)
+  - [Italiano](#italian)
+  - [Japonês](#japanese)
+  - [Coreano ](#korean)
+  - [Português](#portuguese)
+  - [Russo](#russian)
+  - [Espanhol](#spanish)
+  - [Sueco](#swedish)
 
 O suporte ao idioma poderá ser diferente se você for um cliente do {{site.data.keyword.Bluemix_dedicated}}. Se você
 estiver usando o {{site.data.keyword.Bluemix_dedicated}}, verifique com seu vendedor IBM para confirmar quais idiomas são
@@ -338,7 +337,7 @@ A opção de impressão de destino para entidades não é suportada para texto e
     </tr>
     <tr>
       <td>Conceitos</td>
-      <td></td>
+      <td>P</td>
       <td></td>
     </tr>
     <tr>
@@ -363,7 +362,7 @@ A opção de impressão de destino para entidades não é suportada para texto e
     </tr>
     <tr>
       <td>Relações</td>
-      <td></td>
+      <td>P</td>
       <td>P</td>
     </tr>
     <tr>
@@ -373,13 +372,11 @@ A opção de impressão de destino para entidades não é suportada para texto e
     </tr>
     <tr>
       <td>Impressão</td>
-      <td>X&ast;</td>
+      <td>P</td>
       <td></td>
     </tr>
   </tbody>
 </table>
-
-&ast; A opção de impressão de destino para palavras-chave não é suportada para texto em francês.
 
 
 ## Alemão
@@ -474,7 +471,7 @@ A opção de impressão de destino para entidades não é suportada para texto e
     </tr>
     <tr>
       <td>Conceitos</td>
-      <td></td>
+      <td>P</td>
       <td></td>
     </tr>
     <tr>
@@ -499,7 +496,7 @@ A opção de impressão de destino para entidades não é suportada para texto e
     </tr>
     <tr>
       <td>Relações</td>
-      <td></td>
+      <td>P</td>
       <td>P</td>
     </tr>
     <tr>
@@ -509,16 +506,11 @@ A opção de impressão de destino para entidades não é suportada para texto e
     </tr>
     <tr>
       <td>Impressão</td>
-      <td>X&ast;</td>
+      <td>P</td>
       <td></td>
     </tr>
   </tbody>
 </table>
-
-&ast; A detecção de impressão para essa linguagem funciona melhor em dados baseados em mídia social, como tweets. Melhorias de precisão adicionais estão planejadas no futuro próximo.
-
-A opção de impressão de destino para palavras-chave não é suportada para texto em italiano.
-
 
 ## Japonês
 {: #japanese}
@@ -555,12 +547,12 @@ A opção de impressão de destino para palavras-chave não é suportada para te
     </tr>
     <tr>
       <td>Entidades</td>
-      <td></td>
+      <td>P</td>
       <td>P</td>
     </tr>
     <tr>
       <td>Palavras-chave</td>
-      <td></td>
+      <td>P</td>
       <td></td>
     </tr>
     <tr>
@@ -570,17 +562,17 @@ A opção de impressão de destino para palavras-chave não é suportada para te
     </tr>
     <tr>
       <td>Relações</td>
-      <td></td>
+      <td>P</td>
       <td>P</td>
     </tr>
     <tr>
       <td>Funções de semântica</td>
-      <td></td>
+      <td>P</td>
       <td></td>
     </tr>
     <tr>
       <td>Impressão</td>
-      <td></td>
+      <td>P</td>
       <td></td>
     </tr>
   </tbody>
@@ -647,14 +639,11 @@ A opção de impressão de destino para palavras-chave não é suportada para te
     </tr>
     <tr>
       <td>Impressão</td>
-      <td>X&ast;</td>
+      <td>P</td>
       <td></td>
     </tr>
   </tbody>
 </table>
-
-&ast; A detecção de impressão para essa linguagem funciona melhor em dados baseados em mídia social, como tweets. Melhorias de precisão adicionais estão planejadas no futuro próximo.
-
 
 ## Português
 {: #portuguese}
@@ -681,7 +670,7 @@ A opção de impressão de destino para palavras-chave não é suportada para te
     </tr>
     <tr>
       <td>Conceitos</td>
-      <td></td>
+      <td>P</td>
       <td></td>
     </tr>
     <tr>
@@ -706,7 +695,7 @@ A opção de impressão de destino para palavras-chave não é suportada para te
     </tr>
     <tr>
       <td>Relações</td>
-      <td></td>
+      <td>P</td>
       <td>P</td>
     </tr>
     <tr>
@@ -716,16 +705,11 @@ A opção de impressão de destino para palavras-chave não é suportada para te
     </tr>
     <tr>
       <td>Impressão</td>
-      <td>X&ast;</td>
+      <td>P</td>
       <td></td>
     </tr>
   </tbody>
 </table>
-
-&ast; A detecção de impressão para essa linguagem funciona melhor em dados baseados em mídia social, como tweets. Melhorias de precisão adicionais estão planejadas no futuro próximo.
-
-A opção de impressão de destino para palavras-chave não é suportada para texto em português.
-
 
 ## Russo
 {: #russian}
