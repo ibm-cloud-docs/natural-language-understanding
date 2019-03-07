@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-11-28"
+  years: 2015, 2019
+lastupdated: "2019-02-25"
 
 ---
 
@@ -20,7 +20,7 @@ lastupdated: "2017-11-28"
 # Informazioni su
 {: #about}
 
-Con {{site.data.keyword.nlufull}}, gli sviluppatori possono analizzare le funzioni semantiche di un input di testo, compresi categorie, concetti, emozione, entità, parole chiave, metadati, relazioni, ruoli semantici e valutazione.
+Con {{site.data.keyword.nlufull}}, gli sviluppatori possono analizzare le funzioni semantiche di un input di testo, compresi categorie, concetti, emozione, entità, parole chiave, metadati, relazioni, ruoli semantici e parere.
 {: shortdesc}
 
 ## Funzioni
@@ -31,9 +31,9 @@ Invia richieste alla API con testo, HTML o un URL pubblico e specifica una o pi�
 ### Categorie
 {: #categories}
 
-Categorizza il tuo contenuto utilizzando una gerarchia di classificazione a cinque livelli. Visualizza l'elenco completo di categorie [qui](/docs/services/natural-language-understanding/categories.html). Ad esempio:
+Categorizza il tuo contenuto utilizzando una gerarchia di classificazione a cinque livelli. Visualizza l'elenco completo di categorie [qui](/docs/services/natural-language-understanding?topic=natural-language-understanding-categories-hierarchy). Ad esempio:
 
-**Input**
+**Immissione**
 > url: "www.cnn.com"
 
 **Risposta**
@@ -72,7 +72,7 @@ Analizza l'emozione trasmessa da specifiche frasi mirate o da un documento nel s
 ### Entità
 {: #entities}
 
-Trova persona, posti, eventi e altri tipi di entità menzionati nel tuo contenuto. Visualizza l'elenco completo di tipi e sottotipi di entità [qui](/docs/services/natural-language-understanding/entity-types.html). Ad esempio:
+Trova persona, posti, eventi e altri tipi di entità menzionati nel tuo contenuto. Visualizza l'elenco completo di tipi e sottotipi di entità [qui](/docs/services/natural-language-understanding?topic=natural-language-understanding-entity-type-systems). Ad esempio:
 
 **Input**
 > text: "IBM is an American multinational technology company headquartered in Armonk, New York, United States, with operations in over 170 countries."
@@ -134,10 +134,10 @@ Analizza le frasi in formato soggetto-azione-oggetto e identifica le entità e l
 >Action: competed </br>
 >Object: on Jeopardy
 
-### Valutazione
+### Parere
 {: #sentiment}
 
-Analizza la valutazione su specifiche frasi mirate e la valutazione sul documento nel suo insieme. Puoi ottenere le informazioni sulle valutazioni per le entità e le parole chiave rilevate abilitando l'opzione relativa alla valutazione per queste funzioni. Ad esempio:
+Analizza il parere su specifiche frasi mirate e il parere sul documento nel suo insieme. Puoi ottenere le informazioni sui pareri per le entità e le parole chiave rilevate abilitando l'opzione relativa al parere per queste funzioni. Ad esempio:
 
 **Input**
 >text: "Thank you and have a nice day!"
@@ -148,9 +148,4 @@ Analizza la valutazione su specifiche frasi mirate e la valutazione sul document
 ## Lingue supportate
 {: #supported-languages}
 
-Vedi la [documentazione del Supporto linguistico](/docs/services/natural-language-understanding/language-support.html) per i dettagli sulle lingue supportate in {{site.data.keyword.nlushort}}.
-
-## Prezzi
-{: #pricing}
-
-Per le informazioni sui prezzi, vedi il [servizio {{site.data.keyword.nlushort}}](https://console.bluemix.net/catalog/services/natural-language-understanding) nel catalogo {{site.data.keyword.cloud}}.
+Vedi la [documentazione del Supporto linguistico](/docs/services/natural-language-understanding?topic=natural-language-understanding-language-support) per i dettagli sulle lingue supportate in {{site.data.keyword.nlushort}}.

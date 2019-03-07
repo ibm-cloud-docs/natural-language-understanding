@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2018-03-16"
+  years: 2015, 2018
+lastupdated: "2019-02-21"
 
 ---
 
@@ -17,17 +17,18 @@ lastupdated: "2018-03-16"
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-# Types et sous-types d'entité (version 2) 
+# Types d'entité (Version 2)
+{: #entity-types-version-2}
 
 Les tableaux ci-dessous répertorient les types et les sous-types d'entité qui sont utilisés dans le système de types d'entité de _version 2_.
 {: shortdesc}
 
-Le système de types d'entité que {{site.data.keyword.nlushort}} utilise varie en fonction de la date de la version et de la langue que vous employez. Pour plus de détails, voir la page [Types et sous-types d'entité](entity-types.html). 
+Le système de types d'entité que {{site.data.keyword.nlushort}} utilise varie en fonction de la date de la version et de la langue que vous employez. Pour plus de détails, voir la page [Systèmes de types d'entité](/docs/services/natural-language-understanding?topic=natural-language-understanding-entity-type-systems).
 
 ## Types d'entité
 {: #entity-types}
 
-| Type d'entité     |
+| Type d'entité       |
 | ----------------- |
 | Date              |
 | Duration          |
@@ -35,7 +36,7 @@ Le système de types d'entité que {{site.data.keyword.nlushort}} utilise varie 
 | Facility          |
 | GeographicFeature |
 | Hashtag           |
-| IPAddress         |
+| IPAddress&dagger; |
 | JobTitle          |
 | Location          |
 | Measure           |
@@ -50,7 +51,9 @@ Le système de types d'entité que {{site.data.keyword.nlushort}} utilise varie 
 | TwitterHandle     |
 | URL&ast;          |
 
-&ast; Ce type d'entité n'est pas encore détectable en français. 
+&ast; Ce type d'entité n'est pas encore détectable en français ou en japonais.
+
+&dagger; Les adresses IPv6 ne sont pas encore détectables en japonais.
 
 
 ## Sous-types d'entité
@@ -183,6 +186,7 @@ Le système de types d'entité que {{site.data.keyword.nlushort}} utilise varie 
 | ConferenceSeries                    |
 | ConsumerProduct                     |
 | ContentLicense                      |
+| Continent                           |
 | Country                             |
 | CranialNerve                        |
 | CreativeWork                        |

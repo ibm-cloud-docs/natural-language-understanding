@@ -18,1046 +18,1047 @@ lastupdated: "2017-10-23"
 {:swift: .ph data-hd-programlang='swift'}
 
 # 카테고리 계층 구조
+{: #categories-hierarchy}
 
 다음 표에서는 {{site.data.keyword.nlushort}} 카테고리 기능을 통해 리턴된 카테고리를 표시합니다. 다음 정보가 포함된 스프레드시트를 다운로드할 수 있습니다. <a target="_blank" href="https://watson-developer-cloud.github.io/doc-tutorial-downloads/natural-language-understanding/categories-hierarchy.xlsx" download>XLSX <img src="../../icons/launch-glyph.svg" alt="외부 링크 아이콘" title="외부 링크 아이콘" class="style-scope doc-content"></a>.
 {: shortdesc}
 
-| 레벨 1                    | 레벨 2                                 | 레벨 3                                 | 레벨 4                         | 레벨5                       |
+|레벨 1                   |레벨 2                                |레벨 3                                |레벨 4                        |레벨5                       |
 | ------------------------- | -------------------------------------- | -------------------------------------- | ------------------------------ | ----------------------------- |
-| art and entertainment     | books and literature                   | best-sellers                           |                                |                               |
-| art and entertainment     | books and literature                   | children's books                       |                                |                               |
-| art and entertainment     | books and literature                   | e-books                                |                                |                               |
-| art and entertainment     | books and literature                   | fan fiction                            |                                |                               |
-| art and entertainment     | books and literature                   | magazines                              |                                |                               |
-| art and entertainment     | books and literature                   | mythology                              |                                |                               |
-| art and entertainment     | books and literature                   | non-fiction                            |                                |                               |
-| art and entertainment     | books and literature                   | poetry                                 |                                |                               |
-| art and entertainment     | books and literature                   | reference books                        |                                |                               |
-| art and entertainment     | books and literature                   | romance novels                         |                                |                               |
-| art and entertainment     | books and literature                   | science fiction                        |                                |                               |
-| art and entertainment     | books and literature                   | textbooks                              |                                |                               |
-| art and entertainment     | books and literature                   |                                        |                                |                               |
-| art and entertainment     | celebrity fan and gossip               |                                        |                                |                               |
-| art and entertainment     | comics and animation                   | anime and manga                        |                                |                               |
-| art and entertainment     | comics and animation                   | cartoons                               |                                |                               |
-| art and entertainment     | comics and animation                   | comics                                 |                                |                               |
-| art and entertainment     | dance                                  | ballet                                 |                                |                               |
-| art and entertainment     | dance                                  | ballroom dance                         |                                |                               |
-| art and entertainment     | dance                                  | belly dance                            |                                |                               |
-| art and entertainment     | dance                                  | modern dance                           |                                |                               |
-| art and entertainment     | dance                                  | pole dancing                           |                                |                               |
-| art and entertainment     | dance                                  |                                        |                                |                               |
-| art and entertainment     | humor                                  |                                        |                                |                               |
-| art and entertainment     | movies                                 | film festivals and awards              |                                |                               |
-| art and entertainment     | movies and tv                          | action                                 |                                |                               |
-| art and entertainment     | movies and tv                          | animated                               |                                |                               |
-| art and entertainment     | movies and tv                          | bollywood                              |                                |                               |
-| art and entertainment     | movies and tv                          | children's                             |                                |                               |
-| art and entertainment     | movies and tv                          | classics                               | silent films                   |                               |
-| art and entertainment     | movies and tv                          | classics                               |                                |                               |
-| art and entertainment     | movies and tv                          | comedies                               |                                |                               |
-| art and entertainment     | movies and tv                          | cult classics                          |                                |                               |
-| art and entertainment     | movies and tv                          | documentaries                          |                                |                               |
-| art and entertainment     | movies and tv                          | dramas                                 |                                |                               |
-| art and entertainment     | movies and tv                          | horror                                 |                                |                               |
-| art and entertainment     | movies and tv                          | independent                            |                                |                               |
-| art and entertainment     | movies and tv                          | movies                                 | reviews                        |                               |
-| art and entertainment     | movies and tv                          | movies                                 | trailers                       |                               |
-| art and entertainment     | movies and tv                          | movies                                 |                                |                               |
-| art and entertainment     | movies and tv                          | reality                                |                                |                               |
-| art and entertainment     | movies and tv                          | romantic comedies                      |                                |                               |
-| art and entertainment     | movies and tv                          | talk shows                             |                                |                               |
-| art and entertainment     | movies and tv                          | television                             |                                |                               |
-| art and entertainment     | movies and tv                          | thrillers                              |                                |                               |
-| art and entertainment     | movies and tv                          | westerns                               |                                |                               |
-| art and entertainment     | music                                  | music genres                           | blues                          |                               |
-| art and entertainment     | music                                  | music genres                           | classical music                |                               |
-| art and entertainment     | music                                  | music genres                           | country music                  |                               |
-| art and entertainment     | music                                  | music genres                           | easy listening                 |                               |
-| art and entertainment     | music                                  | music genres                           | electronic music               |                               |
-| art and entertainment     | music                                  | music genres                           | folk music                     |                               |
-| art and entertainment     | music                                  | music genres                           | hip hop                        |                               |
-| art and entertainment     | music                                  | music genres                           | jazz                           |                               |
-| art and entertainment     | music                                  | music genres                           | opera                          |                               |
-| art and entertainment     | music                                  | music genres                           | pop music                      |                               |
-| art and entertainment     | music                                  | music genres                           | punk                           |                               |
-| art and entertainment     | music                                  | music genres                           | religious music                |                               |
-| art and entertainment     | music                                  | music genres                           | rock music                     |                               |
-| art and entertainment     | music                                  | music genres                           | ska                            |                               |
-| art and entertainment     | music                                  | music genres                           | soul music                     |                               |
-| art and entertainment     | music                                  | music genres                           | soundtracks                    |                               |
-| art and entertainment     | music                                  | music genres                           | world music                    |                               |
-| art and entertainment     | music                                  | music reference                        | music composition and theory   |                               |
-| art and entertainment     | music                                  | music reference                        | sheet music                    |                               |
-| art and entertainment     | music                                  | musical instruments                    | drums                          |                               |
-| art and entertainment     | music                                  | musical instruments                    | guitars                        |                               |
-| art and entertainment     | music                                  | musical instruments                    | pianos                         |                               |
-| art and entertainment     | music                                  | musical instruments                    |                                |                               |
-| art and entertainment     | music                                  | recording industry                     | music awards                   |                               |
-| art and entertainment     | music                                  | recording industry                     | record labels                  |                               |
-| art and entertainment     | music                                  | recording industry                     |                                |                               |
-| art and entertainment     | music                                  | singing                                |                                |                               |
-| art and entertainment     | music                                  |                                        |                                |                               |
-| art and entertainment     | radio                                  | podcasts                               |                                |                               |
-| art and entertainment     | radio                                  | radio programs                         |                                |                               |
-| art and entertainment     | radio                                  | talk radio                             |                                |                               |
-| art and entertainment     | radio                                  |                                        |                                |                               |
-| art and entertainment     | shows and events                       | beauty contest                         |                                |                               |
-| art and entertainment     | shows and events                       | circus                                 |                                |                               |
-| art and entertainment     | shows and events                       | classical concert                      |                                |                               |
-| art and entertainment     | shows and events                       | concert                                |                                |                               |
-| art and entertainment     | shows and events                       | conference                             |                                |                               |
-| art and entertainment     | shows and events                       | exhibition                             |                                |                               |
-| art and entertainment     | shows and events                       | fair                                   |                                |                               |
-| art and entertainment     | shows and events                       | festival                               |                                |                               |
-| art and entertainment     | shows and events                       | sports event                           |                                |                               |
-| art and entertainment     | theatre                                | theatre awards                         |                                |                               |
-| art and entertainment     | theatre                                | theatre companies                      |                                |                               |
-| art and entertainment     | theatre                                |                                        |                                |                               |
-| art and entertainment     | visual art and design                  | architecture                           |                                |                               |
-| art and entertainment     | visual art and design                  | art and craft supplies                 |                                |                               |
-| art and entertainment     | visual art and design                  | art museums and galleries              |                                |                               |
-| art and entertainment     | visual art and design                  | arts education                         |                                |                               |
-| art and entertainment     | visual art and design                  | design                                 | graphic design                 |                               |
-| art and entertainment     | visual art and design                  | design                                 | industrial and product design  |                               |
-| art and entertainment     | visual art and design                  | design                                 | interior design                |                               |
-| art and entertainment     | visual art and design                  | design                                 |                                |                               |
-| art and entertainment     | visual art and design                  | digital art                            |                                |                               |
-| art and entertainment     | visual art and design                  | drawing                                |                                |                               |
-| art and entertainment     | visual art and design                  | painting                               |                                |                               |
-| art and entertainment     | visual art and design                  | performance art                        |                                |                               |
-| art and entertainment     | visual art and design                  | restoration                            |                                |                               |
-| art and entertainment     | visual art and design                  | sculpture                              |                                |                               |
-| art and entertainment     | visual art and design                  |                                        |                                |                               |
-| art and entertainment     |                                        |                                        |                                |                               |
-| automotive and vehicles   | auto parts                             |                                        |                                |                               |
-| automotive and vehicles   | auto repair                            |                                        |                                |                               |
-| automotive and vehicles   | bicycles and accessories               | mountain bikes                         |                                |                               |
-| automotive and vehicles   | bicycles and accessories               |                                        |                                |                               |
-| automotive and vehicles   | boats and watercraft                   |                                        |                                |                               |
-| automotive and vehicles   | buying and selling cars                |                                        |                                |                               |
-| automotive and vehicles   | campers and rvs                        |                                        |                                |                               |
-| automotive and vehicles   | cars                                   | car culture                            |                                |                               |
-| automotive and vehicles   | cars                                   | car industry                           |                                |                               |
-| automotive and vehicles   | cars                                   | convertible                            |                                |                               |
-| automotive and vehicles   | cars                                   | coupe                                  |                                |                               |
-| automotive and vehicles   | cars                                   | crossover                              |                                |                               |
-| automotive and vehicles   | cars                                   | diesel                                 |                                |                               |
-| automotive and vehicles   | cars                                   | hatchback                              |                                |                               |
-| automotive and vehicles   | cars                                   | hybrid                                 |                                |                               |
-| automotive and vehicles   | cars                                   | luxury                                 |                                |                               |
-| automotive and vehicles   | cars                                   | performance vehicles                   |                                |                               |
-| automotive and vehicles   | cars                                   | sedan                                  |                                |                               |
-| automotive and vehicles   | cars                                   | vintage cars                           |                                |                               |
-| automotive and vehicles   | cars                                   | wagon                                  |                                |                               |
-| automotive and vehicles   | cars                                   |                                        |                                |                               |
-| automotive and vehicles   | certified pre-owned                    |                                        |                                |                               |
-| automotive and vehicles   | commercial vehicles                    |                                        |                                |                               |
-| automotive and vehicles   | electric vehicles                      |                                        |                                |                               |
-| automotive and vehicles   | minivan                                |                                        |                                |                               |
-| automotive and vehicles   | motor shows                            |                                        |                                |                               |
-| automotive and vehicles   | motorcycles                            |                                        |                                |                               |
-| automotive and vehicles   | off-road vehicles                      |                                        |                                |                               |
-| automotive and vehicles   | road-side assistance                   |                                        |                                |                               |
-| automotive and vehicles   | scooters and mopeds                    |                                        |                                |                               |
-| automotive and vehicles   | trucks and suvs                        | pickup trucks                          |                                |                               |
-| automotive and vehicles   | trucks and suvs                        | suvs                                   |                                |                               |
-| automotive and vehicles   | trucks and suvs                        | truck accessories                      |                                |                               |
-| automotive and vehicles   | vehicle brands                         | acura                                  |                                |                               |
-| automotive and vehicles   | vehicle brands                         | alfa romeo                             |                                |                               |
-| automotive and vehicles   | vehicle brands                         | audi                                   |                                |                               |
-| automotive and vehicles   | vehicle brands                         | bentley                                |                                |                               |
-| automotive and vehicles   | vehicle brands                         | buick                                  |                                |                               |
-| automotive and vehicles   | vehicle brands                         | cadillac                               |                                |                               |
-| automotive and vehicles   | vehicle brands                         | chevrolet                              |                                |                               |
-| automotive and vehicles   | vehicle brands                         | chrysler                               |                                |                               |
-| automotive and vehicles   | vehicle brands                         | ferrari                                |                                |                               |
-| automotive and vehicles   | vehicle brands                         | fiat                                   |                                |                               |
-| automotive and vehicles   | vehicle brands                         | ford                                   |                                |                               |
-| automotive and vehicles   | vehicle brands                         | honda                                  |                                |                               |
-| automotive and vehicles   | vehicle brands                         | hyundai                                |                                |                               |
-| automotive and vehicles   | vehicle brands                         | isuzu                                  |                                |                               |
-| automotive and vehicles   | vehicle brands                         | jeep                                   |                                |                               |
-| automotive and vehicles   | vehicle brands                         | kia                                    |                                |                               |
-| automotive and vehicles   | vehicle brands                         | lamborghini                            |                                |                               |
-| automotive and vehicles   | vehicle brands                         | land rover                             |                                |                               |
-| automotive and vehicles   | vehicle brands                         | maserati                               |                                |                               |
-| automotive and vehicles   | vehicle brands                         | mazda                                  |                                |                               |
-| automotive and vehicles   | vehicle brands                         | mercedes-benz                          |                                |                               |
-| automotive and vehicles   | vehicle brands                         | mitsubishi                             |                                |                               |
-| automotive and vehicles   | vehicle brands                         | nissan                                 | infiniti                       |                               |
-| automotive and vehicles   | vehicle brands                         | nissan                                 |                                |                               |
-| automotive and vehicles   | vehicle brands                         | peugeot                                |                                |                               |
-| automotive and vehicles   | vehicle brands                         | pontiac                                |                                |                               |
-| automotive and vehicles   | vehicle brands                         | porsche                                |                                |                               |
-| automotive and vehicles   | vehicle brands                         | rolls-royce                            |                                |                               |
-| automotive and vehicles   | vehicle brands                         | saab                                   |                                |                               |
-| automotive and vehicles   | vehicle brands                         | scion                                  |                                |                               |
-| automotive and vehicles   | vehicle brands                         | subaru                                 |                                |                               |
-| automotive and vehicles   | vehicle brands                         | suzuki                                 |                                |                               |
-| automotive and vehicles   | vehicle brands                         | toyota                                 |                                |                               |
-| automotive and vehicles   | vehicle brands                         | volkswagen                             |                                |                               |
-| automotive and vehicles   | vehicle brands                         | volvo                                  |                                |                               |
-| automotive and vehicles   | vehicle rental                         |                                        |                                |                               |
-| automotive and vehicles   |                                        |                                        |                                |                               |
-| business and industrial   | advertising and marketing              | advertising                            |                                |                               |
-| business and industrial   | advertising and marketing              | brand management                       |                                |                               |
-| business and industrial   | advertising and marketing              | marketing                              |                                |                               |
-| business and industrial   | advertising and marketing              | public relations                       |                                |                               |
-| business and industrial   | advertising and marketing              | telemarketing                          |                                |                               |
-| business and industrial   | aerospace and defense                  | defense industry                       |                                |                               |
-| business and industrial   | aerospace and defense                  | space technology                       |                                |                               |
-| business and industrial   | aerospace and defense                  |                                        |                                |                               |
-| business and industrial   | agriculture and forestry               | agriculture                            |                                |                               |
-| business and industrial   | agriculture and forestry               | aquaculture                            |                                |                               |
-| business and industrial   | agriculture and forestry               | crops and seed                         |                                |                               |
-| business and industrial   | agriculture and forestry               | farms and ranches                      |                                |                               |
-| business and industrial   | agriculture and forestry               | food production                        |                                |                               |
-| business and industrial   | agriculture and forestry               | forestry                               |                                |                               |
-| business and industrial   | agriculture and forestry               | horticulture                           |                                |                               |
-| business and industrial   | agriculture and forestry               | livestock                              |                                |                               |
-| business and industrial   | agriculture and forestry               | organic farming                        |                                |                               |
-| business and industrial   | automation                             | robotics                               |                                |                               |
-| business and industrial   | biomedical                             |                                        |                                |                               |
-| business and industrial   | business news                          |                                        |                                |                               |
-| business and industrial   | business operations                    | business plans                         |                                |                               |
-| business and industrial   | business operations                    | human resources                        | compensation and benefits      |                               |
-| business and industrial   | business operations                    | human resources                        | payroll services               |                               |
-| business and industrial   | business operations                    | human resources                        |                                |                               |
-| business and industrial   | business operations                    | management                             | business process               |                               |
-| business and industrial   | business operations                    | management                             | project management             |                               |
-| business and industrial   | business operations                    | management                             | supply chain management        |                               |
-| business and industrial   | business operations                    |                                        |                                |                               |
-| business and industrial   | business software                      |                                        |                                |                               |
-| business and industrial   | chemicals industry                     | adhesives                              |                                |                               |
-| business and industrial   | chemicals industry                     | cleaning agents                        |                                |                               |
-| business and industrial   | chemicals industry                     | dyes and pigments                      |                                |                               |
-| business and industrial   | chemicals industry                     | plastics and polymers                  |                                |                               |
-| business and industrial   | chemicals industry                     |                                        |                                |                               |
-| business and industrial   | company                                | annual report                          |                                |                               |
-| business and industrial   | company                                | bankruptcy                             |                                |                               |
-| business and industrial   | company                                | earnings                               |                                |                               |
-| business and industrial   | company                                | joint venture                          |                                |                               |
-| business and industrial   | company                                | merger and acquisition                 |                                |                               |
-| business and industrial   | construction                           |                                        |                                |                               |
-| business and industrial   | energy                                 | coal                                   |                                |                               |
-| business and industrial   | energy                                 | electricity                            |                                |                               |
-| business and industrial   | energy                                 | natural gas                            |                                |                               |
-| business and industrial   | energy                                 | nuclear power                          | nuclear accident               |                               |
-| business and industrial   | energy                                 | nuclear power                          |                                |                               |
-| business and industrial   | energy                                 | oil                                    | diesel fuel                    |                               |
-| business and industrial   | energy                                 | oil                                    | oil and gas prices             |                               |
-| business and industrial   | energy                                 | oil                                    | oil company                    |                               |
-| business and industrial   | energy                                 | oil                                    |                                |                               |
-| business and industrial   | energy                                 | renewable energy                       | biofuel                        |                               |
-| business and industrial   | energy                                 | renewable energy                       | fuel cell                      |                               |
-| business and industrial   | energy                                 | renewable energy                       | geothermal energy              |                               |
-| business and industrial   | energy                                 | renewable energy                       | hydroelectric energy           |                               |
-| business and industrial   | energy                                 | renewable energy                       | solar energy                   |                               |
-| business and industrial   | energy                                 | renewable energy                       | wind energy                    |                               |
-| business and industrial   | energy                                 | renewable energy                       |                                |                               |
-| business and industrial   | fashion industry                       |                                        |                                |                               |
-| business and industrial   | food industry                          |                                        |                                |                               |
-| business and industrial   | green solutions                        |                                        |                                |                               |
-| business and industrial   | hospitality industry                   | event planning                         |                                |                               |
-| business and industrial   | hospitality industry                   | food service                           |                                |                               |
-| business and industrial   | hospitality industry                   |                                        |                                |                               |
-| business and industrial   | iron and steel industry                |                                        |                                |                               |
-| business and industrial   | logistics                              | air freight                            |                                |                               |
-| business and industrial   | logistics                              | freight train                          |                                |                               |
-| business and industrial   | logistics                              |                                        |                                |                               |
-| business and industrial   | manufacturing                          |                                        |                                |                               |
-| business and industrial   | metals                                 |                                        |                                |                               |
-| business and industrial   | mining industry                        |                                        |                                |                               |
-| business and industrial   | paper industry                         |                                        |                                |                               |
-| business and industrial   | pharmaceutical industry                |                                        |                                |                               |
-| business and industrial   | publishing                             |                                        |                                |                               |
-| business and industrial   | record company                         |                                        |                                |                               |
-| business and industrial   | shipbuilding                           |                                        |                                |                               |
-| business and industrial   | tanning                                |                                        |                                |                               |
-| business and industrial   | textile industry                       |                                        |                                |                               |
-| business and industrial   | war industry                           | weaponry                               |                                |                               |
-| business and industrial   |                                        |                                        |                                |                               |
-| careers                   | career advice                          |                                        |                                |                               |
-| careers                   | career planning                        |                                        |                                |                               |
-| careers                   | job fairs                              |                                        |                                |                               |
-| careers                   | job search                             |                                        |                                |                               |
-| careers                   | nursing                                |                                        |                                |                               |
-| careers                   | resume writing and advice              |                                        |                                |                               |
-| careers                   | telecommuting                          |                                        |                                |                               |
-| careers                   | u.s. military                          |                                        |                                |                               |
-| careers                   |                                        |                                        |                                |                               |
-| education                 | adult education                        |                                        |                                |                               |
-| education                 | alumni and reunions                    |                                        |                                |                               |
-| education                 | art history                            |                                        |                                |                               |
-| education                 | distance learning                      |                                        |                                |                               |
-| education                 | english as a second language           |                                        |                                |                               |
-| education                 | grade school                           |                                        |                                |                               |
-| education                 | graduate school                        | college                                |                                |                               |
-| education                 | graduate school                        | college administration                 |                                |                               |
-| education                 | graduate school                        | college life                           |                                |                               |
-| education                 | graduate school                        |                                        |                                |                               |
-| education                 | high school                            |                                        |                                |                               |
-| education                 | homeschooling                          |                                        |                                |                               |
-| education                 | homework and study tips                |                                        |                                |                               |
-| education                 | language learning                      |                                        |                                |                               |
-| education                 | school                                 | private school                         |                                |                               |
-| education                 | school                                 |                                        |                                |                               |
-| education                 | special education                      |                                        |                                |                               |
-| education                 | studying business                      |                                        |                                |                               |
-| education                 | teaching and classroom resources       | lesson plans                           |                                |                               |
-| education                 | teaching and classroom resources       | school supplies                        |                                |                               |
-| education                 |                                        |                                        |                                |                               |
-| family and parenting      | adoption                               |                                        |                                |                               |
-| family and parenting      | babies and toddlers                    | baby clothes                           |                                |                               |
-| family and parenting      | babies and toddlers                    | baby food                              |                                |                               |
-| family and parenting      | babies and toddlers                    |                                        |                                |                               |
-| family and parenting      | children                               | daycare and preschool                  |                                |                               |
-| family and parenting      | children                               |                                        |                                |                               |
-| family and parenting      | eldercare                              |                                        |                                |                               |
-| family and parenting      | motherhood                             | artificial insemination                |                                |                               |
-| family and parenting      | motherhood                             | pregnancy                              |                                |                               |
-| family and parenting      | motherhood                             |                                        |                                |                               |
-| family and parenting      | parenting teens                        |                                        |                                |                               |
-| family and parenting      | special needs kids                     |                                        |                                |                               |
-| family and parenting      |                                        |                                        |                                |                               |
-| finance                   | accounting and auditing                | billing and invoicing                  |                                |                               |
-| finance                   | accounting and auditing                | bookkeeping                            |                                |                               |
-| finance                   | accounting and auditing                | tax preparation and planning           |                                |                               |
-| finance                   | accounting and auditing                |                                        |                                |                               |
-| finance                   | bank                                   | atms                                   |                                |                               |
-| finance                   | bank                                   | bank account                           |                                |                               |
-| finance                   | bank                                   | checks                                 |                                |                               |
-| finance                   | bank                                   |                                        |                                |                               |
-| finance                   | financial news                         |                                        |                                |                               |
-| finance                   | grants, scholarships and financial aid | financial aid                          |                                |                               |
-| finance                   | grants, scholarships and financial aid | government grants                      |                                |                               |
-| finance                   | grants, scholarships and financial aid | scholarships                           |                                |                               |
-| finance                   | investing                              | beginning investing                    |                                |                               |
-| finance                   | investing                              | brokerages                             |                                |                               |
-| finance                   | investing                              | day trading                            |                                |                               |
-| finance                   | investing                              | funds                                  | exchange traded funds          |                               |
-| finance                   | investing                              | funds                                  | hedge fund                     |                               |
-| finance                   | investing                              | funds                                  | mutual funds                   |                               |
-| finance                   | investing                              | futures trading                        |                                |                               |
-| finance                   | investing                              | options                                |                                |                               |
-| finance                   | investing                              | portfolio                              |                                |                               |
-| finance                   | investing                              | stocks                                 |                                |                               |
-| finance                   | investing                              | venture capital                        |                                |                               |
-| finance                   | investing                              |                                        |                                |                               |
-| finance                   | personal finance                       | debt management                        |                                |                               |
-| finance                   | personal finance                       | financial planning                     | asset and portfolio management |                               |
-| finance                   | personal finance                       | financial planning                     | estate planning                |                               |
-| finance                   | personal finance                       | financial planning                     | retirement and pension         |                               |
-| finance                   | personal finance                       | financial planning                     |                                |                               |
-| finance                   | personal finance                       | insurance                              | car insurance                  |                               |
-| finance                   | personal finance                       | insurance                              | health insurance               |                               |
-| finance                   | personal finance                       | insurance                              | homeowners insurance           |                               |
-| finance                   | personal finance                       | insurance                              | life insurance                 |                               |
-| finance                   | personal finance                       | insurance                              | travel insurance               |                               |
-| finance                   | personal finance                       | insurance                              | vehicle insurance              |                               |
-| finance                   | personal finance                       | insurance                              |                                |                               |
-| finance                   | personal finance                       | lending                                | credit cards                   |                               |
-| finance                   | personal finance                       | lending                                | home financing                 |                               |
-| finance                   | personal finance                       | lending                                | personal loans                 |                               |
-| finance                   | personal finance                       | lending                                | student loans                  |                               |
-| finance                   | personal finance                       | lending                                | vehicle financing              |                               |
-| finance                   | personal finance                       | saving                                 |                                |                               |
-| finance                   |                                        |                                        |                                |                               |
-| food and drink            | barbecues and grilling                 |                                        |                                |                               |
-| food and drink            | beverages                              | alcoholic beverages                    | cocktails and beer             |                               |
-| food and drink            | beverages                              | alcoholic beverages                    | wine                           |                               |
-| food and drink            | beverages                              | non alcoholic beverages                | bottled water                  |                               |
-| food and drink            | beverages                              | non alcoholic beverages                | coffee and tea                 |                               |
-| food and drink            | beverages                              | non alcoholic beverages                | soft drinks                    |                               |
-| food and drink            | beverages                              |                                        |                                |                               |
-| food and drink            | cuisines                               | american cuisine                       |                                |                               |
-| food and drink            | cuisines                               | chinese cuisine                        |                                |                               |
-| food and drink            | cuisines                               | french cuisine                         |                                |                               |
-| food and drink            | cuisines                               | indian cuisine                         |                                |                               |
-| food and drink            | cuisines                               | italian cuisine                        |                                |                               |
-| food and drink            | cuisines                               | japanese cuisine                       |                                |                               |
-| food and drink            | cuisines                               | mexican cuisine                        |                                |                               |
-| food and drink            | cuisines                               | regional cuisine                       |                                |                               |
-| food and drink            | desserts and baking                    |                                        |                                |                               |
-| food and drink            | dining out                             |                                        |                                |                               |
-| food and drink            | food                                   | baked goods                            |                                |                               |
-| food and drink            | food                                   | breakfast foods                        |                                |                               |
-| food and drink            | food                                   | candy and sweets                       |                                |                               |
-| food and drink            | food                                   | condiments and dressings               |                                |                               |
-| food and drink            | food                                   | fast food                              |                                |                               |
-| food and drink            | food                                   | frozen food                            |                                |                               |
-| food and drink            | food                                   | fruits and vegetables                  |                                |                               |
-| food and drink            | food                                   | grains and pasta                       |                                |                               |
-| food and drink            | food                                   | herbs and spices                       |                                |                               |
-| food and drink            | food                                   | salads                                 |                                |                               |
-| food and drink            | food                                   | snack foods                            |                                |                               |
-| food and drink            | food allergies                         |                                        |                                |                               |
-| food and drink            | food and grocery retailers             | bakeries                               |                                |                               |
-| food and drink            | food and grocery retailers             | butchers                               |                                |                               |
-| food and drink            | food and grocery retailers             | convenience stores                     |                                |                               |
-| food and drink            | food and grocery retailers             | grocery stores                         |                                |                               |
-| food and drink            | gastronomy                             | slow food                              |                                |                               |
-| food and drink            | gastronomy                             |                                        |                                |                               |
-| food and drink            | health and lowfat cooking              |                                        |                                |                               |
-| food and drink            | healthy eating                         |                                        |                                |                               |
-| food and drink            | kosher food                            |                                        |                                |                               |
-| food and drink            | vegan                                  |                                        |                                |                               |
-| food and drink            | vegetarian                             |                                        |                                |                               |
-| food and drink            |                                        |                                        |                                |                               |
-| health and fitness        | addiction                              | alcoholism                             |                                |                               |
-| health and fitness        | addiction                              | smoking addiction                      |                                |                               |
-| health and fitness        | addiction                              | substance abuse                        |                                |                               |
-| health and fitness        | addiction                              |                                        |                                |                               |
-| health and fitness        | aging                                  |                                        |                                |                               |
-| health and fitness        | alternative medicine                   | herbs for health                       |                                |                               |
-| health and fitness        | alternative medicine                   | holistic healing                       |                                |                               |
-| health and fitness        | alternative medicine                   | homeopathy                             |                                |                               |
-| health and fitness        | alternative medicine                   |                                        |                                |                               |
-| health and fitness        | dental care                            |                                        |                                |                               |
-| health and fitness        | disease                                | aids and hiv                           |                                |                               |
-| health and fitness        | disease                                | allergies                              |                                |                               |
-| health and fitness        | disease                                | arthritis                              |                                |                               |
-| health and fitness        | disease                                | asthma                                 |                                |                               |
-| health and fitness        | disease                                | autism and pdd                         |                                |                               |
-| health and fitness        | disease                                | cancer                                 | brain tumor                    |                               |
-| health and fitness        | disease                                | cancer                                 |                                |                               |
-| health and fitness        | disease                                | cholesterol                            |                                |                               |
-| health and fitness        | disease                                | chronic fatigue syndrome               |                                |                               |
-| health and fitness        | disease                                | chronic pain                           |                                |                               |
-| health and fitness        | disease                                | cold and flu                           |                                |                               |
-| health and fitness        | disease                                | deafness                               |                                |                               |
-| health and fitness        | disease                                | diabetes                               |                                |                               |
-| health and fitness        | disease                                | epidemic                               |                                |                               |
-| health and fitness        | disease                                | epilepsy                               |                                |                               |
-| health and fitness        | disease                                | gerd and acid reflux                   |                                |                               |
-| health and fitness        | disease                                | headaches and migraines                |                                |                               |
-| health and fitness        | disease                                | heart disease                          |                                |                               |
-| health and fitness        | disease                                | ibs and crohn's disease                |                                |                               |
-| health and fitness        | disease                                | incontinence                           |                                |                               |
-| health and fitness        | disease                                | infertility                            |                                |                               |
-| health and fitness        | disease                                | thyroid disease                        |                                |                               |
-| health and fitness        | disease                                |                                        |                                |                               |
-| health and fitness        | disorders                              | mental disorder                        | a.d.d.                         |                               |
-| health and fitness        | disorders                              | mental disorder                        | bipolar disorder               |                               |
-| health and fitness        | disorders                              | mental disorder                        | depression                     |                               |
-| health and fitness        | disorders                              | mental disorder                        | panic and anxiety              |                               |
-| health and fitness        | disorders                              | mental disorder                        |                                |                               |
-| health and fitness        | disorders                              | sleep disorders                        |                                |                               |
-| health and fitness        | disorders                              |                                        |                                |                               |
-| health and fitness        | drugs                                  |                                        |                                |                               |
-| health and fitness        | exercise                               |                                        |                                |                               |
-| health and fitness        | incest and abuse support               |                                        |                                |                               |
-| health and fitness        | men's health                           |                                        |                                |                               |
-| health and fitness        | nutrition                              |                                        |                                |                               |
-| health and fitness        | sexuality                              |                                        |                                |                               |
-| health and fitness        | sports medicine                        |                                        |                                |                               |
-| health and fitness        | therapy                                | physical therapy                       |                                |                               |
-| health and fitness        | therapy                                |                                        |                                |                               |
-| health and fitness        | weight loss                            |                                        |                                |                               |
-| health and fitness        | women's health                         |                                        |                                |                               |
-| health and fitness        |                                        |                                        |                                |                               |
-| hobbies and interests     | art and technology                     |                                        |                                |                               |
-| hobbies and interests     | arts and crafts                        | beadwork                               |                                |                               |
-| hobbies and interests     | arts and crafts                        | candle and soap making                 |                                |                               |
-| hobbies and interests     | arts and crafts                        | crochet                                |                                |                               |
-| hobbies and interests     | arts and crafts                        | jewelry making                         |                                |                               |
-| hobbies and interests     | arts and crafts                        | knitting                               |                                |                               |
-| hobbies and interests     | arts and crafts                        | photography                            |                                |                               |
-| hobbies and interests     | arts and crafts                        | pottery                                |                                |                               |
-| hobbies and interests     | arts and crafts                        | watchmaking                            |                                |                               |
-| hobbies and interests     | arts and crafts                        | woodworking                            |                                |                               |
-| hobbies and interests     | arts and crafts                        |                                        |                                |                               |
-| hobbies and interests     | astrology                              |                                        |                                |                               |
-| hobbies and interests     | birdwatching                           |                                        |                                |                               |
-| hobbies and interests     | cigars                                 |                                        |                                |                               |
-| hobbies and interests     | collecting                             | stamps and coins                       |                                |                               |
-| hobbies and interests     | collecting                             |                                        |                                |                               |
-| hobbies and interests     | games                                  | board games and puzzles                |                                |                               |
-| hobbies and interests     | games                                  | card games                             |                                |                               |
-| hobbies and interests     | games                                  | chess                                  |                                |                               |
-| hobbies and interests     | games                                  | gambling                               |                                |                               |
-| hobbies and interests     | games                                  | lottery                                |                                |                               |
-| hobbies and interests     | games                                  | role playing games                     |                                |                               |
-| hobbies and interests     | games                                  | video and computer games               |                                |                               |
-| hobbies and interests     | getting published                      | freelance writing                      |                                |                               |
-| hobbies and interests     | getting published                      | screenwriting                          |                                |                               |
-| hobbies and interests     | getting published                      |                                        |                                |                               |
-| hobbies and interests     | guitar                                 |                                        |                                |                               |
-| hobbies and interests     | home recording                         |                                        |                                |                               |
-| hobbies and interests     | inventors and patents                  |                                        |                                |                               |
-| hobbies and interests     | magic and illusion                     |                                        |                                |                               |
-| hobbies and interests     | needlework                             |                                        |                                |                               |
-| hobbies and interests     | paranormal phenomena                   | occult                                 |                                |                               |
-| hobbies and interests     | paranormal phenomena                   | parapsychology                         |                                |                               |
-| hobbies and interests     | paranormal phenomena                   |                                        |                                |                               |
-| hobbies and interests     | reading                                |                                        |                                |                               |
-| hobbies and interests     | scrapbooking                           |                                        |                                |                               |
-| hobbies and interests     |                                        |                                        |                                |                               |
-| home and garden           | appliances                             | dishwashers                            |                                |                               |
-| home and garden           | appliances                             | microwaves                             |                                |                               |
-| home and garden           | appliances                             | refrigerators and freezers             |                                |                               |
-| home and garden           | appliances                             | small appliances                       | blenders                       |                               |
-| home and garden           | appliances                             | small appliances                       | coffee maker                   |                               |
-| home and garden           | appliances                             | small appliances                       | food processors                |                               |
-| home and garden           | appliances                             | small appliances                       | toasters and toaster ovens     |                               |
-| home and garden           | appliances                             | stoves                                 |                                |                               |
-| home and garden           | appliances                             |                                        |                                |                               |
-| home and garden           | bed and bath                           | bathroom                               |                                |                               |
-| home and garden           | bed and bath                           | bedroom                                | bedding and bed linens         |                               |
-| home and garden           | bed and bath                           | bedroom                                | beds and headboards            |                               |
-| home and garden           | bed and bath                           | bedroom                                | mattresses                     |                               |
-| home and garden           | bed and bath                           | bedroom                                |                                |                               |
-| home and garden           | environmental safety                   |                                        |                                |                               |
-| home and garden           | gardening and landscaping              | gardening                              |                                |                               |
-| home and garden           | gardening and landscaping              | landscaping                            |                                |                               |
-| home and garden           | gardening and landscaping              | yard and patio                         |                                |                               |
-| home and garden           | home furnishings                       | lamps and lighting                     |                                |                               |
-| home and garden           | home furnishings                       | rugs and carpets                       |                                |                               |
-| home and garden           | home furnishings                       | sofas and chairs                       |                                |                               |
-| home and garden           | home furnishings                       |                                        |                                |                               |
-| home and garden           | home improvement and repair            | house painting and finishing           |                                |                               |
-| home and garden           | home improvement and repair            | locks and locksmiths                   |                                |                               |
-| home and garden           | home improvement and repair            | plumbing                               |                                |                               |
-| home and garden           | home improvement and repair            | power tools                            |                                |                               |
-| home and garden           | home improvement and repair            | roofing                                |                                |                               |
-| home and garden           | home improvement and repair            |                                        |                                |                               |
-| home and garden           | interior decorating                    |                                        |                                |                               |
-| home and garden           | laundry                                |                                        |                                |                               |
-| home and garden           | luxury homes                           |                                        |                                |                               |
-| home and garden           | nursery and playroom                   |                                        |                                |                               |
-| home and garden           | pest control                           |                                        |                                |                               |
-| home and garden           | remodeling and construction            |                                        |                                |                               |
-| home and garden           |                                        |                                        |                                |                               |
-| law, govt and politics    | armed forces                           | air force                              |                                |                               |
-| law, govt and politics    | armed forces                           | army                                   |                                |                               |
-| law, govt and politics    | armed forces                           | marines                                |                                |                               |
-| law, govt and politics    | armed forces                           | navy                                   |                                |                               |
-| law, govt and politics    | armed forces                           | veterans                               |                                |                               |
-| law, govt and politics    | commentary                             |                                        |                                |                               |
-| law, govt and politics    | espionage and intelligence             | secret service                         |                                |                               |
-| law, govt and politics    | espionage and intelligence             | surveillance                           |                                |                               |
-| law, govt and politics    | espionage and intelligence             | terrorism                              |                                |                               |
-| law, govt and politics    | espionage and intelligence             |                                        |                                |                               |
-| law, govt and politics    | government                             | courts and judiciary                   |                                |                               |
-| law, govt and politics    | government                             | embassies and consulates               |                                |                               |
-| law, govt and politics    | government                             | executive branch                       |                                |                               |
-| law, govt and politics    | government                             | government agencies                    |                                |                               |
-| law, govt and politics    | government                             | government contracting and procurement |                                |                               |
-| law, govt and politics    | government                             | heads of state                         |                                |                               |
-| law, govt and politics    | government                             | legislative                            |                                |                               |
-| law, govt and politics    | government                             | parliament                             |                                |                               |
-| law, govt and politics    | government                             | state and local government             |                                |                               |
-| law, govt and politics    | government                             |                                        |                                |                               |
-| law, govt and politics    | immigration                            |                                        |                                |                               |
-| law, govt and politics    | law enforcement                        | coast guard                            |                                |                               |
-| law, govt and politics    | law enforcement                        | fire department                        |                                |                               |
-| law, govt and politics    | law enforcement                        | highway patrol                         |                                |                               |
-| law, govt and politics    | law enforcement                        | police                                 |                                |                               |
-| law, govt and politics    | law enforcement                        |                                        |                                |                               |
-| law, govt and politics    | legal issues                           | civil law                              | copyright                      |                               |
-| law, govt and politics    | legal issues                           | civil law                              |                                |                               |
-| law, govt and politics    | legal issues                           | civil rights                           |                                |                               |
-| law, govt and politics    | legal issues                           | civil rights                           | privacy                        |                               |
-| law, govt and politics    | legal issues                           | criminal law                           |                                |                               |
-| law, govt and politics    | legal issues                           | death penalty                          |                                |                               |
-| law, govt and politics    | legal issues                           | human rights                           |                                |                               |
-| law, govt and politics    | legal issues                           | international law                      |                                |                               |
-| law, govt and politics    | legal issues                           | legislation                            | building laws                  |                               |
-| law, govt and politics    | legal issues                           | legislation                            | education laws                 |                               |
-| law, govt and politics    | legal issues                           | legislation                            | family laws                    |                               |
-| law, govt and politics    | legal issues                           | legislation                            | health care laws               |                               |
-| law, govt and politics    | legal issues                           | legislation                            | immigration laws               |                               |
-| law, govt and politics    | legal issues                           | legislation                            | tax laws                       |                               |
-| law, govt and politics    | legal issues                           | legislation                            |                                |                               |
-| law, govt and politics    | legal issues                           |                                        |                                |                               |
-| law, govt and politics    | politics                               | domestic policy                        |                                |                               |
-| law, govt and politics    | politics                               | elections                              | local elections                |                               |
-| law, govt and politics    | politics                               | elections                              | presidential elections         |                               |
-| law, govt and politics    | politics                               | elections                              | referendums                    |                               |
-| law, govt and politics    | politics                               | elections                              |                                |                               |
-| law, govt and politics    | politics                               | foreign policy                         |                                |                               |
-| law, govt and politics    | politics                               | lobbying                               |                                |                               |
-| law, govt and politics    | politics                               | political parties                      |                                |                               |
-| law, govt and politics    | politics                               |                                        |                                |                               |
-| law, govt and politics    |                                        |                                        |                                |                               |
-| news                      | international news                     |                                        |                                |                               |
-| news                      | local news                             |                                        |                                |                               |
-| news                      | national news                          |                                        |                                |                               |
-| news                      |                                        |                                        |                                |                               |
-| pets                      | animal welfare                         |                                        |                                |                               |
-| pets                      | aquariums                              |                                        |                                |                               |
-| pets                      | birds                                  |                                        |                                |                               |
-| pets                      | cats                                   |                                        |                                |                               |
-| pets                      | dogs                                   |                                        |                                |                               |
-| pets                      | large animals                          |                                        |                                |                               |
-| pets                      | reptiles                               |                                        |                                |                               |
-| pets                      | zoo                                    |                                        |                                |                               |
-| pets                      |                                        |                                        |                                |                               |
-| real estate               | apartments                             |                                        |                                |                               |
-| real estate               | architects                             |                                        |                                |                               |
-| real estate               | buying and selling homes               |                                        |                                |                               |
-| real estate               | low income housing                     |                                        |                                |                               |
-| real estate               |                                        |                                        |                                |                               |
-| religion and spirituality | alternative religions                  | pagan and wiccan                       |                                |                               |
-| religion and spirituality | atheism and agnosticism                |                                        |                                |                               |
-| religion and spirituality | buddhism                               |                                        |                                |                               |
-| religion and spirituality | christianity                           | catholicism                            |                                |                               |
-| religion and spirituality | christianity                           | latter-day saints                      |                                |                               |
-| religion and spirituality | christianity                           | orthodoxy                              |                                |                               |
-| religion and spirituality | christianity                           | protestantism                          |                                |                               |
-| religion and spirituality | christianity                           |                                        |                                |                               |
-| religion and spirituality | hinduism                               |                                        |                                |                               |
-| religion and spirituality | islam                                  | islamic fundamentalism                 |                                |                               |
-| religion and spirituality | islam                                  |                                        |                                |                               |
-| religion and spirituality | judaism                                |                                        |                                |                               |
-| religion and spirituality |                                        |                                        |                                |                               |
-| science                   | biology                                | biotechnology                          |                                |                               |
-| science                   | biology                                | botany                                 |                                |                               |
-| science                   | biology                                | breeding                               |                                |                               |
-| science                   | biology                                | cytology                               |                                |                               |
-| science                   | biology                                | marine biology                         |                                |                               |
-| science                   | biology                                | molecular biology                      |                                |                               |
-| science                   | biology                                | zoology                                | endangered species             |                               |
-| science                   | biology                                | zoology                                | entomology                     |                               |
-| science                   | biology                                | zoology                                | ornithology                    |                               |
-| science                   | biology                                | zoology                                |                                |                               |
-| science                   | biology                                |                                        |                                |                               |
-| science                   | chemistry                              | organic chemistry                      |                                |                               |
-| science                   | chemistry                              |                                        |                                |                               |
-| science                   | computer science                       | artificial intelligence                |                                |                               |
-| science                   | computer science                       | cryptography                           |                                |                               |
-| science                   | computer science                       | distributed systems                    |                                |                               |
-| science                   | computer science                       | information science                    |                                |                               |
-| science                   | computer science                       | software engineering                   |                                |                               |
-| science                   | computer science                       |                                        |                                |                               |
-| science                   | ecology                                | environmental disaster                 |                                |                               |
-| science                   | ecology                                | pollution                              |                                |                               |
-| science                   | ecology                                | waste management                       | recycling                      |                               |
-| science                   | ecology                                | waste management                       | waste disposal                 |                               |
-| science                   | ecology                                |                                        |                                |                               |
-| science                   | engineering                            |                                        |                                |                               |
-| science                   | geography                              | cartography                            |                                |                               |
-| science                   | geography                              | topography                             |                                |                               |
-| science                   | geography                              |                                        |                                |                               |
-| science                   | geology                                | mineralogy                             |                                |                               |
-| science                   | geology                                | seismology                             | earthquakes                    |                               |
-| science                   | geology                                | volcanology                            | volcanic eruptions             |                               |
-| science                   | geology                                |                                        |                                |                               |
-| science                   | mathematics                            | algebra                                |                                |                               |
-| science                   | mathematics                            | arithmetic                             |                                |                               |
-| science                   | mathematics                            | geometry                               |                                |                               |
-| science                   | mathematics                            | statistics                             |                                |                               |
-| science                   | mathematics                            |                                        |                                |                               |
-| science                   | medicine                               | cardiology                             |                                |                               |
-| science                   | medicine                               | dermatology                            |                                |                               |
-| science                   | medicine                               | embryology                             |                                |                               |
-| science                   | medicine                               | genetics                               |                                |                               |
-| science                   | medicine                               | immunology                             |                                |                               |
-| science                   | medicine                               | medical research                       |                                |                               |
-| science                   | medicine                               | oncology                               |                                |                               |
-| science                   | medicine                               | orthopedics                            |                                |                               |
-| science                   | medicine                               | pediatrics                             |                                |                               |
-| science                   | medicine                               | pharmacology                           |                                |                               |
-| science                   | medicine                               | physiology                             |                                |                               |
-| science                   | medicine                               | psychology and psychiatry              | psychoanalysis                 |                               |
-| science                   | medicine                               | psychology and psychiatry              |                                |                               |
-| science                   | medicine                               | surgery                                | cosmetic surgery               |                               |
-| science                   | medicine                               | surgery                                | transplants                    |                               |
-| science                   | medicine                               | surgery                                |                                |                               |
-| science                   | medicine                               | veterinary medicine                    |                                |                               |
-| science                   | medicine                               |                                        |                                |                               |
-| science                   | physics                                | atomic physics                         |                                |                               |
-| science                   | physics                                | astrophysics                           |                                |                               |
-| science                   | physics                                | electromagnetism                       |                                |                               |
-| science                   | physics                                | hydraulics                             |                                |                               |
-| science                   | physics                                | nanotechnology                         |                                |                               |
-| science                   | physics                                | optics                                 |                                |                               |
-| science                   | physics                                | space and astronomy                    |                                |                               |
-| science                   | physics                                | thermodynamics                         |                                |                               |
-| science                   | physics                                |                                        |                                |                               |
-| science                   | social science                         | anthropology                           |                                |                               |
-| science                   | social science                         | history                                | ancient history                |                               |
-| science                   | social science                         | history                                | archaeology                    |                               |
-| science                   | social science                         | history                                | genealogy                      |                               |
-| science                   | social science                         | history                                | heraldry                       |                               |
-| science                   | social science                         | history                                | medieval history               |                               |
-| science                   | social science                         | history                                | modern history                 |                               |
-| science                   | social science                         | history                                | prehistory                     |                               |
-| science                   | social science                         | history                                |                                |                               |
-| science                   | social science                         | linguistics                            | translation                    |                               |
-| science                   | social science                         | linguistics                            |                                |                               |
-| science                   | social science                         | pedagogy                               |                                |                               |
-| science                   | social science                         | philosophy                             | ethics                         |                               |
-| science                   | social science                         | philosophy                             |                                |                               |
-| science                   | social science                         | sociology                              |                                |                               |
-| science                   | social science                         |                                        |                                |                               |
-| science                   | weather                                | meteorological disaster                | flood                          |                               |
-| science                   | weather                                | meteorological disaster                | hurricane                      |                               |
-| science                   | weather                                | meteorological disaster                | tornado                        |                               |
-| science                   | weather                                | meteorological disaster                |                                |                               |
-| science                   | weather                                |                                        |                                |                               |
-| science                   |                                        |                                        |                                |                               |
-| shopping                  | auctions                               |                                        |                                |                               |
-| shopping                  | classifieds                            |                                        |                                |                               |
-| shopping                  | gifts                                  | flowers                                |                                |                               |
-| shopping                  | gifts                                  | greeting cards                         |                                |                               |
-| shopping                  | gifts                                  | party supplies                         |                                |                               |
-| shopping                  | gifts                                  |                                        |                                |                               |
-| shopping                  | resources                              | comparisons engines                    |                                |                               |
-| shopping                  | resources                              | consumer protection                    |                                |                               |
-| shopping                  | resources                              | contests and freebies                  |                                |                               |
-| shopping                  | resources                              | coupons                                |                                |                               |
-| shopping                  | resources                              | loyalty programs                       |                                |                               |
-| shopping                  | resources                              | product reviews                        |                                |                               |
-| shopping                  | resources                              | warranties and service contracts       |                                |                               |
-| shopping                  | retail                                 | department stores                      |                                |                               |
-| shopping                  | retail                                 | online stores                          |                                |                               |
-| shopping                  | retail                                 | outlet stores                          |                                |                               |
-| shopping                  | retail                                 | second-hand market                     |                                |                               |
-| shopping                  | retail                                 | wholesalers                            |                                |                               |
-| shopping                  | retail                                 |                                        |                                |                               |
-| shopping                  | toys                                   | action figures                         |                                |                               |
-| shopping                  | toys                                   | dolls                                  |                                |                               |
-| shopping                  | toys                                   | puppets                                |                                |                               |
-| shopping                  | toys                                   | stuffed animals                        |                                |                               |
-| shopping                  | toys                                   |                                        |                                |                               |
-| shopping                  |                                        |                                        |                                |                               |
-| society                   | crime                                  | drug trafficking                       |                                |                               |
-| society                   | crime                                  | organized crime                        |                                |                               |
-| society                   | crime                                  | personal offense                       | assault                        |                               |
-| society                   | crime                                  | personal offense                       | hate crime                     |                               |
-| society                   | crime                                  | personal offense                       | homicide                       |                               |
-| society                   | crime                                  | personal offense                       | human trafficking              |                               |
-| society                   | crime                                  | personal offense                       | kidnapping                     |                               |
-| society                   | crime                                  | personal offense                       | torture                        |                               |
-| society                   | crime                                  | property crime                         | arson                          |                               |
-| society                   | crime                                  | property crime                         | bribery                        |                               |
-| society                   | crime                                  | property crime                         | burglary                       |                               |
-| society                   | crime                                  | property crime                         | embezzlement                   |                               |
-| society                   | crime                                  | property crime                         | fraud                          |                               |
-| society                   | crime                                  | property crime                         | larceny                        |                               |
-| society                   | crime                                  | property crime                         | piracy                         |                               |
-| society                   | crime                                  | property crime                         | robbery                        |                               |
-| society                   | crime                                  | property crime                         | smuggling                      |                               |
-| society                   | crime                                  | property crime                         | usury                          |                               |
-| society                   | crime                                  | sexual offense                         | paedophilia                    |                               |
-| society                   | crime                                  | sexual offense                         | prostitution                   |                               |
-| society                   | crime                                  | sexual offense                         | rape                           |                               |
-| society                   | crime                                  |                                        |                                |                               |
-| society                   | dating                                 |                                        |                                |                               |
-| society                   | gay life                               |                                        |                                |                               |
-| society                   | racism                                 |                                        |                                |                               |
-| society                   | senior living                          |                                        |                                |                               |
-| society                   | sex                                    | pornography                            |                                |                               |
-| society                   | sex                                    | sex education                          |                                |                               |
-| society                   | sex                                    |                                        |                                |                               |
-| society                   | social institution                     | divorce                                |                                |                               |
-| society                   | social institution                     | marriage                               | common law marriage            |                               |
-| society                   | social institution                     | marriage                               | weddings                       |                               |
-| society                   | social institution                     | marriage                               |                                |                               |
-| society                   | teens                                  |                                        |                                |                               |
-| society                   | unrest and war                         |                                        |                                |                               |
-| society                   | welfare                                | healthcare                             | hospital                       |                               |
-| society                   | welfare                                | healthcare                             |                                |                               |
-| society                   | welfare                                | social services                        | volunteering                   |                               |
-| society                   | welfare                                | social services                        |                                |                               |
-| society                   | welfare                                |                                        |                                |                               |
-| society                   | work                                   | contracts                              |                                |                               |
-| society                   | work                                   | retirement                             |                                |                               |
-| society                   | work                                   | unemployment                           |                                |                               |
-| society                   | work                                   | unions                                 |                                |                               |
-| society                   |                                        |                                        |                                |                               |
-| sports                    | archery                                |                                        |                                |                               |
-| sports                    | auto racing                            | nascar                                 |                                |                               |
-| sports                    | auto racing                            | rally                                  |                                |                               |
-| sports                    | auto racing                            |                                        |                                |                               |
-| sports                    | badminton                              |                                        |                                |                               |
-| sports                    | baseball                               |                                        |                                |                               |
-| sports                    | basketball                             |                                        |                                |                               |
-| sports                    | bicycling                              | mountain biking                        |                                |                               |
-| sports                    | bicycling                              |                                        |                                |                               |
-| sports                    | billiards                              |                                        |                                |                               |
-| sports                    | boat racing                            |                                        |                                |                               |
-| sports                    | bobsled                                |                                        |                                |                               |
-| sports                    | bodybuilding                           |                                        |                                |                               |
-| sports                    | bowling                                |                                        |                                |                               |
-| sports                    | boxing                                 |                                        |                                |                               |
-| sports                    | canoeing and kayaking                  |                                        |                                |                               |
-| sports                    | cheerleading                           |                                        |                                |                               |
-| sports                    | climbing                               | mountain climbing                      |                                |                               |
-| sports                    | climbing                               | rock climbing                          |                                |                               |
-| sports                    | climbing                               |                                        |                                |                               |
-| sports                    | cricket                                |                                        |                                |                               |
-| sports                    | curling                                |                                        |                                |                               |
-| sports                    | diving                                 |                                        |                                |                               |
-| sports                    | dog sled                               |                                        |                                |                               |
-| sports                    | fencing                                |                                        |                                |                               |
-| sports                    | fishing                                | fly fishing                            |                                |                               |
-| sports                    | fishing                                | freshwater fishing                     |                                |                               |
-| sports                    | fishing                                | saltwater fishing                      |                                |                               |
-| sports                    | fishing                                | sport fishing                          |                                |                               |
-| sports                    | fishing                                |                                        |                                |                               |
-| sports                    | football                               |                                        |                                |                               |
-| sports                    | go kart                                |                                        |                                |                               |
-| sports                    | golf                                   |                                        |                                |                               |
-| sports                    | gymnastics                             | calisthenics                           |                                |                               |
-| sports                    | gymnastics                             |                                        |                                |                               |
-| sports                    | handball                               |                                        |                                |                               |
-| sports                    | hockey                                 | field hockey                           |                                |                               |
-| sports                    | hockey                                 |                                        |                                |                               |
-| sports                    | horse racing                           |                                        |                                |                               |
-| sports                    | horses                                 |                                        |                                |                               |
-| sports                    | hunting and shooting                   | skeet shooting                         |                                |                               |
-| sports                    | hunting and shooting                   | target shooting                        |                                |                               |
-| sports                    | hunting and shooting                   |                                        |                                |                               |
-| sports                    | martial arts                           | judo                                   |                                |                               |
-| sports                    | martial arts                           | karate                                 |                                |                               |
-| sports                    | martial arts                           | sumo                                   |                                |                               |
-| sports                    | martial arts                           |                                        |                                |                               |
-| sports                    | motorcycling                           |                                        |                                |                               |
-| sports                    | olympics                               | paralympic games                       |                                |                               |
-| sports                    | olympics                               |                                        |                                |                               |
-| sports                    | paintball                              |                                        |                                |                               |
-| sports                    | parachuting                            |                                        |                                |                               |
-| sports                    | polo                                   |                                        |                                |                               |
-| sports                    | rodeo                                  |                                        |                                |                               |
-| sports                    | rowing                                 |                                        |                                |                               |
-| sports                    | rugby                                  |                                        |                                |                               |
-| sports                    | running and jogging                    |                                        |                                |                               |
-| sports                    | sailing                                |                                        |                                |                               |
-| sports                    | scuba diving                           |                                        |                                |                               |
-| sports                    | skateboarding                          |                                        |                                |                               |
-| sports                    | skating                                | figure skating                         |                                |                               |
-| sports                    | skating                                | ice skating                            |                                |                               |
-| sports                    | skating                                | roller skating                         |                                |                               |
-| sports                    | skating                                |                                        |                                |                               |
-| sports                    | skiing                                 | downhill skiing                        |                                |                               |
-| sports                    | skiing                                 | nordic skiing                          |                                |                               |
-| sports                    | skiing                                 | waterskiing                            |                                |                               |
-| sports                    | skiing                                 |                                        |                                |                               |
-| sports                    | snowboarding                           |                                        |                                |                               |
-| sports                    | soccer                                 |                                        |                                |                               |
-| sports                    | softball                               |                                        |                                |                               |
-| sports                    | sports news                            |                                        |                                |                               |
-| sports                    | surfing and bodyboarding               |                                        |                                |                               |
-| sports                    | swimming                               |                                        |                                |                               |
-| sports                    | table tennis and ping-pong             |                                        |                                |                               |
-| sports                    | tennis                                 |                                        |                                |                               |
-| sports                    | trekking                               |                                        |                                |                               |
-| sports                    | volleyball                             | beach volleyball                       |                                |                               |
-| sports                    | volleyball                             |                                        |                                |                               |
-| sports                    | wakeboarding                           |                                        |                                |                               |
-| sports                    | walking                                |                                        |                                |                               |
-| sports                    | water polo                             |                                        |                                |                               |
-| sports                    | weightlifting                          |                                        |                                |                               |
-| sports                    | windsurfing                            |                                        |                                |                               |
-| sports                    | wrestling                              |                                        |                                |                               |
-| sports                    |                                        |                                        |                                |                               |
-| style and fashion         | accessories                            | backpacks                              |                                |                               |
-| style and fashion         | accessories                            | gloves                                 |                                |                               |
-| style and fashion         | accessories                            | hats                                   |                                |                               |
-| style and fashion         | accessories                            | scarves                                |                                |                               |
-| style and fashion         | accessories                            | socks                                  |                                |                               |
-| style and fashion         | accessories                            | sunglasses                             |                                |                               |
-| style and fashion         | accessories                            | ties                                   |                                |                               |
-| style and fashion         | accessories                            | wallets                                |                                |                               |
-| style and fashion         | accessories                            | watches                                |                                |                               |
-| style and fashion         | accessories                            |                                        |                                |                               |
-| style and fashion         | beauty                                 | cologne                                |                                |                               |
-| style and fashion         | beauty                                 | cosmetics                              | eyeshadow                      |                               |
-| style and fashion         | beauty                                 | cosmetics                              | lipstick                       |                               |
-| style and fashion         | beauty                                 | cosmetics                              | nail polish                    |                               |
-| style and fashion         | beauty                                 | cosmetics                              |                                |                               |
-| style and fashion         | beauty                                 | cosmetology and beauty professionals   |                                |                               |
-| style and fashion         | beauty                                 | face and body care                     | body care                      |                               |
-| style and fashion         | beauty                                 | face and body care                     | hygiene and toiletries         |                               |
-| style and fashion         | beauty                                 | face and body care                     | nail care                      |                               |
-| style and fashion         | beauty                                 | hair care                              |                                |                               |
-| style and fashion         | beauty                                 | perfume                                |                                |                               |
-| style and fashion         | beauty                                 | tattoos                                |                                |                               |
-| style and fashion         | body art                               |                                        |                                |                               |
-| style and fashion         | clothing                               | blazers                                |                                |                               |
-| style and fashion         | clothing                               | coats                                  |                                |                               |
-| style and fashion         | clothing                               | hoodies                                |                                |                               |
-| style and fashion         | clothing                               | jackets                                |                                |                               |
-| style and fashion         | clothing                               | leggings                               |                                |                               |
-| style and fashion         | clothing                               | lingerie                               |                                |                               |
-| style and fashion         | clothing                               | pajamas                                |                                |                               |
-| style and fashion         | clothing                               | pants                                  | jeans                          |                               |
-| style and fashion         | clothing                               | pants                                  |                                |                               |
-| style and fashion         | clothing                               | petticoats                             |                                |                               |
-| style and fashion         | clothing                               | shirts                                 |                                |                               |
-| style and fashion         | clothing                               | shorts                                 |                                |                               |
-| style and fashion         | clothing                               | skirts                                 |                                |                               |
-| style and fashion         | clothing                               | sweaters                               |                                |                               |
-| style and fashion         | clothing                               | wedding dresses                        |                                |                               |
-| style and fashion         | clothing                               |                                        |                                |                               |
-| style and fashion         | fashion designers                      |                                        |                                |                               |
-| style and fashion         | footwear                               | boots                                  |                                |                               |
-| style and fashion         | footwear                               | sandals                                |                                |                               |
-| style and fashion         | footwear                               | shoes                                  |                                |                               |
-| style and fashion         | footwear                               | slippers                               |                                |                               |
-| style and fashion         | footwear                               | sneakers                               |                                |                               |
-| style and fashion         | footwear                               |                                        |                                |                               |
-| style and fashion         | jewelry                                | bracelets                              |                                |                               |
-| style and fashion         | jewelry                                | earrings                               |                                |                               |
-| style and fashion         | jewelry                                | necklaces                              |                                |                               |
-| style and fashion         | jewelry                                | rings                                  |                                |                               |
-| style and fashion         | jewelry                                |                                        |                                |                               |
-| style and fashion         | luxury goods                           |                                        |                                |                               |
-| style and fashion         | men 's fashion                         |                                        |                                |                               |
-| style and fashion         | swimwear                               | bikinis                                |                                |                               |
-| style and fashion         | swimwear                               |                                        |                                |                               |
-| style and fashion         | underwear                              |                                        |                                |                               |
-| style and fashion         |                                        |                                        |                                |                               |
-| technology and computing  | computer certification                 |                                        |                                |                               |
-| technology and computing  | computer crime                         |                                        |                                |                               |
-| technology and computing  | computer reviews                       |                                        |                                |                               |
-| technology and computing  | computer security                      | antivirus and malware                  |                                |                               |
-| technology and computing  | computer security                      | network security                       |                                |                               |
-| technology and computing  | computer security                      |                                        |                                |                               |
-| technology and computing  | consumer electronics                   | audio equipment                        | headphones                     |                               |
-| technology and computing  | consumer electronics                   | audio equipment                        | speakers                       |                               |
-| technology and computing  | consumer electronics                   | audio equipment                        | stereo systems and components  |                               |
-| technology and computing  | consumer electronics                   | audio equipment                        |                                |                               |
-| technology and computing  | consumer electronics                   | camera and photo equipment             | binoculars                     |                               |
-| technology and computing  | consumer electronics                   | camera and photo equipment             | cameras and camcorders         | camcorders                    |
-| technology and computing  | consumer electronics                   | camera and photo equipment             | cameras and camcorders         | camera bags                   |
-| technology and computing  | consumer electronics                   | camera and photo equipment             | cameras and camcorders         | camera batteries              |
-| technology and computing  | consumer electronics                   | camera and photo equipment             | cameras and camcorders         | camera lenses                 |
-| technology and computing  | consumer electronics                   | camera and photo equipment             | cameras and camcorders         | cameras                       |
-| technology and computing  | consumer electronics                   | camera and photo equipment             | telescopes                     |                               |
-| technology and computing  | consumer electronics                   | ebook reader                           |                                |                               |
-| technology and computing  | consumer electronics                   | game systems and consoles              | nintendo                       |                               |
-| technology and computing  | consumer electronics                   | game systems and consoles              | playstation                    |                               |
-| technology and computing  | consumer electronics                   | game systems and consoles              | xbox                           |                               |
-| technology and computing  | consumer electronics                   | game systems and consoles              |                                |                               |
-| technology and computing  | consumer electronics                   | home video and dvd                     |                                |                               |
-| technology and computing  | consumer electronics                   | portable entertainment                 |                                |                               |
-| technology and computing  | consumer electronics                   | radios                                 |                                |                               |
-| technology and computing  | consumer electronics                   | telephones                             | mobile phones                  | smart phones                  |
-| technology and computing  | consumer electronics                   | telephones                             | mobile phones                  |                               |
-| technology and computing  | consumer electronics                   | telephones                             |                                |                               |
-| technology and computing  | consumer electronics                   | tv and video equipment                 | dvrs and set-top boxes         |                               |
-| technology and computing  | consumer electronics                   | tv and video equipment                 | home theater systems           |                               |
-| technology and computing  | consumer electronics                   | tv and video equipment                 | projectors                     |                               |
-| technology and computing  | consumer electronics                   | tv and video equipment                 | televisions                    | hdtvs                         |
-| technology and computing  | consumer electronics                   | tv and video equipment                 | televisions                    | lcd tvs                       |
-| technology and computing  | consumer electronics                   | tv and video equipment                 | televisions                    | plasma tvs                    |
-| technology and computing  | consumer electronics                   | tv and video equipment                 | televisions                    |                               |
-| technology and computing  | consumer electronics                   | tv and video equipment                 | video players and recorders    | blu-ray players and recorders |
-| technology and computing  | consumer electronics                   | tv and video equipment                 | video players and recorders    | dvd players and recorders     |
-| technology and computing  | consumer electronics                   | tv and video equipment                 |                                |                               |
-| technology and computing  | consumer electronics                   |                                        |                                |                               |
-| technology and computing  | data centers                           |                                        |                                |                               |
-| technology and computing  | electronic components                  |                                        |                                |                               |
-| technology and computing  | enterprise technology                  | customer relationship management       |                                |                               |
-| technology and computing  | enterprise technology                  | data management                        |                                |                               |
-| technology and computing  | enterprise technology                  | enterprise resource planning           |                                |                               |
-| technology and computing  | hardware                               | computer                               | desktop computer               |                               |
-| technology and computing  | hardware                               | computer                               | portable computer              | laptop                        |
-| technology and computing  | hardware                               | computer                               | portable computer              | palmtops and pdas             |
-| technology and computing  | hardware                               | computer                               | portable computer              | tablet                        |
-| technology and computing  | hardware                               | computer                               | portable computer              |                               |
-| technology and computing  | hardware                               | computer                               | servers                        |                               |
-| technology and computing  | hardware                               | computer                               |                                |                               |
-| technology and computing  | hardware                               | computer components                    | chips and processors           |                               |
-| technology and computing  | hardware                               | computer components                    | disks                          |                               |
-| technology and computing  | hardware                               | computer components                    | graphics cards                 |                               |
-| technology and computing  | hardware                               | computer components                    | memory                         | portable                      |
-| technology and computing  | hardware                               | computer components                    | memory                         |                               |
-| technology and computing  | hardware                               | computer components                    | motherboards                   |                               |
-| technology and computing  | hardware                               | computer components                    | sound cards                    |                               |
-| technology and computing  | hardware                               | computer networking                    | router                         |                               |
-| technology and computing  | hardware                               | computer networking                    | wireless technology            |                               |
-| technology and computing  | hardware                               | computer peripherals                   | computer monitors              |                               |
-| technology and computing  | hardware                               | computer peripherals                   | printers, copiers and fax      | copiers                       |
-| technology and computing  | hardware                               | computer peripherals                   | printers, copiers and fax      | fax machines                  |
-| technology and computing  | hardware                               | computer peripherals                   | printers, copiers and fax      | printers                      |
-| technology and computing  | hardware                               | computer peripherals                   | printers, copiers and fax      | scanners                      |
-| technology and computing  | hardware                               | computer peripherals                   |                                |                               |
-| technology and computing  | hardware                               |                                        |                                |                               |
-| technology and computing  | internet technology                    | chat                                   |                                |                               |
-| technology and computing  | internet technology                    | ecommerce                              |                                |                               |
-| technology and computing  | internet technology                    | email                                  |                                |                               |
-| technology and computing  | internet technology                    | internet cafes                         |                                |                               |
-| technology and computing  | internet technology                    | isps                                   |                                |                               |
-| technology and computing  | internet technology                    | social network                         |                                |                               |
-| technology and computing  | internet technology                    | web clip art                           |                                |                               |
-| technology and computing  | internet technology                    | web design and html                    |                                |                               |
-| technology and computing  | internet technology                    | web search                             | people search                  |                               |
-| technology and computing  | internet technology                    | web search                             |                                |                               |
-| technology and computing  | internet technology                    |                                        |                                |                               |
-| technology and computing  | mp3 and midi                           |                                        |                                |                               |
-| technology and computing  | networking                             | network monitoring and management      |                                |                               |
-| technology and computing  | networking                             | vpn and remote access                  |                                |                               |
-| technology and computing  | networking                             |                                        |                                |                               |
-| technology and computing  | operating systems                      | linux                                  |                                |                               |
-| technology and computing  | operating systems                      | mac os                                 |                                |                               |
-| technology and computing  | operating systems                      | unix                                   |                                |                               |
-| technology and computing  | operating systems                      | windows                                |                                |                               |
-| technology and computing  | operating systems                      |                                        |                                |                               |
-| technology and computing  | programming languages                  | c and c++                              |                                |                               |
-| technology and computing  | programming languages                  | java                                   |                                |                               |
-| technology and computing  | programming languages                  | javascript                             |                                |                               |
-| technology and computing  | programming languages                  | visual basic                           |                                |                               |
-| technology and computing  | programming languages                  |                                        |                                |                               |
-| technology and computing  | software                               | databases                              |                                |                               |
-| technology and computing  | software                               | desktop publishing                     |                                |                               |
-| technology and computing  | software                               | desktop video                          |                                |                               |
-| technology and computing  | software                               | graphics software                      | animation                      |                               |
-| technology and computing  | software                               | graphics software                      |                                |                               |
-| technology and computing  | software                               | net conferencing                       |                                |                               |
-| technology and computing  | software                               | shareware and freeware                 |                                |                               |
-| technology and computing  | software                               |                                        |                                |                               |
-| technology and computing  | tech news                              |                                        |                                |                               |
-| technology and computing  | technical support                      |                                        |                                |                               |
-| technology and computing  | technological innovation               |                                        |                                |                               |
-| technology and computing  |                                        |                                        |                                |                               |
-| travel                    | budget travel                          |                                        |                                |                               |
-| travel                    | business travel                        |                                        |                                |                               |
-| travel                    | honeymoons and getaways                |                                        |                                |                               |
-| travel                    | hotels                                 |                                        |                                |                               |
-| travel                    | specialty travel                       | adventure travel                       |                                |                               |
-| travel                    | specialty travel                       | ecotourism                             |                                |                               |
-| travel                    | specialty travel                       | sightseeing tours                      |                                |                               |
-| travel                    | specialty travel                       | vineyards                              |                                |                               |
-| travel                    | tourist destinations                   | africa                                 |                                |                               |
-| travel                    | tourist destinations                   | australia and new zealand              |                                |                               |
-| travel                    | tourist destinations                   | canada                                 |                                |                               |
-| travel                    | tourist destinations                   | caribbean                              |                                |                               |
-| travel                    | tourist destinations                   | eastern europe                         |                                |                               |
-| travel                    | tourist destinations                   | europe                                 |                                |                               |
-| travel                    | tourist destinations                   | france                                 |                                |                               |
-| travel                    | tourist destinations                   | greece                                 |                                |                               |
-| travel                    | tourist destinations                   | italy                                  |                                |                               |
-| travel                    | tourist destinations                   | japan                                  |                                |                               |
-| travel                    | tourist destinations                   | mexico and central america             |                                |                               |
-| travel                    | tourist destinations                   | national parks                         |                                |                               |
-| travel                    | tourist destinations                   | seaside resort                         |                                |                               |
-| travel                    | tourist destinations                   | ski resorts                            |                                |                               |
-| travel                    | tourist destinations                   | south america                          |                                |                               |
-| travel                    | tourist destinations                   | spas                                   |                                |                               |
-| travel                    | tourist destinations                   | theme parks                            |                                |                               |
-| travel                    | tourist destinations                   | united kingdom                         |                                |                               |
-| travel                    | tourist destinations                   |                                        |                                |                               |
-| travel                    | tourist facilities                     | bed and breakfast                      |                                |                               |
-| travel                    | tourist facilities                     | camping                                |                                |                               |
-| travel                    | tourist facilities                     | hotel                                  |                                |                               |
-| travel                    | transports                             | air travel                             | air and space accident         |                               |
-| travel                    | transports                             | air travel                             | airfare                        |                               |
-| travel                    | transports                             | air travel                             | airlines                       |                               |
-| travel                    | transports                             | air travel                             | airplanes                      |                               |
-| travel                    | transports                             | air travel                             | airports                       |                               |
-| travel                    | transports                             | air travel                             | helicopters                    |                               |
-| travel                    | transports                             | air travel                             |                                |                               |
-| travel                    | transports                             | public transport                       |                                |                               |
-| travel                    | transports                             | road travel                            | road accident                  |                               |
-| travel                    | transports                             | sea travel                             | cruises                        |                               |
-| travel                    | transports                             | train travel                           |                                |                               |
-| travel                    | travel agencies                        |                                        |                                |                               |
-| travel                    | travel guides                          |                                        |                                |                               |
-| travel                    | traveling with kids                    |                                        |                                |                               |
-| travel                    | vacation rentals                       |                                        |                                |                               |
-| travel                    |                                        |                                        |                                |                               |
+|예술과 엔터테인먼트     |책과 문학                   |베스트셀러                           |                                |                               |
+|예술과 엔터테인먼트     |책과 문학                   |아동 도서                       |                                |                               |
+|예술과 엔터테인먼트     |책과 문학                   |전자책                                |                                |                               |
+|예술과 엔터테인먼트     |책과 문학                   |팬픽션(fan fiction)                            |                                |                               |
+|예술과 엔터테인먼트     |책과 문학                   |잡지                              |                                |                               |
+|예술과 엔터테인먼트     |책과 문학                   |신화                              |                                |                               |
+|예술과 엔터테인먼트     |책과 문학                   |논픽션                            |                                |                               |
+|예술과 엔터테인먼트     |책과 문학                   |시                                 |                                |                               |
+|예술과 엔터테인먼트     |책과 문학                   |참고 도서                        |                                |                               |
+|예술과 엔터테인먼트     |책과 문학                   |로맨스 소설                         |                                |                               |
+|예술과 엔터테인먼트     |책과 문학                   |공상 과학 소설                        |                                |                               |
+|예술과 엔터테인먼트     |책과 문학                   |교과서                              |                                |                               |
+|예술과 엔터테인먼트     |책과 문학                   |                                        |                                |                               |
+|예술과 엔터테인먼트     |연예인 팬 및 소문               |                                        |                                |                               |
+|예술과 엔터테인먼트     |만화 및 애니메이션                   |애니메이션과 만화                        |                                |                               |
+|예술과 엔터테인먼트     |만화 및 애니메이션                   |만화                               |                                |                               |
+|예술과 엔터테인먼트     |만화 및 애니메이션                   |만화                                 |                                |                               |
+|예술과 엔터테인먼트     |춤                                  |발레                                 |                                |                               |
+|예술과 엔터테인먼트     |춤                                  |사교 댄스                         |                                |                               |
+|예술과 엔터테인먼트     |춤                                  |벨리 댄스                            |                                |                               |
+|예술과 엔터테인먼트     |춤                                  |현대 무용                           |                                |                               |
+|예술과 엔터테인먼트     |춤                                  |폴 댄스                           |                                |                               |
+|예술과 엔터테인먼트     |춤                                  |                                        |                                |                               |
+|예술과 엔터테인먼트     |유머                                  |                                        |                                |                               |
+|예술과 엔터테인먼트     |영화                                 |영화제 및 시상식              |                                |                               |
+|예술과 엔터테인먼트     |영화와 TV                          |액션                                 |                                |                               |
+|예술과 엔터테인먼트     |영화와 TV                          |애니메이션                               |                                |                               |
+|예술과 엔터테인먼트     |영화와 TV                          |발리우드                              |                                |                               |
+|예술과 엔터테인먼트     |영화와 TV                          |어린이 영화                             |                                |                               |
+|예술과 엔터테인먼트     |영화와 TV                          |고전                               |무성 영화                   |                               |
+|예술과 엔터테인먼트     |영화와 TV                          |고전                               |                                |                               |
+|예술과 엔터테인먼트     |영화와 TV                          |코미디                               |                                |                               |
+|예술과 엔터테인먼트     |영화와 TV                          |고전 컬트                          |                                |                               |
+|예술과 엔터테인먼트     |영화와 TV                          |다큐멘터리                          |                                |                               |
+|예술과 엔터테인먼트     |영화와 TV                          |드라마                                 |                                |                               |
+|예술과 엔터테인먼트     |영화와 TV                          |공포                                 |                                |                               |
+|예술과 엔터테인먼트     |영화와 TV                          |독립                            |                                |                               |
+|예술과 엔터테인먼트     |영화와 TV                          |영화                                 |리뷰                        |                               |
+|예술과 엔터테인먼트     |영화와 TV                          |영화                                 |트레일러                       |                               |
+|예술과 엔터테인먼트     |영화와 TV                          |영화                                 |                                |                               |
+|예술과 엔터테인먼트     |영화와 TV                          |리얼리티                                |                                |                               |
+|예술과 엔터테인먼트     |영화와 TV                          |로맨틱 코미디                      |                                |                               |
+|예술과 엔터테인먼트     |영화와 TV                          |토크 쇼                             |                                |                               |
+|예술과 엔터테인먼트     |영화와 TV                          |텔레비전                             |                                |                               |
+|예술과 엔터테인먼트     |영화와 TV                          |스릴러                              |                                |                               |
+|예술과 엔터테인먼트     |영화와 TV                          |서부                               |                                |                               |
+|예술과 엔터테인먼트     |음악                                  |음악 장르                           |블루스                          |                               |
+|예술과 엔터테인먼트     |음악                                  |음악 장르                           |클래식 음악                |                               |
+|예술과 엔터테인먼트     |음악                                  |음악 장르                           |컨트리 음악                  |                               |
+|예술과 엔터테인먼트     |음악                                  |음악 장르                           |이지 리스닝                 |                               |
+|예술과 엔터테인먼트     |음악                                  |음악 장르                           |전자 음악               |                               |
+|예술과 엔터테인먼트     |음악                                  |음악 장르                           |포크 음악                     |                               |
+|예술과 엔터테인먼트     |음악                                  |음악 장르                           |힙합                        |                               |
+|예술과 엔터테인먼트     |음악                                  |음악 장르                           |재즈                           |                               |
+|예술과 엔터테인먼트     |음악                                  |음악 장르                           |오페라                          |                               |
+|예술과 엔터테인먼트     |음악                                  |음악 장르                           |팝 음악                      |                               |
+|예술과 엔터테인먼트     |음악                                  |음악 장르                           |펑크                           |                               |
+|예술과 엔터테인먼트     |음악                                  |음악 장르                           |종교 음악                |                               |
+|예술과 엔터테인먼트     |음악                                  |음악 장르                           |락 음악                     |                               |
+|예술과 엔터테인먼트     |음악                                  |음악 장르                           |스카                            |                               |
+|예술과 엔터테인먼트     |음악                                  |음악 장르                           |소울 음악                     |                               |
+|예술과 엔터테인먼트     |음악                                  |음악 장르                           |사운드트랙                    |                               |
+|예술과 엔터테인먼트     |음악                                  |음악 장르                           |월드 뮤직                    |                               |
+|예술과 엔터테인먼트     |음악                                  |음악 레퍼런스                        |작곡과 이론   |                               |
+|예술과 엔터테인먼트     |음악                                  |음악 레퍼런스                        |악보                    |                               |
+|예술과 엔터테인먼트     |음악                                  |악기                    |드럼                          |                               |
+|예술과 엔터테인먼트     |음악                                  |악기                    |기타                        |                               |
+|예술과 엔터테인먼트     |음악                                  |악기                    |피아노                         |                               |
+|예술과 엔터테인먼트     |음악                                  |악기                    |                                |                               |
+|예술과 엔터테인먼트     |음악                                  |음반 업계                     |음악 시상식                   |                               |
+|예술과 엔터테인먼트     |음악                                  |음반 업계                     |음반 회사                  |                               |
+|예술과 엔터테인먼트     |음악                                  |음반 업계                     |                                |                               |
+|예술과 엔터테인먼트     |음악                                  |노래                                |                                |                               |
+|예술과 엔터테인먼트     |음악                                  |                                        |                                |                               |
+|예술과 엔터테인먼트     |라디오                                  |팟 캐스트                               |                                |                               |
+|예술과 엔터테인먼트     |라디오                                  |라디오 프로그램                         |                                |                               |
+|예술과 엔터테인먼트     |라디오                                  |토크 라디오                             |                                |                               |
+|예술과 엔터테인먼트     |라디오                                  |                                        |                                |                               |
+|예술과 엔터테인먼트     |쇼와 이벤트                       |미인 대회                         |                                |                               |
+|예술과 엔터테인먼트     |쇼와 이벤트                       |서커스                                 |                                |                               |
+|예술과 엔터테인먼트     |쇼와 이벤트                       |클래식 콘서트                      |                                |                               |
+|예술과 엔터테인먼트     |쇼와 이벤트                       |콘서트                                |                                |                               |
+|예술과 엔터테인먼트     |쇼와 이벤트                       |컨퍼런스                             |                                |                               |
+|예술과 엔터테인먼트     |쇼와 이벤트                       |전시회                             |                                |                               |
+|예술과 엔터테인먼트     |쇼와 이벤트                       |박람회                                   |                                |                               |
+|예술과 엔터테인먼트     |쇼와 이벤트                       |축제                               |                                |                               |
+|예술과 엔터테인먼트     |쇼와 이벤트                       |체육 대회                           |                                |                               |
+|예술과 엔터테인먼트     |연극                                |연극 시상식                         |                                |                               |
+|예술과 엔터테인먼트     |연극                                |극단                      |                                |                               |
+|예술과 엔터테인먼트     |연극                                |                                        |                                |                               |
+|예술과 엔터테인먼트     |시각 예술과 디자인                  |건축                           |                                |                               |
+|예술과 엔터테인먼트     |시각 예술과 디자인                  |미술 및 공예품                 |                                |                               |
+|예술과 엔터테인먼트     |시각 예술과 디자인                  |미술관과 갤러리              |                                |                               |
+|예술과 엔터테인먼트     |시각 예술과 디자인                  |예술 교육                         |                                |                               |
+|예술과 엔터테인먼트     |시각 예술과 디자인                  |디자인                                 |그래픽 디자인                 |                               |
+|예술과 엔터테인먼트     |시각 예술과 디자인                  |디자인                                 |산업 및 제품 디자인  |                               |
+|예술과 엔터테인먼트     |시각 예술과 디자인                  |디자인                                 |인테리어 디자인                |                               |
+|예술과 엔터테인먼트     |시각 예술과 디자인                  |디자인                                 |                                |                               |
+|예술과 엔터테인먼트     |시각 예술과 디자인                  |디지털 아트                            |                                |                               |
+|예술과 엔터테인먼트     |시각 예술과 디자인                  |소묘                                |                                |                               |
+|예술과 엔터테인먼트     |시각 예술과 디자인                  |회화                               |                                |                               |
+|예술과 엔터테인먼트     |시각 예술과 디자인                  |공연 예술                        |                                |                               |
+|예술과 엔터테인먼트     |시각 예술과 디자인                  |복원                            |                                |                               |
+|예술과 엔터테인먼트     |시각 예술과 디자인                  |조각                              |                                |                               |
+|예술과 엔터테인먼트     |시각 예술과 디자인                  |                                        |                                |                               |
+|예술과 엔터테인먼트     |                                        |                                        |                                |                               |
+|자동차 및 차량   |자동차 부품                             |                                        |                                |                               |
+|자동차 및 차량   |자동차 수리                            |                                        |                                |                               |
+|자동차 및 차량   |자전거 및 부속 상품               |산악 자전거                         |                                |                               |
+|자동차 및 차량   |자전거 및 부속 상품               |                                        |                                |                               |
+|자동차 및 차량   |보트와 선박                   |                                        |                                |                               |
+|자동차 및 차량   |자동차 구매 및 판매                |                                        |                                |                               |
+|자동차 및 차량   |캠핑용 자동차와 rv                        |                                        |                                |                               |
+|자동차 및 차량   |자동차                                   |자동차 문화                            |                                |                               |
+|자동차 및 차량   |자동차                                   |자동차 산업                           |                                |                               |
+|자동차 및 차량   |자동차                                   |컨버터블                            |                                |                               |
+|자동차 및 차량   |자동차                                   |쿠페                                  |                                |                               |
+|자동차 및 차량   |자동차                                   |크로스오버                              |                                |                               |
+|자동차 및 차량   |자동차                                   |디젤                                 |                                |                               |
+|자동차 및 차량   |자동차                                   |해치백                              |                                |                               |
+|자동차 및 차량   |자동차                                   |하이브리드                                 |                                |                               |
+|자동차 및 차량   |자동차                                   |고급차                                 |                                |                               |
+|자동차 및 차량   |자동차                                   |고성능 차량                   |                                |                               |
+|자동차 및 차량   |자동차                                   |세단                                  |                                |                               |
+|자동차 및 차량   |자동차                                   |빈티지 자동차                           |                                |                               |
+|자동차 및 차량   |자동차                                   |왜건(wagon)                                  |                                |                               |
+|자동차 및 차량   |자동차                                   |                                        |                                |                               |
+|자동차 및 차량   |인증 중고차                    |                                        |                                |                               |
+|자동차 및 차량   |상용차                    |                                        |                                |                               |
+|자동차 및 차량   |전기 자동차                      |                                        |                                |                               |
+|자동차 및 차량   |미니밴                                |                                        |                                |                               |
+|자동차 및 차량   |자동차 전시 발표회                            |                                        |                                |                               |
+|자동차 및 차량   |오토바이                            |                                        |                                |                               |
+|자동차 및 차량   |노상외 주행차                      |                                        |                                |                               |
+|자동차 및 차량   |긴급출동 서비스                   |                                        |                                |                               |
+|자동차 및 차량   |스쿠터와 모페드                    |                                        |                                |                               |
+|자동차 및 차량   |트럭과 suv                        |픽업 트럭                          |                                |                               |
+|자동차 및 차량   |트럭과 suv                        |suv                                   |                                |                               |
+|자동차 및 차량   |트럭과 suv                        |트럭 부속 상품                      |                                |                               |
+|자동차 및 차량   |차량 브랜드                         |어큐라                                  |                                |                               |
+|자동차 및 차량   |차량 브랜드                         |알파로메오                             |                                |                               |
+|자동차 및 차량   |차량 브랜드                         |아우디                                   |                                |                               |
+|자동차 및 차량   |차량 브랜드                         |벤틀리                                |                                |                               |
+|자동차 및 차량   |차량 브랜드                         |뷰익                                  |                                |                               |
+|자동차 및 차량   |차량 브랜드                         |캐딜락                               |                                |                               |
+|자동차 및 차량   |차량 브랜드                         |쉐보레                              |                                |                               |
+|자동차 및 차량   |차량 브랜드                         |크라이슬러                               |                                |                               |
+|자동차 및 차량   |차량 브랜드                         |페라리                                |                                |                               |
+|자동차 및 차량   |차량 브랜드                         |피아트                                   |                                |                               |
+|자동차 및 차량   |차량 브랜드                         |포드                                   |                                |                               |
+|자동차 및 차량   |차량 브랜드                         |혼다                                  |                                |                               |
+|자동차 및 차량   |차량 브랜드                         |현대                                |                                |                               |
+|자동차 및 차량   |차량 브랜드                         |이스즈                                  |                                |                               |
+|자동차 및 차량   |차량 브랜드                         |지프                                   |                                |                               |
+|자동차 및 차량   |차량 브랜드                         |기아                                    |                                |                               |
+|자동차 및 차량   |차량 브랜드                         |람보르기니                            |                                |                               |
+|자동차 및 차량   |차량 브랜드                         |랜드로버                             |                                |                               |
+|자동차 및 차량   |차량 브랜드                         |마세라티                               |                                |                               |
+|자동차 및 차량   |차량 브랜드                         |마쯔다                                  |                                |                               |
+|자동차 및 차량   |차량 브랜드                         |메르세데스-벤츠                          |                                |                               |
+|자동차 및 차량   |차량 브랜드                         |미쓰비시                             |                                |                               |
+|자동차 및 차량   |차량 브랜드                         |닛산                                 |인피니티                       |                               |
+|자동차 및 차량   |차량 브랜드                         |닛산                                 |                                |                               |
+|자동차 및 차량   |차량 브랜드                         |푸조                                |                                |                               |
+|자동차 및 차량   |차량 브랜드                         |폰티악                                |                                |                               |
+|자동차 및 차량   |차량 브랜드                         |포르쉐                                |                                |                               |
+|자동차 및 차량   |차량 브랜드                         |롤스로이스                            |                                |                               |
+|자동차 및 차량   |차량 브랜드                         |사브                                   |                                |                               |
+|자동차 및 차량   |차량 브랜드                         |사이언                                  |                                |                               |
+|자동차 및 차량   |차량 브랜드                         |스바루                                 |                                |                               |
+|자동차 및 차량   |차량 브랜드                         |스즈키                                 |                                |                               |
+|자동차 및 차량   |차량 브랜드                         |토요타                                 |                                |                               |
+|자동차 및 차량   |차량 브랜드                         |폭스바겐                             |                                |                               |
+|자동차 및 차량   |차량 브랜드                         |볼보                                  |                                |                               |
+|자동차 및 차량   |차량 대여                         |                                        |                                |                               |
+|자동차 및 차량   |                                        |                                        |                                |                               |
+|비즈니스 및 산업   |광고와 마케팅              |광고                            |                                |                               |
+|비즈니스 및 산업   |광고와 마케팅              |브랜드 관리                       |                                |                               |
+|비즈니스 및 산업   |광고와 마케팅              |마케팅                              |                                |                               |
+|비즈니스 및 산업   |광고와 마케팅              |홍보                       |                                |                               |
+|비즈니스 및 산업   |광고와 마케팅              |텔레마케팅                          |                                |                               |
+|비즈니스 및 산업   |항공 우주 및 국방                  |방위 산업                       |                                |                               |
+|비즈니스 및 산업   |항공 우주 및 국방                  |우주 기술                       |                                |                               |
+|비즈니스 및 산업   |항공 우주 및 국방                  |                                        |                                |                               |
+|비즈니스 및 산업   |농업과 임업               |농업                            |                                |                               |
+|비즈니스 및 산업   |농업과 임업               |양식업                            |                                |                               |
+|비즈니스 및 산업   |농업과 임업               |작물과 종자                         |                                |                               |
+|비즈니스 및 산업   |농업과 임업               |농장과 목장                      |                                |                               |
+|비즈니스 및 산업   |농업과 임업               |식량 생산                        |                                |                               |
+|비즈니스 및 산업   |농업과 임업               |임업                               |                                |                               |
+|비즈니스 및 산업   |농업과 임업               |원예                           |                                |                               |
+|비즈니스 및 산업   |농업과 임업               |가축                              |                                |                               |
+|비즈니스 및 산업   |농업과 임업               |유기 농업                        |                                |                               |
+|비즈니스 및 산업   |자동화                             |로봇 공학                               |                                |                               |
+|비즈니스 및 산업   |생체 의학                             |                                        |                                |                               |
+|비즈니스 및 산업   |비즈니스 뉴스                          |                                        |                                |                               |
+|비즈니스 및 산업   |비즈니스 운영                    |비즈니스 계획                         |                                |                               |
+|비즈니스 및 산업   |비즈니스 운영                    |인사부                        |보상 및 혜택      |                               |
+|비즈니스 및 산업   |비즈니스 운영                    |인사부                        |급여 서비스               |                               |
+|비즈니스 및 산업   |비즈니스 운영                    |인사부                        |                                |                               |
+|비즈니스 및 산업   |비즈니스 운영                    |관리                             |비즈니스 프로세스               |                               |
+|비즈니스 및 산업   |비즈니스 운영                    |관리                             |프로젝트 관리             |                               |
+|비즈니스 및 산업   |비즈니스 운영                    |관리                             |공급망 관리        |                               |
+|비즈니스 및 산업   |비즈니스 운영                    |                                        |                                |                               |
+|비즈니스 및 산업   |비즈니스 소프트웨어                      |                                        |                                |                               |
+|비즈니스 및 산업   |화학 공업                     |접착제                              |                                |                               |
+|비즈니스 및 산업   |화학 공업                     |세정제                        |                                |                               |
+|비즈니스 및 산업   |화학 공업                     |염료 및 안료                      |                                |                               |
+|비즈니스 및 산업   |화학 공업                     |플라스틱 및 중합체                  |                                |                               |
+|비즈니스 및 산업   |화학 공업                     |                                        |                                |                               |
+|비즈니스 및 산업   |회사                                |연례 보고서                          |                                |                               |
+|비즈니스 및 산업   |회사                                |파산                             |                                |                               |
+|비즈니스 및 산업   |회사                                |수입                               |                                |                               |
+|비즈니스 및 산업   |회사                                |합작                          |                                |                               |
+|비즈니스 및 산업   |회사                                |인수합병                 |                                |                               |
+|비즈니스 및 산업   |건설                           |                                        |                                |                               |
+|비즈니스 및 산업   |에너지                                 |석탄                                   |                                |                               |
+|비즈니스 및 산업   |에너지                                 |전기                            |                                |                               |
+|비즈니스 및 산업   |에너지                                 |천연 가스                            |                                |                               |
+|비즈니스 및 산업   |에너지                                 |원자력                          |핵 사고               |                               |
+|비즈니스 및 산업   |에너지                                 |원자력                          |                                |                               |
+|비즈니스 및 산업   |에너지                                 |석유                                    |경유                    |                               |
+|비즈니스 및 산업   |에너지                                 |석유                                    |석유 및 가스 가격             |                               |
+|비즈니스 및 산업   |에너지                                 |석유                                    |정유 회사                    |                               |
+|비즈니스 및 산업   |에너지                                 |석유                                    |                                |                               |
+|비즈니스 및 산업   |에너지                                 |재생 에너지                       |바이오 연료                        |                               |
+|비즈니스 및 산업   |에너지                                 |재생 에너지                       |연료 전지                      |                               |
+|비즈니스 및 산업   |에너지                                 |재생 에너지                       |지열 에너지              |                               |
+|비즈니스 및 산업   |에너지                                 |재생 에너지                       |수력 전기 에너지           |                               |
+|비즈니스 및 산업   |에너지                                 |재생 에너지                       |태양 에너지                   |                               |
+|비즈니스 및 산업   |에너지                                 |재생 에너지                       |풍력 에너지                    |                               |
+|비즈니스 및 산업   |에너지                                 |재생 에너지                       |                                |                               |
+|비즈니스 및 산업   |패션 산업                       |                                        |                                |                               |
+|비즈니스 및 산업   |식품 산업                          |                                        |                                |                               |
+|비즈니스 및 산업   |친환경 솔루션                        |                                        |                                |                               |
+|비즈니스 및 산업   |서비스업                   |이벤트 계획                         |                                |                               |
+|비즈니스 및 산업   |서비스업                   |음식 서비스                           |                                |                               |
+|비즈니스 및 산업   |서비스업                   |                                        |                                |                               |
+|비즈니스 및 산업   |철강업                |                                        |                                |                               |
+|비즈니스 및 산업   |물류                              |항공 운송                            |                                |                               |
+|비즈니스 및 산업   |물류                              |화물 열차                          |                                |                               |
+|비즈니스 및 산업   |물류                              |                                        |                                |                               |
+|비즈니스 및 산업   |제조업                          |                                        |                                |                               |
+|비즈니스 및 산업   |금속                                 |                                        |                                |                               |
+|비즈니스 및 산업   |광업                        |                                        |                                |                               |
+|비즈니스 및 산업   |제지업                         |                                        |                                |                               |
+|비즈니스 및 산업   |제약업                |                                        |                                |                               |
+|비즈니스 및 산업   |출판                             |                                        |                                |                               |
+|비즈니스 및 산업   |음반 회사                         |                                        |                                |                               |
+|비즈니스 및 산업   |조선                           |                                        |                                |                               |
+|비즈니스 및 산업   |선탠                                |                                        |                                |                               |
+|비즈니스 및 산업   |섬유 산업                       |                                        |                                |                               |
+|비즈니스 및 산업   |군수 산업                           |무기                               |                                |                               |
+|비즈니스 및 산업   |                                        |                                        |                                |                               |
+|경력                   |진로 조언                          |                                        |                                |                               |
+|경력                   |진로 계획                        |                                        |                                |                               |
+|경력                   |채용 박람회                              |                                        |                                |                               |
+|경력                   |구직                             |                                        |                                |                               |
+|경력                   |간호                                |                                        |                                |                               |
+|경력                   |이력서 작성 및 조언              |                                        |                                |                               |
+|경력                   |재택 근무                          |                                        |                                |                               |
+|경력                   |미군                          |                                        |                                |                               |
+|경력                   |                                        |                                        |                                |                               |
+|교육                 |성인 교육                        |                                        |                                |                               |
+|교육                 |동창회                    |                                        |                                |                               |
+|교육                 |미술사                            |                                        |                                |                               |
+|교육                 |원격 교육                      |                                        |                                |                               |
+|교육                 |제 2 공용어로 사용하는 영어           |                                        |                                |                               |
+|교육                 |초등학교                           |                                        |                                |                               |
+|교육                 |대학원                        |대학                                |                                |                               |
+|교육                 |대학원                        |대학 행정                 |                                |                               |
+|교육                 |대학원                        |대학 생활                           |                                |                               |
+|교육                 |대학원                        |                                        |                                |                               |
+|교육                 |고등학교                            |                                        |                                |                               |
+|교육                 |홈스쿨링                          |                                        |                                |                               |
+|교육                 |숙제와 공부에 도움이 되는 조언                |                                        |                                |                               |
+|교육                 |언어 학습                      |                                        |                                |                               |
+|교육                 |학교                                 |사립학교                         |                                |                               |
+|교육                 |학교                                 |                                        |                                |                               |
+|교육                 |특수 교육                      |                                        |                                |                               |
+|교육                 |학습 비즈니스                      |                                        |                                |                               |
+|교육                 |교육과 학습 리소스       |학습 계획                           |                                |                               |
+|교육                 |교육과 학습 리소스       |학용품                        |                                |                               |
+|교육                 |                                        |                                        |                                |                               |
+|가족과 육아      |입양                               |                                        |                                |                               |
+|가족과 육아      |영유아                    |유아복                           |                                |                               |
+|가족과 육아      |영유아                    |이유식                              |                                |                               |
+|가족과 육아      |영유아                    |                                        |                                |                               |
+|가족과 육아      |어린이                               |어린이집과 유치원                  |                                |                               |
+|가족과 육아      |어린이                               |                                        |                                |                               |
+|가족과 육아      |노인 의료 계획                              |                                        |                                |                               |
+|가족과 육아      |모성                             |인공 수정                |                                |                               |
+|가족과 육아      |모성                             |임신                              |                                |                               |
+|가족과 육아      |모성                             |                                        |                                |                               |
+|가족과 육아      |10대 양육                        |                                        |                                |                               |
+|가족과 육아      |특별 지원이 필요한 아동                     |                                        |                                |                               |
+|가족과 육아      |                                        |                                        |                                |                               |
+|재무                   |회계 및 감사                |대금 청구 및 송장 작성                  |                                |                               |
+|재무                   |회계 및 감사                |부기                            |                                |                               |
+|재무                   |회계 및 감사                |세무 준비 및 계획           |                                |                               |
+|재무                   |회계 및 감사                |                                        |                                |                               |
+|재무                   |은행                                   |atm                                   |                                |                               |
+|재무                   |은행                                   |은행 계좌                           |                                |                               |
+|재무                   |은행                                   |수표                                 |                                |                               |
+|재무                   |은행                                   |                                        |                                |                               |
+|재무                   |금융 관련 뉴스                         |                                        |                                |                               |
+|재무                   |보조금, 장학금 및 재정 지원 |재정 지원                          |                                |                               |
+|재무                   |보조금, 장학금 및 재정 지원 |정부 보조금                      |                                |                               |
+|재무                   |보조금, 장학금 및 재정 지원 |장학금                           |                                |                               |
+|재무                   |투자                              |투자 시작                    |                                |                               |
+|재무                   |투자                              |중개                             |                                |                               |
+|재무                   |투자                              |데이 트레이딩                            |                                |                               |
+|재무                   |투자                              |자금                                  |상장지수펀드(ETF)          |                               |
+|재무                   |투자                              |자금                                  |헤지 펀드                     |                               |
+|재무                   |투자                              |자금                                  |뮤추얼 펀드                   |                               |
+|재무                   |투자                              |선물 거래                        |                                |                               |
+|재무                   |투자                              |옵션                                |                                |                               |
+|재무                   |투자                              |포트폴리오                              |                                |                               |
+|재무                   |투자                              |주식                                 |                                |                               |
+|재무                   |투자                              |벤처 캐피털                        |                                |                               |
+|재무                   |투자                              |                                        |                                |                               |
+|재무                   |개인 재무                       |부채 관리                        |                                |                               |
+|재무                   |개인 재무                       |재무 계획                     |자산 및 포트폴리오 관리 |                               |
+|재무                   |개인 재무                       |재무 계획                     |부동산 계획                |                               |
+|재무                   |개인 재무                       |재무 계획                     |은퇴와 연금         |                               |
+|재무                   |개인 재무                       |재무 계획                     |                                |                               |
+|재무                   |개인 재무                       |보험                              |자동차 보험                  |                               |
+|재무                   |개인 재무                       |보험                              |건강 보험               |                               |
+|재무                   |개인 재무                       |보험                              |주택 보험           |                               |
+|재무                   |개인 재무                       |보험                              |생명 보험                 |                               |
+|재무                   |개인 재무                       |보험                              |여행자 보험               |                               |
+|재무                   |개인 재무                       |보험                              |자동차 보험              |                               |
+|재무                   |개인 재무                       |보험                              |                                |                               |
+|재무                   |개인 재무                       |대출                                |신용카드                   |                               |
+|재무                   |개인 재무                       |대출                                |주택 금융 지원                 |                               |
+|재무                   |개인 재무                       |대출                                |개인 대출                 |                               |
+|재무                   |개인 재무                       |대출                                |학자금 대출                  |                               |
+|재무                   |개인 재무                       |대출                                |차량 금융 지원              |                               |
+|재무                   |개인 재무                       |저축                                 |                                |                               |
+|재무                   |                                        |                                        |                                |                               |
+|음식물            |바베큐 및 구이                 |                                        |                                |                               |
+|음식물            |음료                              |알코올 음료                    |칵테일과 맥주             |                               |
+|음식물            |음료                              |알코올 음료                    |와인                           |                               |
+|음식물            |음료                              |비알코올 음료                |생수                  |                               |
+|음식물            |음료                              |비알코올 음료                |커피와 차                 |                               |
+|음식물            |음료                              |비알코올 음료                |탄산음료                    |                               |
+|음식물            |음료                              |                                        |                                |                               |
+|음식물            |요리                               |미국 요리                       |                                |                               |
+|음식물            |요리                               |중국 요리                        |                                |                               |
+|음식물            |요리                               |프랑스 요리                         |                                |                               |
+|음식물            |요리                               |인도 요리                         |                                |                               |
+|음식물            |요리                               |이탈리아 요리                        |                                |                               |
+|음식물            |요리                               |일본 요리                       |                                |                               |
+|음식물            |요리                               |멕시코 요리                        |                                |                               |
+|음식물            |요리                               |향토 음식                       |                                |                               |
+|음식물            |디저트와 제빵                    |                                        |                                |                               |
+|음식물            |외식                             |                                        |                                |                               |
+|음식물            |음식                                   |오븐에 구운 제품                            |                                |                               |
+|음식물            |음식                                   |아침 식사 음식                        |                                |                               |
+|음식물            |음식                                   |사탕과 초콜릿                       |                                |                               |
+|음식물            |음식                                   |양념과 소스               |                                |                               |
+|음식물            |음식                                   |즉석 식품                              |                                |                               |
+|음식물            |음식                                   |냉동 식품                            |                                |                               |
+|음식물            |음식                                   |과일과 채소                  |                                |                               |
+|음식물            |음식                                   |곡물과 파스타                       |                                |                               |
+|음식물            |음식                                   |허브와 향신료                       |                                |                               |
+|음식물            |음식                                   |샐러드                                 |                                |                               |
+|음식물            |음식                                   |간식용 음식                            |                                |                               |
+|음식물            |음식 알레르기                         |                                        |                                |                               |
+|음식물            |음식 및 식료품 소매업체             |제과점                               |                                |                               |
+|음식물            |음식 및 식료품 소매업체             |정육점                               |                                |                               |
+|음식물            |음식 및 식료품 소매업체             |편의점                     |                                |                               |
+|음식물            |음식 및 식료품 소매업체             |식료품점                         |                                |                               |
+|음식물            |미식법                             |슬로 푸드                              |                                |                               |
+|음식물            |미식법                             |                                        |                                |                               |
+|음식물            |건강 및 저지방 요리              |                                        |                                |                               |
+|음식물            |건강한 식습관                         |                                        |                                |                               |
+|음식물            |코셔 식품                            |                                        |                                |                               |
+|음식물            |엄격한 채식주의자                                  |                                        |                                |                               |
+|음식물            |채식주의자                             |                                        |                                |                               |
+|음식물            |                                        |                                        |                                |                               |
+|건강과 피트니스        |중독                              |알코올 중독                             |                                |                               |
+|건강과 피트니스        |중독                              |흡연 중독                      |                                |                               |
+|건강과 피트니스        |중독                              |약물 남용                        |                                |                               |
+|건강과 피트니스        |중독                              |                                        |                                |                               |
+|건강과 피트니스        |노화                                  |                                        |                                |                               |
+|건강과 피트니스        |대체 의학                   |건강에 좋은 약초                       |                                |                               |
+|건강과 피트니스        |대체 의학                   |전인치유                       |                                |                               |
+|건강과 피트니스        |대체 의학                   |동종 요법                             |                                |                               |
+|건강과 피트니스        |대체 의학                   |                                        |                                |                               |
+|건강과 피트니스        |치아 관리                            |                                        |                                |                               |
+|건강과 피트니스        |질병                                |에이즈와 hiv                           |                                |                               |
+|건강과 피트니스        |질병                                |알레르기                              |                                |                               |
+|건강과 피트니스        |질병                                |관절염                              |                                |                               |
+|건강과 피트니스        |질병                                |천식                                 |                                |                               |
+|건강과 피트니스        |질병                                |자폐증과 pdd                         |                                |                               |
+|건강과 피트니스        |질병                                |암                                 |뇌종양                    |                               |
+|건강과 피트니스        |질병                                |암                                 |                                |                               |
+|건강과 피트니스        |질병                                |콜레스테롤                            |                                |                               |
+|건강과 피트니스        |질병                                |만성 피로 증후군               |                                |                               |
+|건강과 피트니스        |질병                                |만성 통증                           |                                |                               |
+|건강과 피트니스        |질병                                |감기와 독감                           |                                |                               |
+|건강과 피트니스        |질병                                |난청                               |                                |                               |
+|건강과 피트니스        |질병                                |당뇨병                               |                                |                               |
+|건강과 피트니스        |질병                                |전염병                               |                                |                               |
+|건강과 피트니스        |질병                                |간질                               |                                |                               |
+|건강과 피트니스        |질병                                |GERD 및 위산 역류                   |                                |                               |
+|건강과 피트니스        |질병                                |두통과 편두통                |                                |                               |
+|건강과 피트니스        |질병                                |심장 질환                          |                                |                               |
+|건강과 피트니스        |질병                                |ibs 및 크론병                |                                |                               |
+|건강과 피트니스        |질병                                |요실금                           |                                |                               |
+|건강과 피트니스        |질병                                |불임                            |                                |                               |
+|건강과 피트니스        |질병                                |갑상선 질환                        |                                |                               |
+|건강과 피트니스        |질병                                |                                        |                                |                               |
+|건강과 피트니스        |장애                              |정신 장애                        |a.d.d.                         |                               |
+|건강과 피트니스        |장애                              |정신 장애                        |양극성 장애               |                               |
+|건강과 피트니스        |장애                              |정신 장애                        |우울증                     |                               |
+|건강과 피트니스        |장애                              |정신 장애                        |공포와 불안              |                               |
+|건강과 피트니스        |장애                              |정신 장애                        |                                |                               |
+|건강과 피트니스        |장애                              |수면 장애                        |                                |                               |
+|건강과 피트니스        |장애                              |                                        |                                |                               |
+|건강과 피트니스        |마약류                                  |                                        |                                |                               |
+|건강과 피트니스        |운동                               |                                        |                                |                               |
+|건강과 피트니스        |근친상간 및 학대 지원               |                                        |                                |                               |
+|건강과 피트니스        |남성의 건강                           |                                        |                                |                               |
+|건강과 피트니스        |영양                              |                                        |                                |                               |
+|건강과 피트니스        |성                              |                                        |                                |                               |
+|건강과 피트니스        |스포츠 의학                        |                                        |                                |                               |
+|건강과 피트니스        |치료                                |물리 치료                       |                                |                               |
+|건강과 피트니스        |치료                                |                                        |                                |                               |
+|건강과 피트니스        |체중 감량                            |                                        |                                |                               |
+|건강과 피트니스        |여성의 건강                         |                                        |                                |                               |
+|건강과 피트니스        |                                        |                                        |                                |                               |
+|취미와 관심사     |예술과 기술                     |                                        |                                |                               |
+|취미와 관심사     |예술과 공예                        |구슬 세공                               |                                |                               |
+|취미와 관심사     |예술과 공예                        |양초와 비누 제조                 |                                |                               |
+|취미와 관심사     |예술과 공예                        |코바늘 뜨개질                                |                                |                               |
+|취미와 관심사     |예술과 공예                        |보석 세공                         |                                |                               |
+|취미와 관심사     |예술과 공예                        |뜨개질                               |                                |                               |
+|취미와 관심사     |예술과 공예                        |사진 촬영                            |                                |                               |
+|취미와 관심사     |예술과 공예                        |도예                                |                                |                               |
+|취미와 관심사     |예술과 공예                        |시계 제조                            |                                |                               |
+|취미와 관심사     |예술과 공예                        |목공                            |                                |                               |
+|취미와 관심사     |예술과 공예                        |                                        |                                |                               |
+|취미와 관심사     |점성술                              |                                        |                                |                               |
+|취미와 관심사     |탐조                           |                                        |                                |                               |
+|취미와 관심사     |시가                                 |                                        |                                |                               |
+|취미와 관심사     |수집                             |우표와 동전                       |                                |                               |
+|취미와 관심사     |수집                             |                                        |                                |                               |
+|취미와 관심사     |게임                                  |보드 게임과 퍼즐                |                                |                               |
+|취미와 관심사     |게임                                  |카드 게임                             |                                |                               |
+|취미와 관심사     |게임                                  |체스                                  |                                |                               |
+|취미와 관심사     |게임                                  |도박                               |                                |                               |
+|취미와 관심사     |게임                                  |복권                                |                                |                               |
+|취미와 관심사     |게임                                  |역할극 게임                     |                                |                               |
+|취미와 관심사     |게임                                  |비디오 및 컴퓨터 게임               |                                |                               |
+|취미와 관심사     |출판                      |프리랜서 집필                      |                                |                               |
+|취미와 관심사     |출판                      |시나리오 집필                          |                                |                               |
+|취미와 관심사     |출판                      |                                        |                                |                               |
+|취미와 관심사     |기타                                 |                                        |                                |                               |
+|취미와 관심사     |홈 레코딩                         |                                        |                                |                               |
+|취미와 관심사     |발명가와 특허                  |                                        |                                |                               |
+|취미와 관심사     |마술과 환상                     |                                        |                                |                               |
+|취미와 관심사     |바느질                             |                                        |                                |                               |
+|취미와 관심사     |초자연적 현상                   |비술                                 |                                |                               |
+|취미와 관심사     |초자연적 현상                   |초심리학                         |                                |                               |
+|취미와 관심사     |초자연적 현상                   |                                        |                                |                               |
+|취미와 관심사     |읽기                                |                                        |                                |                               |
+|취미와 관심사     |스크랩북 작성                           |                                        |                                |                               |
+|취미와 관심사     |                                        |                                        |                                |                               |
+|집과 정원           |가전제품                             |식기 세척기                            |                                |                               |
+|집과 정원           |가전제품                             |전자레인지                             |                                |                               |
+|집과 정원           |가전제품                             |냉장고와 냉동고             |                                |                               |
+|집과 정원           |가전제품                             |소형 가전제품                       |블렌더                       |                               |
+|집과 정원           |가전제품                             |소형 가전제품                       |커피 메이커                   |                               |
+|집과 정원           |가전제품                             |소형 가전제품                       |푸드 프로세서                |                               |
+|집과 정원           |가전제품                             |소형 가전제품                       |토스터와 토스터 오븐     |                               |
+|집과 정원           |가전제품                             |스토브                                 |                                |                               |
+|집과 정원           |가전제품                             |                                        |                                |                               |
+|집과 정원           |침실과 욕실 용품                           |욕실                               |                                |                               |
+|집과 정원           |침실과 욕실 용품                           |침실                                |침구류         |                               |
+|집과 정원           |침실과 욕실 용품                           |침실                                |침대와 침대 머리판            |                               |
+|집과 정원           |침실과 욕실 용품                           |침실                                |매트리스                     |                               |
+|집과 정원           |침실과 욕실 용품                           |침실                                |                                |                               |
+|집과 정원           |환경 안전                   |                                        |                                |                               |
+|집과 정원           |원예 및 조경              |원예                              |                                |                               |
+|집과 정원           |원예 및 조경              |조경                            |                                |                               |
+|집과 정원           |원예 및 조경              |마당과 옥외 테라스                         |                                |                               |
+|집과 정원           |홈퍼니싱                       |램프와 조명                     |                                |                               |
+|집과 정원           |홈퍼니싱                       |러그와 카페트                       |                                |                               |
+|집과 정원           |홈퍼니싱                       |소파와 의자                       |                                |                               |
+|집과 정원           |홈퍼니싱                       |                                        |                                |                               |
+|집과 정원           |주택 개조와 수리            |주택 페인트 칠하기 및 마감           |                                |                               |
+|집과 정원           |주택 개조와 수리            |자물쇠와 자물쇠 수리공                   |                                |                               |
+|집과 정원           |주택 개조와 수리            |배관                               |                                |                               |
+|집과 정원           |주택 개조와 수리            |전동 공구                            |                                |                               |
+|집과 정원           |주택 개조와 수리            |지붕 공사                                |                                |                               |
+|집과 정원           |주택 개조와 수리            |                                        |                                |                               |
+|집과 정원           |실내 장식                    |                                        |                                |                               |
+|집과 정원           |세탁                                |                                        |                                |                               |
+|집과 정원           |고급 주택                           |                                        |                                |                               |
+|집과 정원           |아기방 및 놀이방                   |                                        |                                |                               |
+|집과 정원           |병충해 방제                           |                                        |                                |                               |
+|집과 정원           |주택 개보수 및 공사            |                                        |                                |                               |
+|집과 정원           |                                        |                                        |                                |                               |
+|법률, 정부 및 정치    |군대                           |공군                              |                                |                               |
+|법률, 정부 및 정치    |군대                           |육군                                   |                                |                               |
+|법률, 정부 및 정치    |군대                           |해병                                |                                |                               |
+|법률, 정부 및 정치    |군대                           |해군                                   |                                |                               |
+|법률, 정부 및 정치    |군대                           |퇴역 군인                               |                                |                               |
+|법률, 정부 및 정치    |논평                             |                                        |                                |                               |
+|법률, 정부 및 정치    |첩보 활동 및 정보 기관             |첩보 활동                         |                                |                               |
+|법률, 정부 및 정치    |첩보 활동 및 정보 기관             |감시                           |                                |                               |
+|법률, 정부 및 정치    |첩보 활동 및 정보 기관             |테러                              |                                |                               |
+|법률, 정부 및 정치    |첩보 활동 및 정보 기관             |                                        |                                |                               |
+|법률, 정부 및 정치    |정부                             |법원과 사법부                   |                                |                               |
+|법률, 정부 및 정치    |정부                             |대사관과 영사관               |                                |                               |
+|법률, 정부 및 정치    |정부                             |행정부                       |                                |                               |
+|법률, 정부 및 정치    |정부                             |정부 기관                    |                                |                               |
+|법률, 정부 및 정치    |정부                             |정부 계약과 조달 |                                |                               |
+|법률, 정부 및 정치    |정부                             |국가 원수                         |                                |                               |
+|법률, 정부 및 정치    |정부                             |입법                            |                                |                               |
+|법률, 정부 및 정치    |정부                             |국회                             |                                |                               |
+|법률, 정부 및 정치    |정부                             |주정부 및 지방 정부             |                                |                               |
+|법률, 정부 및 정치    |정부                             |                                        |                                |                               |
+|법률, 정부 및 정치    |이민                            |                                        |                                |                               |
+|법률, 정부 및 정치    |법 집행                        |해안 경비대                            |                                |                               |
+|법률, 정부 및 정치    |법 집행                        |소방서                        |                                |                               |
+|법률, 정부 및 정치    |법 집행                        |고속도로 순찰대                         |                                |                               |
+|법률, 정부 및 정치    |법 집행                        |경찰                                 |                                |                               |
+|법률, 정부 및 정치    |법 집행                        |                                        |                                |                               |
+|법률, 정부 및 정치    |법적 문제                           |민법                              |저작권                      |                               |
+|법률, 정부 및 정치    |법적 문제                           |민법                              |                                |                               |
+|법률, 정부 및 정치    |법적 문제                           |시민권                           |                                |                               |
+|법률, 정부 및 정치    |법적 문제                           |시민권                           |개인정보처리방침                        |                               |
+|법률, 정부 및 정치    |법적 문제                           |형법                           |                                |                               |
+|법률, 정부 및 정치    |법적 문제                           |사형                          |                                |                               |
+|법률, 정부 및 정치    |법적 문제                           |인권                           |                                |                               |
+|법률, 정부 및 정치    |법적 문제                           |국제법                      |                                |                               |
+|법률, 정부 및 정치    |법적 문제                           |법률                            |건축법                  |                               |
+|법률, 정부 및 정치    |법적 문제                           |법률                            |교육법                 |                               |
+|법률, 정부 및 정치    |법적 문제                           |법률                            |가족법                    |                               |
+|법률, 정부 및 정치    |법적 문제                           |법률                            |건강관리법               |                               |
+|법률, 정부 및 정치    |법적 문제                           |법률                            |이민법               |                               |
+|법률, 정부 및 정치    |법적 문제                           |법률                            |세법                       |                               |
+|법률, 정부 및 정치    |법적 문제                           |법률                            |                                |                               |
+|법률, 정부 및 정치    |법적 문제                           |                                        |                                |                               |
+|법률, 정부 및 정치    |정치                               |국내 정책                        |                                |                               |
+|법률, 정부 및 정치    |정치                               |선거                              |지방 선거                |                               |
+|법률, 정부 및 정치    |정치                               |선거                              |대통령 선거         |                               |
+|법률, 정부 및 정치    |정치                               |선거                              |국민 투표                    |                               |
+|법률, 정부 및 정치    |정치                               |선거                              |                                |                               |
+|법률, 정부 및 정치    |정치                               |외교 정책                         |                                |                               |
+|법률, 정부 및 정치    |정치                               |로비 활동                               |                                |                               |
+|법률, 정부 및 정치    |정치                               |정당                      |                                |                               |
+|법률, 정부 및 정치    |정치                               |                                        |                                |                               |
+|법률, 정부 및 정치    |                                        |                                        |                                |                               |
+|뉴스                      |국제 뉴스                     |                                        |                                |                               |
+|뉴스                      |지역 뉴스                             |                                        |                                |                               |
+|뉴스                      |국내 뉴스                          |                                        |                                |                               |
+|뉴스                      |                                        |                                        |                                |                               |
+|애완동물                      |동물 보호                         |                                        |                                |                               |
+|애완동물                      |수족관                              |                                        |                                |                               |
+|애완동물                      |새                                  |                                        |                                |                               |
+|애완동물                      |고양이                                   |                                        |                                |                               |
+|애완동물                      |개                                   |                                        |                                |                               |
+|애완동물                      |큰 동물                          |                                        |                                |                               |
+|애완동물                      |파충류                               |                                        |                                |                               |
+|애완동물                      |동물원                                    |                                        |                                |                               |
+|애완동물                      |                                        |                                        |                                |                               |
+|부동산               |아파트                             |                                        |                                |                               |
+|부동산               |건축가                             |                                        |                                |                               |
+|부동산               |주택 구입 및 판매               |                                        |                                |                               |
+|부동산               |저소득층 주택                     |                                        |                                |                               |
+|부동산               |                                        |                                        |                                |                               |
+|종교와 영성 |대체 종교                  |이교도 및 주술 숭배(wiccan)                       |                                |                               |
+|종교와 영성 |무신론과 불가지론                |                                        |                                |                               |
+|종교와 영성 |불교                               |                                        |                                |                               |
+|종교와 영성 |기독교                           |천주교                            |                                |                               |
+|종교와 영성 |기독교                           |후기 성도                      |                                |                               |
+|종교와 영성 |기독교                           |정교                              |                                |                               |
+|종교와 영성 |기독교                           |개신교                          |                                |                               |
+|종교와 영성 |기독교                           |                                        |                                |                               |
+|종교와 영성 |힌두교                               |                                        |                                |                               |
+|종교와 영성 |이슬람교                                  |이슬람 근본주의                 |                                |                               |
+|종교와 영성 |이슬람교                                  |                                        |                                |                               |
+|종교와 영성 |유대교                                |                                        |                                |                               |
+|종교와 영성 |                                        |                                        |                                |                               |
+|과학                   |생물학                                |생명 공학                          |                                |                               |
+|과학                   |생물학                                |식물학                                 |                                |                               |
+|과학                   |생물학                                |번식                               |                                |                               |
+|과학                   |생물학                                |세포학                               |                                |                               |
+|과학                   |생물학                                |해양 생물학                         |                                |                               |
+|과학                   |생물학                                |분자 생물학                      |                                |                               |
+|과학                   |생물학                                |동물학                                |멸종위기종             |                               |
+|과학                   |생물학                                |동물학                                |곤충학                     |                               |
+|과학                   |생물학                                |동물학                                |조류학                    |                               |
+|과학                   |생물학                                |동물학                                |                                |                               |
+|과학                   |생물학                                |                                        |                                |                               |
+|과학                   |화학                              |유기 화학                      |                                |                               |
+|과학                   |화학                              |                                        |                                |                               |
+|과학                   |컴퓨터 과학                       |인공 지능                |                                |                               |
+|과학                   |컴퓨터 과학                       |암호화                           |                                |                               |
+|과학                   |컴퓨터 과학                       |분산 시스템                    |                                |                               |
+|과학                   |컴퓨터 과학                       |정보 과학                    |                                |                               |
+|과학                   |컴퓨터 과학                       |소프트웨어 엔지니어링                   |                                |                               |
+|과학                   |컴퓨터 과학                       |                                        |                                |                               |
+|과학                   |생태학                                |환경 재해                 |                                |                               |
+|과학                   |생태학                                |대기 오염                              |                                |                               |
+|과학                   |생태학                                |폐기물 관리                       |재활용                      |                               |
+|과학                   |생태학                                |폐기물 관리                       |폐기물 처리                 |                               |
+|과학                   |생태학                                |                                        |                                |                               |
+|과학                   |엔지니어링                            |                                        |                                |                               |
+|과학                   |지리학                              |지도 제작                            |                                |                               |
+|과학                   |지리학                              |지형학                             |                                |                               |
+|과학                   |지리학                              |                                        |                                |                               |
+|과학                   |지질학                                |광물학                             |                                |                               |
+|과학                   |지질학                                |지진학                             |지진                    |                               |
+|과학                   |지질학                                |화산학                            |화산 분출             |                               |
+|과학                   |지질학                                |                                        |                                |                               |
+|과학                   |수학                            |대수학                                |                                |                               |
+|과학                   |수학                            |산술                             |                                |                               |
+|과학                   |수학                            |기하학                               |                                |                               |
+|과학                   |수학                            |통계                             |                                |                               |
+|과학                   |수학                            |                                        |                                |                               |
+|과학                   |의학                               |심장학                             |                                |                               |
+|과학                   |의학                               |피부과                            |                                |                               |
+|과학                   |의학                               |발생학                             |                                |                               |
+|과학                   |의학                               |유전학                               |                                |                               |
+|과학                   |의학                               |면역학                             |                                |                               |
+|과학                   |의학                               |의학 연구                       |                                |                               |
+|과학                   |의학                               |종양학                               |                                |                               |
+|과학                   |의학                               |정형외과                            |                                |                               |
+|과학                   |의학                               |소아과                             |                                |                               |
+|과학                   |의학                               |약리학                           |                                |                               |
+|과학                   |의학                               |생리학                             |                                |                               |
+|과학                   |의학                               |심리학 및 정신의학              |정신 분석                 |                               |
+|과학                   |의학                               |심리학 및 정신의학              |                                |                               |
+|과학                   |의학                               |수술                                |성형 수술               |                               |
+|과학                   |의학                               |수술                                |이식                    |                               |
+|과학                   |의학                               |수술                                |                                |                               |
+|과학                   |의학                               |수의학                    |                                |                               |
+|과학                   |의학                               |                                        |                                |                               |
+|과학                   |물리학                                |원자 물리학                         |                                |                               |
+|과학                   |물리학                                |천체물리학                           |                                |                               |
+|과학                   |물리학                                |전자기학                       |                                |                               |
+|과학                   |물리학                                |수력학                             |                                |                               |
+|과학                   |물리학                                |나노 기술                         |                                |                               |
+|과학                   |물리학                                |광학                                 |                                |                               |
+|과학                   |물리학                                |우주와 천문학                    |                                |                               |
+|과학                   |물리학                                |열역학                         |                                |                               |
+|과학                   |물리학                                |                                        |                                |                               |
+|과학                   |사회 과학                         |인류학                           |                                |                               |
+|과학                   |사회 과학                         |역사                                |고대사                |                               |
+|과학                   |사회 과학                         |역사                                |고고학                    |                               |
+|과학                   |사회 과학                         |역사                                |계보학                      |                               |
+|과학                   |사회 과학                         |역사                                |문장학                       |                               |
+|과학                   |사회 과학                         |역사                                |중세사               |                               |
+|과학                   |사회 과학                         |역사                                |현대사                 |                               |
+|과학                   |사회 과학                         |역사                                |선사 시대                     |                               |
+|과학                   |사회 과학                         |역사                                |                                |                               |
+|과학                   |사회 과학                         |언어학                            |번역                    |                               |
+|과학                   |사회 과학                         |언어학                            |                                |                               |
+|과학                   |사회 과학                         |교육학                               |                                |                               |
+|과학                   |사회 과학                         |철학                             |윤리                         |                               |
+|과학                   |사회 과학                         |철학                             |                                |                               |
+|과학                   |사회 과학                         |사회학                              |                                |                               |
+|과학                   |사회 과학                         |                                        |                                |                               |
+|과학                   |날씨                                |기상 재해                |홍수                          |                               |
+|과학                   |날씨                                |기상 재해                |허리케인                      |                               |
+|과학                   |날씨                                |기상 재해                |토네이도                        |                               |
+|과학                   |날씨                                |기상 재해                |                                |                               |
+|과학                   |날씨                                |                                        |                                |                               |
+|과학                   |                                        |                                        |                                |                               |
+|쇼핑                  |경매                               |                                        |                                |                               |
+|쇼핑                  |안내 광고                            |                                        |                                |                               |
+|쇼핑                  |선물                                  |꽃                                |                                |                               |
+|쇼핑                  |선물                                  |인사장                         |                                |                               |
+|쇼핑                  |선물                                  |파티용품                         |                                |                               |
+|쇼핑                  |선물                                  |                                        |                                |                               |
+|쇼핑                  |리소스                              |비교 엔진                    |                                |                               |
+|쇼핑                  |리소스                              |소비자 보호                    |                                |                               |
+|쇼핑                  |리소스                              |콘테스트 및 경품                  |                                |                               |
+|쇼핑                  |리소스                              |쿠폰                                |                                |                               |
+|쇼핑                  |리소스                              |고객 보상 프로그램(loyalty programs)                       |                                |                               |
+|쇼핑                  |리소스                              |제품 리뷰                        |                                |                               |
+|쇼핑                  |리소스                              |보증 및 서비스 계약       |                                |                               |
+|쇼핑                  |소매업                                 |백화점                      |                                |                               |
+|쇼핑                  |소매업                                 |온라인 상점                          |                                |                               |
+|쇼핑                  |소매업                                 |아웃렛 매장                          |                                |                               |
+|쇼핑                  |소매업                                 |중고시장                     |                                |                               |
+|쇼핑                  |소매업                                 |도매업자                            |                                |                               |
+|쇼핑                  |소매업                                 |                                        |                                |                               |
+|쇼핑                  |장난감                                   |액션 피규어                         |                                |                               |
+|쇼핑                  |장난감                                   |인형                                  |                                |                               |
+|쇼핑                  |장난감                                   |꼭두각시 인형                                |                                |                               |
+|쇼핑                  |장난감                                   |동물 인형                        |                                |                               |
+|쇼핑                  |장난감                                   |                                        |                                |                               |
+|쇼핑                  |                                        |                                        |                                |                               |
+|사회                   |범죄                                  |마약 밀매                       |                                |                               |
+|사회                   |범죄                                  |조직 범죄                        |                                |                               |
+|사회                   |범죄                                  |개인 범죄                       |폭행                        |                               |
+|사회                   |범죄                                  |개인 범죄                       |증오 범죄                     |                               |
+|사회                   |범죄                                  |개인 범죄                       |살인                       |                               |
+|사회                   |범죄                                  |개인 범죄                       |인신매매              |                               |
+|사회                   |범죄                                  |개인 범죄                       |납치                     |                               |
+|사회                   |범죄                                  |개인 범죄                       |고문                        |                               |
+|사회                   |범죄                                  |재산 범죄                         |방화                          |                               |
+|사회                   |범죄                                  |재산 범죄                         |뇌물                        |                               |
+|사회                   |범죄                                  |재산 범죄                         |주거 침입 절도                       |                               |
+|사회                   |범죄                                  |재산 범죄                         |횡령                   |                               |
+|사회                   |범죄                                  |재산 범죄                         |사기                          |                               |
+|사회                   |범죄                                  |재산 범죄                         |절도                        |                               |
+|사회                   |범죄                                  |재산 범죄                         |해적 행위                         |                               |
+|사회                   |범죄                                  |재산 범죄                         |강도                        |                               |
+|사회                   |범죄                                  |재산 범죄                         |밀수                      |                               |
+|사회                   |범죄                                  |재산 범죄                         |고리대금업                          |                               |
+|사회                   |범죄                                  |성범죄                         |소아성애                    |                               |
+|사회                   |범죄                                  |성범죄                         |성매매                   |                               |
+|사회                   |범죄                                  |성범죄                         |강간                           |                               |
+|사회                   |범죄                                  |                                        |                                |                               |
+|사회                   |데이트                                 |                                        |                                |                               |
+|사회                   |동성애자 생활                               |                                        |                                |                               |
+|사회                   |인종 차별                                 |                                        |                                |                               |
+|사회                   |노인 생활                          |                                        |                                |                               |
+|사회                   |성                                    |포르노                            |                                |                               |
+|사회                   |성                                    |성교육                          |                                |                               |
+|사회                   |성                                    |                                        |                                |                               |
+|사회                   |사회 제도                     |이혼                                |                                |                               |
+|사회                   |사회 제도                     |결혼                               |관습법상 혼인            |                               |
+|사회                   |사회 제도                     |결혼                               |결혼식                       |                               |
+|사회                   |사회 제도                     |결혼                               |                                |                               |
+|사회                   |10대                                  |                                        |                                |                               |
+|사회                   |불안과 전쟁                         |                                        |                                |                               |
+|사회                   |복지                                |의료                             |병원                       |                               |
+|사회                   |복지                                |의료                             |                                |                               |
+|사회                   |복지                                |사회 복지 사업                        |자원 봉사                   |                               |
+|사회                   |복지                                |사회 복지 사업                        |                                |                               |
+|사회                   |복지                                |                                        |                                |                               |
+|사회                   |일                                   |계약                              |                                |                               |
+|사회                   |일                                   |퇴직                             |                                |                               |
+|사회                   |일                                   |실업                           |                                |                               |
+|사회                   |일                                   |조합                                 |                                |                               |
+|사회                   |                                        |                                        |                                |                               |
+|스포츠                    |양궁                                |                                        |                                |                               |
+|스포츠                    |자동차 경주                            |내스카(nascar)                                 |                                |                               |
+|스포츠                    |자동차 경주                            |랠리                                  |                                |                               |
+|스포츠                    |자동차 경주                            |                                        |                                |                               |
+|스포츠                    |배드민턴                              |                                        |                                |                               |
+|스포츠                    |야구                               |                                        |                                |                               |
+|스포츠                    |농구                             |                                        |                                |                               |
+|스포츠                    |자전거 타기                              |산악 자전거 타기                        |                                |                               |
+|스포츠                    |자전거 타기                              |                                        |                                |                               |
+|스포츠                    |당구                              |                                        |                                |                               |
+|스포츠                    |보트 경주                            |                                        |                                |                               |
+|스포츠                    |봅슬레이                                |                                        |                                |                               |
+|스포츠                    |보디빌딩                           |                                        |                                |                               |
+|스포츠                    |볼링                                |                                        |                                |                               |
+|스포츠                    |권투                                 |                                        |                                |                               |
+|스포츠                    |카누 타기와 카약 타기                  |                                        |                                |                               |
+|스포츠                    |응원                           |                                        |                                |                               |
+|스포츠                    |등반                               |등산                      |                                |                               |
+|스포츠                    |등반                               |암벽 등반                          |                                |                               |
+|스포츠                    |등반                               |                                        |                                |                               |
+|스포츠                    |크리켓                                |                                        |                                |                               |
+|스포츠                    |컬링                                |                                        |                                |                               |
+|스포츠                    |다이빙                                 |                                        |                                |                               |
+|스포츠                    |개 썰매                               |                                        |                                |                               |
+|스포츠                    |펜싱                                |                                        |                                |                               |
+|스포츠                    |낚시                                |제물 낚시                            |                                |                               |
+|스포츠                    |낚시                                |민물 낚시                     |                                |                               |
+|스포츠                    |낚시                                |바다 낚시                      |                                |                               |
+|스포츠                    |낚시                                |스포츠 낚시                          |                                |                               |
+|스포츠                    |낚시                                |                                        |                                |                               |
+|스포츠                    |축구                               |                                        |                                |                               |
+|스포츠                    |고카트(go kart)                                |                                        |                                |                               |
+|스포츠                    |골프                                   |                                        |                                |                               |
+|스포츠                    |체조                             |미용 체조                           |                                |                               |
+|스포츠                    |체조                             |                                        |                                |                               |
+|스포츠                    |핸드볼                               |                                        |                                |                               |
+|스포츠                    |하키                                 |필드 하키                           |                                |                               |
+|스포츠                    |하키                                 |                                        |                                |                               |
+|스포츠                    |경마                           |                                        |                                |                               |
+|스포츠                    |경마                                 |                                        |                                |                               |
+|스포츠                    |사냥과 사격                   |스키트 사격                         |                                |                               |
+|스포츠                    |사냥과 사격                   |타깃 사격                        |                                |                               |
+|스포츠                    |사냥과 사격                   |                                        |                                |                               |
+|스포츠                    |무술                           |유도                                   |                                |                               |
+|스포츠                    |무술                           |가라데                                 |                                |                               |
+|스포츠                    |무술                           |스모                                   |                                |                               |
+|스포츠                    |무술                           |                                        |                                |                               |
+|스포츠                    |오토바이                           |                                        |                                |                               |
+|스포츠                    |올림픽                               |패럴림픽 게임                       |                                |                               |
+|스포츠                    |올림픽                               |                                        |                                |                               |
+|스포츠                    |서바이벌 게임                              |                                        |                                |                               |
+|스포츠                    |낙하산                            |                                        |                                |                               |
+|스포츠                    |폴로                                   |                                        |                                |                               |
+|스포츠                    |로데오                                  |                                        |                                |                               |
+|스포츠                    |조정                                 |                                        |                                |                               |
+|스포츠                    |럭비                                  |                                        |                                |                               |
+|스포츠                    |달리기 및 조깅                    |                                        |                                |                               |
+|스포츠                    |항해                                |                                        |                                |                               |
+|스포츠                    |스쿠버 다이빙                           |                                        |                                |                               |
+|스포츠                    |스케이트보드                          |                                        |                                |                               |
+|스포츠                    |스케이트                                |피겨 스케이팅                         |                                |                               |
+|스포츠                    |스케이트                                |아이스 스케이팅                            |                                |                               |
+|스포츠                    |스케이트                                |롤러 스케이팅                         |                                |                               |
+|스포츠                    |스케이트                                |                                        |                                |                               |
+|스포츠                    |스키                                 |활강                        |                                |                               |
+|스포츠                    |스키                                 |노르딕 스키                          |                                |                               |
+|스포츠                    |스키                                 |수상 스키                            |                                |                               |
+|스포츠                    |스키                                 |                                        |                                |                               |
+|스포츠                    |스노보드                           |                                        |                                |                               |
+|스포츠                    |축구                                 |                                        |                                |                               |
+|스포츠                    |소프트볼                               |                                        |                                |                               |
+|스포츠                    |스포츠 뉴스                            |                                        |                                |                               |
+|스포츠                    |서핑과 보디보딩               |                                        |                                |                               |
+|스포츠                    |수영                               |                                        |                                |                               |
+|스포츠                    |탁구             |                                        |                                |                               |
+|스포츠                    |테니스                                 |                                        |                                |                               |
+|스포츠                    |트레킹                               |                                        |                                |                               |
+|스포츠                    |배구                             |비치 발리볼                       |                                |                               |
+|스포츠                    |배구                             |                                        |                                |                               |
+|스포츠                    |웨이크보딩                           |                                        |                                |                               |
+|스포츠                    |걷기                                |                                        |                                |                               |
+|스포츠                    |수구                             |                                        |                                |                               |
+|스포츠                    |역도                          |                                        |                                |                               |
+|스포츠                    |윈드서핑                            |                                        |                                |                               |
+|스포츠                    |레슬링                              |                                        |                                |                               |
+|스포츠                    |                                        |                                        |                                |                               |
+|스타일과 패션         |액세서리                            |배낭                              |                                |                               |
+|스타일과 패션         |액세서리                            |장갑                                 |                                |                               |
+|스타일과 패션         |액세서리                            |모자                                   |                                |                               |
+|스타일과 패션         |액세서리                            |스카프                                |                                |                               |
+|스타일과 패션         |액세서리                            |양말                                  |                                |                               |
+|스타일과 패션         |액세서리                            |선글라스                             |                                |                               |
+|스타일과 패션         |액세서리                            |넥타이                                   |                                |                               |
+|스타일과 패션         |액세서리                            |지갑                                |                                |                               |
+|스타일과 패션         |액세서리                            |시계                                |                                |                               |
+|스타일과 패션         |액세서리                            |                                        |                                |                               |
+|스타일과 패션         |미용                                 |남성용 향수                                |                                |                               |
+|스타일과 패션         |미용                                 |화장품                              |아이섀도                      |                               |
+|스타일과 패션         |미용                                 |화장품                              |립스틱                       |                               |
+|스타일과 패션         |미용                                 |화장품                              |매니큐어                    |                               |
+|스타일과 패션         |미용                                 |화장품                              |                                |                               |
+|스타일과 패션         |미용                                 |미용 전문가   |                                |                               |
+|스타일과 패션         |미용                                 |얼굴 및 몸 관리                     |바디 케어                      |                               |
+|스타일과 패션         |미용                                 |얼굴 및 몸 관리                     |위생용품 및 세면도구         |                               |
+|스타일과 패션         |미용                                 |얼굴 및 몸 관리                     |네일 케어                      |                               |
+|스타일과 패션         |미용                                 |헤어 케어                              |                                |                               |
+|스타일과 패션         |미용                                 |향수                                |                                |                               |
+|스타일과 패션         |미용                                 |문신                                |                                |                               |
+|스타일과 패션         |신체 예술                               |                                        |                                |                               |
+|스타일과 패션         |의류                               |블레이저                                |                                |                               |
+|스타일과 패션         |의류                               |코트                                  |                                |                               |
+|스타일과 패션         |의류                               |모자 달린 옷                                |                                |                               |
+|스타일과 패션         |의류                               |재킷                                |                                |                               |
+|스타일과 패션         |의류                               |레깅스                               |                                |                               |
+|스타일과 패션         |의류                               |란제리                               |                                |                               |
+|스타일과 패션         |의류                               |잠옷                                |                                |                               |
+|스타일과 패션         |의류                               |바지                                  |청바지                          |                               |
+|스타일과 패션         |의류                               |바지                                  |                                |                               |
+|스타일과 패션         |의류                               |속치마                             |                                |                               |
+|스타일과 패션         |의류                               |셔츠                                 |                                |                               |
+|스타일과 패션         |의류                               |반바지                                 |                                |                               |
+|스타일과 패션         |의류                               |치마                                 |                                |                               |
+|스타일과 패션         |의류                               |스웨터                               |                                |                               |
+|스타일과 패션         |의류                               |웨딩드레스                        |                                |                               |
+|스타일과 패션         |의류                               |                                        |                                |                               |
+|스타일과 패션         |패션 디자이너                      |                                        |                                |                               |
+|스타일과 패션         |신발                               |부츠                                  |                                |                               |
+|스타일과 패션         |신발                               |샌들                                |                                |                               |
+|스타일과 패션         |신발                               |신발                                  |                                |                               |
+|스타일과 패션         |신발                               |슬리퍼                               |                                |                               |
+|스타일과 패션         |신발                               |운동화                               |                                |                               |
+|스타일과 패션         |신발                               |                                        |                                |                               |
+|스타일과 패션         |보석                                |팔찌                              |                                |                               |
+|스타일과 패션         |보석                                |귀걸이                               |                                |                               |
+|스타일과 패션         |보석                                |목걸이                              |                                |                               |
+|스타일과 패션         |보석                                |반지                                  |                                |                               |
+|스타일과 패션         |보석                                |                                        |                                |                               |
+|스타일과 패션         |명품                           |                                        |                                |                               |
+|스타일과 패션         |남성 패션                         |                                        |                                |                               |
+|스타일과 패션         |수영복                               |비키니                                |                                |                               |
+|스타일과 패션         |수영복                               |                                        |                                |                               |
+|스타일과 패션         |속옷                              |                                        |                                |                               |
+|스타일과 패션         |                                        |                                        |                                |                               |
+|기술과 컴퓨팅  |컴퓨터 인증                 |                                        |                                |                               |
+|기술과 컴퓨팅  |컴퓨터 범죄                         |                                        |                                |                               |
+|기술과 컴퓨팅  |컴퓨터 검토                       |                                        |                                |                               |
+|기술과 컴퓨팅  |컴퓨터 보안                      |안티바이러스 및 악성 코드                  |                                |                               |
+|기술과 컴퓨팅  |컴퓨터 보안                      |네트워크 보안                       |                                |                               |
+|기술과 컴퓨팅  |컴퓨터 보안                      |                                        |                                |                               |
+|기술과 컴퓨팅  |가전제품                   |음향 기기                        |헤드폰                     |                               |
+|기술과 컴퓨팅  |가전제품                   |음향 기기                        |스피커                       |                               |
+|기술과 컴퓨팅  |가전제품                   |음향 기기                        |스테레오 시스템과 부품  |                               |
+|기술과 컴퓨팅  |가전제품                   |음향 기기                        |                                |                               |
+|기술과 컴퓨팅  |가전제품                   |카메라와 부품             |쌍안경                     |                               |
+|기술과 컴퓨팅  |가전제품                   |카메라와 부품             |카메라와 캠코더         |캠코더                    |
+|기술과 컴퓨팅  |가전제품                   |카메라와 부품             |카메라와 캠코더         |카메라 가방                   |
+|기술과 컴퓨팅  |가전제품                   |카메라와 부품             |카메라와 캠코더         |카메라 배터리              |
+|기술과 컴퓨팅  |가전제품                   |카메라와 부품             |카메라와 캠코더         |카메라 렌즈                 |
+|기술과 컴퓨팅  |가전제품                   |카메라와 부품             |카메라와 캠코더         |카메라                       |
+|기술과 컴퓨팅  |가전제품                   |카메라와 부품             |망원경                     |                               |
+|기술과 컴퓨팅  |가전제품                   |전자책 단말기                           |                                |                               |
+|기술과 컴퓨팅  |가전제품                   |게임 시스템 및 콘솔              |닌텐도                       |                               |
+|기술과 컴퓨팅  |가전제품                   |게임 시스템 및 콘솔              |플레이스테이션                    |                               |
+|기술과 컴퓨팅  |가전제품                   |게임 시스템 및 콘솔              |xbox                           |                               |
+|기술과 컴퓨팅  |가전제품                   |게임 시스템 및 콘솔              |                                |                               |
+|기술과 컴퓨팅  |가전제품                   |가정용 비디오 및 dvd                     |                                |                               |
+|기술과 컴퓨팅  |가전제품                   |휴대용 엔터테인먼트                 |                                |                               |
+|기술과 컴퓨팅  |가전제품                   |라디오                                 |                                |                               |
+|기술과 컴퓨팅  |가전제품                   |전화기                             |휴대전화                  |스마트폰                  |
+|기술과 컴퓨팅  |가전제품                   |전화기                             |휴대전화                  |                               |
+|기술과 컴퓨팅  |가전제품                   |전화기                             |                                |                               |
+|기술과 컴퓨팅  |가전제품                   |tv와 비디오 장비                 |dvrs와 셋톱박스         |                               |
+|기술과 컴퓨팅  |가전제품                   |tv와 비디오 장비                 |홈 시어터 시스템           |                               |
+|기술과 컴퓨팅  |가전제품                   |tv와 비디오 장비                 |프로젝터                     |                               |
+|기술과 컴퓨팅  |가전제품                   |tv와 비디오 장비                 |텔레비전                    |hdtvs                         |
+|기술과 컴퓨팅  |가전제품                   |tv와 비디오 장비                 |텔레비전                    |lcd tvs                       |
+|기술과 컴퓨팅  |가전제품                   |tv와 비디오 장비                 |텔레비전                    |플라스마 tvs                    |
+|기술과 컴퓨팅  |가전제품                   |tv와 비디오 장비                 |텔레비전                    |                               |
+|기술과 컴퓨팅  |가전제품                   |tv와 비디오 장비                 |비디오 플레이어 및 레코더    |블루레이 플레이어 및 레코더 |
+|기술과 컴퓨팅  |가전제품                   |tv와 비디오 장비                 |비디오 플레이어 및 레코더    |dvd 플레이어 및 레코더     |
+|기술과 컴퓨팅  |가전제품                   |tv와 비디오 장비                 |                                |                               |
+|기술과 컴퓨팅  |가전제품                   |                                        |                                |                               |
+|기술과 컴퓨팅  |데이터 센터                           |                                        |                                |                               |
+|기술과 컴퓨팅  |전자부품                  |                                        |                                |                               |
+|기술과 컴퓨팅  |엔터프라이즈 기술                  |고객 관계 관리       |                                |                               |
+|기술과 컴퓨팅  |엔터프라이즈 기술                  |데이터 관리                        |                                |                               |
+|기술과 컴퓨팅  |엔터프라이즈 기술                  |전사적 리소스 관리(ERP)           |                                |                               |
+|기술과 컴퓨팅  |하드웨어                               |컴퓨터                               |데스크탑 컴퓨터               |                               |
+|기술과 컴퓨팅  |하드웨어                               |컴퓨터                               |휴대용 컴퓨터              |랩탑                        |
+|기술과 컴퓨팅  |하드웨어                               |컴퓨터                               |휴대용 컴퓨터              |팜탑과 pda             |
+|기술과 컴퓨팅  |하드웨어                               |컴퓨터                               |휴대용 컴퓨터              |태블릿                        |
+|기술과 컴퓨팅  |하드웨어                               |컴퓨터                               |휴대용 컴퓨터              |                               |
+|기술과 컴퓨팅  |하드웨어                               |컴퓨터                               |서버                        |                               |
+|기술과 컴퓨팅  |하드웨어                               |컴퓨터                               |                                |                               |
+|기술과 컴퓨팅  |하드웨어                               |컴퓨터 구성요소                    |칩과 프로세서           |                               |
+|기술과 컴퓨팅  |하드웨어                               |컴퓨터 구성요소                    |디스크                          |                               |
+|기술과 컴퓨팅  |하드웨어                               |컴퓨터 구성요소                    |그래픽 카드                 |                               |
+|기술과 컴퓨팅  |하드웨어                               |컴퓨터 구성요소                    |메모리                         |휴대용                      |
+|기술과 컴퓨팅  |하드웨어                               |컴퓨터 구성요소                    |메모리                         |                               |
+|기술과 컴퓨팅  |하드웨어                               |컴퓨터 구성요소                    |마더보드                   |                               |
+|기술과 컴퓨팅  |하드웨어                               |컴퓨터 구성요소                    |사운드 카드                    |                               |
+|기술과 컴퓨팅  |하드웨어                               |컴퓨터 네트워킹                    |라우터                         |                               |
+|기술과 컴퓨팅  |하드웨어                               |컴퓨터 네트워킹                    |무선 기술            |                               |
+|기술과 컴퓨팅  |하드웨어                               |컴퓨터 주변 기기                   |컴퓨터 모니터              |                               |
+|기술과 컴퓨팅  |하드웨어                               |컴퓨터 주변 기기                   |프린터, 복사기 및 팩스      |복사기                       |
+|기술과 컴퓨팅  |하드웨어                               |컴퓨터 주변 기기                   |프린터, 복사기 및 팩스      |팩스기                  |
+|기술과 컴퓨팅  |하드웨어                               |컴퓨터 주변 기기                   |프린터, 복사기 및 팩스      |프린터                      |
+|기술과 컴퓨팅  |하드웨어                               |컴퓨터 주변 기기                   |프린터, 복사기 및 팩스      |스캐너                      |
+|기술과 컴퓨팅  |하드웨어                               |컴퓨터 주변 기기                   |                                |                               |
+|기술과 컴퓨팅  |하드웨어                               |                                        |                                |                               |
+|기술과 컴퓨팅  |인터넷 기술                    |대화                                   |                                |                               |
+|기술과 컴퓨팅  |인터넷 기술                    |전자 상거래                              |                                |                               |
+|기술과 컴퓨팅  |인터넷 기술                    |이메일                                  |                                |                               |
+|기술과 컴퓨팅  |인터넷 기술                    |인터넷 카페                         |                                |                               |
+|기술과 컴퓨팅  |인터넷 기술                    |isps                                   |                                |                               |
+|기술과 컴퓨팅  |인터넷 기술                    |소셜 네트워크                         |                                |                               |
+|기술과 컴퓨팅  |인터넷 기술                    |웹 클립 아트                           |                                |                               |
+|기술과 컴퓨팅  |인터넷 기술                    |웹 디자인과 html                    |                                |                               |
+|기술과 컴퓨팅  |인터넷 기술                    |웹 검색                             |사람 검색                  |                               |
+|기술과 컴퓨팅  |인터넷 기술                    |웹 검색                             |                                |                               |
+|기술과 컴퓨팅  |인터넷 기술                    |                                        |                                |                               |
+|기술과 컴퓨팅  |mp3와 미디                           |                                        |                                |                               |
+|기술과 컴퓨팅  |네트워킹                             |네트워크 모니터링 및 관리      |                                |                               |
+|기술과 컴퓨팅  |네트워킹                             |VPN과 원격 액세스                  |                                |                               |
+|기술과 컴퓨팅  |네트워킹                             |                                        |                                |                               |
+|기술과 컴퓨팅  |운영 체제                      |linux                                  |                                |                               |
+|기술과 컴퓨팅  |운영 체제                      |mac os                                 |                                |                               |
+|기술과 컴퓨팅  |운영 체제                      |unix                                   |                                |                               |
+|기술과 컴퓨팅  |운영 체제                      |windows                                |                                |                               |
+|기술과 컴퓨팅  |운영 체제                      |                                        |                                |                               |
+|기술과 컴퓨팅  |프로그래밍 언어                  |c와 c++                              |                                |                               |
+|기술과 컴퓨팅  |프로그래밍 언어                  |java                                   |                                |                               |
+|기술과 컴퓨팅  |프로그래밍 언어                  |javascript                             |                                |                               |
+|기술과 컴퓨팅  |프로그래밍 언어                  |visual basic                           |                                |                               |
+|기술과 컴퓨팅  |프로그래밍 언어                  |                                        |                                |                               |
+|기술과 컴퓨팅  |소프트웨어                               |데이터베이스                              |                                |                               |
+|기술과 컴퓨팅  |소프트웨어                               |전자출판                     |                                |                               |
+|기술과 컴퓨팅  |소프트웨어                               |데스크탑 동영상                          |                                |                               |
+|기술과 컴퓨팅  |소프트웨어                               |그래픽 소프트웨어                      |애니메이션                      |                               |
+|기술과 컴퓨팅  |소프트웨어                               |그래픽 소프트웨어                      |                                |                               |
+|기술과 컴퓨팅  |소프트웨어                               |네트 컨퍼런싱                       |                                |                               |
+|기술과 컴퓨팅  |소프트웨어                               |셰어웨어와 프리웨어                 |                                |                               |
+|기술과 컴퓨팅  |소프트웨어                               |                                        |                                |                               |
+|기술과 컴퓨팅  |기술 뉴스                              |                                        |                                |                               |
+|기술과 컴퓨팅  |기술 지원                      |                                        |                                |                               |
+|기술과 컴퓨팅  |기술 혁신               |                                        |                                |                               |
+|기술과 컴퓨팅  |                                        |                                        |                                |                               |
+|여행                    |저예산 여행                          |                                        |                                |                               |
+|여행                    |비즈니스 여행                        |                                        |                                |                               |
+|여행                    |신혼 여행 및 단기 휴가                |                                        |                                |                               |
+|여행                    |호텔                                 |                                        |                                |                               |
+|여행                    |특수 여행                       |모험 여행                       |                                |                               |
+|여행                    |특수 여행                       |생태 관광                             |                                |                               |
+|여행                    |특수 여행                       |관광                      |                                |                               |
+|여행                    |특수 여행                       |포도원                              |                                |                               |
+|여행                    |관광지                   |아프리카                                 |                                |                               |
+|여행                    |관광지                   |오스트레일리아와 뉴질랜드              |                                |                               |
+|여행                    |관광지                   |캐나다                                 |                                |                               |
+|여행                    |관광지                   |카리브해                              |                                |                               |
+|여행                    |관광지                   |동유럽                         |                                |                               |
+|여행                    |관광지                   |유럽                                 |                                |                               |
+|여행                    |관광지                   |프랑스                                 |                                |                               |
+|여행                    |관광지                   |그리스                                 |                                |                               |
+|여행                    |관광지                   |이탈리아                                  |                                |                               |
+|여행                    |관광지                   |일본                                  |                                |                               |
+|여행                    |관광지                   |멕시코와 미국 중부             |                                |                               |
+|여행                    |관광지                   |국립공원                         |                                |                               |
+|여행                    |관광지                   |해변 리조트                         |                                |                               |
+|여행                    |관광지                   |스키장                            |                                |                               |
+|여행                    |관광지                   |남미                          |                                |                               |
+|여행                    |관광지                   |스파                                   |                                |                               |
+|여행                    |관광지                   |테마 공원                            |                                |                               |
+|여행                    |관광지                   |영국                         |                                |                               |
+|여행                    |관광지                   |                                        |                                |                               |
+|여행                    |관광 시설                     |아침 식사 제공 숙박 시설                      |                                |                               |
+|여행                    |관광 시설                     |캠핑                                |                                |                               |
+|여행                    |관광 시설                     |호텔                                  |                                |                               |
+|여행                    |운송수단                             |비행기 여행                             |항공 우주 사고         |                               |
+|여행                    |운송수단                             |비행기 여행                             |항공료                        |                               |
+|여행                    |운송수단                             |비행기 여행                             |항공사                       |                               |
+|여행                    |운송수단                             |비행기 여행                             |비행기                      |                               |
+|여행                    |운송수단                             |비행기 여행                             |공항                       |                               |
+|여행                    |운송수단                             |비행기 여행                             |헬리콥터                    |                               |
+|여행                    |운송수단                             |비행기 여행                             |                                |                               |
+|여행                    |운송수단                             |대중교통                       |                                |                               |
+|여행                    |운송수단                             |도로 여행                            |도로 사고                  |                               |
+|여행                    |운송수단                             |바다 여행                             |유람선                        |                               |
+|여행                    |운송수단                             |기차 여행                           |                                |                               |
+|여행                    |여행사                        |                                        |                                |                               |
+|여행                    |여행 가이드                          |                                        |                                |                               |
+|여행                    |아이 동반 여행                    |                                        |                                |                               |
+|여행                    |휴가 임대                       |                                        |                                |                               |
+|여행                    |                                        |                                        |                                |                               |

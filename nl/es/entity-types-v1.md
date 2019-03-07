@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2018-03-16"
+  years: 2015, 2019
+lastupdated: "2019-02-21"
 
 ---
 
@@ -17,12 +17,13 @@ lastupdated: "2018-03-16"
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-# Tipos y subtipos de entidad (Versión 1)
+# Tipos de entidad (Versión 1)
+{: #entity-types-version-1}
 
 Las tablas siguientes listan los tipos y subtipos de entidad que se utilizan en la _Versión 1_ del sistema de tipos de entidad.
 {: shortdesc}
 
-El sistema de tipos de entidad que utiliza {{site.data.keyword.nlushort}} difiere según la fecha de versión y el idioma utilizados. Para obtener más detalles, consulte la página [Tipos y subtipos de entidad](entity-types.html).
+El sistema de tipos de entidad que utiliza {{site.data.keyword.nlushort}} difiere según la fecha de versión y el idioma utilizados. Para obtener más detalles, consulte la página [Sistemas de tipos de entidad](/docs/services/natural-language-understanding?topic=natural-language-understanding-entity-type-systems).
 
 ## Tipos de entidad
 {: #entity-types}
@@ -186,6 +187,7 @@ El sistema de tipos de entidad que utiliza {{site.data.keyword.nlushort}} difier
 | ConferenceSeries                    |
 | ConsumerProduct                     |
 | ContentLicense                      |
+| Continent                           |
 | Country                             |
 | CranialNerve                        |
 | CreativeWork                        |
@@ -494,3 +496,71 @@ El sistema de tipos de entidad que utiliza {{site.data.keyword.nlushort}} difier
 | WineRegion                          |
 | WorkOfFiction                       |
 | Writer                              |
+
+## Tipos de entidad de relación
+{: #relations-entity-types}
+
+Para los idiomas que utilizan el sistema de tipo de entidad _Versión 1_ y que también da soporte a las relaciones, los resultados de relaciones contienen tipos de entidad que son distintos de los tipos de entidad que se devuelven en los resultados de entidades. Para devolver los tipos de entidad de relaciones en los resultados de entidades, puede especificar uno de los siguientes modelos de entidades públicas en la opción `model` para que la característica `entidades` prevalezca sobre el modelo de detección de entidades predeterminado.
+
+|ID de modelo|Descripción|
+|--------|-----------|
+|ar-news|Noticias en árabe|
+|en-news|Noticias en inglés|
+|es-news|Noticias en español|
+
+Los siguientes tipos de entidad se pueden identificar con los modelos de entidad de relaciones:
+
+|Tipo de entidad|
+|---|
+|Age|
+|Anatomy|
+|Animal|
+|Award|
+|Cardinal|
+|Crime|
+|Date|
+|Degree|
+|Duration|
+|EmailAddress|
+|Event|
+|EventBusiness|
+|EventCommunication|
+|EventCustody|
+|EventDemonstration|
+|EventEducation|
+|EventElection|
+|EventGathering|
+|EventLegal|
+|EventLegislation|
+|EventMeeting|
+|EventPerformance|
+|EventPersonnel|
+|EventViolence|
+|Facility|
+|Food|
+|GeographicFeature|
+|GeopoliticalEntity|
+|HealthCondition|
+|Law|
+|Location|
+|Money|
+|Measure|
+|NaturalEvent|
+|Organization|
+|Ordinal|
+|Percent|
+|Person|
+|Phone|
+|Plant|
+|Product|
+|SportingEvent|
+|Substance|
+|Ticker|
+|Time|
+|TitleWork|
+|Vehicle|
+|Weapon|
+|Weather|
+|Web|
+
+

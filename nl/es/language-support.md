@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-03-16"
+  years: 2015, 2019
+lastupdated: "2019-02-25"
 
 ---
 
@@ -18,23 +18,23 @@ lastupdated: "2018-03-16"
 {:swift: .ph data-hd-programlang='swift'}
 
 # Soporte de idioma
+{: #language-support}
 
 {{site.data.keyword.nlushort}} da soporte a diversos idiomas, según las características que se analizan. Actualmente, el inglés es el único idioma que está soportado en todas las características. El resto de los idiomas tienen un soporte limitado. Para saltar a la lista de características que son compatibles con un idioma, pulse el idioma en la lista siguiente.
 
-- [Árabe](#arabic)
-- [Chino (simplificado)](#chinese-simplified)
-- [Holandés](#dutch)
-- [Inglés](#english)
-- [Francés](#french)
-- [Alemán](#german)
-- [Italiano](#italian)
-- [Japonés](#japanese)
-- [Coreano](#korean)
-- [Portugués](#portuguese)
-- [Ruso](#russian)
-- [Español](#spanish)
-- [Sueco](#swedish)
-
+  - [Árabe](#arabic)
+  - [Chino (simplificado)](#chinese-simplified)
+  - [Holandés](#dutch)
+  - [Inglés](#english)
+  - [Francés](#french)
+  - [Alemán](#german)
+  - [Italiano](#italian)
+  - [Japonés](#japanese)
+  - [Coreano](#korean)
+  - [Portugués](#portuguese)
+  - [Ruso](#russian)
+  - [Español](#spanish)
+  - [Sueco](#swedish)
 
 El soporte de idiomas puede ser diferente si se trata de un cliente de {{site.data.keyword.Bluemix_dedicated}}. Si utiliza {{site.data.keyword.Bluemix_dedicated}}, consulte con el vendedor de IBM para confirmar qué idiomas están soportados en su entorno.
 {: tip}
@@ -334,7 +334,7 @@ La opción de sentimiento con destino para entidades no está soportada para tex
     </tr>
     <tr>
       <td>Conceptos</td>
-      <td></td>
+      <td>X</td>
       <td></td>
     </tr>
     <tr>
@@ -359,7 +359,7 @@ La opción de sentimiento con destino para entidades no está soportada para tex
     </tr>
     <tr>
       <td>Relaciones</td>
-      <td></td>
+      <td>X</td>
       <td>X</td>
     </tr>
     <tr>
@@ -369,13 +369,11 @@ La opción de sentimiento con destino para entidades no está soportada para tex
     </tr>
     <tr>
       <td>Sentimiento</td>
-      <td>X&ast;</td>
+      <td>X</td>
       <td></td>
     </tr>
   </tbody>
 </table>
-
-&ast;La opción de sentimiento con destino para palabras clave no está soportada para texto en francés.
 
 
 ## Alemán
@@ -470,7 +468,7 @@ La opción de sentimiento con destino para entidades no está soportada para tex
     </tr>
     <tr>
       <td>Conceptos</td>
-      <td></td>
+      <td>X</td>
       <td></td>
     </tr>
     <tr>
@@ -495,7 +493,7 @@ La opción de sentimiento con destino para entidades no está soportada para tex
     </tr>
     <tr>
       <td>Relaciones</td>
-      <td></td>
+      <td>X</td>
       <td>X</td>
     </tr>
     <tr>
@@ -505,16 +503,11 @@ La opción de sentimiento con destino para entidades no está soportada para tex
     </tr>
     <tr>
       <td>Sentimiento</td>
-      <td>X&ast;</td>
+      <td>X</td>
       <td></td>
     </tr>
   </tbody>
 </table>
-
-&ast;La detección de sentimiento para este idioma funciona mejor en datos basados en medios de comunicación sociales, como los tuits. Están previstas más mejoras de precisión en el futuro próximo.
-
-La opción de sentimiento con destino para palabras clave no está soportada para texto en italiano.
-
 
 ## Japonés
 {: #japanese}
@@ -551,12 +544,12 @@ La opción de sentimiento con destino para palabras clave no está soportada par
     </tr>
     <tr>
       <td>Entidades</td>
-      <td></td>
+      <td>X</td>
       <td>X</td>
     </tr>
     <tr>
       <td>Palabras clave</td>
-      <td></td>
+      <td>X</td>
       <td></td>
     </tr>
     <tr>
@@ -566,17 +559,17 @@ La opción de sentimiento con destino para palabras clave no está soportada par
     </tr>
     <tr>
       <td>Relaciones</td>
-      <td></td>
+      <td>X</td>
       <td>X</td>
     </tr>
     <tr>
       <td>Roles semánticos</td>
-      <td></td>
+      <td>X</td>
       <td></td>
     </tr>
     <tr>
       <td>Sentimiento</td>
-      <td></td>
+      <td>X</td>
       <td></td>
     </tr>
   </tbody>
@@ -643,14 +636,11 @@ La opción de sentimiento con destino para palabras clave no está soportada par
     </tr>
     <tr>
       <td>Sentimiento</td>
-      <td>X&ast;</td>
+      <td>X</td>
       <td></td>
     </tr>
   </tbody>
 </table>
-
-&ast;La detección de sentimiento para este idioma funciona mejor en datos basados en medios de comunicación sociales, como los tuits. Están previstas más mejoras de precisión en el futuro próximo.
-
 
 ## Portugués
 {: #portuguese}
@@ -677,7 +667,7 @@ La opción de sentimiento con destino para palabras clave no está soportada par
     </tr>
     <tr>
       <td>Conceptos</td>
-      <td></td>
+      <td>X</td>
       <td></td>
     </tr>
     <tr>
@@ -702,7 +692,7 @@ La opción de sentimiento con destino para palabras clave no está soportada par
     </tr>
     <tr>
       <td>Relaciones</td>
-      <td></td>
+      <td>X</td>
       <td>X</td>
     </tr>
     <tr>
@@ -712,16 +702,11 @@ La opción de sentimiento con destino para palabras clave no está soportada par
     </tr>
     <tr>
       <td>Sentimiento</td>
-      <td>X&ast;</td>
+      <td>X</td>
       <td></td>
     </tr>
   </tbody>
 </table>
-
-&ast;La detección de sentimiento para este idioma funciona mejor en datos basados en medios de comunicación sociales, como los tuits. Están previstas más mejoras de precisión en el futuro próximo.
-
-La opción de sentimiento con destino para palabras clave no está soportada para texto en portugués.
-
 
 ## Ruso
 {: #russian}

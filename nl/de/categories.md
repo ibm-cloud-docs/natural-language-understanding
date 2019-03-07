@@ -18,6 +18,7 @@ lastupdated: "2017-10-23"
 {:swift: .ph data-hd-programlang='swift'}
 
 # Kategoriehierarchie
+{: #categories-hierarchy}
 
 In der folgenden Tabelle sind die Kategorien aufgeführt, die von dem {{site.data.keyword.nlushort}}-Feature für Kategorien zurückgegeben werden. Ein Spreadsheet mit den entsprechenden Informationen kann hier heruntergeladen werden: <a target="_blank" href="https://watson-developer-cloud.github.io/doc-tutorial-downloads/natural-language-understanding/categories-hierarchy.xlsx" download>XLSX <img src="../../icons/launch-glyph.svg" alt="External link icon" title="External link icon" class="style-scope doc-content"></a>.
 {: shortdesc}

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-12-15"
+  years: 2015, 2019
+lastupdated: "2019-02-25"
 
 ---
 
@@ -18,11 +18,12 @@ lastupdated: "2017-12-15"
 {:swift: .ph data-hd-programlang='swift'}
 
 # Lingue rilevabili
+{: #detectable-languages}
 
 Quando analizzi del testo o una pagina web, Natural Language Understanding rileva la lingua di origine automaticamente e restituisce in risposta il corrispondente codice ISO 639-1. Per un funzionamento automatico del rilevamento della lingua, ti consigliamo di usare del testo con almeno 100 caratteri.
 {: shortdesc}
 
-Se il rilevamento automatico della lingua non sta funzionando bene per il tuo caso d'uso, puoi [specificare manualmente la lingua del tuo contenuto](/docs/services/natural-language-understanding/overriding-language-detection.html) in ciascuna richiesta.
+Se il rilevamento automatico della lingua non sta funzionando bene per il tuo caso d'uso, puoi [specificare manualmente la lingua del tuo contenuto](/docs/services/natural-language-understanding?topic=natural-language-understanding-overriding-language-detection) in ciascuna richiesta.
 {: tip}
 
 La seguente tabella elenca le lingue rilevabili e i codici ISO 639-1 corrispondenti.

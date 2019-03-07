@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-01-16"
+  years: 2015, 2019
+lastupdated: "2019-02-25"
 
 ---
 
@@ -17,23 +17,26 @@ lastupdated: "2018-01-16"
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-# Personnalisation 
+# Personnalisation
+{: #customizing}
 
 Avec [{{site.data.keyword.knowledgestudiofull}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://ibm.biz/watsonknowledgestudio), vous pouvez
 étendre {{site.data.keyword.nlushort}} avec des modèles personnalisés qui identifient des entités et des relations
 personnalisées propres à votre domaine.
 {: shortdesc}
 
-## Initiation aux modèles personnalisés 
+## Initiation aux modèles personnalisés
+{: #getting-started-with-custom-models}
 
-> Le plan gratuit de {{site.data.keyword.nlushort}} limite la taille et les performances de votre modèle personnalisé. Pour tester un modèle personnalisé dans toute son ampleur, vous devez l'utiliser avec le plan standard de {{site.data.keyword.nlushort}}. 
+> Le plan gratuit de {{site.data.keyword.nlushort}} limite la taille et les performances de votre modèle personnalisé. Pour tester un modèle personnalisé dans toute son ampleur, vous devez l'utiliser avec le plan standard de {{site.data.keyword.nlushort}}.
 
-1. Si vous ne l'avez pas encore fait, [familiarisez-vous](/docs/services/natural-language-understanding/getting-started.html) avec {{site.data.keyword.nlushort}}.
-1. [Obtenez l'accès à {{site.data.keyword.knowledgestudioshort}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://www.ibm.com/us-en/marketplace/supervised-machine-learning/purchase#product-header-top) et connectez-vous par le biais du [tableau de bord en ligne ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://gateway.watsonplatform.net/knowledge-studio/ui/dashboard/). 
-1. Consultez la [documentation](/docs/services/knowledge-studio/index.html) de {{site.data.keyword.knowledgestudioshort}} pour apprendre à créer un modèle personnalisé (annotateur) et à le déployer dans {{site.data.keyword.nlushort}}. 
-1. Pour utiliser votre modèle, spécifiez le `modèle` que vous avez déployé dans l'option [entities ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://www.ibm.com/watson/developercloud/natural-language-understanding/api/v1/#entities){: new_window}
-ou [relations ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://www.ibm.com/watson/developercloud/natural-language-understanding/api/v1/#relations){: new_window} de votre demande d'API : 
-    - Exemple de fichier *parameters.json* : 
+1. Si vous ne l'avez pas encore fait, [familiarisez-vous](/docs/services/natural-language-understanding?topic=natural-language-understanding-getting-started) avec {{site.data.keyword.nlushort}}.
+2. [Découvrez {{site.data.keyword.knowledgestudioshort}}](/docs/services/watson-knowledge-studio?topic=watson-knowledge-studio-wks_tutintro#wks_tutintro).
+3. [Créez un modèle d'apprentissage automatique avec {{site.data.keyword.knowledgestudioshort}}](/docs/services/watson-knowledge-studio?topic=watson-knowledge-studio-wks_tutml_intro#wks_tutml_intro).
+4. [Déployez votre modèle dans {{site.data.keyword.nlushort}}](/docs/services/watson-knowledge-studio?topic=watson-knowledge-studio-publish-ml#wks_manlu)
+5. Pour utiliser votre modèle, spécifiez le `modèle` que vous avez déployé dans l'option [entities ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://{DomainName}/apidocs/natural-language-understanding#entities){: new_window}
+ou [relations ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://{DomainName}/apidocs/natural-language-understanding#relations){: new_window} de votre demande d'API :
+    - Exemple de fichier *parameters.json* :
 
         ```json
         {
@@ -49,15 +52,39 @@ ou [relations ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de 
         }
         ```
         {: codeblock}
-    
-    - Exemple de demande curl : 
+
+    - Exemple de demande curl :
 
         ```bash
-        curl -X POST \
-        -H "Content-Type: application/json" \
-        -u "{username}":"{password}" \
-        -d @parameters.json \
-        "https://gateway.watsonplatform.net/natural-language-understanding/api/v1/analyze?version=2017-02-27"
+        curl --user "apikey":"{apikey}" \
+        "{url}/v1/analyze?version=2018-09-21" \
+        --request POST \
+        --header "Content-Type: application/json" \
+        --data @parameters.json
         ```
         {: pre}
 
+## Suppression d'un modèle personnalisé
+{: #deleting-a-custom-model}
+
+Le nombre de modèles personnalisés que vous déployez dans {{site.data.keyword.nlushort}} a des conséquences sur votre facture {{site.data.keyword.nlushort}} en fonction de votre [plan de tarification](https://www.ibm.com/cloud/watson-natural-language-understanding/pricing). Pour éviter des frais liés à un modèle que vous n'utilisez plus, [annulez le déploiement du modèle avec {{site.data.keyword.knowledgestudioshort}}](/docs/services/watson-knowledge-studio?topic=watson-knowledge-studio-publish-ml#undeploy-view-model) ou annulez le déploiement du modèle en utilisant la méthode de **[suppression de modèle](https://{DomainName}/apidocs/natural-language-understanding#delete-model)**.
+
+Exemple de demande curl :
+
+```bash
+curl --user "apikey":"{apikey}" \
+"{url}/v1/models/{model_id}?version=2018-10-30" \
+--request DELETE
+```
+{: pre}
+
+
+## Prise en charge de langue pour les modèles personnalisés
+{: #language-support-for-custom-models}
+
+Consultez les colonnes *Prise en charge de modèle personnalisé* des tableaux [Support de langue](/docs/services/natural-language-understanding?topic=natural-language-understanding-language-support) pour voir les modèles personnalisés pris en charge pour chaque langue.
+
+### Sentiment ciblé pour les entités de modèle personnalisé
+{: #targeted-sentiment-for-custom-entities}
+
+Pour l'anglais uniquement, vous pouvez obtenir des scores de sentiment pour chaque entité de modèle personnalisé détectée par le service en indiquant `sentiment: true` dans l'objet d'entités. Aucun autre support de langue ne prend en charge le sentiment ciblé pour les entités de modèle personnalisé.

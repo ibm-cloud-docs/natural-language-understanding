@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2018-03-16"
+  years: 2015, 2019
+lastupdated: "2019-02-21"
 
 ---
 
@@ -17,12 +17,13 @@ lastupdated: "2018-03-16"
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-# Entitätstypen und -untertypen (Version 1)
+# Entitätstypen (Version 1)
+{: #entity-types-version-1}
 
 In den folgenden Tabellen sind die Entitätstypen und -untertypen aufgeführt, die vom Entitätstypsystem _Version 1_ verwendet werden.
 {: shortdesc}
 
-Welches Entitätstypsystem {{site.data.keyword.nlushort}} verwendet, ist davon abhängig, welches Versionsdatum und welche Sprache verwendet wird. Weitere Informationen hierzu finden Sie auf der Seite [Entitätstypen und -untertypen](entity-types.html).
+Welches Entitätstypsystem {{site.data.keyword.nlushort}} verwendet, ist davon abhängig, welches Versionsdatum und welche Sprache verwendet wird. Weitere Details hierzu finden Sie auf der Seite [Entitätstypsysteme](/docs/services/natural-language-understanding?topic=natural-language-understanding-entity-type-systems).
 
 ## Entitätstypen
 {: #entity-types}
@@ -59,7 +60,7 @@ Welches Entitätstypsystem {{site.data.keyword.nlushort}} verwendet, ist davon a
 ## Entitätsuntertypen
 {: #entity-subtypes}
 
-| Entitätsuntertyp                    |
+| Entitätsuntertyp                      |
 |-------------------------------------|
 | AbusedSubstance                     |
 | Academic                            |
@@ -186,6 +187,7 @@ Welches Entitätstypsystem {{site.data.keyword.nlushort}} verwendet, ist davon a
 | ConferenceSeries                    |
 | ConsumerProduct                     |
 | ContentLicense                      |
+| Continent                           |
 | Country                             |
 | CranialNerve                        |
 | CreativeWork                        |
@@ -494,3 +496,71 @@ Welches Entitätstypsystem {{site.data.keyword.nlushort}} verwendet, ist davon a
 | WineRegion                          |
 | WorkOfFiction                       |
 | Writer                              |
+
+## Beziehungsentitätstypen
+{: #relations-entity-types}
+
+Bei Sprachen, die das Entitätstypsystem _Version 1_ verwenden und auch Beziehungen unterstützen, enthalten die Beziehungsergebnisse andere Entitätstypen, als in den Entitätsergebnissen zurückgegeben werden. Damit in Ihren Entitätsergebnissen die Beziehungsentitätstypen zurückgegeben werden, können Sie in der Option `model` für das `entities`-Feature eines der folgenden öffentlichen Entitätsmodelle angeben, um das Standard-Entitätserkennungsmodell zu überschreiben.
+
+|Modell-ID|Beschreibung|
+|--------|-----------|
+|ar-news|Arabische Nachrichten|
+|en-news|Englische Nachrichten|
+|es-news|Spanische Nachrichten|
+
+Die folgenden Entitätstypen können mit den Beziehungsentitätsmodellen identifiziert werden:
+
+|Entitätstyp|
+|---|
+|Age|
+|Anatomy|
+|Animal|
+|Award|
+|Cardinal|
+|Crime|
+|Date|
+|Degree|
+|Duration|
+|EmailAddress|
+|Event|
+|EventBusiness|
+|EventCommunication|
+|EventCustody|
+|EventDemonstration|
+|EventEducation|
+|EventElection|
+|EventGathering|
+|EventLegal|
+|EventLegislation|
+|EventMeeting|
+|EventPerformance|
+|EventPersonnel|
+|EventViolence|
+|Facility|
+|Food|
+|GeographicFeature|
+|GeopoliticalEntity|
+|HealthCondition|
+|Law|
+|Location|
+|Money|
+|Measure|
+|NaturalEvent|
+|Organization|
+|Ordinal|
+|Percent|
+|Person|
+|Phone|
+|Plant|
+|Product|
+|SportingEvent|
+|Substance|
+|Ticker|
+|Time|
+|TitleWork|
+|Vehicle|
+|Weapon|
+|Weather|
+|Web|
+
+

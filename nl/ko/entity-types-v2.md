@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2018-03-16"
+  years: 2015, 2018
+lastupdated: "2019-02-21"
 
 ---
 
@@ -17,478 +17,482 @@ lastupdated: "2018-03-16"
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-# 엔티티 유형 및 하위 유형(버전 2)
+# 엔티티 유형(버전 2)
+{: #entity-types-version-2}
 
 다음 표에서는 _버전 2_ 엔티티 유형 시스템에서 사용되는 엔티티 유형과 하위 유형을 나열합니다.
 {: shortdesc}
 
-{{site.data.keyword.nlushort}}에서 사용하는 엔티티 유형 시스템은 사용하는 언어와 버전 날짜에 따라 다릅니다. 자세한 내용은 [엔티티 유형 및 하위 유형](entity-types.html) 페이지를 참조하십시오.
+{{site.data.keyword.nlushort}}에서 사용하는 엔티티 유형 시스템은 사용하는 언어와 버전 날짜에 따라 다릅니다. 자세한 내용은 [엔티티 유형 시스템](/docs/services/natural-language-understanding?topic=natural-language-understanding-entity-type-systems) 페이지를 참조하십시오.
 
 ## 엔티티 유형
 {: #entity-types}
 
-| 엔티티 유형       |
+|엔티티 유형       |
 | ----------------- |
-| Date              |
-| Duration          |
-| EmailAddress      |
-| Facility          |
-| GeographicFeature |
-| Hashtag           |
-| IPAddress         |
-| JobTitle          |
-| Location          |
-| Measure           |
-| Money             |
-| Number&ast;       |
-| Ordinal           |
-| Organization      |
-| Percent&ast;      |
-| Person            |
-| PhoneNumber&ast;  |
-| Time              |
-| TwitterHandle     |
-| URL&ast;          |
+|날짜              |
+|지속 시간          |
+|이메일 주소      |
+|설비          |
+|지형지물 |
+|해시 태그           |
+| IPAddress&dagger; |
+|직위          |
+|위치          |
+|수치           |
+|금전             |
+|숫자&ast;       |
+|서수           |
+|조직      |
+|백분율&ast;      |
+|개인            |
+|전화번호&ast;  |
+|시간              |
+|트위터 개인 ID     |
+|URL&ast;          |
 
-&ast;이 엔티티 유형은 아직 프랑스어 텍스트에서 감지되지 않습니다.
+&ast;이 엔티티 유형은 아직 프랑스어 또는 일본어 텍스트에서 발견되지 않습니다.
+
+&dagger; IPv6 주소는 아직 일본어 텍스트에서 발견되지 않습니다.
 
 
 ## 엔티티 하위 유형
 {: #entity-subtypes}
 
-| 엔티티 하위 유형                    |
+|엔티티 하위 유형                      |
 | ----------------------------------- |
-| AbusedSubstance                     |
-| Academic                            |
-| AcademicInstitution                 |
-| AcademicPostTitle                   |
-| AccidentType                        |
-| Accommodation                       |
-| Actor                               |
-| AdministrativeDivision              |
-| AircraftDesigner                    |
-| AircraftManufacturer                |
-| Airline                             |
-| AirlinerAccident                    |
-| Airport                             |
-| AirportOperator                     |
-| AmericanIndianGroup                 |
-| AminoAcid                           |
-| Animal                              |
-| AnimalBreed                         |
-| API                                 |
-| Appellation                         |
-| AppointedRole                       |
-| Appointer                           |
-| Architect                           |
-| ArchitecturalContractor             |
-| ArchitectureFirm                    |
-| ArmedForce                          |
-| Artery                              |
-| ArtSeries                           |
-| Artwork                             |
-| Asteroid                            |
-| Astronaut                           |
-| AstronomicalDiscovery               |
-| AstronomicalObservatory             |
-| Athlete                             |
-| AutomobileCompany                   |
-| AutomobileGeneration                |
-| AutomobileModel                     |
-| Award                               |
-| AwardCeremony                       |
-| AwardDiscipline                     |
-| AwardJudge                          |
-| AwardNominee                        |
-| AwardPresentingOrganization         |
-| AwardWinner                         |
-| BasketballConference                |
-| BasketballDivision                  |
-| BasketballPlayer                    |
-| BasketballTeam                      |
-| Bassist                             |
-| Beer                                |
-| Belief                              |
-| Beverage                            |
-| BicycleManufacturer                 |
-| BipropellantRocketEngine            |
-| Blog                                |
-| Blogger                             |
-| BoardMember                         |
-| BoardMemberTitle                    |
-| BodyOfWater                         |
-| Bone                                |
-| Book                                |
-| BookEdition                         |
-| BoxingWeightDivision                |
-| Brand                               |
-| Bridge                              |
-| BritishRoyalty                      |
-| Broadcast                           |
-| BroadcastArtist                     |
-| BroadcastContent                    |
-| BroadcastDistributor                |
-| Building                            |
-| BuildingComplex                     |
-| BuildingFunction                    |
-| CameraFormat                        |
-| CanadianAboriginalGroup             |
-| CandyBar                            |
-| CandyBarManufacturer                |
-| Cardinal                            |
-| CauseOfDeath                        |
-| Cave                                |
-| Celebrity                           |
-| CelestialObject                     |
-| Chancellor                          |
-| CharacterOccupation                 |
-| CharacterRank                       |
-| CharacterSpecies                    |
-| Cheese                              |
-| Chef                                |
-| ChemicalCompound                    |
-| ChemicalElement                     |
-| ChineseEthnicGroup                  |
-| ChristianBishop                     |
-| CityTown                            |
-| Club                                |
-| Collector                           |
-| College                             |
-| CollegeCoach                        |
-| CollegeUniversity                   |
-| Comedian                            |
-| ComicBookCreator                    |
-| ComicBookIssue                      |
-| ComicBookPublisher                  |
-| ComicBookSeries                     |
-| ComicBookStory                      |
-| ComicBookStoryArc                   |
-| ComicStripArtist                    |
-| ComicStripSyndicate                 |
-| Company                             |
-| CompanyFounder                      |
-| CompanyShareholder                  |
-| Competition                         |
-| CompetitiveSpace                    |
-| Composer                            |
-| Composition                         |
-| CompositionalForm                   |
-| ComputerPeripheral                  |
-| ComputingPlatform                   |
-| ConcertFilm                         |
-| ConcertTour                         |
-| ConductedEnsemble                   |
-| Conductor                           |
-| Conference                          |
-| ConferenceSeries                    |
-| ConsumerProduct                     |
-| ContentLicense                      |
-| Country                             |
-| CranialNerve                        |
-| CreativeWork                        |
-| CricketAdministrativeBody           |
-| CricketTournamentEvent              |
-| Criminal                            |
-| CriminalOffense                     |
-| Cuisine                             |
-| CulinaryMeasure                     |
-| CulinaryTool                        |
-| DedicatedWork                       |
-| Dedicatee                           |
-| Dedicator                           |
-| Degree                              |
-| Deity                               |
-| DietFollower                        |
-| DigitalCamera                       |
-| DisasterSurvivor                    |
-| Disease                             |
-| DiseaseCause                        |
-| DiseaseOrMedicalCondition           |
-| Dish                                |
-| DomesticatedAnimal                  |
-| DrinkingEstablishment               |
-| Drug                                |
-| Election                            |
-| ElectionCampaign                    |
-| EndorsedProduct                     |
-| Engine                              |
-| Facility                            |
-| Family                              |
-| FamilyName                          |
-| FashionLabel                        |
-| FictionalCreature                   |
-| FictionalJobTitle                   |
-| FictionalUniverse                   |
-| FictionalUniverseCreator            |
-| FieldOfStudy                        |
-| FileFormat                          |
-| Film                                |
-| FilmActor                           |
-| FilmCharacter                       |
-| FilmCinematographer                 |
-| FilmCompany                         |
-| FilmCritic                          |
-| FilmDirector                        |
-| FilmDistributor                     |
-| FilmEditor                          |
-| FilmFestival                        |
-| FilmFestivalEvent                   |
-| FilmFestivalFocus                   |
-| FilmJob                             |
-| FilmMusicContributor                |
-| FilmProducer                        |
-| FilmSeries                          |
-| FilmWriter                          |
-| FootballCompetition                 |
-| FootballDivision                    |
-| FootballLeague                      |
-| FootballManager                     |
-| FootballMatch                       |
-| FootballOrganization                |
-| FootballPlayer                      |
-| FootballPosition                    |
-| FootballTeam                        |
-| FootballWorldCup                    |
-| Galaxy                              |
-| Game                                |
-| GameDesigner                        |
-| GameExpansion                       |
-| GamePublisher                       |
-| GeneralElection                     |
-| GeographicFeature                   |
-| GovernmentAgency                    |
-| GovernmentalBody                    |
-| GovernmentOfficeOrTitle             |
-| Governor                            |
-| Guitar                              |
-| Guitarist                           |
-| HallOfFame                          |
-| HallOfFameInductee                  |
-| HistoricPlace                       |
-| Hobby                               |
-| HockeyCoach                         |
-| HockeyConference                    |
-| HockeyDivision                      |
-| HockeyPlayer                        |
-| HockeyTeam                          |
-| Holiday                             |
-| Hormone                             |
-| Hospital                            |
-| House                               |
-| HumanLanguage                       |
-| Illustrator                         |
-| Industry                            |
-| InfectiousDisease                   |
-| Interest                            |
-| InternetProtocol                    |
-| Invention                           |
-| Inventor                            |
-| Island                              |
-| JobTitle                            |
-| Journal                             |
-| Journalist                          |
-| Judge                               |
-| Kingdom                             |
-| Lake                                |
-| LanguageDialect                     |
-| LanguageFamily                      |
-| LanguageWritingSystem               |
-| LaunchSite                          |
-| LegislativeCommittee                |
-| Legislature                         |
-| Ligament                            |
-| Lighthouse                          |
-| LiterarySchoolOrMovement            |
-| Location                            |
-| Magazine                            |
-| ManufacturingPlant                  |
-| MartialArt                          |
-| MartialArtsOrganization             |
-| Mascot                              |
-| Material                            |
-| Mayor                               |
-| MeansOfPropulsion                   |
-| MedicalSpecialty                    |
-| MedicalTreatment                    |
-| MemberOfParliament                  |
-| MeteorologicalService               |
-| MeteorShower                        |
-| MilitaryConflict                    |
-| MilitaryPerson                      |
-| MilitaryPost                        |
-| MilitaryUnit                        |
-| Model                               |
-| Monarch                             |
-| Mountain                            |
-| MultipartTVEpisode                  |
-| Muscle                              |
-| Museum                              |
-| MusicalAlbum                        |
-| MusicalArtist                       |
-| MusicalGameSong                     |
-| MusicalGroup                        |
-| MusicalGroupMember                  |
-| MusicalInstrumentCompany            |
-| MusicalPerformanceRole              |
-| MusicalRelease                      |
-| MusicalTrack                        |
-| MusicFestival                       |
-| NaturalOrCulturalPreservationAgency |
-| Nerve                               |
-| Newspaper                           |
-| NobleRank                           |
-| NobleTitle                          |
-| Non-ProfitOrganisation              |
-| Nutrient                            |
-| OfficeHolder                        |
-| OilField                            |
-| OlympicAthlete                      |
-| OlympicDemonstrationCompetition     |
-| OlympicEvent                        |
-| OlympicEventCompetition             |
-| OlympicGames                        |
-| Opera                               |
-| OperaCharacter                      |
-| OperaCompany                        |
-| OperaHouse                          |
-| OperaLibretto                       |
-| OperatingSystem                     |
-| OperatingSystemDeveloper            |
-| OrganismClassification              |
-| Organization                        |
-| OrganizationCommittee               |
-| OrganizationSector                  |
-| Park                                |
-| ParliamentaryElection               |
-| PeriodicalPublisher                 |
-| Person                              |
-| PersonalAppearanceRole              |
-| Philosopher                         |
-| Physician                           |
-| Play                                |
-| Poem                                |
-| PoeticVerseForm                     |
-| PoliticalDistrict                   |
-| PoliticalIdeology                   |
-| PoliticalParty                      |
-| Politician                          |
-| Prayer                              |
-| ProductionCompany                   |
-| Profession                          |
-| ProfessionalField                   |
-| ProgrammingLanguage                 |
-| ProgrammingLanguageDesigner         |
-| ProjectParticipant                  |
-| ProtectedArea                       |
-| Protein                             |
-| Protocol                            |
-| ProtocolProvider                    |
-| PublicLibrary                       |
-| PublicSpeakingEvent                 |
-| PublishedWork                       |
-| Quantity                            |
-| RadioFormat                         |
-| RadioNetwork                        |
-| RadioStation                        |
-| Rank                                |
-| RecordLabel                         |
-| RecordProducer                      |
-| RecurringEvent                      |
-| Religion                            |
-| ReligiousLeadershipRole             |
-| ReligiousOrganization               |
-| ReligiousPractice                   |
-| ReligiousText                       |
-| ReportIssuingInstitution            |
-| RiskFactor                          |
-| River                               |
-| Road                                |
-| Rocket                              |
-| RocketEngine                        |
-| RocketEngineFuel                    |
-| RocketFuel                          |
-| RocketFunction                      |
-| RocketManufacturer                  |
-| Saint                               |
-| Satellite                           |
-| School                              |
-| SchoolDistrict                      |
-| SchoolMascot                        |
-| SchoolNewspaper                     |
-| SchoolSportsTeam                    |
-| Scientist                           |
-| ShipBuilder                         |
-| ShoppingCenter                      |
-| ShortStory                          |
-| SkiArea                             |
-| Skyscraper                          |
-| SoccerClub                          |
-| Software                            |
-| SoftwareDeveloper                   |
-| SoftwareLicense                     |
-| Soundtrack                          |
-| SpaceAgency                         |
-| Spacecraft                          |
-| SpaceMission                        |
-| Spaceport                           |
-| Sport                               |
-| SportsAssociation                   |
-| SportsEquipment                     |
-| SportsLeagueChampionship            |
-| SportsLeagueChampionshipEvent       |
-| SportsLeagueDraft                   |
-| SportsOfficial                      |
-| SportsTeam                          |
-| Stadium                             |
-| Star                                |
-| StarSystem                          |
-| StarSystemBody                      |
-| Station                             |
-| Supercouple                         |
-| Symptom                             |
-| Synthesizer                         |
-| Telescope                           |
-| TelescopePlatform                   |
-| TelevisionShow                      |
-| TennisPlayer                        |
-| TennisTournament                    |
-| Theater                             |
-| TheaterCharacter                    |
-| TheaterProduction                   |
-| TopLevelDomainRegistry              |
-| TouristAttraction                   |
-| Tower                               |
-| TradeUnion                          |
-| TransitLine                         |
-| TransportOperator                   |
-| TransportTerminus                   |
-| TropicalCyclone                     |
-| TVActor                             |
-| TVCharacter                         |
-| TVCrewRole                          |
-| TVEpisode                           |
-| TVNetwork                           |
-| TVPersonality                       |
-| TVProducer                          |
-| TVSeason                            |
-| TVWriter                            |
-| TypeOfPlaceOfWorship                |
-| UnfinishedWork                      |
-| UnitOfMass                          |
-| UnitOfVolume                        |
-| University                          |
-| U.S.Congressperson                  |
-| Vein                                |
-| VideoGame                           |
-| VideoGameDesigner                   |
-| VideoGameDeveloper                  |
-| VideoGameEngine                     |
-| VideoGamePlatform                   |
-| VideoGamePublisher                  |
-| VisualArtist                        |
-| WebBrowserExtension                 |
-| Website                             |
-| WineProducer                        |
-| WineRegion                          |
-| WorkOfFiction                       |
-| Writer                              |
+|약물 남용                     |
+|학문                            |
+|교육 기관                 |
+|학술 게시물 제목                   |
+|사고 유형                        |
+|숙박                       |
+|액터                               |
+|관리 부서              |
+|항공기 설계자                    |
+|항공기 제조사                |
+|항공사                             |
+|여객기 사고                    |
+|공항                             |
+|공항 운영자                     |
+|아메리칸 인디언 그룹                 |
+|아미노산                           |
+|동물                              |
+|동물 사육                         |
+|API                                 |
+|명칭                         |
+|지정된 역할                       |
+|지명자                           |
+|설계자                           |
+|건축 도급업자             |
+|건축회사                    |
+|군대                          |
+|동맥                              |
+|연작 예술                           |
+|미술품                             |
+|소행성                            |
+|우주 비행사                           |
+|천문학적 발견               |
+|천문대             |
+|선수                             |
+|자동차 회사                   |
+|자동차 세대                |
+|자동차 모델                     |
+|상                               |
+|시상식                       |
+|상 수여 규칙                     |
+|상 수여 심사위원                          |
+|수상 후보                        |
+|상 수여 조직         |
+|수상자                         |
+|농구 컨퍼런스                |
+|농구 부문                  |
+|농구선수                    |
+|농구팀                      |
+|베이스 연주자                             |
+|맥주                                |
+|신념                              |
+|음료                            |
+|자전거 제조사                 |
+|이원 추진제 로켓 엔진            |
+|블로그                                |
+|블로거                             |
+|임원                         |
+|임원 직위                    |
+|수역                         |
+|뼈                                |
+|서적                                |
+|서적 개정판                         |
+|권투 체급                |
+|브랜드                               |
+|브릿지                              |
+|영국 왕족                      |
+|방송                           |
+|방송 예술가                     |
+|방송 컨텐츠                    |
+|방송 배포자                |
+|빌딩                            |
+|복합 빌딩                     |
+|빌딩 기능                    |
+|카메라 형식                        |
+|캐나다 원주민(Canadian Aboriginal) 그룹             |
+|초코 사탕                            |
+|초코 사탕 제조사                |
+|기수                            |
+|사망 원인                        |
+|동굴                                |
+|유명인                           |
+|천체                     |
+|총장                          |
+|등장인물 직업                 |
+|등장인물 등급                       |
+|표징종                    |
+|치즈                              |
+|요리사                                |
+|화합물                    |
+|화학 원소                     |
+|중국 민족 집단                  |
+|기독교 주교                     |
+|구/군/시                            |
+|클럽                                |
+|콜렉터                           |
+|대학                             |
+|대학 코치                        |
+|대학교                   |
+|희극인                            |
+|만화책 창작자                    |
+|만화책 발행                      |
+|만화책 발행자                  |
+|만화책 시리즈                     |
+|만화책 내용                      |
+|만화책 내용 연재(story arc)                   |
+|연재 만화 아티스트                    |
+|연재 만화 배급 회사                 |
+|회사                             |
+|회사 창립자                      |
+|회사 주주                  |
+|경쟁                         |
+|경쟁력 있는 분야                    |
+|작곡가                            |
+|작곡                         |
+|구성 형식                   |
+|컴퓨터 주변 장치                  |
+|컴퓨팅 플랫폼                   |
+|콘서트 영상                         |
+|순회 공연                         |
+|지휘자 포함 협주단                   |
+|지휘자                           |
+|컨퍼런스                          |
+|컨퍼런스 시리즈                    |
+|소비자 제품                     |
+|컨텐츠 라이센스                      |
+|대륙                              |
+|국가                             |
+|뇌신경                        |
+|창작물                        |
+|크리켓 관리 기구           |
+|크리켓 대회 행사              |
+|범죄자                            |
+|형사 범죄                     |
+|요리                             |
+|요리 계량                     |
+|요리 도구                        |
+|헌정 작품                       |
+|헌정받은 사람                           |
+|헌정자                           |
+|학위                              |
+|신령                               |
+|식이요법 추종자                        |
+|디지털 카메라                       |
+|재난 생존자                    |
+|질병                             |
+|질병의 원인                        |
+|질병 또는 질환           |
+|접시                                |
+|가축                  |
+|술집               |
+|약물                                |
+|선거                            |
+|선거 운동                    |
+|인증된 제품                     |
+|엔진                              |
+|설비                            |
+|가족                              |
+|성                          |
+|패션 레이블                        |
+|허구의 창조물                   |
+|허구의 직위                   |
+|허구의 세계                   |
+|허구의 세계 창조자            |
+|연구 분야                        |
+|파일 형식                          |
+|영화                                |
+|영화 배우                           |
+|영화 등장 인물                       |
+|영화 카메라 감독                 |
+|영화사                         |
+|영화 평론가                          |
+|영화 감독                        |
+|영화 배급업자                     |
+|영화 편집자                          |
+|영화제                        |
+|영화제 이벤트                   |
+|영화제 중심지                   |
+|영화 작업                             |
+|영화 음악 기여자                |
+|영화 프로듀서                        |
+|영화 시리즈                          |
+|시나리오 작가                          |
+|럭비 대회                 |
+|럭비 부문                    |
+|럭비 연맹                      |
+|럭비 관리자                     |
+|럭비 시합                       |
+|럭비 조직                |
+|럭비 선수                      |
+|럭비 포지션                    |
+|럭비 팀                        |
+|럭비 월드컵                    |
+|은하수                              |
+|게임                                |
+|게임 설계자                        |
+|게임 확장                       |
+|게임 공급자                       |
+|총선                     |
+|지형지물                   |
+|정부 기관                    |
+|정부 단체                    |
+|관공서 또는 직위             |
+|주지사                            |
+|기타                              |
+|기타 연주자                           |
+|명예의 전당                          |
+|명예의 전당 입성자                  |
+|사적지                       |
+|취미                               |
+|하키 코치                         |
+|하키 컨퍼런스                    |
+|하키 부문                      |
+|하키 선수                        |
+|하키 팀                          |
+|휴일                             |
+|호르몬                             |
+|병원                            |
+|집                               |
+|인간의 언어                       |
+|삽화가                         |
+|산업                            |
+|전염병                   |
+|관심사                            |
+|인터넷 프로토콜                    |
+|발명                           |
+|발명가                            |
+|섬                              |
+|직위                            |
+|저널                             |
+|저널리스트                          |
+|판사                               |
+|왕국                             |
+|호수                                |
+|방언                     |
+|어족                      |
+|언어 표기 체계               |
+|발사장                          |
+|입법 위원회                |
+|입법 기관                         |
+|인대                            |
+|등대                          |
+|문학 학교 또는 운동            |
+|위치                            |
+|잡지                            |
+|제조 공장                  |
+|무술                          |
+|무술 조직             |
+|마스코트                              |
+|자료                            |
+|시장                               |
+|추진 방법                   |
+|의학 전문                    |
+|의학적 치료                    |
+|국회의원                  |
+|기상 업무               |
+|유성우                        |
+|무력 충돌                    |
+|군인사                      |
+|군대 주둔지                        |
+|군 부대                        |
+|모델                               |
+|군주                             |
+|산                            |
+|다수의 편으로 구성된 TV 에피소드                  |
+|근육                              |
+|박물관                              |
+|음악 앨범                        |
+|음악가                       |
+|음악 게임 노래                     |
+|음악 그룹                        |
+|음악 그룹 구성원                  |
+|악기 회사            |
+|음악 공연 역할              |
+|발매 음반                      |
+|음악 트랙                        |
+|음악제                       |
+|자연 또는 문화 보호 단체 |
+|신경                               |
+|신문                           |
+|귀족 계급                           |
+|봉작                          |
+|비영리 조직              |
+|영양소                            |
+|공무원                        |
+|유전                            |
+|올림픽 선수                      |
+|올림픽 시연 대회     |
+|올림픽 행사                        |
+|올림픽 행사 경기             |
+|올림픽 대회                        |
+|오페라                               |
+|오페라 등장 인물                      |
+|오페라단                        |
+|오페라 극장                          |
+|오페라 대본                       |
+|운영 체제                     |
+|운영 체제 개발자            |
+|유기체 분류              |
+|조직                        |
+|조직 위원회               |
+|조직 부문                  |
+|공원                                |
+|국회의원 선거               |
+|정기 간행물 발행자                 |
+|개인                              |
+|직접 출연 역할              |
+|철학자                         |
+|의사                           |
+|연극                                |
+|시                                |
+|시적 운문체                     |
+|정치 선거구                   |
+|정치 이데올로기                   |
+|정당                      |
+|정치가                          |
+|기도                              |
+|제작사                   |
+|직업                          |
+|전문 분야                   |
+|프로그래밍 언어                 |
+|프로그래밍 언어 설계자         |
+|프로젝트 참가자                  |
+|보호 구역                       |
+|단백질                             |
+|프로토콜                            |
+|프로토콜 제공자                    |
+|공립 도서관                       |
+|공개 연설 행사                 |
+|출간된 저작물                       |
+|수량                            |
+|라디오 형식                         |
+|라디오 방송망                        |
+|무선국                        |
+|등급                                |
+|음반 레이블                         |
+|음반 제작자                      |
+|순환 방식                      |
+|종교                            |
+|종교 지도자 역할             |
+|종교 조직               |
+|종교적 관례                   |
+|경전                       |
+|보고서 발행 기관            |
+|위험 인자                          |
+|강                               |
+|도로                                |
+|로켓                              |
+|로켓 엔진                        |
+|로켓 엔진 연료                    |
+|로켓 연료                          |
+|로켓 기능                      |
+|로켓 제조사                  |
+|성자                               |
+|위성                           |
+|학교                              |
+|학군                      |
+|학교 마스코트                        |
+|학교 신문                     |
+|학교 스포츠 팀                    |
+|과학자                           |
+|선박 회사                         |
+|쇼핑 센터                      |
+|단편 소설                          |
+|스키 지역                             |
+|고층 건물                          |
+|축구 클럽                          |
+|소프트웨어                            |
+|소프트웨어 개발자                   |
+|소프트웨어 라이센스                     |
+|사운드트랙                          |
+|항공 우주국                         |
+|우주선                          |
+|우주 비행 임무                        |
+|우주 공항                           |
+|스포츠                               |
+|스포츠 협회                   |
+|스포츠 장비                     |
+|스포츠 연맹 선수권 대회            |
+|스포츠 연맹 선수권 대회 행사       |
+|스포츠 연맹 프로 신인 선수 선발                   |
+|스포츠 관계자                      |
+|스포츠 팀                          |
+|경기장                             |
+|별                                |
+|성군                          |
+|성군체                      |
+|정거장                             |
+|수퍼스타 커플                         |
+|증상                             |
+|합성기                         |
+|망원경                           |
+|망원경 플랫폼                   |
+|텔레비전 쇼                      |
+|테니스 선수                        |
+|테니스 경기                    |
+|연극                             |
+|연극 등장 인물                    |
+|연극 공연                   |
+|최상위 레벨 도메인 레지스트리              |
+|관광 명소                   |
+|탑                               |
+|노동조합                          |
+|환승 라인                         |
+|운송자                   |
+|운송 수단 종점                   |
+|열대 저기압                     |
+|탤런트                             |
+|TV 등장 인물                         |
+|TV 관계자 역할                          |
+|TV 에피소드                           |
+|TV 방송국                           |
+|TV 스타                       |
+|TV 프로듀서                          |
+|TV 시즌                            |
+|TV 작가                            |
+|예배 공간 유형                |
+|미완성 작업                      |
+|질량 단위                          |
+|부피 단위                        |
+|대학교                          |
+|미국 하원의원                  |
+|광맥                                |
+|비디오 게임                           |
+|비디오 게임 설계자                   |
+|비디오 게임 개발자                  |
+|비디오 게임 엔진                     |
+|비디오 게임 플랫폼                   |
+|비디오 게임 배급사                  |
+|시각 예술가                        |
+|웹 브라우저 확장                 |
+|웹 사이트                             |
+|포도주 생산자                        |
+|포도주 산지                          |
+|소설 작품                       |
+|작가                              |

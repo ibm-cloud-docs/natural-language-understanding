@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2018-03-16"
+  years: 2015, 2019
+lastupdated: "2019-02-21"
 
 ---
 
@@ -17,17 +17,18 @@ lastupdated: "2018-03-16"
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-# Tipi e sottotipi di entità (versione 1)
+# Tipi di entità (versione 1)
+{: #entity-types-version-1}
 
 Le seguenti tabelle elencano i tipi e i sottotipi di entità utilizzati nel sistema di tipi di entità _versione 1_.
 {: shortdesc}
 
-Il sistema di tipi di entità usato da {{site.data.keyword.nlushort}} varia in base alla data di versione e alla lingua che stai usando. Per ulteriori dettagli, vedi la pagina [Tipi e sottotipi di entità](entity-types.html).
+Il sistema di tipi di entità usato da {{site.data.keyword.nlushort}} varia in base alla data di versione e alla lingua che stai usando. Per ulteriori dettagli, vedi la pagina [Sistemi di tipo di entità](/docs/services/natural-language-understanding?topic=natural-language-understanding-entity-type-systems).
 
 ## Tipi di entità
 {: #entity-types}
 
-| Tipo di entità    |
+| Tipo di entità       |
 |-------------------|
 | Anatomy           |
 | Award             |
@@ -59,7 +60,7 @@ Il sistema di tipi di entità usato da {{site.data.keyword.nlushort}} varia in b
 ## Sottotipi di entità
 {: #entity-subtypes}
 
-| Sottotipo di entità                 |
+| Sottotipo di entità                      |
 |-------------------------------------|
 | AbusedSubstance                     |
 | Academic                            |
@@ -186,6 +187,7 @@ Il sistema di tipi di entità usato da {{site.data.keyword.nlushort}} varia in b
 | ConferenceSeries                    |
 | ConsumerProduct                     |
 | ContentLicense                      |
+| Continent                           |
 | Country                             |
 | CranialNerve                        |
 | CreativeWork                        |
@@ -494,3 +496,71 @@ Il sistema di tipi di entità usato da {{site.data.keyword.nlushort}} varia in b
 | WineRegion                          |
 | WorkOfFiction                       |
 | Writer                              |
+
+## Tipi di entità di relazioni
+{: #relations-entity-types}
+
+Per le lingue che utilizzano il sistema di tipo di entità _Versione 1_ che supportano anche le relazioni, i risultati contengono tipi di entità che sono diversi dai tipi di entità restituiti nei risultati delle entità. Per restituire i tipi di entità delle relazioni nei tuoi risultati delle entità, puoi specificare uno dei seguenti modelli di entità pubblici nell'opzione `model` per la funzione `entities` per sovrascrivere il modello di rilevamento di entità predefinito.
+
+|Model ID|Descrizione|
+|--------|-----------|
+|ar-news|Arabic news|
+|en-news|English news|
+|es-news|Spanish news|
+
+I seguenti tipi di entità possono essere identificati con i modelli di entità delle relazioni.
+
+|Tipo di entità|
+|---|
+|Age|
+|Anatomy|
+|Animal|
+|Award|
+|Cardinal|
+|Crime|
+|Date|
+|Degree|
+|Duration|
+|EmailAddress|
+|Event|
+|EventBusiness|
+|EventCommunication|
+|EventCustody|
+|EventDemonstration|
+|EventEducation|
+|EventElection|
+|EventGathering|
+|EventLegal|
+|EventLegislation|
+|EventMeeting|
+|EventPerformance|
+|EventPersonnel|
+|EventViolence|
+|Facility|
+|Food|
+|GeographicFeature|
+|GeopoliticalEntity|
+|HealthCondition|
+|Law|
+|Location|
+|Money|
+|Measure|
+|NaturalEvent|
+|Organization|
+|Ordinal|
+|Percent|
+|Person|
+|Phone|
+|Plant|
+|Product|
+|SportingEvent|
+|Substance|
+|Ticker|
+|Time|
+|TitleWork|
+|Vehicle|
+|Weapon|
+|Weather|
+|Web|
+
+

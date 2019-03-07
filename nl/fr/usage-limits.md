@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-03-16"
+  years: 2015, 2019
+lastupdated: "2019-02-25"
 
 ---
 
@@ -18,17 +18,19 @@ lastupdated: "2018-03-16"
 {:swift: .ph data-hd-programlang='swift'}
 
 # Limites d'utilisation
+{: #usage-limits}
 
 Les limites d'utilisation et les restrictions ci-dessous s'appliquent aux instances du service {{site.data.keyword.nlushort}}.
 {: shortdesc}
 
-## Limite relative au texte analysé 
+## Limite relative au texte analysé
+{: #analyzed-text}
 
 {{site.data.keyword.nlushort}} tronque tout texte analysé contenant plus de 50000 caractères mono-octets ou multi-octets. Pour afficher le texte dont les caractères sont comptabilisés dans vos demandes, associez le paramètre `return_analyzed_text` à la valeur `true`.
 
-Vous pouvez définir un nombre limite de caractères plus petit avec le paramètre `limit_text_characters`. Si vous ne voulez analyser qu'une petite partie du contenu, cette opération peut permettre d'éviter un coût excessif. 
+Vous pouvez définir un nombre limite de caractères plus petit avec le paramètre `limit_text_characters`. Si vous ne voulez analyser qu'une petite partie du contenu, cette opération peut permettre d'éviter un coût excessif.
 
-Exemple d'objet de paramètres : 
+Exemple d'objet de paramètres :
 ```json
 {
   "url": "ibm.com",
@@ -41,14 +43,20 @@ Exemple d'objet de paramètres :
 ```
 
 ## Nombre maximal de demandes simultanées
+{: #concurrent-requests}
 
-Le nombre maximal de demandes simultanées pour chaque instance du service {{site.data.keyword.nlushort}} est de 30. Vous pouvez diminuer ce nombre maximal pour les instances de service dans les plans Lite et Standard si le système doit traiter un trafic exceptionnellement élevé. Par exemple, une application qui envoie 35 demandes simultanées depuis une instance de service unique dépasse le nombre maximal de demandes simultanées de cinq demandes et cinq de ces demandes renverront l'erreur `429: Too many requests` (trop de demandes). 
+Le nombre maximal de demandes simultanées pour chaque instance du service {{site.data.keyword.nlushort}} est de 30. Vous pouvez diminuer ce nombre maximal pour les instances de service dans les plans Lite et Standard si le système doit traiter un trafic exceptionnellement élevé. Par exemple, une application qui envoie 35 demandes simultanées depuis une instance de service unique dépasse le nombre maximal de demandes simultanées de cinq demandes et cinq de ces demandes renverront l'erreur `429: Too many requests` (trop de demandes).
 
 Pour augmenter le nombre maximal de demandes simultanées, [ouvrez un ticket de demande de service](https://ibm.biz/ibmcloudsupport).
 
+## Limite de taille des modèles personnalisés pour les plans de tarification Lite
+{: #custom-models}
+
+Il existe une limite de taille pour les modèles personnalisés {{site.data.keyword.knowledgestudioshort}} déployés dans des instances de service {{site.data.keyword.nlushort}} sur les plans de tarification Lite. Pour supprimer cette limite, mettez à niveau votre instance de service {{site.data.keyword.nlushort}} afin de basculer vers un plan de tarification payant. Vos instances de service sont disponibles sur la {{site.data.keyword.cloud_notm}} [page des ressources](https://{DomainName}/resources).
 
 ## Support de langue
+{: #language-support}
 
-Des restrictions différentes relatives aux langues s'appliquent selon la façon dont vous utilisez le service. Pour des détails, voir la page [Prise en charge des langues](language-support.html). 
+Des restrictions différentes relatives aux langues s'appliquent selon la façon dont vous utilisez le service. Pour des détails, voir la page [Prise en charge des langues](/docs/services/natural-language-understanding?topic=natural-language-understanding-language-support).
 
 

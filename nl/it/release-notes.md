@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-03-16"
+  years: 2015, 2019
+lastupdated: "2019-02-25"
 
 ---
 
@@ -18,26 +18,181 @@ lastupdated: "2018-03-16"
 {:swift: .ph data-hd-programlang='swift'}
 
 # Note sulla release
+{: #release-notes}
 
 Sono disponibili le seguenti nuove funzioni e modifiche per il servizio.
 {: shortdesc}
 
-## Controllo versioni della API di servizio
+## Nuovo processo di autenticazione API
+{: #iam-auth-process }
 
-**Versione API corrente**: 2018-03-16
+Il 30 ottobre 2018, le ubicazioni Dallas (Stati Uniti Sud) e Francoforte sono passate all'utilizzo dell'autenticazione IAM (Identity and Access Management) basata sui token. (Per ulteriori informazioni, vedi il documento relativo all'[autenticazione con i token IAM ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](/docs/services/watson/getting-started-iam.html)).
+{: important}
+
+Il servizio {{site.data.keyword.nlushort}} ha un nuovo processo di autenticazione API per le istanze del servizio ospitate nelle seguenti ubicazioni:
+
+- Dallas a partire dal 30 ottobre 2018
+- Francoforte a partire dal 30 ottobre 2018
+- Londra
+- Sydney a partire dal 29 maggio 2018
+- Tokyo
+- Washington, DC a partire dal 12 giugno 2018
+
+{{site.data.keyword.cloud_notm}} sta eseguendo la migrazione all'autenticazione IAM (Identity and Access Management) basata sui token. Con alcune istanze del servizi, esegui l'autenticazione presso l'API utilizzando IAM.
+
+- Con le *nuove* istanze del servizio che crei nelle ubicazioni in coincidenza o successivamente alle date elencate, esegui l'autenticazione presso l'API utilizzando IAM. Puoi passare un token bearer in un'intestazione Authentication o una chiave API. I token supportano le richieste autenticazione senza l'integrazione di credenziali di servizio in ogni chiamata. Le chiavi API utilizzano l'autenticazione di base. Qui puoi trovare ulteriori informazioni su [IAM](/docs/services/watson/getting-started-iam.html).
+
+    Quando utilizzi uno qualsiasi degli SDK Watson, puoi passare la chiave API e lasciare che SDK gestisca il ciclo di vita dei token. Per ulteriori informazioni ed esempi, vedi [Autenticazione ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://{DomainName}/apidocs/natural-language-understanding/#authentication){: new_window} nella guida di riferimento API.
+- Per le istanze del servizio _esistenti_ che hai creato prima della data indicata, puoi continuare ad eseguire l'autenticazione fornendo il nome utente e la password per l'istanza del servizio. Prima o poi dovrai eseguire la migrazione di queste istanze del servizio all'autenticazione IAM. Verranno forniti degli aggiornamenti sul processo e le date di migrazione. Per ulteriori informazioni sulla migrazione, vedi [Migrazione di istanze del servizio Cloud Foundry a un gruppo di risorse](/docs/resources/instance_migration.html).
+
+Per appurare quale sia l'autenticazione da utilizzare, visualizza le credenziali del servizio facendo clic sull'istanza del servizio nel [Dashboard ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://{DomainName}/dashboard/apps?watson){: new_window}.
+
+
+## Controllo versioni della API di servizio
+{: #service-api-versioning}
+
+**Versione API corrente**: 16-11-2018
 
 Le richieste API richiedono un parametro di versione che assume la data nel formato `version=YYYY-MM-DD`. Invia il parametro di versione con ogni richiesta API.
 
 Quando modifichiamo l'API in un modo non compatibile con le versioni precedenti, rilasciamo una nuova versione secondaria. Per avvalerti delle modifiche in una nuova versione, modifica il valore del parametro di versione nella nuova data. Se non sei pronto ad aggiornare la versione in oggetto, non modificare la data della versione.
 
 ## Modifiche
+{: #changes}
+
+### 10 gennaio 2019
+{: #10-january-2019}
+
+- Le richieste **Elencare i modelli** ed **Eliminare un modello** che non includono un parametro di data di versione ora restituiscono degli errori `400` invece di risposte di esito positivo.
+- Prestazioni delle entità migliorate per le lingue diverse dall'inglese
+
+### 14 dicembre 2018
+{: #14-december-2018}
+
+- Puoi ora creare delle istanze del servizio nell'ubicazione Londra di IBM Cloud.{{site.data.keyword.nlushort}}.
+- È stato aggiunto il supporto per le relazioni in lingua portoghese.
+- È stato aggiunto il supporto per le relazioni in lingua italiana.
+- È stato aggiunto un parametro `limit` per le richieste di categorie che controlla il numero di categorie restituito fino a un massimo di 10.
+- Accuratezza migliorata per il parere per il giapponese e il tedesco.
+
+### 6 dicembre 2018
+{: #6-december-2018}
+
+- Accuratezza migliorata per le categorie, le parole chiave, le entità e le categorie in lingua italiana.
+
+### 27 novembre 2018
+{: #27-november-2018}
+
+- Qualità migliorata dei risultati delle password per l'input in inglese, francese, giapponese e portoghese.
+- Le parole chiave con maiuscole/minuscole differenti sono ora presenti nei risultati come la stessa parola chiave.
+- Il metodo **Elencare i modelli** ora restituisce dei campi aggiuntivi che puoi utilizzare per gestire i modelli personalizzati in diverse distribuzioni.
+  - `version`:la stringa di versione fornita dall'utente da {{site.data.keyword.knowledgestudioshort}}
+  - `version_description`: la descrizione fornita dall'utente di questa versione da {{site.data.keyword.knowledgestudioshort}} (ad esempio, cosa è cambiato rispetto alla versione precedente)
+  - `workspace_id`: un ID fornito da {{site.data.keyword.knowledgestudioshort}} che rimane costante su ripetute distribuzioni dallo stesso spazio di lavoro {{site.data.keyword.knowledgestudioshort}}.
+  - `create`:una stringa di data/ora che indica quando il modello è stato distribuito a NLU.
+
+### 16 novembre 2018
+{: #16-november-2018}
+
+- Sono stati rilasciati dei nuovi algoritmi per le parole chiave e il parere in lingua inglese per migliorare l'accuratezza e le prestazioni.
+- Sono state migliorate l'accuratezza e le prestazioni delle parole chiave per l'input in inglese, francese, giapponese e portoghese.
+- Sono state migliorate l'accuratezza e e le prestazioni in lingua italiana, compresa una migliore accuratezza per degli esempi di testo di grandi dimensioni.
+- È stato corretto un bug che causava la visualizzazione di testo con codifica URL nei risultati di disambiguazione delle entità in lingua spagnola.
+- È stato rilasciato un nuovo modello di entità in lingua italiana con il sistema di tipi di entità più recente. Puoi saperne di più sul sistema di tipi più recente nella pagina [Tipi e sottotipi di entità (versione 2)](entity-types-v2.html). Quando la tua applicazione è compatibile con il nuovo sistema di tipi, modifica il parametro di data della versione nelle tue richieste in `2018-11-16` per utilizzare il nuovo modello. 
+
+### 9 novembre 2018
+{: #9-november-2018}
+
+- Notevole miglioramento nell'accuratezza per le categorie in tutte le lingue supportate.
+
+### 8 novembre 2018
+{: #8-november-2018}
+
+- Puoi ora creare delle istanze del servizio nell'ubicazione Tokyo di IBM Cloud.{{site.data.keyword.nlushort}}.
+
+### 5 novembre 2018
+{: #5-november-2018}
+
+- È stato aggiunto il supporto per i concetti in lingua italiana.
+
+### 30 ottobre 2018	
+{: #30-october-2018}	
+
+A partire dal 30 ottobre 2018, le nuove istanze del servizio create nelle regioni Germania e Stati Uniti Sud utilizzano l'[autenticazione IAM (Identity and Access Management)](#iam-auth-process).	
+
+### 21 settembre 2018
+{: #21-september-2018}
+
+- È stato aggiunto il supporto per le relazioni in lingua francese e i concetti in lingua portoghese.
+- L'opzione di parere mirato è ora supportata per le parole chiave in francese e portoghese.
+- Sono stati migliorati le parole chiave per la lingua francese.
+- È stato migliorato il parere in lingua coreana.
+- Sono stati migliorati le parole chiave e il parere in lingua portoghese.
+- È stato rilasciato un nuovo modello di entità in lingua portoghese con il sistema di tipi di entità più recente. Puoi saperne di più sul sistema di tipi più recente nella pagina [Tipi e sottotipi di entità (versione 2)](entity-types-v2.html). Quando la tua applicazione è compatibile con il nuovo sistema di tipi, modifica il parametro di data della versione nelle tue richieste in `2018-09-21` per utilizzare il nuovo modello. 
+
+### 26 giugno 2018
+{: #26-june-2018}
+
+È stato aggiunto il supporto per le entità e le parole chiave in lingua giapponese.
+
+- Per l'input in lingua giapponese, le seguenti entità non sono ancora supportate:
+  - Number
+  - Percent
+  - PhoneNumber
+  - URL
+- Gli indirizzi IPv6 nell'input in lingua giapponese non sono ancora rilevabili come entità IPAddress.
+
+### 12 giugno 2018
+{: #12-june-2018}
+
+A partire dal 12 giugno 2018, le nuove istanze del servizio create nella regione Stati Uniti Est utilizzando l'[autenticazione IAM (Identity and Access Management)](#iam-auth-process).
+
+### 6 giugno 2018
+{: #06-june-2018}
+
+- Miglioramenti secondari per i risultati delle categorie in lingua coreana.
+
+### 29 maggio 2018
+{: #29-may-2018}
+
+A partire dal 29 maggio 2018, le nuove istanze del servizio create nella regione Sydney utilizzano l'[autenticazione IAM (Identity and Access Management)](#iam-auth-process).
+
+### 9 maggio 2018
+{: #9-may-2018}
+
+- Sono state migliorate le entità in lingua tedesca.
+
+### 4 maggio 2018
+{: #4-may-2018}
+
+- È stato aggiunto il supporto per il parere e le regole semantiche in lingua giapponese.
+- Sono state migliorate le prestazioni per le richieste di metadati.
+- È stato corretto un bug che causava la visualizzazione di risultai della rilevanza `NAN` in alcuni risultati delle entità.
+- È stato corretto un bug che ha restituito dei codici di errore `400` nelle richieste di parole chiave in lingua tedesca e coreana laddove dei codici di errore `500` sarebbero stati più appropriati.
+
+
+### 19 aprile 2018
+{: #19-april-2018}
+
+- È stato aggiunto il supporto per le relazioni in lingua giapponese.
+- Sono stati migliorati le parole chiave per la lingua tedesca.
+- È stato corretto un bug che causava la restituzione di testo di citazione dell'entità non corretto.
+- È stato corretto un bug che poteva causare degli scarsi risultati per il parere mirato.
+- È stato corretto un bug a causa del quale il `analyzed_text` restituito includeva dei caratteri che non venivano analizzati.
+
+
+### 5 aprile 2018
+{: #05-april-2018}
+
+- È stato migliorato il recupero del contenuto delle pagine web. Se utilizzi il parametro `url` per analizzare le pagine web, vedrai dei risultati migliori, in particolar modo dalle pagine web che utilizzano i set di frame e i cookie.
+- Miglioramenti secondari per i concetti in lingua coreana.
 
 ### 16 marzo 2018
 {: #03-march-2018}
 
 - È stato aggiunto il supporto per le categorie, le relazioni e i ruoli semantici per la lingua tedesca.
-  - Per le relazioni del tedesco è stato utilizzato un nuovo sistema di tipi di relazione. Per visualizzare i dettagli, vedi [Tipi di relazione (versione 2)](relations-v2.html).
-- Sono stati migliorati le parole chiave e le valutazioni per la lingua tedesca.
+  - Per le relazioni del tedesco è stato utilizzato un nuovo sistema di tipi di relazioni. Per visualizzare i dettagli, vedi [Tipi di relazione (versione 2)](relations-v2.html).
+- Sono stati migliorati le parole chiave e il parere per la lingua tedesca.
 - È stato aggiunto il supporto per le categorie e i concetti per la lingua giapponese.
 - Sono stati apportati dei miglioramenti al rilevamento della lingua.
 - È stata migliorata la pulitura delle pagine web.
@@ -92,7 +247,7 @@ Quando modifichiamo l'API in un modo non compatibile con le versioni precedenti,
 
 - Il supporto del [modello personalizzato](customizing.html) per l'olandese è ora disponibile per entità e relazioni.
 - [Il supporto della lingua francese](language-support.html#french) ora include i concetti.
-- Il modello di valutazione per la lingua francese è stato migliorato per offrire risultati migliori.
+- Il modello di parere per la lingua francese è stato migliorato per offrire risultati migliori.
 - Il modello di rilevamento della lingua è più rapido e rileva più lingue, complessivamente. Per l'elenco completo di lingue, vedi [Lingue rilevabili](detectable-languages.html).
 
   Le seguenti lingue sono delle nuove aggiunte all'elenco:
@@ -276,7 +431,7 @@ Quando modifichiamo l'API in un modo non compatibile con le versioni precedenti,
 ### 27 marzo 2017
 {: #27-march-2017}
 
-- I modelli di entità e valutazione sono stati migliorati; questo significa che, quando richiami queste funzioni, otterrai dei risultati migliori.
+- I modelli di entità e parere sono stati migliorati; questo significa che, quando richiami queste funzioni, otterrai dei risultati migliori.
 - Le relazioni ora supportano i modelli personalizzati {{site.data.keyword.knowledgestudioshort}} in francese, tedesco, italiano e portoghese.
 
 ### 15 marzo 2017
@@ -288,4 +443,3 @@ Abbiamo rilasciato degli aggiornamenti al modello di punteggio del tono dell'emo
 {: #27-february-2017}
 
 Il servizio Natural Language Understanding è ora GA.
-

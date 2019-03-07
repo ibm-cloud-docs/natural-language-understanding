@@ -18,11 +18,12 @@ lastupdated: "2017-10-23"
 {:swift: .ph data-hd-programlang='swift'}
 
 # Gerarchia delle categorie
+{: #categories-hierarchy}
 
 La seguente tabella mostra le categorie che vengono restituite dalla funzione delle gerarchie di {{site.data.keyword.nlushort}}. Puoi scaricare un foglio di calcolo con queste informazioni qui: <a target="_blank" href="https://watson-developer-cloud.github.io/doc-tutorial-downloads/natural-language-understanding/categories-hierarchy.xlsx" download>XLSX <img src="../../icons/launch-glyph.svg" alt="Icona link esterno" title="Icona link esterno" class="style-scope doc-content"></a>.
 {: shortdesc}
 
-| LIVELLO 1                 | LIVELLO 2                              | LIVELLO 3                              | LIVELLO 4                     | LIVELLO 5                       |
+| LIVELLO 1                   | LIVELLO 2                                | LIVELLO 3                                | LIVELLO 4                        | LIVELLO 5                       |
 | ------------------------- | -------------------------------------- | -------------------------------------- | ------------------------------ | ----------------------------- |
 | art and entertainment     | books and literature                   | best-sellers                           |                                |                               |
 | art and entertainment     | books and literature                   | children's books                       |                                |                               |

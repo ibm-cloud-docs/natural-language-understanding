@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2018-03-16"
+  years: 2015, 2019
+lastupdated: "2019-02-25"
 
 ---
 
@@ -10,6 +10,7 @@ lastupdated: "2018-03-16"
 {:new_window: target="_blank"}
 {:tip: .tip}
 {:pre: .pre}
+{:note: .note}
 {:codeblock: .codeblock}
 {:screen: .screen}
 {:javascript: .ph data-hd-programlang='javascript'}
@@ -18,9 +19,13 @@ lastupdated: "2018-03-16"
 {:swift: .ph data-hd-programlang='swift'}
 
 # Tipos de relación (Versión 1)
+{: #relation-types-version-1}
 
-La tabla siguiente lista los tipos de relación que devuelve la _Versión 1_ del sistema de tipos de relación. El sistema de tipos de relación que utiliza {{site.data.keyword.nlushort}} difiere según el idioma utilizado. Para obtener más detalles, consulte la página [Tipos de relación](relations.html).
+La tabla siguiente lista los tipos de relación que devuelve la _Versión 1_ del sistema de tipos de relación. El sistema de tipos de relación que utiliza {{site.data.keyword.nlushort}} difiere según el idioma utilizado. Para obtener más detalles, consulte la página [Sistemas de tipos de relación](/docs/services/natural-language-understanding?topic=natural-language-understanding-relation-type-systems).
 {: shortdesc}
+
+En el sistema de tipo _Versión 1_, los tipos de entidad de los resultados de relaciones son distintos de los tipos de entidad que se devuelven en los resultados de entidades. Para ver la lista de tipos de entidad que se utilizan en relaciones de la _Versión 1_, consulte la página [Tipos de entidad (Versión 1)](/docs/services/natural-language-understanding?topic=natural-language-understanding-entity-types-version-1#relations-entity-types).
+{: note}
 
 | Relación        | Descripción                                                                                                                                                                                                        |
 |-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -77,69 +82,3 @@ La tabla siguiente lista los tipos de relación que devuelve la _Versión 1_ del
 | spouseOf        | Existe entre dos People que forman una relación formal.                                                                                                                                                      |
 | subsidiaryOf    | Existe entre dos Organizations cuando la primera es una subsidiaria de la segunda, es decir, que la primera entidad tiene una autonomía considerable a pesar de estar bajo el control de la segunda.                               |
 | timeOf          | Indica la Date, Time o Duration en la que se ha producido un suceso; se ha publicado, realizado o difundido un TitleWork; o se ha elaborado un borrador, se ha creado, se ha aprobado o se ha abolido una ley.                            |
-
-## Tipos de entidad exclusivas de las relaciones
-
-Los tipos de entidad implicados en la _Versión 1_ del sistema de tipos de relación son diferentes de los tipos de entidad implicados en los sistemas de tipos de entidad predeterminados. Puede especificar uno de los siguientes modelos de entidad de relaciones en el parámetro `model` de la característica `entities` feature para alterar temporalmente el modelo de detección de entidades predeterminado.
-
-|ID de modelo|Descripción|
-|--------|-----------|
-|ar-news|Noticias en árabe|
-|en-news|Noticias en inglés|
-|es-news|Noticias en español|
-
-Las entidades siguientes se pueden identificar con los modelos de `relations`:
-
-|Tipo de entidad|
-|---|
-|Age|
-|Anatomy|
-|Animal|
-|Award|
-|Cardinal|
-|Crime|
-|Date|
-|Degree|
-|Duration|
-|EmailAddress|
-|Event|
-|EventBusiness|
-|EventCommunication|
-|EventCustody|
-|EventDemonstration|
-|EventEducation|
-|EventElection|
-|EventGathering|
-|EventLegal|
-|EventLegislation|
-|EventMeeting|
-|EventPerformance|
-|EventPersonnel|
-|EventViolence|
-|Facility|
-|Food|
-|GeographicFeature|
-|GeopoliticalEntity|
-|HealthCondition|
-|Law|
-|Location|
-|Money|
-|Measure|
-|NaturalEvent|
-|Organization|
-|Ordinal|
-|Percent|
-|Person|
-|Phone|
-|Plant|
-|Product|
-|SportingEvent|
-|Substance|
-|Ticker|
-|Time|
-|TitleWork|
-|Vehicle|
-|Weapon|
-|Weather|
-|Web|
-

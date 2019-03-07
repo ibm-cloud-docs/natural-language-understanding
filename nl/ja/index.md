@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-11-28"
+  years: 2015, 2019
+lastupdated: "2019-02-25"
 
 ---
 
@@ -26,12 +26,12 @@ lastupdated: "2017-11-28"
 ## フィーチャー
 {: #features}
 
-テキスト、HTML、またはパブリック URL とともに要求を API に送信し、分析する以下の 1 つ以上のフィーチャーを指定します。
+テキスト、HTML、またはパブリック URL を使用して要求を API に送信し、分析する以下の 1 つ以上のフィーチャーを指定します。
 
 ### カテゴリー
 {: #categories}
 
-5 つのレベルの分類階層を使用してコンテンツをカテゴリー化します。カテゴリーの全リストについては[こちら](/docs/services/natural-language-understanding/categories.html)を参照してください。以下に例を示します。
+5 つのレベルの分類階層を使用してコンテンツをカテゴリー化します。 カテゴリーの全リストについては[こちら](/docs/services/natural-language-understanding?topic=natural-language-understanding-categories-hierarchy)を参照してください。 以下に例を示します。
 
 **入力**
 > url: "www.cnn.com"
@@ -46,7 +46,7 @@ lastupdated: "2017-11-28"
 ### 概念
 {: #concepts}
 
-テキスト内の必ずしも直接参照される必要のないおおまかな概念を識別します。以下に例を示します。
+テキスト内で必ずしも直接言及されないおおまかな概念を識別します。 以下に例を示します。
 
 **入力**
 > text: "Natural Language Understanding uses natural language processing to analyze text."
@@ -59,7 +59,7 @@ lastupdated: "2017-11-28"
 ### 感情
 {: #emotion}
 
-特定の対象となる句で、または文書全体で伝えられる感情を分析します。サービスによって自動的に検出されるエンティティーとキーワードについて感情分析を有効にすることもできます。以下に例を示します。
+特定の対象となる句で、または文書全体で伝えられる感情を分析します。 サービスによって自動的に検出されるエンティティーとキーワードについて感情分析を有効にすることもできます。 以下に例を示します。
 
 **入力**
 > text: "I love apples, but I hate oranges." </br>
@@ -72,7 +72,7 @@ lastupdated: "2017-11-28"
 ### エンティティー
 {: #entities}
 
-コンテンツ内で言及されている人、場所、イベント、およびその他のタイプのエンティティーを検出します。エンティティーのタイプとサブタイプの全リストについては[こちら](/docs/services/natural-language-understanding/entity-types.html)を参照してください。以下に例を示します。
+コンテンツ内で言及されている人、場所、イベント、およびその他のタイプのエンティティーを検出します。 エンティティーのタイプとサブタイプの完全なリストについては、[こちら](/docs/services/natural-language-understanding?topic=natural-language-understanding-entity-type-systems)を参照してください。以下に例を示します。
 
 **入力**
 > text: "IBM is an American multinational technology company headquartered in Armonk, New York, United States, with operations in over 170 countries."
@@ -86,7 +86,7 @@ lastupdated: "2017-11-28"
 ### キーワード
 {: #keywords}
 
-コンテンツで関連キーワードを検索します。以下に例を示します。
+コンテンツで関連キーワードを検索します。 以下に例を示します。
 
 **入力**
 >url: "[http://www-03.ibm.com/press/us/en/pressrelease/51493.wss](http://www-03.ibm.com/press/us/en/pressrelease/51493.wss)"
@@ -99,7 +99,7 @@ lastupdated: "2017-11-28"
 ### メタデータ
 {: #metadata}
 
-HTML 入力および URL 入力の場合に、Web ページの作成者、ページ・タイトル、および公開日を取得します。以下に例を示します。
+HTML 入力および URL 入力の場合に、Web ページの作成者、ページ・タイトル、および公開日を取得します。 以下に例を示します。
 
 **入力**
 >url: "https://www.ibm.com/blogs/think/2017/01/cognitive-grid/"
@@ -112,7 +112,7 @@ HTML 入力および URL 入力の場合に、Web ページの作成者、ペー
 ### 関係
 {: #relations}
 
-2 つのエンティティーが関係している場合にそれを認識し、関係のタイプを識別します。以下に例を示します。
+2 つのエンティティーが関係している場合にそれを認識し、関係のタイプを識別します。 以下に例を示します。
 
 **入力**
 >text: "The Nobel Prize in Physics 1921 was awarded to Albert Einstein."
@@ -124,7 +124,7 @@ HTML 入力および URL 入力の場合に、Web ページの作成者、ペー
 ### 意味役割
 {: #semantic-roles}
 
-文を subject-action-object の形式に解析し、アクションの対象または目的であるエンティティーとキーワードを識別します。以下に例を示します。
+文を subject-action-object の形式に解析し、アクションの主体または対象であるエンティティーとキーワードを識別します。 以下に例を示します。
 
 **入力**
 >text: "In 2011, Watson competed on Jeopardy!"
@@ -137,7 +137,7 @@ HTML 入力および URL 入力の場合に、Web ページの作成者、ペー
 ### 評判
 {: #sentiment}
 
-特定の対象となる句についての評判、および文書全体の評判を分析します。これらのフィーチャーの評判オプションを有効にすることによって、検出されたエンティティーとキーワードの評判情報を取得することもできます。以下に例を示します。
+特定の対象となる句についての評判、および文書全体の評判を分析します。 検出されたエンティティーとキーワードの評判情報を取得することもできます。そのためには、これらのフィーチャーの評判オプションを有効にします。 以下に例を示します。
 
 **入力**
 >text: "Thank you and have a nice day!"
@@ -148,9 +148,4 @@ HTML 入力および URL 入力の場合に、Web ページの作成者、ペー
 ## サポート対象言語
 {: #supported-languages}
 
-{{site.data.keyword.nlushort}} でサポートされる言語について詳しくは、[言語サポートの資料](/docs/services/natural-language-understanding/language-support.html)を参照してください。
-
-## 料金
-{: #pricing}
-
-価格設定情報については、{{site.data.keyword.cloud}} カタログにある [「{{site.data.keyword.nlushort}} サービス」](https://console.bluemix.net/catalog/services/natural-language-understanding)を参照してください。
+{{site.data.keyword.nlushort}} でサポートされる言語について詳しくは、[言語サポートの資料](/docs/services/natural-language-understanding?topic=natural-language-understanding-language-support)を参照してください。

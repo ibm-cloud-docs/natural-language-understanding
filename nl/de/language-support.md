@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-03-16"
+  years: 2015, 2019
+lastupdated: "2019-02-25"
 
 ---
 
@@ -18,23 +18,23 @@ lastupdated: "2018-03-16"
 {:swift: .ph data-hd-programlang='swift'}
 
 # Sprachunterstützung
+{: #language-support}
 
 {{site.data.keyword.nlushort}} unterstützt je nach analysierten Features eine Vielzahl von Sprachen. Derzeit ist Englisch die einzige Sprache, die in allen Features unterstützt wird. Für die übrigen Sprachen besteht nur eingeschränkte Unterstützung. Durch Klicken auf die einzelnen Sprachen in der folgenden Liste können Sie zur jeweiligen Liste von Features springen, die mit dieser Sprache kompatibel sind.
 
-- [Arabisch](#arabic)
-- [Chinesisch (vereinfacht)](#chinese-simplified)
-- [Niederländisch](#dutch)
-- [Englisch](#english)
-- [Französisch](#french)
-- [Deutsch](#german)
-- [Italienisch](#italian)
-- [Japanisch](#japanese)
-- [Koreanisch](#korean)
-- [Portugiesisch](#portuguese)
-- [Russisch](#russian)
-- [Spanisch](#spanish)
-- [Schwedisch](#swedish)
-
+  - [Arabisch](#arabic)
+  - [Chinesisch (vereinfacht)](#chinese-simplified)
+  - [Niederländisch](#dutch)
+  - [Englisch](#english)
+  - [Französisch](#french)
+  - [Deutsch](#german)
+  - [Italienisch](#italian)
+  - [Japanisch](#japanese)
+  - [Koreanisch](#korean)
+  - [Portugiesisch](#portuguese)
+  - [Russisch](#russian)
+  - [Spanisch](#spanish)
+  - [Schwedisch](#swedish)
 
 Wenn Sie {{site.data.keyword.Bluemix_dedicated}}-Kunde sind, könnte die Sprachunterstützung abweichen. Wenn Sie {{site.data.keyword.Bluemix_dedicated}} verwenden, fragen Sie Ihren IBM Vertreter nach den Sprachen, die in Ihrer Umgebung unterstützt werden.
 {: tip}
@@ -122,7 +122,7 @@ Die als Ziel ausgewählte Stimmungsoption für Entitäten wird für arabischen T
         Standardunterstützung
       </th>
       <th>
-        <a href="/docs/services/natural-language-understanding/customizing.html">Angepasstes Modell</a> - Unterstützung
+        <a href="/docs/services/natural-language-understanding/customizing.html">Angepasstes Modell </a> - Unterstützung
       </th>
     </tr>
   </thead>
@@ -189,7 +189,7 @@ Die als Ziel ausgewählte Stimmungsoption für Entitäten wird für arabischen T
         Standardunterstützung
       </th>
       <th>
-        <a href="/docs/services/natural-language-understanding/customizing.html">Angepasstes Modell</a> - Unterstützung
+        <a href="/docs/services/natural-language-understanding/customizing.html">Angepasstes Modell </a> - Unterstützung
       </th>
     </tr>
   </thead>
@@ -255,7 +255,7 @@ Die als Ziel ausgewählte Stimmungsoption für Entitäten wird für arabischen T
         Standardunterstützung
       </th>
       <th>
-        <a href="/docs/services/natural-language-understanding/customizing.html">Angepasstes Modell</a> - Unterstützung
+        <a href="/docs/services/natural-language-understanding/customizing.html">Angepasstes Modell </a> - Unterstützung
       </th>
     </tr>
   </thead>
@@ -322,7 +322,7 @@ Die als Ziel ausgewählte Stimmungsoption für Entitäten wird für arabischen T
         Standardunterstützung
       </th>
       <th>
-        <a href="/docs/services/natural-language-understanding/customizing.html">Angepasstes Modell</a> - Unterstützung
+        <a href="/docs/services/natural-language-understanding/customizing.html">Angepasstes Modell </a> - Unterstützung
       </th>
     </tr>
   </thead>
@@ -334,7 +334,7 @@ Die als Ziel ausgewählte Stimmungsoption für Entitäten wird für arabischen T
     </tr>
     <tr>
       <td>Konzepte</td>
-      <td></td>
+      <td>X</td>
       <td></td>
     </tr>
     <tr>
@@ -359,7 +359,7 @@ Die als Ziel ausgewählte Stimmungsoption für Entitäten wird für arabischen T
     </tr>
     <tr>
       <td>Relations</td>
-      <td></td>
+      <td>X</td>
       <td>X</td>
     </tr>
     <tr>
@@ -369,13 +369,11 @@ Die als Ziel ausgewählte Stimmungsoption für Entitäten wird für arabischen T
     </tr>
     <tr>
       <td>Stimmung</td>
-      <td>X&ast;</td>
+      <td>X</td>
       <td></td>
     </tr>
   </tbody>
 </table>
-
-&ast; Die als Ziel ausgewählte Stimmungsoption für Schlüsselwörter wird für französischen Text nicht unterstützt.
 
 
 ## Deutsch
@@ -391,7 +389,7 @@ Die als Ziel ausgewählte Stimmungsoption für Entitäten wird für arabischen T
         Standardunterstützung
       </th>
       <th>
-        <a href="/docs/services/natural-language-understanding/customizing.html">Angepasstes Modell</a> - Unterstützung
+        <a href="/docs/services/natural-language-understanding/customizing.html">Angepasstes Modell </a> - Unterstützung
       </th>
     </tr>
   </thead>
@@ -458,7 +456,7 @@ Die als Ziel ausgewählte Stimmungsoption für Entitäten wird für arabischen T
         Standardunterstützung
       </th>
       <th>
-        <a href="/docs/services/natural-language-understanding/customizing.html">Angepasstes Modell</a> - Unterstützung
+        <a href="/docs/services/natural-language-understanding/customizing.html">Angepasstes Modell </a> - Unterstützung
       </th>
     </tr>
   </thead>
@@ -470,7 +468,7 @@ Die als Ziel ausgewählte Stimmungsoption für Entitäten wird für arabischen T
     </tr>
     <tr>
       <td>Konzepte</td>
-      <td></td>
+      <td>X</td>
       <td></td>
     </tr>
     <tr>
@@ -495,7 +493,7 @@ Die als Ziel ausgewählte Stimmungsoption für Entitäten wird für arabischen T
     </tr>
     <tr>
       <td>Relations</td>
-      <td></td>
+      <td>X</td>
       <td>X</td>
     </tr>
     <tr>
@@ -505,16 +503,11 @@ Die als Ziel ausgewählte Stimmungsoption für Entitäten wird für arabischen T
     </tr>
     <tr>
       <td>Stimmung</td>
-      <td>X&ast;</td>
+      <td>X</td>
       <td></td>
     </tr>
   </tbody>
 </table>
-
-&ast; Die Stimmungserkennung für diese Sprache funktioniert am besten bei Daten, die auf sozialen Medien, z. B. Tweets, basieren. Für die nahe Zukunft sind weitere Verbesserungen der Genauigkeit geplant.
-
-Die als Ziel ausgewählte Stimmungsoption für Schlüsselwörter wird für italienischen Text nicht unterstützt.
-
 
 ## Japanisch
 {: #japanese}
@@ -529,7 +522,7 @@ Die als Ziel ausgewählte Stimmungsoption für Schlüsselwörter wird für itali
         Standardunterstützung
       </th>
       <th>
-        <a href="/docs/services/natural-language-understanding/customizing.html">Angepasstes Modell</a> - Unterstützung
+        <a href="/docs/services/natural-language-understanding/customizing.html">Angepasstes Modell </a> - Unterstützung
       </th>
     </tr>
   </thead>
@@ -551,12 +544,12 @@ Die als Ziel ausgewählte Stimmungsoption für Schlüsselwörter wird für itali
     </tr>
     <tr>
       <td>Entitäten</td>
-      <td></td>
+      <td>X</td>
       <td>X</td>
     </tr>
     <tr>
       <td>Schlüsselwörter</td>
-      <td></td>
+      <td>X</td>
       <td></td>
     </tr>
     <tr>
@@ -566,17 +559,17 @@ Die als Ziel ausgewählte Stimmungsoption für Schlüsselwörter wird für itali
     </tr>
     <tr>
       <td>Relations</td>
-      <td></td>
+      <td>X</td>
       <td>X</td>
     </tr>
     <tr>
       <td>Semantische Rollen</td>
-      <td></td>
+      <td>X</td>
       <td></td>
     </tr>
     <tr>
       <td>Stimmung</td>
-      <td></td>
+      <td>X</td>
       <td></td>
     </tr>
   </tbody>
@@ -596,7 +589,7 @@ Die als Ziel ausgewählte Stimmungsoption für Schlüsselwörter wird für itali
         Standardunterstützung
       </th>
       <th>
-        <a href="/docs/services/natural-language-understanding/customizing.html">Angepasstes Modell</a> - Unterstützung
+        <a href="/docs/services/natural-language-understanding/customizing.html">Angepasstes Modell </a> - Unterstützung
       </th>
     </tr>
   </thead>
@@ -643,14 +636,11 @@ Die als Ziel ausgewählte Stimmungsoption für Schlüsselwörter wird für itali
     </tr>
     <tr>
       <td>Stimmung</td>
-      <td>X&ast;</td>
+      <td>X</td>
       <td></td>
     </tr>
   </tbody>
 </table>
-
-&ast; Die Stimmungserkennung für diese Sprache funktioniert am besten bei Daten, die auf sozialen Medien, z. B. Tweets, basieren. Für die nahe Zukunft sind weitere Verbesserungen der Genauigkeit geplant.
-
 
 ## Portugiesisch
 {: #portuguese}
@@ -665,7 +655,7 @@ Die als Ziel ausgewählte Stimmungsoption für Schlüsselwörter wird für itali
         Standardunterstützung
       </th>
       <th>
-        <a href="/docs/services/natural-language-understanding/customizing.html">Angepasstes Modell</a> - Unterstützung
+        <a href="/docs/services/natural-language-understanding/customizing.html">Angepasstes Modell </a> - Unterstützung
       </th>
     </tr>
   </thead>
@@ -677,7 +667,7 @@ Die als Ziel ausgewählte Stimmungsoption für Schlüsselwörter wird für itali
     </tr>
     <tr>
       <td>Konzepte</td>
-      <td></td>
+      <td>X</td>
       <td></td>
     </tr>
     <tr>
@@ -702,7 +692,7 @@ Die als Ziel ausgewählte Stimmungsoption für Schlüsselwörter wird für itali
     </tr>
     <tr>
       <td>Relations</td>
-      <td></td>
+      <td>X</td>
       <td>X</td>
     </tr>
     <tr>
@@ -712,16 +702,11 @@ Die als Ziel ausgewählte Stimmungsoption für Schlüsselwörter wird für itali
     </tr>
     <tr>
       <td>Stimmung</td>
-      <td>X&ast;</td>
+      <td>X</td>
       <td></td>
     </tr>
   </tbody>
 </table>
-
-&ast; Die Stimmungserkennung für diese Sprache funktioniert am besten bei Daten, die auf sozialen Medien, z. B. Tweets, basieren. Für die nahe Zukunft sind weitere Verbesserungen der Genauigkeit geplant.
-
-Die als Ziel ausgewählte Stimmungsoption für Schlüsselwörter wird für portugiesischen Text nicht unterstützt.
-
 
 ## Russisch
 {: #russian}
@@ -736,7 +721,7 @@ Die als Ziel ausgewählte Stimmungsoption für Schlüsselwörter wird für portu
         Standardunterstützung
       </th>
       <th>
-        <a href="/docs/services/natural-language-understanding/customizing.html">Angepasstes Modell</a> - Unterstützung
+        <a href="/docs/services/natural-language-understanding/customizing.html">Angepasstes Modell </a> - Unterstützung
       </th>
     </tr>
   </thead>
@@ -807,7 +792,7 @@ Die als Ziel ausgewählte Stimmungsoption für Schlüsselwörter wird für russi
         Standardunterstützung
       </th>
       <th>
-        <a href="/docs/services/natural-language-understanding/customizing.html">Angepasstes Modell</a> - Unterstützung
+        <a href="/docs/services/natural-language-understanding/customizing.html">Angepasstes Modell </a> - Unterstützung
       </th>
     </tr>
   </thead>
@@ -878,7 +863,7 @@ Die als Ziel ausgewählte Stimmungsoption für Schlüsselwörter wird für spani
         Standardunterstützung
       </th>
       <th>
-        <a href="/docs/services/natural-language-understanding/customizing.html">Angepasstes Modell</a> - Unterstützung
+        <a href="/docs/services/natural-language-understanding/customizing.html">Angepasstes Modell </a> - Unterstützung
       </th>
     </tr>
   </thead>

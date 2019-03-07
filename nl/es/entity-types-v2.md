@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2018-03-16"
+  years: 2015, 2018
+lastupdated: "2019-02-21"
 
 ---
 
@@ -17,12 +17,13 @@ lastupdated: "2018-03-16"
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-# Tipos y subtipos de entidad (Versión 2)
+# Tipos de entidad (Versión 2)
+{: #entity-types-version-2}
 
 Las tablas siguientes listan los tipos y subtipos de entidad que se utilizan en la _Versión 2_ del sistema de tipos de entidad.
 {: shortdesc}
 
-El sistema de tipos de entidad que utiliza {{site.data.keyword.nlushort}} difiere según la fecha de versión y el idioma utilizados. Para obtener más detalles, consulte la página [Tipos y subtipos de entidad](entity-types.html).
+El sistema de tipos de entidad que utiliza {{site.data.keyword.nlushort}} difiere según la fecha de versión y el idioma utilizados. Para obtener más detalles, consulte la página [Sistemas de tipos de entidad](/docs/services/natural-language-understanding?topic=natural-language-understanding-entity-type-systems).
 
 ## Tipos de entidad
 {: #entity-types}
@@ -35,7 +36,7 @@ El sistema de tipos de entidad que utiliza {{site.data.keyword.nlushort}} difier
 | Facility          |
 | GeographicFeature |
 | Hashtag           |
-| IPAddress         |
+| IPAddress&dagger; |
 | JobTitle          |
 | Location          |
 | Measure           |
@@ -50,7 +51,9 @@ El sistema de tipos de entidad que utiliza {{site.data.keyword.nlushort}} difier
 | TwitterHandle     |
 | URL&ast;          |
 
-&ast;Este tipo de entidad no es detectable todavía en el texto en francés.
+&ast; Este tipo de entidad no es detectable todavía en el texto en francés ni en japonés.
+
+&dagger; Las direcciones IPv6 aún no son detectables en el texto en japonés.
 
 
 ## Subtipos de entidad
@@ -183,6 +186,7 @@ El sistema de tipos de entidad que utiliza {{site.data.keyword.nlushort}} difier
 | ConferenceSeries                    |
 | ConsumerProduct                     |
 | ContentLicense                      |
+| Continent                           |
 | Country                             |
 | CranialNerve                        |
 | CreativeWork                        |

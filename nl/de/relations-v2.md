@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2018-03-16"
+  years: 2015, 2019
+lastupdated: "2019-02-25"
 
 ---
 
@@ -10,6 +10,7 @@ lastupdated: "2018-03-16"
 {:new_window: target="_blank"}
 {:tip: .tip}
 {:pre: .pre}
+{:note: .note}
 {:codeblock: .codeblock}
 {:screen: .screen}
 {:javascript: .ph data-hd-programlang='javascript'}
@@ -18,11 +19,13 @@ lastupdated: "2018-03-16"
 {:swift: .ph data-hd-programlang='swift'}
 
 # Beziehungstypen (Version 2)
+{: #relation-types-version-2}
 
-In der folgenden Tabelle sind die Beziehungstypen aufgelistet, die vom Beziehungstypsystem _Version 2_ zurückgegeben werden. Welches Beziehungstypsystem {{site.data.keyword.nlushort}} verwendet, ist von der verwendeten Sprache abhängig. Details hierzu finden Sie auf der Seite [Beziehungstypen](relations.html).
+In der folgenden Tabelle sind die Beziehungstypen aufgelistet, die vom Beziehungstypsystem _Version 2_ zurückgegeben werden. Welches Beziehungstypsystem {{site.data.keyword.nlushort}} verwendet, ist von der verwendeten Sprache abhängig. Weitere Details hierzu finden Sie auf der Seite [Beziehungstypsysteme](/docs/services/natural-language-understanding?topic=natural-language-understanding-relation-type-systems).
 {: shortdesc}
 
-Die von diesem Beziehungstypsystem verwendeten Entitätstypen sind auf der Seite [Entitätstypen und -untertypen (Version 2)](entity-types-v2.html) aufgelistet.
+Die von diesem Beziehungstypsystem verwendeten Entitätstypen sind auf der Seite [Entitätstypen (Version 2)](/docs/services/natural-language-understanding?topic=natural-language-understanding-entity-types-version-2) aufgelistet.
+{: note}
 
 | Beziehung        | Beschreibung |
 |-----------------|----------------|
@@ -50,11 +53,11 @@ Die von diesem Beziehungstypsystem verwendeten Entitätstypen sind auf der Seite
 | partOf          | Besteht zwischen einer kleineren und einer größeren Entität desselben Typs oder verwandten Typs, wobei die zweite Entität die erste umfasst. Handelt es sich bei beiden Entitäten um Ereignisse, muss das erste innerhalb des Zeitraums des zweiten liegen, damit die Beziehung erkannt wird. |
 | partOfMany      | Besteht zwischen einer kleineren und einer größeren Entität desselben Typs oder verwandten Typs, wobei die zweite Entität (die in der Mehrzahl angegeben werden muss) die erste (die in der Einzahl oder der Mehrzahl angegeben werden kann) umfasst. |
 | populationOf    | Besteht zwischen einem Ort und der Anzahl der dort befindlichen Personen oder zwischen einer Organisation und der Anzahl der Mitglieder oder Mitarbeiter, die sie besitzt. |
-| measureOf       | Diese Beziehung gibt die Menge einer Entität oder eines Maßes (Höhe, Gewicht usw.) einer Entität an. |
+| measureOf      | Diese Beziehung gibt die Menge einer Entität oder eines Maßes (Höhe, Gewicht usw.) einer Entität an. |
 | relative        | Besteht zwischen zwei Personen, die miteinander verwandt sind. Zur Angabe von Eltern, Kindern, Geschwistern und Ehegatten verwenden Sie die Beziehungen `parentOf` (Elternteil von), `siblingOf` (Bruder/Schwester von) und `spouseOf` (Ehegatte/-gattin). |
 | residesIn       | Besteht zwischen einer Person und dem Ort, an dem sie lebt oder früher gelebt hat. |
 | shareholdersOf  | Besteht zwischen einer Person oder Organisation und einer Organisation, an der die erste Entität ein Anteilseigner ist. |
-| siblingOf       | Besteht zwischen einer Person und ihrem Bruder/ihrer Schwester oder ihrem Stiefbruder/ihrer Stiefschwester. |
-| spokespersonFor | Besteht zwischen einer Person und einer Einrichtung, Organisation oder Person, die von der ersten Person repräsentiert wird. |
+| siblingOf       | Besteht zwischen einer Person und ihrem Bruder/ihrer Schwester oder ihrem Stiefbruder/ihrer Stiefschwester.     |
+| spokespersonFor | Besteht zwischen einer Person und einer Einrichtung, Organisation oder Person, die von der ersten Person repräsentiert wird.  |
 | spouseOf        | Besteht zwischen zwei Personen, die miteinander verheiratet sind. |
 | subsidiaryOf    | Besteht zwischen zwei Organisationen, wenn die erste der zweiten untergeordnet ist. |

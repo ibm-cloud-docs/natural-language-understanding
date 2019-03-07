@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-07-21"
+  years: 2015, 2019
+lastupdated: "2019-02-25"
 
 ---
 
@@ -18,6 +18,7 @@ lastupdated: "2017-07-21"
 {:swift: .ph data-hd-programlang='swift'}
 
 # Spracherkennung überschreiben
+{: #overriding-language-detection}
 
 Zum Überschreiben der automatischen Spracherkennung in `/analyze`-Anforderungen geben Sie im Attribut `language` des JSON-Objekts `parameters` einen Sprachencode an.
 
@@ -37,10 +38,11 @@ Beispiel für eine ___parameters.json_-Datei__
 __Beispiel für eine cURL-Anforderung__
 
 ```bash
-curl -X POST \
--H "Content-Type: application/json" \
--u "{username}":"{password}" \
--d @parameters.json \
-"https://gateway.watsonplatform.net/natural-language-understanding/api/v1/analyze?version=2017-02-27"
+curl --user "apikey:{apikey}" \
+"{url}/v1/analyze?version=2018-09-21" \
+--request POST \
+--header "Content-Type: application/json" \
+--data @parameters.json
+
 ```
 {: pre}

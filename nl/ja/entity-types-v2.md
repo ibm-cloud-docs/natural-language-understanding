@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2018-03-16"
+  years: 2015, 2018
+lastupdated: "2019-02-21"
 
 ---
 
@@ -17,17 +17,18 @@ lastupdated: "2018-03-16"
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-# エンティティーのタイプとサブタイプ (バージョン 2)
+# エンティティー・タイプ (バージョン 2)
+{: #entity-types-version-2}
 
 下表に、_バージョン 2_ エンティティー・タイプ・システムで使用されるエンティティーのタイプとサブタイプを示します。
 {: shortdesc}
 
-{{site.data.keyword.nlushort}} で使用されるエンティティー・タイプ・システムは、使用しているバージョン日付と言語によって異なります。詳しくは、[『エンティティーのタイプとサブタイプ』](entity-types.html)ページを参照してください。
+{{site.data.keyword.nlushort}} で使用されるエンティティー・タイプ・システムは、使用しているバージョン日付と言語によって異なります。 詳しくは、[エンティティー・タイプ・システム](/docs/services/natural-language-understanding?topic=natural-language-understanding-entity-type-systems)ページを参照してください。
 
 ## エンティティー・タイプ
 {: #entity-types}
 
-| エンティティー・タイプ|
+| エンティティー・タイプ       |
 | ----------------- |
 | Date              |
 | Duration          |
@@ -35,7 +36,7 @@ lastupdated: "2018-03-16"
 | Facility          |
 | GeographicFeature |
 | Hashtag           |
-| IPAddress         |
+| IPAddress&dagger; |
 | JobTitle          |
 | Location          |
 | Measure           |
@@ -50,13 +51,15 @@ lastupdated: "2018-03-16"
 | TwitterHandle     |
 | URL&ast;          |
 
-&ast; このエンティティー・タイプはまだ、フランス語テキストでは検出可能ではありません。
+&ast;このエンティティー・タイプは、フランス語と日本語のテキストではまだ検出できません。
+
+&dagger; IPv6 アドレスは日本語のテキストではまだ検出できません。
 
 
 ## エンティティー・サブタイプ
 {: #entity-subtypes}
 
-| エンティティー・サブタイプ|
+| エンティティー・サブタイプ                      |
 | ----------------------------------- |
 | AbusedSubstance                     |
 | Academic                            |
@@ -183,6 +186,7 @@ lastupdated: "2018-03-16"
 | ConferenceSeries                    |
 | ConsumerProduct                     |
 | ContentLicense                      |
+| Continent                           |
 | Country                             |
 | CranialNerve                        |
 | CreativeWork                        |

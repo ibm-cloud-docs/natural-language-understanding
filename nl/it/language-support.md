@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-03-16"
+  years: 2015, 2019
+lastupdated: "2019-02-25"
 
 ---
 
@@ -18,23 +18,23 @@ lastupdated: "2018-03-16"
 {:swift: .ph data-hd-programlang='swift'}
 
 # Supporto linguistico
+{: #language-support}
 
 {{site.data.keyword.nlushort}} supporta una varietà di lingue, a seconda delle funzioni che analizzi. Attualmente, l'inglese è l'unica lingua supportata in tutte le funzioni. Il resto della lingue ha un supporto limitato. Per passare direttamente all'elenco delle funzioni compatibili con una lingua, fai clic sulla lingua nel seguente elenco.
 
-- [Arabo](#arabic)
-- [Cinese (semplificato)](#chinese-simplified)
-- [Olandese](#dutch)
-- [Inglese](#english)
-- [Francese](#french)
-- [Tedesco](#german)
-- [Italiano](#italian)
-- [Giapponese](#japanese)
-- [Coreano](#korean)
-- [Portoghese](#portuguese)
-- [Russo](#russian)
-- [Spagnolo](#spanish)
-- [Svedese](#swedish)
-
+  - [Arabo](#arabic)
+  - [Cinese (semplificato)](#chinese-simplified)
+  - [Olandese](#dutch)
+  - [Inglese](#english)
+  - [Francese](#french)
+  - [Tedesco](#german)
+  - [Italiano](#italian)
+  - [Giapponese](#japanese)
+  - [Coreano](#korean)
+  - [Portoghese](#portuguese)
+  - [Russo](#russian)
+  - [Spagnolo](#spanish)
+  - [Svedese](#swedish)
 
 Il supporto linguistico potrebbe essere diverso se sei un cliente {{site.data.keyword.Bluemix_dedicated}}. Se stai usando {{site.data.keyword.Bluemix_dedicated}}, rivolgiti al responsabile vendite IBM per confermare quali lingue sono supportate nel tuo ambiente.
 {: tip}
@@ -98,16 +98,16 @@ Il supporto linguistico potrebbe essere diverso se sei un cliente {{site.data.ke
       <td></td>
     </tr>
     <tr>
-      <td>Valutazione</td>
+      <td>Parere</td>
       <td>X&ast;</td>
       <td></td>
     </tr>
   </tbody>
 </table>
 
-&ast; Il rilevamento della valutazione per questa lingua funziona meglio sui dati basati sui social media, come ad esempio i tweet. Ulteriori miglioramenti dell'accuratezza sono previsti in un futuro prossimo.
+&ast; Il rilevamento del parere per questa lingua funziona meglio sui dati basati sui social media, come ad esempio i tweet. Ulteriori miglioramenti dell'accuratezza sono previsti in un futuro prossimo.
 
-L'opzione di valutazione mirata per le entità non è supportata per il testo in arabo.
+L'opzione di parere mirato per le entità non è supportata per il testo in arabo.
 
 ## Cinese (semplificato)
 {: #chinese-simplified}
@@ -168,7 +168,7 @@ L'opzione di valutazione mirata per le entità non è supportata per il testo in
       <td></td>
     </tr>
     <tr>
-      <td>Valutazione</td>
+      <td>Parere</td>
       <td></td>
       <td></td>
     </tr>
@@ -235,7 +235,7 @@ L'opzione di valutazione mirata per le entità non è supportata per il testo in
       <td></td>
     </tr>
     <tr>
-      <td>Valutazione</td>
+      <td>Parere</td>
       <td></td>
       <td></td>
     </tr>
@@ -301,7 +301,7 @@ L'opzione di valutazione mirata per le entità non è supportata per il testo in
       <td></td>
     </tr>
     <tr>
-      <td>Valutazione</td>
+      <td>Parere</td>
       <td>X</td>
       <td></td>
     </tr>
@@ -334,7 +334,7 @@ L'opzione di valutazione mirata per le entità non è supportata per il testo in
     </tr>
     <tr>
       <td>Concetti</td>
-      <td></td>
+      <td>X</td>
       <td></td>
     </tr>
     <tr>
@@ -359,7 +359,7 @@ L'opzione di valutazione mirata per le entità non è supportata per il testo in
     </tr>
     <tr>
       <td>Relazioni</td>
-      <td></td>
+      <td>X</td>
       <td>X</td>
     </tr>
     <tr>
@@ -368,14 +368,12 @@ L'opzione di valutazione mirata per le entità non è supportata per il testo in
       <td></td>
     </tr>
     <tr>
-      <td>Valutazione</td>
-      <td>X&ast;</td>
+      <td>Parere</td>
+      <td>X</td>
       <td></td>
     </tr>
   </tbody>
 </table>
-
-&ast; L'opzione di valutazione mirata per le parole chiave non è supportata per il testo in francese.
 
 
 ## Tedesco
@@ -437,7 +435,7 @@ L'opzione di valutazione mirata per le entità non è supportata per il testo in
       <td></td>
     </tr>
     <tr>
-      <td>Valutazione</td>
+      <td>Parere</td>
       <td>X</td>
       <td></td>
     </tr>
@@ -470,7 +468,7 @@ L'opzione di valutazione mirata per le entità non è supportata per il testo in
     </tr>
     <tr>
       <td>Concetti</td>
-      <td></td>
+      <td>X</td>
       <td></td>
     </tr>
     <tr>
@@ -495,7 +493,7 @@ L'opzione di valutazione mirata per le entità non è supportata per il testo in
     </tr>
     <tr>
       <td>Relazioni</td>
-      <td></td>
+      <td>X</td>
       <td>X</td>
     </tr>
     <tr>
@@ -504,17 +502,12 @@ L'opzione di valutazione mirata per le entità non è supportata per il testo in
       <td></td>
     </tr>
     <tr>
-      <td>Valutazione</td>
-      <td>X&ast;</td>
+      <td>Parere</td>
+      <td>X</td>
       <td></td>
     </tr>
   </tbody>
 </table>
-
-&ast; Il rilevamento della valutazione per questa lingua funziona meglio sui dati basati sui social media, come ad esempio i tweet. Ulteriori miglioramenti dell'accuratezza sono previsti in un futuro prossimo.
-
-L'opzione di valutazione mirata per le parole chiave non è supportata per il testo in italiano.
-
 
 ## Giapponese
 {: #japanese}
@@ -551,12 +544,12 @@ L'opzione di valutazione mirata per le parole chiave non è supportata per il te
     </tr>
     <tr>
       <td>Entità</td>
-      <td></td>
+      <td>X</td>
       <td>X</td>
     </tr>
     <tr>
       <td>Parole chiave</td>
-      <td></td>
+      <td>X</td>
       <td></td>
     </tr>
     <tr>
@@ -566,17 +559,17 @@ L'opzione di valutazione mirata per le parole chiave non è supportata per il te
     </tr>
     <tr>
       <td>Relazioni</td>
-      <td></td>
+      <td>X</td>
       <td>X</td>
     </tr>
     <tr>
       <td>Ruoli semantici</td>
-      <td></td>
+      <td>X</td>
       <td></td>
     </tr>
     <tr>
-      <td>Valutazione</td>
-      <td></td>
+      <td>Parere</td>
+      <td>X</td>
       <td></td>
     </tr>
   </tbody>
@@ -642,15 +635,12 @@ L'opzione di valutazione mirata per le parole chiave non è supportata per il te
       <td></td>
     </tr>
     <tr>
-      <td>Valutazione</td>
-      <td>X&ast;</td>
+      <td>Parere</td>
+      <td>X</td>
       <td></td>
     </tr>
   </tbody>
 </table>
-
-&ast; Il rilevamento della valutazione per questa lingua funziona meglio sui dati basati sui social media, come ad esempio i tweet. Ulteriori miglioramenti dell'accuratezza sono previsti in un futuro prossimo.
-
 
 ## Portoghese
 {: #portuguese}
@@ -677,7 +667,7 @@ L'opzione di valutazione mirata per le parole chiave non è supportata per il te
     </tr>
     <tr>
       <td>Concetti</td>
-      <td></td>
+      <td>X</td>
       <td></td>
     </tr>
     <tr>
@@ -702,7 +692,7 @@ L'opzione di valutazione mirata per le parole chiave non è supportata per il te
     </tr>
     <tr>
       <td>Relazioni</td>
-      <td></td>
+      <td>X</td>
       <td>X</td>
     </tr>
     <tr>
@@ -711,17 +701,12 @@ L'opzione di valutazione mirata per le parole chiave non è supportata per il te
       <td></td>
     </tr>
     <tr>
-      <td>Valutazione</td>
-      <td>X&ast;</td>
+      <td>Parere</td>
+      <td>X</td>
       <td></td>
     </tr>
   </tbody>
 </table>
-
-&ast; Il rilevamento della valutazione per questa lingua funziona meglio sui dati basati sui social media, come ad esempio i tweet. Ulteriori miglioramenti dell'accuratezza sono previsti in un futuro prossimo.
-
-L'opzione di valutazione mirata per le parole chiave non è supportata per il testo in portoghese.
-
 
 ## Russo
 {: #russian}
@@ -782,16 +767,16 @@ L'opzione di valutazione mirata per le parole chiave non è supportata per il te
       <td></td>
     </tr>
     <tr>
-      <td>Valutazione</td>
+      <td>Parere</td>
       <td>X&ast;</td>
       <td></td>
     </tr>
   </tbody>
 </table>
 
-&ast; Il rilevamento della valutazione per questa lingua funziona meglio sui dati basati sui social media, come ad esempio i tweet. Ulteriori miglioramenti dell'accuratezza sono previsti in un futuro prossimo.
+&ast; Il rilevamento del parere per questa lingua funziona meglio sui dati basati sui social media, come ad esempio i tweet. Ulteriori miglioramenti dell'accuratezza sono previsti in un futuro prossimo.
 
-L'opzione di valutazione mirata per le parole chiave non è supportata per il testo in russo.
+L'opzione di parere mirato per le parole chiave non è supportata per il testo in russo.
 
 
 ## Spagnolo
@@ -853,16 +838,16 @@ L'opzione di valutazione mirata per le parole chiave non è supportata per il te
       <td></td>
     </tr>
     <tr>
-      <td>Valutazione</td>
+      <td>Parere</td>
       <td>X&ast;</td>
       <td></td>
     </tr>
   </tbody>
 </table>
 
-&ast; Il rilevamento della valutazione per questa lingua funziona meglio sui dati basati sui social media, come ad esempio i tweet. Ulteriori miglioramenti dell'accuratezza sono previsti in un futuro prossimo.
+&ast; Il rilevamento del parere per questa lingua funziona meglio sui dati basati sui social media, come ad esempio i tweet. Ulteriori miglioramenti dell'accuratezza sono previsti in un futuro prossimo.
 
-L'opzione di valutazione mirata per le parole chiave non è supportata per il testo in spagnolo.
+L'opzione di parere mirato per le parole chiave non è supportata per il testo in spagnolo.
 
 
 ## Svedese
@@ -924,7 +909,7 @@ L'opzione di valutazione mirata per le parole chiave non è supportata per il te
       <td></td>
     </tr>
     <tr>
-      <td>Valutazione</td>
+      <td>Parere</td>
       <td></td>
       <td></td>
     </tr>

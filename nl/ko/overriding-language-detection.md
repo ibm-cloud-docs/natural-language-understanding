@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-07-21"
+  years: 2015, 2019
+lastupdated: "2019-02-25"
 
 ---
 
@@ -18,6 +18,7 @@ lastupdated: "2017-07-21"
 {:swift: .ph data-hd-programlang='swift'}
 
 # 언어 감지 대체
+{: #overriding-language-detection}
 
 `/analyze` 요청에서 자동 언어 감지를 대체하려면 `parameters` JSON 오브젝트의 `language` 속성에서 언어 코드를 지정하십시오.
 
@@ -37,10 +38,11 @@ __예제 _parameters.json_ 파일__
 __예제 curl 요청__
 
 ```bash
-curl -X POST \
--H "Content-Type: application/json" \
--u "{username}":"{password}" \
--d @parameters.json \
-"https://gateway.watsonplatform.net/natural-language-understanding/api/v1/analyze?version=2017-02-27"
+curl --user "apikey:{apikey}" \
+"{url}/v1/analyze?version=2018-09-21" \
+--request POST \
+--header "Content-Type: application/json" \
+--data @parameters.json
+
 ```
 {: pre}

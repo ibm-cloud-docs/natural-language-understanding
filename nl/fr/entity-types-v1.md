@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2018-03-16"
+  years: 2015, 2019
+lastupdated: "2019-02-21"
 
 ---
 
@@ -17,17 +17,18 @@ lastupdated: "2018-03-16"
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-# Types et sous-types d'entité (version 1) 
+# Types d'entité (Version 1)
+{: #entity-types-version-1}
 
 Les tableaux ci-dessous répertorient les types et les sous-types d'entité qui sont utilisés dans le système de types d'entité de _version 1_.
 {: shortdesc}
 
-Le système de types d'entité que {{site.data.keyword.nlushort}} utilise varie en fonction de la date de la version et de la langue que vous employez. Pour plus de détails, voir la page [Types et sous-types d'entité](entity-types.html). 
+Le système de types d'entité que {{site.data.keyword.nlushort}} utilise varie en fonction de la date de la version et de la langue que vous employez. Pour plus de détails, voir la page [Systèmes de types d'entité](/docs/services/natural-language-understanding?topic=natural-language-understanding-entity-type-systems).
 
 ## Types d'entité
 {: #entity-types}
 
-| Type d'entité     |
+| Type d'entité       |
 |-------------------|
 | Anatomy           |
 | Award             |
@@ -186,6 +187,7 @@ Le système de types d'entité que {{site.data.keyword.nlushort}} utilise varie 
 | ConferenceSeries                    |
 | ConsumerProduct                     |
 | ContentLicense                      |
+| Continent                           |
 | Country                             |
 | CranialNerve                        |
 | CreativeWork                        |
@@ -494,3 +496,71 @@ Le système de types d'entité que {{site.data.keyword.nlushort}} utilise varie 
 | WineRegion                          |
 | WorkOfFiction                       |
 | Writer                              |
+
+## Types d'entité Relations
+{: #relations-entity-types}
+
+Pour les langues qui utilisent le système de types d'entité _Version 1_ et qui prennent également en charge les relations, les résultats de ces dernières contiennent des types d'entité différents de ceux renvoyés dans les résultats des entités. Pour renvoyer les types d'entité des relations dans vos résultats d'entités, vous pouvez spécifier l'un des modèles d'entité publics suivants dans l'option `model` pour la fonction `entities` afin de remplacer le modèle de détection d'entité par défaut.
+
+|ID de modèle|Description|
+|--------|-----------|
+|ar-news|Actualités en arabe|
+|en-news|Actualités en anglais|
+|es-news|Actualités en espagnol|
+
+Les types d'entité suivant peuvent être identifiés avec les modèles d'entité des relations :
+
+|Type d'entité|
+|---|
+|Age|
+|Anatomy|
+|Animal|
+|Award|
+|Cardinal|
+|Crime|
+|Date|
+|Degree|
+|Duration|
+|EmailAddress|
+|Event|
+|EventBusiness|
+|EventCommunication|
+|EventCustody|
+|EventDemonstration|
+|EventEducation|
+|EventElection|
+|EventGathering|
+|EventLegal|
+|EventLegislation|
+|EventMeeting|
+|EventPerformance|
+|EventPersonnel|
+|EventViolence|
+|Facility|
+|Food|
+|GeographicFeature|
+|GeopoliticalEntity|
+|HealthCondition|
+|Law|
+|Location|
+|Money|
+|Measure|
+|NaturalEvent|
+|Organization|
+|Ordinal|
+|Percent|
+|Person|
+|Phone|
+|Plant|
+|Product|
+|SportingEvent|
+|Substance|
+|Ticker|
+|Time|
+|TitleWork|
+|Vehicle|
+|Weapon|
+|Weather|
+|Web|
+
+

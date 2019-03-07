@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2018-03-16"
+  years: 2015, 2019
+lastupdated: "2019-02-25"
 
 ---
 
@@ -10,6 +10,7 @@ lastupdated: "2018-03-16"
 {:new_window: target="_blank"}
 {:tip: .tip}
 {:pre: .pre}
+{:note: .note}
 {:codeblock: .codeblock}
 {:screen: .screen}
 {:javascript: .ph data-hd-programlang='javascript'}
@@ -18,11 +19,13 @@ lastupdated: "2018-03-16"
 {:swift: .ph data-hd-programlang='swift'}
 
 # Tipi di relazione (versione 2)
+{: #relation-types-version-2}
 
-La seguente tabella elenca i tipi di relazione restituiti dal sistema di tipi di relazione _versione 2_. Il sistema di tipi di relazione utilizzato da {{site.data.keyword.nlushort}} varia in base alla lingua che stai utilizzando. Per ulteriori dettagli, vedi la pagina [Tipi di relazione](relations.html).
+La seguente tabella elenca i tipi di relazione restituiti dal sistema di tipi di relazione _versione 2_. Il sistema di tipi di relazione utilizzato da {{site.data.keyword.nlushort}} varia in base alla lingua che stai utilizzando. Per ulteriori dettagli, vedi la pagina [Sistemi di tipo di relazione](/docs/services/natural-language-understanding?topic=natural-language-understanding-relation-type-systems).
 {: shortdesc}
 
-I tipi di entità utilizzati da questo sistema di tipi di relazione sono elencati nella pagina [Tipi e sottotipi di entità (versione 2)](entity-types-v2.html).
+I tipi di entità utilizzati da questo sistema di tipi di relazione sono elencati nella pagina [Tipi di entità (versione 2)](/docs/services/natural-language-understanding?topic=natural-language-understanding-entity-types-version-2).
+{: note}
 
 | Relazione        | Descrizione |
 |-----------------|----------------|
@@ -34,10 +37,10 @@ I tipi di entità utilizzati da questo sistema di tipi di relazione sono elencat
 | colleague       | Esiste tra due persone che fanno parte della stessa organizzazione. |
 | competitor      | Esiste tra due organizzazioni impegnate in una concorrenza economica. |
 | contactOf       | Correla le informazioni di contatto con un'entità. |
-| diedAt          | Esiste tra una persona e il posto in cui è deceduta. |
-| diedOn          | Esiste tra una persona e la data e l'ora in cui è deceduta. |
+| diedAt          | Esiste tra una persona e il posto in cui è morta. |
+| diedOn          | Esiste tra una persona e la data e l'ora in cui è morta. |
 | dissolvedOn     | Esiste tra un'organizzazione o URL e la data od ora di suo scioglimento. |
-| educatedAt      | Esiste tra una persona e l'organizzazione presso la quale ha studiato. |
+| educatedAt      | Esiste tra una persona e l'organizzazione presso la quale ha studiato.|
 | employedBy      | Esiste tra due entità quando una paga l'altra per un lavoro o dei servizi specifici: deve essere coinvolta una ricompensa economica. In molte circostanze, contrassegnare questa relazione richiede la conoscenza del mondo. |
 | foundedOn       | Esiste tra un'organizzazione o URL e la sua data od ora di istituzione. |
 | founderOf       | Esiste tra una persona e una struttura, un'organizzazione o un URL da essa istituiti. |
@@ -53,8 +56,8 @@ I tipi di entità utilizzati da questo sistema di tipi di relazione sono elencat
 | measureOf      | Questa relazione include la quantità di un'entità o misura (altezza, peso ecc.) di un'entità. |
 | relative        | Esiste tra due persone che sono parenti. Per identificare genitori, figli, fratelli e coniugi, usa le relazioni `parentOf`, `siblingOf`,e `spouseOf`. |
 | residesIn       | Esiste tra una persona e il posto dove vive o dove è vissuta in precedenza. |
-| shareholdersOf  | Esiste tra una persona o un'organizzazione e un'organizzazione di cui la prima entità è azionista.|
+| shareholdersOf  | Esiste tra una persona o un'organizzazione e un'organizzazione di cui la prima entità è azionista. |
 | siblingOf       | Esiste tra una persona e un suo fratello o fratellastro.     |
-| spokespersonFor | Esiste tra una persona e una struttura, un'organizzazione o una persona che rappresenta. |
+| spokespersonFor | Esiste tra una persona e una struttura, un'organizzazione o una persona che rappresenta.  |
 | spouseOf        | Esiste tra due persone coniugate. |
 | subsidiaryOf    | Esiste tra due organizzazioni quando la prima è una filiale della seconda. |

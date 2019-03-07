@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2018-03-16"
+  years: 2015, 2019
+lastupdated: "2019-02-25"
 
 ---
 
@@ -17,21 +17,26 @@ lastupdated: "2018-03-16"
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-# Types de relation
+# Systèmes de types de relation
+{: #relation-type-systems}
 
 Le système de types de relation que {{site.data.keyword.nlushort}} utilise diffère selon la langue que vous employez. Cette page décrit le système de types de relation qui est utilisé pour chaque langue.
 {: shortdesc}
 
-Par exemple, l'analyse des relations en allemand utilise le [système de types de relation de version 2][v2]. 
+Par exemple, l'analyse des relations en allemand utilise le [système de types de relation de version 2][v2].
 
 |Langue|Système de types de relation|
 | --- | ---|
 | Arabe | [Version 1][v1] |
 | Anglais | [Version 1][v1] |
+| Français | [Version 2][v2] |
 | Allemand | [Version 2][v2] |
+| Italien | [Version 2][v2] |
+| Japonais | [Version 2][v2] |
 | Coréen | [Version 1][v1] |
+| Portugais | [Version 2][v2] |
 | Espagnol | [Version 1][v1] |
 
 
-[v1]: relations-v1.html
-[v2]: relations-v2.html
+[v1]: /docs/services/natural-language-understanding?topic=natural-language-understanding-relation-types-version-1
+[v2]: /docs/services/natural-language-understanding?topic=natural-language-understanding-relation-types-version-2

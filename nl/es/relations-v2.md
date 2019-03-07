@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2018-03-16"
+  years: 2015, 2019
+lastupdated: "2019-02-25"
 
 ---
 
@@ -10,6 +10,7 @@ lastupdated: "2018-03-16"
 {:new_window: target="_blank"}
 {:tip: .tip}
 {:pre: .pre}
+{:note: .note}
 {:codeblock: .codeblock}
 {:screen: .screen}
 {:javascript: .ph data-hd-programlang='javascript'}
@@ -18,11 +19,13 @@ lastupdated: "2018-03-16"
 {:swift: .ph data-hd-programlang='swift'}
 
 # Tipos de relación (Versión 2)
+{: #relation-types-version-2}
 
-La tabla siguiente lista los tipos de relación que devuelve la _Versión 2_ del sistema de tipos de relación. El sistema de tipos de relación que utiliza {{site.data.keyword.nlushort}} difiere según el idioma utilizado. Para obtener más detalles, consulte la página [Tipos de relación](relations.html).
+La tabla siguiente lista los tipos de relación que devuelve la _Versión 2_ del sistema de tipos de relación. El sistema de tipos de relación que utiliza {{site.data.keyword.nlushort}} difiere según el idioma utilizado. Para obtener más detalles, consulte la página [Sistemas de tipos de relación](/docs/services/natural-language-understanding?topic=natural-language-understanding-relation-type-systems).
 {: shortdesc}
 
-Los tipos de entidad utilizados por este sistema de tipos de relación están listados en la página [Tipos y subtipos de entidad (Versión 2)](entity-types-v2.html).
+Los tipos de entidad utilizados por este sistema de tipos de relación están listados en la página [Tipos de entidad (Versión 2)](/docs/services/natural-language-understanding?topic=natural-language-understanding-entity-types-version-2).
+{: note}
 
 | Relación        | Descripción |
 |-----------------|----------------|

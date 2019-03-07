@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-12-15"
+  years: 2015, 2019
+lastupdated: "2019-02-25"
 
 ---
 
@@ -17,27 +17,26 @@ lastupdated: "2017-12-15"
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-# Langues détectables 
+# Langues détectables
+{: #detectable-languages}
 
 Lorsque vous analysez un texte ou une page Web, Natural Language Understanding
 détecte automatiquement la langue source et renvoie le code ISO 639-1
 correspondant
 dans la réponse. Pour optimiser la détection automatique de la langue, il est
 recommandé d'utiliser au moins 100 caractères.
-
 {: shortdesc}
 
 Si la détection automatique de la langue ne fonctionne pas bien dans votre cas,
 vous pouvez
 [spécifier
-manuellement la langue de votre contenu](/docs/services/natural-language-understanding/overriding-language-detection.html) dans chaque demande.
+manuellement la langue de votre contenu](/docs/services/natural-language-understanding?topic=natural-language-understanding-overriding-language-detection) dans chaque demande.
 {: tip}
 
 Le tableau ci-dessous répertorie les langues détectables et les codes ISO 639-1
 correspondants.
 
-
-|Langue      |Code ISO 639-1 |
+|Langue    |Code ISO 639-1|
 |------------|------|
 |Afrikaans|af|
 |Albanais|sq|

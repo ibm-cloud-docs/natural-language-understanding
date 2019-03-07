@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-12-15"
+  years: 2015, 2019
+lastupdated: "2019-02-25"
 
 ---
 
@@ -18,16 +18,17 @@ lastupdated: "2017-12-15"
 {:swift: .ph data-hd-programlang='swift'}
 
 # Erkannte Sprachen
+{: #detectable-languages}
 
 Wenn Sie Text oder eine Webseite analysieren, erkennt Natural Language Understanding automatisch die Ausgangssprache und gibt den entsprechenden ISO 639-1-Code in der Antwort zurück. Für eine optimale Funktion der automatischen Spracherkennung wird empfohlen, Text von mindestens 100 Zeichen zu verwenden.
 {: shortdesc}
 
-Wenn die automatische Spracherkennung in Ihrem Anwendungsfall nicht gut funktioniert, können Sie in jeder Anforderung [die Sprache Ihres Inhalts manuell angeben](/docs/services/natural-language-understanding/overriding-language-detection.html).
+Wenn die automatische Spracherkennung in Ihrem Anwendungsfall nicht gut funktioniert, können Sie in jeder Anforderung [die Sprache Ihres Inhalts manuell angeben](/docs/services/natural-language-understanding?topic=natural-language-understanding-overriding-language-detection).
 {: tip}
 
 In der folgenden Tabelle sind die erkannten Sprachen mit ihren ISO 639-1-Codes aufgeführt.
 
-|Sprache|ISO 639-1-Code|
+|Sprache    |ISO 639-1-Code|
 |------------|------|
 |Afrikaans|af|
 |Albanisch|sq|

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2018-03-16"
+  years: 2015, 2018
+lastupdated: "2019-02-21"
 
 ---
 
@@ -17,12 +17,13 @@ lastupdated: "2018-03-16"
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-# Entitätstypen und -untertypen (Version 2)
+# Entitätstypen (Version 2)
+{: #entity-types-version-2}
 
 In den folgenden Tabellen sind die Entitätstypen und -untertypen aufgeführt, die vom Entitätstypsystem _Version 2_ verwendet werden.
 {: shortdesc}
 
-Welches Entitätstypsystem {{site.data.keyword.nlushort}} verwendet, ist davon abhängig, welches Versionsdatum und welche Sprache verwendet wird. Weitere Informationen hierzu finden Sie auf der Seite [Entitätstypen und -untertypen](entity-types.html).
+Welches Entitätstypsystem {{site.data.keyword.nlushort}} verwendet, ist davon abhängig, welches Versionsdatum und welche Sprache verwendet wird. Weitere Details hierzu finden Sie auf der Seite [Entitätstypsysteme](/docs/services/natural-language-understanding?topic=natural-language-understanding-entity-type-systems). 
 
 ## Entitätstypen
 {: #entity-types}
@@ -35,7 +36,7 @@ Welches Entitätstypsystem {{site.data.keyword.nlushort}} verwendet, ist davon a
 | Facility          |
 | GeographicFeature |
 | Hashtag           |
-| IPAddress         |
+| IPAddress&dagger; |
 | JobTitle          |
 | Location          |
 | Measure           |
@@ -50,13 +51,15 @@ Welches Entitätstypsystem {{site.data.keyword.nlushort}} verwendet, ist davon a
 | TwitterHandle     |
 | URL&ast;          |
 
-&ast; Dieser Entitätstyp wird in französischem Text noch nicht erkannt.
+&ast; Dieser Entitätstyp wird in französischem oder japanischem Text noch nicht erkannt.
+
+&dagger; IPv6-Adressen werden in japanischem Text noch nicht erkannt.
 
 
 ## Entitätsuntertypen
 {: #entity-subtypes}
 
-| Entitätsuntertyp                     |
+| Entitätsuntertyp                      |
 | ----------------------------------- |
 | AbusedSubstance                     |
 | Academic                            |
@@ -183,6 +186,7 @@ Welches Entitätstypsystem {{site.data.keyword.nlushort}} verwendet, ist davon a
 | ConferenceSeries                    |
 | ConsumerProduct                     |
 | ContentLicense                      |
+| Continent                           |
 | Country                             |
 | CranialNerve                        |
 | CreativeWork                        |

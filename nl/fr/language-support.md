@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-03-16"
+  years: 2015, 2019
+lastupdated: "2019-02-25"
 
 ---
 
@@ -18,23 +18,23 @@ lastupdated: "2018-03-16"
 {:swift: .ph data-hd-programlang='swift'}
 
 # Support de langue
+{: #language-support}
 
-{{site.data.keyword.nlushort}} prend en charge diverses langues en fonction des caractéristiques que vous analysez. Actuellement, l'anglais est la seule langue prise en charge pour toutes les caractéristiques. La prise en charge des autres langues est limitée. Pour accéder à la liste des caractéristiques compatibles avec une langue, cliquez sur la langue dans la liste ci-dessous. 
+{{site.data.keyword.nlushort}} prend en charge diverses langues en fonction des caractéristiques que vous analysez. Actuellement, l'anglais est la seule langue prise en charge pour toutes les caractéristiques. La prise en charge des autres langues est limitée. Pour accéder à la liste des caractéristiques compatibles avec une langue, cliquez sur la langue dans la liste ci-dessous.
 
-- [Arabe](#arabic)
-- [Chinois (simplifié)](#chinese-simplified)
-- [Néerlandais](#dutch)
-- [Anglais](#english)
-- [Français](#french)
-- [Allemand](#german)
-- [Italien](#italian)
-- [Japonais](#japanese)
-- [Coréen](#korean)
-- [Portugais](#portuguese)
-- [Russe](#russian)
-- [Espagnol](#spanish)
-- [Suédois](#swedish)
-
+  - [Arabe](#arabic)
+  - [Chinois (simplifié)](#chinese-simplified)
+  - [Néerlandais](#dutch)
+  - [Anglais](#english)
+  - [Français](#french)
+  - [Allemand](#german)
+  - [Italien](#italian)
+  - [Japonais](#japanese)
+  - [Coréen](#korean)
+  - [Portugais](#portuguese)
+  - [Russe](#russian)
+  - [Espagnol](#spanish)
+  - [Suédois](#swedish)
 
 La prise en charge des langues peut être différente si vous êtes un client {{site.data.keyword.Bluemix_dedicated}}. Si vous utilisez {{site.data.keyword.Bluemix_dedicated}}, demandez à votre ingénieur commercial IBM quelles sont les langues qui sont prises en charge dans votre environnement.
 {: tip}
@@ -78,7 +78,7 @@ La prise en charge des langues peut être différente si vous êtes un client {{
       <td>X</td>
     </tr>
     <tr>
-      <td>Mots clés </td>
+      <td>Mots clés</td>
       <td></td>
       <td></td>
     </tr>
@@ -93,7 +93,7 @@ La prise en charge des langues peut être différente si vous êtes un client {{
       <td>X</td>
     </tr>
     <tr>
-      <td>Rôles sémantiques </td>
+      <td>Rôles sémantiques</td>
       <td></td>
       <td></td>
     </tr>
@@ -105,9 +105,9 @@ La prise en charge des langues peut être différente si vous êtes un client {{
   </tbody>
 </table>
 
-&ast; La détection du sentiment dans cette langue fonctionne le mieux sur les médias sociaux reposant sur des données, comme les tweets. Des améliorations relatives à l'exactitude sont prévues. 
+&ast; La détection du sentiment dans cette langue fonctionne le mieux sur les médias sociaux reposant sur des données, comme les tweets. Des améliorations relatives à l'exactitude sont prévues.
 
-L'option de sentiment ciblé pour les entités n'est pas prise en charge en arabe. 
+L'option de sentiment ciblé pour les entités n'est pas prise en charge en arabe.
 
 ## Chinois (simplifié)
 {: #chinese-simplified}
@@ -148,7 +148,7 @@ L'option de sentiment ciblé pour les entités n'est pas prise en charge en arab
       <td>X</td>
     </tr>
     <tr>
-      <td>Mots clés </td>
+      <td>Mots clés</td>
       <td></td>
       <td></td>
     </tr>
@@ -163,7 +163,7 @@ L'option de sentiment ciblé pour les entités n'est pas prise en charge en arab
       <td>X</td>
     </tr>
     <tr>
-      <td>Rôles sémantiques </td>
+      <td>Rôles sémantiques</td>
       <td></td>
       <td></td>
     </tr>
@@ -215,7 +215,7 @@ L'option de sentiment ciblé pour les entités n'est pas prise en charge en arab
       <td>X</td>
     </tr>
     <tr>
-      <td>Mots clés </td>
+      <td>Mots clés</td>
       <td></td>
       <td></td>
     </tr>
@@ -230,7 +230,7 @@ L'option de sentiment ciblé pour les entités n'est pas prise en charge en arab
       <td>X</td>
     </tr>
     <tr>
-      <td>Rôles sémantiques </td>
+      <td>Rôles sémantiques</td>
       <td></td>
       <td></td>
     </tr>
@@ -281,7 +281,7 @@ L'option de sentiment ciblé pour les entités n'est pas prise en charge en arab
       <td>X</td>
     </tr>
     <tr>
-      <td>Mots clés </td>
+      <td>Mots clés</td>
       <td>X</td>
       <td></td>
     </tr>
@@ -296,7 +296,7 @@ L'option de sentiment ciblé pour les entités n'est pas prise en charge en arab
       <td>X</td>
     </tr>
     <tr>
-      <td>Rôles sémantiques </td>
+      <td>Rôles sémantiques</td>
       <td>X</td>
       <td></td>
     </tr>
@@ -334,7 +334,7 @@ L'option de sentiment ciblé pour les entités n'est pas prise en charge en arab
     </tr>
     <tr>
       <td>Concepts</td>
-      <td></td>
+      <td>X</td>
       <td></td>
     </tr>
     <tr>
@@ -348,7 +348,7 @@ L'option de sentiment ciblé pour les entités n'est pas prise en charge en arab
       <td>X</td>
     </tr>
     <tr>
-      <td>Mots clés </td>
+      <td>Mots clés</td>
       <td>X</td>
       <td></td>
     </tr>
@@ -359,23 +359,21 @@ L'option de sentiment ciblé pour les entités n'est pas prise en charge en arab
     </tr>
     <tr>
       <td>Relations</td>
-      <td></td>
+      <td>X</td>
       <td>X</td>
     </tr>
     <tr>
-      <td>Rôles sémantiques </td>
+      <td>Rôles sémantiques</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>Sentiment</td>
-      <td>X&ast;</td>
+      <td>X</td>
       <td></td>
     </tr>
   </tbody>
 </table>
-
-&ast; L'option de sentiment ciblé pour les mots clés n'est pas prise en charge en français. 
 
 
 ## Allemand
@@ -417,7 +415,7 @@ L'option de sentiment ciblé pour les entités n'est pas prise en charge en arab
       <td>X</td>
     </tr>
     <tr>
-      <td>Mots clés </td>
+      <td>Mots clés</td>
       <td>X</td>
       <td></td>
     </tr>
@@ -432,7 +430,7 @@ L'option de sentiment ciblé pour les entités n'est pas prise en charge en arab
       <td>X</td>
     </tr>
     <tr>
-      <td>Rôles sémantiques </td>
+      <td>Rôles sémantiques</td>
       <td>X</td>
       <td></td>
     </tr>
@@ -470,7 +468,7 @@ L'option de sentiment ciblé pour les entités n'est pas prise en charge en arab
     </tr>
     <tr>
       <td>Concepts</td>
-      <td></td>
+      <td>X</td>
       <td></td>
     </tr>
     <tr>
@@ -484,7 +482,7 @@ L'option de sentiment ciblé pour les entités n'est pas prise en charge en arab
       <td>X</td>
     </tr>
     <tr>
-      <td>Mots clés </td>
+      <td>Mots clés</td>
       <td>X</td>
       <td></td>
     </tr>
@@ -495,26 +493,21 @@ L'option de sentiment ciblé pour les entités n'est pas prise en charge en arab
     </tr>
     <tr>
       <td>Relations</td>
-      <td></td>
+      <td>X</td>
       <td>X</td>
     </tr>
     <tr>
-      <td>Rôles sémantiques </td>
+      <td>Rôles sémantiques</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>Sentiment</td>
-      <td>X&ast;</td>
+      <td>X</td>
       <td></td>
     </tr>
   </tbody>
 </table>
-
-&ast; La détection du sentiment dans cette langue fonctionne le mieux sur les médias sociaux reposant sur des données, comme les tweets. Des améliorations relatives à l'exactitude sont prévues. 
-
-L'option de sentiment ciblé pour les mots clés n'est pas prise en charge en italien. 
-
 
 ## Japonais
 {: #japanese}
@@ -551,12 +544,12 @@ L'option de sentiment ciblé pour les mots clés n'est pas prise en charge en it
     </tr>
     <tr>
       <td>Entités</td>
-      <td></td>
+      <td>X</td>
       <td>X</td>
     </tr>
     <tr>
-      <td>Mots clés </td>
-      <td></td>
+      <td>Mots clés</td>
+      <td>X</td>
       <td></td>
     </tr>
     <tr>
@@ -566,17 +559,17 @@ L'option de sentiment ciblé pour les mots clés n'est pas prise en charge en it
     </tr>
     <tr>
       <td>Relations</td>
-      <td></td>
+      <td>X</td>
       <td>X</td>
     </tr>
     <tr>
-      <td>Rôles sémantiques </td>
-      <td></td>
+      <td>Rôles sémantiques</td>
+      <td>X</td>
       <td></td>
     </tr>
     <tr>
       <td>Sentiment</td>
-      <td></td>
+      <td>X</td>
       <td></td>
     </tr>
   </tbody>
@@ -622,7 +615,7 @@ L'option de sentiment ciblé pour les mots clés n'est pas prise en charge en it
       <td>X</td>
     </tr>
     <tr>
-      <td>Mots clés </td>
+      <td>Mots clés</td>
       <td>X</td>
       <td></td>
     </tr>
@@ -637,20 +630,17 @@ L'option de sentiment ciblé pour les mots clés n'est pas prise en charge en it
       <td>X</td>
     </tr>
     <tr>
-      <td>Rôles sémantiques </td>
+      <td>Rôles sémantiques</td>
       <td>X</td>
       <td></td>
     </tr>
     <tr>
       <td>Sentiment</td>
-      <td>X&ast;</td>
+      <td>X</td>
       <td></td>
     </tr>
   </tbody>
 </table>
-
-&ast; La détection du sentiment dans cette langue fonctionne le mieux sur les médias sociaux reposant sur des données, comme les tweets. Des améliorations relatives à l'exactitude sont prévues. 
-
 
 ## Portugais
 {: #portuguese}
@@ -677,7 +667,7 @@ L'option de sentiment ciblé pour les mots clés n'est pas prise en charge en it
     </tr>
     <tr>
       <td>Concepts</td>
-      <td></td>
+      <td>X</td>
       <td></td>
     </tr>
     <tr>
@@ -691,7 +681,7 @@ L'option de sentiment ciblé pour les mots clés n'est pas prise en charge en it
       <td>X</td>
     </tr>
     <tr>
-      <td>Mots clés </td>
+      <td>Mots clés</td>
       <td>X</td>
       <td></td>
     </tr>
@@ -702,26 +692,21 @@ L'option de sentiment ciblé pour les mots clés n'est pas prise en charge en it
     </tr>
     <tr>
       <td>Relations</td>
-      <td></td>
+      <td>X</td>
       <td>X</td>
     </tr>
     <tr>
-      <td>Rôles sémantiques </td>
+      <td>Rôles sémantiques</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>Sentiment</td>
-      <td>X&ast;</td>
+      <td>X</td>
       <td></td>
     </tr>
   </tbody>
 </table>
-
-&ast; La détection du sentiment dans cette langue fonctionne le mieux sur les médias sociaux reposant sur des données, comme les tweets. Des améliorations relatives à l'exactitude sont prévues. 
-
-L'option de sentiment ciblé pour les mots clés n'est pas prise en charge en portugais. 
-
 
 ## Russe
 {: #russian}
@@ -762,7 +747,7 @@ L'option de sentiment ciblé pour les mots clés n'est pas prise en charge en po
       <td></td>
     </tr>
     <tr>
-      <td>Mots clés </td>
+      <td>Mots clés</td>
       <td>X</td>
       <td></td>
     </tr>
@@ -777,7 +762,7 @@ L'option de sentiment ciblé pour les mots clés n'est pas prise en charge en po
       <td></td>
     </tr>
     <tr>
-      <td>Rôles sémantiques </td>
+      <td>Rôles sémantiques</td>
       <td></td>
       <td></td>
     </tr>
@@ -789,9 +774,9 @@ L'option de sentiment ciblé pour les mots clés n'est pas prise en charge en po
   </tbody>
 </table>
 
-&ast; La détection du sentiment dans cette langue fonctionne le mieux sur les médias sociaux reposant sur des données, comme les tweets. Des améliorations relatives à l'exactitude sont prévues. 
+&ast; La détection du sentiment dans cette langue fonctionne le mieux sur les médias sociaux reposant sur des données, comme les tweets. Des améliorations relatives à l'exactitude sont prévues.
 
-L'option de sentiment ciblé pour les mots clés n'est pas prise en charge en russe. 
+L'option de sentiment ciblé pour les mots clés n'est pas prise en charge en russe.
 
 
 ## Espagnol
@@ -833,7 +818,7 @@ L'option de sentiment ciblé pour les mots clés n'est pas prise en charge en ru
       <td>X</td>
     </tr>
     <tr>
-      <td>Mots clés </td>
+      <td>Mots clés</td>
       <td>X</td>
       <td></td>
     </tr>
@@ -848,7 +833,7 @@ L'option de sentiment ciblé pour les mots clés n'est pas prise en charge en ru
       <td>X</td>
     </tr>
     <tr>
-      <td>Rôles sémantiques </td>
+      <td>Rôles sémantiques</td>
       <td>X</td>
       <td></td>
     </tr>
@@ -860,9 +845,9 @@ L'option de sentiment ciblé pour les mots clés n'est pas prise en charge en ru
   </tbody>
 </table>
 
-&ast; La détection du sentiment dans cette langue fonctionne le mieux sur les médias sociaux reposant sur des données, comme les tweets. Des améliorations relatives à l'exactitude sont prévues. 
+&ast; La détection du sentiment dans cette langue fonctionne le mieux sur les médias sociaux reposant sur des données, comme les tweets. Des améliorations relatives à l'exactitude sont prévues.
 
-L'option de sentiment ciblé pour les mots clés n'est pas prise en charge en espagnol. 
+L'option de sentiment ciblé pour les mots clés n'est pas prise en charge en espagnol.
 
 
 ## Suédois
@@ -904,7 +889,7 @@ L'option de sentiment ciblé pour les mots clés n'est pas prise en charge en es
       <td></td>
     </tr>
     <tr>
-      <td>Mots clés </td>
+      <td>Mots clés</td>
       <td>X</td>
       <td></td>
     </tr>
@@ -919,7 +904,7 @@ L'option de sentiment ciblé pour les mots clés n'est pas prise en charge en es
       <td></td>
     </tr>
     <tr>
-      <td>Rôles sémantiques </td>
+      <td>Rôles sémantiques</td>
       <td></td>
       <td></td>
     </tr>

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2018-03-16"
+  years: 2015, 2019
+lastupdated: "2019-02-25"
 
 ---
 
@@ -17,7 +17,8 @@ lastupdated: "2018-03-16"
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-# 관계 유형
+# 관계 유형 시스템
+{: #relation-type-systems}
 
 {{site.data.keyword.nlushort}}에서 사용하는 관계 유형 시스템은 사용하는 언어에 따라 다릅니다. 이 페이지에서는 각 언어에 사용하는 관계 유형 시스템을 설명합니다.
 {: shortdesc}
@@ -26,12 +27,16 @@ lastupdated: "2018-03-16"
 
 |언어|관계 유형 시스템|
 | --- | ---|
-| 아랍어| [버전 1][v1] |
-| 영어| [버전 1][v1] |
-| 독일어| [버전 2][v2] |
-| 한국어| [버전 1][v1] |
-| 스페인어| [버전 1][v1] |
+|아랍어 |[버전 1][v1] |
+|영어 |[버전 1][v1] |
+|프랑스어 |[버전 2][v2] |
+|독일어 |[버전 2][v2] |
+|이탈리아어 |[버전 2][v2] |
+|일본어 |[버전 2][v2] |
+|한국어 |[버전 1][v1] |
+|포르투갈어 |[버전 2][v2] |
+|스페인어 |[버전 1][v1] |
 
 
-[v1]: relations-v1.html
-[v2]: relations-v2.html
+[v1]: /docs/services/natural-language-understanding?topic=natural-language-understanding-relation-types-version-1
+[v2]: /docs/services/natural-language-understanding?topic=natural-language-understanding-relation-types-version-2

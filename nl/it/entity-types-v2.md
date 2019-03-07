@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2018-03-16"
+  years: 2015, 2018
+lastupdated: "2019-02-21"
 
 ---
 
@@ -17,17 +17,18 @@ lastupdated: "2018-03-16"
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-# Tipi e sottotipi di entità (versione 2)
+# Tipi di entità (versione 2)
+{: #entity-types-version-2}
 
 Le seguenti tabelle elencano i tipi e i sottotipi di entità utilizzati nel sistema di tipi di entità _versione 2_.
 {: shortdesc}
 
-Il sistema di tipi di entità usato da {{site.data.keyword.nlushort}} varia in base alla data di versione e alla lingua che stai usando. Per ulteriori dettagli, vedi la pagina [Tipi e sottotipi di entità](entity-types.html).
+Il sistema di tipi di entità usato da {{site.data.keyword.nlushort}} varia in base alla data di versione e alla lingua che stai usando. Per ulteriori dettagli, vedi la pagina [Sistemi di tipo di entità](/docs/services/natural-language-understanding?topic=natural-language-understanding-entity-type-systems).
 
 ## Tipi di entità
 {: #entity-types}
 
-| Tipo di entità    |
+| Tipo di entità       |
 | ----------------- |
 | Date              |
 | Duration          |
@@ -35,7 +36,7 @@ Il sistema di tipi di entità usato da {{site.data.keyword.nlushort}} varia in b
 | Facility          |
 | GeographicFeature |
 | Hashtag           |
-| IPAddress         |
+| IPAddress&dagger; |
 | JobTitle          |
 | Location          |
 | Measure           |
@@ -50,13 +51,15 @@ Il sistema di tipi di entità usato da {{site.data.keyword.nlushort}} varia in b
 | TwitterHandle     |
 | URL&ast;          |
 
-&ast; Questo tipo di entità non è ancora rilevabile in testo in francese.
+&ast; Questo tipo di entità non è ancora rilevabile in testo in francese o in giapponese.
+
+&dagger; Gli indirizzi IPv6 non sono ancora rilevabili in testo in giapponese.
 
 
 ## Sottotipi di entità
 {: #entity-subtypes}
 
-| Sottotipo di entità                 |
+| Sottotipo di entità                      |
 | ----------------------------------- |
 | AbusedSubstance                     |
 | Academic                            |
@@ -183,6 +186,7 @@ Il sistema di tipi di entità usato da {{site.data.keyword.nlushort}} varia in b
 | ConferenceSeries                    |
 | ConsumerProduct                     |
 | ContentLicense                      |
+| Continent                           |
 | Country                             |
 | CranialNerve                        |
 | CreativeWork                        |

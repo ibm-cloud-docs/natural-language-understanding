@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-03-16"
+  years: 2015, 2019
+lastupdated: "2019-02-25"
 
 ---
 
@@ -18,19 +18,174 @@ lastupdated: "2018-03-16"
 {:swift: .ph data-hd-programlang='swift'}
 
 # Notas del release
+{: #release-notes}
 
 Están disponibles las siguientes nuevas características y cambios en el servicio.
 {: shortdesc}
 
-## Versiones de la API del servicio
+## Nuevo proceso de autenticación de API
+{: #iam-auth-process }
 
-**Versión de API actual**: 2018-03-16
+El 30 de octubre de 2018, las ubicaciones de Dallas (EE. UU. sur) y Frankfurt (Alemania) pasaron a utilizar la autenticación de Identity and Access Management (IAM) basada en señales. (Consulte [Autenticación con señales de IAM ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](/docs/services/watson/getting-started-iam.html) para obtener más información).
+{: important}
+
+El servicio {{site.data.keyword.nlushort}} tiene un nuevo proceso de autenticación de API para instancias de servicio que están alojadas en las ubicaciones siguientes:
+
+- Dallas a partir del 30 de octubre de 2018
+- Frankfurt a partir del 30 de octubre de 2018
+- Londres
+- Sídney a partir del 29 de mayo de 2018
+- Tokio
+- Washington, DC a partir del 12 de junio de 2018
+
+{{site.data.keyword.cloud_notm}} está migrando a la autenticación de IAM (Identity and Access Management) basada en señales. Con algunas instancias de servicio, se autentica en la API mediante IAM.
+
+- Con las *nuevas* instancias de servicio que se creen en las ubicaciones a partir de las fechas indicadas, se autentica en la API mediante IAM. Puede pasar una señal de portadora (bearer) en una cabecera de autorización o una clave de API. Las señales dan soporte a las solicitudes autenticadas sin tener que incluir credenciales de servicio en cada llamada. Las claves de API utilizan la autenticación básica. Aquí encontrará más información acerca de [IAM](/docs/services/watson/getting-started-iam.html).
+
+    Cuando utilice cualquiera de los SDK de Watson, puede pasar la clave de API y dejar que el SDK gestione el ciclo de vida de las señales. Para obtener más información y para ver ejemplos, consulte el apartado sobre [Autenticación ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://{DomainName}/apidocs/natural-language-understanding/#authentication){: new_window} en la consulta de API.
+- Para las instancias de servicio _existentes_ que ha creado antes de la fecha indicada, seguirá autenticándose proporcionando el nombre de usuario y la contraseña para la instancia de servicio. Es posible que tenga que migrar estas instancias de servicio a la autenticación de IAM. Se proporcionarán actualizaciones sobre el proceso de migración y las fechas. Para obtener más información sobre la migración, consulte [Migración de instancias de servicio de Cloud Foundry a un grupo de recursos](/docs/resources/instance_migration.html).
+
+Para averiguar qué autenticación debe utilizar, consulte las credenciales de servicio pulsando la instancia de servicio en el [Panel de control ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://{DomainName}/dashboard/apps?watson){: new_window}.
+
+
+## Versiones de la API del servicio
+{: #service-api-versioning}
+
+**Versión actual de la API**: 16-11-2018
 
 Las solicitudes de API requieren un parámetro de versión que toma la fecha en el formato `version=AAAA-MM-DD`. Envíe el parámetro version con cada solicitud de API.
 
 Cuando cambiamos la API de forma que sea incompatible con versiones anteriores, ponemos a su disposición una versión inferior. Para aprovechar los cambios de una nueva versión, cambie el valor del parámetro version por la nueva fecha. Si no está listo para actualizar a dicha versión, no cambie la fecha de versión.
 
 ## Cambios
+{: #changes}
+
+### 10 de enero de 2019
+{: #10-january-2019}
+
+- Las solicitudes para **Listar modelos** y **Suprimir modelo** que no incluyan un parámetro de fecha de versión ahora devuelven errores `400` en lugar de respuestas correctas.
+- Se ha mejorado el rendimiento de las entidades para idiomas distintos del inglés.
+
+### 14 de diciembre de 2018
+{: #14-december-2018}
+
+- Ahora puede crear instancias del servicio {{site.data.keyword.nlushort}} en la ubicación Londres de IBM Cloud.
+- Se ha añadido soporte para relaciones en portugués.
+- Se ha añadido soporte para las relaciones en italiano.
+- Se ha añadido un parámetro `limit` para solicitudes de categorías que controla el número de categorías que se devuelven, con un máximo de 10.
+- Se ha mejorado la precisión en el sentimiento en japonés y en alemán.
+
+### 6 de diciembre de 2018
+{: #6-december-2018}
+
+- Se ha mejorado la precisión para las categorías en italiano, las palabras clave, las entidades y las categorías.
+
+### 27 de noviembre de 2018
+{: #27-november-2018}
+
+- Se ha mejorado la calidad de los resultados de palabras clave para entradas en inglés, francés, japonés y portugués.
+- Ahora las palabras clave con diferentes mayúsculas y minúsculas aparecen en los resultados como la misma palabra clave.
+- El método **Get models** ahora devuelve campos adicionales que puede utilizar para gestionar modelos personalizados en diversos despliegues.
+  - `version`: serie de versión proporcionada por el usuario procedente de {{site.data.keyword.knowledgestudioshort}}
+  - `version_description`: descripción proporcionada por el usuario de esta versión procedente de {{site.data.keyword.knowledgestudioshort}} (por ejemplo, lo que ha cambiado desde la versión anterior)
+  - `workspace_id`: un ID que proporciona {{site.data.keyword.knowledgestudioshort}} y que permanece constante durante despliegues repetidos procedentes del mismo espacio de trabajo de {{site.data.keyword.knowledgestudioshort}}.
+  - `created`: una serie de fecha y hora que indica cuándo se ha desplegado el modelo en NLU.
+
+### 16 de noviembre de 2018
+{: #16-november-2018}
+
+- Se han incorporado nuevos algoritmos para el sentimiento y las palabras clave en inglés para mejorar la precisión y el rendimiento.
+- Se ha mejorado la precisión y el rendimiento de las palabras clave para entradas en inglés, francés, japonés y portugués.
+- Se ha mejorado la precisión y el rendimiento del sentimiento en italiano, así como la precisión de los ejemplos de texto largos.
+- Se ha solucionado un problema que hacía que apareciera texto codificado en URL en resultados de eliminación de ambigüedades de entidades en español.
+- Se ha incorporado un nuevo modelo de entidades en italiano con el último sistema de tipo de entidad. Encontrará más información sobre el último sistema de tipos en la página [Tipos y subtipos de entidad (Versión 2)](entity-types-v2.html). Si la aplicación es compatible con el nuevo sistema de tipos, cambie el parámetro de fecha de versión de las solicitudes por `2018-11-16` para utilizar el nuevo modelo.
+
+### 9 de noviembre de 2018
+{: #9-november-2018}
+
+- Mejora importante en la precisión de las categorías en todos los idiomas a los que se da soporte.
+
+### 8 de noviembre de 2018
+{: #8-november-2018}
+
+- Ahora puede crear instancias del servicio {{site.data.keyword.nlushort}} en la ubicación Tokio de IBM Cloud.
+
+### 5 de noviembre de 2018
+{: #5-november-2018}
+
+- Se ha añadido soporte para los conceptos en italiano.
+
+### 30 de octubre de 2018	
+{: #30-october-2018}	
+
+A partir del 30 de octubre de 2018, las nuevas instancias de servicio creadas en las regiones de Alemania y de EE. UU. sur utilizan la [autenticación de Identity and Access Management (IAM)](#iam-auth-process).	
+
+### 21 de septiembre de 2018
+{: #21-september-2018}
+
+- Se ha incorporado soporte para las relaciones en francés y para los conceptos en portugués.
+- La opción de sentimiento de destino ahora recibe soporte para palabras clave en francés y en portugués.
+- Se han mejorado las palabras clave en francés.
+- Se ha mejorado la opción de sentimiento en coreano.
+- Se han mejorado las palabras clave y la opción de sentimiento en portugués.
+- Se ha incorporado un nuevo modelo de entidades en portugués con el último sistema de tipo de entidad. Encontrará más información sobre el último sistema de tipos en la página [Tipos y subtipos de entidad (Versión 2)](entity-types-v2.html). Si la aplicación es compatible con el nuevo sistema de tipos, cambie el parámetro de fecha de versión de las solicitudes por `2018-09-21` para utilizar el nuevo modelo. 
+
+### 26 de junio de 2018
+{: #26-june-2018}
+
+Se ha añadido soporte para entidades y palabras clave en japonés.
+
+- Para entradas en japonés, aún no se da soporte a las entidades siguientes:
+  - Number
+  - Percent
+  - PhoneNumber
+  - URL
+- Las direcciones IPv6 en entradas en japonés todavía no se detectan como entidades IPAddress.
+
+### 12 de junio de 2018
+{: #12-june-2018}
+
+A partir del 12 de junio de 2018, las nuevas instancias de servicio creadas en la región EE. UU. este utilizan la [autenticación de Identity and Access Management (IAM)](#iam-auth-process).
+
+### 6 de junio de 2018
+{: #06-june-2018}
+
+- Pequeñas mejoras en resultados de categorías en coreano.
+
+### 29 de mayo de 2018
+{: #29-may-2018}
+
+A partir del 29 de mayo de 2018, las nuevas instancias de servicio creadas en la región Sídney utilizan la [autenticación de Identity and Access Management (IAM)](#iam-auth-process).
+
+### 9 de mayo de 2018
+{: #9-may-2018}
+
+- Se han mejorado las entidades en alemán.
+
+### 4 de mayo de 2018
+{: #4-may-2018}
+
+- Se ha añadido soporte para la opción de sentimiento y los roles semánticos en japonés.
+- Se ha mejorado el rendimiento de las solicitudes de metadatos.
+- Se ha solucionado un problema que hacía que aparecieran puntuaciones de relevancia `NAN` en los resultados de algunas entidades.
+- Se ha solucionado un problema por el que se devolvían códigos de error `400` en solicitudes de palabras clave en alemán y en coreano cuando habrían resultado más adecuados los códigos de error `500`.
+
+
+### 19 de abril de 2018
+{: #19-april-2018}
+
+- Se ha añadido soporte para relaciones en japonés.
+- Se han mejorado las palabras clave en alemán.
+- Se ha solucionado un problema que hacía que se devolviera texto incorrecto de mención de entidades.
+- Se ha solucionado un problema que podría generar resultados poco adecuados para la opción de sentimiento de destino.
+- Se ha solucionado un problema que hacía que el valor de `analyzed_text` devuelto incluyera caracteres que no se habían analizado.
+
+
+### 5 de abril de 2018
+{: #05-april-2018}
+
+- Se ha mejorado la captación de contenido de páginas web. Si utiliza el parámetro `url` para analizar páginas web, verá mejores resultados, especialmente en páginas web que utilizan conjuntos de marcos (framesets) y cookies.
+- Pequeñas mejoras en conceptos en coreano.
 
 ### 16 de marzo de 2018
 {: #03-march-2018}
@@ -288,4 +443,3 @@ Hemos publicado actualizaciones al modelo de puntuación del tono de las emocion
 {: #27-february-2017}
 
 El servicio Natural Language Understanding ahora está disponible a nivel general (GA).
-

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-07-21"
+  years: 2015, 2019
+lastupdated: "2019-02-25"
 
 ---
 
@@ -17,12 +17,12 @@ lastupdated: "2017-07-21"
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-# Substitution de la détection de langue 
+# Substitution de la détection de langue
+{: #overriding-language-detection}
 
 Pour substituer la détection de langue automatique dans les demandes
 `/analyze`, spécifiez un code de langue dans l'attribut
 `language` de l'objet JSON `parameters`.
-
 
 __Exemple de fichier _parameters.json___
 
@@ -40,10 +40,11 @@ __Exemple de fichier _parameters.json___
 __Exemple de demande curl__
 
 ```bash
-curl -X POST \
--H "Content-Type: application/json" \
--u "{username}":"{password}" \
--d @parameters.json \
-"https://gateway.watsonplatform.net/natural-language-understanding/api/v1/analyze?version=2017-02-27"
+curl --user "apikey:{apikey}" \
+"{url}/v1/analyze?version=2018-09-21" \
+--request POST \
+--header "Content-Type: application/json" \
+--data @parameters.json
+
 ```
 {: pre}

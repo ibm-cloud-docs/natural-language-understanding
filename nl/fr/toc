@@ -1,64 +1,60 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="natural-language-understanding" audience="service" href="/docs/services/natural-language-understanding/getting-started.html"}
+{: .toc subcollection="natural-language-understanding" audience="service" arm="1919676" href="/docs/services/natural-language-understanding/getting-started.html" path="services/natural-language-understanding"}
 Natural Language Understanding
 
     {: .navgroup id="learn"}
     getting-started.md
     index.md
-    [Démonstration](https://natural-language-understanding-demo.ng.bluemix.net/)
+
+[Démonstration](https://natural-language-understanding-demo.ng.bluemix.net/)
     additional-resources.md
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
+    analyzing-webpages.md
     customizing.md
     overriding-language-detection.md
-    migrating.md
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
-    [Référence d'API](https://www.ibm.com/watson/developercloud/natural-language-understanding/api/v1/)
+    [Référence d'API](https://cloud.ibm.com/apidocs/natural-language-understanding)
     categories.md
     detectable-languages.md
-    
+
     {: .topicgroup}
-    entity-types.md
+    Types d'entité
+        entity-types.md
         entity-types-v1.md
         entity-types-v2.md
 
     language-support.md
 
     {: .topicgroup}
-    relations.md
+    Types de relation
+        relations.md
         relations-v1.md
         relations-v2.md
-    
-    usage-limits.md
 
-    {: .topicgroup}
-    Logiciels SDK Watson
-        [SDK pour Android](https://github.com/watson-developer-cloud/android-sdk)
-        [SDK pour Java](https://github.com/watson-developer-cloud/java-sdk)
-        [SDK pour Node.js](https://github.com/watson-developer-cloud/node-sdk)
-        [SDK pour Python](https://github.com/watson-developer-cloud/python-sdk)
-        [SDK pour .NET](https://github.com/watson-developer-cloud/dotnet-standard-sdk)
-        [SDK pour OpenWhisk](https://github.com/watson-developer-cloud/openwhisk-sdk)
-        [SDK pour Salesforce](https://github.com/watson-developer-cloud/salesforce-sdk)
-        [SDK pour Swift](https://github.com/watson-developer-cloud/swift-sdk)
-        [SDK pour Unity](https://github.com/watson-developer-cloud/unity-sdk)
+    sample-apps.md
+    usage-limits.md
+    information-security.md
+    /watson/watson-using-sdks
 
     [Référentiels GitHub Watson](https://github.com/watson-developer-cloud/)
     {: .navgroup-end}
 
     {: .navgroup id="help"}
     release-notes.md
+    troubleshooting.md
+    pricing.md
 
     {: .topicgroup}
     Communauté des développeurs
         [StackOverflow](https://stackoverflow.com/questions/tagged/watson-nlu)
-        [developerWorks Answers](https://developer.ibm.com/answers/topics/natural-language-understanding/)
-        [Chaîne WDC Slack](http://wdc-slack-inviter.mybluemix.net/)
+        [IBM Developer Answers](https://developer.ibm.com/answers/topics/natural-language-understanding/)
+        [WDC Slack channel](http://wdc-slack-inviter.mybluemix.net/)
 
     {: .navgroup-end}
 

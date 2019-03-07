@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2018-03-16"
+  years: 2015, 2019
+lastupdated: "2019-02-21"
 
 ---
 
@@ -17,17 +17,18 @@ lastupdated: "2018-03-16"
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-# エンティティーのタイプとサブタイプ (バージョン 1)
+# エンティティー・タイプ (バージョン 1)
+{: #entity-types-version-1}
 
 下表に、_バージョン 1_ エンティティー・タイプ・システムで使用されるエンティティーのタイプとサブタイプを示します。
 {: shortdesc}
 
-{{site.data.keyword.nlushort}} で使用されるエンティティー・タイプ・システムは、使用しているバージョン日付と言語によって異なります。詳しくは、[『エンティティーのタイプとサブタイプ』](entity-types.html)ページを参照してください。
+{{site.data.keyword.nlushort}} で使用されるエンティティー・タイプ・システムは、使用しているバージョン日付と言語によって異なります。 詳しくは、[エンティティー・タイプ・システム](/docs/services/natural-language-understanding?topic=natural-language-understanding-entity-type-systems)ページを参照してください。
 
 ## エンティティー・タイプ
 {: #entity-types}
 
-| エンティティー・タイプ|
+| エンティティー・タイプ       |
 |-------------------|
 | Anatomy           |
 | Award             |
@@ -59,7 +60,7 @@ lastupdated: "2018-03-16"
 ## エンティティー・サブタイプ
 {: #entity-subtypes}
 
-| エンティティー・サブタイプ|
+| エンティティー・サブタイプ                      |
 |-------------------------------------|
 | AbusedSubstance                     |
 | Academic                            |
@@ -186,6 +187,7 @@ lastupdated: "2018-03-16"
 | ConferenceSeries                    |
 | ConsumerProduct                     |
 | ContentLicense                      |
+| Continent                           |
 | Country                             |
 | CranialNerve                        |
 | CreativeWork                        |
@@ -494,3 +496,71 @@ lastupdated: "2018-03-16"
 | WineRegion                          |
 | WorkOfFiction                       |
 | Writer                              |
+
+## Relations エンティティー・タイプ
+{: #relations-entity-types}
+
+関係もサポートする_バージョン 1_ のエンティティー・タイプ・システムを使用する言語では、関係の結果に、エンティティーの結果で返されるエンティティー・タイプとは異なるエンティティー・タイプが含まれます。それらの関係のエンティティーのタイプをエンティティーの結果に含めて返すには、`entities` フィーチャーの `model` オプションに以下のパブリック・エンティティー・モデルのいずれかを指定して、デフォルトのエンティティー検出モデルをオーバーライドします。
+
+|モデル ID|説明|
+|--------|-----------|
+|ar-news|アラビア語ニュース|
+|en-news|英語ニュース|
+|es-news|スペイン語ニュース|
+
+Relations エンティティー・モデルでは、以下のエンティティー・タイプを検出できます。
+
+|エンティティー・タイプ|
+|---|
+|Age|
+|Anatomy|
+|Animal|
+|Award|
+|Cardinal|
+|Crime|
+|Date|
+|Degree|
+|Duration|
+|EmailAddress|
+|Event|
+|EventBusiness|
+|EventCommunication|
+|EventCustody|
+|EventDemonstration|
+|EventEducation|
+|EventElection|
+|EventGathering|
+|EventLegal|
+|EventLegislation|
+|EventMeeting|
+|EventPerformance|
+|EventPersonnel|
+|EventViolence|
+|Facility|
+|Food|
+|GeographicFeature|
+|GeopoliticalEntity|
+|HealthCondition|
+|Law|
+|Location|
+|Money|
+|Measure|
+|NaturalEvent|
+|Organization|
+|Ordinal|
+|Percent|
+|Person|
+|Phone|
+|Plant|
+|Product|
+|SportingEvent|
+|Substance|
+|Ticker|
+|Time|
+|TitleWork|
+|Vehicle|
+|Weapon|
+|Weather|
+|Web|
+
+

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-12-15"
+  years: 2015, 2019
+lastupdated: "2019-02-25"
 
 ---
 
@@ -18,16 +18,17 @@ lastupdated: "2017-12-15"
 {:swift: .ph data-hd-programlang='swift'}
 
 # 감지 가능 언어
+{: #detectable-languages}
 
 텍스트나 웹 페이지를 분석할 때 NLU(Natural Language Understanding)에서 소스 언어를 자동으로 감지하고 응답으로 해당 ISO 639-1 코드를 리턴합니다. 자동 언어 감지가 최상으로 작동하려면 100자 이상의 텍스트를 사용하는 것이 좋습니다.
 {: shortdesc}
 
-사용자의 유스 케이스에 자동 언어 감지가 제대로 작동하지 않는 경우 각 요청에서 [수동으로 컨텐츠의 언어를 지정](/docs/services/natural-language-understanding/overriding-language-detection.html)하십시오.
+사용자의 유스 케이스에 자동 언어 감지가 제대로 작동하지 않는 경우 각 요청에서 [수동으로 컨텐츠의 언어를 지정](/docs/services/natural-language-understanding?topic=natural-language-understanding-overriding-language-detection)하십시오.
 {: tip}
 
 다음 표에서는 감지 가능한 언어와 해당 ISO 639-1 코드를 나열합니다.
 
-|언어        |ISO 639-1 코드|
+|언어    |ISO 639-1 코드|
 |------------|------|
 |아프리칸스어|af|
 |알바니아어|sq|

@@ -18,6 +18,7 @@ lastupdated: "2017-10-23"
 {:swift: .ph data-hd-programlang='swift'}
 
 # Jerarquía de categorías
+{: #categories-hierarchy}
 
 La tabla siguiente muestra las categorías que devuelve la característica de categorías de {{site.data.keyword.nlushort}}. Puede descargar aquí una hoja de cálculo con esta información: <a target="_blank" href="https://watson-developer-cloud.github.io/doc-tutorial-downloads/natural-language-understanding/categories-hierarchy.xlsx" download>XLSX <img src="../../icons/launch-glyph.svg" alt="Icono de enlace externo" title="Icono de enlace externo" class="style-scope doc-content"></a>.
 {: shortdesc}

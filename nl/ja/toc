@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="natural-language-understanding" audience="service" href="/docs/services/natural-language-understanding/getting-started.html"}
+{: .toc subcollection="natural-language-understanding" audience="service" arm="1919676" href="/docs/services/natural-language-understanding/getting-started.html" path="services/natural-language-understanding"}
 Natural Language Understanding
 
     {: .navgroup id="learn"}
@@ -12,53 +12,48 @@ Natural Language Understanding
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
+    analyzing-webpages.md
     customizing.md
     overriding-language-detection.md
-    migrating.md
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
-    [API リファレンス](https://www.ibm.com/watson/developercloud/natural-language-understanding/api/v1/)
+    [API リファレンス](https://cloud.ibm.com/apidocs/natural-language-understanding)
     categories.md
     detectable-languages.md
-    
+
     {: .topicgroup}
-    entity-types.md
+    エンティティー・タイプ
+        entity-types.md
         entity-types-v1.md
         entity-types-v2.md
 
     language-support.md
 
     {: .topicgroup}
-    relations.md
+    関係タイプ
+        relations.md
         relations-v1.md
         relations-v2.md
-    
-    usage-limits.md
 
-    {: .topicgroup}
-    Watson SDK
-        [Android SDK](https://github.com/watson-developer-cloud/android-sdk)
-        [Java SDK](https://github.com/watson-developer-cloud/java-sdk)
-        [Node.js SDK](https://github.com/watson-developer-cloud/node-sdk)
-        [Python SDK](https://github.com/watson-developer-cloud/python-sdk)
-        [.NET SDK](https://github.com/watson-developer-cloud/dotnet-standard-sdk)
-        [OpenWhisk SDK](https://github.com/watson-developer-cloud/openwhisk-sdk)
-        [Salesforce SDK](https://github.com/watson-developer-cloud/salesforce-sdk)
-        [Swift SDK](https://github.com/watson-developer-cloud/swift-sdk)
-        [Unity SDK](https://github.com/watson-developer-cloud/unity-sdk)
+    sample-apps.md
+    usage-limits.md
+    information-security.md
+    /watson/watson-using-sdks
 
     [Watson GitHub リポジトリー](https://github.com/watson-developer-cloud/)
     {: .navgroup-end}
 
     {: .navgroup id="help"}
     release-notes.md
+    troubleshooting.md
+    pricing.md
 
     {: .topicgroup}
     開発者コミュニティー
         [StackOverflow](https://stackoverflow.com/questions/tagged/watson-nlu)
-        [developerWorks Answers](https://developer.ibm.com/answers/topics/natural-language-understanding/)
-        [WDC Slack チャネル](http://wdc-slack-inviter.mybluemix.net/)
+        [IBM Developer Answers](https://developer.ibm.com/answers/topics/natural-language-understanding/)
+        [WDC Slack channel](http://wdc-slack-inviter.mybluemix.net/)
 
     {: .navgroup-end}
 

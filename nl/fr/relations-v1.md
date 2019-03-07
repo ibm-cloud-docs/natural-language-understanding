@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2018-03-16"
+  years: 2015, 2019
+lastupdated: "2019-02-25"
 
 ---
 
@@ -10,6 +10,7 @@ lastupdated: "2018-03-16"
 {:new_window: target="_blank"}
 {:tip: .tip}
 {:pre: .pre}
+{:note: .note}
 {:codeblock: .codeblock}
 {:screen: .screen}
 {:javascript: .ph data-hd-programlang='javascript'}
@@ -18,9 +19,13 @@ lastupdated: "2018-03-16"
 {:swift: .ph data-hd-programlang='swift'}
 
 # Types de relation (version 1)
+{: #relation-types-version-1}
 
-Le tableau ci-dessous répertorie les types de relation renvoyés par le système de types de relation de _version 1_. Le système de types de relation que {{site.data.keyword.nlushort}} utilise varie en fonction de la langue que vous employez. Pour plus de détails, voir la page [Types de relation](relations.html).
+Le tableau ci-dessous répertorie les types de relation renvoyés par le système de types de relation de _version 1_. Le système de types de relation que {{site.data.keyword.nlushort}} utilise varie en fonction de la langue que vous employez. Pour plus de détails, voir la page [Systèmes de types de relation](/docs/services/natural-language-understanding?topic=natural-language-understanding-relation-type-systems).
 {: shortdesc}
+
+Dans le système de type _Version 1_, les types d'entité dans les résultats des relations sont différents de ceux renvoyés dans les résultats des entités. Pour voir la liste des types d'entité utilisés dans les relations _Version 1_, voir la page [Types d'entité (Version 1)](/docs/services/natural-language-understanding?topic=natural-language-understanding-entity-types-version-1#relations-entity-types).
+{: note}
 
 | Relation        | Description                                                                                                                                                                                                        |
 |-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -33,7 +38,7 @@ Le tableau ci-dessous répertorie les types de relation renvoyés par le systèm
 | awardedTo       | Existe entre une récompense ou un diplôme et la personne ou l'organisation à laquelle cette récompense ou ce diplôme a été remis.                                                                                                             |
 | basedIn         | Existe entre une organisation et l'emplacement où elle se trouve principalement, uniquement, ou intrinsèquement.                                                                                                                   |
 | before          | Représente la relation temporelle "avant" entre deux périodes ou événements. Marquée uniquement lorsque le texte spécifie clairement la relation.                                                                                      |
-| bornAt          | Existe entre une personne ou un animal et son lieu de naissance.|
+| bornAt          | Existe entre une personne ou un animal et son lieu de naissance.                                                                                                                                     |
 | bornOn          | Existe entre une personne ou un animal et la date ou l'heure de sa naissance.                                                                                                                           |
 | capitalOf       | Existe entre une capitale et son pays ou état ou province. Marquée uniquement lorsque le texte indique explicitement la relation ; ne requiert aucune connaissance du monde.                                                              |
 | citizenOf       | Existe entre une personne et l'entité géopolitique dont cette personne est citoyenne.                                                                                                                                |
@@ -49,7 +54,7 @@ Le tableau ci-dessous répertorie les types de relation renvoyés par le systèm
 | employedBy      | Existe entre deux entités lorsque l'une d'entre d'elles paie pour certains travaux ou services ; une récompense financière doit être impliquée. Dans de nombreuses circonstances, le marquage de cette relation requiert une certaine connaissance du monde.                         |
 | foundedOn       | Existe entre une entité, par exemple une organisation, et la date ou l'heure à laquelle elle a été fondée.                                                                                                                     |
 | founderOf       | Existe entre une personne ou une entité géopolitique et une entité, par exemple une organisation, qu'elle a fondée.                                                                                                                          |
-| hasDisease      | Indique qu'un ndividu ou un animal est ou était atteint d'une maladie.                                                                                                                                                            |
+| hasDisease      | Indique qu'un individu ou un animal est ou était atteint d'une maladie.                                                                                                                                                            |
 | hasMoney        | Indique qu'une entité, par exemple une personne, est ou était riche.                                                                                                                                                        |
 | instrumentOf    | Existe entre une entité, par exemple une arme, et un événement que l'entité a ou avait pour habitude de déclencher.                                                                                                              |
 | locatedAt       | Existe entre une entité et son emplacement physique.                                                                                                                                                                |
@@ -77,69 +82,3 @@ Le tableau ci-dessous répertorie les types de relation renvoyés par le systèm
 | spouseOf        | Existe entre deux personnes qui sont des époux formels.                                                                                                                                                      |
 | subsidiaryOf    | Existe entre deux organisations lorsque la première est une filiale de la seconde, la première entité étant relativement autonome bien que sous le contrôle de la seconde.                               |
 | timeOf          | Indique la date, l'heure ou la durée d'un événement ; une entité TitleWork a été publiée, effectuée ou diffusée ou une loi a d'abord été élaborée, créée, votée ou abrogée.                            |
-
-## Types d'entité propres à des relations 
-
-Les types d'entité impliqués dans le système de types de relation de _version 1_ sont différents des types d'entité impliqués dans le système de types d'entité par défaut. Vous pouvez spécifier l'un des modèles d'entité relations suivant dans le paramètre `model` pour la fonction `entities` afin de remplacer le modèle de détection d'entité par défaut. 
-
-|ID de modèle|Description|
-|--------|-----------|
-|ar-news|Actualités en arabe|
-|en-news|Actualités en anglais|
-|es-news|Actualités en espagnol|
-
-Les entités suivantes peuvent être identifiées avec les modèles `relations` : 
-
-|Type d'entité|
-|---|
-|Age|
-|Anatomy|
-|Animal|
-|Award|
-|Cardinal|
-|Crime|
-|Date|
-|Degree|
-|Duration|
-|EmailAddress|
-|Event|
-|EventBusiness|
-|EventCommunication|
-|EventCustody|
-|EventDemonstration|
-|EventEducation|
-|EventElection|
-|EventGathering|
-|EventLegal|
-|EventLegislation|
-|EventMeeting|
-|EventPerformance|
-|EventPersonnel|
-|EventViolence|
-|Facility|
-|Food|
-|GeographicFeature|
-|GeopoliticalEntity|
-|HealthCondition|
-|Law|
-|Location|
-|Money|
-|Measure|
-|NaturalEvent|
-|Organization|
-|Ordinal|
-|Percent|
-|Person|
-|Phone|
-|Plant|
-|Product|
-|SportingEvent|
-|Substance|
-|Ticker|
-|Time|
-|TitleWork|
-|Vehicle|
-|Weapon|
-|Weather|
-|Web|
-

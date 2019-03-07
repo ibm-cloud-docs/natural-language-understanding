@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-03-16"
+  years: 2015, 2019
+lastupdated: "2019-02-25"
 
 ---
 
@@ -18,15 +18,17 @@ lastupdated: "2018-03-16"
 {:swift: .ph data-hd-programlang='swift'}
 
 # Nutzungsbeschränkungen
+{: #usage-limits}
 
 Für {{site.data.keyword.nlushort}}-Serviceinstanzen gelten folgende Nutzungsbeschränkungen und Einschränkungen.
 {: shortdesc}
 
 ## Begrenzung für analysierten Text
+{: #analyzed-text}
 
 {{site.data.keyword.nlushort}} schneidet analysierten Text ab, der mehr als 50.000 Einzelbyte- oder Mehrbytezeichen enthält. Zur Anzeige von Text in Ihren Anforderungen, der sich diesem Grenzwert nähert, setzen Sie den Parameter `return_analyzed_text` auf `true`.
 
-Mit dem Parameter `limit_text_characters` können Sie die Zeichenbegrenzung verringern. Wenn Sie nur einen kleinen Anteil Ihres Inhalts analysieren müssen, können Sie auf diese Weise übermäßige Kosten vermeiden.
+Mit dem Parameter `limit_text_characters` können einen niedrigeren Grenzwert für die Zeichenbegrenzung festlegen. Wenn Sie nur einen kleinen Anteil Ihres Inhalts analysieren möchten, können Sie auf diese Weise übermäßige Kosten vermeiden.
 
 Objekt mit Beispielparametern:
 ```json
@@ -40,15 +42,21 @@ Objekt mit Beispielparametern:
 }
 ```
 
-## Begrenzung für gleichzeitige Anforderungen
+## Grenzwert für die Anzahl gleichzeitiger Anforderungen
+{: #concurrent-requests}
 
-Jede {{site.data.keyword.nlushort}}-Serviceinstanz ist auf 30 gleichzeitige Anforderungen begrenzt. Diese Begrenzung kann sich bei Serviceinstanzen des Lite- und des Standard-Plans und bei der Verarbeitung von außergewöhnlich hohem Datenverkehr durch das System verringert sein. Eine Anwendung zum Beispiel, die 35 gleichzeitige Anforderungen an eine einzige Serviceinstanz stellt, überschreitet den Grenzwert für gleichzeitige Anforderungen um fünf Anforderungen, weshalb für fünf dieser Anforderungen der Fehler `429: Zu viele Anforderungen` zurückgegeben wird.
+Für jede {{site.data.keyword.nlushort}}-Serviceinstanz gilt ein Grenzwert von 30 gleichzeitigen Anforderungen. Bei Serviceinstanzen des Lite- und des Standard-Plans kann dieser Grenzwert sinken, wenn im System außergewöhnlich hoher Datenverkehr auftritt. Eine Anwendung, die 35 gleichzeitige Anforderungen von einer einzigen Serviceinstanz stellt, überschreitet  zum Beispiel den Grenzwert für gleichzeitige Anforderungen um fünf Anforderungen. Aus diesem Grund wird für fünf Anforderungen der Fehler `429: Zu viele Anforderungen` zurückgegeben.
 
-Um die Begrenzung für gleichzeitige Anforderungen zu erhöhen, [öffnen Sie ein Support-Ticket](https://ibm.biz/ibmcloudsupport).
+Wenn Sie einen höheren Grenzwert für gleichzeitige Anforderungen festlegen wollen, [öffnen Sie ein Support-Ticket](https://ibm.biz/ibmcloudsupport).
 
+## Größenbegrenzung des angepassten Modells für Lite-Preistarife
+{: #custom-models}
+
+Für angepasste {{site.data.keyword.knowledgestudioshort}}-Modelle, die im Rahmen von Lite-Preistarifen auf Serviceinstanzen von {{site.data.keyword.nlushort}} bereitgestellt werden, gelten Größenbeschränkungen. Diese Größenbeschränkung für angepasste Modelle können Sie entfernen, indem Sie für Ihre Serviceinstanz von {{site.data.keyword.nlushort}} ein Upgrade auf einen gebührenpflichtigen Preistarif durchführen. Ihre Serviceinstanzen werden auf der {{site.data.keyword.cloud_notm}} [Seite 'Ressourcen'](https://{DomainName}/resources) aufgelistet.
 
 ## Sprachunterstützung
+{: #language-support}
 
-Je nach Art der Nutzung des Service gelten unterschiedliche Spracheinschränkungen. Details hierzu finden Sie auf der Seite [Sprachunterstützung](language-support.html).
+Je nach Art der Nutzung des Service gelten unterschiedliche Spracheinschränkungen. Details hierzu finden Sie auf der Seite [Sprachunterstützung](/docs/services/natural-language-understanding?topic=natural-language-understanding-language-support).
 
 

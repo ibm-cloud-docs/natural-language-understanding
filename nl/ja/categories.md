@@ -18,12 +18,12 @@ lastupdated: "2017-10-23"
 {:swift: .ph data-hd-programlang='swift'}
 
 # カテゴリー階層
+{: #categories-hierarchy}
 
-次の表は、{{site.data.keyword.nlushort}} カテゴリー・フィーチャーによって返されるカテゴリーを示しています。
-この情報が記載されたスプレッドシートは、こちらの <a target="_blank" href="https://watson-developer-cloud.github.io/doc-tutorial-downloads/natural-language-understanding/categories-hierarchy.xlsx" download>XLSX <img src="../../icons/launch-glyph.svg" alt="外部リンク・アイコン" title="外部リンク・アイコン" class="style-scope doc-content"></a> からダウンロードできます。
+次の表は、{{site.data.keyword.nlushort}} カテゴリー・フィーチャーによって返されるカテゴリーを示しています。 この情報が記載されたスプレッドシートは、こちらの <a target="_blank" href="https://watson-developer-cloud.github.io/doc-tutorial-downloads/natural-language-understanding/categories-hierarchy.xlsx" download>XLSX <img src="../../icons/launch-glyph.svg" alt="外部リンク・アイコン" title="外部リンク・アイコン" class="style-scope doc-content"></a> からダウンロードできます。
 {: shortdesc}
 
-| LEVEL 1                   | LEVEL 2                                | LEVEL 3                                | LEVEL 4                        | LEVEL 5                       |
+| レベル 1                   | レベル 2                                | レベル 3                                | レベル 4                        | レベル 5                       |
 | ------------------------- | -------------------------------------- | -------------------------------------- | ------------------------------ | ----------------------------- |
 | art and entertainment     | books and literature                   | best-sellers                           |                                |                               |
 | art and entertainment     | books and literature                   | children's books                       |                                |                               |

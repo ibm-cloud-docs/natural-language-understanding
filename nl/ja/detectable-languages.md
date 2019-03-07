@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-12-15"
+  years: 2015, 2019
+lastupdated: "2019-02-25"
 
 ---
 
@@ -18,16 +18,17 @@ lastupdated: "2017-12-15"
 {:swift: .ph data-hd-programlang='swift'}
 
 # 検出可能言語
+{: #detectable-languages}
 
-テキストまたは Web ページを分析する場合、Natural Language Understanding はソース言語を自動的に検出し、対応する ISO 639-1 コードを応答で返します。自動言語検出を最もよく機能させるには、100 文字以上のテキストを使用することをお勧めします。
+テキストまたは Web ページを分析する場合、Natural Language Understanding はソース言語を自動的に検出し、対応する ISO 639-1 コードを応答で返します。 自動言語検出を最もよく機能させるには、100 文字以上のテキストを使用することをお勧めします。
 {: shortdesc}
 
-自動言語検出がお客様のユース・ケースでうまく機能しない場合は、要求ごとに[手動でコンテンツの言語を指定](/docs/services/natural-language-understanding/overriding-language-detection.html)することができます。
+自動言語検出がお客様のユース・ケースでうまく機能しない場合は、要求ごとに[手動でコンテンツの言語を指定](/docs/services/natural-language-understanding?topic=natural-language-understanding-overriding-language-detection)することができます。
 {: tip}
 
 下表に、検出可能言語と、それに対応する ISO 639-1 コードを示します。
 
-|言語|ISO 639-1 コード|
+|言語    |ISO 639-1 コード|
 |------------|------|
 |アフリカーンス語|af|
 |アルバニア語|sq|

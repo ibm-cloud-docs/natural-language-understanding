@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-07-21"
+  years: 2015, 2019
+lastupdated: "2019-02-25"
 
 ---
 
@@ -18,6 +18,7 @@ lastupdated: "2017-07-21"
 {:swift: .ph data-hd-programlang='swift'}
 
 # 言語検出のオーバーライド
+{: #overriding-language-detection}
 
 `/analyze` 要求内の自動言語検出をオーバーライドするには、`parameters` JSON オブジェクトの `language` 属性で言語コードを指定します。
 
@@ -37,10 +38,11 @@ ___parameters.json_ ファイルの例:__
 __curl 要求の例:__
 
 ```bash
-curl -X POST \
--H "Content-Type: application/json" \
--u "{username}":"{password}" \
--d @parameters.json \
-"https://gateway.watsonplatform.net/natural-language-understanding/api/v1/analyze?version=2017-02-27"
+curl --user "apikey:{apikey}" \
+"{url}/v1/analyze?version=2018-09-21" \
+--request POST \
+--header "Content-Type: application/json" \
+--data @parameters.json
+
 ```
 {: pre}

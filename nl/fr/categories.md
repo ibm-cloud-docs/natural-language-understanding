@@ -18,6 +18,7 @@ lastupdated: "2017-10-23"
 {:swift: .ph data-hd-programlang='swift'}
 
 # Hiérarchie de catégories
+{: #categories-hierarchy}
 
 Le tableau ci-dessous présente les catégories qui sont renvoyées par la fonction des catégories de {{site.data.keyword.nlushort}}. Vous pouvez télécharger une feuille de calcul contenant ces informations ici : <a target="_blank" href="https://watson-developer-cloud.github.io/doc-tutorial-downloads/natural-language-understanding/categories-hierarchy.xlsx" download>XLSX <img src="../../icons/launch-glyph.svg" alt="Icône de lien externe" title="Icône de lien externe" class="style-scope doc-content"></a>.
 {: shortdesc}

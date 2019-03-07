@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-11-28"
+  years: 2015, 2019
+lastupdated: "2019-02-25"
 
 ---
 
@@ -31,7 +31,7 @@ Envíe solicitudes a la API con texto, HTML o un URL público y especifique uno 
 ### Categorías
 {: #categories}
 
-Categorice el contenido utilizando una jerarquía de clasificación de cinco niveles. Consulte [aquí](/docs/services/natural-language-understanding/categories.html) la lista completa de categorías. Por ejemplo:
+Categorice el contenido utilizando una jerarquía de clasificación de cinco niveles. Consulte [aquí](/docs/services/natural-language-understanding?topic=natural-language-understanding-categories-hierarchy) la lista completa de categorías. Por ejemplo:
 
 **Entrada**
 > url: "www.cnn.com"
@@ -72,7 +72,7 @@ Analice la emoción transmitida por frases de destino específicas o por el docu
 ### Entidades
 {: #entities}
 
-Busque personas, lugares, sucesos y otros tipos de entidades mencionadas en el contenido. Consulte [aquí](/docs/services/natural-language-understanding/entity-types.html) la lista completa de tipos y subtipos de entidad. Por ejemplo:
+Busque personas, lugares, sucesos y otros tipos de entidades mencionadas en el contenido. Consulte [aquí](/docs/services/natural-language-understanding?topic=natural-language-understanding-entity-type-systems) la lista completa de tipos y subtipos de entidad. Por ejemplo:
 
 **Entrada**
 > text: "IBM is an American multinational technology company headquartered in Armonk, New York, United States, with operations in over 170 countries."
@@ -148,9 +148,4 @@ Analice el sentimiento de frases de destino específicas y el sentimiento del do
 ## Idiomas soportados
 {: #supported-languages}
 
-Consulte la [documentación de soporte de idiomas](/docs/services/natural-language-understanding/language-support.html) para obtener detalles sobre los idiomas soportados en {{site.data.keyword.nlushort}}.
-
-## Tarifas
-{: #pricing}
-
-Para obtener información sobre precios, consulte el [servicio {{site.data.keyword.nlushort}}](https://console.bluemix.net/catalog/services/natural-language-understanding) en el catálogo de {{site.data.keyword.cloud}}.
+Consulte la [documentación de soporte de idiomas](/docs/services/natural-language-understanding?topic=natural-language-understanding-language-support) para obtener detalles sobre los idiomas soportados en {{site.data.keyword.nlushort}}.

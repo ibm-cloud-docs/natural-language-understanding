@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-07-21"
+  years: 2015, 2019
+lastupdated: "2019-02-25"
 
 ---
 
@@ -18,6 +18,7 @@ lastupdated: "2017-07-21"
 {:swift: .ph data-hd-programlang='swift'}
 
 # Sovrascrittura del rilevamento della lingua
+{: #overriding-language-detection}
 
 Per sovrascrivere il rilevamento della lingua automatico nelle richieste `/analyze`, specifica un codice lingua nell'attributo `language` dell'oggetto JSON `parameters`.
 
@@ -37,10 +38,11 @@ __File _parameters.json_ di esempio__
 __Richiesta curl di esempio__
 
 ```bash
-curl -X POST \
--H "Content-Type: application/json" \
--u "{username}":"{password}" \
--d @parameters.json \
-"https://gateway.watsonplatform.net/natural-language-understanding/api/v1/analyze?version=2017-02-27"
+curl --user "apikey:{apikey}" \
+"{url}/v1/analyze?version=2018-09-21" \
+--request POST \
+--header "Content-Type: application/json" \
+--data @parameters.json
+
 ```
 {: pre}
