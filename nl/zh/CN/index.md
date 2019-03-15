@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-11-28"
+  years: 2015, 2019
+lastupdated: "2019-02-25"
 
 ---
 
@@ -31,7 +31,7 @@ lastupdated: "2017-11-28"
 ### 类别
 {: #categories}
 
-使用五级分类层次结构对内容进行分类。在[此处](/docs/services/natural-language-understanding/categories.html)查看完整的类别列表。例如：
+使用五级分类层次结构对内容进行分类。在[此处](/docs/services/natural-language-understanding?topic=natural-language-understanding-categories-hierarchy)查看完整的类别列表。例如：
 
 **输入**
 > url: "www.cnn.com"
@@ -72,7 +72,7 @@ lastupdated: "2017-11-28"
 ### 实体
 {: #entities}
 
-查找内容中提及的人员、场所、事件和其他类型的实体。在[此处](/docs/services/natural-language-understanding/entity-types.html)查看实体类型和子类型的完整列表。例如：
+查找内容中提及的人员、场所、事件和其他类型的实体。在[此处](/docs/services/natural-language-understanding?topic=natural-language-understanding-entity-type-systems)查看实体类型和子类型的完整列表。例如：
 
 **输入**
 > text: "IBM is an American multinational technology company headquartered in Armonk, New York, United States, with operations in over 170 countries."
@@ -148,9 +148,4 @@ lastupdated: "2017-11-28"
 ## 支持的语言
 {: #supported-languages}
 
-有关 {{site.data.keyword.nlushort}} 中支持的语言的详细信息，请参阅[语言支持文档](/docs/services/natural-language-understanding/language-support.html)。
-
-## 定价
-{: #pricing}
-
-有关定价信息，请参阅 {{site.data.keyword.cloud}}“目录”中的 [{{site.data.keyword.nlushort}} 服务](https://console.bluemix.net/catalog/services/natural-language-understanding)。
+有关 {{site.data.keyword.nlushort}} 中支持的语言的详细信息，请参阅[语言支持文档](/docs/services/natural-language-understanding?topic=natural-language-understanding-language-support)。

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-12-15"
+  years: 2015, 2019
+lastupdated: "2019-02-25"
 
 ---
 
@@ -18,11 +18,12 @@ lastupdated: "2017-12-15"
 {:swift: .ph data-hd-programlang='swift'}
 
 # 可检测到的语言
+{: #detectable-languages}
 
 分析文本或 Web 页面时，Natural Language Understanding 会自动检测源语言，并在响应中返回相应的 ISO 639-1 代码。为了使自动语言检测以最佳方式工作，建议您使用至少包含 100 个字符的文本。
 {: shortdesc}
 
-如果自动语言检测对于您的用例表现不如意，您可以在每个请求中[手动指定内容的语言](/docs/services/natural-language-understanding/overriding-language-detection.html)。
+如果自动语言检测对于您的用例表现不如意，您可以在每个请求中[手动指定内容的语言](/docs/services/natural-language-understanding?topic=natural-language-understanding-overriding-language-detection)。
 {: tip}
 
 下表列出了可检测到的语言和相应的 ISO 639-1 代码。

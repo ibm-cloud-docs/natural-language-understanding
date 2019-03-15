@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-12-15"
+  years: 2015, 2019
+lastupdated: "2019-02-25"
 
 ---
 
@@ -18,11 +18,12 @@ lastupdated: "2017-12-15"
 {:swift: .ph data-hd-programlang='swift'}
 
 # 可偵測語言
+{: #detectable-languages}
 
 當您分析文字或網頁時，Natural Language Understanding 會自動偵測來源語言，並在回應中傳回對應的 ISO 639-1 代碼。為了讓自動語言偵測能發揮最佳效果，建議您使用至少含有 100 個字元的文字。
 {: shortdesc}
 
-如果自動語言偵測不適合您的使用案例，您可以在每一個要求中[手動指定內容語言](/docs/services/natural-language-understanding/overriding-language-detection.html)。
+如果自動語言偵測不適合您的使用案例，您可以在每一個要求中[手動指定內容語言](/docs/services/natural-language-understanding?topic=natural-language-understanding-overriding-language-detection)。
 {: tip}
 
 下表列出可偵測語言及對應的 ISO 639-1 代碼。
