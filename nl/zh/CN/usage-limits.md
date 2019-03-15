@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-03-16"
+  years: 2015, 2019
+lastupdated: "2019-02-25"
 
 ---
 
@@ -18,11 +18,13 @@ lastupdated: "2018-03-16"
 {:swift: .ph data-hd-programlang='swift'}
 
 # 使用限制
+{: #usage-limits}
 
 以下使用限制和局限性适用于 {{site.data.keyword.nlushort}} 服务实例。
 {: shortdesc}
 
 ## 对所分析文本的限制
+{: #analyzed-text}
 
 如果所分析的文本中包含的单字节或多字节字符数超过 50,000 个，那么 {{site.data.keyword.nlushort}} 会截断该文本。要在请求中查看计入此限制的文本，请将 `return_analyzed_text` 参数设置为 `true`。
 
@@ -41,14 +43,20 @@ lastupdated: "2018-03-16"
 ```
 
 ## 并发请求限制
+{: #concurrent-requests}
 
 每个 {{site.data.keyword.nlushort}} 服务实例的并发请求数限制为 30 个。在系统遇到异常繁忙的流量时，对于轻量套餐和标准套餐上的服务实例，此限制可能会降低。例如，如果一个应用程序从单个服务实例同时发出 35 个请求，这比并发请求限制多出 5 个请求，因此会有 5 个请求返回 `429: 请求太多`错误。
 
 要增大并发请求限制，请[开具支持凭单](https://ibm.biz/ibmcloudsupport)。
 
+## 轻量价格套餐的定制模型大小限制
+{: #custom-models}
+
+在轻量价格套餐中，对于部署到 {{site.data.keyword.nlushort}} 服务实例的 {{site.data.keyword.knowledgestudioshort}} 定制模型，存在大小限制。要除去定制模型大小限制，请将 {{site.data.keyword.nlushort}} 服务实例升级到付费价格套餐。您可以在 {{site.data.keyword.cloud_notm}} [资源页面](https://{DomainName}/resources)上找到服务实例。
 
 ## 语言支持
+{: #language-support}
 
-根据您使用服务的方式，不同的语言限制适用。有关详细信息，请参阅[语言支持](language-support.html)页面。
+根据您使用服务的方式，不同的语言限制适用。有关详细信息，请参阅[语言支持](/docs/services/natural-language-understanding?topic=natural-language-understanding-language-support)页面。
 
 

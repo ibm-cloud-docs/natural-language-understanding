@@ -1,89 +1,108 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-11-03"
+  years: 2015, 2018
+lastupdated: "2018-12-19"
 
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 {:tip: .tip}
+{:important: .important}
+{:note: .note}
+{:deprecated: .deprecated}
 {:pre: .pre}
 {:codeblock: .codeblock}
 {:screen: .screen}
 {:javascript: .ph data-hd-programlang='javascript'}
+{:go: .ph data-hd-programlang='go'}
 {:java: .ph data-hd-programlang='java'}
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 {:download: .download}
+{:apikey: data-credential-placeholder='apikey'}
+{:url: data-credential-placeholder='url'}
+{:hide-dashboard: .hide-dashboard}
 
 # 入門指導教學
-在這份簡短的指導教學中，我們會分析一些範例文字的觀感，來介紹 {{site.data.keyword.nlushort}}。
+{: #getting-started}
+
+這個簡短的指導教學簡介了 {{site.data.keyword.nlushort}} API，其中包含範例要求和其他資源的鏈結。
 {:shortdesc}
 
 ## 開始之前
 {: #before-you-begin}
 
-- 建立服務的實例：
-    - {: download} 如果您看到此項目，則表示您已建立服務實例。現在請取得您的認證。
-    - 從服務中建立專案：
-        1.  移至 {{site.data.keyword.watson}} Developer Console [服務 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://console.{DomainName}/developer/watson/services){: new_window} 頁面。
-        1.  選取 {{site.data.keyword.nlushort}}，並按一下**新增服務**，然後註冊免費的 {{site.data.keyword.Bluemix_notm}} 帳戶，或是進行登入。
-        1.  鍵入 `sentiment-tutorial` 作為專案名稱，然後按一下**建立專案**。
+- {: hide-dashboard}建立服務的實例：
+    1.  移至「{{site.data.keyword.Bluemix_notm}} 型錄」中的 [{{site.data.keyword.nlushort}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://{DomainName}/catalog/services/natural-language-understanding){: new_window} 頁面。
+    2.  註冊免費的 {{site.data.keyword.Bluemix_notm}} 帳戶或登入。
+    3.  按一下**建立**。
 - 複製用來鑑別服務實例的認證：
-    - {: download} 從您正在查看的服務儀表板：
-        1.  按一下**服務認證**標籤。
-        1.  按一下**動作**底下的**檢視認證**。
-        1.  複製 `username`、`password` 及 `url` 值。
-        {: download}
-    - 從 Developer Console 的 **sentiment-tutorial** 專案中，複製**認證**區段之 `"natural_language_understanding"` 的 `username`、`password` 及 `url` 值。
-- 確定您有 cURL：
-    - 範例會使用 cURL 來呼叫 HTTP 介面的方法。從 [curl.haxx.se ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://curl.haxx.se/){: new_window} 安裝作業系統的版本。安裝支援 Secure Sockets Layer (SSL) 通訊協定的版本。請務必在 `PATH` 環境變數中包括已安裝的二進位檔。
+    1.  在**管理**頁面上，按一下**顯示**以檢視您的認證。
+    2.  複製 `API Key` 及 `URL` 值。
+- 確定您有 `curl` 指令：
+    - 這些範例會使用 `curl` 指令來呼叫 HTTP 介面的方法。從 [curl.haxx.se ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://curl.haxx.se/){: new_window} 安裝作業系統的版本。安裝支援 Secure Sockets Layer (SSL) 通訊協定的版本。請務必在 `PATH` 環境變數中包括已安裝的二進位檔。
 
-<!-- Remove this text after dedicated instances have the Developer Console: begin -->
+本指導教學教您如何從指令行介面使用 {{site.data.keyword.nlushort}} API。若要下載各種程式設計語言的用戶端程式庫，請參閱 [Watson SDK](/docs/services/natural-language-understanding?topic=watson-using-sdks#using-sdks)。
+{:tip}
 
-如果您使用 {{site.data.keyword.Bluemix_dedicated_notm}}，請從「型錄」的 [{{site.data.keyword.nlushort}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://console.{DomainName}/catalog/services/natural-language-understanding/){: new_window} 頁面建立服務實例。如需如何尋找服務認證的詳細資料，請參閱 [Watson 服務的服務認證 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](/docs/services/watson/getting-started-credentials.html#getting-credentials-manually){: new_window}。
-
-<!-- Remove this text after dedicated instances have the Developer Console: end -->
-
-## 步驟 1：分析範例內容的觀感
+## 步驟 1：分析網頁
 {: #analyze-sample}
 
-首先，分析部分範例文字的觀感。開啟指令行介面，並執行下列指令來呼叫 `GET /v1/analyze` 方法，以分析範例文字的觀感及關鍵字。將 `{username}` 及 `{password}` 取代為您在先前步驟中複製的服務認證：
+執行下列指令來分析網頁，以取得觀感、概念、種類、實體及關鍵字。<span class="hide-dashboard">將 `{apikey}` 及 `{url}` 取代為服務認證。</span>
 
 ```bash
-curl --user "{username}":"{password}" \
-"https://gateway.watsonplatform.net/natural-language-understanding/api/v1/analyze?version=2017-02-27&text=I%20still%20have%20a%20dream%2C%20a%20dream%20deeply%20rooted%20in%20the%20American%20dream%20%E2%80%93%20one%20day%20this%20nation%20will%20rise%20up%20and%20live%20up%20to%20its%20creed%2C%20%22We%20hold%20these%20truths%20to%20be%20self%20evident%3A%20that%20all%20men%20are%20created%20equal.&features=sentiment,keywords"
+curl -X POST -u "apikey:{apikey}"{: apikey} \
+"{url}/v1/analyze?version=2018-11-16"{: url} \
+--header "Content-Type: application/json" \
+--data '{
+  "url": "http://newsroom.ibm.com/Guerbet-and-IBM-Watson-Health-Announce-Strategic-Partnership-for-Artificial-Intelligence-in-Medical-Imaging-Liver",
+  "features": {
+    "sentiment": {},
+    "categories": {},
+    "concepts": {},
+    "entities": {},
+    "keywords": {}
+  }
+}'
 ```
 {:pre}
 
-## 步驟 2：傳回關鍵字資訊
-{: #analyze-keywords}
+下一步示範如何指定選項，以自訂每個特性的分析。
 
-先前的呼叫傳回了整段文字的觀感資訊。現在，請展開結果以傳回特定針對每個關鍵字的觀感分析。請包含 **keywords.sentiment** 參數並將它設為 `true`。將 `{username}` 及 `{password}` 取代為您的資訊。
-
-```bash
-curl --user "{username}":"{password}" \
-"https://gateway.watsonplatform.net/natural-language-understanding/api/v1/analyze?version=2017-02-27&text=I%20still%20have%20a%20dream%2C%20a%20dream%20deeply%20rooted%20in%20the%20American%20dream%20%E2%80%93%20one%20day%20this%20nation%20will%20rise%20up%20and%20live%20up%20to%20its%20creed%2C%20%22We%20hold%20these%20truths%20to%20be%20self%20evident%3A%20that%20all%20men%20are%20created%20equal.&features=sentiment,keywords&keywords.sentiment=true"
-```
-{:pre}
-
-## 步驟 3：以詞組為目標
+## 步驟 2：分析目標詞組及關鍵字
 {: #analyze-phrase}
 
-現在，以特定內容為目標，查看句子層次或片語層次的分析（而非文件或關鍵字分析），方法是在 **sentiment.targets** 參數中包含片語 `the%20American%20dream%20`。別忘了將 `{username}` 及 `{password}` 取代為您的資訊。
+{{site.data.keyword.nlushort}} 可以分析周圍文字上下文中的目標詞組，以取得重點觀感及情緒結果。下列範例中觀感的 **targets** 選項會告知服務搜尋 "apples"、"oranges" 及 "broccoli" 目標。因為 "apples" 及 "oranges" 位於文字中，所以會針對這些目標傳回觀感評分。
+
+您也可以針對文字中偵測到的實體和關鍵字，取得觀感及情緒結果。在此範例中，關鍵字的 **emotion** 選項會指示服務分析每個偵測到的關鍵字，以取得情緒結果。
 
 ```bash
-curl --user "{username}":"{password}" \
-"https://gateway.watsonplatform.net/natural-language-understanding/api/v1/analyze?version=2017-02-27&text=I%20still%20have%20a%20dream%2C%20a%20dream%20deeply%20rooted%20in%20the%20American%20dream%20one%20day%20this%20nation%20will%20rise%20up%20and%20live%20up%20to%20its%20creed%20We%20hold%20these%20truths%20to%20be%20self%20evident%3A%20that%20all%20men%20are%20created%20equal.&features=sentiment,keywords&keywords.sentiment=true&sentiment.targets=the%20American%20dream"
+curl -X POST -u "apikey:{apikey}"{: apikey} \
+"{url}/v1/analyze?version=2018-11-16"{: url} \
+--request POST \
+--header "Content-Type: application/json" \
+--data '{
+  "text": "I love apples! I do not like oranges.",
+  "features": {
+    "sentiment": {
+      "targets": [
+        "apples",
+        "oranges",
+        "broccoli"
+      ]
+    },
+    "keywords": {
+      "emotion": true
+    }
+  }
+}'
 ```
 {:pre}
 
 ## 後續步驟
 {: #next-steps}
 
-完成了！本指導教學勉強淺談了您可以用 {{site.data.keyword.nlushort}} 達成的事。如需 API 特性的相關資訊，請參閱下列資源：
-
-- 檢視 [API 參考資料 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://www.ibm.com/watson/developercloud/natural-language-understanding/api/v1/){: new_window} 以取得每個參數的詳細資料及範例。
-- 瞭解如何識別[自訂實體及關係](/docs/services/natural-language-understanding/customizing.html)。
+- 檢視 [API 參考資料 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://{DomainName}/apidocs/natural-language-understanding){: new_window}。
+- 瞭解如何識別[自訂實體及關係](/docs/services/natural-language-understanding?topic=natural-language-understanding-customizing)。
