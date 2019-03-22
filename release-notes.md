@@ -63,7 +63,7 @@ When we change the API in a backwards-incompatible way, we release a new minor v
 ### 19 March 2019
 {: #19-march-2019}
 
-- Introduced experimental support for custom categories models created with {{site.data.keyword.knowledgestudioshort}}. To get started, see [Creating a custom categories model](/docs/services/watson-knowledge-studio-create-categories-model)
+- Introduced experimental support for custom categories models created with {{site.data.keyword.knowledgestudioshort}}. To get started, see [Creating a custom categories model](/docs/services/watson-knowledge-studio?topic=watson-knowledge-studio-create-categories-model)
 
 ### 10 January 2019
 {: #10-january-2019}
