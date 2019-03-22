@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-02-25"
+lastupdated: "2019-03-22"
 
 ---
 
@@ -45,7 +45,7 @@ The {{site.data.keyword.nlushort}} service has a new API authentication process 
     When you use any of the Watson SDKs, you can pass the API key and let the SDK manage the lifecycle of the tokens. For more information and examples, see [Authentication ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/apidocs/natural-language-understanding/#authentication){: new_window} in the API reference.
 - For _existing_ service instances that you created before the indicated date, you continue to authenticate by providing the username and password for the service instance. Eventually, you will need to migrate these service instances to IAM authentication. Updates will be provided about migration process and dates. For more information about migration, see [Migrating Cloud Foundry service instances to a resource group](/docs/resources/instance_migration.html).
 
-To find out which authentication to use, view the service credentials by clicking the service instance on the [Dashboard ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/dashboard/apps?watson){: new_window}.
+To find out which authentication to use, view the service credentials by clicking the service instance on the [{{site.data.keyword.cloud_notm}} resources page ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/resources){: new_window}.
 
 
 ## Service API versioning
@@ -59,6 +59,11 @@ When we change the API in a backwards-incompatible way, we release a new minor v
 
 ## Changes
 {: #changes}
+
+### 19 March 2019
+{: #19-march-2019}
+
+- Introduced experimental support for custom categories models created with {{site.data.keyword.knowledgestudioshort}}. To get started, see [Creating a custom categories model](/docs/services/watson-knowledge-studio-create-categories-model)
 
 ### 10 January 2019
 {: #10-january-2019}
