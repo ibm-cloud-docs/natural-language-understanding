@@ -38,6 +38,7 @@ Natural Language Understanding
 
     sample-apps.md
     usage-limits.md
+    ha-dr.md
     information-security.md
     /watson/watson-using-sdks
 
