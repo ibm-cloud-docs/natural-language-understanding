@@ -15,6 +15,7 @@ Natural Language Understanding
     analyzing-webpages.md
     customizing.md
     overriding-language-detection.md
+    ha-dr.md
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
