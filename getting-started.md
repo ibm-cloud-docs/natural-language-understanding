@@ -67,7 +67,7 @@ curl -X POST -u "apikey:{apikey}"{: apikey} \
   }
 }'
 ```
-{:pre}
+{: pre}
 
 The next step demonstrates how to specify options that customize the analysis for each feature.
 
@@ -99,7 +99,7 @@ curl -X POST -u "apikey:{apikey}"{: apikey} \
   }
 }'
 ```
-{:pre}
+{: pre}
 
 ## Next steps
 {: #next-steps}
