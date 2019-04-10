@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-03-22"
+lastupdated: "2019-04-10"
 
 ---
 
@@ -59,6 +59,11 @@ When we change the API in a backwards-incompatible way, we release a new minor v
 
 ## Changes
 {: #changes}
+
+### 10 April 2019
+{: #10-april-2019}
+
+- Improved detection of numerical entity types in non-English entities requests.
 
 ### 19 March 2019
 {: #19-march-2019}
