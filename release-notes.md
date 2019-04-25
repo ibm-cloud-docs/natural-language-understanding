@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-03-22"
+lastupdated: "2019-04-25"
 
 ---
 
@@ -59,6 +59,12 @@ When we change the API in a backwards-incompatible way, we release a new minor v
 
 ## Changes
 {: #changes}
+
+### 25 April 2019
+{: #25-april-2019}
+
+- Enabled entity mentions for rule-based [custom models](/docs/services/natural-language-understanding?topic=natural-language-understanding-customizing). To view mentions in your results, set the `mentions` entities option to `true`.
+- Released explanations for English categories results. To see relevant text from the source that contributed to each result, set the `explanation` categories option to `true`.
 
 ### 19 March 2019
 {: #19-march-2019}
