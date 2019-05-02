@@ -16,6 +16,7 @@ Natural Language Understanding
     customizing.md
     overriding-language-detection.md
     ha-dr.md
+    /watson/watson-migrate
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
