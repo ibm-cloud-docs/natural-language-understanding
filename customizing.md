@@ -20,7 +20,7 @@ lastupdated: "2019-03-20"
 # Customizing
 {: #customizing}
 
-With [{{site.data.keyword.knowledgestudiofull}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://ibm.biz/watsonknowledgestudio), you can
+With [{{site.data.keyword.knowledgestudiofull}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/watson/services/knowledge-studio/), you can
 extend {{site.data.keyword.nlushort}} with custom models that identify custom
 entities, relations, and categories unique to your domain.
 {: shortdesc}
@@ -34,7 +34,7 @@ entities, relations, and categories unique to your domain.
 2. [Get started with {{site.data.keyword.knowledgestudioshort}}](https://cloud.ibm.com/docs/services/watson-knowledge-studio?topic=watson-knowledge-studio-wks_tutintro#wks_tutintro).
 3. Create a custom model.
    1. To create a custom entities and relations model, see [Creating a machine learning model](/docs/services/watson-knowledge-studio?topic=watson-knowledge-studio-wks_tutml_intro) 
-   2. You can also create a custom entities model with a rule based model. See [Creating a rule based model](/docs/services/watson-knowledge-studio?topic=watson-knowledge-studio-wks_tutml_intro) for details.
+   2. You can also create a custom entities model with a rule based model. See [Creating a rule based model](https://cloud.ibm.com/docs/services/watson-knowledge-studio?topic=watson-knowledge-studio-wks_tutrule_intro) for details.
    3. To create a custom categories model, see [Creating a custom categories model](/docs/services/watson-knowledge-studio?topic=watson-knowledge-studio-create-categories-model).
 4. [Deploy your model to {{site.data.keyword.nlushort}}](/docs/services/watson-knowledge-studio?topic=watson-knowledge-studio-publish-ml#wks_manlu)
 5. To use your model, specify the `model` that you deployed in the
