@@ -31,10 +31,10 @@ entities, relations, and categories unique to your domain.
 > The {{site.data.keyword.nlushort}} Free plan limits the size and performance of your custom model. To test a custom model to its full extent, you will need to use it with the {{site.data.keyword.nlushort}} Standard plan.
 
 1. If you haven't done so already, [get started](/docs/services/natural-language-understanding?topic=natural-language-understanding-getting-started) with {{site.data.keyword.nlushort}}.
-2. [Get started with {{site.data.keyword.knowledgestudioshort}}](https://cloud.ibm.com/docs/services/watson-knowledge-studio?topic=watson-knowledge-studio-wks_tutintro#wks_tutintro).
+2. [Get started with {{site.data.keyword.knowledgestudioshort}}](/docs/services/watson-knowledge-studio?topic=watson-knowledge-studio-wks_tutintro#wks_tutintro).
 3. Create a custom model.
    1. To create a custom entities and relations model, see [Creating a machine learning model](/docs/services/watson-knowledge-studio?topic=watson-knowledge-studio-wks_tutml_intro) 
-   2. You can also create a custom entities model with a rule based model. See [Creating a rule based model](https://cloud.ibm.com/docs/services/watson-knowledge-studio?topic=watson-knowledge-studio-wks_tutrule_intro) for details.
+   2. You can also create a custom entities model with a rule based model. See [Creating a rule based model](/docs/services/watson-knowledge-studio?topic=watson-knowledge-studio-wks_tutrule_intro) for details.
    3. To create a custom categories model, see [Creating a custom categories model](/docs/services/watson-knowledge-studio?topic=watson-knowledge-studio-create-categories-model).
 4. [Deploy your model to {{site.data.keyword.nlushort}}](/docs/services/watson-knowledge-studio?topic=watson-knowledge-studio-publish-ml#wks_manlu)
 5. To use your model, specify the `model` that you deployed in the
