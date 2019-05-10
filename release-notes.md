@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-04-25"
+lastupdated: "2019-05-10"
 
 ---
 
@@ -59,6 +59,11 @@ When we change the API in a backwards-incompatible way, we release a new minor v
 
 ## Changes
 {: #changes}
+
+### 3 May 2019
+{: #3-may-2019}
+
+- Improved German document-level sentiment detection.
 
 ### 25 April 2019
 {: #25-april-2019}
