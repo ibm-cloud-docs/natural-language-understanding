@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-05-10"
+lastupdated: "2019-06-03"
 
 ---
 
@@ -59,6 +59,22 @@ When we change the API in a backwards-incompatible way, we release a new minor v
 
 ## Changes
 {: #changes}
+
+### 29 May 2019
+{: #29-may-2019}
+
+- Improved Spanish sentiment.
+- Fixed a bug that may have affected targeted sentiment results if the target contained special characters.
+- The following changes are enabled for service instances in Washington DC, Tokyo, London, and Sydney:
+  - Sentiment option for entities requests that use custom models is enabled for all sentiment-supported languages except Arabic and Russian.
+  - Entity confidence score is now returned for entities requests that use custom models.
+
+
+### 24 May 2019
+{: #24-may-2019}
+
+- Improved German keywords.
+- English sentiment updates released to service instances in all IBM Cloud locations other than Dallas.
 
 ### 3 May 2019
 {: #3-may-2019}
