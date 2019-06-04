@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-02-25"
+lastupdated: "2019-06-03"
 
 ---
 
@@ -839,16 +839,11 @@ The targeted sentiment option for keywords is not supported for Russian text.
     </tr>
     <tr>
       <td>Sentiment</td>
-      <td>X&ast;</td>
+      <td>X</td>
       <td></td>
     </tr>
   </tbody>
 </table>
-
-&ast; Sentiment detection for this language works best on social media based data, like tweets. Further accuracy improvements are planned in the near future.
-
-The targeted sentiment option for keywords is not supported for Spanish text.
-
 
 ## Swedish
 {: #swedish}
