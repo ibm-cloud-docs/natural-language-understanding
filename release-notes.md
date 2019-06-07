@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-06-03"
+lastupdated: "2019-06-07"
 
 ---
 
@@ -51,14 +51,36 @@ To find out which authentication to use, view the service credentials by clickin
 ## Service API versioning
 {: #service-api-versioning}
 
-**Current API version**: 2018-11-16
+**Current API version**: 2019-06-04
 
 API requests require a version parameter that takes the date in the format `version=YYYY-MM-DD`. Send the version parameter with every API request.
 
 When we change the API in a backwards-incompatible way, we release a new minor version. To take advantage of the changes in a new version, change the value of the version parameter to the new date. If you're not ready to update to that version, don't change your version date.
 
+### Active version dates
+{: #active-version-dates}
+
+The following table shows the service behavior changes for each version date. Switching to a later version date will activate all changes introduced in earlier versions.
+
+|Version date|Changes summary|
+|---|---|
+|[`2019-06-04`](#4-june-2019)| <li>Fixed a bug that caused entities requests with custom models to ignore the `limit` option.</li><li>The default `limit` value for all entities requests is now 50 for all models.</li><li>The maximum `limit` value of 250 entities has been removed.</li>|
+|[`2018-11-16`](#16-november-2018)| <li>Version 2 Italian entity type system.</li>|
+|[`2018-09-21`](#21-september-2018)| <li>Version 2 Portuguese entity type system.</li>|
+|[`2018-03-16`](#16-march-2018)| <li>Version 2 French entity type system.</li><li>Version 2 German entity type system.</li>| 
+|[`2017-02-27`](#27-february-2017)| Base version.| 
+
 ## Changes
 {: #changes}
+
+### 4 June 2019
+{: #4-june-2019}
+
+The following changes are activated when you use the version date `2019-06-04` or later.
+
+- Fixed a bug that caused entities requests with custom models to ignore the `limit` option.
+- The default `limit` value for all entities requests is now 50 for all models.
+- The maximum `limit` value of 250 entities has been removed.
 
 ### 29 May 2019
 {: #29-may-2019}
