@@ -89,7 +89,6 @@ The following changes are activated when you use the version date `2019-06-04` o
 - Fixed a bug that may have affected targeted sentiment results if the target contained special characters.
 - The following changes are enabled for service instances in Washington DC, Tokyo, London, and Sydney:
   - Sentiment option for entities requests that use custom models is enabled for all sentiment-supported languages except Arabic and Russian.
-  - Entity confidence score is now returned for entities requests that use custom models.
 
 
 ### 24 May 2019
