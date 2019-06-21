@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-06-07"
+lastupdated: "2019-06-21"
 
 ---
 
@@ -72,6 +72,11 @@ The following table shows the service behavior changes for each version date. Sw
 
 ## Changes
 {: #changes}
+
+### 21 June 2019
+{: #21-june-2019}
+
+- Entity confidence score is now returned for entities requests that use custom models.
 
 ### 4 June 2019
 {: #4-june-2019}
