@@ -76,7 +76,7 @@ The following table shows the service behavior changes for each version date. Sw
 ### 21 June 2019
 {: #21-june-2019}
 
-- Entity confidence score is now returned for entities requests that use custom models.
+- Entity confidence score is now returned for entities requests that use custom machine learning models.
 
 ### 4 June 2019
 {: #4-june-2019}
