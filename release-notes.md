@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-06-21"
+lastupdated: "2019-07-12"
 
 ---
 
@@ -51,7 +51,7 @@ To find out which authentication to use, view the service credentials by clickin
 ## Service API versioning
 {: #service-api-versioning}
 
-**Current API version**: 2019-06-04
+**Current API version**: 2019-07-12
 
 API requests require a version parameter that takes the date in the format `version=YYYY-MM-DD`. Send the version parameter with every API request.
 
@@ -64,6 +64,7 @@ The following table shows the service behavior changes for each version date. Sw
 
 |Version date|Changes summary|
 |---|---|
+|[`2019-07-12`](#12-july-2019)| <li>New English entities model with improved accuracy and confidence scores.</li>|
 |[`2019-06-04`](#4-june-2019)| <li>Fixed a bug that caused entities requests with custom models to ignore the `limit` option.</li><li>The default `limit` value for all entities requests is now 50 for all models.</li><li>The maximum `limit` value of 250 entities has been removed.</li>|
 |[`2018-11-16`](#16-november-2018)| <li>Version 2 Italian entity type system.</li>|
 |[`2018-09-21`](#21-september-2018)| <li>Version 2 Portuguese entity type system.</li>|
@@ -72,6 +73,14 @@ The following table shows the service behavior changes for each version date. Sw
 
 ## Changes
 {: #changes}
+
+### 12 July 2019
+{: #12-july-2019}
+
+The following changes are activated when you use the version date `2019-07-12` or later.
+
+- New English entities model with improved accuracy.
+- Confidence scores are returned in English entities results.
 
 ### 21 June 2019
 {: #21-june-2019}
