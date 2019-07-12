@@ -85,7 +85,7 @@ The following changes are activated when you use the version date `2019-07-12` o
 ### 21 June 2019
 {: #21-june-2019}
 
-- Entity confidence score is now returned for entities requests that use custom models.
+- Entity confidence score is now returned for entities requests that use custom machine learning models.
 
 ### 4 June 2019
 {: #4-june-2019}
