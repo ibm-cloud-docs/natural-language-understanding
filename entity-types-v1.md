@@ -60,6 +60,9 @@ The entity type system that {{site.data.keyword.nlushort}} uses differs based on
 ## Entity subtypes
 {: #entity-subtypes}
 
+Subtypes are determined by the disambiguated entity, not the entity type. There is no strict relationship between entity types and entity subtypes.
+{: note}
+
 | Entity subtype                      |
 |-------------------------------------|
 | AbusedSubstance                     |
