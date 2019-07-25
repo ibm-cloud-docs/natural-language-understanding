@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-12-19"
+  years: 2015, 2019
+lastupdated: "2019-07-25"
 
 ---
 
@@ -54,7 +54,7 @@ Run the following command to analyze a webpage to get sentiment, concepts, categ
 
 ```bash
 curl -X POST -u "apikey:{apikey}"{: apikey} \
-"{url}/v1/analyze?version=2018-11-16"{: url} \
+"{url}/v1/analyze?version=2019-07-12"{: url} \
 --header "Content-Type: application/json" \
 --data '{
   "url": "http://newsroom.ibm.com/Guerbet-and-IBM-Watson-Health-Announce-Strategic-Partnership-for-Artificial-Intelligence-in-Medical-Imaging-Liver",
@@ -80,7 +80,7 @@ You can also get sentiment and emotion results for entities and keywords that ar
 
 ```bash
 curl -X POST -u "apikey:{apikey}"{: apikey} \
-"{url}/v1/analyze?version=2018-11-16"{: url} \
+"{url}/v1/analyze?version=2019-07-12"{: url} \
 --request POST \
 --header "Content-Type: application/json" \
 --data '{

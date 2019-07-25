@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-03-20"
+lastupdated: "2019-07-25"
 
 ---
 
@@ -64,7 +64,7 @@ entities, relations, and categories unique to your domain.
 
         ```bash
         curl --user "apikey":"{apikey}" \
-        "{url}/v1/analyze?version=2018-11-16" \
+        "{url}/v1/analyze?version=2019-07-12" \
         --request POST \
         --header "Content-Type: application/json" \
         --data @parameters.json
