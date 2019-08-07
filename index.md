@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-02-25"
+lastupdated: "2019-08-06"
 
 ---
 
@@ -149,3 +149,8 @@ Analyze the sentiment toward specific target phrases and the sentiment of the do
 {: #supported-languages}
 
 See the [Language support documentation](/docs/services/natural-language-understanding?topic=natural-language-understanding-language-support) for details about supported languages in {{site.data.keyword.nlushort}}.
+
+## HIPAA
+{: #about-hipaa}
+
+US Health Insurance Portability and Accountability Act (HIPAA) support is available for Premium plans in the Washington, DC location created on or after 1 April 2019. See [Enabling EU and HIPAA supported settings](/docs/account?topic=account-eu-hipaa-supported#eu-hipaa-supported){: external} for more information.
