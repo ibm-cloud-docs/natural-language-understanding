@@ -67,7 +67,7 @@ curl -X POST -u "apikey:{apikey}"{: apikey} \
   }
 }'
 ```
-{:pre}
+{: pre}
 
 Il prossimo passo illustra come specificare le opzioni che personalizzano l'aalisi per ciascuna funzione.
 
@@ -99,7 +99,7 @@ curl -X POST -u "apikey:{apikey}"{: apikey} \
   }
 }'
 ```
-{:pre}
+{: pre}
 
 ## Passi successivi
 {: #next-steps}

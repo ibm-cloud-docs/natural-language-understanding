@@ -37,11 +37,11 @@ Catégorisez votre contenu en fonction d'une hiérarchie de classification à ci
 > url: "www.cnn.com"
 
 **Réponse**
-> /news </br>
-> /art and entertainment </br>
-> /movies and tv/television </br>
-> /news </br>
-> /international news
+> /actualités </br>
+> /art et divertissement </br>
+> /cinéma et tv/télévision </br>
+> /actualités </br>
+> /actualités internationales
 
 ### Concepts
 {: #concepts}
@@ -53,7 +53,7 @@ Identifiez les concepts généraux qui ne sont pas nécessairement référencés
 
 **Réponse**
 > Linguistique </br>
-> Traitement automatique du langage naturel </br>
+> Traitement du langage naturel </br>
 > Natural Language Understanding
 
 ### Emotion
@@ -62,8 +62,8 @@ Identifiez les concepts généraux qui ne sont pas nécessairement référencés
 Analysez les émotions exprimées par des phrases cible spécifiques ou par le document dans son ensemble. Vous pouvez aussi activer l'analyse des émotions pour des entités et des mots clés qui sont détectés automatiquement par le service. Exemple :
 
 **Entrée**
-> text: "J'aime les pommes mais je déteste les oranges." </br>
-> targets: "pommes", and "oranges"
+> text: "J'aime les pommes, mais je déteste les oranges." </br>
+> targets: "pommes" et "oranges"
 
 **Réponse**
 > "pommes": joie </br>
@@ -78,9 +78,9 @@ Recherchez des personnes, des lieux, des événements et d'autres types d'entit�
 > text: "IBM est une entreprise de technologie multinationale américaine dont le siège social se trouve à Armonk, New York, aux Etats-Unis, et qui exerce ses activités dans plus de 170 pays."
 
 **Réponse**
-> IBM: Entreprise </br>
-> Armonk: Emplacement </br>
-> New York: Emplacement </br>
+> IBM : Entreprise </br>
+> Armonk : Emplacement </br>
+> New York : Emplacement </br>
 > Etats-Unis : Emplacement
 
 ### Mots clés
@@ -92,8 +92,8 @@ Recherchez des mots clés pertinents dans votre contenu. Exemple :
 >url: "[http://www-03.ibm.com/press/us/en/pressrelease/51493.wss](http://www-03.ibm.com/press/us/en/pressrelease/51493.wss)"
 
 **Réponse**
->Australian Open </br>
->Tennis Australia </br>
+>Open d'Australie </br>
+>Tennis Australie </br>
 >IBM SlamTracker analytics
 
 ### Métadonnées
@@ -107,7 +107,7 @@ Pour les entrées HTML et d'URL, identifiez l'auteur de la page Web, le titre de
 **Réponse**
 >Auteur : Stephen Callahan </br>
 >Titre : Girding the Grid with Cognitive Computing - THINK Blog </br>
->Date de publication : January 31, 2017
+>Date de publication : 31 janvier 2017
 
 ### Relations
 {: #relations}
@@ -118,7 +118,7 @@ Détectez la relation entre deux entités et identifiez le type de relation. Exe
 >text: "En 1921, le prix Nobel de physique a été attribué à Albert Einstein."
 
 **Réponse**
->Relation "awardedTo" entre "Prix Nobel de physique" et "Albert Einstein" </br>
+>"awardedTo" relation entre "Prix Nobel de physique" et "Albert Einstein" </br>
 >Relation "timeOf" entre "1921" and "attribué"
 
 ### Rôles sémantiques

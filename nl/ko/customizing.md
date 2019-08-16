@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-02-25"
+lastupdated: "2019-03-20"
 
 ---
 
@@ -20,7 +20,9 @@ lastupdated: "2019-02-25"
 # 사용자 정의
 {: #customizing}
 
-[{{site.data.keyword.knowledgestudiofull}} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://ibm.biz/watsonknowledgestudio)를 사용하면 도메인에 고유한 사용자 정의 엔티티와 관계를 식별하는 사용자 정의 모델을 사용하여 {{site.data.keyword.nlushort}}을 확장할 수 있습니다.
+[{{site.data.keyword.knowledgestudiofull}} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://www.ibm.com/watson/services/knowledge-studio/)를 사용하면
+도메인에 대해 고유한 사용자 정의 엔티티, 관계 및 카테고리를 식별하는 사용자 정의 모델로
+{{site.data.keyword.nlushort}}을 확장할 수 있습니다.
 {: shortdesc}
 
 ## 사용자 정의 모델 시작하기
@@ -30,17 +32,24 @@ lastupdated: "2019-02-25"
 
 1. 이미 수행하지 않은 경우 {{site.data.keyword.nlushort}}으로 [시작하기](/docs/services/natural-language-understanding?topic=natural-language-understanding-getting-started)를 수행하십시오.
 2. [{{site.data.keyword.knowledgestudioshort}}](/docs/services/watson-knowledge-studio?topic=watson-knowledge-studio-wks_tutintro#wks_tutintro)를 시작하십시오.
-3. [{{site.data.keyword.knowledgestudioshort}}](/docs/services/watson-knowledge-studio?topic=watson-knowledge-studio-wks_tutml_intro#wks_tutml_intro)로 기계 학습 모델을 작성하십시오.
+3. 사용자 정의 모델을 작성하십시오.
+   1. 사용자 정의 엔티티 및 관계 모델을 작성하려면 [기계 학습 모델 작성](/docs/services/watson-knowledge-studio?topic=watson-knowledge-studio-wks_tutml_intro)을 참조하십시오.  
+   2. 규칙 기반 모델로 사용자 정의 엔티티 모델을 작성할 수도 있습니다. 세부사항은 [규칙 기반 모델 작성](/docs/services/watson-knowledge-studio?topic=watson-knowledge-studio-wks_tutrule_intro)을 참조하십시오. 
+   3. 사용자 정의 카테고리 모델을 작성하려면 [사용자 정의 카테고리 모델 작성](/docs/services/watson-knowledge-studio?topic=watson-knowledge-studio-create-categories-model)을 참조하십시오.
 4. [모델을 {{site.data.keyword.nlushort}}](/docs/services/watson-knowledge-studio?topic=watson-knowledge-studio-publish-ml#wks_manlu)에 배치하십시오.
 5. 모델을 사용하려면 API 요청의
-[엔티티 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://{DomainName}/apidocs/natural-language-understanding#entities){: new_window} 또는
-[관계 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://{DomainName}/apidocs/natural-language-understanding#relations){: new_window} 옵션에서 배치한 `모델`을 지정하십시오.
+[엔티티 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://{DomainName}/apidocs/natural-language-understanding#entities){: new_window},
+[관계 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://{DomainName}/apidocs/natural-language-understanding#relations){: new_window} 또는
+[카테고리 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://{DomainName}/apidocs/natural-language-understanding#categories){: new_window} 옵션에서 배치한 `model`을 지정하십시오. 
     - 예제 *parameters.json* 파일:
 
         ```json
         {
           "url": "www.url.example",
           "features": {
+            "categories": {
+              "model": "your-model-id-here"
+            },
             "entities": {
               "model": "your-model-id-here"
             },
@@ -56,7 +65,7 @@ lastupdated: "2019-02-25"
 
         ```bash
         curl --user "apikey":"{apikey}" \
-        "{url}/v1/analyze?version=2018-09-21" \
+        "{url}/v1/analyze?version=2018-11-16" \
         --request POST \
         --header "Content-Type: application/json" \
         --data @parameters.json

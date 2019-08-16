@@ -67,7 +67,7 @@ curl -X POST -u "apikey:{apikey}"{: apikey} \
   }
 }'
 ```
-{:pre}
+{: pre}
 
 다음 단계에서는 각 기능의 분석을 사용자 정의하는 데 사용하는 옵션을 지정하는 방법을 보여줍니다.
 
@@ -99,7 +99,7 @@ curl -X POST -u "apikey:{apikey}"{: apikey} \
   }
 }'
 ```
-{:pre}
+{: pre}
 
 ## 다음 단계
 {: #next-steps}

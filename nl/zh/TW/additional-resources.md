@@ -64,7 +64,7 @@ lastupdated: "2018-12-20"
 </tr>
 <tr>
 <td><a href="https://www.ibm.com/case-studies/intersections-inc" target="_blank">Intersections</a></td>
-<td>協助消費者利用即時威脅警示來避免個資竊盜</td>
+<td>協助消費者利用即時威脅警示來避免個資遭竊</td>
 </tr>
 <tr>
 <td rowspan="5"><b>客戶意見分析</b></td>

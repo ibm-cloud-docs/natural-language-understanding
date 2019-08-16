@@ -26,7 +26,7 @@ Erfahren Sie anhand dieser Beispielanwendungen und Labs mehr über IBM Watson™
 ## Kognitiven Moderator-Mikroservice erstellen
 {: #cognitive-moderator}
 
-Verarbeiten Sie die in einem Chat-Kanal ausgetauschten Nachrichten und Abbildungen unter Verwendung von Watson-Services zum Moderieren der Diskussionen. 
+Verarbeiten Sie die in einem Chat-Kanal ausgetauschten Nachrichten und Abbildungen unter Verwendung von Watson-Services zum Moderieren der Diskussionen.
 
   - [Weitere Informationen ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://developer.ibm.com/patterns/build-a-cognitive-moderator-microservice/)
   - [Code abrufen ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://github.com/IBM/cognitive-moderator-service){: new_window}
@@ -36,7 +36,7 @@ Verarbeiten Sie die in einem Chat-Kanal ausgetauschten Nachrichten und Abbildung
 ## Empfehlungen durch Verknüpfen strukturierter und unstrukturierter Daten abrufen
 {: #recommendations}
 
-Erstellen Sie eine Beziehung mit in strukturiertem Format gespeicherten Daten. 
+Erstellen Sie eine Beziehung mit in strukturiertem Format gespeicherten Daten.
 
   - [Weitere Informationen ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://developer.ibm.com/patterns/generate-insights-from-multiple-data-formats-using-watson-services/)
   - [Code abrufen ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://github.com/IBM/generate-insights-from-data-formats-with-watson){: new_window}
@@ -45,7 +45,7 @@ Erstellen Sie eine Beziehung mit in strukturiertem Format gespeicherten Daten.
 ## Automatisierte Kundenunterstützung für E-Mails bereitstellen
 {: #automated-customer-support-for-emails}
 
-Erstellen Sie ein intelligentes Kundenunterstützungssystem mithilfe der Funktionalität von Watson Natural Language. 
+Erstellen Sie ein intelligentes Kundenunterstützungssystem mithilfe der Funktionalität von Watson Natural Language.
 
   - [Weitere Informationen ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://developer.ibm.com/patterns/email-support-automation-for-telco/)
   - [Code abrufen ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://github.com/IBM/smart-email-support){: new_window}
@@ -54,7 +54,7 @@ Erstellen Sie ein intelligentes Kundenunterstützungssystem mithilfe der Funktio
 ## Wissensdatenbank nach Dokumenten abfragen
 {: #query-knowledge-base-for-documents}
 
-Verwenden Sie Watson NLU, Python NLTK und IBM Watson Studio, um eine Knowledge Base abzufragen und Antworten auf Fragen in Bezug auf ein domänenspezifisches Dokument zu erhalten. 
+Verwenden Sie Watson NLU, Python NLTK und IBM Watson Studio, um eine Knowledge Base abzufragen und Antworten auf Fragen in Bezug auf ein domänenspezifisches Dokument zu erhalten.
 
   - [Weitere Informationen ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://developer.ibm.com/patterns/algorithm-that-gives-you-answer-to-any-particular-question-based-on-mining-documents/)
   - [Code abrufen ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://github.com/IBM/query-knowledge-base-with-domain-specific-documents/){: new_window}
@@ -63,7 +63,7 @@ Verwenden Sie Watson NLU, Python NLTK und IBM Watson Studio, um eine Knowledge B
 ## Wissensdiagramm aus Dokumenten erstellen
 {: #build-knowledge-graph-from-documents}
 
-Verwenden Sie IBM Cloud, Watson-Services, Watson Studio und Open-Source-Technologien, um Erkenntnisse aus Inhalten von unstrukturiertem Text zu gewinnen, der in unterschiedlichen Geschäftsbereichen generiert wurde. 
+Verwenden Sie IBM Cloud, Watson-Services, Watson Studio und Open-Source-Technologien, um Erkenntnisse aus Inhalten von unstrukturiertem Text zu gewinnen, der in unterschiedlichen Geschäftsbereichen generiert wurde.
 
   - [Weitere Informationen ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://developer.ibm.com/patterns/build-a-domain-specific-knowledge-graph-from-given-set-of-documents/)
   - [Code abrufen ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://github.com/IBM/build-knowledge-base-with-domain-specific-documents/){: new_window}
@@ -72,7 +72,7 @@ Verwenden Sie IBM Cloud, Watson-Services, Watson Studio und Open-Source-Technolo
 ## Text in Abbildungen erfassen und übersetzen
 {: #translate-text-in-images}
 
-Erfassen Sie mit Tesseract OCR und Watson Language Translator Abbildungen und extrahieren und übersetzen Sie Text. 
+Erfassen Sie mit Tesseract OCR und Watson Language Translator Abbildungen und extrahieren und übersetzen Sie Text.
 
   - [Weitere Informationen ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://developer.ibm.com/patterns/snap-translate-using-tesseract-ocr-watson-language-translator/)
   - [Code abrufen ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://github.com/IBM/snap-and-translate){: new_window}
@@ -80,7 +80,7 @@ Erfassen Sie mit Tesseract OCR und Watson Language Translator Abbildungen und ex
 ## Produktbewertungen analysieren und Einkaufsführer generieren
 {: #analyze-product-reviews}
 
-Erstellen Sie eine Node.js-App, um kognitive Entscheidungen mithilfe von Produktbewertungen zu treffen, die von Watson Natural Language Understanding ausgewertet wurden. 
+Erstellen Sie eine Node.js-App, um kognitive Entscheidungen mithilfe von Produktbewertungen zu treffen, die von Watson Natural Language Understanding ausgewertet wurden.
 
   - [Weitere Informationen ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://developer.ibm.com/code/patterns/analyze-product-reviews-and-generate-a-shopping-guide/)
   - [Code abrufen ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://github.com/IBM/watson-second-opinion?cm_sp=Developer-_-slug-_-Get-the-Code){: new_window}
@@ -89,7 +89,7 @@ Erstellen Sie eine Node.js-App, um kognitive Entscheidungen mithilfe von Produkt
 ## Banking-Chatbot erstellen
 {: #banking-chatbot}
 
-Verwenden Sie Node.js und Watson, um Emotionen zu erkennen, Entitäten zu ermitteln und Antworten aufzuspüren. 
+Verwenden Sie Node.js und Watson, um Emotionen zu erkennen, Entitäten zu ermitteln und Antworten aufzuspüren.
 
   - [Weitere Informationen ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://developer.ibm.com/code/patterns/create-cognitive-banking-chatbot/)
   - [Code abrufen ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://github.com/IBM/watson-banking-chatbot?cm_sp=IBMCode-_-create-cognitive-banking-chatbot-_-Get-the-Code){: new_window}
@@ -99,7 +99,7 @@ Verwenden Sie Node.js und Watson, um Emotionen zu erkennen, Entitäten zu ermitt
 ## Multimediadateien mit Watson-Services aufbereiten
 {: #enrich-multimedia-files}
 
-Erstellen Sie eine App, die Audiodateien sowie grafisch orientierte Dateien mit IBM Watson-Services aufbereitet. 
+Erstellen Sie eine App, die Audiodateien sowie grafisch orientierte Dateien mit IBM Watson-Services aufbereitet.
 
   - [Weitere Informationen ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://developer.ibm.com/code/patterns/enrich-multi-media-files-using-ibm-watson/)
   - [Code abrufen ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://github.com/IBM/watson-multimedia-analyzer?cm_sp=Developper-_-enrich-multi-media-files-using-ibm-watson-_-Get-the-Code){: new_window}
@@ -108,7 +108,7 @@ Erstellen Sie eine App, die Audiodateien sowie grafisch orientierte Dateien mit 
 ## Twitter-Handles und Hashtags auf Stimmung und Inhalt analysieren
 {: #analyze-twitter-handles}
 
-Erstellen Sie Diagramme und Graphen für Stimmung, emotionale Färbung und Schlüsselwörter für Twitter-Handles und Hashtags. 
+Erstellen Sie Diagramme und Graphen für Stimmung, emotionale Färbung und Schlüsselwörter für Twitter-Handles und Hashtags.
 
   - [Weitere Informationen ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://developer.ibm.com/code/patterns/analyze-twitter-handles-and-hashtags-for-sentiment-and-content/)
   - [Code abrufen ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://github.com/IBM/cognitive-social-crm?cm_sp=Developer-_-analyze-twitter-handles-and-hashtags-for-sentiment-and-content-_-Get-the-Code){: new_window}
@@ -135,7 +135,7 @@ Korrelieren Sie dokumentenübergreifend Inhalte mithilfe von Python NLTK und IBM
 ## Verborgene/nicht sichtbare Facebook-Nutzungsinformationen erkennen
 {: #facebook-insights}
 
-Machen Sie die Leistungsfähigkeit der kognitiven Datenanalyse in einem Jupyter Notebook mit PixieDust nutzbar. 
+Machen Sie die Leistungsfähigkeit der kognitiven Datenanalyse in einem Jupyter Notebook mit PixieDust nutzbar.
 
   - [Weitere Informationen ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://developer.ibm.com/code/patterns/discover-hidden-facebook-usage-insights/)
   - [Code abrufen ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://github.com/IBM/pixiedust-facebook-analysis?cm_sp=IBMCode-_-discover-hidden-facebook-usage-insights-_-Get-the-Code){: new_window}

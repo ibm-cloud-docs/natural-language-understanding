@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-02-25"
+lastupdated: "2019-06-03"
 
 ---
 
@@ -839,16 +839,11 @@ L'opzione di parere mirato per le parole chiave non è supportata per il testo i
     </tr>
     <tr>
       <td>Parere</td>
-      <td>X&ast;</td>
+      <td>X</td>
       <td></td>
     </tr>
   </tbody>
 </table>
-
-&ast; Il rilevamento del parere per questa lingua funziona meglio sui dati basati sui social media, come ad esempio i tweet. Ulteriori miglioramenti dell'accuratezza sono previsti in un futuro prossimo.
-
-L'opzione di parere mirato per le parole chiave non è supportata per il testo in spagnolo.
-
 
 ## Svedese
 {: #swedish}

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-02-25"
+lastupdated: "2019-06-21"
 
 ---
 
@@ -45,20 +45,79 @@ lastupdated: "2019-02-25"
     當您使用任何 Watson SDK 時，您可以傳遞 API 金鑰，並讓 SDK 管理記號的生命週期。如需相關資訊及範例，請參閱 API 參考資料中的[鑑別 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://{DomainName}/apidocs/natural-language-understanding/#authentication){: new_window}。
 - 對於在指出日期之前建立的_現有_ 服務實例，您可以提供服務實例的使用者名稱及密碼來繼續進行鑑別。但最終需要將這些服務實例移轉至 IAM 鑑別。將提供有關移轉處理程序和日期的更新項目。如需移轉的相關資訊，請參閱[將 Cloud Foundry 服務實例移轉至資源群組](/docs/resources/instance_migration.html)。
 
-若要找出要使用的鑑別，請按一下[儀表板 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://{DomainName}/dashboard/apps?watson){: new_window} 上的服務實例來檢視服務認證。
+若要找出要使用的鑑別，請按一下[{{site.data.keyword.cloud_notm}} 資源頁面 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://{DomainName}/resources){: new_window} 上的服務實例來檢視服務認證。
 
 
 ## 服務 API 版本化
 {: #service-api-versioning}
 
-**現行 API 版本**：2018-11-16
+**現行 API 版本**：2019-06-04
 
 API 要求需要日期格式為 `version=YYYY-MM-DD` 的版本參數。請隨每一個 API 要求傳送版本參數。
 
 以與舊版不相容的方式來變更 API 時，就會發行新的次要版本。若要利用新版本的變更，請將版本參數的值變更為新日期。如果您尚未更新為該版本，請不要變更您的版本日期。
 
+### 作用中的版本日期
+{: #active-version-dates}
+
+下表顯示每個版本日期的服務行為變更。切換至較晚的版本日期會啟動在舊版中引進的所有變更。
+
+|版本日期|變更摘要|
+|---|---|
+|[`2019-06-04`](#4-june-2019)| <li>已修正錯誤，該錯誤導致對自訂模型的 entities 要求會忽略 `limit` 選項。</li><li>所有 entities 要求的預設 `limit` 值，現在對所有模型而言是 50。</li><li>已移除 250 個實體的最大 `limit` 值。</li>|
+|[`2018-11-16`](#16-november-2018)| <li>第 2 版義大利文實體類型系統。</li>|
+|[`2018-09-21`](#21-september-2018)| <li>第 2 版葡萄牙文實體類型系統。</li>|
+|[`2018-03-16`](#16-march-2018)| <li>第 2 版法文實體類型系統。</li><li>第 2 版德文實體類型系統。</li>| 
+|[`2017-02-27`](#27-february-2017)|基礎版本。| 
+
 ## 變更
 {: #changes}
+
+### 2019 年 6 月 21 日
+{: #21-june-2019}
+
+- 現在會針對使用自訂機器學習模型的 entities 要求傳回實體信賴分數。
+
+### 2019 年 6 月 4 日
+{: #4-june-2019}
+
+下列變更會在您使用版本日期 `2019-06-04` 或更晚日期時啟動。
+
+- 已修正錯誤，該錯誤導致對自訂模型的 entities 要求會忽略 `limit` 選項。
+- 所有 entities 要求的預設 `limit` 值，現在對所有模型而言是 50。
+- 已移除 250 個實體的最大 `limit` 值。
+
+### 2019 年 5 月 29 日
+{: #29-may-2019}
+
+- 改良西班牙文觀感。
+- 已修正錯誤，該錯誤可能在目標包含特殊字元時，影響目標觀感結果。
+- 下列變更已針對華盛頓特區、東京、倫敦及雪梨的服務實例啟用：
+  - 使用自訂模型之 entities 要求的觀感選項，已針對觀感支援的所有語言啟用，但阿拉伯文及俄文例外。
+
+
+### 2019 年 5 月 24 日
+{: #24-may-2019}
+
+- 改良德文關鍵字。
+- 英文觀感更新已發行至達拉斯以外之所有 IBM Cloud 位置中的服務實例。
+
+### 2019 年 5 月 3 日
+{: #3-may-2019}
+
+- 改良德文文件層次的觀感偵測。
+
+### 2019 年 4 月 25 日
+{: #25-april-2019}
+
+- 已針對以規則為基礎的[自訂模型](/docs/services/natural-language-understanding?topic=natural-language-understanding-customizing)，啟用實體提及。若要檢視您的結果中的提及項目，請將 `mentions` 實體選項設為 `true`。
+- 已發行英文種類結果的解釋。若要查看來自影響每個結果之來源的相關文字，請將 `explanation` 種類選項設為 `true`。
+
+### 2019 年 3 月 19 日
+{: #19-march-2019}
+
+- 針對使用 {{site.data.keyword.knowledgestudioshort}} 建立的自訂種類模型，已引進實驗性的支援。若要開始使用，請參閱[建立自訂種類模型](/docs/services/watson-knowledge-studio?topic=watson-knowledge-studio-create-categories-model)。
+- 改良西班牙文關鍵字及概念。
 
 ### 2019 年 1 月 10 日
 {: #10-january-2019}

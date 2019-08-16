@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-02-25"
+lastupdated: "2019-06-03"
 
 ---
 
@@ -839,16 +839,11 @@ L'option de sentiment ciblé pour les mots clés n'est pas prise en charge en ru
     </tr>
     <tr>
       <td>Sentiment</td>
-      <td>X&ast;</td>
+      <td>X</td>
       <td></td>
     </tr>
   </tbody>
 </table>
-
-&ast; La détection du sentiment dans cette langue fonctionne le mieux sur les médias sociaux reposant sur des données, comme les tweets. Des améliorations relatives à l'exactitude sont prévues.
-
-L'option de sentiment ciblé pour les mots clés n'est pas prise en charge en espagnol.
-
 
 ## Suédois
 {: #swedish}

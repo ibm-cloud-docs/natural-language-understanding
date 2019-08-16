@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-02-25"
+lastupdated: "2019-06-03"
 
 ---
 
@@ -839,16 +839,11 @@ Die als Ziel ausgewählte Stimmungsoption für Schlüsselwörter wird für russi
     </tr>
     <tr>
       <td>Stimmung</td>
-      <td>X&ast;</td>
+      <td>X</td>
       <td></td>
     </tr>
   </tbody>
 </table>
-
-&ast; Die Stimmungserkennung für diese Sprache funktioniert am besten bei Daten, die auf sozialen Medien, z. B. Tweets, basieren. Für die nahe Zukunft sind weitere Verbesserungen der Genauigkeit geplant.
-
-Die als Ziel ausgewählte Stimmungsoption für Schlüsselwörter wird für spanischen Text nicht unterstützt.
-
 
 ## Schwedisch
 {: #swedish}

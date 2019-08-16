@@ -40,10 +40,10 @@ Categorize seu conteúdo usando uma hierarquia de classificação de cinco níve
 > URL: "www.cnn.com"
 
 **Resposta**
-> /news </br>
+> /notícias </br>
 > /arte e entretenimento </br>
-> /filme e tv/televisão </br>
-> /news </br>
+> /filmes e tv/televisão </br>
+> /notícias </br>
 > /notícias internacionais
 
 ### Conceitos
@@ -66,11 +66,11 @@ Analise a emoção transmitida por frases de destino específicas ou pelo docume
 análise de emoção para entidades e palavras-chave que são automaticamente detectadas pelo serviço. Por exemplo:
 
 **Entrada**
-> Texto: "Eu amo maçãs, mas eu odeio laranjas". </br>
+> texto: "Amo maçãs, mas detesto laranja". </br>
 > Destinos: "maçãs" e "laranjas"
 
 **Resposta**
-> "Maçãs": alegria </br>
+> "maças": alegria </br>
 > "Laranjas": raiva
 
 ### Entidades
@@ -85,8 +85,8 @@ operações em mais de 170 países".
 
 **Resposta**
 > IBM: empresa </br>
-> Armonk: localização </br>
-> Nova York: localização </br>
+> Armonk: local </br>
+> Nova Iorque: local </br>
 > Estados Unidos: localização
 
 ### Palavras-chave
@@ -100,7 +100,7 @@ Procure seu conteúdo para palavras-chave relevantes. Por exemplo:
 
 **Resposta**
 >Aberto da Austrália </br>
->Tênis da Austrália </br>
+>Equipe de tênis da Austrália </br>
 >Analítica do IBM SlamTracker
 
 ### Metadados
@@ -113,7 +113,7 @@ Para entrada HTML e URL, obtenha o autor da página da web, o título da página
 
 **Resposta**
 >Autor: Stephen Callahan </br>
->Título: Preparando a grade com computação cognitiva - Blog THINK </br>
+>Título: Girding the Grid with Cognitive Computing - Blog THINK </br>
 >Data de publicação: 31 de janeiro de 2017
 
 ### Relações
@@ -125,7 +125,7 @@ Reconhecer quando duas entidades estão relacionadas e identificar o tipo de rel
 >Texto: "O Prêmio Nobel em Física de 1921 foi concedido a Albert Einstein".
 
 **Resposta**
->Relação "awardedTo" entre "Prêmio Nobel em Física" e "Albert Einstein" </br>
+>Relação "awardedTo" entre "Vencedor do Prêmio Nobel de Física" e "Albert Einstein" </br>
 >Relação de "timeOf" entre "1921" e "concedido"
 
 ### Funções de semântica

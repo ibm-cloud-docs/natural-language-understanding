@@ -40,7 +40,7 @@ lastupdated: "2018-12-19"
     3.  按一下**建立**。
 - 複製用來鑑別服務實例的認證：
     1.  在**管理**頁面上，按一下**顯示**以檢視您的認證。
-    2.  複製 `API Key` 及 `URL` 值。
+    2.  複製 `API 金鑰`及 `URL` 值。
 - 確定您有 `curl` 指令：
     - 這些範例會使用 `curl` 指令來呼叫 HTTP 介面的方法。從 [curl.haxx.se ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://curl.haxx.se/){: new_window} 安裝作業系統的版本。安裝支援 Secure Sockets Layer (SSL) 通訊協定的版本。請務必在 `PATH` 環境變數中包括已安裝的二進位檔。
 
@@ -67,7 +67,7 @@ curl -X POST -u "apikey:{apikey}"{: apikey} \
   }
 }'
 ```
-{:pre}
+{: pre}
 
 下一步示範如何指定選項，以自訂每個特性的分析。
 
@@ -99,7 +99,7 @@ curl -X POST -u "apikey:{apikey}"{: apikey} \
   }
 }'
 ```
-{:pre}
+{: pre}
 
 ## 後續步驟
 {: #next-steps}

@@ -72,7 +72,7 @@ lastupdated: "2019-02-25"
 ### エンティティー
 {: #entities}
 
-コンテンツ内で言及されている人、場所、イベント、およびその他のタイプのエンティティーを検出します。 エンティティーのタイプとサブタイプの完全なリストについては、[こちら](/docs/services/natural-language-understanding?topic=natural-language-understanding-entity-type-systems)を参照してください。以下に例を示します。
+コンテンツ内で言及されている人、場所、イベント、およびその他のタイプのエンティティーを検出します。 エンティティーのタイプとサブタイプの完全なリストについては、[こちら](/docs/services/natural-language-understanding?topic=natural-language-understanding-entity-type-systems)を参照してください。 以下に例を示します。
 
 **入力**
 > text: "IBM is an American multinational technology company headquartered in Armonk, New York, United States, with operations in over 170 countries."

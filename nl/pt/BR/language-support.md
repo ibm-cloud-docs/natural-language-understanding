@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-02-25"
+lastupdated: "2019-06-03"
 
 ---
 
@@ -842,16 +842,11 @@ A opção de impressão de destino para palavras-chave não é suportada para te
     </tr>
     <tr>
       <td>Impressão</td>
-      <td>X&ast;</td>
+      <td>P</td>
       <td></td>
     </tr>
   </tbody>
 </table>
-
-&ast; A detecção de impressão para essa linguagem funciona melhor em dados baseados em mídia social, como tweets. Melhorias de precisão adicionais estão planejadas no futuro próximo.
-
-A opção de impressão de destino para palavras-chave não é suportada para texto em espanhol.
-
 
 ## Sueco
 {: #swedish}

@@ -33,16 +33,16 @@ lastupdated: "2019-02-25"
   - [デモの視聴  ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://www.youtube.com/watch?v=z91RYXgU9CI){: new_window}
   - [動画の視聴 ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://www.youtube.com/watch?v=9c7NuamK8JA){: new_window}
 
-##  構造化データと非構造化データをリンクしてお勧めを生成する
+## 構造化データと非構造化データをリンクしてお勧めを生成する
 {: #recommendations}
 
-構造化形式で保管されているデータとの関係を確立する
+構造化形式で保管されているデータとの関係を確立します。
 
   - [詳細はこちら ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://developer.ibm.com/patterns/generate-insights-from-multiple-data-formats-using-watson-services/)
   - [コードの取得  ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://github.com/IBM/generate-insights-from-data-formats-with-watson){: new_window}
   - [デモの視聴  ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://www.youtube.com/watch?v=wj39DepBVBg){: new_window}
 
-## E メール対応の自動カスタマー・サポートを提供する
+## E メールの自動カスタマー・サポートを提供する
 {: #automated-customer-support-for-emails}
 
 Watson の自然言語処理機能を使用して、インテリジェントなカスタマー・サポート・システムを開発します。
@@ -54,7 +54,7 @@ Watson の自然言語処理機能を使用して、インテリジェントな�
 ## 知識ベースに対してドキュメントの照会を行う
 {: #query-knowledge-base-for-documents}
 
-Watson NLU、Python NLTK、IBM Watson Studio を利用して、各ビジネス領域に固有のドキュメントに関する質問の照会を知識ベースに対して実行し、必要な答えを得ます。
+Watson NLU、Python NLTK、IBM Watson Studio を利用して知識ベースに対して照会を行い、各ビジネス領域に固有のドキュメントに関係した質問に対する回答を得ます。
 
   - [詳細はこちら ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://developer.ibm.com/patterns/algorithm-that-gives-you-answer-to-any-particular-question-based-on-mining-documents/)
   - [コードの取得  ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://github.com/IBM/query-knowledge-base-with-domain-specific-documents/){: new_window}
@@ -72,7 +72,7 @@ IBM Cloud、Watson サービス、Watson Studio、そしてオープンソース
 ## 画像を取り込み、そこから抽出したテキストを翻訳する
 {: #translate-text-in-images}
 
-Tesseract OCR で画像を取り込んでテキストを抽出し、Watson Language Translator を利用して翻訳します。
+Tesseract OCR および Watson Language Translator を使用して、画像の取り込み、およびテキストの抽出と翻訳を行います。
 
   - [詳細はこちら ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://developer.ibm.com/patterns/snap-translate-using-tesseract-ocr-watson-language-translator/)
   - [コードの取得  ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://github.com/IBM/snap-and-translate){: new_window}
@@ -141,7 +141,7 @@ Jupyter Notebook で PixieDust を使用してコグニティブ・データ分�
   - [コードの取得  ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://github.com/IBM/pixiedust-facebook-analysis?cm_sp=IBMCode-_-discover-hidden-facebook-usage-insights-_-Get-the-Code){: new_window}
   - [デモの視聴  ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://www.youtube.com/watch?v=UIkjFo9o3vI&cm_sp=IBMCode-_-discover-hidden-facebook-usage-insights-_-View-the-Demo){: new_window}
   
-##  Watson のテキスト分類を拡張する
+## Watson のテキスト分類を拡張する
 {: #extend-text-classification}
 
 Python NLTK ツールキットと IBM DSX を使用して、必要とするテキスト分類結果を実現します。
@@ -150,7 +150,7 @@ Python NLTK ツールキットと IBM DSX を使用して、必要とするテ�
   - [コードの取得  ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://github.com/IBM/watson-document-classifier?cm_sp=Developer-_-extend-watson-text-classification-_-Get-the-code){: new_window}
   - [デモの視聴  ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://youtu.be/kp8dcM9AKrA?cm_sp=Developer-_-extend-watson-text-classification-_-Watch-the-video){: new_window}
 
-## 非構造化データから個人データの特徴を採取する
+## 非構造化データから個人データを採取する
 {: #fingerprint-personal-data}
 
 Watson Natural Language Understanding と Watson Knowledge Studio を利用してカスタム・モデルを作成する

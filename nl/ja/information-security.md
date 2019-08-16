@@ -43,6 +43,6 @@ GDPR に対する準備を整えるための IBM 独自の過程と、準拠が�
 ## Natural Language Understanding でのデータのラベル付けと削除
 {: #gdpr-in-service}
 
-{{site.data.keyword.nlushort}} サービスはユーザーのデータを処理しますが、保管しません。{{site.data.keyword.nlushort}} サービスのユーザーが、各自のデータを指定、保護、削除する操作を行う必要は一切ありません。
+{{site.data.keyword.nlushort}} サービスはユーザーのデータを処理しますが、保管しません。 {{site.data.keyword.nlushort}} サービスのユーザーが、各自のデータを識別、保護、削除するための処置を行う必要はありません。
 
 

@@ -118,7 +118,7 @@ lastupdated: "2019-02-25"
 >text: "The Nobel Prize in Physics 1921 was awarded to Albert Einstein."
 
 **响应**
->“Noble Prize in Physics”和“Albert Einstein”之间有“awardedTo”关系</br>
+>“Noble Prize in Physics”和“Albert Einstein”之间有“awardedTo”关系 </br>
 >“1921”和“awarded”之间有“timeOf”关系
 
 ### 语义角色
@@ -130,8 +130,8 @@ lastupdated: "2019-02-25"
 >text: "In 2011, Watson competed on Jeopardy!"
 
 **响应**
->主语：Watson</br>
->动作：competed</br>
+>主语：Watson </br>
+>动作：competed </br>
 >宾语：on Jeopardy
 
 ### 观点

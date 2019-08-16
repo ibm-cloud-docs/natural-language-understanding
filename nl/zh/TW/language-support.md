@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-02-25"
+lastupdated: "2019-06-03"
 
 ---
 
@@ -839,16 +839,11 @@ lastupdated: "2019-02-25"
     </tr>
     <tr>
       <td>觀感</td>
-      <td>X&ast;</td>
+      <td>X</td>
       <td></td>
     </tr>
   </tbody>
 </table>
-
-&ast; 此語言的觀感偵測最適合用於社交媒體型資料（如推文）。不久的未來會計劃進一步的精確度改善。
-
-西班牙文文字不支援關鍵字的目標觀感選項。
-
 
 ## 瑞典文
 {: #swedish}

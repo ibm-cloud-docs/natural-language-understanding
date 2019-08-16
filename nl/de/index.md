@@ -49,7 +49,7 @@ Kategorisieren Sie Ihren Inhalt mithilfe einer fünfstufigen Klassifikationshier
 Ermitteln Sie übergeordnete Konzepte, die nicht notwendigerweise im Text direkt referenziert sind. Beispiel:
 
 **Eingabe**
-> Text: "Natural Language Understanding verwendet für die Textanalyse die Verarbeitung natürlicher Sprache."
+> text: "Natural Language Understanding uses natural language processing to analyze text."
 
 **Antwort**
 > Linguistics </br>
@@ -62,12 +62,12 @@ Ermitteln Sie übergeordnete Konzepte, die nicht notwendigerweise im Text direkt
 Analysieren Sie Emotionen, die von bestimmten Zielausdrücken oder vom Dokument insgesamt getragen sind. Sie können auch die Emotionsanalyse für Entitäten und Schlüsselwörter aktivieren, die automatisch vom Service erkannt werden. Beispiel:
 
 **Eingabe**
-> Text: "Ich liebe Äpfel, aber ich hasse Orangen." </br>
-> Ziele: "Äpfel" und "Orangen"
+> text: "I love apples, but I hate oranges." </br>
+> targets: "apples", and "oranges"
 
 **Antwort**
-> "Äpfel": joy </br>
-> "Orangen": anger
+> "apples": joy </br>
+> "oranges": anger
 
 ### Entitäten
 {: #entities}
@@ -75,13 +75,13 @@ Analysieren Sie Emotionen, die von bestimmten Zielausdrücken oder vom Dokument 
 Suchen Sie Personen, Orte, Ereignisse und andere Typen von Entitäten, die in Ihrem Inhalt erwähnt werden. Die vollständige Liste der Entitätstypen und -untertypen finden Sie [hier](/docs/services/natural-language-understanding?topic=natural-language-understanding-entity-type-systems). Beispiel:
 
 **Eingabe**
-> Text: "IBM ist ein amerikanisches multinationales Technologieunternehmen mit Hauptsitz in Armonk, New York, Vereinigte Staaten, und Unternehmensaktivitäten in über 170 Ländern."
+> text: "IBM is an American multinational technology company headquartered in Armonk, New York, United States, with operations in over 170 countries."
 
 **Antwort**
 > IBM: Company </br>
 > Armonk: Location </br>
 > New York: Location </br>
-> Vereinigte Staaten: Location
+> United States: Location
 
 ### Schlüsselwörter
 {: #keywords}
@@ -109,17 +109,17 @@ Für HTML- und URL-Eingaben rufen Sie den Autor der Webseite, den Seitentitel un
 >Title: Girding the Grid with Cognitive Computing - THINK Blog </br>
 >Publication date: 31. Januar 2017
 
-### Relations
+### Beziehungen
 {: #relations}
 
 Erkennen Sie, wo zwei Entitäten zusammengehörig sind, und ermitteln Sie den Typ der Beziehung. Beispiel:
 
 **Eingabe**
->Text: "Der Nobelpreis für Physik 1921 wurde Albert Einstein zuerkannt."
+>text: "The Nobel Prize in Physics 1921 was awarded to Albert Einstein."
 
 **Antwort**
->Beziehung "awardedTo" zwischen "Nobelpreis für Physik" und "Albert Einstein" </br>
->Beziehung "timeOf" zwischen "1921" und "awarded"
+>"awardedTo" relation between "Noble Prize in Physics" and "Albert Einstein" </br>
+>"timeOf" relation between "1921" and "awarded"
 
 ### Semantische Rollen
 {: #semantic-roles}
@@ -127,12 +127,12 @@ Erkennen Sie, wo zwei Entitäten zusammengehörig sind, und ermitteln Sie den Ty
 Analysieren Sie Sätze in die Form "Subjekt-Aktion-Objekt" und ermitteln Sie Entitäten und Schlüsselwörter, die Subjekte oder Objekte einer Aktion sind. Beispiel:
 
 **Eingabe**
->Text: "Im Jahr 2011 gewann Watson in Jeopardy."
+>text: "In 2011, Watson competed on Jeopardy!"
 
 **Antwort**
->Subjekt: Watson </br>
->Aktion: gewann </br>
->Objekt: in Jeopardy
+>Subject: Watson </br>
+>Action: competed </br>
+>Object: on Jeopardy
 
 ### Stimmung
 {: #sentiment}
@@ -140,10 +140,10 @@ Analysieren Sie Sätze in die Form "Subjekt-Aktion-Objekt" und ermitteln Sie Ent
 Analysieren Sie die Stimmung gegenüber bestimmten Zielausdrücken und die Stimmung des Dokuments insgesamt. Sie können auch Stimmungsinformationen für erkannte Entitäten und Schlüsselwörter abrufen, indem Sie die Option 'sentiment' für diese Features aktivieren. Beispiel:
 
 **Eingabe**
->Text: "Danke und auf Wiedersehen!"
+>text: "Thank you and have a nice day!"
 
 **Antwort**
->Positive Stimmung (Score: 0,91)
+>Positive sentiment (score: 0.91)
 
 ## Unterstützte Sprachen
 {: #supported-languages}

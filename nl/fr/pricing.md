@@ -43,7 +43,7 @@ Plan de "paiement à la carte" recommandé une fois que vous êtes prêt à fair
 
 **Tarification** (facturation mensuelle)
 - Niveau 1 : 0,003 $/élément NLU pour les 250 000 premiers éléments NLU
-- Niveau 2 : 0,001 $/élément NLU pour les éléments NLU allant du 250 001e au 5 000 000e  
+- Niveau 2 : 0,001 $/élément NLU pour les éléments NLU allant du 250 001e au 5 000 000e
 - Niveau 3 : 0,0002 $/élément NLU pour tout élément NLU supplémentaire
 
 **Modèle personnalisé** ($/modèle personnalisé/mois)
@@ -61,7 +61,7 @@ _Pour plus de détails, [contactez notre équipe de ventes](https://www.ibm.com/
 
 L'utilisation de l'API est mesurée en **éléments NLU**. Un élément NLU est une **unité de texte** (jusqu'à 10 000 caractères) analysée pour une **fonction**, comme sentiment.
 
-Pour garder le suivi du nombre d'éléments NLU dans votre demande, vous pouvez examiner l'objet `usage` dans la réponse. Par exemple, l'analyse de 15 000 caractères de texte à la recherche de sentiment, d'émotion et de mots clés va renvoyer les informations d'utilisation suivantes. 
+Pour garder le suivi du nombre d'éléments NLU dans votre demande, vous pouvez examiner l'objet `usage` dans la réponse. Par exemple, l'analyse de 15 000 caractères de texte à la recherche de sentiment, d'émotion et de mots clés va renvoyer les informations d'utilisation suivantes.
 
 ```json
 "usage": {

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-02-25"
+lastupdated: "2019-03-20"
 
 ---
 
@@ -20,7 +20,7 @@ lastupdated: "2019-02-25"
 # 定制
 {: #customizing}
 
-借助 [{{site.data.keyword.knowledgestudiofull}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://ibm.biz/watsonknowledgestudio)，您可以使用定制模型来扩展 {{site.data.keyword.nlushort}}，这些模型可识别您的域独有的定制实体和关系。
+借助 [{{site.data.keyword.knowledgestudiofull}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://www.ibm.com/watson/services/knowledge-studio/)，您可以使用定制模型来扩展 {{site.data.keyword.nlushort}}，这些模型可识别您的域独有的定制实体、关系和类别。
 {: shortdesc}
 
 ## 定制模型入门
@@ -30,15 +30,21 @@ lastupdated: "2019-02-25"
 
 1. 如果您尚未执行 {{site.data.keyword.nlushort}} [入门](/docs/services/natural-language-understanding?topic=natural-language-understanding-getting-started)中的操作，请执行这些操作。
 2. [{{site.data.keyword.knowledgestudioshort}} 入门](/docs/services/watson-knowledge-studio?topic=watson-knowledge-studio-wks_tutintro#wks_tutintro)。
-3. [使用 {{site.data.keyword.knowledgestudioshort}} 创建机器学习模型](/docs/services/watson-knowledge-studio?topic=watson-knowledge-studio-wks_tutml_intro#wks_tutml_intro)。
+3. 创建定制模型。
+   1. 要创建定制实体和关系模型，请参阅[创建机器学习模型](/docs/services/watson-knowledge-studio?topic=watson-knowledge-studio-wks_tutml_intro) 
+   2. 还可以使用基于规则的模型来创建定制实体模型。请参阅[创建基于规则的模型](/docs/services/watson-knowledge-studio?topic=watson-knowledge-studio-wks_tutrule_intro)以了解详细信息。
+   3. 要创建定制类别模型，请参阅[创建定制类别模型](/docs/services/watson-knowledge-studio?topic=watson-knowledge-studio-create-categories-model)。
 4. [将模型部署到 {{site.data.keyword.nlushort}}](/docs/services/watson-knowledge-studio?topic=watson-knowledge-studio-publish-ml#wks_manlu)
-5. 要使用模型，请在 API 请求的 [entities ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://{DomainName}/apidocs/natural-language-understanding#entities){: new_window} 或 [relations ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://{DomainName}/apidocs/natural-language-understanding#relations){: new_window} 选项中指定部署的 `model`：
+5. 要使用模型，请在 API 请求的 [entities ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://{DomainName}/apidocs/natural-language-understanding#entities){: new_window}、[relations ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://{DomainName}/apidocs/natural-language-understanding#relations){: new_window} 或 [categories ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://{DomainName}/apidocs/natural-language-understanding#categories){: new_window} 选项中指定您部署的 `model`：
     - 示例 *parameters.json* 文件：
 
         ```json
         {
           "url": "www.url.example",
           "features": {
+            "categories": {
+              "model": "your-model-id-here"
+            },
             "entities": {
               "model": "your-model-id-here"
             },
@@ -54,7 +60,7 @@ lastupdated: "2019-02-25"
 
         ```bash
         curl --user "apikey":"{apikey}" \
-        "{url}/v1/analyze?version=2018-09-21" \
+        "{url}/v1/analyze?version=2018-11-16" \
         --request POST \
         --header "Content-Type: application/json" \
         --data @parameters.json

@@ -76,7 +76,7 @@ Ci sono **2** unità di testo e **3** funzioni nella richiesta, quindi ci sono *
 
 Le unità di testo sono conteggiate in modo separato per ogni richiesta. Se una richiesta analizza 15.000 caratteri e un'altra richiesta analizza 3.000 caratteri, questo conta come un totale di 3 unità di testo. La prima richiesta ha 2 unità di testo e la seconda richiesta ha 1 unità di testo.
 
-## Domande frequenti (FAQ) 
+## Domande frequenti (FAQ)
 {: #faq}
 
 ### Voglio capire il parere su 20.000 tweet. Come stimo quanto pagherò con il piano Standard?
@@ -88,12 +88,12 @@ Questo si traduce in un'unica unità di testo per ogni richiesta.
 - Passo 2. Calcola il numero di funzioni per ogni richiesta<br>
 Una funzione, parare, è abilitata in ciascuna richiesta.
 
-- Passo 3: Calcola il numero di elementi NLU per ogni richiesta <br>
+- Passo 3: Calcola il numero di elementi NLU per ogni richiesta<br>
 Elementi NLU = (Numero di unità di testo) × (Numero di funzioni)<br>
 Elementi NLU = 1 unità di testo × 1 funzione = 1 elemento NLU
 
-- Passo 4: Calcola il numero totale di elementi NLU<br>
-Numero totale di elementi NLU = (Numero di richieste) × (Numero di voci NLU per ogni richiesta)<br>
+- Passo 4: Calcola il numero totale di elementi NLU <br>
+Numero totale di elementi NLU = (Numero di richieste) × (Numero di voci NLU per ogni richiesta) <br>
 Numero totale di elementi NLU = 20.000 richieste × 1 elemento NLU per ogni richiesta = 20.000 elementi NLU in totale
 
 - Passo 5: Stima il prezzo per il numero totale di elementi NLU<br>
@@ -104,7 +104,7 @@ Prezzo stimato = 20,000 elementi NLU × $0,003 = $60
 **Costo totale = $60**
 
 ### Voglio estrarre entità, parole chiave e categorie per 50.000 documenti con una media di 12.000 caratteri per ogni documento. Quale sarà il mio prezzo stimato sul piano Standard?
-- Passo 1. Calcola il numero di unità di testo per ogni richiesta.<br>
+- Passo 1. Calcola il numero di unità di testo per ogni richiesta. <br>
 Unità di testo = Numero di gruppi di 10000 caratteri o meno <br>
 12.000 caratteri per ogni richiesta = 2 unità di testo per ogni richiesta
 
@@ -115,7 +115,7 @@ Entità, parole chiave, categorie = 3 funzioni
 Elementi NLU = (Numero di unità di testo) × (Numero di funzioni) <br>
 Elementi NLU = 2 unità di dati × 3 arricchimenti = 6 elementi NLU
 
-- Passo 4: Calcola il numero totale di elementi NLU<br>
+- Passo 4: Calcola il numero totale di elementi NLU <br>
 Numero totale di elementi NLU = (Numero di richieste o documenti) × (Numero di elementi NLU) <br>
 Numero totale di elementi NLU = 50.000 richieste × 6 elementi NLU = 300.000 elementi NLU
 

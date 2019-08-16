@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-02-25"
+lastupdated: "2019-06-21"
 
 ---
 
@@ -45,20 +45,79 @@ Il servizio {{site.data.keyword.nlushort}} ha un nuovo processo di autenticazion
     Quando utilizzi uno qualsiasi degli SDK Watson, puoi passare la chiave API e lasciare che SDK gestisca il ciclo di vita dei token. Per ulteriori informazioni ed esempi, vedi [Autenticazione ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://{DomainName}/apidocs/natural-language-understanding/#authentication){: new_window} nella guida di riferimento API.
 - Per le istanze del servizio _esistenti_ che hai creato prima della data indicata, puoi continuare ad eseguire l'autenticazione fornendo il nome utente e la password per l'istanza del servizio. Prima o poi dovrai eseguire la migrazione di queste istanze del servizio all'autenticazione IAM. Verranno forniti degli aggiornamenti sul processo e le date di migrazione. Per ulteriori informazioni sulla migrazione, vedi [Migrazione di istanze del servizio Cloud Foundry a un gruppo di risorse](/docs/resources/instance_migration.html).
 
-Per appurare quale sia l'autenticazione da utilizzare, visualizza le credenziali del servizio facendo clic sull'istanza del servizio nel [Dashboard ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://{DomainName}/dashboard/apps?watson){: new_window}.
+Per appurare quale sia l'autenticazione da utilizzare, visualizza le credenziali del servizio facendo clic sull'istanza del servizio nella [Pagina delle risorse {{site.data.keyword.cloud_notm}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://{DomainName}/resources){: new_window}.
 
 
 ## Controllo versioni della API di servizio
 {: #service-api-versioning}
 
-**Versione API corrente**: 16-11-2018
+**Versione API corrente**: 2019-06-04
 
 Le richieste API richiedono un parametro di versione che assume la data nel formato `version=YYYY-MM-DD`. Invia il parametro di versione con ogni richiesta API.
 
 Quando modifichiamo l'API in un modo non compatibile con le versioni precedenti, rilasciamo una nuova versione secondaria. Per avvalerti delle modifiche in una nuova versione, modifica il valore del parametro di versione nella nuova data. Se non sei pronto ad aggiornare la versione in oggetto, non modificare la data della versione.
 
+### Date della versione attive
+{: #active-version-dates}
+
+La seguente tabella mostra il comportamento del servizio come cambia per ogni data della versione. Il passaggio a una data della versione successiva attiverà tutte le modifiche introdotte nelle versioni precedenti.
+
+|Data versione|Riepilogo modifiche|
+|---|---|
+|[`2019-06-04`](#4-june-2019)| <li>Corretto un bug che causava che le richieste di entità con i modelli personalizzati ignorassero l'opzione `limit`.</li><li>Il valore `limit` predefinito per tutte le richieste di entità è ora 50 per tutti i modelli.</li><li>Il valore massimo per `limit` di 250 entità è stato rimosso.</li>|
+|[`2018-11-16`](#16-november-2018)| <li>Sistema di tipi di entità in italiano versione 2.</li>|
+|[`2018-09-21`](#21-september-2018)| <li>Sistema di tipi di entità in portoghese versione 2.</li>|
+|[`2018-03-16`](#16-march-2018)| <li>Sistema di tipi di entità in francese versione 2.</li><li>Sistema di tipi di entità in tedesco versione 2.</li>| 
+|[`2017-02-27`](#27-february-2017)| Versione di base.| 
+
 ## Modifiche
 {: #changes}
+
+### 21 giugno 2019
+{: #21-june-2019}
+
+- Viene ora restituito il punteggio di affidabilità dell'entità per le richieste di entità che utilizzano i modelli di machine learning personalizzati.
+
+### 4 giugno 2019
+{: #4-june-2019}
+
+Vengono attivate le seguenti modifiche quando utilizzi la data della versione `2019-06-04` o successiva.
+
+- Corretto un bug che causava che le richieste di entità con i modelli personalizzati ignorassero l'opzione `limit`.
+- Il valore `limit` predefinito per tutte le richieste di entità è ora 50 per tutti i modelli.
+- Il valore massimo per `limit` di 250 entità è stato rimosso.
+
+### 29 maggio 2019
+{: #29-may-2019}
+
+- È stato migliorato il parere in lingua spagnola.
+- Corretto un bug che poteva interessare i risultati del parere selezionati se la destinazione conteneva dei caratteri speciali.
+- Sono state abilitate le seguenti modifiche per le istanze del servizio in Washington DC, Tokyo, Londra e Sydney:
+  - L'opzione di parere per le richieste di entità che utilizzano i modelli personalizzati è abilitata per tutte le lingue supportate dal parere con eccezione di arabo e russo.
+
+
+### 24 maggio 2019
+{: #24-may-2019}
+
+- Sono stati migliorati le parole chiave per la lingua tedesca.
+- Sono stati rilasciati degli aggiornamenti del parere in inglese per le istanze del servizio in tutte le ubicazioni IBM Cloud diverse da Dallas.
+
+### 3 maggio 2019
+{: #3-may-2019}
+
+- È stato migliorato il rilevamento del parere al livello del documento in tedesco.
+
+### 25 aprile 2019
+{: #25-april-2019}
+
+- Sono state abilitate le citazioni dell'entità per i [modelli personalizzati](/docs/services/natural-language-understanding?topic=natural-language-understanding-customizing) basati sulle regole. Per visualizzare le citazioni nei tuoi risultati, imposta l'opzione di entità `mentions` su `true`.
+- Sono state rilasciate le spiegazioni per i risultati delle categorie per la lingua inglese. Per visualizzare del testo rilevante dall'origine che ha contribuito ad ogni risultato, imposta l'opzione di categorie `explanation` su `true`.
+
+### 19 marzo 2019
+{: #19-march-2019}
+
+- È stato introdotto il supporto sperimentale per i modelli di categorie personalizzati creati con {{site.data.keyword.knowledgestudioshort}}. Per iniziare, vedi [Creazione di un modello di categorie personalizzato](/docs/services/watson-knowledge-studio?topic=watson-knowledge-studio-create-categories-model)
+- Sono stati migliorati i concetti e le parole chiave in spagnolo.
 
 ### 10 gennaio 2019
 {: #10-january-2019}
@@ -98,7 +157,7 @@ Quando modifichiamo l'API in un modo non compatibile con le versioni precedenti,
 - Sono state migliorate l'accuratezza e le prestazioni delle parole chiave per l'input in inglese, francese, giapponese e portoghese.
 - Sono state migliorate l'accuratezza e e le prestazioni in lingua italiana, compresa una migliore accuratezza per degli esempi di testo di grandi dimensioni.
 - È stato corretto un bug che causava la visualizzazione di testo con codifica URL nei risultati di disambiguazione delle entità in lingua spagnola.
-- È stato rilasciato un nuovo modello di entità in lingua italiana con il sistema di tipi di entità più recente. Puoi saperne di più sul sistema di tipi più recente nella pagina [Tipi e sottotipi di entità (versione 2)](entity-types-v2.html). Quando la tua applicazione è compatibile con il nuovo sistema di tipi, modifica il parametro di data della versione nelle tue richieste in `2018-11-16` per utilizzare il nuovo modello. 
+- È stato rilasciato un nuovo modello di entità in lingua italiana con il sistema di tipi di entità più recente. Puoi saperne di più sul sistema di tipi più recente nella pagina [Tipi e sottotipi di entità (versione 2)](entity-types-v2.html). Quando la tua applicazione è compatibile con il nuovo sistema di tipi, modifica il parametro di data della versione nelle tue richieste in `2018-11-16` per utilizzare il nuovo modello.
 
 ### 9 novembre 2018
 {: #9-november-2018}

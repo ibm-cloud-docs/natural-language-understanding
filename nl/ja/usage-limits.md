@@ -53,7 +53,7 @@ lastupdated: "2019-02-25"
 ## 「ライト」価格プランのカスタム・モデルのサイズ制限
 {: #custom-models}
 
-「ライト」価格プランで {{site.data.keyword.nlushort}} サービス・インスタンスにデプロイされる {{site.data.keyword.knowledgestudioshort}} カスタム・モデルにはサイズ制限があります。カスタム・モデルのサイズ制限を解除するには、{{site.data.keyword.nlushort}} サービス・インスタンスを有料価格プランにアップグレードしてください。サービス・インスタンスは{{site.data.keyword.cloud_notm}} [リソース・ページ](https://{DomainName}/resources)で確認できます。
+「ライト」価格プランで {{site.data.keyword.nlushort}} サービス・インスタンスにデプロイされる {{site.data.keyword.knowledgestudioshort}} カスタム・モデルにはサイズ制限があります。 カスタム・モデルのサイズ制限を解除するには、{{site.data.keyword.nlushort}} サービス・インスタンスを有料価格プランにアップグレードしてください。 サービス・インスタンスは{{site.data.keyword.cloud_notm}} [リソース・ページ](https://{DomainName}/resources)で確認できます。
 
 ## 言語サポート
 {: #language-support}

@@ -36,7 +36,7 @@ IBM은 고객과 파트너에게 혁신적인 데이터 개인정보 보호, 보
 ## 유럽 연합 일반 개인정보 보호법률(General Data Protection Regulation, GDPR)
 {: #gdpr}
 
-IBM은 고객 및 파트너가 GDPR 규제를 준수하는 데 도움을 줄 수 있도록 혁신적인 데이터 개인정보 보호, 보안 및 통제 솔루션을 제공하려 노력하고 있습니다. 
+IBM은 고객 및 파트너가 GDPR 규제를 준수하는 데 도움을 줄 수 있도록 혁신적인 데이터 개인정보 보호, 보안 및 통제 솔루션을 제공하려 노력하고 있습니다.
 
 IBM의 고유 GDPR 준비 과정 및 사용자의 규제 준수 과정을 지원하기 위한 GDPR 기능과 오퍼링에 관한 자세한 정보는 [여기 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](../../icons/launch-glyph.svg "외부 링크 아이콘")](http://www.ibm.com/gdpr)을 참조하십시오.{: new_window}.
 

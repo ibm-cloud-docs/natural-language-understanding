@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-02-25"
+lastupdated: "2019-06-21"
 
 ---
 
@@ -45,13 +45,13 @@ O {{site.data.keyword.cloud_notm}} está migrando para a autenticação Identity
     Ao usar qualquer um dos SDKs do Watson, é possível passar a chave de API e deixar que o SDK gerencie o ciclo de vida dos tokens. Para obter mais informações e exemplos, consulte [Autenticação ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://{DomainName}/apidocs/natural-language-understanding/#authentication){: new_window} na referência da API.
 - Para instâncias de serviço _existentes_ que você criou antes da data indicada, continue a autenticar fornecendo o nome de usuário e a senha para a instância de serviço. Eventualmente, será necessário migrar essas instâncias de serviço para a autenticação IAM. Atualizações serão fornecidas sobre o processo de migração e as datas. Para obter mais informações sobre migração, consulte [Migrando instâncias de serviço do Cloud Foundry para um grupo de recursos](/docs/resources/instance_migration.html).
 
-Para descobrir qual autenticação deve ser usada, visualize as credenciais de serviço clicando na instância de serviço no [Painel ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://{DomainName}/dashboard/apps?watson){: new_window}.
+Para descobrir qual autenticação deve ser usada, visualize as credenciais de serviço clicando na instância de serviço na [página de recursos do {{site.data.keyword.cloud_notm}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://{DomainName}/resources){: new_window}.
 
 
 ## Versionamento da API de serviço
 {: #service-api-versioning}
 
-** Versão atual da API **: 2018-11-16
+**Versão atual da API**: 04-06-2019
 
 Solicitações de API requerem um parâmetro version que obtém a data no formato `version=YYYY-MM-DD`. Envie o parâmetro version com cada solicitação de API.
 
@@ -59,8 +59,67 @@ Quando mudamos a API de uma maneira incompatível com versões anteriores, lanç
 as mudanças em uma nova versão, mude o valor do parâmetro da versão para a nova data. Se você não estiver pronto para atualizar para
 essa versão, não mude sua data da versão.
 
+### Datas de versão ativa
+{: #active-version-dates}
+
+A tabela a seguir mostra as mudanças de comportamento do serviço para cada data de versão. A mudança para uma data de versão mais recente ativará todas as mudanças introduzidas em versões anteriores.
+
+|Data da versão|Resumo de mudanças|
+|---|---|
+|[`2019-06-04`](#4-june-2019)| <li>Foi corrigido um erro que fazia com que as solicitações de entidades com modelos customizados ignorassem a opção `limit`.</li><li>Agora, o valor `limit` padrão para todas as solicitações de entidades é 50 para todos os modelos.</li><li>O valor `limit` máximo de 250 entidades foi removido.</li>|
+|[`2018-11-16`](#16-november-2018)| <li>Sistema de tipo de entidade em italiano na versão 2.</li>|
+|[`2018-09-21`](#21-september-2018)| <li>Sistema de tipo de entidade em português na versão 2.</li>|
+|[`2018-03-16`](#16-march-2018)| <li>Sistema de tipo de entidade em francês na versão 2.</li><li>Sistema de tipos de entidade em alemão na versão 2.</li>| 
+|[`2017-02-27`](#27-february-2017)| Versão base.| 
+
 ## Mudanças
 {: #changes}
+
+### 21 de junho de 2019
+{: #21-june-2019}
+
+- A pontuação de confiança da entidade agora é retornada para solicitações de entidades que usam os modelos customizados de aprendizado de máquina.
+
+### 4 de junho de 2019
+{: #4-june-2019}
+
+As mudanças a seguir são ativadas quando você usa a data de versão `2019-06-04` ou mais recente.
+
+- Foi corrigido um erro que fazia com que as solicitações de entidades com modelos customizados ignorassem a opção `limit`.
+- Agora, o valor `limit` padrão para todas as solicitações de entidades é 50 para todos os modelos.
+- O valor `limit` máximo de 250 entidades foi removido.
+
+### 29 de maio de 2019
+{: #29-may-2019}
+
+- Foi melhorada a impressão em espanhol.
+- Foi corrigido um erro que poderia afetar os resultados de impressão definidos se o destino contivesse caracteres especiais.
+- As mudanças a seguir estão ativadas para instâncias de serviço em Washington DC, Tóquio, Londres e Sydney:
+  - A opção Impressão para as solicitações de entidades que usam modelos customizados está ativada para todos os idiomas suportados pela impressão, exceto árabe e russo.
+
+
+### 24 de maio de 2019
+{: #24-may-2019}
+
+- Palavras-chave alemãs melhoradas.
+- Atualizações de impressão em inglês foram liberadas para instâncias de serviço em todos os locais do IBM Cloud, exceto Dallas.
+
+### 3 de maio de 2019
+{: #3-may-2019}
+
+- Foi melhorada a detecção de impressão em alemão no nível do documento.
+
+### 25 de abril de 2019
+{: #25-april-2019}
+
+- Menções de entidade foram ativadas para [modelos customizados](/docs/services/natural-language-understanding?topic=natural-language-understanding-customizing) baseados em regra. Para visualizar menções em seus resultados, configure a opção de entidades `mentions` como `true`.
+- Foram liberadas explicações para os resultados de categorias em inglês. Para ver textos relevantes da origem que contribuíram para cada resultado, configure a opção de categorias `explanation` como `true`.
+
+### 19 de março de 2019
+{: #19-march-2019}
+
+- Foi introduzido o suporte experimental para modelos de categorias customizadas criados com o {{site.data.keyword.knowledgestudioshort}}. Para começar, consulte [Criando um modelo de categorias customizadas](/docs/services/watson-knowledge-studio?topic=watson-knowledge-studio-create-categories-model)
+- Foram melhorados os conceitos e as palavras-chave em espanhol.
 
 ### 10 de janeiro de 2019
 {: #10-january-2019}

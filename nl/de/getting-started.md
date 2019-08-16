@@ -35,11 +35,11 @@ In diesem kurzen Lernprogramm wird die {{site.data.keyword.nlushort}}-API mit Be
 {: #before-you-begin}
 
 - {: hide-dashboard} Erstellen Sie eine Instanz des Service:
-    1.  Rufen Sie im {{site.data.keyword.Bluemix_notm}}-Katalog die Seite für [{{site.data.keyword.nlushort}} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://{DomainName}/catalog/services/natural-language-understanding){: new_window} auf. 
-    2.  Registrieren Sie sich entweder für ein kostenloses {{site.data.keyword.Bluemix_notm}}-Konto oder melden Sie sich an. 
+    1.  Rufen Sie im {{site.data.keyword.Bluemix_notm}}-Katalog die Seite für [{{site.data.keyword.nlushort}} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://{DomainName}/catalog/services/natural-language-understanding){: new_window} auf.
+    2.  Registrieren Sie sich entweder für ein kostenloses {{site.data.keyword.Bluemix_notm}}-Konto oder melden Sie sich an.
     3.  Klicken Sie auf **Erstellen**.
 - Kopieren Sie die Berechtigungsnachweise, um sich bei Ihrer Serviceinstanz zu authentifizieren:
-    1.  Klicken Sie auf der Seite **Verwalten** auf **Anzeigen**, damit Ihre Berechtigungsnachweise angezeigt werden. 
+    1.  Klicken Sie auf der Seite **Verwalten** auf **Anzeigen**, damit Ihre Berechtigungsnachweise angezeigt werden.
     2.  Kopieren Sie die Werte für `API-Schlüssel` und `URL`.
 - Stellen Sie sicher, dass Sie über den `curl`-Befehl verfügen:
     - In den Beispielen wird der `curl`-Befehl verwendet, um Methoden der HTTP-Schnittstelle aufzurufen. Installieren Sie die Version für Ihr Betriebssystem aus [curl.haxx.se ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://curl.haxx.se/){: new_window}. Installieren Sie die Version, die das Secure Sockets Layer (SSL)-Protokoll unterstützt. Achten Sie darauf, die Binärdatei für die Installation in Ihre Pfadumgebungsvariable (`PATH`) einzubeziehen.
@@ -67,16 +67,16 @@ curl -X POST -u "apikey:{apikey}"{: apikey} \
   }
 }'
 ```
-{:pre}
+{: pre}
 
-Der nächste Schritt veranschaulicht, wie Optionen angegeben werden, um die Analyse für die einzelnen Features entsprechend anzupassen. 
+Der nächste Schritt veranschaulicht, wie Optionen angegeben werden, um die Analyse für die einzelnen Features entsprechend anzupassen.
 
 ## Schritt 2: Zielausdrücke und Schlüsselwörter analysieren
 {: #analyze-phrase}
 
 {{site.data.keyword.nlushort}} kann Zielausdrücke im Kontext des umgebenden Textes analysieren, um fokussierte Stimmungs- und Emotionsergebnisse zu erzielen. Im nachfolgenden Beispiel wird dem Service mit der Option **targets** für die Stimmung mitgeteilt, dass er nach den Zielen 'apples', 'oranges' und 'broccoli' suchen soll. Da im Text sowohl der Ausdruck 'apples' als auch der Ausdruck 'oranges' vorkommt, werden für diese Ziele Stimmungsbewertungen zurückgegeben.
 
-Für Entitäten und Schlüsselwörter, die in Ihrem Text erkannt werden, können Sie auch Stimmungs- und Emotionsergebnisse abrufen. Im nachfolgenden Beispiel wird der Service mit der Option **emotion** für Schlüsselwörter angewiesen, jedes erkannte Schlüsselwort auf Emotionsergebnisse hin zu analysieren. 
+Für Entitäten und Schlüsselwörter, die in Ihrem Text erkannt werden, können Sie auch Stimmungs- und Emotionsergebnisse abrufen. Im nachfolgenden Beispiel wird der Service mit der Option **emotion** für Schlüsselwörter angewiesen, jedes erkannte Schlüsselwort auf Emotionsergebnisse hin zu analysieren.
 
 ```bash
 curl -X POST -u "apikey:{apikey}"{: apikey} \
@@ -99,7 +99,7 @@ curl -X POST -u "apikey:{apikey}"{: apikey} \
   }
 }'
 ```
-{:pre}
+{: pre}
 
 ## Weitere Schritte
 {: #next-steps}
