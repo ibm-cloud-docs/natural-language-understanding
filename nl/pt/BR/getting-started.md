@@ -66,7 +66,7 @@ curl -X POST -u "apikey:{apikey}"{: apikey} \
   }
 }'
 ```
-{:pre}
+{: pre}
 
 A próxima etapa demonstra como especificar as opções que customizam a análise de cada recurso.
 
@@ -97,7 +97,7 @@ curl -X POST -u "apikey:{apikey}"{: apikey} \
   }
 }'
 ```
-{:pre}
+{: pre}
 
 ## Próximos passos
 {: #next-steps}

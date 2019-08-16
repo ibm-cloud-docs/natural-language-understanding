@@ -39,7 +39,7 @@ Der Preisstrukturplan 'Lite' ist kostenlos für Benutzer, die Natural Language U
 ## Standard
 {: #standard}
 
-Ein nutzungsabhängiger Preistarif, der empfohlen wird, sobald Sie soweit sind, dass Sie Ihre Anwendung vom Machbarkeitsnachweis in die Produktion befördern wollen. 
+Ein nutzungsabhängiger Preistarif, der empfohlen wird, sobald Sie soweit sind, dass Sie Ihre Anwendung vom Machbarkeitsnachweis in die Produktion befördern wollen.
 
 **Preisstruktur** (monatliche Rechnungsstellung)
 - Preisstufe 1: $ 0,003/NLU-Element für die ersten 1-250.000 NLU-Elemente
@@ -72,7 +72,7 @@ Um die Anzahl der NLU-Elemente in Ihrer Anforderung nicht aus dem Blick zu verli
 ```
 {: code}
   
-Da die Anforderung **2** Texteinheiten und **3** Features enthält, umfasst sie **2 × 3 = 6** NLU-Elemente. 
+Da die Anforderung **2** Texteinheiten und **3** Features enthält, umfasst sie **2 × 3 = 6** NLU-Elemente.
 
 Texteinheiten werden für jede Anforderung jeweils getrennt gezählt. Wenn bei einer Anforderung 15.000 Zeichen analysiert werden und bei einer weiteren Anforderung 3.000 Zeichen, so zählt dies insgesamt als 3 Texteinheiten. Die erste Anforderung umfasst 2 Texteinheiten und die zweite Anforderung umfasst eine 1 Texteinheit.
 
@@ -97,21 +97,21 @@ Gesamtzahl von NLU-Elementen = (Anzahl von Anforderungen) × (Anzahl von NLU-Ele
 Gesamtzahl von NLU-Elementen = 20.000 Anforderungen × 1 NLU-Element pro Anforderung = 20.000 Gesamtzahl von NLU-Elementen
 
 - Schritt 5: Voraussichtlichen Preis für die Gesamtzahl von NLU-Elementen als Kostenschätzung berechnen<br>
-Beim Preistarif 'Standard' werden die ersten 250.000 NLU-Elemente jeweils mit $ 0,003 pro Element berechnet. <br>
+Beim Preistarif 'Standard' werden die ersten 250.000 NLU-Elemente jeweils mit $ 0,003 pro Element berechnet.<br>
 Geschätzter Preis = (Anzahl von NLU-Elementen) × (Preis pro NLU-Element) <br>
 Geschätzter Preis = 20.000 NLU-Elemente × $ 0,003 = $ 60
 
 **Gesamtkosten = $ 60**
 
 ### Ich möchte Entitäten, Schlüsselwörter und Kategorien für 50.000 Dokumente mit einem Durchschnitt von 12.000 Zeichen pro Dokument extrahieren. Mit welchem Preis habe ich im Rahmen des Preistarifs 'Standard' schätzungsweise zu rechnen?
-- Schritt 1: Anzahl von Texteinheiten pro Anforderung berechnen<br>
-Texteinheiten = Anzahl von Gruppen von 10.000 Zeichen oder weniger<br>
+- Schritt 1: Anzahl von Texteinheiten pro Anforderung berechnen <br>
+Texteinheiten = Anzahl von Gruppen von 10.000 Zeichen oder weniger <br>
 12.000 Zeichen pro Anforderung = 2 Texteinheiten pro Anforderung
 
 - Schritt 2: Anzahl von Features pro Anforderung berechnen<br>
 Entitäten, Schlüsselwörter, Kategorien = 3 Features
 
-- Schritt 3: Anzahl von NLU-Elementen pro Anforderung berechnen<br>
+- Schritt 3: Anzahl von NLU-Elementen pro Anforderung berechnen <br>
 NLU-Elemente = (Anzahl von Texteinheiten) × (Anzahl von Features) <br>
 NLU-Elemente = 2 Dateneinheiten × 3 Aufbereitungen = 6 NLU-Elemente
 
@@ -119,7 +119,7 @@ NLU-Elemente = 2 Dateneinheiten × 3 Aufbereitungen = 6 NLU-Elemente
 Gesamtzahl von NLU-Elementen = (Anzahl von Anforderungen oder Dokumenten) × (Anzahl von NLU-Elementen) <br>
 Gesamtzahl von NLU-Elementen = 50.000 Anforderungen × 6 NLU-Elemente = 300.000 NLU-Elemente
 
-- Schritt 5: Voraussichtlichen Preis für die Gesamtzahl von NLU-Elementen als Kostenschätzung berechnen<br>
+- Schritt 5: Voraussichtlichen Preis für die Gesamtzahl von NLU-Elementen als Kostenschätzung berechnen <br>
 Für die ersten 250.000 NLU-Elemente werden jeweils $ 0,003 pro Element berechnet<br>
 Alle weiteren NLU-Elemente bis zum Element 5.000.000 werden mit $ 0,001 pro Element berechnet<br>
 Geschätzter Preis = (250.000 NLU-Elemente × $ 0,003) + (50.000 NLU-Elemente × $ 0,001) <br>

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-02-25"
+lastupdated: "2019-06-21"
 
 ---
 
@@ -45,20 +45,79 @@ El servicio {{site.data.keyword.nlushort}} tiene un nuevo proceso de autenticaci
     Cuando utilice cualquiera de los SDK de Watson, puede pasar la clave de API y dejar que el SDK gestione el ciclo de vida de las señales. Para obtener más información y para ver ejemplos, consulte el apartado sobre [Autenticación ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://{DomainName}/apidocs/natural-language-understanding/#authentication){: new_window} en la consulta de API.
 - Para las instancias de servicio _existentes_ que ha creado antes de la fecha indicada, seguirá autenticándose proporcionando el nombre de usuario y la contraseña para la instancia de servicio. Es posible que tenga que migrar estas instancias de servicio a la autenticación de IAM. Se proporcionarán actualizaciones sobre el proceso de migración y las fechas. Para obtener más información sobre la migración, consulte [Migración de instancias de servicio de Cloud Foundry a un grupo de recursos](/docs/resources/instance_migration.html).
 
-Para averiguar qué autenticación debe utilizar, consulte las credenciales de servicio pulsando la instancia de servicio en el [Panel de control ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://{DomainName}/dashboard/apps?watson){: new_window}.
+Para averiguar qué autenticación debe utilizar, consulte las credenciales de servicio pulsando la instancia de servicio en la [página de recursos de {{site.data.keyword.cloud_notm}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://{DomainName}/resources){: new_window}.
 
 
 ## Versiones de la API del servicio
 {: #service-api-versioning}
 
-**Versión actual de la API**: 16-11-2018
+**Versión de API actual**: 2019-06-04
 
 Las solicitudes de API requieren un parámetro de versión que toma la fecha en el formato `version=AAAA-MM-DD`. Envíe el parámetro version con cada solicitud de API.
 
 Cuando cambiamos la API de forma que sea incompatible con versiones anteriores, ponemos a su disposición una versión inferior. Para aprovechar los cambios de una nueva versión, cambie el valor del parámetro version por la nueva fecha. Si no está listo para actualizar a dicha versión, no cambie la fecha de versión.
 
+### Fechas de versión activas
+{: #active-version-dates}
+
+La siguiente tabla muestra los cambios de comportamiento del servicio para cada fecha de versión. Si pasa a una fecha de versión posterior, se activarán todos los cambios incluidos en las versiones anteriores.
+
+|Fecha de versión|Resumen de cambios|
+|---|---|
+|[`2019-06-04`](#4-june-2019)| <li>Se ha solucionado un problema que hacía que las solicitudes de entidades con modelos personalizados ignoraran la opción `limit`.</li><li>Ahora el valor predeterminado de `limit` para todas las entidades es 50 para todos los modelos.</li><li>Se ha eliminado el valor máximo de `limit` de 250 entidades.</li>|
+|[`2018-11-16`](#16-november-2018)| <li>Versión 2 del sistema de tipos de entidad para el italiano.</li>|
+|[`2018-09-21`](#21-september-2018)| <li>Versión 2 del sistema de tipos de entidad para el portugués.</li>|
+|[`2018-03-16`](#16-march-2018)| <li>Versión 2 del sistema de tipos de entidad para el francés.</li><li>Versión 2 del sistema de tipos de entidad para el alemán.</li>| 
+|[`2017-02-27`](#27-february-2017)| Versión base.| 
+
 ## Cambios
 {: #changes}
+
+### 21 de junio de 2019
+{: #21-june-2019}
+
+- Ahora se devuelve la puntuación de confianza de entidades para las solicitudes de entidades que utilizan modelos de aprendizaje automático personalizados.
+
+### 4 de junio de 2019
+{: #4-june-2019}
+
+Se han activado los siguientes cambios al utilizar la fecha de versión `2019-06-04` o posterior.
+
+- Se ha solucionado un problema que hacía que las solicitudes de entidades con modelos personalizados ignoraran la opción `limit`.
+- Ahora el valor predeterminado de `limit` para todas las entidades es 50 para todos los modelos.
+- Se ha eliminado el valor máximo de `limit` de 250 entidades.
+
+### 29 de mayo de 2019
+{: #29-may-2019}
+
+- Se ha mejorado la opción de sentimiento en español.
+- Se ha solucionado un problema que podría haber afectado a los resultados de sentimiento con destino si el destino contenía caracteres especiales.
+- Se han habilitado los siguientes cambios para las instancias de servicio en Washington DC, Tokio, Londres y Sídney:
+  - La opción de sentimiento con destino para solicitudes de entidades que utilizan modelos personalizados se ha habilitado para todos los idiomas que admiten la opción de sentimiento, excepto árabe y ruso.
+
+
+### 24 de mayo de 2019
+{: #24-may-2019}
+
+- Se han mejorado las palabras clave en alemán.
+- Se han publicado actualizaciones de sentimiento para inglés en las instancias de servicio de todas las ubicaciones de IBM Cloud excepto Dallas.
+
+### 3 de mayo de 2019
+{: #3-may-2019}
+
+- Mejoras en la detección del sentimiento a nivel de documentos en alemán.
+
+### 25 de abril de 2019
+{: #25-april-2019}
+
+- Se han habilitado las menciones de entidad para los [modelos personalizados](/docs/services/natural-language-understanding?topic=natural-language-understanding-customizing) basados en reglas. Para ver las menciones en los resultados, establezca la opción `mentions` de `entities` en `true`.
+- Se han incorporado explicaciones para los resultados de categorías en inglés. Para ver el texto relevante de la fuente que ha contribuido a cada resultados, establezca la opción `explanation` de `categories` en `true`.
+
+### 19 de marzo de 2019
+{: #19-march-2019}
+
+- Se ha añadido soporte experimental para modelos de categorías personalizados creados con {{site.data.keyword.knowledgestudioshort}}. Para empezar, consulte [Creación de un modelo de categorías personalizado](/docs/services/watson-knowledge-studio?topic=watson-knowledge-studio-create-categories-model).
+- Se han mejorado las palabras clave y los conceptos en español.
 
 ### 10 de enero de 2019
 {: #10-january-2019}

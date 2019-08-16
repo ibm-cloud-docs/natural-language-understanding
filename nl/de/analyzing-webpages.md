@@ -22,20 +22,20 @@ lastupdated: "2018-10-30"
 # Webseiten analysieren
 {: #analyzing-webpages}
 
-{{site.data.keyword.nlushort}} ermöglicht Ihnen, Text von Webseiten programmgesteuert zu analysieren. Wenn Sie in Ihrer API-Anforderung unformatierte HTML oder eine öffentlich zugängliche URL angeben, versucht der Service, die Analyse schwerpunktmäßig auf den Hauptinhalt der Seite zu richten, wie zum Beispiel auf den Text aus einem Nachrichtenartikel oder Blogbeitrag. 
+{{site.data.keyword.nlushort}} ermöglicht Ihnen, Text von Webseiten programmgesteuert zu analysieren. Wenn Sie in Ihrer API-Anforderung unformatierte HTML oder eine öffentlich zugängliche URL angeben, versucht der Service, die Analyse schwerpunktmäßig auf den Hauptinhalt der Seite zu richten, wie zum Beispiel auf den Text aus einem Nachrichtenartikel oder Blogbeitrag.
 
 **Funktionsweise:**
 
 1. Geben Sie eine öffentlich zugängliche URL mit dem Parameter **url** an oder senden Sie unformatierte HTML im Parameter **html**.
-2. Der Service [bereinigt](#webpage-cleaning) die Webseite standardmäßig, um allgemein unerwünschten Text wie etwa Werbung zu entfernen. 
-3. Wenn Sie eine [XPath-Abfrage](#xpath) mit dem Parameter **xpath** angeben, wählt der Service anhand der Abfrage bestimmte Elemente der Seite aus und bindet diese in die Analyse ein. Wenn bei Verwendung von **xpath** für **clean** der Wert `false` festgelegt ist, wird nur das Ergebnis der XPath-Abfrage analysiert. 
+2. Der Service [bereinigt](#webpage-cleaning) die Webseite standardmäßig, um allgemein unerwünschten Text wie etwa Werbung zu entfernen.
+3. Wenn Sie eine [XPath-Abfrage](#xpath) mit dem Parameter **xpath** angeben, wählt der Service anhand der Abfrage bestimmte Elemente der Seite aus und bindet diese in die Analyse ein. Wenn bei Verwendung von **xpath** für **clean** der Wert `false` festgelegt ist, wird nur das Ergebnis der XPath-Abfrage analysiert.
 
 ## Webseitenbereinigung
 {: #webpage-cleaning}
 
-Standardmäßig 'bereinigt' der Service Webseiten, bevor sie analysiert werden. Bei der Webseitenbereinigung wird versucht, allgemein unerwünschte Inhalte wie etwa Werbung oder sonstigen Text zu entfernen, der die Analyse des Seitenhauptinhalts beeinträchtigen könnte. 
+Standardmäßig 'bereinigt' der Service Webseiten, bevor sie analysiert werden. Bei der Webseitenbereinigung wird versucht, allgemein unerwünschte Inhalte wie etwa Werbung oder sonstigen Text zu entfernen, der die Analyse des Seitenhauptinhalts beeinträchtigen könnte.
 
-Die Webseitenbereinigung kann inaktiviert werden, indem Sie für den Parameter **clean** den Wert `false` festlegen. Im folgenden Beispiel wird die Webseitenbereinigung inaktiviert. 
+Die Webseitenbereinigung kann inaktiviert werden, indem Sie für den Parameter **clean** den Wert `false` festlegen. Im folgenden Beispiel wird die Webseitenbereinigung inaktiviert.
 
 ```bash
 curl --user "apikey:{apikey}" \
@@ -57,12 +57,12 @@ curl --user "apikey:{apikey}" \
 ## Bestimmte Elemente einer Webseite mit XPath analysieren
 {: #xpath}
 
-Der Parameter **xpath** ermöglicht die Verwendung einer XPath-Abfrage, um bestimmte Teile einer Webseite zu analysieren. Wenn Sie mehr über XPath erfahren wollen, prüfen Sie den Inhalt der folgenden Ressourcen. 
+Der Parameter **xpath** ermöglicht die Verwendung einer XPath-Abfrage, um bestimmte Teile einer Webseite zu analysieren. Wenn Sie mehr über XPath erfahren wollen, prüfen Sie den Inhalt der folgenden Ressourcen.
 
   - [Lernprogramm zu XPath von W3Schools](https://www.w3schools.com/xml/xpath_intro.asp)
   - [XPath in Wikipedia](https://wikipedia.org/wiki/XPath)
 
-Das Verhalten des Parameters **xpath** hängt von dem Wert des Parameters **clean** ab:  
+Das Verhalten des Parameters **xpath** hängt von dem Wert des Parameters **clean** ab: 
 
   - **clean** = `true` (Standardeinstellung): Die Ergebnisse der XPath-Abfrage werden an den bereinigten Webseitentext angehängt, bevor der kombinierte Text analysiert wird.
   - **clean** = `false`: Es werden nur die Ergebnisse der XPath-Abfrage analysiert.
@@ -99,7 +99,7 @@ curl --user "apikey:{apikey}" \
 ### Nur Text aus bestimmten Elementen analysieren
 {: #analyze-xpath-results-only}
 
-Wenn nur das Ergebnis einer XPath-Abfrage analysiert werden soll, verwenden Sie den Parameter **xpath** und legen Sie für den Parameter **clean** den Wert `false` fest. Bei dem folgenden Beispiel wird nur der Titel und der Untertitel der Beispielwebseite analysiert. 
+Wenn nur das Ergebnis einer XPath-Abfrage analysiert werden soll, verwenden Sie den Parameter **xpath** und legen Sie für den Parameter **clean** den Wert `false` fest. Bei dem folgenden Beispiel wird nur der Titel und der Untertitel der Beispielwebseite analysiert.
 
 **Beispiel für eine *parameters.json*-Datei**
 ```json

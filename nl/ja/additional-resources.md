@@ -139,7 +139,7 @@ lastupdated: "2018-12-20"
 - [Multimedia5 は Watson を利用してどのように動画制作をシンプルかつスマートにしたか](https://developer.ibm.com/blogs/2018/11/06/trenity-uses-watson-nlu-to-build-a-sports-engagement-platform/)
 - [AI を利用した人身売買との闘い](https://www.ibm.com/blogs/citizen-ibm/2018/10/bill-peace-stop-the-traffik/)
 - [Buzz Radar Cognitive Command Center が IBM Watson を使用して実用的な洞察を提供](https://www.ibm.com/blogs/cloud-computing/2018/05/31/cognitive-command-center-buzz-radar-ibm-watson/)
-- [マイホームをお探しですか ?AI チャットボットがどのように応対するか紹介します](https://www.ibm.com/blogs/bluemix/2018/04/australias-first-home-loan-chatbot/)
+- [マイホームをお探しですか ? AI チャットボットがどのように応対するか紹介します](https://www.ibm.com/blogs/bluemix/2018/04/australias-first-home-loan-chatbot/)
 - [確立されたパフォーマンス・メトリックで機械学習ソリューションを向上](https://developer.ibm.com/code/2018/04/10/ai-machine-learning-solution-performance-accuracy-precision-recall/)
 - [Watson で通話録音を分析](https://www.ibm.com/blogs/bluemix/2018/04/analyse-call-recordings-watson/)
 - [Apache Spark で REST データ・ソース使用して Watson サービスに対する REST コールを分散](https://developer.ibm.com/dwblog/2018/distributed-rest-calls-to-watson-services-using-rest-data-source-on-apache-spark/)

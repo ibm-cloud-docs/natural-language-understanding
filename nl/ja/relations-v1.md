@@ -24,7 +24,7 @@ lastupdated: "2019-02-25"
 下表に、_バージョン 1_ 関係タイプ・システムで返される関係タイプを示します。 使用している言語によって、{{site.data.keyword.nlushort}} で使用される関係タイプ・システムは異なります。 詳しくは、[関係タイプ・システム](/docs/services/natural-language-understanding?topic=natural-language-understanding-relation-type-systems)ページを参照してください。
 {: shortdesc}
 
-_バージョン 1_ タイプ・システムでは、関係の結果に含まれるエンティティー・タイプと、エンティティーの結果で返されるエンティティー・タイプは異なります。_バージョン 1_ の関係で使用されるエンティティー・タイプのリストについては、[エンティティー・タイプ (バージョン 1)](/docs/services/natural-language-understanding?topic=natural-language-understanding-entity-types-version-1#relations-entity-types)ページを参照してください。
+_バージョン 1_ タイプ・システムでは、関係の結果に含まれるエンティティー・タイプと、エンティティーの結果で返されるエンティティー・タイプは異なります。 _バージョン 1_ の関係で使用されるエンティティー・タイプのリストについては、[エンティティー・タイプ (バージョン 1)](/docs/services/natural-language-understanding?topic=natural-language-understanding-entity-types-version-1#relations-entity-types)ページを参照してください。
 {: note}
 
 | 関係        | 説明                                                                                                                                                                                                        |
@@ -81,4 +81,4 @@ _バージョン 1_ タイプ・システムでは、関係の結果に含まれ
 | spokespersonFor | Person (人) と、その人が代表するエンティティーとの間に存在します。 テキストがこの関係を明示している場合にのみマーク付けされ、常識的知識には基づきません。                                                           |
 | spouseOf        | 正式な配偶者である 2 人の人の間に存在します。                                                                                                                                                      |
 | subsidiaryOf    | 2 つの Organization (組織) の間に、1 番目が 2 番目の傘下組織である場合、つまり、1 番目のエンティティーが 2 番目の制御下にあるにも関わらずかなりの自律性を持っている場合に存在します。                               |
-| timeOf          | TitleWork (作品) の発表、実演、配給や、Law (法律) の草案作成、作成、通過、廃止などのイベントが発生した、Date (日付)、Time (時刻)、または Duration (期間) を示します。|
+| timeOf          | TitleWork (作品) の発表、実演、配給や、Law (法律) の草案作成、作成、通過、廃止などのイベントが発生した、Date (日付)、Time (時刻)、または Duration (期間) を示します。                            |

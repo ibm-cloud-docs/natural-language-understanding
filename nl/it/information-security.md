@@ -24,7 +24,7 @@ IBM si impegna a fornire ai suoi clienti e partner soluzioni innovative per la p
 {: shortdesc}
 
 **Avviso:**
-I clienti sono responsabili per la garanzia della propria conformità alle varie leggi e normative, incluso il Regolamento generale sulla protezione dei dati dell'Unione Europea. È responsabilità esclusiva dei clienti richiedere una consulenza legale qualificata per identificare e interpretare normative e regolamenti che potrebbero influenzare le attività di business dei clienti ed eventuali azioni che i clienti dovranno intraprendere per rispettare la conformità a tali normative e regolamenti. 
+I clienti sono responsabili per la garanzia della propria conformità alle varie leggi e normative, incluso il Regolamento generale sulla protezione dei dati dell'Unione Europea. È responsabilità esclusiva dei clienti richiedere una consulenza legale qualificata per identificare e interpretare normative e regolamenti che potrebbero influenzare le attività di business dei clienti ed eventuali azioni che i clienti dovranno intraprendere per rispettare la conformità a tali normative e regolamenti.
 
 I prodotti, i servizi e le altre funzionalità qui descritti non sono adatti per tutte le situazioni dei clienti e potrebbero avere una disponibilità limitata. IBM non fornisce consulenza legale, contabile o di controllo né dichiara o garantisce che i propri servizi o prodotti assicureranno che i clienti siano conformi ad eventuali normative e regolamenti.
 
@@ -36,7 +36,7 @@ Se hai bisogno di richiedere il supporto GDPR per le risorse {{site.data.keyword
 ## Regolamento generale sulla protezione dei dati (GDPR, General Data Protection Regulation) dell'Unione europea
 {: #gdpr}
 
-IBM si impegna a offrire ai nostri clienti e partner soluzioni innovative per la privacy, la sicurezza e la governance per assisterli nel loro percorso verso la conformità GDPR. 
+IBM si impegna a offrire ai nostri clienti e partner soluzioni innovative per la privacy, la sicurezza e la governance per assisterli nel loro percorso verso la conformità GDPR.
 
 È possibile trovare ulteriori informazioni sul percorso di preparazione verso la disponibilità GDPR e sulle nostre funzionalità e offerte GDPR che supportano il tuo percorso di conformità [qui ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](../../icons/launch-glyph.svg "Icona link esterno")](http://www.ibm.com/gdpr){: new_window}.
 

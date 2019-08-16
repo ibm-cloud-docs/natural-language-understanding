@@ -67,7 +67,7 @@ curl -X POST -u "apikey:{apikey}"{: apikey} \
   }
 }'
 ```
-{:pre}
+{: pre}
 
 下一步演示如何指定用于为每个特征定制分析的选项。
 
@@ -99,7 +99,7 @@ curl -X POST -u "apikey:{apikey}"{: apikey} \
   }
 }'
 ```
-{:pre}
+{: pre}
 
 ## 后续步骤
 {: #next-steps}

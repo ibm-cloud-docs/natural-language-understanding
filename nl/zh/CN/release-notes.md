@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-02-25"
+lastupdated: "2019-06-21"
 
 ---
 
@@ -45,20 +45,79 @@ lastupdated: "2019-02-25"
     使用任何 Watson SDK 时，都可以传递 API 密钥，并让 SDK 管理令牌的生命周期。有关更多信息和示例，请参阅 API 参考中的[认证 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://{DomainName}/apidocs/natural-language-understanding/#authentication){: new_window}。
 - 对于在所指示日期之前创建的_现有_服务实例，将继续通过为服务实例提供用户名和密码来进行认证。最终，需要将这些服务实例迁移到 IAM 认证。将提供有关迁移过程和日期的更新。有关迁移的更多信息，请参阅[将 Cloud Foundry 服务实例迁移到资源组](/docs/resources/instance_migration.html)。
 
-要查找想使用的认证，请通过单击[仪表板 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://{DomainName}/dashboard/apps?watson){: new_window} 上的服务实例来查看服务凭证。
+要确定需要使用的认证，请通过单击 [{{site.data.keyword.cloud_notm}} 资源页面 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://{DomainName}/resources){: new_window} 上的服务实例来查看服务凭证。
 
 
 ## 服务 API 版本控制
 {: #service-api-versioning}
 
-**当前 API 版本**：2018-11-16
+**当前 API 版本**：2019-06-04
 
 API 请求需要 version 参数采用格式为 `version=YYYY-MM-DD` 的日期。请随每个 API 请求一起发送 version 参数。
 
 我们以向后不兼容的方式更改 API 时，会发布一个新的次版本。要利用新版本中的更改，请将 version 参数的值更改为新日期。如果尚未准备好更新到该版本，请勿更改版本日期。
 
+### 活动版本日期
+{: #active-version-dates}
+
+下表显示了每个版本日期的服务行为更改。切换到较新版本日期将会激活较早版本中引入的所有更改。
+
+|版本日期|更改汇总|
+|---|---|
+|[`2019-06-04`](#4-june-2019)| <li>修复了一个错误，该错误导致使用定制模型的实体请求忽略了 `limit` 选项。</li><li>对于所有模型，所有实体请求的缺省 `limit` 值现在为 50。</li><li>已除去最大 `limit` 值 250 个实体。</li>|
+|[`2018-11-16`](#16-november-2018)| <li>V2 意大利语实体类型系统。</li>|
+|[`2018-09-21`](#21-september-2018)| <li>V2 葡萄牙语实体类型系统。</li>|
+|[`2018-03-16`](#16-march-2018)| <li>V2 法语实体类型系统。</li><li>V2 德语实体类型系统。</li>| 
+|[`2017-02-27`](#27-february-2017)|基本版本。| 
+
 ## 更改
 {: #changes}
+
+### 2019 年 6 月 21 日
+{: #21-june-2019}
+
+- 针对使用定制机器学习模型的实体请求，现在返回实体置信度分数。
+
+### 2019 年 6 月 4 日
+{: #4-june-2019}
+
+使用的版本日期为 `2019-06-04` 或更高版本时，将激活以下更改。
+
+- 修复了一个错误，该错误导致使用定制模型的实体请求忽略了 `limit` 选项。
+- 对于所有模型，所有实体请求的缺省 `limit` 值现在为 50。
+- 已除去最大 `limit` 值 250 个实体。
+
+### 2019 年 5 月 29 日
+{: #29-may-2019}
+
+- 改进了西班牙语观点。
+- 修复了一个错误，如果目标包含特殊字符，那么该错误可能会影响目标观点结果。
+- 针对位于华盛顿特区、东京、伦敦和悉尼的服务实例，支持以下更改：
+  - 针对除了阿拉伯语和俄语之外的所有支持观点的语言，都启用了使用定制模型的实体请求的观点选项。
+
+
+### 2019 年 5 月 24 日
+{: #24-may-2019}
+
+- 改进了德语关键字。
+- 英语观点更新发布到除达拉斯之外的所有 IBM Cloud 位置的服务实例。
+
+### 2019 年 5 月 3 日
+{: #3-may-2019}
+
+- 改进了德语文档级别的观点检测。
+
+### 2019 年 4 月 25 日
+{: #25-april-2019}
+
+- 启用了基于规则的[定制模型](/docs/services/natural-language-understanding?topic=natural-language-understanding-customizing)的实体提及项。要查看结果中的提及项，请将 `mentions` 实体选项设置为 `true`。
+- 发布了英语类别结果的说明。要查看产生每个结果的源中的相关文本，请将 `explanation` 类别选项设置为 `true`。
+
+### 2019 年 3 月 19 日
+{: #19-march-2019}
+
+- 引入了对使用 {{site.data.keyword.knowledgestudioshort}} 创建的定制类别模型的试验性支持。要开始使用，请参阅[创建定制类别模型](/docs/services/watson-knowledge-studio?topic=watson-knowledge-studio-create-categories-model)
+- 改进了西班牙语关键字和概念。
 
 ### 2019 年 1 月 10 日
 {: #10-january-2019}

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-02-25"
+lastupdated: "2019-03-20"
 
 ---
 
@@ -20,9 +20,9 @@ lastupdated: "2019-02-25"
 # Personnalisation
 {: #customizing}
 
-Avec [{{site.data.keyword.knowledgestudiofull}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://ibm.biz/watsonknowledgestudio), vous pouvez
-étendre {{site.data.keyword.nlushort}} avec des modèles personnalisés qui identifient des entités et des relations
-personnalisées propres à votre domaine.
+Avec [{{site.data.keyword.knowledgestudiofull}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://www.ibm.com/watson/services/knowledge-studio/), vous pouvez
+étendre{{site.data.keyword.nlushort}} avec des modèles personnalisés qui identifient des entités,
+des relations et des catégories personnalisées propres à votre domaine.
 {: shortdesc}
 
 ## Initiation aux modèles personnalisés
@@ -32,16 +32,23 @@ personnalisées propres à votre domaine.
 
 1. Si vous ne l'avez pas encore fait, [familiarisez-vous](/docs/services/natural-language-understanding?topic=natural-language-understanding-getting-started) avec {{site.data.keyword.nlushort}}.
 2. [Découvrez {{site.data.keyword.knowledgestudioshort}}](/docs/services/watson-knowledge-studio?topic=watson-knowledge-studio-wks_tutintro#wks_tutintro).
-3. [Créez un modèle d'apprentissage automatique avec {{site.data.keyword.knowledgestudioshort}}](/docs/services/watson-knowledge-studio?topic=watson-knowledge-studio-wks_tutml_intro#wks_tutml_intro).
+3. Créez un modèle personnalisé.
+   1. Pour créer un modèle d'entités et de relations personnalisé, voir [Création d'un modèle d'apprentissage automatique](/docs/services/watson-knowledge-studio?topic=watson-knowledge-studio-wks_tutml_intro) 
+   2. Vous pouvez également créer un modèle d'entités personnalisé avec un modèle basé sur des règles. Pour plus d'informations, voir [Création d'un modèle basé sur des règles](/docs/services/watson-knowledge-studio?topic=watson-knowledge-studio-wks_tutrule_intro).
+   3. Pour créer un modèle de catégories personnalisé, voir [Création d'un modèle de catégories personnalisé](/docs/services/watson-knowledge-studio?topic=watson-knowledge-studio-create-categories-model).
 4. [Déployez votre modèle dans {{site.data.keyword.nlushort}}](/docs/services/watson-knowledge-studio?topic=watson-knowledge-studio-publish-ml#wks_manlu)
-5. Pour utiliser votre modèle, spécifiez le `modèle` que vous avez déployé dans l'option [entities ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://{DomainName}/apidocs/natural-language-understanding#entities){: new_window}
-ou [relations ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://{DomainName}/apidocs/natural-language-understanding#relations){: new_window} de votre demande d'API :
+5. Pour utiliser votre modèle, spécifiez le `modèle` que vous avez déployé dans l'option
+[entities ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://{DomainName}/apidocs/natural-language-understanding#entities){: new_window},
+[relations ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://{DomainName}/apidocs/natural-language-understanding#relations){: new_window} ou [catégories ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://{DomainName}/apidocs/natural-language-understanding#categories){: new_window} de votre demande d'API :
     - Exemple de fichier *parameters.json* :
 
         ```json
         {
           "url": "www.url.example",
           "features": {
+            "categories": {
+              "model": "your-model-id-here"
+            },
             "entities": {
               "model": "your-model-id-here"
             },
@@ -57,7 +64,7 @@ ou [relations ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de 
 
         ```bash
         curl --user "apikey":"{apikey}" \
-        "{url}/v1/analyze?version=2018-09-21" \
+        "{url}/v1/analyze?version=2018-11-16" \
         --request POST \
         --header "Content-Type: application/json" \
         --data @parameters.json

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-02-25"
+lastupdated: "2019-06-03"
 
 ---
 
@@ -839,16 +839,11 @@ lastupdated: "2019-02-25"
     </tr>
     <tr>
       <td>观点</td>
-      <td>X&ast;</td>
+      <td>X</td>
       <td></td>
     </tr>
   </tbody>
 </table>
-
-&ast; 针对此语言的观点检测最适合基于社交媒体的数据，如推文。计划在不久的将来进一步提高准确性。
-
-对于西班牙语文本，不支持关键字的目标观点选项。
-
 
 ## 瑞典语
 {: #swedish}

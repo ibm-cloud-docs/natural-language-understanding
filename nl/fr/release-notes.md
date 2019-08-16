@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-02-25"
+lastupdated: "2019-06-21"
 
 ---
 
@@ -46,20 +46,79 @@ Le service {{site.data.keyword.nlushort}} inclut un nouveau processus d'authenti
     Lorsque vous utilisez un kit SDK Watson, vous pouvez transmettre la clé d'API et laisser le kit SDK gérer le cycle de vie des jetons. Pour plus d'informations et pour avoir accès à des exemples, voir la rubrique relative à l'[authentification ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://{DomainName}/apidocs/natural-language-understanding/#authentication){: new_window} dans les références d'API.
 - Pour les instances de service _existantes_ créées avant la date indiquée, vous continuez de vous authentifier en indiquant le nom d'utilisateur et le mot de passe pour l'instance de service. Il peut également être nécessaire de migrer ces instances de service vers l'authentification IAM. Des mises à jour concernant les dates et le processus de migration seront mises à disposition. Pour plus d'informations sur la migration, voir [Migration des instances de service Cloud Foundry vers un groupe de ressources](/docs/resources/instance_migration.html).
 
-Pour savoir quelle méthode d'authentification utiliser, consultez les données d'identification de service en cliquant sur l'instance de service dans le [tableau de bord ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://{DomainName}/dashboard/apps?watson){: new_window}.
+Pour savoir quelle méthode d'authentification utiliser, consultez les données d'identification de service en cliquant sur l'instance de service dans la page des ressources [{{site.data.keyword.cloud_notm}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://{DomainName}/resources){: new_window}.
 
 
 ## Gestion des versions d'API de service
 {: #service-api-versioning}
 
-**Version d'API actuelle** : 2018-11-16
+**Version d'API actuelle** : 2019-06-04
 
 Les demandes d'API requièrent un paramètre de version qui admet la date au format `version=AAAA-MM-JJ`. Envoyez le paramètre de version avec chaque demande d'API.
 
 Lorsque nous changeons l'API et que celle-ci n'est plus compatible avec les versions antérieures, nous publions une nouvelle version mineure. Pour bénéficier des changements apportés dans une nouvelle version, remplacez la valeur du paramètre de version par la nouvelle date. Si vous n'êtes pas prêt à effectuer la mise à jour vers cette version, ne changez pas la date de votre version.
 
+### Dates de version active
+{: #active-version-dates}
+
+Le tableau suivant indique les modifications de comportement du service pour chaque date de version. Le passage à une date de version ultérieure active toutes les modifications introduites dans les versions antérieures.
+
+|Date de version|Récapitulatif des modifications|
+|---|---|
+|[`04-06-2019`](#4-june-2019)| <li>Le bogue qui amenait les demandes d'entités avec des modèles personnalisés à ignorer l'option `limit` a été corrigé.</li><li>La valeur par défaut de `limit` pour toutes les demandes d'entités est désormais 50 pour tous les modèles.</li><li>La valeur maximale de 250 entités pour `limit` a été supprimée.</li>|
+|[`16-11-2018`](#16-november-2018)| <li>Système de type d'entité italien version 2.</li>|
+|[`21-09-2018`](#21-september-2018)| <li>Système de type d'entité portugais version 2.</li>|
+|[`16-03-2018`](#16-march-2018)| <li>Système de type d'entité français version 2.</li><li>Système de type d'entité allemand version 2.</li>| 
+|[`27-02-2017`](#27-february-2017)| Version de base.| 
+
 ## Modifications
 {: #changes}
+
+### 21 juin 2019
+{: #21-june-2019}
+
+- La cote de confiance des entités est désormais renvoyée pour les demandes d'entités qui utilisent des modèles d'apprentissage automatique personnalisés.
+
+### 4 juin 2019
+{: #4-june-2019}
+
+Les modifications suivantes sont activées lorsque vous utilisez la version datée du `2019-06-04` ou d'une date ultérieure.
+
+- Le bogue qui amenait les demandes d'entités avec des modèles personnalisés à ignorer l'option `limit` a été corrigé.
+- La valeur par défaut de `limit` pour toutes les demandes d'entités est désormais 50 pour tous les modèles.
+- La valeur maximale de 250 entités pour `limit` a été supprimée.
+
+### 29 mai 2019
+{: #29-may-2019}
+
+- Amélioration de l'analyse des sentiments en espagnol.
+- Un bogue risquant d'affecter les résultats d'analyse des sentiments ciblés si la cible contient des caractères spéciaux a été corrigé.
+- Les modifications suivantes sont activées pour les instances de service de Washington DC, Tokyo, Londres et Sydney:
+  - L'option d'analyse des sentiments pour les demandes d'entités qui utilisent des modèles personnalisés est activée pour toutes les langues basées sur l'analyse des sentiments sauf le russe et l'arabe.
+
+
+### 24 mai 2019
+{: #24-may-2019}
+
+- Amélioration des mots clés en allemand
+- Editions de mises à jour de l'analyse des sentiments en anglais sur les instances de service dans tous les emplacements IBM Cloud autres que Dallas.
+
+### 3 mai 2019
+{: #3-may-2019}
+
+- Amélioration de la détection des sentiments au niveau des documents en allemand.
+
+### 25 avril 2019
+{: #25-april-2019}
+
+- Mentions d'entité activées pour les [modèles personnalisés](/docs/services/natural-language-understanding?topic=natural-language-understanding-customizing) basés sur des règles. Pour afficher les mentions dans vos résultats, définissez l'option `mentions` des entités sur `true`.
+- Publication d'explications concernant les résultats des catégories en anglais. Pour afficher le texte approprié de la source qui a contribué aux résultats, définissez l'option `explanation` des catégories sur `true`.
+
+### 19 mars 2019
+{: #19-march-2019}
+
+- Introduction de la prise en charge expérimentale pour les modèles de catégorie personnalisés créés avec {{site.data.keyword.knowledgestudioshort}}. Pour démarrer, voir [Création d'un modèle de catégorie personnalisé](/docs/services/watson-knowledge-studio?topic=watson-knowledge-studio-create-categories-model)
+- Amélioration des mots clés et des concepts en espagnol.
 
 ### 10 janvier 2019
 {: #10-january-2019}

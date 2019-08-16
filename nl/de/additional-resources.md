@@ -30,48 +30,48 @@ lastupdated: "2018-12-20"
 </tr>
 <tr>
 <td><a href="https://www.ibm.com/case-studies/articoolo" target="_blank">Articoolo</a></td>
-<td>Treibende Kraft hinter der beschleunigten Entwicklung von Webinhalten in einer serverunabhängigen IBM Cloud Functions-Umgebung </td>
+<td>Treibende Kraft hinter der beschleunigten Entwicklung von Webinhalten in einer serverunabhängigen IBM Cloud Functions-Umgebung</td>
 </tr>
 <tr>
 <td><a href="https://www.ibm.com/case-studies/s692794p18550w68" target="_blank">ConferenceCloud</a></td>
-<td>Unterstützung der Organisatoren von Konferenzen bei der Identifizierung der beliebtesten Referenten und der Bereitstellung von Netzwerkfunktionen für die Teilnehmer </td>
+<td>Unterstützung der Organisatoren von Konferenzen bei der Identifizierung der beliebtesten Referenten und der Bereitstellung von Netzwerkfunktionen für die Teilnehmer</td>
 </tr>
 <tr>
 <td rowspan="5"><b>Werbungsoptimierung</b></td>
 </tr>
 <tr>
 <td><a href="https://www.ibm.com/case-studies/buzz-radar-cloud-marketing-performance-optimization" target="_blank">BuzzRadar</a></td>
-<td>Optimierung der Kampagnen für Kunden durch sofortige Erkenntnisse hinsichtlich Verbrauchern, Einflussnehmern (Influencern), Markengesundheit usw. </td>
+<td>Optimierung der Kampagnen für Kunden durch sofortige Erkenntnisse hinsichtlich Verbrauchern, Einflussnehmern (Influencern), Markengesundheit usw.</td>
 </tr>
 <tr>
 <td><a href="https://www.ibm.com/watson/stories/equals-3/?cm_mmc=OSocial_Twitter-_-Watson+Core_Watson+Core+-+Platform-_-WW_WW-_-Watson+Equals+3+Twitter+May+2018&cm_mmca1=000000OF&cm_mmca2=10000408&" target="_blank">Equals3</a></td>
-<td>Verständnis für Abfragen in natürlicher Sprache entwickeln und Erstellung von Profilen gemäß Benutzerangaben, -eingaben sowie anderen Daten </td>
+<td>Verständnis für Abfragen in natürlicher Sprache entwickeln und Erstellung von Profilen gemäß Benutzerangaben, -eingaben sowie anderen Daten</td>
 </tr>
 <tr>
 <td><a href="https://www.ibm.com/case-studies/audiense" target="_blank">Audiense</a></td>
-<td>Analyse unstrukturierter Daten aus Social Media, um unmittelbar Erkenntnisse in Kundensegmenten und ihre Affinitäten zu gewinnen </td>
+<td>Analyse unstrukturierter Daten aus Social Media, um unmittelbar Erkenntnisse in Kundensegmenten und ihre Affinitäten zu gewinnen</td>
 </tr>
 <tr>
 <td><a href="https://www.ibm.com/case-studies/influential" target="_blank">Influential</a></td>
-<td>Verstärkung von Marketingbotschaften durch Einflussnehmer (Influencer) bei Social Media-Kampagnen </td>
+<td>Verstärkung von Marketingbotschaften durch Einflussnehmer (Influencer) bei Social Media-Kampagnen</td>
 </tr>
 <tr>
 <td rowspan="3"><b>Zielgruppensegmentierung</b></td>
 </tr>
 <tr>
 <td><a href="https://www.ibm.com/case-studies/pulsar" target="_blank">Pulsar</a></td>
-<td>Analyse digitaler Kommentare und Extraktion von Informationen zu Trends, demografischen Vorlieben und mehr </td>
+<td>Analyse digitaler Kommentare und Extraktion von Informationen zu Trends, demografischen Vorlieben und mehr</td>
 </tr>
 <tr>
 <td><a href="https://www.ibm.com/case-studies/intersections-inc" target="_blank">Intersections</a></td>
-<td>Unterstützung von Verbrauchern bei der Vermeidung von Identitätsdiebstahl durch Alerts zu Sicherheitsrisiken in Echtzeit </td>
+<td>Unterstützung von Verbrauchern bei der Vermeidung von Identitätsdiebstahl durch Alerts zu Sicherheitsrisiken in Echtzeit</td>
 </tr>
 <tr>
 <td rowspan="5"><b>Analyse des Kundenfeedbacks (VOC, Voice of Customer)</b></td>
 </tr>
 <tr>
 <td><a href="https://www.ibm.com/case-studies/helvetia-seguros-ibm-cloud-watson" target="_blank">Helvetia Seguros</a></td>
-<td>Erstellung eines durch künstliche Intelligenz (AI, Artificial Intelligence) gesteuerten virtuellen Assistenten, der personalisierte Versicherungsangebote für Kunden generiert </td>
+<td>Erstellung eines durch künstliche Intelligenz (AI, Artificial Intelligence) gesteuerten virtuellen Assistenten, der personalisierte Versicherungsangebote für Kunden generiert</td>
 </tr>
 <tr>
 <td><a href="https://www.ibm.com/case-studies/deltic-group-watson-virtual-assistant-for-social-media" target="_blank">Deltic Group</a></td>
@@ -79,34 +79,34 @@ lastupdated: "2018-12-20"
 </tr>
 <tr>
 <td><a href="https://www.ibm.com/case-studies/guardio-cloud-bullying-detection-application" target="_blank">Guardio</a></td>
-<td>Unterstützung von Eltern beim Schützen der Kinder vor Cybermobbing durch Markieren und Erkennen bestimmter Nachrichten in Social Media-Konten </td>
+<td>Unterstützung von Eltern beim Schützen der Kinder vor Cybermobbing durch Markieren und Erkennen bestimmter Nachrichten in Social Media-Konten</td>
 </tr>
 <tr>
 <td><a href="https://www.ibm.com/case-studies/max-kelsen" target="_blank">Max Kelsen</a></td>
-<td>Erkennung der Anliegen von Bürgern unter Verwendung von IBM Watson mit einer Genauigkeit von 97 % </td>
+<td>Erkennung der Anliegen von Bürgern unter Verwendung von IBM Watson mit einer Genauigkeit von 97 %</td>
 </tr>
 <tr>
 <td rowspan="10"><b>Data-Mining</b></td>
 </tr>
 <tr>
 <td><a href="https://www.ibm.com/watson/stories/thomson-reuters/" target="_blank">Thomson Reuters</a></td>
-<td>Vertiefung des Fachwissens zu globalen Datenschutzgesetzen durch Trainieren von Watson zum besseren Verständnis des juristischen Fachjargons </td>
+<td>Vertiefung des Fachwissens zu globalen Datenschutzgesetzen durch Trainieren von Watson zum besseren Verständnis des juristischen Fachjargons</td>
 </tr>
 <tr>
 <td><a href="https://www.ibm.com/case-studies/b255816w59748a12" target="_blank">Cloud Therapy</a></td>
-<td>Verwendung von Cognitive Computing, um maßgebliche Ergebnisse bei der Diagnose seltener Krankheiten zu erzielen </td>
+<td>Verwendung von Cognitive Computing, um maßgebliche Ergebnisse bei der Diagnose seltener Krankheiten zu erzielen</td>
 </tr>
 <tr>
 <td><a href="https://www.ibm.com/case-studies/navticon" target="_blank">NAVTICON</a></td>
-<td>Extrahieren von verwertbaren Daten zur Schiffspositionierung und Fracht direkt aus unstrukturierten E-Mails </td>
+<td>Extrahieren von verwertbaren Daten zur Schiffspositionierung und Fracht direkt aus unstrukturierten E-Mails</td>
 </tr>
 <tr>
 <td><a href="https://www.ibm.com/watson/stories/bradesco/" target="_blank">Bradesco</a></td>
-<td>Ansprache und Lösung von Kundengesprächen im richtigen Maß durch einen geschulten virtuellen Assistenten </td>
+<td>Ansprache und Lösung von Kundengesprächen im richtigen Maß durch einen geschulten virtuellen Assistenten</td>
 </tr>
 <tr>
 <td><a href="https://www.ibm.com/case-studies/jibes-data-analytics" target="_blank">Jibes</a></td>
-<td>Skalierung von Expertenwissen zugunsten von Lösungen für Lead-Generierung, Marktüberwachung, Dokumentenmining sowie persönliche Beratung mit branchenspezifischen Daten, Regeln und Inhalten </td>
+<td>Skalierung von Expertenwissen zugunsten von Lösungen für Lead-Generierung, Marktüberwachung, Dokumentenmining sowie persönliche Beratung mit branchenspezifischen Daten, Regeln und Inhalten</td>
 </tr>
 <tr>
 <td><a href="https://www.ibm.com/case-studies/legalmation" target="_blank">Legalmation</a></td>
@@ -114,15 +114,15 @@ lastupdated: "2018-12-20"
 </tr>
 <tr>
 <td><a href="https://www.ibm.com/case-studies/accreteai" target="_blank">Accrete</a></td>
-<td>Vermittlung eines äußerst präzisen Einblicks in die Finanzmärkte mit künstlicher Intelligenz (AI, Artificial Intelligence) </td>
+<td>Vermittlung eines äußerst präzisen Einblicks in die Finanzmärkte mit künstlicher Intelligenz (AI, Artificial Intelligence)</td>
 </tr>
 <tr>
 <td><a href="https://www.ibm.com/case-studies/volume-ltd" target="_blank">Volume</a></td>
-<td>Umwandlung etablierter Clientanwendungen in kognitive Werkzeuge, mit denen sich Benutzer unter Verwendung natürlicher Sprache befassen können </td>
+<td>Umwandlung etablierter Clientanwendungen in kognitive Werkzeuge, mit denen sich Benutzer unter Verwendung natürlicher Sprache befassen können</td>
 </tr>
 <tr>
 <td><a href="https://www.ibm.com/case-studies/catalyst-investors" target="_blank">Catalyst Investors</a></td>
-<td>Durchkämmen mehrerer Inhaltsquellen, um neue Investitionsmöglichkeiten zu erschließen </td>
+<td>Durchkämmen mehrerer Inhaltsquellen, um neue Investitionsmöglichkeiten zu erschließen</td>
 </tr>
 </table>
 
@@ -156,6 +156,6 @@ lastupdated: "2018-12-20"
 ## Weitere Ressourcen
 {: #other-resources}
 
-- [Wiedergabeliste für Videos zu NLU](https://www.ibm.biz/nlu_videos): Umfasst Serviceübersichten, eine ausführliche technische Erklärung und 'Building With Watson'-Videos, die den Einstieg erleichtern. 
+- [Wiedergabeliste für Videos zu NLU](https://www.ibm.biz/nlu_videos): Umfasst Serviceübersichten, eine ausführliche technische Erklärung und 'Building With Watson'-Videos, die den Einstieg erleichtern.
 - [NLU-Redbook](http://www.redbooks.ibm.com/redbooks/pdfs/sg248398.pdf): Detaillierte Schritt-für-Schritt-Erklärung zur Verwendung des Service.
 - Redbooks-Publikation zur [Entwicklung von Node.js-Anwendungen auf IBM Cloud](http://www.redbooks.ibm.com/redbooks/pdfs/sg248406.pdf): Vorgehensweise zum Erstellen unterschiedlicher Anwendungen auf der Basis von Node.js und zu ihrem Bereitstellen und Ausführen auf IBM Cloud.

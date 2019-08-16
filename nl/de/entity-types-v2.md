@@ -23,7 +23,7 @@ lastupdated: "2019-02-21"
 In den folgenden Tabellen sind die Entitätstypen und -untertypen aufgeführt, die vom Entitätstypsystem _Version 2_ verwendet werden.
 {: shortdesc}
 
-Welches Entitätstypsystem {{site.data.keyword.nlushort}} verwendet, ist davon abhängig, welches Versionsdatum und welche Sprache verwendet wird. Weitere Details hierzu finden Sie auf der Seite [Entitätstypsysteme](/docs/services/natural-language-understanding?topic=natural-language-understanding-entity-type-systems). 
+Welches Entitätstypsystem {{site.data.keyword.nlushort}} verwendet, ist davon abhängig, welches Versionsdatum und welche Sprache verwendet wird. Weitere Details hierzu finden Sie auf der Seite [Entitätstypsysteme](/docs/services/natural-language-understanding?topic=natural-language-understanding-entity-type-systems).
 
 ## Entitätstypen
 {: #entity-types}

@@ -158,4 +158,4 @@ lastupdated: "2018-12-20"
 
 - [Lista de reproducción de vídeos de NLU](https://www.ibm.biz/nlu_videos): incluye descripciones generales de servicio, un análisis técnico detallado y vídeos de creación con Watson para ayudarle a empezar.
 - [Redbook de NLU](http://www.redbooks.ibm.com/redbooks/pdfs/sg248398.pdf): guía exhaustiva paso a paso sobre cómo utilizar el servicio.
-- [Desarrollo de aplicaciones Node.js en IBM Cloud Redbook](http://www.redbooks.ibm.com/redbooks/pdfs/sg248406.pdf): cómo crear diversas aplicaciones basadas en Node.js y cómo desplegarlas y ejecutarlas en IBM Cloud.
+- [Redbook: Desarrollo de aplicaciones Node.js en IBM Cloud](http://www.redbooks.ibm.com/redbooks/pdfs/sg248406.pdf): cómo crear diversas aplicaciones basadas en Node.js y cómo desplegarlas y ejecutarlas en IBM Cloud.

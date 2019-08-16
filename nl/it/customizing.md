@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-02-25"
+lastupdated: "2019-03-20"
 
 ---
 
@@ -20,7 +20,7 @@ lastupdated: "2019-02-25"
 # Personalizzazione
 {: #customizing}
 
-Con [{{site.data.keyword.knowledgestudiofull}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://ibm.biz/watsonknowledgestudio), puoi estendere {{site.data.keyword.nlushort}} con i modelli personalizzati che identificano entità e relazioni personalizzati univoci per il tuo dominio.
+Con [{{site.data.keyword.knowledgestudiofull}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://www.ibm.com/watson/services/knowledge-studio/), puoi estendere {{site.data.keyword.nlushort}} con i modelli personalizzati che identificano entità, relazioni e categorie personalizzati univoci per il tuo dominio.
 {: shortdesc}
 
 ## Introduzione ai modelli personalizzati
@@ -30,17 +30,23 @@ Con [{{site.data.keyword.knowledgestudiofull}} ![Icona link esterno](../../icons
 
 1. Se non lo hai già fatto, [inizia a lavorare](/docs/services/natural-language-understanding?topic=natural-language-understanding-getting-started) con {{site.data.keyword.nlushort}}.
 2. [Introduzione a {{site.data.keyword.knowledgestudioshort}}](/docs/services/watson-knowledge-studio?topic=watson-knowledge-studio-wks_tutintro#wks_tutintro).
-3. [Creazione di un modello di machine learning con {{site.data.keyword.knowledgestudioshort}}](/docs/services/watson-knowledge-studio?topic=watson-knowledge-studio-wks_tutml_intro#wks_tutml_intro).
+3. Crea un modello personalizzato.
+   1. Per creare un modello di entità e relazioni personalizzato, vedi [Creazione di un modello di machine learning](/docs/services/watson-knowledge-studio?topic=watson-knowledge-studio-wks_tutml_intro) 
+   2. Puoi anche creare un modello di entità personalizzato con un modello basato sulle regole. Per i dettagli, vedi [Creazione di un modello basato sulle regole](/docs/services/watson-knowledge-studio?topic=watson-knowledge-studio-wks_tutrule_intro).
+   3. Per creare un modello di categorie personalizzato, vedi [Creazione di un modello di categorie personalizzato](/docs/services/watson-knowledge-studio?topic=watson-knowledge-studio-create-categories-model).
 4. [Distribuzione del tuo modello a {{site.data.keyword.nlushort}}](/docs/services/watson-knowledge-studio?topic=watson-knowledge-studio-publish-ml#wks_manlu)
 5. Per utilizzare il tuo modello, specifica il modello (`model`) che hai distribuito nelle opzioni di
-[entità ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://{DomainName}/apidocs/natural-language-understanding#entities){: new_window} o
-[relazioni ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://{DomainName}/apidocs/natural-language-understanding#relations){: new_window} della tua richiesta API:
+[entità ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://{DomainName}/apidocs/natural-language-understanding#entities){: new_window},
+[relazioni ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://{DomainName}/apidocs/natural-language-understanding#relations){: new_window} o [categorie ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://{DomainName}/apidocs/natural-language-understanding#categories){: new_window} della tua richiesta API:
     - File *parameters.json* di esempio:
 
         ```json
         {
           "url": "www.url.example",
           "features": {
+            "categories": {
+              "model": "your-model-id-here"
+            },
             "entities": {
               "model": "your-model-id-here"
             },
@@ -56,7 +62,7 @@ Con [{{site.data.keyword.knowledgestudiofull}} ![Icona link esterno](../../icons
 
         ```bash
         curl --user "apikey":"{apikey}" \
-        "{url}/v1/analyze?version=2018-09-21" \
+        "{url}/v1/analyze?version=2018-11-16" \
         --request POST \
         --header "Content-Type: application/json" \
         --data @parameters.json

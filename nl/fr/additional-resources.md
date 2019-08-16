@@ -102,7 +102,7 @@ lastupdated: "2018-12-20"
 </tr>
 <tr>
 <td><a href="https://www.ibm.com/watson/stories/bradesco/" target="_blank">Bradesco</a></td>
-<td>Traiter et gérer les conversations client via un assistant virtuel </td>
+<td>Traiter et gérer les conversations client via un assistant virtuel</td>
 </tr>
 <tr>
 <td><a href="https://www.ibm.com/case-studies/jibes-data-analytics" target="_blank">Jibes</a></td>

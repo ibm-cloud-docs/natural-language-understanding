@@ -67,7 +67,7 @@ curl -X POST -u "apikey:{apikey}"{: apikey} \
   }
 }'
 ```
-{:pre}
+{: pre}
 
 L'étape suivante présente comment spécifier des options qui personnalisent l'analyse de chaque fonction.
 
@@ -99,7 +99,7 @@ curl -X POST -u "apikey:{apikey}"{: apikey} \
   }
 }'
 ```
-{:pre}
+{: pre}
 
 ## Etapes suivantes
 {: #next-steps}

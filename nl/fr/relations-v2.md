@@ -53,7 +53,7 @@ Les types d'entité utilisés par ce système de types de relation sont réperto
 | partOf          | Existe entre une entité plus petite et une entité plus grande de même type ou de types connexes, la seconde englobant la première. Si les deux entités sont des événements, le premier événement doit survenir dans l'intervalle de temps de la seconde pour que la relation soit reconnue. |
 | partOfMany      | Existe entre des entités plus petites et plus grandes de même type ou de types connexes, la seconde (qui doit être multiple) englobant la première (qui peut être unique ou multiple). |
 | populationOf    | Existe entre un lieu et le nombre de personnes s'y trouvant, ou une organisation et le nombre de ses membres ou employés. |
-| measureOf       | Cette relation indique la quantité ou la mesure (hauteur, poids, etc.) d'une entité. |
+| measureOf      | Cette relation indique la quantité ou la mesure (hauteur, poids, etc.) d'une entité. |
 | relative        | Existe entre deux personnes d'une même famille. Pour identifier les parents, les enfants, les frères et soeurs et les conjoints, utilisez les relations `parentOf`, `siblingOf` et `spouseOf`. |
 | residesIn       | Existe entre une personne et le lieu où elle vit ou a vécu. |
 | shareholdersOf  | Existe entre une personne ou une organisation et une organisation dont la première entité est un actionnaire. |

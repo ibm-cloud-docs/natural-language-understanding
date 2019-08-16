@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-02-25"
+lastupdated: "2019-06-03"
 
 ---
 
@@ -839,16 +839,11 @@ La opción de sentimiento con destino para palabras clave no está soportada par
     </tr>
     <tr>
       <td>Sentimiento</td>
-      <td>X&ast;</td>
+      <td>X</td>
       <td></td>
     </tr>
   </tbody>
 </table>
-
-&ast;La detección de sentimiento para este idioma funciona mejor en datos basados en medios de comunicación sociales, como los tuits. Están previstas más mejoras de precisión en el futuro próximo.
-
-La opción de sentimiento con destino para palabras clave no está soportada para texto en español.
-
 
 ## Sueco
 {: #swedish}

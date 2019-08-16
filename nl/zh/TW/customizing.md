@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-02-25"
+lastupdated: "2019-03-20"
 
 ---
 
@@ -20,7 +20,7 @@ lastupdated: "2019-02-25"
 # 自訂
 {: #customizing}
 
-透過 [{{site.data.keyword.knowledgestudiofull}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://ibm.biz/watsonknowledgestudio)，您可以使用能夠識別您的網域獨有之自訂實體及關係的自訂模型來擴充 {{site.data.keyword.nlushort}}。
+透過 [{{site.data.keyword.knowledgestudiofull}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://www.ibm.com/watson/services/knowledge-studio/)，您可以使用能夠識別您的網域獨有之自訂實體、關係及種類的自訂模型來擴充 {{site.data.keyword.nlushort}}。
 {: shortdesc}
 
 ## 開始使用自訂模型
@@ -30,15 +30,21 @@ lastupdated: "2019-02-25"
 
 1. 如果您還沒有這麼做，請[開始使用](/docs/services/natural-language-understanding?topic=natural-language-understanding-getting-started) {{site.data.keyword.nlushort}}。
 2. [開始使用 {{site.data.keyword.knowledgestudioshort}}](/docs/services/watson-knowledge-studio?topic=watson-knowledge-studio-wks_tutintro#wks_tutintro)。
-3. [使用 {{site.data.keyword.knowledgestudioshort}} 建立機器學習模型](/docs/services/watson-knowledge-studio?topic=watson-knowledge-studio-wks_tutml_intro#wks_tutml_intro)。
+3. 建立自訂模型。
+   1. 若要建立自訂實體及關係模型，請參閱[建立機器學習模型](/docs/services/watson-knowledge-studio?topic=watson-knowledge-studio-wks_tutml_intro)。 
+   2. 您也可以使用以規則為基礎的模型來建立自訂實體模型。如需詳細資料，請參閱[建立以規則為基礎的模型](/docs/services/watson-knowledge-studio?topic=watson-knowledge-studio-wks_tutrule_intro)。
+   3. 若要建立自訂種類模型，請參閱[建立自訂種類模型](/docs/services/watson-knowledge-studio?topic=watson-knowledge-studio-create-categories-model)。
 4. [將模型部署至 {{site.data.keyword.nlushort}}](/docs/services/watson-knowledge-studio?topic=watson-knowledge-studio-publish-ml#wks_manlu)
-5. 若要使用您的模型，請指定 API 要求的[實體 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://{DomainName}/apidocs/natural-language-understanding#entities){: new_window} 或[關係 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://{DomainName}/apidocs/natural-language-understanding#relations){: new_window} 選項中所部署的 `model`：
+5. 若要使用您的模型，請在 API 要求的 [entities ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://{DomainName}/apidocs/natural-language-understanding#entities){: new_window}、[relations ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://{DomainName}/apidocs/natural-language-understanding#relations){: new_window} 或 [categories ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://{DomainName}/apidocs/natural-language-understanding#categories){: new_window} 選項中指定您部署的 `model`：
     - 範例 *parameters.json* 檔案：
 
         ```json
         {
           "url": "www.url.example",
           "features": {
+            "categories": {
+              "model": "your-model-id-here"
+            },
             "entities": {
               "model": "your-model-id-here"
             },
@@ -54,7 +60,7 @@ lastupdated: "2019-02-25"
 
         ```bash
         curl --user "apikey":"{apikey}" \
-        "{url}/v1/analyze?version=2018-09-21" \
+        "{url}/v1/analyze?version=2018-11-16" \
         --request POST \
         --header "Content-Type: application/json" \
         --data @parameters.json
