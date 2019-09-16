@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-07-12"
+lastupdated: "2019-09-16"
 
 ---
 
@@ -73,6 +73,17 @@ The following table shows the service behavior changes for each version date. Sw
 
 ## Changes
 {: #changes}
+
+### 5 September 2019
+{: #5-september-2019}
+
+- Improved accuracy for Spanish and Portuguese sentiment.
+- Improved response times for Portuguese sentiment requests.
+
+### 29 August 2019
+{: #29-august-2019}
+
+- Improved accuracy for English sentiment.
 
 ### 12 July 2019
 {: #12-july-2019}
