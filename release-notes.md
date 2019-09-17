@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-09-16"
+lastupdated: "2019-09-17"
 
 ---
 
@@ -73,6 +73,12 @@ The following table shows the service behavior changes for each version date. Sw
 
 ## Changes
 {: #changes}
+
+### 17 September 2019
+{: #17-september-2019}
+
+- Added support for Dutch keywords and sentiment.
+- Added support for Chinese (Simplified) keywords and sentiment
 
 ### 5 September 2019
 {: #5-september-2019}
