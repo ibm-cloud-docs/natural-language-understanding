@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-06-03"
+lastupdated: "2019-09-17"
 
 ---
 
@@ -149,7 +149,7 @@ The targeted sentiment option for entities is not supported for Arabic text.
     </tr>
     <tr>
       <td>Keywords</td>
-      <td></td>
+      <td>X</td>
       <td></td>
     </tr>
     <tr>
@@ -169,7 +169,7 @@ The targeted sentiment option for entities is not supported for Arabic text.
     </tr>
     <tr>
       <td>Sentiment</td>
-      <td></td>
+      <td>X</td>
       <td></td>
     </tr>
   </tbody>
@@ -216,7 +216,7 @@ The targeted sentiment option for entities is not supported for Arabic text.
     </tr>
     <tr>
       <td>Keywords</td>
-      <td></td>
+      <td>X</td>
       <td></td>
     </tr>
     <tr>
@@ -236,7 +236,7 @@ The targeted sentiment option for entities is not supported for Arabic text.
     </tr>
     <tr>
       <td>Sentiment</td>
-      <td></td>
+      <td>X</td>
       <td></td>
     </tr>
   </tbody>
