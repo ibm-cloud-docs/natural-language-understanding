@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-09-17"
+lastupdated: "2019-10-11"
 
 ---
 
@@ -73,6 +73,11 @@ The following table shows the service behavior changes for each version date. Sw
 
 ## Changes
 {: #changes}
+
+### 10 October 2019
+{: #10-october-2019}
+
+- Improved response times for Japanese and Korean sentiment requests.
 
 ### 17 September 2019
 {: #17-september-2019}
