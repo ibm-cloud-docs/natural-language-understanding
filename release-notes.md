@@ -74,6 +74,11 @@ The following table shows the service behavior changes for each version date. Sw
 ## Changes
 {: #changes}
 
+### 13 November 2019
+{: #13-november-2019}
+
+- **New South Korea location**: You can now create {{site.data.keyword.nlushort}} instances in the Seoul location. As with other locations, the {{site.data.keyword.cloud_notm}} Seoul location uses token-based Identity and Access Management (IAM) authentication.
+
 ### 10 October 2019
 {: #10-october-2019}
 
