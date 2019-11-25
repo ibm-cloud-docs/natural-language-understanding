@@ -20,7 +20,7 @@ lastupdated: "2019-02-25"
 # Relation type systems
 {: #relation-type-systems}
 
-The relation type system that {{site.data.keyword.nlushort}} differs depending on which language you are using. This page describes which relation type system is used for each language.
+The relation type system that {{site.data.keyword.nlushort}} uses differs depending on which language you are using. This page describes which relation type system is used for each language.
 {: shortdesc}
 
 For example, analyzing relations in German text will use the [Version 2 relation type system][v2].
