@@ -121,7 +121,7 @@ The {{site.data.keyword.knowledgestudioshort}} advanced rules workspace allows y
     -F "version=1.0.1"
     -F "version_description=My version description"
     -F "model=@/Users/username/revenue_by_division_en.zip;type=application/zip" 
-    "{url}/labs/v1/models/advanced_rules?version=2019-07-12"
+    "{url}/v1/models/advanced_rules?version=2019-07-12"
     ```
     {: pre}
 
@@ -134,7 +134,7 @@ The following sample request for the **Get advanced rules model** method checks 
 
 ```bash
 curl -X GET -u "apikey:{apikey}" \
-"{url}/labs/v1/models/advanced_rules/e479adbb-8338-4d6d-973c-451548ccb08e?version=2019-07-12"
+"{url}/v1/models/advanced_rules/e479adbb-8338-4d6d-973c-451548ccb08e?version=2019-07-12"
 ```
 {: pre}
 
@@ -211,7 +211,7 @@ To delete an advanced rules model from your service instance, use the **Delete a
 
 ```bash
 curl -X DELETE -u "apikey:{apikey}" \
-"{url}/labs/v1/models/advanced_rules/e479adbb-8338-4d6d-973c-451548ccb08e?version=2019-07-12"
+"{url}/v1/models/advanced_rules/e479adbb-8338-4d6d-973c-451548ccb08e?version=2019-07-12"
 ```
 {: pre}
 
