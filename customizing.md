@@ -10,6 +10,7 @@ lastupdated: "2019-11-25"
 {:new_window: target="_blank"}
 {:tip: .tip}
 {:pre: .pre}
+{:note: .note}
 {:codeblock: .codeblock}
 {:screen: .screen}
 {:javascript: .ph data-hd-programlang='javascript'}
