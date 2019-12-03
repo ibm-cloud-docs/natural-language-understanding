@@ -116,11 +116,11 @@ The {{site.data.keyword.knowledgestudioshort}} advanced rules workspace allows y
     curl -X POST -u "apikey:{apikey}" \
     -H "Content-Type: multipart/form-data" \
     -F "name=MyAQLModel" \
-    -F "language=en"
-    -F "description=Test AQL model"
-    -F "version=1.0.1"
-    -F "version_description=My version description"
-    -F "model=@/Users/username/revenue_by_division_en.zip;type=application/zip" 
+    -F "language=en" \
+    -F "description=Test AQL model" \
+    -F "version=1.0.1" \
+    -F "version_description=My version description" \
+    -F "model=@/Users/username/revenue_by_division_en.zip;type=application/zip" \
     "{url}/v1/models/advanced_rules?version=2019-07-12"
     ```
     {: pre}
