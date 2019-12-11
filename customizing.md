@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-11-25"
+lastupdated: "2019-12-11"
 
 ---
 
@@ -25,6 +25,9 @@ With [{{site.data.keyword.knowledgestudiofull}} ![External link icon](../../icon
 extend {{site.data.keyword.nlushort}} with custom models that identify custom
 entities, relations, and categories unique to your domain.
 {: shortdesc}
+
+**The custom categories experimental feature will be retired on 19 December 2019.** On that date, deployed custom categories models will no longer be accessible in {{site.data.keyword.nlushort}}. The feature will be removed from {{site.data.keyword.knowledgestudioshort}} on an earlier date. Custom categories models will no longer be accessible in {{site.data.keyword.knowledgestudioshort}} on 17 December 2019.
+{: important}
 
 ## Getting started with custom models
 {: #getting-started-with-custom-models}
