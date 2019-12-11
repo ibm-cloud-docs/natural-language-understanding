@@ -10,6 +10,7 @@ lastupdated: "2019-12-11"
 {:new_window: target="_blank"}
 {:tip: .tip}
 {:pre: .pre}
+{:important: .important}
 {:note: .note}
 {:codeblock: .codeblock}
 {:screen: .screen}
