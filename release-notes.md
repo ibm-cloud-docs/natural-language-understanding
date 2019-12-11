@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-10-11"
+lastupdated: "2019-12-11"
 
 ---
 
@@ -73,6 +73,18 @@ The following table shows the service behavior changes for each version date. Sw
 
 ## Changes
 {: #changes}
+
+### 11 December 2019
+{: #11-december-2019}
+
+- **The custom categories experimental feature will be retired on 19 December 2019.** On that date, deployed custom categories models will no longer be accessible in {{site.data.keyword.nlushort}}. The feature will be removed from {{site.data.keyword.knowledgestudioshort}} on an earlier date. Custom categories models will no longer be accessible in {{site.data.keyword.knowledgestudioshort}} on 17 December 2019.
+
+### 25 November 2019
+{: #25-november-2019}
+
+- **Advanced rules (Beta)**: Analyze text with custom advanced rules models that you create in {{site.data.keyword.knowledgestudiofull}}.
+  - [Get started with advanced rules models in {{site.data.keyword.knowledgestudioshort}}](/docs/services/watson-knowledge-studio?topic=watson-knowledge-studio-create-advanced-rules-model)
+  - [Upload an advanced rules model to {{site.data.keyword.nlushort}}](https://cloud.ibm.com/docs/services/natural-language-understanding?topic=natural-language-understanding-customizing#advanced-rules)
 
 ### 13 November 2019
 {: #13-november-2019}
