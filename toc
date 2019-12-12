@@ -17,6 +17,8 @@ Natural Language Understanding
     overriding-language-detection.md
     ha-dr.md
     /watson/watson-migrate
+    /watson/watson-keyservice
+    /watson/watson-public-private-endpoints
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
