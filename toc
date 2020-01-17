@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="natural-language-understanding" category="ai" audience="service" arm="1919676" href="/docs/services/natural-language-understanding/getting-started.html" path="services/natural-language-understanding"}
+{: .toc subcollection="natural-language-understanding" category="ai" service-name="Natural Language Understanding" audience="service" arm="1919676" href="/docs/natural-language-understanding?topic=natural-language-understanding-getting-started" path="services/natural-language-understanding"}
 Natural Language Understanding
 
     {: .navgroup id="learn"}
@@ -15,7 +15,6 @@ Natural Language Understanding
     analyzing-webpages.md
     customizing.md
     overriding-language-detection.md
-    ha-dr.md
     /watson/watson-migrate
     /watson/watson-keyservice
     /watson/watson-public-private-endpoints
@@ -43,6 +42,8 @@ Natural Language Understanding
 
     sample-apps.md
     usage-limits.md
+    versioning.md
+    ha-dr.md
     information-security.md
     /watson/watson-using-sdks
 
