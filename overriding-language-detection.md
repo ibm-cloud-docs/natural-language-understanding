@@ -21,7 +21,7 @@ lastupdated: "2020-02-24"
 # Overriding language detection
 {: #overriding-language-detection}
 
-To override automatic language detection in `/analyze` requests, specify a [language code](#language-codes) with the `language` parameter.
+To override automatic language detection in `/analyze` requests, specify a language code in the `language` attribute of the `parameters` JSON object.
 
 __Example _parameters.json_ file__
 
