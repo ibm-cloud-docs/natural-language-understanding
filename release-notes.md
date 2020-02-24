@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-12-12"
+lastupdated: "2019-11-25"
 
 ---
 
@@ -26,7 +26,7 @@ The following new features and changes to the service are available.
 ## New API authentication process
 {: #iam-auth-process }
 
-On October 30, 2018, the Dallas (US South) and Frankfurt (Germany) locations transitioned to using token-based Identity and Access Management (IAM) authentication. (See [Authenticating with IAM tokens ![External link icon](../../icons/launch-glyph.svg "External link icon")](/docs/services/watson/getting-started-iam.html) for more information.)
+On October 30, 2018, the Dallas (US South) and Frankfurt (Germany) locations transitioned to using token-based Identity and Access Management (IAM) authentication. (See [Authenticating with IAM tokens ![External link icon](../../icons/launch-glyph.svg "External link icon")](/docs/watson/getting-started-iam.html) for more information.)
 {: important}
 
 The {{site.data.keyword.nlushort}} service has a new API authentication process for service instances that are hosted in the following locations:
@@ -40,7 +40,7 @@ The {{site.data.keyword.nlushort}} service has a new API authentication process 
 
 {{site.data.keyword.cloud_notm}} is migrating to token-based Identity and Access Management (IAM) authentication. With some service instances, you authenticate to the API by using IAM.
 
-- With *new* service instances that you create in the locations on or after the dates listed, you authenticate to the API by using IAM. You can pass either a bearer token in an Authorization header or an API key. Tokens support authenticated requests without embedding service credentials in every call. API keys use basic authentication. Learn more about [IAM](/docs/services/watson/getting-started-iam.html).
+- With *new* service instances that you create in the locations on or after the dates listed, you authenticate to the API by using IAM. You can pass either a bearer token in an Authorization header or an API key. Tokens support authenticated requests without embedding service credentials in every call. API keys use basic authentication. Learn more about [IAM](/docs/watson/getting-started-iam.html).
 
     When you use any of the Watson SDKs, you can pass the API key and let the SDK manage the lifecycle of the tokens. For more information and examples, see [Authentication ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/apidocs/natural-language-understanding/#authentication){: new_window} in the API reference.
 - For _existing_ service instances that you created before the indicated date, you continue to authenticate by providing the username and password for the service instance. Eventually, you will need to migrate these service instances to IAM authentication. Updates will be provided about migration process and dates. For more information about migration, see [Migrating Cloud Foundry service instances to a resource group](/docs/resources/instance_migration.html).
@@ -89,14 +89,13 @@ The following table shows the service behavior changes for each version date. Sw
         For more information about the URLs, see the [API reference](https://cloud.ibm.com/apidocs/natural-language-understanding/natural-language-understanding#service-endpoint){: external}.
 
         These URLs do not introduce a breaking change. The new URLs work both for your existing service instances and for new instances. The original URLs continue to work on your existing service instances for at least one year (until December 2020).
-    - For more information about IAM, see [Authenticating to Watson services](/docs/services/watson?topic=watson-iam).
+    - For more information about IAM, see [Authenticating to Watson services](/docs/watson?topic=watson-iam).
 - **New network and data security features**
     - **Support for data encryption with customer-managed keys**
-    
-      Users of new premium and dedicated instances can integrate {{site.data.keyword.keymanagementservicefull}} with {{site.data.keyword.nlushort}} to encrypt their data and manage encryption keys. For more information, see [Protecting sensitive information in your Watson service](/docs/services/natural-language-understanding?topic=watson-keyservice).
+        - Users of new premium and dedicated instances can integrate {{site.data.keyword.keymanagementservicefull}} with {{site.data.keyword.nlushort}} to encrypt their data and manage encryption keys. For more information, see [Protecting sensitive information in your Watson service](/docs/watson?topic=watson-keyservice).
     - **Support for private network endpoints**
-    
-      Users of Premium plans can create private network endpoints to connect to {{site.data.keyword.nlushort}} over a private network. Connections to private network endpoints do not require public internet access. For more information, see [Public and private network endpoints](/docs/services/natural-language-understanding?topic=watson-public-private-endpoints).
+        - Users of Premium plans can create private network endpoints to connect to {{site.data.keyword.nlushort}} over a private network. Connections to private network endpoints do not require public internet access. For more information, see [Public and private network endpoints](/docs/watson?topic=watson-public-private-endpoints).
+
 
 ### 11 December 2019
 {: #11-december-2019}
@@ -107,8 +106,8 @@ The following table shows the service behavior changes for each version date. Sw
 {: #25-november-2019}
 
 - **Advanced rules (Beta)**: Analyze text with custom advanced rules models that you create in {{site.data.keyword.knowledgestudiofull}}.
-  - [Get started with advanced rules models in {{site.data.keyword.knowledgestudioshort}}](/docs/services/watson-knowledge-studio?topic=watson-knowledge-studio-create-advanced-rules-model)
-  - [Upload an advanced rules model to {{site.data.keyword.nlushort}}](https://cloud.ibm.com/docs/services/natural-language-understanding?topic=natural-language-understanding-customizing#advanced-rules)
+  - [Get started with advanced rules models in {{site.data.keyword.knowledgestudioshort}}](/docs/watson-knowledge-studio?topic=watson-knowledge-studio-create-advanced-rules-model)
+  - [Upload an advanced rules model to {{site.data.keyword.nlushort}}](https://cloud.ibm.com/docs/natural-language-understanding?topic=natural-language-understanding-customizing#advanced-rules)
 
 ### 13 November 2019
 {: #13-november-2019}
@@ -182,13 +181,13 @@ The following changes are activated when you use the version date `2019-06-04` o
 ### 25 April 2019
 {: #25-april-2019}
 
-- Enabled entity mentions for rule-based [custom models](/docs/services/natural-language-understanding?topic=natural-language-understanding-customizing). To view mentions in your results, set the `mentions` entities option to `true`.
+- Enabled entity mentions for rule-based [custom models](/docs/natural-language-understanding?topic=natural-language-understanding-customizing). To view mentions in your results, set the `mentions` entities option to `true`.
 - Released explanations for English categories results. To see relevant text from the source that contributed to each result, set the `explanation` categories option to `true`.
 
 ### 19 March 2019
 {: #19-march-2019}
 
-- Introduced experimental support for custom categories models created with {{site.data.keyword.knowledgestudioshort}}. To get started, see [Creating a custom categories model](/docs/services/watson-knowledge-studio?topic=watson-knowledge-studio-create-categories-model)
+- Introduced experimental support for custom categories models created with {{site.data.keyword.knowledgestudioshort}}. To get started, see [Creating a custom categories model](/docs/watson-knowledge-studio?topic=watson-knowledge-studio-create-categories-model)
 - Improved Spanish keywords and concepts.
 
 ### 10 January 2019
@@ -530,7 +529,7 @@ As of 29 May 2018, new service instances created in the Sydney region use [Ident
 
 - For metering, one {{site.data.keyword.nlushort}} Item continues to be one feature (also known as an enrichment) per one text unit. One text unit is 10,000 characters or less.
 
-- For detailed pricing information, see [{{site.data.keyword.nlushort}}](https://console.bluemix.net/catalog/services/natural-language-understanding) in the {{site.data.keyword.cloud}} Catalog.
+- For detailed pricing information, see [{{site.data.keyword.nlushort}}](https://cloud.ibm.com/catalog/natural-language-understanding) in the {{site.data.keyword.cloud}} Catalog.
 
 - In addition to adding the `limit_text_characters` parameter, the following changes were made to text size limits and truncation:
 

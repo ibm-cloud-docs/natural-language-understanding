@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2019
-lastupdated: "2019-02-25"
+  years: 2015, 2020
+lastupdated: "2020-02-24"
 
 ---
 
@@ -10,7 +10,6 @@ lastupdated: "2019-02-25"
 {:new_window: target="_blank"}
 {:tip: .tip}
 {:pre: .pre}
-{:note: .note}
 {:codeblock: .codeblock}
 {:screen: .screen}
 {:javascript: .ph data-hd-programlang='javascript'}
@@ -21,11 +20,10 @@ lastupdated: "2019-02-25"
 # Relation types (Version 2)
 {: #relation-types-version-2}
 
-The following table lists the relation types returned by the _Version 2_ relation type system. The relation type system that {{site.data.keyword.nlushort}} uses differs based on which language you are using. For more details, see the [Relation type systems](/docs/services/natural-language-understanding?topic=natural-language-understanding-relation-type-systems) page.
+The following table lists the relation types returned by the _Version 2_ relation type system. The relation type system that {{site.data.keyword.nlushort}} uses differs based on which language you are using. For more details, see the [Relation type systems](/docs/natural-language-understanding?topic=natural-language-understanding-relation-type-systems) page.
 {: shortdesc}
 
-The entity types used by this relation type system are listed on the [Entity types (Version 2)](/docs/services/natural-language-understanding?topic=natural-language-understanding-entity-types-version-2) page.
-{: note}
+The entity types used by this relation type system are listed on the [Entity types (Version 2)](/docs/natural-language-understanding?topic=natural-language-understanding-entity-types-version-2) page.
 
 | Relation        | Description |
 |-----------------|----------------|

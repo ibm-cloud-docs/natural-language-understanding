@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2019
-lastupdated: "2019-02-25"
+  years: 2015, 2020
+lastupdated: "2020-02-24"
 
 ---
 
@@ -27,22 +27,22 @@ If you have problems with {{site.data.keyword.nlushort}}, the following troubles
 ## Entities and relations entity types are not consistent
 {: #inconsistent-entity-types}
 
-The entity type systems for the entities and relations features are not always consistent. For some languages and version dates, relations results will contain entity types that are different from the entity types that appear in entities results. See [Entity types and subtypes](/docs/services/natural-language-understanding?topic=natural-language-understanding-entity-type-systems) and [Relation types](/docs/services/natural-language-understanding?topic=natural-language-understanding-relation-type-systems) for more details. 
+The entity type systems for the entities and relations features are not always consistent. For some languages and version dates, relations results will contain entity types that are different from the entity types that appear in entities results. See [Entity types and subtypes](/docs/natural-language-understanding?topic=natural-language-understanding-entity-type-systems) and [Relation types](/docs/natural-language-understanding?topic=natural-language-understanding-relation-type-systems) for more details. 
 
 ## Incorrect language detection
 {: #incorrect-language-detection}
 
-The automatic language detection might not be accurate for text that contains fewer than 100 characters. If the service doesn't detect the correct language of your text, you can [override automatic language detection](/docs/services/natural-language-understanding?topic=natural-language-understanding-overriding-language-detection).
+The automatic language detection might not be accurate for text that contains fewer than 100 characters. If the service doesn't detect the correct language of your text, you can [override automatic language detection](/docs/natural-language-understanding?topic=natural-language-understanding-overriding-language-detection).
 
 ## Too many requests
 {: #too-many requests}
 
-If you are seeing a "429: Too many requests" error, your service instance is likely hitting the concurrent requests limit. View the [Usage limits](/docs/services/natural-language-understanding?topic=natural-language-understanding-usage-limits#concurrent-requests) page for more information.
+If you are seeing a "429: Too many requests" error, your service instance is likely hitting the concurrent requests limit. View the [Usage limits](/docs/natural-language-understanding?topic=natural-language-understanding-usage-limits#concurrent-requests) page for more information.
 
 ## Unexpected results from webpage analysis
 {: #unexpected-webpage-results}
 
-Analyzing a webpage might return unexpected results in some cases. To investigate, try setting the **return_analyzed_text** parameter to `true` to inspect the actual text that is being analyzed in your request. In cases where [webpage cleaning](/docs/services/natural-language-understanding?topic=natural-language-understanding-analyzing-webpages#webpage-cleaning) does not remove enough unwanted text, consider using the [**xpath**](/docs/services/natural-language-understanding?topic=natural-language-understanding-analyzing-webpages#xpath) parameter to focus the analysis on specific elements of the page.
+Analyzing a webpage might return unexpected results in some cases. To investigate, try setting the **return_analyzed_text** parameter to `true` to inspect the actual text that is being analyzed in your request. In cases where [webpage cleaning](/docs/natural-language-understanding?topic=natural-language-understanding-analyzing-webpages#webpage-cleaning) does not remove enough unwanted text, consider using the [**xpath**](/docs/natural-language-understanding?topic=natural-language-understanding-analyzing-webpages#xpath) parameter to focus the analysis on specific elements of the page.
 
 ## Explanations for particular results
 {: #explanations-for-results}

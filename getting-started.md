@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2020
-lastupdated: "2020-01-17"
+lastupdated: "2020-02-24"
 
 keywords: natural language understanding,getting started,analyze content,analyze text,text analysis
 
@@ -39,7 +39,7 @@ This short tutorial introduces the {{site.data.keyword.nlushort}} API with examp
 {: #before-you-begin}
 
 - {: hide-dashboard} Create an instance of the service:
-    1.  Go to the [{{site.data.keyword.nlushort}}](https://{DomainName}/catalog/services/natural-language-understanding){: external} page in the {{site.data.keyword.cloud_notm}} catalog.
+    1.  Go to the [{{site.data.keyword.nlushort}}](https://{DomainName}/catalog/natural-language-understanding){: external} page in the {{site.data.keyword.cloud_notm}} catalog.
     1.  Sign up for a free {{site.data.keyword.cloud_notm}} account or log in.
     1.  Click **Create**.
 - {: hide-dashboard} Copy the credentials to authenticate to your service instance:
@@ -55,7 +55,7 @@ This short tutorial introduces the {{site.data.keyword.nlushort}} API with examp
 
     - If necessary, install a version with SSL enabled from [curl.haxx.se](https://curl.haxx.se/){: external}. Add the location of the file to your PATH environment variables if you want to run `curl` from any command-line location.
 
-This tutorial shows you how to use the {{site.data.keyword.nlushort}} API from a command-line interface. To download client libraries for various programming languages, check out the [Watson SDKs](/docs/services/natural-language-understanding?topic=watson-using-sdks#using-sdks).
+This tutorial shows you how to use the {{site.data.keyword.nlushort}} API from a command-line interface. To download client libraries for various programming languages, check out the [Watson SDKs](/docs/natural-language-understanding?topic=watson-using-sdks#using-sdks).
 {:tip}
 
 ## Step 1: Analyze a webpage
@@ -129,4 +129,4 @@ curl -X POST -u "apikey:{apikey}"{: apikey} --header "Content-Type: application/
 {: #next-steps}
 
 - View the [API reference](https://{DomainName}/apidocs/natural-language-understanding){: external}.
-- Learn how to identify [custom entities and relations](/docs/services/natural-language-understanding?topic=natural-language-understanding-customizing).
+- Learn how to identify [custom entities and relations](/docs/natural-language-understanding?topic=natural-language-understanding-customizing).

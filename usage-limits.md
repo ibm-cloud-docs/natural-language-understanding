@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2019
-lastupdated: "2019-02-25"
+  years: 2015, 2020
+lastupdated: "2020-02-24"
 
 ---
 
@@ -57,6 +57,6 @@ There is a size limit for {{site.data.keyword.knowledgestudioshort}} custom mode
 ## Language support
 {: #language-support}
 
-Different language restrictions apply depending on how you use the service. For details, see the [Language support](/docs/services/natural-language-understanding?topic=natural-language-understanding-language-support) page.
+Different language restrictions apply depending on how you use the service. For details, see the [Language support](/docs/natural-language-understanding?topic=natural-language-understanding-language-support) page.
 
 

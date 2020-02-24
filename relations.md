@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2019
-lastupdated: "2019-02-25"
+  years: 2015, 2020
+lastupdated: "2020-02-24"
 
 ---
 
@@ -38,5 +38,5 @@ For example, analyzing relations in German text will use the [Version 2 relation
 | Spanish | [Version 1][v1] |
 
 
-[v1]: /docs/services/natural-language-understanding?topic=natural-language-understanding-relation-types-version-1
-[v2]: /docs/services/natural-language-understanding?topic=natural-language-understanding-relation-types-version-2
+[v1]: /docs/natural-language-understanding?topic=natural-language-understanding-relation-types-version-1
+[v2]: /docs/natural-language-understanding?topic=natural-language-understanding-relation-types-version-2
