@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019
-lastupdated: "2019-03-15"
+  years: 2019, 2020
+lastupdated: "2020-02-24"
 
 ---
 
@@ -37,4 +37,4 @@ In the event of a catastrophic failure in a region, complete the following steps
 
 - Create a new {{site.data.keyword.nlushort}} service instance.
 - Adjust your application software to use the new service instance URL and credentials.
-- If you use {{site.data.keyword.nlushort}} with {{site.data.keyword.knowledgestudioshort}} custom models, you will need to redeploy your custom models to the new service instance. See [Backing up and restoring data](/docs/services/watson-knowledge-studio?topic=watson-knowledge-studio-backup-restore#restoremodels) to learn how to backup and restore {{site.data.keyword.knowledgestudioshort}} data. 
+- If you use {{site.data.keyword.nlushort}} with {{site.data.keyword.knowledgestudioshort}} custom models, you will need to redeploy your custom models to the new service instance. See [Backing up and restoring data](/docs/watson-knowledge-studio?topic=watson-knowledge-studio-backup-restore#restoremodels) to learn how to backup and restore {{site.data.keyword.knowledgestudioshort}} data. 

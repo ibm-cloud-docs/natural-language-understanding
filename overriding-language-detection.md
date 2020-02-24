@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2019
-lastupdated: "2019-02-25"
+  years: 2015, 2020
+lastupdated: "2020-02-24"
 
 ---
 
@@ -10,6 +10,7 @@ lastupdated: "2019-02-25"
 {:new_window: target="_blank"}
 {:tip: .tip}
 {:pre: .pre}
+{:note: .note}
 {:codeblock: .codeblock}
 {:screen: .screen}
 {:javascript: .ph data-hd-programlang='javascript'}
@@ -20,7 +21,7 @@ lastupdated: "2019-02-25"
 # Overriding language detection
 {: #overriding-language-detection}
 
-To override automatic language detection in `/analyze` requests, specify a language code in the `language` attribute of the `parameters` JSON object.
+To override automatic language detection in `/analyze` requests, specify a [language code](#language-codes) with the `language` parameter.
 
 __Example _parameters.json_ file__
 

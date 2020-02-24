@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2019
-lastupdated: "2019-02-21"
+  years: 2015, 2020
+lastupdated: "2020-02-24"
 
 ---
 
@@ -99,5 +99,5 @@ The following entity type systems are used when you set the `version` parameter 
 | Swedish | [Version 1][v1] |
 
 
-[v1]: /docs/services/natural-language-understanding/?topic=natural-language-understanding-entity-types-version-1
-[v2]: /docs/services/natural-language-understanding/?topic=natural-language-understanding-entity-types-version-2
+[v1]: /docs/natural-language-understanding/?topic=natural-language-understanding-entity-types-version-1
+[v2]: /docs/natural-language-understanding/?topic=natural-language-understanding-entity-types-version-2

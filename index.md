@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2019
-lastupdated: "2019-08-06"
+  years: 2015, 2020
+lastupdated: "2020-02-24"
 
 ---
 
@@ -31,7 +31,7 @@ Send requests to the API with text, HTML, or a public URL, and specify one or mo
 ### Categories
 {: #categories}
 
-Categorize your content using a five-level classification hierarchy. View the complete list of categories [here](/docs/services/natural-language-understanding?topic=natural-language-understanding-categories-hierarchy). For example:
+Categorize your content using a five-level classification hierarchy. View the complete list of categories [here](/docs/natural-language-understanding?topic=natural-language-understanding-categories-hierarchy). For example:
 
 **Input**
 > url: "www.cnn.com"
@@ -72,7 +72,7 @@ Analyze emotion conveyed by specific target phrases or by the document as a whol
 ### Entities
 {: #entities}
 
-Find people, places, events, and other types of entities mentioned in your content. View the complete list of entity types and subtypes [here](/docs/services/natural-language-understanding?topic=natural-language-understanding-entity-type-systems). For example:
+Find people, places, events, and other types of entities mentioned in your content. View the complete list of entity types and subtypes [here](/docs/natural-language-understanding?topic=natural-language-understanding-entity-type-systems). For example:
 
 **Input**
 > text: "IBM is an American multinational technology company headquartered in Armonk, New York, United States, with operations in over 170 countries."
@@ -145,10 +145,41 @@ Analyze the sentiment toward specific target phrases and the sentiment of the do
 **Response**
 >Positive sentiment (score: 0.91)
 
+### Syntax (Experimental)
+{: #syntax}
+
+Identify the sentences and tokens in your text. For example:
+
+**Input**
+>text: "I love apples! I do not like oranges."
+
+**Response**
+
+
+|  Sentence | Location | 
+| --- | --- |
+| "I love apples!" | `[0, 14]` |
+| "I do not like oranges." | `[15,37]` |
+
+<br>
+
+|  Token    | Lemma    | Part of Speech | Location   | 
+|-----------|----------|----------------|------------|
+| "I"       | "I"      | `PRON`         | `[0, 1]`   |
+| "love"    | "love"   | `VERB`         | `[2, 6]`   |
+| "apples"  | "apple"  | `NOUN`         | `[7, 13]`  |
+| "!"       |          | `PUNCT`        | `[13, 14]` |
+| "I"       |  "I"     | `PRON`         | `[15, 16]` |
+| "do"      | "do"     | `AUX`          | `[17, 19]` |
+| "not"     | "not"    | `PART`         | `[20, 23]` |
+| "like"    | "like"   | `VERB`         | `[24, 28]` |
+| "oranges" | "orange" | `NOUN`         | `[29, 36]` |
+| "."       |          | `NOUN`         | `[36, 37]` |
+
 ## Supported languages
 {: #supported-languages}
 
-See the [Language support documentation](/docs/services/natural-language-understanding?topic=natural-language-understanding-language-support) for details about supported languages in {{site.data.keyword.nlushort}}.
+See the [Language support documentation](/docs/natural-language-understanding?topic=natural-language-understanding-language-support) for details about supported languages in {{site.data.keyword.nlushort}}.
 
 ## HIPAA
 {: #about-hipaa}

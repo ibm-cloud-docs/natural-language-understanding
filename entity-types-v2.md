@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2019-02-21"
+  years: 2015, 2020
+lastupdated: "2020-02-24"
 
 ---
 
@@ -23,7 +23,7 @@ lastupdated: "2019-02-21"
 The following tables list the entity types and subtypes that are used in the _Version 2_ entity type system.
 {: shortdesc}
 
-The entity type system that {{site.data.keyword.nlushort}} uses differs based on which version date and which language you are using. For more details, see the [Entity types systems](/docs/services/natural-language-understanding?topic=natural-language-understanding-entity-type-systems) page.
+The entity type system that {{site.data.keyword.nlushort}} uses differs based on which version date and which language you are using. For more details, see the [Entity types systems](/docs/natural-language-understanding?topic=natural-language-understanding-entity-type-systems) page.
 
 ## Entity types
 {: #entity-types}
