@@ -24,7 +24,7 @@ lastupdated: "2020-02-24"
 The following table lists the relation types returned by the _Version 1_ relation type system. The relation type system that {{site.data.keyword.nlushort}} uses differs based on which language you are using. For more details, see the [Relation type systems](/docs/natural-language-understanding?topic=natural-language-understanding-relation-type-systems) page.
 {: shortdesc}
 
-In the _Version 1_ type system, the entity types in relations results are different than the entity types returned in entities results. To see the list of entity types used in _Version 1_ relations, see the [Entity types (Version 1)](/docs/natural-language-understanding?topic=natural-language-understanding-entity-types-version-1) page.
+In the _Version 1_ type system, the entity types in relations results are different than the entity types returned in entities results. To see the list of entity types used in _Version 1_ relations, see the [Entity types (Version 1)](/docs/natural-language-understanding?topic=natural-language-understanding-entity-types-version-1#relations-entity-types) page.
 {: note}
 
 | Relation        | Description                                                                                                                                                                                                        |
