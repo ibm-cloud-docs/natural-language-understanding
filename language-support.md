@@ -52,7 +52,7 @@ Language support might be different if you are a {{site.data.keyword.Bluemix_ded
         Standard support
       </th>
       <th>
-        <a href="/docs/natural-language-understanding/customizing.html">Custom model</a> support
+        <a href="/docs/natural-language-understanding?topic=natural-language-understanding-customizing">Custom model</a> support
       </th>
     </tr>
   </thead>
@@ -122,7 +122,7 @@ The targeted sentiment option for entities is not supported for Arabic text.
         Standard support
       </th>
       <th>
-        <a href="/docs/natural-language-understanding/customizing.html">Custom model</a> support
+        <a href="/docs/natural-language-understanding?topic=natural-language-understanding-customizing">Custom model</a> support
       </th>
     </tr>
   </thead>
@@ -189,7 +189,7 @@ The targeted sentiment option for entities is not supported for Arabic text.
         Standard support
       </th>
       <th>
-        <a href="/docs/natural-language-understanding/customizing.html">Custom model</a> support
+        <a href="/docs/natural-language-understanding?topic=natural-language-understanding-customizing">Custom model</a> support
       </th>
     </tr>
   </thead>
@@ -255,7 +255,7 @@ The targeted sentiment option for entities is not supported for Arabic text.
         Standard support
       </th>
       <th>
-        <a href="/docs/natural-language-understanding/customizing.html">Custom model</a> support
+        <a href="/docs/natural-language-understanding?topic=natural-language-understanding-customizing">Custom model</a> support
       </th>
     </tr>
   </thead>
@@ -322,7 +322,7 @@ The targeted sentiment option for entities is not supported for Arabic text.
         Standard support
       </th>
       <th>
-        <a href="/docs/natural-language-understanding/customizing.html">Custom model</a> support
+        <a href="/docs/natural-language-understanding?topic=natural-language-understanding-customizing">Custom model</a> support
       </th>
     </tr>
   </thead>
@@ -389,7 +389,7 @@ The targeted sentiment option for entities is not supported for Arabic text.
         Standard support
       </th>
       <th>
-        <a href="/docs/natural-language-understanding/customizing.html">Custom model</a> support
+        <a href="/docs/natural-language-understanding?topic=natural-language-understanding-customizing">Custom model</a> support
       </th>
     </tr>
   </thead>
@@ -456,7 +456,7 @@ The targeted sentiment option for entities is not supported for Arabic text.
         Standard support
       </th>
       <th>
-        <a href="/docs/natural-language-understanding/customizing.html">Custom model</a> support
+        <a href="/docs/natural-language-understanding?topic=natural-language-understanding-customizing">Custom model</a> support
       </th>
     </tr>
   </thead>
@@ -522,7 +522,7 @@ The targeted sentiment option for entities is not supported for Arabic text.
         Standard support
       </th>
       <th>
-        <a href="/docs/natural-language-understanding/customizing.html">Custom model</a> support
+        <a href="/docs/natural-language-understanding?topic=natural-language-understanding-customizing">Custom model</a> support
       </th>
     </tr>
   </thead>
@@ -589,7 +589,7 @@ The targeted sentiment option for entities is not supported for Arabic text.
         Standard support
       </th>
       <th>
-        <a href="/docs/natural-language-understanding/customizing.html">Custom model</a> support
+        <a href="/docs/natural-language-understanding?topic=natural-language-understanding-customizing">Custom model</a> support
       </th>
     </tr>
   </thead>
@@ -655,7 +655,7 @@ The targeted sentiment option for entities is not supported for Arabic text.
         Standard support
       </th>
       <th>
-        <a href="/docs/natural-language-understanding/customizing.html">Custom model</a> support
+        <a href="/docs/natural-language-understanding?topic=natural-language-understanding-customizing">Custom model</a> support
       </th>
     </tr>
   </thead>
@@ -721,7 +721,7 @@ The targeted sentiment option for entities is not supported for Arabic text.
         Standard support
       </th>
       <th>
-        <a href="/docs/natural-language-understanding/customizing.html">Custom model</a> support
+        <a href="/docs/natural-language-understanding?topic=natural-language-understanding-customizing">Custom model</a> support
       </th>
     </tr>
   </thead>
@@ -792,7 +792,7 @@ The targeted sentiment option for keywords is not supported for Russian text.
         Standard support
       </th>
       <th>
-        <a href="/docs/natural-language-understanding/customizing.html">Custom model</a> support
+        <a href="/docs/natural-language-understanding?topic=natural-language-understanding-customizing">Custom model</a> support
       </th>
     </tr>
   </thead>
@@ -858,7 +858,7 @@ The targeted sentiment option for keywords is not supported for Russian text.
         Standard support
       </th>
       <th>
-        <a href="/docs/natural-language-understanding/customizing.html">Custom model</a> support
+        <a href="/docs/natural-language-understanding?topic=natural-language-understanding-customizing">Custom model</a> support
       </th>
     </tr>
   </thead>
