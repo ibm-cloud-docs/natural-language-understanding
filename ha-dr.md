@@ -4,6 +4,8 @@ copyright:
   years: 2019, 2020
 lastupdated: "2020-02-24"
 
+subcollection: natural-language-understanding
+
 ---
 
 {:new_window: target="_blank"}

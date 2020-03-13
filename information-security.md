@@ -4,6 +4,8 @@ copyright:
   years: 2015, 2019
 lastupdated: "2019-08-06"
 
+subcollection: natural-language-understanding
+
 ---
 
 {:shortdesc: .shortdesc}
