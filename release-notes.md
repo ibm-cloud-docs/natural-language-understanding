@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2019
-lastupdated: "2019-11-25"
+  years: 2015, 2020
+lastupdated: "2020-03-20"
 
 subcollection: natural-language-understanding
 
@@ -75,6 +75,31 @@ The following table shows the service behavior changes for each version date. Sw
 
 ## Changes
 {: #changes}
+
+### 20 March 2020
+{: #20-march-2020}
+
+- Changed the error response format for advanced rules model endpoints (Beta) to be consistent with other endpoints.
+  - Renamed `status` to `code`.
+  - Renamed `message` to `error`.
+
+Previous format:
+```json
+{
+    "status": 404,
+    "message": "not found"
+}
+```
+{:code}
+
+New format:
+```json
+{
+    "code": 404,
+    "error": "not found"
+}
+```
+{:code}
 
 ### 12 December 2019
 {: #12-december-2019}
