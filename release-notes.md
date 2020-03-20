@@ -90,7 +90,7 @@ Previous format:
     "message": "not found"
 }
 ```
-{:code}
+{:codeblock}
 
 New format:
 ```json
@@ -99,7 +99,7 @@ New format:
     "error": "not found"
 }
 ```
-{:code}
+{:codeblock}
 
 ### 12 December 2019
 {: #12-december-2019}
