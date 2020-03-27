@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="natural-language-understanding" category="ai" service-name="Natural Language Understanding" audience="service" arm="1919676" href="/docs/natural-language-understanding?topic=natural-language-understanding-getting-started" path="services/natural-language-understanding"}
+{: .toc console-page="/developer/watson" product-page="https://www.ibm.com/cloud/watson-natural-language-understanding/" subcollection="natural-language-understanding" category="ai" service-name="Natural Language Understanding" audience="service" arm="1919676" href="/docs/natural-language-understanding?topic=natural-language-understanding-getting-started" path="services/natural-language-understanding"}
 Natural Language Understanding
 
     {: .navgroup id="learn"}
