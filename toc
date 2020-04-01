@@ -57,7 +57,6 @@ Natural Language Understanding
     {: .topicgroup}
     Developer community
         [StackOverflow](https://stackoverflow.com/questions/tagged/watson-nlu)
-        [IBM Developer Answers](https://developer.ibm.com/answers/topics/natural-language-understanding/)
         [WDC Slack channel](http://wdc-slack-inviter.mybluemix.net/)
 
     {: .navgroup-end}
