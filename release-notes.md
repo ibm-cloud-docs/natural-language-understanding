@@ -101,6 +101,11 @@ New format:
 ```
 {:codeblock}
 
+### 11 March 2020
+{: #11-march-2020}
+
+- Enhanced English sentiment analysis to better identify and understand idioms in text. For more information on this update and other upcoming changes, see the [{{site.data.keyword.IBM_notm}} News Room announcement](https://newsroom.ibm.com/2020-03-11-IBM-Advances-Watsons-Ability-to-Understand-the-Language-of-Business,1).
+
 ### 12 December 2019
 {: #12-december-2019}
 
