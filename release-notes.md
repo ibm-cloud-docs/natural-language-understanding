@@ -25,31 +25,6 @@ subcollection: natural-language-understanding
 The following new features and changes to the service are available.
 {: shortdesc}
 
-## New API authentication process
-{: #iam-auth-process }
-
-On October 30, 2018, the Dallas (US South) and Frankfurt (Germany) locations transitioned to using token-based Identity and Access Management (IAM) authentication. (See [Authenticating with IAM tokens ![External link icon](../../icons/launch-glyph.svg "External link icon")](/docs/watson/getting-started-iam.html) for more information.)
-{: important}
-
-The {{site.data.keyword.nlushort}} service has a new API authentication process for service instances that are hosted in the following locations:
-
-- Dallas as of October 30, 2018
-- Frankfurt as of October 30, 2018
-- London
-- Sydney as of May 29, 2018
-- Tokyo
-- Washington, DC as of June 12, 2018
-
-{{site.data.keyword.cloud_notm}} is migrating to token-based Identity and Access Management (IAM) authentication. With some service instances, you authenticate to the API by using IAM.
-
-- With *new* service instances that you create in the locations on or after the dates listed, you authenticate to the API by using IAM. You can pass either a bearer token in an Authorization header or an API key. Tokens support authenticated requests without embedding service credentials in every call. API keys use basic authentication. Learn more about [IAM](/docs/watson/getting-started-iam.html).
-
-    When you use any of the Watson SDKs, you can pass the API key and let the SDK manage the lifecycle of the tokens. For more information and examples, see [Authentication ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/apidocs/natural-language-understanding/#authentication){: new_window} in the API reference.
-- For _existing_ service instances that you created before the indicated date, you continue to authenticate by providing the username and password for the service instance. Eventually, you will need to migrate these service instances to IAM authentication. Updates will be provided about migration process and dates. For more information about migration, see [Migrating Cloud Foundry service instances to a resource group](/docs/resources/instance_migration.html).
-
-To find out which authentication to use, view the service credentials by clicking the service instance on the [{{site.data.keyword.cloud_notm}} resources page ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/resources){: new_window}.
-
-
 ## Service API versioning
 {: #service-api-versioning}
 
@@ -75,6 +50,11 @@ The following table shows the service behavior changes for each version date. Sw
 
 ## Changes
 {: #changes}
+
+### 10 April 2020
+{: #10-April-2020}
+
+Custom Sentiment (Beta) is now available. The Beta supports English and is available only for service instances in the Dallas location. For details, see [Creating custom sentiment models](/docs/services/natural-language-understanding?topic=natural-language-understanding-customizing#custom-sentiment).
 
 ### 20 March 2020
 {: #20-march-2020}
@@ -605,3 +585,27 @@ We released updates to the emotion tone score model. The training dataset was ex
 {: #27-february-2017}
 
 The Natural Language Understanding service is now GA.
+
+## New API authentication process
+{: #iam-auth-process }
+
+On October 30, 2018, the Dallas (US South) and Frankfurt (Germany) locations transitioned to using token-based Identity and Access Management (IAM) authentication. (See [Authenticating with IAM tokens ![External link icon](../../icons/launch-glyph.svg "External link icon")](/docs/watson/getting-started-iam.html) for more information.)
+{: important}
+
+The {{site.data.keyword.nlushort}} service has a new API authentication process for service instances that are hosted in the following locations:
+
+- Dallas as of October 30, 2018
+- Frankfurt as of October 30, 2018
+- London
+- Sydney as of May 29, 2018
+- Tokyo
+- Washington, DC as of June 12, 2018
+
+{{site.data.keyword.cloud_notm}} is migrating to token-based Identity and Access Management (IAM) authentication. With some service instances, you authenticate to the API by using IAM.
+
+- With *new* service instances that you create in the locations on or after the dates listed, you authenticate to the API by using IAM. You can pass either a bearer token in an Authorization header or an API key. Tokens support authenticated requests without embedding service credentials in every call. API keys use basic authentication. Learn more about [IAM](/docs/watson/getting-started-iam.html).
+
+    When you use any of the Watson SDKs, you can pass the API key and let the SDK manage the lifecycle of the tokens. For more information and examples, see [Authentication ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/apidocs/natural-language-understanding/#authentication){: new_window} in the API reference.
+- For _existing_ service instances that you created before the indicated date, you continue to authenticate by providing the username and password for the service instance. Eventually, you will need to migrate these service instances to IAM authentication. Updates will be provided about migration process and dates. For more information about migration, see [Migrating Cloud Foundry service instances to a resource group](/docs/resources/instance_migration.html).
+
+To find out which authentication to use, view the service credentials by clicking the service instance on the [{{site.data.keyword.cloud_notm}} resources page ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/resources){: new_window}.
