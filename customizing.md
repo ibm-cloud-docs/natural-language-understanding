@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2019
-lastupdated: "2019-12-11"
+  years: 2015, 2020
+lastupdated: "2020-04-10"
 
 subcollection: natural-language-understanding
 
@@ -11,9 +11,9 @@ subcollection: natural-language-understanding
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 {:tip: .tip}
+{:note: .note}
 {:pre: .pre}
 {:important: .important}
-{:note: .note}
 {:codeblock: .codeblock}
 {:screen: .screen}
 {:javascript: .ph data-hd-programlang='javascript'}
@@ -24,38 +24,48 @@ subcollection: natural-language-understanding
 # Customizing
 {: #customizing}
 
-With [{{site.data.keyword.knowledgestudiofull}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/watson/services/knowledge-studio/), you can
-extend {{site.data.keyword.nlushort}} with custom models that identify custom
-entities, relations, and categories unique to your domain.
+With [{{site.data.keyword.knowledgestudiofull}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/watson/knowledge-studio/), you can extend {{site.data.keyword.nlushort}} with custom models for supported feature and language combinations.
 {: shortdesc}
 
-**The custom categories experimental feature will be retired on 19 December 2019.** On that date, deployed custom categories models will no longer be accessible in {{site.data.keyword.nlushort}}. The feature will be removed from {{site.data.keyword.knowledgestudioshort}} on an earlier date. Custom categories models will no longer be accessible in {{site.data.keyword.knowledgestudioshort}} on 17 December 2019.
-{: important}
+## Before you begin
+{: before-you-begin}
 
-## Getting started with custom models
-{: #getting-started-with-custom-models}
+1. If you haven't done so already, [get started](/docs/natural-language-understanding?topic=natural-language-understanding-getting-started) with {{site.data.keyword.nlushort}}.
+2. Check [Language support for custom models](#language-support-for-custom-models) to make sure that the custom model you want to create is supported.
+3. Follow the customization instructions for one of the following features.
+   - [Entities and relations](#entities-and-relations)
+   - [Advanced rules (Beta)](#advanced-rules)
+   - [Sentiment (Beta)](#custom-sentiment)
+
+## Language support for custom models
+{: #language-support-for-custom-models}
+
+Check the *Custom model support* columns in the tables on the [Language support](/docs/natural-language-understanding?topic=natural-language-understanding-language-support) page to see the features that support custom models for each language.
+
+### Targeted sentiment for custom model entities
+{: #targeted-sentiment-for-custom-entities}
+
+For English only, you can get sentiment scores for each custom model entity that is detected by the service by setting the `sentiment: true` option in the entities object. No other languages support targeted sentiment for custom model entities.
+
+## Creating custom entities and relations models
+{: #entities-and-relations}
 
 > The {{site.data.keyword.nlushort}} Free plan limits the size and performance of your custom model. To test a custom model to its full extent, you will need to use it with the {{site.data.keyword.nlushort}} Standard plan.
 
-1. If you haven't done so already, [get started](/docs/services/natural-language-understanding?topic=natural-language-understanding-getting-started) with {{site.data.keyword.nlushort}}.
-2. [Get started with {{site.data.keyword.knowledgestudioshort}}](/docs/services/watson-knowledge-studio?topic=watson-knowledge-studio-wks_tutintro#wks_tutintro).
+2. [Get started with {{site.data.keyword.knowledgestudioshort}}](/docs/watson-knowledge-studio?topic=watson-knowledge-studio-wks_tutintro#wks_tutintro).
 3. Create a custom model.
-   1. To create a custom entities and relations model, see [Creating a machine learning model](/docs/services/watson-knowledge-studio?topic=watson-knowledge-studio-wks_tutml_intro) 
-   2. You can also create a custom entities model with a rule-based model. See [Creating a rule-based model](/docs/services/watson-knowledge-studio?topic=watson-knowledge-studio-wks_tutrule_intro) for details.
-   3. To create a custom categories model, see [Creating a custom categories model](/docs/services/watson-knowledge-studio?topic=watson-knowledge-studio-create-categories-model).
-4. [Deploy your model to {{site.data.keyword.nlushort}}](/docs/services/watson-knowledge-studio?topic=watson-knowledge-studio-publish-ml#wks_manlu)
+   1. To create a custom entities and relations model, see [Creating a machine learning model](/docs/watson-knowledge-studio?topic=watson-knowledge-studio-wks_tutml_intro) 
+   2. You can also create a custom entities model with a rule-based model. See [Creating a rule-based model](/docs/watson-knowledge-studio?topic=watson-knowledge-studio-wks_tutrule_intro) for details.
+4. [Deploy your model to {{site.data.keyword.nlushort}}](/docs/watson-knowledge-studio?topic=watson-knowledge-studio-publish-ml#wks_manlu)
 5. To use your model, specify the `model` that you deployed in the
-[entities ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/apidocs/natural-language-understanding#entities){: new_window},
-[relations ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/apidocs/natural-language-understanding#relations){: new_window}, or [categories ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/apidocs/natural-language-understanding#categories){: new_window} options of your API request:
+[entities ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/apidocs/natural-language-understanding#entities){: new_window} or 
+[relations ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/apidocs/natural-language-understanding#relations){: new_window} options of your API request:
     - Example *parameters.json* file:
 
         ```json
         {
           "url": "www.url.example",
           "features": {
-            "categories": {
-              "model": "your-model-id-here"
-            },
             "entities": {
               "model": "your-model-id-here"
             },
@@ -81,9 +91,9 @@ entities, relations, and categories unique to your domain.
 ## Deleting a custom model
 {: #deleting-a-custom-model}
 
-The number of custom models that you deploy to {{site.data.keyword.nlushort}} affects your {{site.data.keyword.nlushort}} bill according to your [pricing plan](https://www.ibm.com/cloud/watson-natural-language-understanding/pricing). To avoid charges for a model that you no longer use, [undeploy the model with {{site.data.keyword.knowledgestudioshort}}](/docs/services/watson-knowledge-studio?topic=watson-knowledge-studio-publish-ml#undeploy-view-model), or undeploy the model with the **[Delete model](https://{DomainName}/apidocs/natural-language-understanding#delete-model)** method.
+The number of custom models that you deploy to {{site.data.keyword.nlushort}} affects your {{site.data.keyword.nlushort}} bill according to your [pricing plan](https://www.ibm.com/cloud/watson-natural-language-understanding/pricing). To avoid charges for a model that you no longer use, [undeploy the model with {{site.data.keyword.knowledgestudioshort}}](/docs/watson-knowledge-studio?topic=watson-knowledge-studio-publish-ml#undeploy-view-model), or undeploy the model with the delete model method for that feature. 
 
-Example curl request:
+The following example undeploys an entities model.
 
 ```bash
 curl --user "apikey":"{apikey}" \
@@ -92,16 +102,148 @@ curl --user "apikey":"{apikey}" \
 ```
 {: pre}
 
+## Creating custom sentiment models (Beta)
+{: #custom-sentiment}
 
-## Language support for custom models
-{: #language-support-for-custom-models}
+The custom sentiment feature is Beta. It is in a trial stage of development and is not recommended for production use.
+{: note}
 
-Check the *Custom model support* columns in the tables on the [Language support](/docs/services/natural-language-understanding?topic=natural-language-understanding-language-support) page to see the custom models that are supported for each language.
+Users should not input any sensitive or personal information when using the custom sentiment feature. The Beta release may not be compatible with legislation such as GDPR. For more information, see [Information security](/docs/natural-language-understanding?topic=natural-language-understanding-information-security).
+{: note}
 
-### Targeted sentiment for custom model entities
-{: #targeted-sentiment-for-custom-entities}
+The custom sentiment feature allows you to train custom English sentiment models with service instances deployed in the Dallas location. The custom models you create extend the base English sentiment model to create better results that reflect the training data that you provide.
 
-For English only, you can get sentiment scores for each custom model entity that is detected by the service by setting the `sentiment: true` option in the entities object. No other languages support targeted sentiment for custom model entities.
+### Creating sentiment training data
+{: #creating-sentiment-training-data}
+
+Before you create a model, prepare a CSV training data file that meets the [sentiment training data requirements](#sentiment-training-data-requirements). To view an example file, see [sentiment_data.csv](https://raw.githubusercontent.com/watson-developer-cloud/doc-tutorial-downloads/master/natural-language-understanding/sentiment_data.csv).
+
+Each row of the CSV file contains a text sample under the `doc` column and a sentiment label under the `label` column. When you create your training data, try to include samples that resemble the phrases that you expect to encounter in your application.
+
+#### Sentiment training data requirements
+{: #sentiment-training-data-requirements}
+
+- CSV file format
+  - Must use `.csv` file extension and UTF-8 encoding
+- Minimum number of samples: 20 (3,000 recommended)
+- Maximum number of samples: 10,000
+- Maximum file size: 10 MB
+- Maximum file name length: 255 characters
+- 2 columns with headers must be included
+  - `doc` column containing sample text phrases
+  - `label` column containing one of the following sentiment labels for each sample
+    - `negative`
+    - `neutral`
+    - `positive`
+
+### Training a custom sentiment model
+{: #training-a-custom-sentiment-model}
+
+When your training data is ready, use the **Create sentiment model** method to create your custom model. Make sure to substitute your credentials for `{apikey}` and `{url}`, and use the path to your training data file in the `training_data` parameter. 
+
+```bash
+curl -X POST -u "apikey:{apikey}" \
+-H "Content-Type: multipart/form-data" \
+-F "name=MySentimentModel" \
+-F "language=en" \
+-F "description=Test sentiment model" \
+-F "version=1.0.1" \
+-F "version_description=My version description" \
+-F "training_data=@/Users/username/sentiment_data.csv;type=text/csv" \
+"{url}/v1/models/sentiment?version=2019-07-12"
+```
+{: pre}
+
+Use the `model_id` in the response to check the status of your model.
+
+### Checking the status of sentiment models
+{: #checking-status-of-sentiment-models}
+
+The following sample request for the **Get sentiment model** method checks the status for the model with ID `714a50d1-36c7-4a57-a790-99f13cc9301c`.
+
+```bash
+curl -X GET -u "apikey:{apikey}" \
+"{url}/v1/models/sentiment/714a50d1-36c7-4a57-a790-99f13cc9301c?version=2019-07-12"
+```
+{: pre}
+
+To get information for all sentiment models deployed to your instance, use the **List sentiment models** method.
+
+```bash
+curl -X GET -u "apikey:{apikey}" \
+"{url}/v1/models/sentiment?version=2019-07-12"
+```
+{: pre}
+
+When the status is `available`, the model is ready to use.
+
+
+### Analyzing text with custom sentiment models
+{: #analyzing-text-with-custom-sentiment-models}
+
+After you've trained a sentiment model and the status is `available`, you can use it with the **Analyze text** method.
+
+- Example *parameters.json* file:
+
+    ```json
+    {
+      "url": "www.ibm.com",
+      "features": {
+        "sentiment": {
+          "model": "714a50d1-36c7-4a57-a790-99f13cc9301c"
+        }
+      }
+    }
+    ```
+    {: codeblock}
+
+- Example curl request:
+
+    ```bash
+    curl --user "apikey":"{apikey}" \
+    "{url}/v1/analyze?version=2019-07-12" \
+    --request POST \
+    --header "Content-Type: application/json" \
+    --data @parameters.json
+    ```
+    {: pre}
+
+#### Analyzing entities and keywords for custom sentiment
+{: #entities-and-keywords-custom-sentiment}
+
+ The `model` sentiment option specifies the sentiment model to use for all sentiment operations in the request, including sentiment analysis for detected entities and keywords. The following example analyzes sentiment for entities and keywords with a custom model, and disables the default sentiment analysis of the whole document.
+
+ - Example *parameters.json* file:
+
+    ```json
+    {
+      "url": "www.ibm.com",
+      "features": {
+        "sentiment": {
+          "model": "714a50d1-36c7-4a57-a790-99f13cc9301c",
+          "document": false
+        },
+        "entities": {
+          "sentiment": true
+        },
+        "keywords": {
+          "sentiment": true
+        }
+      }
+    }
+    ```
+    {: codeblock}
+
+- Example curl request:
+
+    ```bash
+    curl --user "apikey":"{apikey}" \
+    "{url}/v1/analyze?version=2019-07-12" \
+    --request POST \
+    --header "Content-Type: application/json" \
+    --data @parameters.json
+    ```
+    {: pre}
 
 ## Analyzing text with advanced rules (Beta)
 {: #advanced-rules}
@@ -109,12 +251,12 @@ For English only, you can get sentiment scores for each custom model entity that
 The advanced rules feature is Beta. It is in a trial stage of development and is not recommended for production use.
 {: note}
 
-The {{site.data.keyword.knowledgestudioshort}} advanced rules workspace allows you to create text extractors with deeper customization potential than what is offered in other custom models. To get started, see [Creating an advanced rules model](/docs/services/watson-knowledge-studio?topic=watson-knowledge-studio-create-advanced-rules-model).
+The {{site.data.keyword.knowledgestudioshort}} advanced rules workspace allows you to create text extractors with deeper customization potential than what is offered in other custom models. To get started, see [Creating an advanced rules model](/docs/watson-knowledge-studio?topic=watson-knowledge-studio-create-advanced-rules-model).
 
 ### Uploading an advanced rules model
 {: #uploading-an-advanced-rules-model}
 
-1. Export your model from the advanced rules editor. See step 6 in [Creating an advanced rules model](/docs/services/watson-knowledge-studio?topic=watson-knowledge-studio-create-advanced-rules-model#create-advanced-rules-model-procedure).
+1. Export your model from the advanced rules editor. See step 6 in [Creating an advanced rules model](/docs/watson-knowledge-studio?topic=watson-knowledge-studio-create-advanced-rules-model#create-advanced-rules-model-procedure).
     - If you plan to analyze HTML and want to extract spans over the original HTML content, check the **Enable Detagging** box before you export your model.
 2. Use the **Create advanced rules model** method to upload your model to {{site.data.keyword.nlushort}}. Replace `{url}` and `{apikey}` with your service URL and API key, and replace `/Users/username/revenue_by_division_en.zip` with the path to your model file.
 
@@ -153,9 +295,6 @@ curl -X GET -u "apikey:{apikey}" \
 {: pre}
 
 When the status is `available`, the model is ready to use.
-
-The general **List models** method (`GET /v1/models`) does not return advanced rules models at this time.
-{: note}
 
 
 ### Analyzing text with advanced rules models

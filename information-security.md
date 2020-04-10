@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2019
-lastupdated: "2019-08-06"
+  years: 2015, 2020
+lastupdated: "2020-04-10"
 
 subcollection: natural-language-understanding
 
@@ -18,6 +18,7 @@ subcollection: natural-language-understanding
 {:java: .ph data-hd-programlang='java'}
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
+{:note: .note}
 
 # Information security
 {: #information-security}
@@ -32,8 +33,8 @@ The products, services, and other capabilities described herein are not suitable
 
 If you need to request GDPR support for {{site.data.keyword.cloud}} {{site.data.keyword.watson}} resources that are created
 
--   In the European Union (EU), see [Requesting support for IBM Cloud Watson resources created in the European Union](/docs/services/watson?topic=watson-gdpr-sar#request-EU).
--   Outside of the EU, see [Requesting support for resources outside the European Union](/docs/services/watson/?topic=watson-gdpr-sar#request-non-EU).
+-   In the European Union (EU), see [Requesting support for IBM Cloud Watson resources created in the European Union](/docs/watson?topic=watson-gdpr-sar#request-EU).
+-   Outside of the EU, see [Requesting support for resources outside the European Union](/docs/watson/?topic=watson-gdpr-sar#request-non-EU).
 
 ## European Union General Data Protection Regulation (GDPR)
 {: #gdpr}
@@ -50,6 +51,8 @@ US Health Insurance Portability and Accountability Act (HIPAA) support is availa
 ## Labeling and deleting data in Natural Language Understanding
 {: #gdpr-in-service}
 
-The {{site.data.keyword.nlushort}} service processes but does not store users’ data. Users of the {{site.data.keyword.nlushort}} service do not need to take any action to identify, protect, or delete their data.
+Users should not input any sensitive or personal information when using the custom sentiment feature. The Beta release may not be compatible with legislation such as GDPR.
+{: note} 
 
+The {{site.data.keyword.nlushort}} service processes but does not store users’ data. Users of the {{site.data.keyword.nlushort}} service do not need to take any action to identify, protect, or delete their data.
 
