@@ -51,11 +51,6 @@ The following table shows the service behavior changes for each version date. Sw
 ## Changes
 {: #changes}
 
-### 10 April 2020
-{: #10-April-2020}
-
-Custom Sentiment (Beta) is now available. The Beta supports English and is available only for service instances in the Dallas location. For details, see [Creating custom sentiment models](/docs/services/natural-language-understanding?topic=natural-language-understanding-customizing#custom-sentiment).
-
 ### 20 March 2020
 {: #20-march-2020}
 
