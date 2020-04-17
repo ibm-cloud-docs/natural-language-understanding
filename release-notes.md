@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2020
-lastupdated: "2020-03-20"
+lastupdated: "2020-04-17"
 
 subcollection: natural-language-understanding
 
@@ -50,6 +50,12 @@ The following table shows the service behavior changes for each version date. Sw
 
 ## Changes
 {: #changes}
+
+### 17 April 2020
+{: #17-april-2020}
+
+Custom Sentiment (Beta) is now available. The Beta supports English and is available only for service instances in the Dallas location. For details, see [Creating custom sentiment models](/docs/services/natural-language-understanding?topic=natural-language-understanding-customizing#custom-sentiment).
+
 
 ### 20 March 2020
 {: #20-march-2020}

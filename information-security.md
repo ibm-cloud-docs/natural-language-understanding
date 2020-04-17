@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2020
-lastupdated: "2020-04-13"
+lastupdated: "2020-04-17"
 
 subcollection: natural-language-understanding
 
@@ -50,6 +50,9 @@ US Health Insurance Portability and Accountability Act (HIPAA) support is availa
 
 ## Labeling and deleting data in Natural Language Understanding
 {: #gdpr-in-service}
+
+Users should not input any sensitive or personal information when using the custom sentiment feature. The Beta release may not be compatible with legislation such as GDPR.
+{: note} 
 
 The {{site.data.keyword.nlushort}} service processes but does not store users’ data. Users of the {{site.data.keyword.nlushort}} service do not need to take any action to identify, protect, or delete their data.
 
