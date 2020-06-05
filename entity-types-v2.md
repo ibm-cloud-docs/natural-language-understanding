@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2020
-lastupdated: "2020-02-24"
+lastupdated: "2020-06-05"
 
 subcollection: natural-language-understanding
 
@@ -28,7 +28,7 @@ The following tables list the entity types and subtypes that are used in the _Ve
 The entity type system that {{site.data.keyword.nlushort}} uses differs based on which version date and which language you are using. For more details, see the [Entity types systems](/docs/natural-language-understanding?topic=natural-language-understanding-entity-type-systems) page.
 
 ## Entity types
-{: #entity-types}
+{: #entity-types-version-2}
 
 | Entity type       |
 | ----------------- |
@@ -57,9 +57,8 @@ The entity type system that {{site.data.keyword.nlushort}} uses differs based on
 
 &dagger; IPv6 addresses are not yet detectable in Japanese text.
 
-
 ## Entity subtypes
-{: #entity-subtypes}
+{: #entity-subtypes-version-2}
 
 Subtypes are determined by the disambiguated entity, not the entity type. There is no strict relationship between entity types and entity subtypes.
 {: note}
