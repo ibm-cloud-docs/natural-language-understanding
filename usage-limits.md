@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2020
-lastupdated: "2020-02-24"
+lastupdated: "2020-06-05"
 
 subcollection: natural-language-understanding
 
@@ -57,7 +57,7 @@ To increase your concurrent request limit, [open a support ticket](https://ibm.b
 There is a size limit for {{site.data.keyword.knowledgestudioshort}} custom models that are deployed to {{site.data.keyword.nlushort}} service instances on Lite pricing plans. To remove the custom model size limit, upgrade your {{site.data.keyword.nlushort}} service instance to a paid pricing plan. You can find your service instances on the {{site.data.keyword.cloud_notm}} [resources page](https://{DomainName}/resources).
 
 ## Language support
-{: #language-support}
+{: #usage-language-support}
 
 Different language restrictions apply depending on how you use the service. For details, see the [Language support](/docs/natural-language-understanding?topic=natural-language-understanding-language-support) page.
 
