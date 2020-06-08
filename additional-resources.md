@@ -1,15 +1,15 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-12-20"
+  years: 2015, 2020
+lastupdated: "2020-06-08"
 
 subcollection: natural-language-understanding
 
 ---
 
 {:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:tip: .tip}
 {:pre: .pre}
 {:codeblock: .codeblock}
@@ -24,7 +24,6 @@ subcollection: natural-language-understanding
 
 ## Case studies
 {: #case-studies}
-
 
 <table>
 <tr>
@@ -142,18 +141,15 @@ subcollection: natural-language-understanding
 - [Using AI to Combat Human Trafficking](https://www.ibm.com/blogs/citizen-ibm/2018/10/bill-peace-stop-the-traffik/)
 - [Buzz Radar Cognitive Command Center makes insights actionable with IBM Watson](https://www.ibm.com/blogs/cloud-computing/2018/05/31/cognitive-command-center-buzz-radar-ibm-watson/)
 - [Looking to buy a home? Here’s how an AI chatbot can help](https://www.ibm.com/blogs/bluemix/2018/04/australias-first-home-loan-chatbot/)
-- [Improve your machine learning solution with established performance metrics](https://developer.ibm.com/code/2018/04/10/ai-machine-learning-solution-performance-accuracy-precision-recall/)
 - [Analyse call recordings with Watson](https://www.ibm.com/blogs/bluemix/2018/04/analyse-call-recordings-watson/)
 - [Distributed REST Calls to Watson Services using REST Data Source on Apache Spark](https://developer.ibm.com/dwblog/2018/distributed-rest-calls-to-watson-services-using-rest-data-source-on-apache-spark/)
 - [How Thomson Reuters and IBM are bringing AI to data privacy professionals](https://www.ibm.com/blogs/watson/2018/01/thomson-reuters-ibm-bringing-ai-legal-professionals/)
 - [How to exploit the insights you just discovered with AI](https://www.ibm.com/blogs/watson/2018/01/how-to-exploiting-the-insights-you-just-discovered-with-ai/)
 - [All aboard for the Watson Salesforce SDK!](https://developer.ibm.com/dwblog/2018/watson-salesforce-sdk-apis-apex-applications/)
 - [How fund managers can apply AI to turn data into insights, reduce bias in decisions and generate alpha](https://www.ibm.com/blogs/watson/2017/11/how-fund-managers-can-apply-ai-to-turn-data-into-insights/)
-- [Deploy a Cognitive Social CRM pattern to gain insights about your brand](https://developer.ibm.com/code/2017/11/16/deploy-cognitive-social-crm-pattern-gain-insights-brand/)
 - [How to create a custom NLU annotation without writing a line of code](https://developer.ibm.com/dwblog/2017/create-custom-nlu-annotation-without-writing-line-code/)
 - [Security? Languages? Regions? Get it all with Watson Discovery and NLU](https://www.ibm.com/blogs/bluemix/2017/10/security-languages-regions-get-watson-discovery-nlu/)
 - [Creating content with the help of AI](https://www.ibm.com/blogs/cloud-computing/2017/08/03/creating-content-help-ai/)
-
 
 ## Other resources
 {: #other-resources}
