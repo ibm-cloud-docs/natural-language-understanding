@@ -2,14 +2,14 @@
 
 copyright:
   years: 2015, 2020
-lastupdated: "2020-04-17"
+lastupdated: "2020-04-10"
 
 subcollection: natural-language-understanding
 
 ---
 
 {:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:tip: .tip}
 {:pre: .pre}
 {:codeblock: .codeblock}
@@ -51,11 +51,10 @@ The following table shows the service behavior changes for each version date. Sw
 ## Changes
 {: #changes}
 
-### 17 April 2020
-{: #17-april-2020}
+### 10 April 2020
+{: #10-April-2020}
 
 Custom Sentiment (Beta) is now available. The Beta supports English and is available only for service instances in the Dallas location. For details, see [Creating custom sentiment models](/docs/services/natural-language-understanding?topic=natural-language-understanding-customizing#custom-sentiment).
-
 
 ### 20 March 2020
 {: #20-march-2020}
@@ -200,7 +199,7 @@ The following changes are activated when you use the version date `2019-06-04` o
 ### 19 March 2019
 {: #19-march-2019}
 
-- Introduced experimental support for custom categories models created with {{site.data.keyword.knowledgestudioshort}}. To get started, see [Creating a custom categories model](/docs/watson-knowledge-studio?topic=watson-knowledge-studio-create-categories-model)
+- Introduced experimental support for custom categories models created with {{site.data.keyword.knowledgestudioshort}}.
 - Improved Spanish keywords and concepts.
 
 ### 10 January 2019
@@ -241,7 +240,7 @@ The following changes are activated when you use the version date `2019-06-04` o
 - Improved keywords accuracy and performance for English, French, Japanese, and Portuguese input.
 - Improved Italian sentiment accuracy and performance, including better accuracy for large text samples.
 - Fixed a bug that caused URL-encoded text to appear in Spanish entity disambiguation results.
-- Released a new Italian entities model with the latest entity type system. You can learn about the latest type system on the [Entity types and subtypes (Version 2)](entity-types-v2.html) page. When your application is compatible with the new type system, change the version date parameter in your requests to `2018-11-16` to use the new model.
+- Released a new Italian entities model with the latest entity type system. You can learn about the latest type system on the [Entity types and subtypes (Version 2)](/docs/natural-language-understanding?topic=natural-language-understanding-entity-types-version-2) page. When your application is compatible with the new type system, change the version date parameter in your requests to `2018-11-16` to use the new model.
 
 ### 9 November 2018
 {: #9-november-2018}
@@ -271,7 +270,7 @@ As of 30 October 2018, new service instances created in the Germany and US South
 - Improved French keywords.
 - Improved Korean sentiment.
 - Improved Portuguese keywords and sentiment.
-- Released a new Portuguese entities model with the latest entity type system. You can learn about the latest type system on the [Entity types and subtypes (Version 2)](entity-types-v2.html) page. When your application is compatible with the new type system, change the version date parameter in your requests to `2018-09-21` to use the new model. 
+- Released a new Portuguese entities model with the latest entity type system. You can learn about the latest type system on the [Entity types and subtypes (Version 2)](/docs/natural-language-understanding?topic=natural-language-understanding-entity-types-version-2) page. When your application is compatible with the new type system, change the version date parameter in your requests to `2018-09-21` to use the new model. 
 
 ### 26 June 2018
 {: #26-june-2018}
@@ -331,15 +330,15 @@ As of 29 May 2018, new service instances created in the Sydney region use [Ident
 - Minor improvements to Korean concepts.
 
 ### 16 March 2018
-{: #03-march-2018}
+{: #16-march-2018}
 
 - Added support for German categories, relations, and semantic roles.
-  - A new relation type system is used for German relations. To view details, see the [Relation types (Version 2)](relations-v2.html) page.
+  - A new relation type system is used for German relations. To view details, see the [Relation types (Version 2)](/docs/natural-language-understanding?topic=natural-language-understanding-relation-types-version-2) page.
 - Improved German keywords and sentiment.
 - Added support for Japanese categories and concepts.
 - Language detection improvements.
 - Improved webpage cleaning.
-- Improved French and German entities models. The models use a new entity type system. Check out the new entity types and subtypes on the [Entity types and subtypes (Version 2)](entity-types-v2.html) page. When your application is compatible with the new type system, change the version date parameter in your requests to `2018-03-16` to use the new model. The following are the differences between the _Version 1_ type system and the _Version 2_ type system.
+- Improved French and German entities models. The models use a new entity type system. Check out the new entity types and subtypes on the [Entity types and subtypes (Version 2)](/docs/natural-language-understanding?topic=natural-language-understanding-entity-types-version-2) page. When your application is compatible with the new type system, change the version date parameter in your requests to `2018-03-16` to use the new model. The following are the differences between the _Version 1_ type system and the _Version 2_ type system.
   - New entity types:
     - Date
     - Duration
@@ -378,7 +377,7 @@ As of 29 May 2018, new service instances created in the Sydney region use [Ident
 ### 25 January 2018
 {: #25-january-2018}
 
-- Chinese (Simplified) [custom model](customizing.html) support is now available for entities and relations.
+- Chinese (Simplified) [custom model](/docs/natural-language-understanding?topic=natural-language-understanding-customizing) support is now available for entities and relations.
 
 ### 12 January 2018
 {: #12-january-2018}
@@ -388,10 +387,10 @@ As of 29 May 2018, new service instances created in the Sydney region use [Ident
 ### 15 December 2017
 {: #15-december-2017}
 
-- Dutch [custom model](customizing.html) support is now available for entities and relations.
-- [French language support](language-support.html#french) now includes concepts.
+- Dutch [custom model](/docs/natural-language-understanding?topic=natural-language-understanding-customizing) support is now available for entities and relations.
+- [French language support](/docs/natural-language-understanding?topic=natural-language-understanding-language-support#french) now includes concepts.
 - The French sentiment model has been improved to deliver better results.
-- The language detection model is faster and detects more languages overall. For the complete list of languages, see [Detectable languages](detectable-languages.html).
+- The language detection model is faster and detects more languages overall. For the complete list of languages, see [Detectable languages](/docs/natural-language-understanding?topic=natural-language-understanding-detectable-languages).
 
   The following languages are new additions to the list:
   - Belarusian (be)
@@ -515,7 +514,7 @@ As of 29 May 2018, new service instances created in the Sydney region use [Ident
 ### 17 November 2017
 {: #17-november-2017}
 
-- **[Korean language support](language-support.html#korean)** has expanded to include the following features:
+- **[Korean language support](/docs/natural-language-understanding?topic=natural-language-understanding-language-support#korean)** has expanded to include the following features:
 
     - Entities
     - Keywords
@@ -590,7 +589,7 @@ The Natural Language Understanding service is now GA.
 ## New API authentication process
 {: #iam-auth-process }
 
-On October 30, 2018, the Dallas (US South) and Frankfurt (Germany) locations transitioned to using token-based Identity and Access Management (IAM) authentication. (See [Authenticating with IAM tokens ![External link icon](../../icons/launch-glyph.svg "External link icon")](/docs/watson/getting-started-iam.html) for more information.)
+On October 30, 2018, the Dallas (US South) and Frankfurt (Germany) locations transitioned to using token-based Identity and Access Management (IAM) authentication. (See [Authenticating to Watson services](/docs/watson?topic=watson-iam) for more information.)
 {: important}
 
 The {{site.data.keyword.nlushort}} service has a new API authentication process for service instances that are hosted in the following locations:
@@ -604,9 +603,9 @@ The {{site.data.keyword.nlushort}} service has a new API authentication process 
 
 {{site.data.keyword.cloud_notm}} is migrating to token-based Identity and Access Management (IAM) authentication. With some service instances, you authenticate to the API by using IAM.
 
-- With *new* service instances that you create in the locations on or after the dates listed, you authenticate to the API by using IAM. You can pass either a bearer token in an Authorization header or an API key. Tokens support authenticated requests without embedding service credentials in every call. API keys use basic authentication. Learn more about [IAM](/docs/watson/getting-started-iam.html).
+- With *new* service instances that you create in the locations on or after the dates listed, you authenticate to the API by using IAM. You can pass either a bearer token in an Authorization header or an API key. Tokens support authenticated requests without embedding service credentials in every call. API keys use basic authentication. Learn more about [IAM](/docs/watson?topic=watson-iam).
 
-    When you use any of the Watson SDKs, you can pass the API key and let the SDK manage the lifecycle of the tokens. For more information and examples, see [Authentication ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/apidocs/natural-language-understanding/#authentication){: new_window} in the API reference.
-- For _existing_ service instances that you created before the indicated date, you continue to authenticate by providing the username and password for the service instance. Eventually, you will need to migrate these service instances to IAM authentication. Updates will be provided about migration process and dates. For more information about migration, see [Migrating Cloud Foundry service instances to a resource group](/docs/resources/instance_migration.html).
+    When you use any of the Watson SDKs, you can pass the API key and let the SDK manage the lifecycle of the tokens. For more information and examples, see [Authentication](https://{DomainName}/apidocs/natural-language-understanding/#authentication){: external} in the API reference.
+- For _existing_ service instances that you created before the indicated date, you continue to authenticate by providing the username and password for the service instance. Eventually, you will need to migrate these service instances to IAM authentication. Updates will be provided about migration process and dates. For more information about migration, see [Migrating Cloud Foundry service instances to a resource group](/docs/watson?topic=watson-migrate).
 
-To find out which authentication to use, view the service credentials by clicking the service instance on the [{{site.data.keyword.cloud_notm}} resources page ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/resources){: new_window}.
+To find out which authentication to use, view the service credentials by clicking the service instance on the [{{site.data.keyword.cloud_notm}} resources page](https://{DomainName}/resources){: external}.
