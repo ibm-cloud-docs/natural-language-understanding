@@ -1,19 +1,25 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-10-30"
+  years: 2015, 2020
+lastupdated: "2020-06-20"
 
 subcollection: natural-language-understanding
 
 ---
 
 {:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
+{:deprecated: .deprecated}
+{:important: .important}
+{:note: .note}
 {:tip: .tip}
+{:preview: .preview}
+{:beta: .beta}
 {:pre: .pre}
 {:codeblock: .codeblock}
 {:screen: .screen}
+{:shortdesc: .shortdesc}
 {:javascript: .ph data-hd-programlang='javascript'}
 {:java: .ph data-hd-programlang='java'}
 {:python: .ph data-hd-programlang='python'}
@@ -39,42 +45,41 @@ By default, the service "cleans" webpages before they are analyzed. Webpage clea
 
 To disable webpage cleaning, set the **clean** parameter to `false`. The following example disables webpage cleaning.
 
-```bash
-curl --user "apikey:{apikey}" \
-"{url}/v1/analyze?version=2018-09-21" \
---request POST \
+```sh
+curl -X POST  -u "apikey:{apikey}" \
 --header "Content-Type: application/json" \
---data '{
-  "url": "http://newsroom.ibm.com/Guerbet-and-IBM-Watson-Health-Announce-Strategic-Partnership-for-Artificial-Intelligence-in-Medical-Imaging-Liver"
-  "features": {
-    "concepts": {}
+--data "{
+  \"url\": \"http://newsroom.ibm.com/Guerbet-and-IBM-Watson-Health-Announce-Strategic-Partnership-for-Artificial-Intelligence-in-Medical-Imaging-Liver\",
+  \"features\": {
+    \"concepts\": {}
   },
-  "return_analyzed_text": true,
-  "clean": false
-}'
+  \"return_analyzed_text\": true,
+  \"clean\": false
+}" \
+"{url}/v1/analyze?version=2018-09-21"
 ```
 {: pre}
-
 
 ## Analyzing specific elements of a webpage with XPath
 {: #xpath}
 
 The **xpath** parameter enables you to use an XPath query to analyze specific parts of a webpage. To learn more about XPath, check out the following resources.
 
-  - [W3Schools XPath tutorial](https://www.w3schools.com/xml/xpath_intro.asp)
-  - [XPath on Wikipedia](https://wikipedia.org/wiki/XPath)
+- [W3Schools XPath tutorial](https://www.w3schools.com/xml/xpath_intro.asp){: external}
+- [XPath on Wikipedia](https://wikipedia.org/wiki/XPath){: external}
 
-The behavior of the **xpath** parameter depends on the value of the **clean** parameter: 
+The behavior of the **xpath** parameter depends on the value of the **clean** parameter:
 
-  - **clean** = `true` (default): Results of the XPath query will be appended to the cleaned webpage text before the combined text is analyzed.
-  - **clean** = `false`: Only the results of the XPath query will be analyzed.
+- **clean** = `true` (default): Results of the XPath query will be appended to the cleaned webpage text before the combined text is analyzed.
+- **clean** = `false`: Only the results of the XPath query will be analyzed.
 
 ### Including text from specific elements in the analysis
 {: #analyze-cleaned-and-xpath}
 
 By default, the **clean** parameter is set to `true`, and results of an XPath query are appended to the cleaned webpage text after a newline character before the combined text is analyzed. This can be useful if you want to include elements in the analysis that would otherwise be removed by webpage cleaning. The following example uses the **xpath** parameter to include the title and subtitle of the example webpage in the analysis.
 
-**Example *parameters.json* file**
+**Example `parameters.json` file**
+
 ```json
 {
   "url": "http://newsroom.ibm.com/Guerbet-and-IBM-Watson-Health-Announce-Strategic-Partnership-for-Artificial-Intelligence-in-Medical-Imaging-Liver",
@@ -88,22 +93,22 @@ By default, the **clean** parameter is set to `true`, and results of an XPath qu
 {: codeblock}
 
 **Example request**
-```bash
-curl --user "apikey:{apikey}" \
-"{url}/v1/analyze?version=2018-09-21" \
---request POST \
+
+```sh
+curl -X POST  -u "apikey:{apikey}" \
 --header "Content-Type: application/json" \
---data @parameters.json
+--data @parameters.json \
+"{url}/v1/analyze?version=2018-09-21"
 ```
 {: pre}
-
 
 ### Analyzing text from specific elements only
 {: #analyze-xpath-results-only}
 
 To analyze only the result of an XPath query, use the **xpath** parameter and set the **clean** parameter to `false`. The following example analyzes only the title and subtitle of the example webpage.
 
-**Example *parameters.json* file**
+**Example `parameters.json` file**
+
 ```json
 {
   "url": "http://newsroom.ibm.com/Guerbet-and-IBM-Watson-Health-Announce-Strategic-Partnership-for-Artificial-Intelligence-in-Medical-Imaging-Liver",
@@ -118,11 +123,11 @@ To analyze only the result of an XPath query, use the **xpath** parameter and se
 {: codeblock}
 
 **Example request**
-```bash
-curl --user "apikey:{apikey}" \
-"{url}/v1/analyze?version=2018-09-21" \
---request POST \
+
+```sh
+curl -X POST  -u "apikey:{apikey}" \
 --header "Content-Type: application/json" \
---data @parameters.json
-```
+--data @parameters.json \
+"{url}/v1/analyze?version=2018-09-21"
+ ```
 {: pre}
