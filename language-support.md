@@ -81,7 +81,7 @@ Language support might be different if you are a {{site.data.keyword.Bluemix_ded
     </tr>
     <tr>
       <td>Keywords</td>
-      <td></td>
+      <td>X</td>
       <td></td>
     </tr>
     <tr>
