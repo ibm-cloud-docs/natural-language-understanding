@@ -51,6 +51,11 @@ The following table shows the service behavior changes for each version date. Sw
 ## Changes
 {: #changes}
 
+### 8 July 2020
+{: #8-July-2020}
+
+Support for Arabic keywords is now available, for all public and premium service instances. For details, see [Language support](/docs/natural-language-understanding?topic=natural-language-understanding-language-support).
+
 ### 10 April 2020
 {: #10-April-2020}
 
