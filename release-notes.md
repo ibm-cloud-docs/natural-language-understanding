@@ -67,8 +67,6 @@ The following table shows the service behavior changes for each version date. Sw
   |`/style and fashion/men 's fashion`|`/style and fashion/men's fashion`|
   |`/technology and computing/consumer electronics/ebook reader`|`/technology and computing/consumer electronics/e-book reader`|
 
-- Support for Chinese and Dutch categories is now available, for all public and premium service instances. For details, see [Language support](/docs/natural-language-understanding?topic=natural-language-understanding-language-support).
-
 ### 8 July 2020
 {: #8-July-2020}
 
