@@ -55,17 +55,17 @@ The following table shows the service behavior changes for each version date. Sw
 ### 1 August 2020
 {: #1-august-2020}
 
-- The following changes to the default taxonomy are activated when you use the version date `2020-08-01` or later:
+The following changes to the default taxonomy are activated when you use the version date `2020-08-01` or later:
 
-  |Previous entry|Updated entry|
-  |---|---|
-  |`/food and drink/health and lowfat cooking`|`/food and drink/health and low-fat cooking`|
-  |`/society/crime/sexual offence`|`/society/crime/sexual offense`|
-  |`/society/crime/sexual offence/paedophilia`|`/society/crime/sexual offense/pedophilia`|
-  |`/society/crime/sexual offence/prostitution`|`/society/crime/sexual offense/prostitution`|
-  |`/society/crime/sexual offence/rape`|`/society/crime/sexual offense/rape`|
-  |`/style and fashion/men 's fashion`|`/style and fashion/men's fashion`|
-  |`/technology and computing/consumer electronics/ebook reader`|`/technology and computing/consumer electronics/e-book reader`|
+|Previous entry|Updated entry|
+|---|---|
+|`/food and drink/health and lowfat cooking`|`/food and drink/health and low-fat cooking`|
+|`/society/crime/sexual offence`|`/society/crime/sexual offense`|
+|`/society/crime/sexual offence/paedophilia`|`/society/crime/sexual offense/pedophilia`|
+|`/society/crime/sexual offence/prostitution`|`/society/crime/sexual offense/prostitution`|
+|`/society/crime/sexual offence/rape`|`/society/crime/sexual offense/rape`|
+|`/style and fashion/men 's fashion`|`/style and fashion/men's fashion`|
+|`/technology and computing/consumer electronics/ebook reader`|`/technology and computing/consumer electronics/e-book reader`|
 
 ### 8 July 2020
 {: #8-July-2020}
