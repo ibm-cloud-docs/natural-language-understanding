@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2020
-lastupdated: "2020-04-10"
+lastupdated: "2020-08-01"
 
 subcollection: natural-language-understanding
 
@@ -28,7 +28,7 @@ The following new features and changes to the service are available.
 ## Service API versioning
 {: #service-api-versioning}
 
-**Current API version**: 2019-07-12
+**Current API version**: 2020-08-01
 
 API requests require a version parameter that takes the date in the format `version=YYYY-MM-DD`. Send the version parameter with every API request.
 
@@ -41,6 +41,7 @@ The following table shows the service behavior changes for each version date. Sw
 
 |Version date|Changes summary|
 |---|---|
+|[`2020-08-01`](#1-august-2020)| <li>Taxonomy changes aimed towards standardization of the label names in the default taxonomy.</li>|
 |[`2019-07-12`](#12-july-2019)| <li>New English entities model with improved accuracy and confidence scores.</li>|
 |[`2019-06-04`](#4-june-2019)| <li>Fixed a bug that caused entities requests with custom models to ignore the `limit` option.</li><li>The default `limit` value for all entities requests is now 50 for all models.</li><li>The maximum `limit` value of 250 entities has been removed.</li>|
 |[`2018-11-16`](#16-november-2018)| <li>Version 2 Italian entity type system.</li>|
@@ -50,6 +51,23 @@ The following table shows the service behavior changes for each version date. Sw
 
 ## Changes
 {: #changes}
+
+### 1 August 2020
+{: #1-august-2020}
+
+- The following changes to the default taxonomy are activated when you use the version date `2020-08-01` or later:
+
+  |Previous entry|Updated entry|
+  |---|---|
+  |`/food and drink/health and lowfat cooking`|`/food and drink/health and low-fat cooking`|
+  |`/society/crime/sexual offence`|`/society/crime/sexual offense`|
+  |`/society/crime/sexual offence/paedophilia`|`/society/crime/sexual offense/pedophilia`|
+  |`/society/crime/sexual offence/prostitution`|`/society/crime/sexual offense/prostitution`|
+  |`/society/crime/sexual offence/rape`|`/society/crime/sexual offense/rape`|
+  |`/style and fashion/men 's fashion`|`/style and fashion/men's fashion`|
+  |`/technology and computing/consumer electronics/ebook reader`|`/technology and computing/consumer electronics/e-book reader`|
+
+- Support for Chinese and Dutch categories is now available, for all public and premium service instances. For details, see [Language support](/docs/natural-language-understanding?topic=natural-language-understanding-language-support).
 
 ### 8 July 2020
 {: #8-July-2020}
@@ -68,23 +86,23 @@ Custom Sentiment (Beta) is now available. The Beta supports English and is avail
   - Renamed `status` to `code`.
   - Renamed `message` to `error`.
 
-Previous format:
-```json
-{
-    "status": 404,
-    "message": "not found"
-}
-```
-{:codeblock}
+  Previous format:
+  ```json
+  {
+      "status": 404,
+      "message": "not found"
+  }
+  ```
+  {:codeblock}
 
-New format:
-```json
-{
-    "code": 404,
-    "error": "not found"
-}
-```
-{:codeblock}
+  New format:
+  ```json
+  {
+      "code": 404,
+      "error": "not found"
+  }
+  ```
+  {:codeblock}
 
 ### 11 March 2020
 {: #11-march-2020}

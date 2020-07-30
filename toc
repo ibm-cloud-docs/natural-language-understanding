@@ -14,8 +14,8 @@ Natural Language Understanding
     {: .navgroup id="howto"}
     analyzing-webpages.md
     customizing.md
+    evaluating-sentiment-model-quality.md
     overriding-language-detection.md
-    ha-dr.md
     /watson/watson-migrate
     /watson/watson-keyservice
     /watson/watson-public-private-endpoints
@@ -43,6 +43,8 @@ Natural Language Understanding
 
     sample-apps.md
     usage-limits.md
+    versioning.md
+    ha-dr.md
     information-security.md
     /watson/watson-using-sdks
 
