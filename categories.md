@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-10-23"
+  years: 2015, 2020
+lastupdated: "2020-08-01"
 
 subcollection: natural-language-understanding
 
@@ -403,7 +403,7 @@ The following table shows the categories that are returned by the {{site.data.ke
 | food and drink            | food and grocery retailers             | grocery stores                         |                                |                               |
 | food and drink            | gastronomy                             | slow food                              |                                |                               |
 | food and drink            | gastronomy                             |                                        |                                |                               |
-| food and drink            | health and lowfat cooking              |                                        |                                |                               |
+| food and drink            | health and low-fat cooking              |                                        |                                |                               |
 | food and drink            | healthy eating                         |                                        |                                |                               |
 | food and drink            | kosher food                            |                                        |                                |                               |
 | food and drink            | vegan                                  |                                        |                                |                               |
@@ -745,9 +745,10 @@ The following table shows the categories that are returned by the {{site.data.ke
 | society                   | crime                                  | property crime                         | robbery                        |                               |
 | society                   | crime                                  | property crime                         | smuggling                      |                               |
 | society                   | crime                                  | property crime                         | usury                          |                               |
-| society                   | crime                                  | sexual offense                         | paedophilia                    |                               |
+| society                   | crime                                  | sexual offense                         | pedophilia                    |                               |
 | society                   | crime                                  | sexual offense                         | prostitution                   |                               |
 | society                   | crime                                  | sexual offense                         | rape                           |                               |
+| society                   | crime                                  | sexual offense                         |                   |                               |
 | society                   | crime                                  |                                        |                                |                               |
 | society                   | dating                                 |                                        |                                |                               |
 | society                   | gay life                               |                                        |                                |                               |
@@ -910,7 +911,7 @@ The following table shows the categories that are returned by the {{site.data.ke
 | style and fashion         | jewelry                                | rings                                  |                                |                               |
 | style and fashion         | jewelry                                |                                        |                                |                               |
 | style and fashion         | luxury goods                           |                                        |                                |                               |
-| style and fashion         | men 's fashion                         |                                        |                                |                               |
+| style and fashion         | men's fashion                         |                                        |                                |                               |
 | style and fashion         | swimwear                               | bikinis                                |                                |                               |
 | style and fashion         | swimwear                               |                                        |                                |                               |
 | style and fashion         | underwear                              |                                        |                                |                               |
@@ -932,7 +933,7 @@ The following table shows the categories that are returned by the {{site.data.ke
 | technology and computing  | consumer electronics                   | camera and photo equipment             | cameras and camcorders         | camera lenses                 |
 | technology and computing  | consumer electronics                   | camera and photo equipment             | cameras and camcorders         | cameras                       |
 | technology and computing  | consumer electronics                   | camera and photo equipment             | telescopes                     |                               |
-| technology and computing  | consumer electronics                   | ebook reader                           |                                |                               |
+| technology and computing  | consumer electronics                   | e-book reader                           |                                |                               |
 | technology and computing  | consumer electronics                   | game systems and consoles              | nintendo                       |                               |
 | technology and computing  | consumer electronics                   | game systems and consoles              | playstation                    |                               |
 | technology and computing  | consumer electronics                   | game systems and consoles              | xbox                           |                               |
