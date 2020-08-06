@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2020
-lastupdated: "2020-02-24"
+lastupdated: "2020-08-05"
 
 subcollection: natural-language-understanding
 
@@ -147,7 +147,7 @@ Analyze the sentiment toward specific target phrases and the sentiment of the do
 **Response**
 >Positive sentiment (score: 0.91)
 
-### Syntax (Experimental)
+### Syntax
 {: #syntax}
 
 Identify the sentences and tokens in your text. For example:

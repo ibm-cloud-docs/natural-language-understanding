@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2020
-lastupdated: "2020-08-01"
+lastupdated: "2020-08-05"
 
 subcollection: natural-language-understanding
 
@@ -52,10 +52,17 @@ The following table shows the service behavior changes for each version date. Sw
 ## Changes
 {: #changes}
 
+<!-- - Support for Chinese and Dutch categories is now available, for all public and premium service instances. For details, see [Language support](/docs/natural-language-understanding?topic=natural-language-understanding-language-support). -->
+
+### 6 August 2020
+{: #6-august-2020}
+
+- Syntax support is no longer "experimental", and is supported in all public and premium environments, for the following languages: English, Arabic, German, Spanish, French, Italian, Japanese, Korean, Dutch, Portuguese, and Chinese (Simplified). For details, see [Language support](/docs/natural-language-understanding?topic=natural-language-understanding-language-support).
+
 ### 1 August 2020
 {: #1-august-2020}
 
-The following changes to the default taxonomy are activated when you use the version date `2020-08-01` or later:
+- The following changes to the default taxonomy are activated when you use the version date `2020-08-01` or later:
 
 |Previous entry|Updated entry|
 |---|---|
@@ -66,6 +73,8 @@ The following changes to the default taxonomy are activated when you use the ver
 |`/society/crime/sexual offence/rape`|`/society/crime/sexual offense/rape`|
 |`/style and fashion/men 's fashion`|`/style and fashion/men's fashion`|
 |`/technology and computing/consumer electronics/ebook reader`|`/technology and computing/consumer electronics/e-book reader`|
+
+- Support for Chinese and Dutch categories is now available, for all public and premium service instances. For details, see [Language support](/docs/natural-language-understanding?topic=natural-language-understanding-language-support).
 
 ### 8 July 2020
 {: #8-July-2020}
