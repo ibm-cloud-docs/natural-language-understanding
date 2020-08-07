@@ -7,7 +7,7 @@ Natural Language Understanding
     {: .navgroup id="learn"}
     getting-started.md
     index.md
-    [Demo](https://natural-language-understanding-demo.ng.bluemix.net/)
+    [Demo](https://www.ibm.com/demos/live/natural-language-understanding/self-service)
     additional-resources.md
     {: .navgroup-end}
 
