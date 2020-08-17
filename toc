@@ -41,6 +41,7 @@ Natural Language Understanding
         relations-v1.md
         relations-v2.md
 
+    summary.md
     sample-apps.md
     usage-limits.md
     versioning.md
