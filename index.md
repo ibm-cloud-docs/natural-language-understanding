@@ -2,22 +2,29 @@
 
 copyright:
   years: 2015, 2020
-lastupdated: "2020-08-05"
+lastupdated: "2020-08-13"
 
 subcollection: natural-language-understanding
 
 ---
 
 {:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
+{:deprecated: .deprecated}
+{:important: .important}
+{:note: .note}
 {:tip: .tip}
+{:preview: .preview}
+{:beta: .beta}
 {:pre: .pre}
 {:codeblock: .codeblock}
 {:screen: .screen}
+{:shortdesc: .shortdesc}
 {:javascript: .ph data-hd-programlang='javascript'}
 {:java: .ph data-hd-programlang='java'}
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
+{:download: .download}
 
 # About
 {: #about}
@@ -177,6 +184,24 @@ Identify the sentences and tokens in your text. For example:
 | "like"    | "like"   | `VERB`         | `[24, 28]` |
 | "oranges" | "orange" | `NOUN`         | `[29, 36]` |
 | "."       |          | `NOUN`         | `[36, 37]` |
+
+### Summarization (Experimental)
+{: #summarization}
+
+Summarization is an experimental feature, and is not intended for use in production deployments. The details of the API, or the behavior of the underlying algorithm, may change with little notice.
+{: important:}
+
+In this Experimental release, Summarization is supported for English only.
+{: note}
+
+Return a summary of input source content. View a complete example [here](/docs/natural-language-understanding?topic=natural-language-understanding-summary-overview). For example:
+
+**Input**
+>url: "https://www.ibm.com/cloud/watson-natural-language-understanding"
+
+**Response**
+
+>"Watson Natural Language Understanding is a cloud native product that uses deep learning to extract metadata from text such as entities, keywords, categories, sentiment, emotion, relations, and syntax. Get underneath the topics mentioned in your data by using text analysis to extract keywords, concepts, categories and more. Train Watson to understand the language of your business and extract customized insights with Watson Knowledge Studio."
 
 ## Supported languages
 {: #supported-languages}
