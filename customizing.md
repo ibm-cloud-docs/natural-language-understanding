@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2020
-lastupdated: "2020-06-08"
+lastupdated: "2020-08-31"
 
 subcollection: natural-language-understanding
 
@@ -131,7 +131,7 @@ Each row of the CSV file contains a text sample under the `doc` column and a sen
 - Maximum file name length: 255 characters
 - Two columns with headers must be included
   - `doc` column that contains sample text phrases
-  - `label` column that contains one of the following sentiment labels for each sample:
+  - `label` column that contains at least one sample for each one of the following sentiment labels:
     - `negative`
     - `neutral`
     - `positive`
