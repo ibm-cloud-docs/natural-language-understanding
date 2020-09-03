@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2020
-lastupdated: "2020-08-05"
+lastupdated: "2020-09-03"
 
 subcollection: natural-language-understanding
 
@@ -136,7 +136,7 @@ The targeted sentiment option for entities is not supported for Arabic text.
   <tbody>
     <tr>
       <td>Categories</td>
-      <td></td>
+      <td>X</td>
       <td></td>
     </tr>
     <tr>
@@ -207,7 +207,7 @@ The targeted sentiment option for entities is not supported for Arabic text.
   <tbody>
     <tr>
       <td>Categories</td>
-      <td></td>
+      <td>X</td>
       <td></td>
     </tr>
     <tr>
@@ -818,11 +818,6 @@ The targeted sentiment option for entities is not supported for Arabic text.
       <td>X&ast;</td>
       <td></td>
     </tr>
-    <tr>
-      <td>Syntax</td>
-      <td></td>
-      <td></td>
-    </tr>
   </tbody>
 </table>
 
@@ -961,11 +956,6 @@ The targeted sentiment option for keywords is not supported for Russian text.
     </tr>
     <tr>
       <td>Sentiment</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Syntax</td>
       <td></td>
       <td></td>
     </tr>

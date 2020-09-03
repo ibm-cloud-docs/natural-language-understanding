@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc console-page="/developer/watson" product-page="https://www.ibm.com/cloud/watson-natural-language-understanding/" subcollection="natural-language-understanding" category="ai" service-name="Natural Language Understanding" audience="service" href="/docs/natural-language-understanding?topic=natural-language-understanding-getting-started" path="natural-language-understanding"}
+{: .toc product-page="https://www.ibm.com/cloud/watson-natural-language-understanding/" subcollection="natural-language-understanding" category="ai" service-name="Natural Language Understanding" audience="service" href="/docs/natural-language-understanding?topic=natural-language-understanding-getting-started" path="natural-language-understanding"}
 Natural Language Understanding
 
     {: .navgroup id="learn"}
@@ -41,7 +41,6 @@ Natural Language Understanding
         relations-v1.md
         relations-v2.md
 
-    summary.md
     sample-apps.md
     usage-limits.md
     versioning.md

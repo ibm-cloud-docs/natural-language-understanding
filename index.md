@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2020
-lastupdated: "2020-08-13"
+lastupdated: "2020-09-03"
 
 subcollection: natural-language-understanding
 
@@ -194,7 +194,7 @@ Summarization is an experimental feature, and is not intended for use in product
 In this Experimental release, Summarization is supported for English only.
 {: note}
 
-Return a summary of input source content. View a complete example [here](/docs/natural-language-understanding?topic=natural-language-understanding-summary-overview). For example:
+Return a summary of input source content. View a complete description in the [API reference](https://cloud.ibm.com/apidocs/natural-language-understanding#summarization). For example:
 
 **Input**
 >url: "https://www.ibm.com/cloud/watson-natural-language-understanding"

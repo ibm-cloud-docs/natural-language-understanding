@@ -52,7 +52,11 @@ The following table shows the service behavior changes for each version date. Sw
 ## Changes
 {: #changes}
 
-<!-- - Support for Chinese and Dutch categories is now available, for all public and premium service instances. For details, see [Language support](/docs/natural-language-understanding?topic=natural-language-understanding-language-support). -->
+### 3 September 2020
+{: #3-september-2020}
+
+- [Summarization (Experimental)](/docs/natural-language-understanding?topic=natural-language-understanding-about#summarization) returns a summary of input source content. Summarization is currently available for English only.
+- Support for Chinese and Dutch categories is now available, for all public and premium service instances. For details, see [Language support](/docs/natural-language-understanding?topic=natural-language-understanding-language-support).
 
 ### 6 August 2020
 {: #6-august-2020}
@@ -73,8 +77,6 @@ The following table shows the service behavior changes for each version date. Sw
 |`/society/crime/sexual offence/rape`|`/society/crime/sexual offense/rape`|
 |`/style and fashion/men 's fashion`|`/style and fashion/men's fashion`|
 |`/technology and computing/consumer electronics/ebook reader`|`/technology and computing/consumer electronics/e-book reader`|
-
-- Support for Chinese and Dutch categories is now available, for all public and premium service instances. For details, see [Language support](/docs/natural-language-understanding?topic=natural-language-understanding-language-support).
 
 ### 8 July 2020
 {: #8-July-2020}
