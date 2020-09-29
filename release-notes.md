@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2020
-lastupdated: "2020-08-05"
+lastupdated: "2020-09-24"
 
 subcollection: natural-language-understanding
 
@@ -51,6 +51,11 @@ The following table shows the service behavior changes for each version date. Sw
 
 ## Changes
 {: #changes}
+
+### 25 September 2020
+{: #25-september-2020}
+
+- The `version` form paramter for model objects in the [API definition](https://cloud.ibm.com/apidocs/natural-language-understanding#createadvancedrulesmodel) has been deprecated; use the `model_version` parameter instead. The `model_version` parameter will override `version` whenever there is a conflict until April 9, 2021.
 
 ### 3 September 2020
 {: #3-september-2020}
