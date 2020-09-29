@@ -55,7 +55,7 @@ The following table shows the service behavior changes for each version date. Sw
 ### 25 September 2020
 {: #25-september-2020}
 
-- The `version` form paramter for model objects in the [API definition](https://cloud.ibm.com/apidocs/natural-language-understanding#createadvancedrulesmodel) has been deprecated; use the `model_version` parameter instead. The `model_version` parameter will override `version` whenever there is a conflict until April 9, 2021.
+- The `version` form parameter for model objects in the [API definition](https://cloud.ibm.com/apidocs/natural-language-understanding#createadvancedrulesmodel) has been deprecated; use the `model_version` parameter instead. The `model_version` parameter will override `version` whenever there is a conflict until April 9, 2021.
 
 ### 3 September 2020
 {: #3-september-2020}
