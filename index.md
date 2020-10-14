@@ -194,6 +194,9 @@ Summarization is an experimental feature, and is not intended for use in product
 In this Experimental release, Summarization is supported for English only.
 {: note}
 
+In this Experimental release, Summarization is supported only for instances hosted in the Dallas region/US-South data center.
+{: note}
+
 Return a summary of input source content. View a complete description in the [API reference](https://cloud.ibm.com/apidocs/natural-language-understanding#summarization). For example:
 
 **Input**
