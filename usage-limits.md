@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2020
-lastupdated: "2020-06-05"
+lastupdated: "2020-10-29"
 
 subcollection: natural-language-understanding
 
@@ -44,12 +44,12 @@ Example parameters object:
 }
 ```
 
-## Concurrent request limit
+## Request limit
 {: #concurrent-requests}
 
-Each {{site.data.keyword.nlushort}} service instance is limited to 30 concurrent requests. It's possible that this limit may decrease for service instances on the Lite and Standard plans when the system is experiencing exceptionally heavy traffic. For example, an application that makes 35 simultaneous requests from a single service instance will exceed the concurrent request limit by five requests, and five of those requests will return a `429: Too Many Requests` error.
+Each {{site.data.keyword.nlushort}} service instance is limited, based on the number of requests being processed. For the Lite plan, the limit is 5 requests per second; for the Standard plan, the limit is 150 requests per second. Requests exceeding these limits may receive a `429: Too Many Requests` error.
 
-To increase your concurrent request limit, [open a support ticket](https://ibm.biz/ibmcloudsupport).
+The limit for the Standard plan can be increased by [opening a support ticket](https://ibm.biz/ibmcloudsupport).
 
 ## Custom model size limit for Lite pricing plans
 {: #custom-models}
