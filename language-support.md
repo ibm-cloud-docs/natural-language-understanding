@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2020
-lastupdated: "2020-09-03"
+lastupdated: "2020-11-04"
 
 subcollection: natural-language-understanding
 
@@ -10,6 +10,7 @@ subcollection: natural-language-understanding
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
+{:note: .note}
 {:tip: .tip}
 {:pre: .pre}
 {:codeblock: .codeblock}
@@ -26,15 +27,24 @@ subcollection: natural-language-understanding
 
   - [Arabic](#arabic)
   - [Chinese (Simplified)](#chinese-simplified)
+  - [Czech](#czech)
+  - [Danish](#danish)
   - [Dutch](#dutch)
   - [English](#english)
+  - [Finnish](#finnish)
   - [French](#french)
   - [German](#german)
+  - [Hebrew](#hebrew)
   - [Italian](#italian)
   - [Japanese](#japanese)
   - [Korean](#korean)
+  - [Norwegian](#norwegian)
+  - [Norwegian (Bokmal)](#norwegian-bokmal)
+  - [Norwegian (Nyorsk)](#norwegian-nyorsk)
+  - [Polish](#polish)
   - [Portuguese](#portuguese)
   - [Russian](#russian)
+  - [Slovak](#slovak)
   - [Spanish](#spanish)
   - [Swedish](#swedish)
 
@@ -187,6 +197,148 @@ The targeted sentiment option for entities is not supported for Arabic text.
   </tbody>
 </table>
 
+## Czech
+{: #czech}
+
+<table>
+  <thead>
+    <tr>
+      <th>
+        Feature
+      </th>
+      <th>
+        Standard support
+      </th>
+      <th>
+        <a href="/docs/natural-language-understanding?topic=natural-language-understanding-customizing">Custom model</a> support
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Categories</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Concepts</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Emotion</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Entities</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Keywords</td>
+      <td>X</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Metadata</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Relations</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Semantic Roles</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Sentiment</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Syntax</td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+## Danish
+{: #danish}
+
+<table>
+  <thead>
+    <tr>
+      <th>
+        Feature
+      </th>
+      <th>
+        Standard support
+      </th>
+      <th>
+        <a href="/docs/natural-language-understanding?topic=natural-language-understanding-customizing">Custom model</a> support
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Categories</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Concepts</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Emotion</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Entities</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Keywords</td>
+      <td>X</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Metadata</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Relations</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Semantic Roles</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Sentiment</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Syntax</td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
 ## Dutch
 {: #dutch}
 
@@ -329,6 +481,77 @@ The targeted sentiment option for entities is not supported for Arabic text.
   </tbody>
 </table>
 
+## Finnish
+{: #finnish}
+
+<table>
+  <thead>
+    <tr>
+      <th>
+        Feature
+      </th>
+      <th>
+        Standard support
+      </th>
+      <th>
+        <a href="/docs/natural-language-understanding?topic=natural-language-understanding-customizing">Custom model</a> support
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Categories</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Concepts</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Emotion</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Entities</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Keywords</td>
+      <td>X</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Metadata</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Relations</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Semantic Roles</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Sentiment</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Syntax</td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
 ## French
 {: #french}
 
@@ -466,6 +689,77 @@ The targeted sentiment option for entities is not supported for Arabic text.
     <tr>
       <td>Syntax</td>
       <td>X</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+## Hebrew
+{: #hebrew}
+
+<table>
+  <thead>
+    <tr>
+      <th>
+        Feature
+      </th>
+      <th>
+        Standard support
+      </th>
+      <th>
+        <a href="/docs/natural-language-understanding?topic=natural-language-understanding-customizing">Custom model</a> support
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Categories</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Concepts</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Emotion</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Entities</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Keywords</td>
+      <td>X</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Metadata</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Relations</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Semantic Roles</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Sentiment</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Syntax</td>
+      <td></td>
       <td></td>
     </tr>
   </tbody>
@@ -684,6 +978,296 @@ The targeted sentiment option for entities is not supported for Arabic text.
   </tbody>
 </table>
 
+## Norwegian
+{: #norwegian}
+
+Please note that {{site.data.keyword.nlushort}} considers Norwegian (standard language code `no`) as equivalent to Norwegian-Bokmal (standard language code `nb`), and uses the same Norwegian-Bokmal model for both language codes.
+{: note}
+
+<table>
+  <thead>
+    <tr>
+      <th>
+        Feature
+      </th>
+      <th>
+        Standard support
+      </th>
+      <th>
+        <a href="/docs/natural-language-understanding?topic=natural-language-understanding-customizing">Custom model</a> support
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Categories</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Concepts</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Emotion</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Entities</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Keywords</td>
+      <td>X</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Metadata</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Relations</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Semantic Roles</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Sentiment</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Syntax</td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+## Norwegian (Bokmal)
+{: #norwegian-bokmal}
+
+Please note that {{site.data.keyword.nlushort}} considers Norwegian (standard language code `no`) as equivalent to Norwegian-Bokmal (standard language code `nb`), and uses the same Norwegian-Bokmal model for both language codes.
+{: note}
+
+<table>
+  <thead>
+    <tr>
+      <th>
+        Feature
+      </th>
+      <th>
+        Standard support
+      </th>
+      <th>
+        <a href="/docs/natural-language-understanding?topic=natural-language-understanding-customizing">Custom model</a> support
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Categories</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Concepts</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Emotion</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Entities</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Keywords</td>
+      <td>X</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Metadata</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Relations</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Semantic Roles</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Sentiment</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Syntax</td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+## Norwegian (Nyorsk)
+{: #norwegian-nyorsk}
+
+<table>
+  <thead>
+    <tr>
+      <th>
+        Feature
+      </th>
+      <th>
+        Standard support
+      </th>
+      <th>
+        <a href="/docs/natural-language-understanding?topic=natural-language-understanding-customizing">Custom model</a> support
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Categories</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Concepts</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Emotion</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Entities</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Keywords</td>
+      <td>X</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Metadata</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Relations</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Semantic Roles</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Sentiment</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Syntax</td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+## Polish
+{: #polish}
+
+<table>
+  <thead>
+    <tr>
+      <th>
+        Feature
+      </th>
+      <th>
+        Standard support
+      </th>
+      <th>
+        <a href="/docs/natural-language-understanding?topic=natural-language-understanding-customizing">Custom model</a> support
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Categories</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Concepts</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Emotion</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Entities</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Keywords</td>
+      <td>X</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Metadata</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Relations</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Semantic Roles</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Sentiment</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Syntax</td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
 ## Portuguese
 {: #portuguese}
 
@@ -824,6 +1408,77 @@ The targeted sentiment option for entities is not supported for Arabic text.
 &ast; Sentiment detection for this language works best on social media based data, like tweets. Further accuracy improvements are planned in the near future.
 
 The targeted sentiment option for keywords is not supported for Russian text.
+
+## Slovak
+{: #slovak}
+
+<table>
+  <thead>
+    <tr>
+      <th>
+        Feature
+      </th>
+      <th>
+        Standard support
+      </th>
+      <th>
+        <a href="/docs/natural-language-understanding?topic=natural-language-understanding-customizing">Custom model</a> support
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Categories</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Concepts</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Emotion</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Entities</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Keywords</td>
+      <td>X</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Metadata</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Relations</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Semantic Roles</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Sentiment</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Syntax</td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 ## Spanish
 {: #spanish}
