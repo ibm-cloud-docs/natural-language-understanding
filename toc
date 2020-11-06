@@ -16,7 +16,6 @@ Natural Language Understanding
     customizing.md
     evaluating-sentiment-model-quality.md
     overriding-language-detection.md
-    /watson/watson-migrate
     /watson/watson-keyservice
     /watson/watson-public-private-endpoints
     {: .navgroup-end}
