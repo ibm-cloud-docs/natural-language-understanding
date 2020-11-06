@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2020
-lastupdated: "2020-11-04"
+lastupdated: "2020-11-06"
 
 subcollection: natural-language-understanding
 
@@ -46,8 +46,8 @@ The following table shows the service behavior changes for each version date. Sw
 |[`2019-06-04`](#4-june-2019)| <li>Fixed a bug that caused entities requests with custom models to ignore the `limit` option.</li><li>The default `limit` value for all entities requests is now 50 for all models.</li><li>The maximum `limit` value of 250 entities has been removed.</li>|
 |[`2018-11-16`](#16-november-2018)| <li>Version 2 Italian entity type system.</li>|
 |[`2018-09-21`](#21-september-2018)| <li>Version 2 Portuguese entity type system.</li>|
-|[`2018-03-16`](#16-march-2018)| <li>Version 2 French entity type system.</li><li>Version 2 German entity type system.</li>| 
-|[`2017-02-27`](#27-february-2017)| Base version.| 
+|[`2018-03-16`](#16-march-2018)| <li>Version 2 French entity type system.</li><li>Version 2 German entity type system.</li>|
+|[`2017-02-27`](#27-february-2017)| Base version.|
 
 ## Changes
 {: #changes}
@@ -299,10 +299,10 @@ The following changes are activated when you use the version date `2019-06-04` o
 
 - Added support for Italian concepts.
 
-### 30 October 2018	
-{: #30-october-2018}	
+### 30 October 2018
+{: #30-october-2018}
 
-As of 30 October 2018, new service instances created in the Germany and US South regions use [Identity and Access Management (IAM) authentication](#iam-auth-process).	
+As of 30 October 2018, new service instances created in the Germany and US South regions use [Identity and Access Management (IAM) authentication](#iam-auth-process).
 
 ### 21 September 2018
 {: #21-september-2018}
@@ -312,7 +312,7 @@ As of 30 October 2018, new service instances created in the Germany and US South
 - Improved French keywords.
 - Improved Korean sentiment.
 - Improved Portuguese keywords and sentiment.
-- Released a new Portuguese entities model with the latest entity type system. You can learn about the latest type system on the [Entity types and subtypes (Version 2)](/docs/natural-language-understanding?topic=natural-language-understanding-entity-types-version-2) page. When your application is compatible with the new type system, change the version date parameter in your requests to `2018-09-21` to use the new model. 
+- Released a new Portuguese entities model with the latest entity type system. You can learn about the latest type system on the [Entity types and subtypes (Version 2)](/docs/natural-language-understanding?topic=natural-language-understanding-entity-types-version-2) page. When your application is compatible with the new type system, change the version date parameter in your requests to `2018-09-21` to use the new model.
 
 ### 26 June 2018
 {: #26-june-2018}
@@ -469,9 +469,9 @@ As of 29 May 2018, new service instances created in the Sydney region use [Ident
 {: #28-november-2017}
 
 - **Entity mentions.** Get the locations of entity mentions in your `entities` requests by adding the option `"mentions": true`.
-    
+
     Example `POST /analyze` request body:
-    
+
     ```json
     {
       "text": "Intel planned to announce Monday a laptop-computer chip that combines an Intel processor and an AMD graphics unit.",
@@ -483,9 +483,9 @@ As of 29 May 2018, new service instances created in the Sydney region use [Ident
     }
     ```
     {: codeblock}
-    
+
     Example response:
-    
+
     ```json
     {
       "usage": {
@@ -552,7 +552,7 @@ As of 29 May 2018, new service instances created in the Sydney region use [Ident
     }
     ```
     {: codeblock}
-    
+
 ### 17 November 2017
 {: #17-november-2017}
 
@@ -627,27 +627,3 @@ We released updates to the emotion tone score model. The training dataset was ex
 {: #27-february-2017}
 
 The Natural Language Understanding service is now GA.
-
-## New API authentication process
-{: #iam-auth-process }
-
-On October 30, 2018, the Dallas (US South) and Frankfurt (Germany) locations transitioned to using token-based Identity and Access Management (IAM) authentication. (See [Authenticating to Watson services](/docs/watson?topic=watson-iam) for more information.)
-{: important}
-
-The {{site.data.keyword.nlushort}} service has a new API authentication process for service instances that are hosted in the following locations:
-
-- Dallas as of October 30, 2018
-- Frankfurt as of October 30, 2018
-- London
-- Sydney as of May 29, 2018
-- Tokyo
-- Washington, DC as of June 12, 2018
-
-{{site.data.keyword.cloud_notm}} is migrating to token-based Identity and Access Management (IAM) authentication. With some service instances, you authenticate to the API by using IAM.
-
-- With *new* service instances that you create in the locations on or after the dates listed, you authenticate to the API by using IAM. You can pass either a bearer token in an Authorization header or an API key. Tokens support authenticated requests without embedding service credentials in every call. API keys use basic authentication. Learn more about [IAM](/docs/watson?topic=watson-iam).
-
-    When you use any of the Watson SDKs, you can pass the API key and let the SDK manage the lifecycle of the tokens. For more information and examples, see [Authentication](https://{DomainName}/apidocs/natural-language-understanding/#authentication){: external} in the API reference.
-- For _existing_ service instances that you created before the indicated date, you continue to authenticate by providing the username and password for the service instance. Eventually, you will need to migrate these service instances to IAM authentication. Updates will be provided about migration process and dates. For more information about migration, see [Migrating Cloud Foundry service instances to a resource group](/docs/watson?topic=watson-migrate).
-
-To find out which authentication to use, view the service credentials by clicking the service instance on the [{{site.data.keyword.cloud_notm}} resources page](https://{DomainName}/resources){: external}.
