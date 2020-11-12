@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2020
-lastupdated: "2020-11-06"
+lastupdated: "2020-11-12"
 
 subcollection: natural-language-understanding
 
@@ -51,6 +51,14 @@ The following table shows the service behavior changes for each version date. Sw
 
 ## Changes
 {: #changes}
+
+### 12 November 2020
+{: #12-november-2020}
+
+- Support for entities is now available, for all public and premium service instances, for the following languages: Arabic, Chinese (Simplified) and Dutch. For details, see [Language support](/docs/natural-language-understanding?topic=natural-language-understanding-language-support).
+
+  Relevance ranking is not supported.
+  {: note}
 
 ### 4 November 2020
 {: #4-november-2020}
