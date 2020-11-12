@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2020
-lastupdated: "2020-11-04"
+lastupdated: "2020-11-12"
 
 subcollection: natural-language-understanding
 
@@ -86,7 +86,7 @@ Language support might be different if you are a {{site.data.keyword.Bluemix_ded
     </tr>
     <tr>
       <td>Entities</td>
-      <td></td>
+      <td>X&ast;</td>
       <td>X</td>
     </tr>
     <tr>
@@ -111,7 +111,7 @@ Language support might be different if you are a {{site.data.keyword.Bluemix_ded
     </tr>
     <tr>
       <td>Sentiment</td>
-      <td>X&ast;</td>
+      <td>X&ast;&ast;</td>
       <td></td>
     </tr>
     <tr>
@@ -122,7 +122,9 @@ Language support might be different if you are a {{site.data.keyword.Bluemix_ded
   </tbody>
 </table>
 
-&ast; Sentiment detection for this language works best on social media based data, like tweets. Further accuracy improvements are planned in the near future.
+&ast; Relevance ranking is not supported.
+
+&ast;&ast; Sentiment detection for this language works best on social media based data, like tweets. Further accuracy improvements are planned in the near future.
 
 The targeted sentiment option for entities is not supported for Arabic text.
 
@@ -161,7 +163,7 @@ The targeted sentiment option for entities is not supported for Arabic text.
     </tr>
     <tr>
       <td>Entities</td>
-      <td></td>
+      <td>X&ast;</td>
       <td>X</td>
     </tr>
     <tr>
@@ -196,6 +198,8 @@ The targeted sentiment option for entities is not supported for Arabic text.
     </tr>
   </tbody>
 </table>
+
+&ast; Relevance ranking is not supported.
 
 ## Czech
 {: #czech}
@@ -374,7 +378,7 @@ The targeted sentiment option for entities is not supported for Arabic text.
     </tr>
     <tr>
       <td>Entities</td>
-      <td></td>
+      <td>X&ast;</td>
       <td>X</td>
     </tr>
     <tr>
@@ -409,6 +413,8 @@ The targeted sentiment option for entities is not supported for Arabic text.
     </tr>
   </tbody>
 </table>
+
+&ast; Relevance ranking is not supported.
 
 ## English
 {: #english}
