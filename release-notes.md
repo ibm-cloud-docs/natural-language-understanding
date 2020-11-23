@@ -64,6 +64,7 @@ The following table shows the service behavior changes for each version date. Sw
 {: #4-november-2020}
 
 - Support for keywords is now available, for all public and premium service instances, for the following languages: Czech, Danish, Finnish, Hebrew, Norwegian, Norwegian-Bokmal, Norwegian-Nynorsk, Polish, and Slovak. For details, see [Language support](/docs/natural-language-understanding?topic=natural-language-understanding-language-support).
+- The code used for keyword support for Russian and Swedish has been improved, so different, higher quality results are expected.
 
 ### 25 September 2020
 {: #25-september-2020}
