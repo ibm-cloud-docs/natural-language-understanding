@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2020
-lastupdated: "2020-11-30"
+lastupdated: "2020-12-17"
 
 subcollection: natural-language-understanding
 
@@ -27,22 +27,22 @@ The entity type system that {{site.data.keyword.nlushort}} uses differs dependin
 
 For example, analyzing entities in French text with version date set to `2018-09-21` uses the [Version 2 entity type system][v2]. Analyzing entities in French text with a `2017-02-27` version date uses the [Version 1 entity type system][v1].
 
-| Language |   |   | Version date |   |
-| --- | --- | --- | --- | --- |
-|     | **2017-07-27** | **2018-03-16** | **2018-09-21** | **2018-11-16** |
-| Arabic | [Version 2][v2] | [Version 2][v2] | [Version 2][v2] | [Version 2][v2] |
-| Chinese | [Version 2][v2] | [Version 2][v2] | [Version 2][v2] | [Version 2][v2] |
-| Dutch | [Version 2][v2] | [Version 2][v2] | [Version 2][v2] | [Version 2][v2] |
-| English | [Version 1][v1] | [Version 1][v1] | [Version 1][v1] | [Version 1][v1] |
-| French | [Version 1][v1] | [Version 2][v2] | [Version 2][v2] | [Version 2][v2] |
-| German | [Version 1][v1] | [Version 2][v2] | [Version 2][v2] | [Version 2][v2] |
-| Italian | [Version 1][v1] | [Version 1][v1] | [Version 1][v1] | [Version 2][v2] |
-| Japanese | [Version 1][v1] | [Version 2][v2] | [Version 2][v2] | [Version 2][v2] |
-| Korean | [Version 1][v1] | [Version 1][v1] | [Version 1][v1] | [Version 1][v1] |
-| Portuguese | [Version 1][v1] | [Version 1][v1] | [Version 2][v2] | [Version 2][v2] |
-| Russian | [Version 1][v1] | [Version 1][v1] | [Version 1][v1] | [Version 1][v1] |
-| Spanish | [Version 1][v1] | [Version 1][v1] | [Version 1][v1] | [Version 1][v1] |
-| Swedish | [Version 1][v1] | [Version 1][v1] | [Version 1][v1] | [Version 1][v1] |
+| Language |   |   |   | Version date |   |   |
+| --- | --- | --- | --- | --- | --- | -- |
+|     | **2017-07-27** | **2018-03-16** | **2018-09-21** | **2018-11-16** | **2020-12-02** | **2020-12-09** |
+| Arabic | [Version 2][v2] | [Version 2][v2] | [Version 2][v2] | [Version 2][v2] | [Version 2][v2] | [Version 2][v2] |
+| Chinese | [Version 2][v2] | [Version 2][v2] | [Version 2][v2] | [Version 2][v2] | [Version 2][v2] | [Version 2][v2] |
+| Dutch | [Version 2][v2] | [Version 2][v2] | [Version 2][v2] | [Version 2][v2] | [Version 2][v2] | [Version 2][v2] |
+| English | [Version 1][v1] | [Version 1][v1] | [Version 1][v1] | [Version 1][v1] | [Version 1][v1] | [Version 2][v2] |
+| French | [Version 1][v1] | [Version 2][v2] | [Version 2][v2] | [Version 2][v2] | [Version 2][v2] | [Version 2][v2] |
+| German | [Version 1][v1] | [Version 2][v2] | [Version 2][v2] | [Version 2][v2] | [Version 2][v2] | [Version 2][v2] |
+| Italian | [Version 1][v1] | [Version 1][v1] | [Version 1][v1] | [Version 2][v2] | [Version 2][v2] | [Version 2][v2] |
+| Japanese | [Version 1][v1] | [Version 2][v2] | [Version 2][v2] | [Version 2][v2] | [Version 2][v2] | [Version 2][v2] |
+| Korean | [Version 1][v1] | [Version 1][v1] | [Version 1][v1] | [Version 1][v1] | [Version 2][v2] | [Version 2][v2] |
+| Portuguese | [Version 1][v1] | [Version 1][v1] | [Version 2][v2] | [Version 2][v2] | [Version 2][v2] | [Version 2][v2] |
+| Russian | [Version 1][v1] | [Version 1][v1] | [Version 1][v1] | [Version 1][v1] | [Version 2][v2] | [Version 2][v2] |
+| Spanish | [Version 1][v1] | [Version 1][v1] | [Version 1][v1] | [Version 1][v1] | [Version 2][v2] | [Version 2][v2] |
+| Swedish | [Version 1][v1] | [Version 1][v1] | [Version 1][v1] | [Version 1][v1] | [Version 2][v2] | [Version 2][v2] |
 
 <!---
  ## Entity type systems for version 2018-11-16
