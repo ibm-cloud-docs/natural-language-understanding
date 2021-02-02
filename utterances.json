@@ -1,0 +1,76 @@
+{
+  "inconsistent-entity-types": [
+    "entity type systems for the entities and relations features are not consistent in NLU",
+    "NLU entities and relations entity types are not consistent",
+    "entities and relations are different in natural language understanding ",
+    "why are NLU entities and relations are different ",
+    "NLU entities and relations entity types inconsistent",
+    "entity type systems for the entities and relations aren't the same",
+    "how does natural language understanding  use entity types",
+    "how does NLU use relations",
+    "versions for the entity type system in natural language understanding ",
+    "versions for the relation type system in NLU",
+    "issue with NLU entities"
+  ],
+  "incorrect-language-detection": [
+    "not detect the correct language of my text in NLU",
+    "using NLU and the text was not detected correctly",
+    "incorrect language in natural language understanding  detected",
+    "override automatic language detection in NLU",
+    "automatic language detection in NLU",
+    "Incorrect language detection in NLU",
+    "automatic language detection be overridden",
+    "language NLU detects is incorrect",
+    "incorrect language detection for natural language understanding  ",
+    "natural language dectection issue"
+  ],
+  "too-many requests": [
+    "429: Too many requests error",
+    "getting 429: Too many requests error in NLU",
+    "In NLU Too many requests given",
+    "How many requests for a Lite NLU plan",
+    "How many requests can be processed for natural language understanding",
+    "request processing for NLU",
+    "request processing for Lite plan in NLU",
+    "request error in natural language understanding lite plan",
+    "How many requests can be processed for NLU standard plan",
+    "Too many requests error for natural language understanding",
+    "429 error message Too many requests error in NLU"
+  ],
+  "unexpected-webpage-results": [
+    "Unexpected results from webpage analysis in NLU",
+    "not seen expected results on analysing a page using NLU",
+    "troubleshoot webpage analysis in NLU",
+    "return_analyzed_text parameter use in NLU",
+    "return_analyzed_text parameter NLU",
+    "analyzing a website does not give expected results in natural language understanding",
+    "incorrect webpage analysis in NLU",
+    "help to analyze webpages in natural language understanding",
+    "analysis results are not what I expected for NLU page",
+    "analyzing webpages in natural language understanding"
+  ],
+  "explanations-for-results": [
+    "any diagnostic tools for NLU analysis",
+    "help explain results in NLU analysis",
+    "any tooling to use in NLU",
+    "NLU tools for analysis",
+    "analysis tools for natural language understanding",
+    "Explanations for particular results in NLU",
+    "tooling to determine NLU results given",
+    "tools to explain analysis results in NLU",
+    "analysis tools for NLU",
+    "tool for webpage analysis in natural language understanding"
+  ],
+  "multiple-webpages": [
+    "Unable to analyze more than one URL in NLU",
+    "analyze more than one URL in NLU",
+    "multiple webpage analysis in natural language understanding",
+    "specify only one publicly accessible URL in your API request",
+    "extract sentiment scoring from several URL",
+    "sentiment analysis across multiple URLs",
+    "sentiment analysis within many URLs",
+    "can't analyze multiple URLs in NLU",
+    "sentiment scoring over multiple URLs",
+    "only do sentiment analysis on 1 URL at a time"
+  ]
+}
