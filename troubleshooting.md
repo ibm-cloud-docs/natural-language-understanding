@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2021
-lastupdated: "2021-01-21"
+lastupdated: "2021-02-10"
 
 subcollection: natural-language-understanding
 
@@ -45,13 +45,13 @@ The entity type systems for the entities and relations features are not always c
 The automatic language detection might not be accurate for text that contains fewer than 100 characters. If the service doesn't detect the correct language of your text, you can [override automatic language detection](/docs/natural-language-understanding?topic=natural-language-understanding-overriding-language-detection).
 
 ## Too many requests
-{: #too-many requests}
+{: #too-many-requests}
 {: troubleshoot}
 
 If you are seeing a "429: Too many requests" error, your service instance is likely hitting the concurrent requests limit. View the [Usage limits](/docs/natural-language-understanding?topic=natural-language-understanding-usage-limits#concurrent-requests) page for more information.
 
 ## Unable to analyze more than one URL
-{: multiple-webpages}
+{: #multiple-webpages}
 {: troubleshoot}
 
 You can specify only one publicly accessible URL in your API request, therefore you cannot extract sentiment scoring from several URLs.  You could, however, compile the text from multiple web pages and then pass that entire compiled text for sentiment analysis.
