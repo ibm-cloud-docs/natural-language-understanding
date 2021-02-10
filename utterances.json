@@ -24,7 +24,7 @@
     "incorrect language detection for natural language understanding  ",
     "natural language dectection issue"
   ],
-  "too-many requests": [
+  "too-many-requests": [
     "429: Too many requests error",
     "getting 429: Too many requests error in NLU",
     "In NLU Too many requests given",
