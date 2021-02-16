@@ -13,7 +13,15 @@ Natural Language Understanding
 
     {: .navgroup id="howto"}
     analyzing-webpages.md
-    customizing.md
+    
+    {: .topicgroup}
+    Customizing
+        customizing.md
+        custom-ent-rel.md
+        custom-adv-rules.md
+        custom-sentiment.md
+        custom-categories.md
+    
     evaluating-sentiment-model-quality.md
     overriding-language-detection.md
     /watson/watson-keyservice
