@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2020
-lastupdated: "2020-12-17"
+  years: 2015, 2021
+lastupdated: "2021-02-18"
 
 subcollection: natural-language-understanding
 
@@ -53,6 +53,11 @@ The following table shows the service behavior changes for each version date. Sw
 
 ## Changes
 {: #changes}
+
+### 18 February 2021
+{: 18-february-2021}
+
+- The [custom categories (Beta)](/docs/natural-language-understanding?topic=natural-language-understanding-categories) feature allows you to train custom categories models (English only) with service instances deployed in the Dallas location.
 
 ### 9 December 2020
 {: #9-december-2020}
