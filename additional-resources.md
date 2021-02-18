@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2020
-lastupdated: "2020-06-08"
+  years: 2015, 2021
+lastupdated: "2021-02-18"
 
 subcollection: natural-language-understanding
 
@@ -21,6 +21,11 @@ subcollection: natural-language-understanding
 
 # Additional resources
 {: #additional-resources}
+
+## Features at-a-glance
+{: at-a-glance}
+
+- [Custom categories (Beta)](https://github.com/watson-developer-cloud/doc-tutorial-downloads/blob/master/natural-language-understanding/Explainers/Custom%20Categories%20One%20Pager-2021.pdf): Learn how the custom categories feature works, and best practices for training your model.
 
 ## Case studies
 {: #case-studies}
