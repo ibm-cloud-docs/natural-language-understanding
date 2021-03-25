@@ -21,6 +21,7 @@ Natural Language Understanding
         custom-adv-rules.md
         custom-sentiment.md
         custom-categories.md
+        custom-class.md
     
     evaluating-sentiment-model-quality.md
     overriding-language-detection.md
