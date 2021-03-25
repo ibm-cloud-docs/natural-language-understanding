@@ -57,7 +57,7 @@ The following table shows the service behavior changes for each version date. Sw
 ### 25 March 2021
 {: 25-march-2021)
 
-- The [custom classifications (Beta](/docs/natural-language-understanding?topic=natural-language-understanding-classifications) feature allows you to train a multi-label text classifier using your own labeled data.
+- The [custom classifications (Beta)](/docs/natural-language-understanding?topic=natural-language-understanding-classifications) feature allows you to train a multi-label text classifier using your own labeled data.
 
 ### 18 February 2021
 {: 18-february-2021}
