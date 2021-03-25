@@ -36,7 +36,7 @@ The custom classifications feature allows you to train a multi-label text classi
 ## Creating classifications model training data
 {: #create-classification-training-data}
 
-Create and train a custom classifications model using the Natural Language Understanding training API. You can also use [this example Python notebook](NEED_URL) that shows how to create and train a classifications model.
+Create and train a custom classifications model using the Natural Language Understanding training API. You can also use [this example Python notebook](https://github.com/watson-developer-cloud/doc-tutorial-downloads/blob/master/natural-language-understanding/custom_classifications_example.ipynb) that shows how to create and train a classifications model.
 
 Classifications accepts training data in the following JSON format:
 
