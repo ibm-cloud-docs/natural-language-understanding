@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2021
-lastupdated: "2021-03-23"
+lastupdated: "2021-03-25"
 
 subcollection: natural-language-understanding
 
@@ -43,11 +43,11 @@ Classifications accepts training data in the following JSON format:
   ```bash
   [
     {
-        "examples": "Example 1",
+        "text": "Example 1",
         "labels": ["label1"]
     },
     {
-        "examples": "Example 2",
+        "text": "Example 2",
         "labels": ["label1", "label2"]
     }
   ]
@@ -57,13 +57,13 @@ Classifications accepts training data in the following JSON format:
 {: #classification-training-data-requirements}
 
 - Classifications training data consists of an array containing multiple JSON objects.
-- Each of these JSON objects, needs to contain, 1 `examples` and 1 `labels` field.
-- `examples` consists of the training examples and `labels` consists of 1 or more labels associated with an example.
+- Each of these JSON objects, needs to contain, 1 `text` and 1 `labels` field.
+- `text` consists of the training examples and `labels` consists of 1 or more labels associated with an example.
 - Minimum number of unique labels required: `2`
 - Maximum number of unique labels allowed: `220`
-- Minimum number of examples required per label: `5`
-- Maximum size of each example (training and predict): `2000` [codepoints](https://en.wikipedia.org/wiki/Code_point)
-- Maximum number of examples: `20000`
+- Minimum number of text examples required per label: `5`
+- Maximum size of each text example (training and predict): `2000` [codepoints](https://en.wikipedia.org/wiki/Code_point)
+- Maximum number of text examples: `20000`
 
 ## Training a custom classifications model
 {: #training-a-custom-classification}
@@ -128,11 +128,6 @@ To use your classifications model, specify the `model` that you deployed in the 
     "{url}/v1/analyze?version=2021-03-23" \
     --data @parameters.json
     ```
-
-- Example response:
-
-  ![Custom classifcation example](images/custom-class-ex.png)
-
 
 ## Deleting a custom classifications model
 {: #deleting-a-custom-classifications-model}
