@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2021
-lastupdated: "2021-03-15"
+lastupdated: "2021-03-25"
 
 subcollection: natural-language-understanding
 
@@ -38,6 +38,7 @@ You can extend {{site.data.keyword.nlushort}} with custom models for supported f
    - [Advanced rules (Beta)](/docs/natural-language-understanding?topic=natural-language-understanding-advanced-rules)
    - [Sentiment (Beta)](/docs/natural-language-understanding?topic=natural-language-understanding-custom-sentiment)
    - [Categories (Beta)](/docs/natural-language-understanding?topic=natural-language-understanding-categories)
+   - [Classifications (Beta)](/docs/natural-language-understanding?topic=natural-language-understanding-classifications)
 
 ## Language support for custom models
 {: #language-support-for-custom-models}
