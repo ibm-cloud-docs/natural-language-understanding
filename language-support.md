@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2020
-lastupdated: "2020-11-12"
+  years: 2015, 2021
+lastupdated: "2021-03-25"
 
 subcollection: natural-language-understanding
 
@@ -437,6 +437,11 @@ The targeted sentiment option for entities is not supported for Arabic text.
     <tr>
       <td>Categories</td>
       <td>X</td>
+      <td>X (Beta)</td>
+    </tr>
+    <tr>
+      <td>Classifications</td>
+      <td></td>
       <td>X (Beta)</td>
     </tr>
     <tr>
