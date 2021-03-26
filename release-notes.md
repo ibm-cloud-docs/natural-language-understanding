@@ -28,7 +28,7 @@ The following new features and changes to the service are available.
 ## Service API versioning
 {: #service-api-versioning}
 
-**Current API version**: 2020-12-09
+**Current API version**: 2021-03-25
 
 API requests require a version parameter that takes the date in the format `version=YYYY-MM-DD`. Send the version parameter with every API request.
 
@@ -41,6 +41,7 @@ The following table shows the service behavior changes for each version date. Sw
 
 |Version date|Changes summary|
 |---|---|
+|[`2021-03-25`](#25-march-2021)| <li>Custom categories (beta) and custom classifications (beta) features.</li>|
 |[`2020-12-09`](#9-december-2020)| <li>Version 2 English entity type system.</li>|
 |[`2020-12-02`](#2-december-2020)| <li>Version 2 Korean entity type system.</li><li>Version 2 Spanish entity type system.</li>|
 |[`2020-08-01`](#1-august-2020)| <li>Taxonomy changes aimed towards standardization of the label names in the default taxonomy.</li>|
@@ -55,7 +56,7 @@ The following table shows the service behavior changes for each version date. Sw
 {: #changes}
 
 ### 25 March 2021
-{: #25-march-2021)
+{: #25-march-2021}
 
 - The [custom classifications (Beta)](/docs/natural-language-understanding?topic=natural-language-understanding-classifications) feature allows you to train a multi-label text classifier using your own labeled data.
 
