@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2021
-lastupdated: "2021-03-25"
+lastupdated: "2021-04-13"
 
 subcollection: natural-language-understanding
 
@@ -31,7 +31,7 @@ The custom classification feature is Beta. It is in a trial stage of development
 Do not input any sensitive or personal information when you use the custom classification feature. The Beta release might not be compatible with legislation such as GDPR. For more information, see [Information security](/docs/natural-language-understanding?topic=natural-language-understanding-information-security).
 {: important}
 
-The custom classifications feature allows you to train a multi-label text classifier using your own labeled data. Once trained, the model will be automatically deployed in NLU and available for analyze calls.
+The custom classifications feature allows you to train a multi-label text classifier using your own labeled data in the Dallas location. Once trained, the model will be automatically deployed in NLU and available for analyze calls.
 
 ## Creating classifications model training data
 {: #create-classification-training-data}
