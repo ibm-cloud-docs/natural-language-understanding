@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2020
-lastupdated: "2020-12-17"
+lastupdated: "2021-04-26"
 
 subcollection: natural-language-understanding
 
@@ -40,9 +40,9 @@ For example, analyzing entities in French text with version date set to `2018-09
 | Japanese | [Version 1][v1] | [Version 2][v2] | [Version 2][v2] | [Version 2][v2] | [Version 2][v2] | [Version 2][v2] |
 | Korean | [Version 1][v1] | [Version 1][v1] | [Version 1][v1] | [Version 1][v1] | [Version 2][v2] | [Version 2][v2] |
 | Portuguese | [Version 1][v1] | [Version 1][v1] | [Version 2][v2] | [Version 2][v2] | [Version 2][v2] | [Version 2][v2] |
-| Russian | [Version 1][v1] | [Version 1][v1] | [Version 1][v1] | [Version 1][v1] | [Version 2][v2] | [Version 2][v2] |
+| Russian | [Version 1][v1] | [Version 1][v1] | [Version 1][v1] | [Version 1][v1] | [Version 1][v1] | [Version 1][v1] |
 | Spanish | [Version 1][v1] | [Version 1][v1] | [Version 1][v1] | [Version 1][v1] | [Version 2][v2] | [Version 2][v2] |
-| Swedish | [Version 1][v1] | [Version 1][v1] | [Version 1][v1] | [Version 1][v1] | [Version 2][v2] | [Version 2][v2] |
+| Swedish | [Version 1][v1] | [Version 1][v1] | [Version 1][v1] | [Version 1][v1] | [Version 1][v1] | [Version 1][v1] |
 
 <!---
  ## Entity type systems for version 2018-11-16
