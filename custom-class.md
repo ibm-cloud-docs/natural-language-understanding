@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2021
-lastupdated: "2021-04-13"
+lastupdated: "2021-04-26"
 
 subcollection: natural-language-understanding
 
@@ -59,11 +59,12 @@ Classifications accepts training data in the following JSON format:
 - Classifications training data consists of an array containing multiple JSON objects.
 - Each of these JSON objects, needs to contain, 1 `text` and 1 `labels` field.
 - `text` consists of the training examples and `labels` consists of 1 or more labels associated with an example.
+- `labels` are case-sensitive
 - Minimum number of unique labels required: `2`
 - Maximum number of unique labels allowed: `220`
-- Minimum number of text examples required per label: `5`
-- Maximum size of each text example (training and predict): `2000` [codepoints](https://en.wikipedia.org/wiki/Code_point)
-- Maximum number of text examples: `20000`
+- Minimum number of examples required per label: `5`
+- Maximum size of each example (training and predict): `2000` [codepoints](https://en.wikipedia.org/wiki/Code_point)
+- Maximum number of examples: `20000`
 
 ## Training a custom classifications model
 {: #training-a-custom-classification}
