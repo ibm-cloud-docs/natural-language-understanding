@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2021
-lastupdated: "2021-03-25"
+lastupdated: "2021-05-05"
 
 subcollection: natural-language-understanding
 
@@ -10,6 +10,7 @@ subcollection: natural-language-understanding
 
 {:shortdesc: .shortdesc}
 {:external: target="_blank" .external}
+{:note: .note}
 {:tip: .tip}
 {:pre: .pre}
 {:codeblock: .codeblock}
@@ -55,10 +56,15 @@ The following table shows the service behavior changes for each version date. Sw
 ## Changes
 {: #changes}
 
+### 5 May 2021
+{: #5-may-2021}
+
+- The advanced rules beta feature is deprecated. As of June 10, 2021, you will not be able to deploy advanced rules models to {{site.data.keyword.nlushort}}; existing models will keep running. After June 24, 2021, no advanced rules models will run in {{site.data.keyword.nlushort}}.
+
 ### 25 March 2021
 {: #25-march-2021}
 
-- The [custom classifications (Beta)](/docs/natural-language-understanding?topic=natural-language-understanding-classifications) feature allows you to train a multi-label text classifier using your own labeled data.
+- The [custom classifications (Beta)](/docs/natural-language-understanding?topic=natural-language-understanding-classifications) feature allows you to train a multi-label text classifier (English-only) using your own labeled data.
 
 ### 18 February 2021
 {: #18-february-2021}

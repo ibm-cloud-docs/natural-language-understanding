@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2021
-lastupdated: "2021-02-12"
+lastupdated: "2021-05-05"
 
 subcollection: natural-language-understanding
 
@@ -13,6 +13,7 @@ subcollection: natural-language-understanding
 {:tip: .tip}
 {:note: .note}
 {:beta: .beta}
+{:deprecated: .deprecated}
 {:pre: .pre}
 {:important: .important}
 {:codeblock: .codeblock}
@@ -24,6 +25,9 @@ subcollection: natural-language-understanding
 
 # Analyzing text with advanced rules (Beta)
 {: #advanced-rules}
+
+The advanced rules feature is deprecated. As of June 10, 2021, you will not be able to deploy advanced rules models to {{site.data.keyword.nlushort}}. The existing models will keep running. After June 24, 2021, no advanced rules models will run in {{site.data.keyword.nlushort}}.
+{: deprecated}
 
 The advanced rules feature is Beta. It is in a trial stage of development, and is not recommended for production use.
 {: beta}
