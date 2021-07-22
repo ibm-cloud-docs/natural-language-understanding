@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2020
-lastupdated: "2020-02-24"
+  years: 2015, 2021
+lastupdated: "2021-05-24"
 
 keywords: natural language understanding,getting started,analyze content,analyze text,text analysis
 
@@ -19,6 +19,7 @@ subcollection: natural-language-understanding
 {:pre: .pre}
 {:codeblock: .codeblock}
 {:screen: .screen}
+{:video: .video}
 {:javascript: .ph data-hd-programlang='javascript'}
 {:go: .ph data-hd-programlang='go'}
 {:java: .ph data-hd-programlang='java'}
@@ -34,6 +35,10 @@ subcollection: natural-language-understanding
 
 This short tutorial introduces the {{site.data.keyword.nlushort}} API with example requests and links to additional resources.
 {:shortdesc}
+
+Watch the following video for a visual summary of getting started with the {{site.data.keyword.nlushort}} service.
+
+![Get started with Watson Natural Language Understanding](https://video.ibm.com/embed/channel/23952663/video/NLU-get-started){: video output="iframe" data-script="none" id="watsonmediaplayer" width="560" height="315" scrolling="no" allowfullscreen webkitallowfullscreen mozAllowFullScreen frameborder="0" style="border: 0 none transparent;"}
 
 ## Before you begin
 {: #before-you-begin}
