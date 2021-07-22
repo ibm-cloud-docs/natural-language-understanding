@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2020
-lastupdated: "2020-08-01"
+  years: 2015, 2021
+lastupdated: "2021-07-13"
 
 subcollection: natural-language-understanding
 
@@ -20,11 +20,15 @@ subcollection: natural-language-understanding
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-# Categories hierarchy
-{: #categories-hierarchy}
+# Categories type system (Version 1)
+{: #categories-hierarchy-v1}
 
-The following table shows the categories that are returned by the {{site.data.keyword.nlushort}} categories feature. You can download a spreadsheet with this information here: <a target="_blank" href="https://watson-developer-cloud.github.io/doc-tutorial-downloads/natural-language-understanding/categories-hierarchy.xlsx" download>XLSX <img src="../../icons/launch-glyph.svg" alt="External link icon" title="External link icon" class="style-scope doc-content"></a>.
-{: shortdesc}
+## Categories returned prior to version date 2021-08-15
+
+There is a [newer Categories model (Version 2)](/docs/natural-language-understanding?topic=natural-language-understanding-categories-hierarchy) that is recommended if you are starting afresh with {{site.data.keyword.nlushort}}
+{: #tip}
+
+Categories stock models released prior to {{site.data.keyword.nlushort}} version 2021-08-15 use the `Alchemy` taxonomy. You can download a spreadsheet with this information here: <a target="_blank" href="https://github.com/watson-developer-cloud/doc-tutorial-downloads/blob/master/natural-language-understanding/categories-hierarchy.xlsx" download>XLSX <img src="../../icons/launch-glyph.svg" alt="External link icon" title="External link icon" class="style-scope doc-content"></a>.
 
 | LEVEL 1                   | LEVEL 2                                | LEVEL 3                                | LEVEL 4                        | LEVEL 5                       |
 | ------------------------- | -------------------------------------- | -------------------------------------- | ------------------------------ | ----------------------------- |

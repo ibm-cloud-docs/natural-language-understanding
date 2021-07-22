@@ -32,7 +32,12 @@ Natural Language Understanding
     {: .navgroup id="reference"}
     [API reference](https://cloud.ibm.com/apidocs/natural-language-understanding)
     activity-tracker-events.md
-    categories.md
+    
+    {: .topicgroup}
+    Categories type system
+        categories-v2.md
+        categories-v1.md
+
     detectable-languages.md
 
     {: .topicgroup}
