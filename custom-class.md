@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2021
-lastupdated: "2021-04-26"
+lastupdated: "2021-07-28"
 
 subcollection: natural-language-understanding
 
@@ -22,21 +22,17 @@ subcollection: natural-language-understanding
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-# Creating custom classification models (Beta)
+# Creating custom classification models
 {: #classifications}
 
-The custom classification feature is Beta. It is in a trial stage of development and is not recommended for production use.
-{: beta}
-
-Do not input any sensitive or personal information when you use the custom classification feature. The Beta release might not be compatible with legislation such as GDPR. For more information, see [Information security](/docs/natural-language-understanding?topic=natural-language-understanding-information-security).
-{: important}
-
-The custom classifications feature allows you to train a multi-label text classifier using your own labeled data in the Dallas location. Once trained, the model will be automatically deployed in NLU and available for analyze calls.
+The custom classifications feature allows you to train a multi-label text classifier using your own labeled data. Once trained, the model will be automatically deployed in NLU and available for analyze calls.
 
 ## Creating classifications model training data
 {: #create-classification-training-data}
 
 Create and train a custom classifications model using the Natural Language Understanding training API. You can also use [this example Python notebook](https://github.com/watson-developer-cloud/doc-tutorial-downloads/blob/master/natural-language-understanding/custom_classifications_example.ipynb) that shows how to create and train a classifications model.
+
+### Training data in JSON format
 
 Classifications accepts training data in the following JSON format:
 
@@ -53,6 +49,20 @@ Classifications accepts training data in the following JSON format:
   ]
   ```
 
+### Training data in CSV format 
+
+You can also provide training data in comma-separated value (CSV) format.
+
+```bash
+Example 1,label1
+Example 2,label1,label2
+```
+
+In CSV format, a row in the file represents an example record. Each record has two or more columns. The first column is the representative text to classify. The additional columns are classes that apply to that text.
+
+Headers are not expected for the CSV file.
+{: note}
+
 ### Classifications training data requirements
 {: #classification-training-data-requirements}
 
@@ -61,7 +71,7 @@ Classifications accepts training data in the following JSON format:
 - `text` consists of the training examples and `labels` consists of 1 or more labels associated with an example.
 - `labels` are case-sensitive
 - Minimum number of unique labels required: `2`
-- Maximum number of unique labels allowed: `220`
+- Maximum number of unique labels allowed: `1000`
 - Minimum number of examples required per label: `5`
 - Maximum size of each example (training and predict): `2000` [codepoints](https://en.wikipedia.org/wiki/Code_point)
 - Maximum number of examples: `20000`
