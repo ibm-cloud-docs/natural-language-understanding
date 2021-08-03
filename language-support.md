@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2021
-lastupdated: "2021-03-25"
+lastupdated: "2021-07-28"
 
 subcollection: natural-language-understanding
 
@@ -73,6 +73,11 @@ Language support might be different if you are a {{site.data.keyword.Bluemix_ded
       <td>Categories</td>
       <td>X</td>
       <td></td>
+    </tr>
+    <tr>
+      <td>Classifications</td>
+      <td></td>
+      <td>X</td>
     </tr>
     <tr>
       <td>Concepts</td>
@@ -152,6 +157,11 @@ The targeted sentiment option for entities is not supported for Arabic text.
       <td></td>
     </tr>
     <tr>
+      <td>Classifications</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
       <td>Concepts</td>
       <td></td>
       <td></td>
@@ -221,6 +231,11 @@ The targeted sentiment option for entities is not supported for Arabic text.
   <tbody>
     <tr>
       <td>Categories</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Classifications</td>
       <td></td>
       <td></td>
     </tr>
@@ -296,6 +311,11 @@ The targeted sentiment option for entities is not supported for Arabic text.
       <td></td>
     </tr>
     <tr>
+      <td>Classifications</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
       <td>Concepts</td>
       <td></td>
       <td></td>
@@ -364,6 +384,11 @@ The targeted sentiment option for entities is not supported for Arabic text.
     <tr>
       <td>Categories</td>
       <td>X</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Classifications</td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -442,7 +467,7 @@ The targeted sentiment option for entities is not supported for Arabic text.
     <tr>
       <td>Classifications</td>
       <td></td>
-      <td>X (Beta)</td>
+      <td>X</td>
     </tr>
     <tr>
       <td>Concepts</td>
@@ -512,6 +537,11 @@ The targeted sentiment option for entities is not supported for Arabic text.
   <tbody>
     <tr>
       <td>Categories</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Classifications</td>
       <td></td>
       <td></td>
     </tr>
@@ -587,6 +617,11 @@ The targeted sentiment option for entities is not supported for Arabic text.
       <td></td>
     </tr>
     <tr>
+      <td>Classifications</td>
+      <td></td>
+      <td>X</td>
+    </tr>
+    <tr>
       <td>Concepts</td>
       <td>X</td>
       <td></td>
@@ -658,6 +693,11 @@ The targeted sentiment option for entities is not supported for Arabic text.
       <td></td>
     </tr>
     <tr>
+      <td>Classifications</td>
+      <td></td>
+      <td>X</td>
+    </tr>
+    <tr>
       <td>Concepts</td>
       <td>X</td>
       <td></td>
@@ -725,6 +765,11 @@ The targeted sentiment option for entities is not supported for Arabic text.
   <tbody>
     <tr>
       <td>Categories</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Classifications</td>
       <td></td>
       <td></td>
     </tr>
@@ -800,6 +845,11 @@ The targeted sentiment option for entities is not supported for Arabic text.
       <td></td>
     </tr>
     <tr>
+      <td>Classifications</td>
+      <td></td>
+      <td>X</td>
+    </tr>
+    <tr>
       <td>Concepts</td>
       <td>X</td>
       <td></td>
@@ -869,6 +919,11 @@ The targeted sentiment option for entities is not supported for Arabic text.
       <td>Categories</td>
       <td>X</td>
       <td></td>
+    </tr>
+    <tr>
+      <td>Classifications</td>
+      <td></td>
+      <td>X</td>
     </tr>
     <tr>
       <td>Concepts</td>
@@ -942,6 +997,11 @@ The targeted sentiment option for entities is not supported for Arabic text.
       <td></td>
     </tr>
     <tr>
+      <td>Classifications</td>
+      <td></td>
+      <td>X</td>
+    </tr>
+    <tr>
       <td>Concepts</td>
       <td>X</td>
       <td></td>
@@ -1012,6 +1072,11 @@ Please note that {{site.data.keyword.nlushort}} considers Norwegian (standard la
   <tbody>
     <tr>
       <td>Categories</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Classifications</td>
       <td></td>
       <td></td>
     </tr>
@@ -1090,6 +1155,11 @@ Please note that {{site.data.keyword.nlushort}} considers Norwegian (standard la
       <td></td>
     </tr>
     <tr>
+      <td>Classifications</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
       <td>Concepts</td>
       <td></td>
       <td></td>
@@ -1157,6 +1227,11 @@ Please note that {{site.data.keyword.nlushort}} considers Norwegian (standard la
   <tbody>
     <tr>
       <td>Categories</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Classifications</td>
       <td></td>
       <td></td>
     </tr>
@@ -1232,6 +1307,11 @@ Please note that {{site.data.keyword.nlushort}} considers Norwegian (standard la
       <td></td>
     </tr>
     <tr>
+      <td>Classifications</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
       <td>Concepts</td>
       <td></td>
       <td></td>
@@ -1301,6 +1381,11 @@ Please note that {{site.data.keyword.nlushort}} considers Norwegian (standard la
       <td>Categories</td>
       <td>X</td>
       <td></td>
+    </tr>
+    <tr>
+      <td>Classifications</td>
+      <td></td>
+      <td>X</td>
     </tr>
     <tr>
       <td>Concepts</td>
@@ -1374,6 +1459,11 @@ Please note that {{site.data.keyword.nlushort}} considers Norwegian (standard la
       <td></td>
     </tr>
     <tr>
+      <td>Classifications</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
       <td>Concepts</td>
       <td></td>
       <td></td>
@@ -1440,6 +1530,11 @@ The targeted sentiment option for keywords is not supported for Russian text.
   <tbody>
     <tr>
       <td>Categories</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Classifications</td>
       <td></td>
       <td></td>
     </tr>
@@ -1515,6 +1610,11 @@ The targeted sentiment option for keywords is not supported for Russian text.
       <td></td>
     </tr>
     <tr>
+      <td>Classifications</td>
+      <td></td>
+      <td>X</td>
+    </tr>
+    <tr>
       <td>Concepts</td>
       <td>X</td>
       <td></td>
@@ -1582,6 +1682,11 @@ The targeted sentiment option for keywords is not supported for Russian text.
   <tbody>
     <tr>
       <td>Categories</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Classifications</td>
       <td></td>
       <td></td>
     </tr>
