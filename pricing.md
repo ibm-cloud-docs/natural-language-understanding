@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-11-08"
+  years: 2015, 2021
+lastupdated: "2021-07-28"
 
 subcollection: natural-language-understanding
 
@@ -24,7 +24,7 @@ subcollection: natural-language-understanding
 
 {{site.data.keyword.nlushort}} has three pricing plans: Lite, Standard and Premium.
 
-This page contains pricing information in USD. To view pricing information in your local currency, see the [{{site.data.keyword.nlushort}}](https://{DomainName}/catalog/services/natural-language-understanding) page in the {{site.data.keyword.cloud}} catalog.
+This page contains pricing information in USD. To view pricing information in your local currency, see the [{{site.data.keyword.nlushort}}](https://{DomainName}/catalog/natural-language-understanding) page in the {{site.data.keyword.cloud}} catalog.
 {: tip}
 
 ## Lite
@@ -48,8 +48,11 @@ A "pay-as-you-go" plan that is recommended once you are ready to move your appli
 - Tier 2: $0.001/NLU item for 250,001 to 5,000,000 NLU items
 - Tier 3: $0.0002/NLU item for additional NLU items past 5,000,000
 
-**Custom Model** ($/custom model/month)
+**Custom Entities and Relations Models** ($/custom model/month)
 - $800 for all tiers
+
+**Custom Classification Model** ($/custom classification model/month)
+- $25 for all tiers
 
 ## Premium
 {: #premium}
