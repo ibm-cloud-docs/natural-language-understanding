@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2021
-lastupdated: "2021-05-05"
+lastupdated: "2021-08-01"
 
 subcollection: natural-language-understanding
 
@@ -29,7 +29,7 @@ The following new features and changes to the service are available.
 ## Service API versioning
 {: #service-api-versioning}
 
-**Current API version**: 2021-03-25
+**Current API version**: 2021-08-01
 
 API requests require a version parameter that takes the date in the format `version=YYYY-MM-DD`. Send the version parameter with every API request.
 
@@ -42,6 +42,7 @@ The following table shows the service behavior changes for each version date. Sw
 
 |Version date|Changes summary|
 |---|---|
+|[`2021-08-01`](#1-august-2021)| <li>Classifications GA and Categories type system Version 2 features.</li>|
 |[`2021-03-25`](#25-march-2021)| <li>Custom categories (beta) and custom classifications (beta) features.</li>|
 |[`2020-12-09`](#9-december-2020)| <li>Version 2 English entity type system.</li>|
 |[`2020-12-02`](#2-december-2020)| <li>Version 2 Korean entity type system.</li><li>Version 2 Spanish entity type system.</li>|
@@ -55,6 +56,12 @@ The following table shows the service behavior changes for each version date. Sw
 
 ## Changes
 {: #changes}
+
+### 1 August 2021
+{: #1-august-2021}
+
+- The [custom classifications](/docs/natural-language-understanding?topic=natural-language-understanding-classifications) feature is now generally available (GA).
+- The [categories stock model](/docs/natural-language-understanding?topic=natural-language-understanding-categories-hierarchy) has been updated to use the [IAB Tech Lab 2.0 taxonomy](https://iabtechlab.com/standards/content-taxonomy/).
 
 ### 5 May 2021
 {: #5-may-2021}
