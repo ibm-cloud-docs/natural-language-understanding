@@ -153,7 +153,7 @@ To delete a classifications model from your service instance, use the **Delete c
   --request DELETE
   ```
 
-## Migrating from {{site.data.keyword.nlclassifierfull}} to {{site.data.keyword.nlufull}}
+## Migrating from {{site.data.keyword.nlclassifiershort}} to {{site.data.keyword.nlushort}}
 {: #migrating-natural-language-classifier}
 
 On 9 August 2021, IBM announced the deprecation of the {{site.data.keyword.nlclassifierfull}} service. The service will no longer be available from 8 August 2022. As of 9 September 2021, you can't create new instances, and access to free instances will be removed. Existing premium plan instances are supported until 8 August 2022. Any instance that still exists on that date will be deleted. As an alternative, we encourage {{site.data.keyword.nlclassifiershort}} users to consider migrating to the {{site.data.keyword.nlushort}} service.
