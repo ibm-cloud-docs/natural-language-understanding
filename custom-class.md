@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2021
-lastupdated: "2021-07-28"
+lastupdated: "2021-08-09"
 
 subcollection: natural-language-understanding
 
@@ -152,3 +152,18 @@ To delete a classifications model from your service instance, use the **Delete c
   "{url}/v1/models/classifications/{model_id}?version=2021-03-23" \
   --request DELETE
   ```
+
+## Migrating from {{site.data.keyword.nlclassifierfull}} to {{site.data.keyword.nlufull}}
+{: #migrating-natural-language-classifier}
+
+On 9 August 2021, IBM announced the deprecation of the {{site.data.keyword.nlclassifierfull}} service. The service will no longer be available from 8 August 2022. As of 9 September 2021, you can't create new instances, and access to free instances will be removed. Existing premium plan instances are supported until 8 August 2022. Any instance that still exists on that date will be deleted. As an alternative, we encourage {{site.data.keyword.nlclassifiershort}} users to consider migrating to the {{site.data.keyword.nlushort}} service.
+
+### When training data is available
+
+- You can directly use the available training data to train `classifications` in {{site.data.keyword.nlushort}}. {{site.data.keyword.nlushort}} accepts the same CSV file format.
+
+### When training data is not available
+
+- You can fetch the data you used to train {{site.data.keyword.nlclassifiershort}} from the service. Refer to [this tutorial](https://github.com/watson-developer-cloud/doc-tutorial-downloads/blob/master/natural-language-understanding/custom_classifications_example.ipynb).
+
+For more information, see [Migrating to {{site.data.keyword.nlufull}}](https://cloud.ibm.com/docs/natural-language-classifier?topic=natural-language-classifier-migrating){: external}
