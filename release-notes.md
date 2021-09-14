@@ -42,7 +42,7 @@ The following table shows the service behavior changes for each version date. Sw
 
 |Version date|Changes summary|
 |---|---|
-|[`2021-08-01`](#15-august-2021)| <li>Classifications GA and Categories type system Version 2 features.</li>|
+|[`2021-08-15`](#15-august-2021)| <li>Classifications GA and Categories type system Version 2 features.</li>|
 |[`2021-03-25`](#25-march-2021)| <li>Custom categories (beta) and custom classifications (beta) features.</li>|
 |[`2020-12-09`](#9-december-2020)| <li>Version 2 English entity type system.</li>|
 |[`2020-12-02`](#2-december-2020)| <li>Version 2 Korean entity type system.</li><li>Version 2 Spanish entity type system.</li>|
