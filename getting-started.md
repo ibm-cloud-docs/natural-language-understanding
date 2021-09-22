@@ -67,7 +67,7 @@ This tutorial shows you how to use the {{site.data.keyword.nlushort}} API from a
 Run the following command to analyze a webpage to get sentiment, concepts, categories, entities, and keywords. <span class="hide-dashboard">Replace `{apikey}` and `{url}` with your service credentials.</span>
 
 ```sh
-curl -X POST -u "apikey:{apikey}"{: apikey} \
+curl -X POST -u "apikey:{apikey}" \
 --header "Content-Type: application/json" \
 --data '{
   "url": "http://newsroom.ibm.com/Guerbet-and-IBM-Watson-Health-Announce-Strategic-Partnership-for-Artificial-Intelligence-in-Medical-Imaging-Liver",
@@ -79,14 +79,14 @@ curl -X POST -u "apikey:{apikey}"{: apikey} \
     "keywords": {}
   }
 }' \
-"{url}/v1/analyze?version=2019-07-12"{: url}
+"{url}/v1/analyze?version=2019-07-12"
 ```
 {:pre}
 
 Windows users: This command might not run on Windows. Run the following command instead:
 
 ```sh
-curl -X POST -u "apikey:{apikey}"{: apikey} --header "Content-Type: application/json" --data "{\"url\":\"http://newsroom.ibm.com/Guerbet-and-IBM-Watson-Health-Announce-Strategic-Partnership-for-Artificial-Intelligence-in-Medical-Imaging-Liver\",\"features\":{\"sentiment\":{},\"categories\":{},\"concepts\":{},\"entities\":{},\"keywords\":{}}}" "{url}/v1/analyze?version=2019-07-12"{: url}
+curl -X POST -u "apikey:{apikey}" --header "Content-Type: application/json" --data "{\"url\":\"http://newsroom.ibm.com/Guerbet-and-IBM-Watson-Health-Announce-Strategic-Partnership-for-Artificial-Intelligence-in-Medical-Imaging-Liver\",\"features\":{\"sentiment\":{},\"categories\":{},\"concepts\":{},\"entities\":{},\"keywords\":{}}}" "{url}/v1/analyze?version=2019-07-12"
 ```
 {: pre}
 
@@ -100,7 +100,7 @@ The next step demonstrates how to specify options that customize the analysis fo
 You can also get sentiment and emotion results for entities and keywords that are detected in your text. In the example, the **emotion** option for keywords tells the service to analyze each detected keyword for emotion results.
 
 ```sh
-curl -X POST -u "apikey:{apikey}"{: apikey} \
+curl -X POST -u "apikey:{apikey}" \
 --header "Content-Type: application/json" \
 --data '{
   "text": "I love apples! I do not like oranges.",
@@ -117,14 +117,14 @@ curl -X POST -u "apikey:{apikey}"{: apikey} \
     }
   }
 }' \
-"{url}/v1/analyze?version=2019-07-12"{: url}
+"{url}/v1/analyze?version=2019-07-12"
 ```
 {:pre}
 
 Runnable command for Windows users:
 
 ```sh
-curl -X POST -u "apikey:{apikey}"{: apikey} --header "Content-Type: application/json" --data "{\"text\":\"I love apples! I do not like oranges.\",\"features\":{\"sentiment\":{\"targets\":[\"apples\",\"oranges\",\"broccoli\"]},\"keywords\":{\"emotion\":true}}}" "{url}/v1/analyze?version=2019-07-12"{: url}
+curl -X POST -u "apikey:{apikey}" --header "Content-Type: application/json" --data "{\"text\":\"I love apples! I do not like oranges.\",\"features\":{\"sentiment\":{\"targets\":[\"apples\",\"oranges\",\"broccoli\"]},\"keywords\":{\"emotion\":true}}}" "{url}/v1/analyze?version=2019-07-12"
 ```
 {:pre}
 
