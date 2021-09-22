@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2021
-lastupdated: "2021-05-24"
+lastupdated: "2021-09-22"
 
 keywords: natural language understanding,getting started,analyze content,analyze text,text analysis
 
@@ -25,8 +25,6 @@ subcollection: natural-language-understanding
 {:java: .ph data-hd-programlang='java'}
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
-{:apikey: data-credential-placeholder='apikey'}
-{:url: data-credential-placeholder='url'}
 {:hide-dashboard: .hide-dashboard}
 {:hide-in-docs: .hide-in-docs}
 
