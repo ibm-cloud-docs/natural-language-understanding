@@ -1,0 +1,94 @@
+---
+toc:
+  properties:
+    subcollection: natural-language-understanding
+    category: ai
+    audience: service
+    href: /docs/natural-language-understanding?topic=natural-language-understanding-getting-started
+    console-page: /catalog/services/natural-language-understanding
+    product-page: https://www.ibm.com/cloud/watson-natural-language-understanding/
+    path: natural-language-understanding
+    label: Natural Language Understanding
+
+  entries:
+  - navgroup:
+      id: learn
+      topics:
+      - getting-started.md
+      - index.md
+      links:
+      - link:
+        label: Demo
+        href: https://www.ibm.com/demos/live/natural-language-understanding/self-service
+      - additional-resources.md
+
+  - navgroup:
+      id: howto
+      topics:
+      - analyzing-webpages.md
+      - topicgroup:
+          label: Customizing
+          topics:
+          - customizing.md
+          - custom-ent-rel.md
+          - custom-adv-rules.md
+          - custom-sentiment.md
+          - custom-categories.md
+          - custom-class.md
+      - evaluating-sentiment-model-quality.md
+      - overriding-language-detection.md
+      - /watson/watson-keyservice
+      - /watson/watson-public-private-endpoints
+
+  - navgroup:
+      id: reference
+      topics:
+      links:
+      - link:
+        label: API reference
+        href: https://cloud.ibm.com/apidocs/natural-language-understanding
+      - activity-tracker-events.md      
+      - topicgroup:
+        label: Categories type system
+        topics:
+        - categories-v2.md
+        - categories-v1.md
+      - detectable-languages.md
+      - topicgroup:
+        label: Entity types
+        topics:
+        - entity-types.md
+        - entity-types-v1.md
+        - entity-types-v2.md
+      - language-support.md
+      - topicgroup:
+        label: Relation types
+        topics:
+        - relations.md
+        - relations-v1.md
+        - relations-v2.md
+      - sample-apps.md
+      - usage-limits.md
+      - versioning.md
+      - ha-dr.md
+      - information-security.md
+      - /watson/watson-using-sdks
+      - link:
+        label: Watson GitHub repos
+        href: https://github.com/watson-developer-cloud/
+
+  - navgroup:
+      id: help
+      topics:
+      - troubleshooting.md
+      - pricing.md
+      - topicgroup:
+          label: Developer community
+          links:
+          - link:
+            label: StackOverflow
+            href: https://github.com/watson-developer-cloud/
+          - link:
+            label: WDC Slack channel
+            href: http://wdc-slack-inviter.mybluemix.net/
+      - release-notes.md
