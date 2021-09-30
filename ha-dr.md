@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019, 2020
-lastupdated: "2020-02-24"
+  years: 2019, 2021
+lastupdated: "2021-09-30"
 
 subcollection: natural-language-understanding
 
