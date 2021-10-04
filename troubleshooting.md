@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2021
-lastupdated: "2021-02-10"
+lastupdated: "2021-10-04"
 
 subcollection: natural-language-understanding
 
@@ -30,7 +30,7 @@ content-type: troubleshoot
 {: #troubleshoot}
 
 If you have problems with {{site.data.keyword.nlushort}}, the following troubleshooting tips might help.
-{:shortdesc}
+{: shortdesc}
 
 ## Entities and relations entity types are not consistent
 {: #inconsistent-entity-types}
