@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2021
-lastupdated: "2021-02-18"
+lastupdated: "2021-10-04"
 
 subcollection: natural-language-understanding
 
@@ -30,107 +30,29 @@ subcollection: natural-language-understanding
 ## Case studies
 {: #case-studies}
 
-<table>
-<tr>
-<td rowspan="3"><b>Content Recommendation</b></td>
-</tr>
-<tr>
-<td><a href="https://www.ibm.com/case-studies/articoolo" target="_blank">Articoolo</a></td>
-<td>Powering faster web content development in a serverless IBM Cloud Functions environment</td>
-</tr>
-<tr>
-<td><a href="https://www.ibm.com/case-studies/s692794p18550w68" target="_blank">ConferenceCloud</a></td>
-<td>Helping conference organizers identify their most popular speakers and provide attendees with networking functionality</td>
-</tr>
-<tr>
-<td rowspan="5"><b>Advertising Optimization</b></td>
-</tr>
-<tr>
-<td><a href="https://www.ibm.com/case-studies/buzz-radar-cloud-marketing-performance-optimization" target="_blank">BuzzRadar</a></td>
-<td>Optimizing campaigns for clients through instant insight into consumers, influencers, brand health and more</td>
-</tr>
-<tr>
-<td><a href="https://www.ibm.com/watson/stories/equals-3/?cm_mmc=OSocial_Twitter-_-Watson+Core_Watson+Core+-+Platform-_-WW_WW-_-Watson+Equals+3+Twitter+May+2018&cm_mmca1=000000OF&cm_mmca2=10000408&" target="_blank">Equals3</a></td>
-<td>Understanding natural language queries and building profiles according to user specifications, inputs, and other data</td>
-</tr>
-<tr>
-<td><a href="https://www.ibm.com/case-studies/audiense" target="_blank">Audiense</a></td>
-<td>Analyzing unstructured data from social media to immediately gain insight toward customer segments and their affinities</td>
-</tr>
-<tr>
-<td><a href="https://www.ibm.com/case-studies/influential" target="_blank">Influential</a></td>
-<td>Amplifying marketing messages by influencers throughout social media campaigns</td>
-</tr>
-<tr>
-<td rowspan="3"><b>Audience Segmentation</b></td>
-</tr>
-<tr>
-<td><a href="https://www.ibm.com/case-studies/pulsar" target="_blank">Pulsar</a></td>
-<td>Analyzing digital comments and extracting information about trends, demographic preferences and more</td>
-</tr>
-<tr>
-<td><a href="https://www.ibm.com/case-studies/intersections-inc" target="_blank">Intersections</a></td>
-<td>Helping consumers avoid identity theft with real-time threat alerts</td>
-</tr>
-<tr>
-<td rowspan="5"><b>Voice-of-Customer Analysis</b></td>
-</tr>
-<tr>
-<td><a href="https://www.ibm.com/case-studies/helvetia-seguros-ibm-cloud-watson" target="_blank">Helvetia Seguros</a></td>
-<td>Building an AI-driven virtual assistant that generates personalized insurance quotes for customers</td>
-</tr>
-<tr>
-<td><a href="https://www.ibm.com/case-studies/deltic-group-watson-virtual-assistant-for-social-media" target="_blank">Deltic Group</a></td>
-<td>Creating a virtual assistant to understand customer conversations with night clubs over social media</td>
-</tr>
-<tr>
-<td><a href="https://www.ibm.com/case-studies/guardio-cloud-bullying-detection-application" target="_blank">Guardio</a></td>
-<td>Helping parents protect children from cyberbullying by flagging and detecting certain messages across social media accounts</td>
-</tr>
-<tr>
-<td><a href="https://www.ibm.com/case-studies/max-kelsen" target="_blank">Max Kelsen</a></td>
-<td>Detecting citizens' civic concerns with 97% accuracy using IBM Watson</td>
-</tr>
-<tr>
-<td rowspan="10"><b>Data Mining</b></td>
-</tr>
-<tr>
-<td><a href="https://www.ibm.com/watson/stories/thomson-reuters/" target="_blank">Thomson Reuters</a></td>
-<td>Deepining expertise on global data privacy laws by training Watson to understand legal jargon</td>
-</tr>
-<tr>
-<td><a href="https://www.ibm.com/case-studies/b255816w59748a12" target="_blank">Cloud Therapy</a></td>
-<td>Using cognitive computing to achieve big outcomes in the diagnosis of rare diseases</td>
-</tr>
-<tr>
-<td><a href="https://www.ibm.com/case-studies/navticon" target="_blank">NAVTICON</a></td>
-<td>Pulling actionable vessel positioning and cargo data directly from unstructured emails</td>
-</tr>
-<tr>
-<td><a href="https://www.ibm.com/watson/stories/bradesco/" target="_blank">Bradesco</a></td>
-<td>Addressing and resolving customer conversations at scale through a trained virtual assistant</td>
-</tr>
-<tr>
-<td><a href="https://www.ibm.com/case-studies/jibes-data-analytics" target="_blank">Jibes</a></td>
-<td>Scaling expert knowledge to benefit lead generation, market monitoring, document mining and personal agent solutions with industry-specific data, rules and content</td>
-</tr>
-<tr>
-<td><a href="https://www.ibm.com/case-studies/legalmation" target="_blank">Legalmation</a></td>
-<td>Helping legal teams draft high-quality litigation work in minutes and drive down costs by 80 percent</td>
-</tr>
-<tr>
-<td><a href="https://www.ibm.com/case-studies/accreteai" target="_blank">Accrete</a></td>
-<td>Delivering highly accurate insight into financial markets with artificial intelligence</td>
-</tr>
-<tr>
-<td><a href="https://www.ibm.com/case-studies/volume-ltd" target="_blank">Volume</a></td>
-<td>Transforming incumbent client applications into cognitive tools that users can engage with using natural language</td>
-</tr>
-<tr>
-<td><a href="https://www.ibm.com/case-studies/catalyst-investors" target="_blank">Catalyst Investors</a></td>
-<td>Combing through multiple content sources to prospect for investment opportunities</td>
-</tr>
-</table>
+|   |   |   |
+|--- |--- |--- |
+| Content Recommendation | [Articolo](https://www.ibm.com/case-studies/articoolo) | Powering faster web content development in a serverless IBM Cloud Functions environment |
+|   | [ConferenceCloud](https://www.ibm.com/case-studies/s692794p18550w68) | Helping conference organizers identify their most popular speakers and provide attendees with networking functionality |
+| Advertising Optimization | [BuzzRadar](https://www.ibm.com/case-studies/buzz-radar-cloud-marketing-performance-optimization) | Optimizing campaigns for clients through instant insight into consumers, influencers, brand health and more |
+|   | [Equals3](https://www.ibm.com/watson/stories/equals-3/?cm_mmc=OSocial_Twitter-_-Watson+Core_Watson+Core+-+Platform-_-WW_WW-_-Watson+Equals+3+Twitter+May+2018&cm_mmca1=000000OF&cm_mmca2=10000408&) | Understanding natural language queries and building profiles according to user specifications, inputs, and other data |
+|   | [Audiense](https://www.ibm.com/case-studies/audiense) | Analyzing unstructured data from social media to immediately gain insight toward customer segments and their affinities |
+|   | [Influential](https://www.ibm.com/case-studies/influential) | Amplifying marketing messages by influencers throughout social media campaigns |
+| Audience Segmentation | [Pulsar](https://www.ibm.com/case-studies/pulsar) | Analyzing digital comments and extracting information about trends, demographic preferences and more |
+|   | [Intersections](https://www.ibm.com/case-studies/intersections-inc) | Helping consumers avoid identity theft with real-time threat alerts |
+| Voice-of-Customer Analysis | [Helvetia Seguros](https://www.ibm.com/case-studies/helvetia-seguros-ibm-cloud-watson) | Building an AI-driven virtual assistant that generates personalized insurance quotes for customers |
+|   | [Deltic Group](https://www.ibm.com/case-studies/deltic-group-watson-virtual-assistant-for-social-media) | Creating a virtual assistant to understand customer conversations with night clubs over social media |
+|   | [Guardio](https://www.ibm.com/case-studies/guardio-cloud-bullying-detection-application) | Helping parents protect children from cyberbullying by flagging and detecting certain messages across social media accounts |
+|   | [Max Kelsen](https://www.ibm.com/case-studies/max-kelsen) | Detecting citizens' civic concerns with 97% accuracy using IBM Watson |
+| Data Mining | [Thomson Reuters](https://www.ibm.com/watson/stories/thomson-reuters/) | Deepining expertise on global data privacy laws by training Watson to understand legal jargon |
+|   | [Cloud Therapy](https://www.ibm.com/case-studies/b255816w59748a12) | Using cognitive computing to achieve big outcomes in the diagnosis of rare diseases |
+|   | [NAVTICON](https://www.ibm.com/case-studies/navticon) | Pulling actionable vessel positioning and cargo data directly from unstructured emails |
+|   | [Bradesco](https://www.ibm.com/watson/stories/bradesco/) | Addressing and resolving customer conversations at scale through a trained virtual assistant |
+|   | [Jibes](https://www.ibm.com/case-studies/jibes-data-analytics) | Scaling expert knowledge to benefit lead generation, market monitoring, document mining and personal agent solutions with industry-specific data, rules and content |
+|   | [Legalmation](https://www.ibm.com/case-studies/legalmation) | Detecting citizens' civic concerns with 97% accuracy using IBM Watson |
+|   | [Accrete](https://www.ibm.com/case-studies/accreteai) | Delivering highly accurate insight into financial markets with artificial intelligence |
+|   | [Volume](https://www.ibm.com/case-studies/volume-ltd) | Transforming incumbent client applications into cognitive tools that users can engage with using natural language |
+|   | [Catalyst Investors](https://www.ibm.com/case-studies/catalyst-investors) | Combing through multiple content sources to prospect for investment opportunities |
 
 ## Blogs
 {: #blogs}
