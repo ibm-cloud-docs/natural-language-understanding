@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2021
-lastupdated: "2021-09-14"
+lastupdated: "2021-10-04"
 
 subcollection: natural-language-understanding
 
@@ -157,7 +157,7 @@ Custom Sentiment (Beta) is now available. The Beta supports English and is avail
       "message": "not found"
   }
   ```
-  {:codeblock}
+  {: codeblock}
 
   New format:
   ```json
@@ -166,7 +166,7 @@ Custom Sentiment (Beta) is now available. The Beta supports English and is avail
       "error": "not found"
   }
   ```
-  {:codeblock}
+  {: codeblock}
 
 ### 11 March 2020
 {: #11-march-2020}
