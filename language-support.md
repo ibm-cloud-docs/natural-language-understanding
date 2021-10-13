@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2021
-lastupdated: "2021-08-31"
+lastupdated: "2021-10-12"
 
 subcollection: natural-language-understanding
 
@@ -35,6 +35,7 @@ subcollection: natural-language-understanding
 - [French](#french)
 - [German](#german)
 - [Hebrew](#hebrew)
+- [Hindi](#hindi)
 - [Italian](#italian)
 - [Japanese](#japanese)
 - [Korean](#korean)
@@ -43,10 +44,12 @@ subcollection: natural-language-understanding
 - [Norwegian (Nyorsk)](#norwegian-nyorsk)
 - [Polish](#polish)
 - [Portuguese](#portuguese)
+- [Romanian](#romanian)
 - [Russian](#russian)
 - [Slovak](#slovak)
 - [Spanish](#spanish)
 - [Swedish](#swedish)
+- [Turkish](#turkish)
 
 Language support might be different if you are a {{site.data.keyword.Bluemix_dedicated}} customer. If you are using {{site.data.keyword.Bluemix_dedicated}}, check with your IBM salesperson to confirm which languages are supported in your environment.
 {: tip}
@@ -222,7 +225,7 @@ The targeted sentiment option for entities is not supported for Arabic text.
     </tr>
     <tr>
       <td>Syntax</td>
-      <td></td>
+      <td>X</td>
       <td></td>
     </tr>
   </tbody>
@@ -298,7 +301,7 @@ The targeted sentiment option for entities is not supported for Arabic text.
     </tr>
     <tr>
       <td>Syntax</td>
-      <td></td>
+      <td>X</td>
       <td></td>
     </tr>
   </tbody>
@@ -528,7 +531,7 @@ The targeted sentiment option for entities is not supported for Arabic text.
     </tr>
     <tr>
       <td>Syntax</td>
-      <td></td>
+      <td>X</td>
       <td></td>
     </tr>
   </tbody>
@@ -756,7 +759,83 @@ The targeted sentiment option for entities is not supported for Arabic text.
     </tr>
     <tr>
       <td>Syntax</td>
+      <td>X</td>
       <td></td>
+    </tr>
+  </tbody>
+</table>
+
+## Hindi
+{: #hindi}
+
+<table>
+  <thead>
+    <tr>
+      <th>
+        Feature
+      </th>
+      <th>
+        Standard support
+      </th>
+      <th>
+        <a href="/docs/natural-language-understanding?topic=natural-language-understanding-customizing">Custom model</a> support
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Categories</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Classifications</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Concepts</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Emotion</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Entities</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Keywords</td>
+      <td>X</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Metadata</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Relations</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Semantic Roles</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Sentiment</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Syntax</td>
+      <td>X</td>
       <td></td>
     </tr>
   </tbody>
@@ -1063,7 +1142,7 @@ Please note that {{site.data.keyword.nlushort}} considers Norwegian (standard la
     </tr>
     <tr>
       <td>Syntax</td>
-      <td></td>
+      <td>X</td>
       <td></td>
     </tr>
   </tbody>
@@ -1142,7 +1221,7 @@ Please note that {{site.data.keyword.nlushort}} considers Norwegian (standard la
     </tr>
     <tr>
       <td>Syntax</td>
-      <td></td>
+      <td>X</td>
       <td></td>
     </tr>
   </tbody>
@@ -1218,7 +1297,7 @@ Please note that {{site.data.keyword.nlushort}} considers Norwegian (standard la
     </tr>
     <tr>
       <td>Syntax</td>
-      <td></td>
+      <td>X</td>
       <td></td>
     </tr>
   </tbody>
@@ -1294,7 +1373,7 @@ Please note that {{site.data.keyword.nlushort}} considers Norwegian (standard la
     </tr>
     <tr>
       <td>Syntax</td>
-      <td></td>
+      <td>X</td>
       <td></td>
     </tr>
   </tbody>
@@ -1376,6 +1455,82 @@ Please note that {{site.data.keyword.nlushort}} considers Norwegian (standard la
   </tbody>
 </table>
 
+## Romanian
+{: #romanian}
+
+<table>
+  <thead>
+    <tr>
+      <th>
+        Feature
+      </th>
+      <th>
+        Standard support
+      </th>
+      <th>
+        <a href="/docs/natural-language-understanding?topic=natural-language-understanding-customizing">Custom model</a> support
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Categories</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Classifications</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Concepts</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Emotion</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Entities</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Keywords</td>
+      <td>X</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Metadata</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Relations</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Semantic Roles</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Sentiment</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Syntax</td>
+      <td>X</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
 ## Russian
 {: #russian}
 
@@ -1442,6 +1597,11 @@ Please note that {{site.data.keyword.nlushort}} considers Norwegian (standard la
     <tr>
       <td>Sentiment</td>
       <td>X&ast;</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Syntax</td>
+      <td>X</td>
       <td></td>
     </tr>
   </tbody>
@@ -1521,7 +1681,7 @@ The targeted sentiment option for keywords is not supported for Russian text.
     </tr>
     <tr>
       <td>Syntax</td>
-      <td></td>
+      <td>X</td>
       <td></td>
     </tr>
   </tbody>
@@ -1669,6 +1829,87 @@ The targeted sentiment option for keywords is not supported for Russian text.
     <tr>
       <td>Sentiment</td>
       <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Syntax</td>
+      <td>X</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+## Turkish
+{: #turkish}
+
+<table>
+  <thead>
+    <tr>
+      <th>
+        Feature
+      </th>
+      <th>
+        Standard support
+      </th>
+      <th>
+        <a href="/docs/natural-language-understanding?topic=natural-language-understanding-customizing">Custom model</a> support
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Categories</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Classifications</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Concepts</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Emotion</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Entities</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Keywords</td>
+      <td>X</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Metadata</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Relations</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Semantic Roles</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Sentiment</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Syntax</td>
+      <td>X</td>
       <td></td>
     </tr>
   </tbody>
