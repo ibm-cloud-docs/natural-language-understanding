@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2021
-lastupdated: "2021-10-04"
+lastupdated: "2021-10-12"
 
 subcollection: natural-language-understanding
 
@@ -42,6 +42,7 @@ The following table shows the service behavior changes for each version date. Sw
 
 |Version date|Changes summary|
 |---|---|
+|[`2021-10-12`](#12-october-2021)| <li>Additional languages supported for keywords and syntax.</li>|
 |[`2021-08-15`](#15-august-2021)| <li>Classifications GA and Categories type system Version 2 features.</li>|
 |[`2021-03-25`](#25-march-2021)| <li>Custom categories (beta) and custom classifications (beta) features.</li>|
 |[`2020-12-09`](#9-december-2020)| <li>Version 2 English entity type system.</li>|
@@ -56,6 +57,11 @@ The following table shows the service behavior changes for each version date. Sw
 
 ## Changes
 {: #changes}
+
+### 12 October 2021
+{: #12-october-2021}
+
+- Support for keywords and syntax is now available, for all public and premium service instances, for the following languages: Hindi, Romanian, and Turkish. In addition, syntax is available for all supported languages. For details, see [Language support](/docs/natural-language-understanding?topic=natural-language-understanding-language-support).
 
 ### 15 August 2021
 {: #15-august-2021}
