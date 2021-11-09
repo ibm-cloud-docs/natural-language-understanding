@@ -21,6 +21,8 @@ toc:
           label: Demo
           href: https://www.ibm.com/demos/live/natural-language-understanding/self-service
       - additional-resources.md
+      - topic: release-notes.md
+        navtitle: Release notes
 
   - navgroup:
       id: howto
@@ -90,5 +92,4 @@ toc:
           - link:
               label: WDC Slack channel
               href: http://wdc-slack-inviter.mybluemix.net/
-      - release-notes.md
       
