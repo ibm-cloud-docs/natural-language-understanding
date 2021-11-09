@@ -2,25 +2,17 @@
 
 copyright:
   years: 2015, 2021
-lastupdated: "2021-10-12"
+lastupdated: "2021-11-09"
 
 subcollection: natural-language-understanding
 
+content-type: release-note
+
 ---
 
-{:shortdesc: .shortdesc}
-{:external: target="_blank" .external}
-{:note: .note}
-{:tip: .tip}
-{:pre: .pre}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:javascript: .ph data-hd-programlang='javascript'}
-{:java: .ph data-hd-programlang='java'}
-{:python: .ph data-hd-programlang='python'}
-{:swift: .ph data-hd-programlang='swift'}
+{{site.data.keyword.attribute-definition-list}}
 
-# Release notes
+# Release notes for {{site.data.keyword.nlushort}}
 {: #release-notes}
 
 The following new features and changes to the service are available.
@@ -42,60 +34,68 @@ The following table shows the service behavior changes for each version date. Sw
 
 |Version date|Changes summary|
 |---|---|
-|[`2021-10-12`](#12-october-2021)| <li>Additional languages supported for keywords and syntax.</li>|
-|[`2021-08-15`](#15-august-2021)| <li>Classifications GA and Categories type system Version 2 features.</li>|
-|[`2021-03-25`](#25-march-2021)| <li>Custom categories (beta) and custom classifications (beta) features.</li>|
-|[`2020-12-09`](#9-december-2020)| <li>Version 2 English entity type system.</li>|
-|[`2020-12-02`](#2-december-2020)| <li>Version 2 Korean entity type system.</li><li>Version 2 Spanish entity type system.</li>|
-|[`2020-08-01`](#1-august-2020)| <li>Taxonomy changes aimed towards standardization of the label names in the default taxonomy.</li>|
-|[`2019-07-12`](#12-july-2019)| <li>New English entities model with improved accuracy and confidence scores.</li>|
-|[`2019-06-04`](#4-june-2019)| <li>Fixed a bug that caused entities requests with custom models to ignore the `limit` option.</li><li>The default `limit` value for all entities requests is now 50 for all models.</li><li>The maximum `limit` value of 250 entities has been removed.</li>|
-|[`2018-11-16`](#16-november-2018)| <li>Version 2 Italian entity type system.</li>|
-|[`2018-09-21`](#21-september-2018)| <li>Version 2 Portuguese entity type system.</li>|
-|[`2018-03-16`](#16-march-2018)| <li>Version 2 French entity type system.</li><li>Version 2 German entity type system.</li>|
-|[`2017-02-27`](#27-february-2017)| Base version.|
+|[`2021-10-12`](#natural-language-understanding-oct1221)| <li>Additional languages supported for keywords and syntax.</li>|
+|[`2021-08-15`](#natural-language-understanding-aug1521)| <li>Classifications GA and Categories type system Version 2 features.</li>|
+|[`2021-03-25`](#natural-language-understanding-mar2521)| <li>Custom categories (beta) and custom classifications (beta) features.</li>|
+|[`2020-12-09`](#natural-language-understanding-dec0920)| <li>Version 2 English entity type system.</li>|
+|[`2020-12-02`](#natural-language-understanding-dec0220)| <li>Version 2 Korean entity type system.</li><li>Version 2 Spanish entity type system.</li>|
+|[`2020-08-01`](#natural-language-understanding-aug0120)| <li>Taxonomy changes aimed towards standardization of the label names in the default taxonomy.</li>|
+|[`2019-07-12`](#natural-language-understanding-jul1219)| <li>New English entities model with improved accuracy and confidence scores.</li>|
+|[`2019-06-04`](#natural-language-understanding-jun0419)| <li>Fixed a bug that caused entities requests with custom models to ignore the `limit` option.</li><li>The default `limit` value for all entities requests is now 50 for all models.</li><li>The maximum `limit` value of 250 entities has been removed.</li>|
+|[`2018-11-16`](#natural-language-understanding-nov1618)| <li>Version 2 Italian entity type system.</li>|
+|[`2018-09-21`](#natural-language-understanding-sep2118)| <li>Version 2 Portuguese entity type system.</li>|
+|[`2018-03-16`](#natural-language-understanding-mar1618)| <li>Version 2 French entity type system.</li><li>Version 2 German entity type system.</li>|
+|[`2017-02-27`](#natural-language-understanding-feb2717)| Base version.|
 
 ## Changes
 {: #changes}
 
 ### 12 October 2021
-{: #12-october-2021}
+{: #natural-language-understanding-oct1221}
+{: release-note}
 
 - Support for keywords and syntax is now available, for all public and premium service instances, for the following languages: Hindi, Romanian, and Turkish. In addition, syntax is available for all supported languages. For details, see [Language support](/docs/natural-language-understanding?topic=natural-language-understanding-language-support).
 
 ### 15 August 2021
-{: #15-august-2021}
+{: #natural-language-understanding-aug1521}
+{: release-note}
 
 - The [custom classifications](/docs/natural-language-understanding?topic=natural-language-understanding-classifications) feature is now generally available (GA).
 - The [categories stock model](/docs/natural-language-understanding?topic=natural-language-understanding-categories-hierarchy) has been updated to use the [IAB Tech Lab 2.0 taxonomy](https://iabtechlab.com/standards/content-taxonomy/).
 
 ### 5 May 2021
-{: #5-may-2021}
+{: #natural-language-understanding-may0521}
+{: release-note}
 
 - The advanced rules beta feature is deprecated. As of June 10, 2021, you will not be able to deploy advanced rules models to {{site.data.keyword.nlushort}}; existing models will keep running. After June 24, 2021, no advanced rules models will run in {{site.data.keyword.nlushort}}.
 
 ### 25 March 2021
-{: #25-march-2021}
+{: #natural-language-understanding-mar2521}
+{: release-note}
 
 - The [custom classifications (Beta)](/docs/natural-language-understanding?topic=natural-language-understanding-classifications) feature allows you to train a multi-label text classifier (English-only) using your own labeled data.
 
 ### 18 February 2021
-{: #18-february-2021}
+{: #natural-language-understanding-feb1821}
+{: release-note}
 
 - The [custom categories (Beta)](/docs/natural-language-understanding?topic=natural-language-understanding-categories) feature allows you to train custom categories models (English only) with service instances deployed in the Dallas location.
 
 ### 9 December 2020
-{: #9-december-2020}
+{: #natural-language-understanding-dec0920}
+{: release-note}
 
 - Version 2 entity type support is now available, for all public and premium service instances, for English language. For details, see [Entity type systems](/docs/natural-language-understanding?topic=natural-language-understanding-entity-type-systems).
 
 ### 2 December 2020
-{: #2-december-2020}
+{: #natural-language-understanding-dec0220}
+{: release-note}
 
 - Version 2 entity type support is now available, for all public and premium service instances, for the following languages: Korean and Spanish. For details, see [Entity type systems](/docs/natural-language-understanding?topic=natural-language-understanding-entity-type-systems).
 
 ### 12 November 2020
-{: #12-november-2020}
+{: #natural-language-understanding-nov1220}
+{: release-note}
 
 - Support for entities is now available, for all public and premium service instances, for the following languages: Arabic, Chinese (Simplified) and Dutch. For details, see [Language support](/docs/natural-language-understanding?topic=natural-language-understanding-language-support).
 
@@ -103,29 +103,34 @@ The following table shows the service behavior changes for each version date. Sw
   {: note}
 
 ### 4 November 2020
-{: #4-november-2020}
+{: #natural-language-understanding-nov0420}
+{: release-note}
 
 - Support for keywords is now available, for all public and premium service instances, for the following languages: Czech, Danish, Finnish, Hebrew, Norwegian, Norwegian-Bokmal, Norwegian-Nynorsk, Polish, and Slovak. For details, see [Language support](/docs/natural-language-understanding?topic=natural-language-understanding-language-support).
 - The code used for keyword support for Russian and Swedish has been improved, so different, higher quality results are expected.
 
 ### 25 September 2020
-{: #25-september-2020}
+{: #natural-language-understanding-sep2520}
+{: release-note}
 
 - The `version` form parameter for model objects in the [API definition](https://cloud.ibm.com/apidocs/natural-language-understanding#createadvancedrulesmodel) has been deprecated; use the `model_version` parameter instead. The `model_version` parameter will override `version` whenever there is a conflict until April 9, 2021.
 
 ### 3 September 2020
-{: #3-september-2020}
+{: #natural-language-understanding-sep0320}
+{: release-note}
 
 - [Summarization (Experimental)](/docs/natural-language-understanding?topic=natural-language-understanding-about#summarization) returns a summary of input source content. Summarization is currently available for English only.
 - Support for Chinese and Dutch categories is now available, for all public and premium service instances. For details, see [Language support](/docs/natural-language-understanding?topic=natural-language-understanding-language-support).
 
 ### 6 August 2020
-{: #6-august-2020}
+{: #natural-language-understanding-aug0620}
+{: release-note}
 
 - Syntax support is no longer "experimental", and is supported in all public and premium environments, for the following languages: English, Arabic, German, Spanish, French, Italian, Japanese, Korean, Dutch, Portuguese, and Chinese (Simplified). For details, see [Language support](/docs/natural-language-understanding?topic=natural-language-understanding-language-support).
 
 ### 1 August 2020
-{: #1-august-2020}
+{: #natural-language-understanding-aug0120}
+{: release-note}
 
 - The following changes to the default taxonomy are activated when you use the version date `2020-08-01` or later:
 
@@ -140,17 +145,20 @@ The following table shows the service behavior changes for each version date. Sw
 |`/technology and computing/consumer electronics/ebook reader`|`/technology and computing/consumer electronics/e-book reader`|
 
 ### 8 July 2020
-{: #8-July-2020}
+{: #natural-language-understanding-jul0820}
+{: release-note}
 
 Support for Arabic keywords is now available, for all public and premium service instances. For details, see [Language support](/docs/natural-language-understanding?topic=natural-language-understanding-language-support).
 
 ### 10 April 2020
-{: #10-April-2020}
+{: #natural-language-understanding-apr1020}
+{: release-note}
 
 Custom Sentiment (Beta) is now available. The Beta supports English and is available only for service instances in the Dallas location. For details, see [Creating custom sentiment models](/docs/services/natural-language-understanding?topic=natural-language-understanding-customizing#custom-sentiment).
 
 ### 20 March 2020
-{: #20-march-2020}
+{: #natural-language-understanding-mar2020}
+{: release-note}
 
 - Changed the error response format for advanced rules model endpoints (Beta) to be consistent with other endpoints.
   - Renamed `status` to `code`.
@@ -175,12 +183,14 @@ Custom Sentiment (Beta) is now available. The Beta supports English and is avail
   {: codeblock}
 
 ### 11 March 2020
-{: #11-march-2020}
+{: #natural-language-understanding-mar1120}
+{: release-note}
 
 - Enhanced English sentiment analysis to better identify and understand idioms in text. For more information on this update and other upcoming changes, see the [{{site.data.keyword.IBM_notm}} News Room announcement](https://newsroom.ibm.com/2020-03-11-IBM-Advances-Watsons-Ability-to-Understand-the-Language-of-Business,1).
 
 ### 12 December 2019
-{: #12-december-2019}
+{: #natural-language-understanding-dec1919}
+{: release-note}
 
 - **Full support for IBM Cloud IAM**
 
@@ -203,46 +213,54 @@ Custom Sentiment (Beta) is now available. The Beta supports English and is avail
 
 
 ### 11 December 2019
-{: #11-december-2019}
+{: #natural-language-understanding-dec1119}
+{: release-note}
 
 - **The custom categories experimental feature will be retired on 19 December 2019.** On that date, deployed custom categories models will no longer be accessible in {{site.data.keyword.nlushort}}. The feature will be removed from {{site.data.keyword.knowledgestudioshort}} on an earlier date. Custom categories models will no longer be accessible in {{site.data.keyword.knowledgestudioshort}} on 17 December 2019.
 
 ### 25 November 2019
-{: #25-november-2019}
+{: #natural-language-understanding-nov2519}
+{: release-note}
 
 - **Advanced rules (Beta)**: Analyze text with custom advanced rules models that you create in {{site.data.keyword.knowledgestudiofull}}.
   - [Get started with advanced rules models in {{site.data.keyword.knowledgestudioshort}}](/docs/watson-knowledge-studio?topic=watson-knowledge-studio-create-advanced-rules-model)
   - [Upload an advanced rules model to {{site.data.keyword.nlushort}}](https://cloud.ibm.com/docs/natural-language-understanding?topic=natural-language-understanding-customizing#advanced-rules)
 
 ### 13 November 2019
-{: #13-november-2019}
+{: #natural-language-understanding-nov1319}
+{: release-note}
 
 - **New South Korea location**: You can now create {{site.data.keyword.nlushort}} instances in the Seoul location. As with other locations, the {{site.data.keyword.cloud_notm}} Seoul location uses token-based Identity and Access Management (IAM) authentication.
 
 ### 10 October 2019
-{: #10-october-2019}
+{: #natural-language-understanding-oct1019}
+{: release-note}
 
 - Improved response times for Japanese and Korean sentiment requests.
 
 ### 17 September 2019
-{: #17-september-2019}
+{: #natural-language-understanding-sep1719}
+{: release-note}
 
 - Added support for Dutch keywords and sentiment.
 - Added support for Chinese (Simplified) keywords and sentiment
 
 ### 5 September 2019
-{: #5-september-2019}
+{: #natural-language-understanding-sep0519}
+{: release-note}
 
 - Improved accuracy for Spanish and Portuguese sentiment.
 - Improved response times for Portuguese sentiment requests.
 
 ### 29 August 2019
-{: #29-august-2019}
+{: #natural-language-understanding-aug2919}
+{: release-note}
 
 - Improved accuracy for English sentiment.
 
 ### 12 July 2019
-{: #12-july-2019}
+{: #natural-language-understanding-jul1219}
+{: release-note}
 
 The following changes are activated when you use the version date `2019-07-12` or later.
 
@@ -250,12 +268,14 @@ The following changes are activated when you use the version date `2019-07-12` o
 - Confidence scores are returned in English entities results.
 
 ### 21 June 2019
-{: #21-june-2019}
+{: #natural-language-understanding-jun2119}
+{: release-note}
 
 - Entity confidence score is now returned for entities requests that use custom machine learning models.
 
 ### 4 June 2019
-{: #4-june-2019}
+{: #natural-language-understanding-jun0419}
+{: release-note}
 
 The following changes are activated when you use the version date `2019-06-04` or later.
 
@@ -264,7 +284,8 @@ The following changes are activated when you use the version date `2019-06-04` o
 - The maximum `limit` value of 250 entities has been removed.
 
 ### 29 May 2019
-{: #29-may-2019}
+{: #natural-language-understanding-may2919}
+{: release-note}
 
 - Improved Spanish sentiment.
 - Fixed a bug that may have affected targeted sentiment results if the target contained special characters.
@@ -273,36 +294,42 @@ The following changes are activated when you use the version date `2019-06-04` o
 
 
 ### 24 May 2019
-{: #24-may-2019}
+{: #natural-language-understanding-may2419}
+{: release-note}
 
 - Improved German keywords.
 - English sentiment updates released to service instances in all IBM Cloud locations other than Dallas.
 
 ### 3 May 2019
-{: #3-may-2019}
+{: #natural-language-understanding-may0319}
+{: release-note}
 
 - Improved German document-level sentiment detection.
 
 ### 25 April 2019
-{: #25-april-2019}
+{: #natural-language-understanding-apr2519}
+{: release-note}
 
 - Enabled entity mentions for rule-based [custom models](/docs/natural-language-understanding?topic=natural-language-understanding-customizing). To view mentions in your results, set the `mentions` entities option to `true`.
 - Released explanations for English categories results. To see relevant text from the source that contributed to each result, set the `explanation` categories option to `true`.
 
 ### 19 March 2019
-{: #19-march-2019}
+{: #natural-language-understanding-mar1919}
+{: release-note}
 
 - Introduced experimental support for custom categories models created with {{site.data.keyword.knowledgestudioshort}}.
 - Improved Spanish keywords and concepts.
 
 ### 10 January 2019
-{: #10-january-2019}
+{: #natural-language-understanding-jan1019}
+{: release-note}
 
 - **List models** and **Delete model** requests that don't include a version date parameter now return `400` errors instead of successful responses.
 - Improved entities performance for languages other than English.
 
 ### 14 December 2018
-{: #14-december-2018}
+{: #natural-language-understanding-dec1418}
+{: release-note}
 
 - You can now create {{site.data.keyword.nlushort}} service instances in the IBM Cloud London location.
 - Added support for Portuguese relations.
@@ -311,12 +338,14 @@ The following changes are activated when you use the version date `2019-06-04` o
 - Improved accuracy for Japanese and German sentiment.
 
 ### 6 December 2018
-{: #6-december-2018}
+{: #natural-language-understanding-dec0618}
+{: release-note}
 
 - Improved accuracy for Italian categories, keywords, entities, and categories.
 
 ### 27 November 2018
-{: #27-november-2018}
+{: #natural-language-understanding-nov2718}
+{: release-note}
 
 - Improved quality of keywords results for English, French, Japanese, and Portuguese input.
 - Keywords with different capitalizations now appear in results as the same keyword.
@@ -327,7 +356,8 @@ The following changes are activated when you use the version date `2019-06-04` o
   - `created`: A datetime string that indicates when the model was deployed to NLU.
 
 ### 16 November 2018
-{: #16-november-2018}
+{: #natural-language-understanding-nov1618}
+{: release-note}
 
 - Released new algorithms for English keywords and sentiment to improve accuracy and performance.
 - Improved keywords accuracy and performance for English, French, Japanese, and Portuguese input.
@@ -336,27 +366,32 @@ The following changes are activated when you use the version date `2019-06-04` o
 - Released a new Italian entities model with the latest entity type system. You can learn about the latest type system on the [Entity types and subtypes (Version 2)](/docs/natural-language-understanding?topic=natural-language-understanding-entity-types-version-2) page. When your application is compatible with the new type system, change the version date parameter in your requests to `2018-11-16` to use the new model.
 
 ### 9 November 2018
-{: #9-november-2018}
+{: #natural-language-understanding-nov0918}
+{: release-note}
 
 - Major improvement in accuracy for Categories in all supported languages.
 
 ### 8 November 2018
-{: #8-november-2018}
+{: #natural-language-understanding-nov0818}
+{: release-note}
 
 - You can now create {{site.data.keyword.nlushort}} service instances in the IBM Cloud Tokyo location.
 
 ### 5 November 2018
-{: #5-november-2018}
+{: #natural-language-understanding-nov0518}
+{: release-note}
 
 - Added support for Italian concepts.
 
 ### 30 October 2018
-{: #30-october-2018}
+{: #natural-language-understanding-oct3018}
+{: release-note}
 
 As of 30 October 2018, new service instances created in the Germany and US South regions use [Identity and Access Management (IAM) authentication](#iam-auth-process).
 
 ### 21 September 2018
-{: #21-september-2018}
+{: #natural-language-understanding-sep2118}
+{: release-note}
 
 - Added support for French relations and Portuguese concepts.
 - The targeted sentiment option is now supported for French and Portuguese keywords.
@@ -366,7 +401,8 @@ As of 30 October 2018, new service instances created in the Germany and US South
 - Released a new Portuguese entities model with the latest entity type system. You can learn about the latest type system on the [Entity types and subtypes (Version 2)](/docs/natural-language-understanding?topic=natural-language-understanding-entity-types-version-2) page. When your application is compatible with the new type system, change the version date parameter in your requests to `2018-09-21` to use the new model.
 
 ### 26 June 2018
-{: #26-june-2018}
+{: #natural-language-understanding-jun2618}
+{: release-note}
 
 Added support for Japanese entities and keywords.
 
@@ -378,27 +414,32 @@ Added support for Japanese entities and keywords.
 - IPv6 addresses in Japanese input are not yet detectable as IPAddress entities.
 
 ### 12 June 2018
-{: #12-june-2018}
+{: #natural-language-understanding-jun1218}
+{: release-note}
 
 As of 12 June 2018, new service instances created in the US East region use [Identity and Access Management (IAM) authentication](#iam-auth-process).
 
 ### 6 June 2018
-{: #06-june-2018}
+{: #natural-language-understanding-jun0618}
+{: release-note}
 
 - Minor improvements for Korean categories results.
 
 ### 29 May 2018
-{: #29-may-2018}
+{: #natural-language-understanding-may2918}
+{: release-note}
 
 As of 29 May 2018, new service instances created in the Sydney region use [Identity and Access Management (IAM) authentication](#iam-auth-process).
 
 ### 9 May 2018
-{: #9-may-2018}
+{: #natural-language-understanding-may0918}
+{: release-note}
 
 - Improved German entities.
 
 ### 4 May 2018
-{: #4-may-2018}
+{: #4natural-language-understanding-may0418}
+{: release-note}
 
 - Added support for Japanese sentiment and semantic roles.
 - Improved performance for metadata requests.
@@ -407,7 +448,8 @@ As of 29 May 2018, new service instances created in the Sydney region use [Ident
 
 
 ### 19 April 2018
-{: #19-april-2018}
+{: #natural-language-understanding-apr1918}
+{: release-note}
 
 - Added support for Japanese relations.
 - Improved German keywords.
@@ -417,13 +459,15 @@ As of 29 May 2018, new service instances created in the Sydney region use [Ident
 
 
 ### 5 April 2018
-{: #05-april-2018}
+{: #natural-language-understanding-apr0518}
+{: release-note}
 
 - Improved webpage content fetching. If you use the `url` parameter to analyze webpages, you'll see better results, especially from webpages that use framesets and cookies.
 - Minor improvements to Korean concepts.
 
 ### 16 March 2018
-{: #16-march-2018}
+{: #natural-language-understanding-mar1618}
+{: release-note}
 
 - Added support for German categories, relations, and semantic roles.
   - A new relation type system is used for German relations. To view details, see the [Relation types (Version 2)](/docs/natural-language-understanding?topic=natural-language-understanding-relation-types-version-2) page.
@@ -468,17 +512,20 @@ As of 29 May 2018, new service instances created in the Sydney region use [Ident
 
 
 ### 25 January 2018
-{: #25-january-2018}
+{: #natural-language-understanding-jan2518}
+{: release-note}
 
 - Chinese (Simplified) [custom model](/docs/natural-language-understanding?topic=natural-language-understanding-customizing) support is now available for entities and relations.
 
 ### 12 January 2018
-{: #12-january-2018}
+{: #natural-language-understanding-jan1218}
+{: release-note}
 
 - Added support for German concepts.
 
 ### 15 December 2017
-{: #15-december-2017}
+{: #natural-language-understanding-dec1517}
+{: release-note}
 
 - Dutch [custom model](/docs/natural-language-understanding?topic=natural-language-understanding-customizing) support is now available for entities and relations.
 - [French language support](/docs/natural-language-understanding?topic=natural-language-understanding-language-support#french) now includes concepts.
@@ -517,7 +564,8 @@ As of 29 May 2018, new service instances created in the Sydney region use [Ident
   - Ojibwa (oj)
 
 ### 28 November 2017
-{: #28-november-2017}
+{: #natural-language-understanding-nov2817}
+{: release-note}
 
 - **Entity mentions.** Get the locations of entity mentions in your `entities` requests by adding the option `"mentions": true`.
 
@@ -605,7 +653,8 @@ As of 29 May 2018, new service instances created in the Sydney region use [Ident
     {: codeblock}
 
 ### 17 November 2017
-{: #17-november-2017}
+{: #natural-language-understanding-nov1717}
+{: release-note}
 
 - **[Korean language support](/docs/natural-language-understanding?topic=natural-language-understanding-language-support#korean)** has expanded to include the following features:
 
@@ -615,7 +664,8 @@ As of 29 May 2018, new service instances created in the Sydney region use [Ident
 
 
 ### 30 July 2017
-{: #30-july-2017}
+{: #natural-language-understanding-jul3017}
+{: release-note}
 
 - You can control cost by using the optional `limit_text_characters` parameter to limit the number of characters that are processed. For example:
 
@@ -659,22 +709,26 @@ As of 29 May 2018, new service instances created in the Sydney region use [Ident
 
 
 ### 8 May 2017
-{: #8-may-2017}
+{: #natural-language-understanding-may0817}
+{: release-note}
 
 - Updated the emotion tone score model. The training dataset was expanded and feature engineering was altered and as a result, the model has higher precision on our benchmark dataset.
 
 ### 27 March 2017
-{: #27-march-2017}
+{: #natural-language-understanding-mar2717}
+{: release-note}
 
 - The entity and sentiment models have been improved, which means that when you call those features, you'll get better results.
 - Relations now supports {{site.data.keyword.knowledgestudioshort}} custom models in French, German, Italian, and Portuguese.
 
 ### 15 March 2017
-{: #15-march-2017}
+{: #natural-language-understanding-mar1517}
+{: release-note}
 
 We released updates to the emotion tone score model. The training dataset was expanded and as a result, the model has higher precision on our benchmark dataset.
 
 ### 27 February 2017
-{: #27-february-2017}
+{: #natural-language-understanding-feb2717}
+{: release-note}
 
 The Natural Language Understanding service is now GA.
