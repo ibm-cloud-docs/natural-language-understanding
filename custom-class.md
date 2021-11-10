@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2021
-lastupdated: "2021-08-09"
+lastupdated: "2021-11-10"
 
 subcollection: natural-language-understanding
 
@@ -36,18 +36,19 @@ Create and train a custom classifications model using the Natural Language Under
 
 Classifications accepts training data in the following JSON format:
 
-  ```bash
-  [
-    {
-        "text": "Example 1",
-        "labels": ["label1"]
-    },
-    {
-        "text": "Example 2",
-        "labels": ["label1", "label2"]
-    }
-  ]
-  ```
+```json
+[
+  {
+    "text": "Example 1",
+    "labels": ["label1"]
+  },
+  {
+    "text": "Example 2",
+    "labels": ["label1", "label2"]
+  }
+]
+```
+{: codeblock}
 
 ### Training data in CSV format 
 
