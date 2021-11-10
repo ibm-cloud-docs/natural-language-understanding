@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2021
-lastupdated: "2021-02-18"
+lastupdated: "2021-11-10"
 
 subcollection: natural-language-understanding
 
@@ -44,45 +44,45 @@ The custom categories feature allows you to train custom English categories mode
 
 Create and train a custom categories model using the {{site.data.keyword.nlushort}} training API. You can also view an example [Python notebook](https://github.com/watson-developer-cloud/doc-tutorial-downloads/blob/master/natural-language-understanding/custom_categories_example.ipynb) that shows how to create and train a custom categories model.
 
-  1. Training data must be JSON format, with `application/json` content type. Each training data file needs to contain a list of JSON objects, and each of these objects needs to have `labels` and `key_phrases` defined:
+1. Training data must be JSON format, with `application/json` content type. Each training data file needs to contain a list of JSON objects, and each of these objects needs to have `labels` and `key_phrases` defined:
 
-      - `labels`: These are the lists of category labels, in the order of their hierarchy. For example, if you want to add labels with a hierarchy where `B` is a child of `A`, the list of labels here would be:
+    - `labels`: These are the lists of category labels, in the order of their hierarchy. For example, if you want to add labels with a hierarchy where `B` is a child of `A`, the list of labels here would be:
 
         ```bash
         "labels": ["A", "B"]
         ```
 
-      - `key_phrases`: These are lists of phrases that can uniquely identify the corresponding labels, for example:
+    - `key_phrases`: These are lists of phrases that can uniquely identify the corresponding labels, for example:
 
         ```bash
         "key_phrases": ["films", "action movies"]
         ```
 
-  2. Up to 5 levels of hierarchy are accepted in `labels`. Following is an example training data format:
+1. Up to 5 levels of hierarchy are accepted in `labels`. Following is an example training data format:
 
-      ```bash
-        [
-            {
-                "labels": [
-                    "level1"
-                ],
-                "key_phrases": [
-                    "key phrase",
-                    "key phrase 2"
-                ]
-            },
-            {
-                "labels": [
-                    "level1",
-                    "level2"
-                ],
-                "key_phrases": [
-                    "key phrase 3",
-                    "key phrase 4"
-                ]
-            }
-        ]
-      ```
+    ```bash
+      [
+          {
+              "labels": [
+                  "level1"
+              ],
+              "key_phrases": [
+                  "key phrase",
+                  "key phrase 2"
+              ]
+          },
+          {
+              "labels": [
+                  "level1",
+                  "level2"
+              ],
+              "key_phrases": [
+                  "key phrase 3",
+                  "key phrase 4"
+              ]
+          }
+      ]
+    ```
 
 ## Training a custom categories model
 {: #training-a-custom-categories-model}
