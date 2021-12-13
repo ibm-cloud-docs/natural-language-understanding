@@ -68,6 +68,7 @@ toc:
           - relations.md
           - relations-v1.md
           - relations-v2.md
+      - tone-analytics.md
       - sample-apps.md
       - usage-limits.md
       - versioning.md
