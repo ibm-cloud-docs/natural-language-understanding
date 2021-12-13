@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2021
-lastupdated: "2021-10-12"
+lastupdated: "2021-12-06"
 
 subcollection: natural-language-understanding
 
@@ -80,994 +80,231 @@ The targeted sentiment option for entities is not supported for Arabic text.
 ## Chinese (Simplified)
 {: #chinese-simplified}
 
-<table>
-  <thead>
-    <tr>
-      <th>
-        Feature
-      </th>
-      <th>
-        Standard support
-      </th>
-      <th>
-        <a href="/docs/natural-language-understanding?topic=natural-language-understanding-customizing">Custom model</a> support
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Categories</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Classifications</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Concepts</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Emotion</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Entities</td>
-      <td>X&ast;</td>
-      <td>X</td>
-    </tr>
-    <tr>
-      <td>Keywords</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Metadata</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Relations</td>
-      <td></td>
-      <td>X</td>
-    </tr>
-    <tr>
-      <td>Semantic Roles</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Sentiment</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Syntax</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-  </tbody>
-</table>
+| Feature | Standard Support | [Custom model](/docs/natural-language-understanding?topic=natural-language-understanding-customizing) support |
+| --- | --- | --- |
+| Categories | X | |
+| Classifications | | |
+| Concepts | | |
+| Emotion | | |
+| Entities | X* | X |
+| Keywords | X | |
+| Metadata | | |
+| Relations | | X |
+| Semantic roles | | |
+| Sentiment | X | |
+| Syntax | X | |
 
-&ast; Relevance ranking is not supported.
+\* Relevance ranking is not supported.
 
 ## Czech
 {: #czech}
 
-<table>
-  <thead>
-    <tr>
-      <th>
-        Feature
-      </th>
-      <th>
-        Standard support
-      </th>
-      <th>
-        <a href="/docs/natural-language-understanding?topic=natural-language-understanding-customizing">Custom model</a> support
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Categories</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Classifications</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Concepts</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Emotion</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Entities</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Keywords</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Metadata</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Relations</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Semantic Roles</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Sentiment</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Syntax</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-  </tbody>
-</table>
+| Feature | Standard Support | [Custom model](/docs/natural-language-understanding?topic=natural-language-understanding-customizing) support |
+| --- | --- | --- |
+| Categories | | |
+| Classifications | | |
+| Concepts | | |
+| Emotion | | |
+| Entities | | |
+| Keywords | X | |
+| Metadata | | |
+| Relations | | |
+| Semantic roles | | |
+| Sentiment | | |
+| Syntax | X | |
 
 ## Danish
 {: #danish}
 
-<table>
-  <thead>
-    <tr>
-      <th>
-        Feature
-      </th>
-      <th>
-        Standard support
-      </th>
-      <th>
-        <a href="/docs/natural-language-understanding?topic=natural-language-understanding-customizing">Custom model</a> support
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Categories</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Classifications</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Concepts</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Emotion</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Entities</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Keywords</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Metadata</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Relations</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Semantic Roles</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Sentiment</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Syntax</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-  </tbody>
-</table>
+| Feature | Standard Support | [Custom model](/docs/natural-language-understanding?topic=natural-language-understanding-customizing) support |
+| --- | --- | --- |
+| Categories | | |
+| Classifications | | |
+| Concepts | | |
+| Emotion | | |
+| Entities | | |
+| Keywords | X | |
+| Metadata | | |
+| Relations | | |
+| Semantic roles | | |
+| Sentiment | | |
+| Syntax | X | |
 
 ## Dutch
 {: #dutch}
 
-<table>
-  <thead>
-    <tr>
-      <th>
-        Feature
-      </th>
-      <th>
-        Standard support
-      </th>
-      <th>
-        <a href="/docs/natural-language-understanding?topic=natural-language-understanding-customizing">Custom model</a> support
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Categories</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Classifications</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Concepts</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Emotion</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Entities</td>
-      <td>X&ast;</td>
-      <td>X</td>
-    </tr>
-    <tr>
-      <td>Keywords</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Metadata</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Relations</td>
-      <td></td>
-      <td>X</td>
-    </tr>
-    <tr>
-      <td>Semantic Roles</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Sentiment</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Syntax</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-  </tbody>
-</table>
+| Feature | Standard Support | [Custom model](/docs/natural-language-understanding?topic=natural-language-understanding-customizing) support |
+| --- | --- | --- |
+| Categories | X | |
+| Classifications | | |
+| Concepts | | |
+| Emotion | | |
+| Entities | X* | X |
+| Keywords | X | |
+| Metadata | | |
+| Relations | | X |
+| Semantic roles | | |
+| Sentiment | X | |
+| Syntax | X | |
 
-&ast; Relevance ranking is not supported.
+\* Relevance ranking is not supported.
 
 ## English
 {: #english}
 
-<table>
-  <thead>
-    <tr>
-      <th>
-        Feature
-      </th>
-      <th>
-        Standard support
-      </th>
-      <th>
-        <a href="/docs/natural-language-understanding?topic=natural-language-understanding-customizing">Custom model</a> support
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Categories</td>
-      <td>X</td>
-      <td>X (Beta)</td>
-    </tr>
-    <tr>
-      <td>Classifications</td>
-      <td></td>
-      <td>X</td>
-    </tr>
-    <tr>
-      <td>Concepts</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Emotion</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Entities</td>
-      <td>X</td>
-      <td>X</td>
-    </tr>
-    <tr>
-      <td>Keywords</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Metadata</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Relations</td>
-      <td>X</td>
-      <td>X</td>
-    </tr>
-    <tr>
-      <td>Semantic Roles</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Sentiment</td>
-      <td>X</td>
-      <td>X (Beta)</td>
-    </tr>
-    <tr>
-      <td>Syntax</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-  </tbody>
-</table>
+| Feature | Standard Support | [Custom model](/docs/natural-language-understanding?topic=natural-language-understanding-customizing) support |
+| --- | --- | --- |
+| Categories | X | X (Beta) |
+| Classifications | X* | X |
+| Concepts | X | |
+| Emotion | X | |
+| Entities | X | X |
+| Keywords | X | |
+| Metadata | X | |
+| Relations | X | X |
+| Semantic roles | X | |
+| Sentiment | X | X (Beta) |
+| Syntax | X | |
+
+\* Indicates support for tone analysis; see [Tone analytics (Classifications)](/docs/natural-language-understanding?topic=natural-language-understanding-tone_analytics) for more information.
 
 ## Finnish
 {: #finnish}
 
-<table>
-  <thead>
-    <tr>
-      <th>
-        Feature
-      </th>
-      <th>
-        Standard support
-      </th>
-      <th>
-        <a href="/docs/natural-language-understanding?topic=natural-language-understanding-customizing">Custom model</a> support
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Categories</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Classifications</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Concepts</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Emotion</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Entities</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Keywords</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Metadata</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Relations</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Semantic Roles</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Sentiment</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Syntax</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-  </tbody>
-</table>
+| Feature | Standard Support | [Custom model](/docs/natural-language-understanding?topic=natural-language-understanding-customizing) support |
+| --- | --- | --- |
+| Categories | | |
+| Classifications | | |
+| Concepts | | |
+| Emotion | | |
+| Entities | | |
+| Keywords | X | |
+| Metadata | | |
+| Relations | | |
+| Semantic roles | | |
+| Sentiment | | |
+| Syntax | X | |
 
 ## French
 {: #french}
 
-<table>
-  <thead>
-    <tr>
-      <th>
-        Feature
-      </th>
-      <th>
-        Standard support
-      </th>
-      <th>
-        <a href="/docs/natural-language-understanding?topic=natural-language-understanding-customizing">Custom model</a> support
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Categories</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Classifications</td>
-      <td></td>
-      <td>X</td>
-    </tr>
-    <tr>
-      <td>Concepts</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Emotion</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Entities</td>
-      <td>X</td>
-      <td>X</td>
-    </tr>
-    <tr>
-      <td>Keywords</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Metadata</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Relations</td>
-      <td>X</td>
-      <td>X</td>
-    </tr>
-    <tr>
-      <td>Semantic Roles</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Sentiment</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Syntax</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-  </tbody>
-</table>
+| Feature | Standard Support | [Custom model](/docs/natural-language-understanding?topic=natural-language-understanding-customizing) support |
+| --- | --- | --- |
+| Categories | X | |
+| Classifications | X* | X |
+| Concepts | X | |
+| Emotion | | |
+| Entities | X | X |
+| Keywords | X | |
+| Metadata | X | |
+| Relations | X | X |
+| Semantic roles | | |
+| Sentiment | X | X |
+| Syntax | X | |
+
+\* Indicates support for tone analysis; see [Tone analytics (Classifications)](/docs/natural-language-understanding?topic=natural-language-understanding-tone_analytics) for more information.
 
 ## German
 {: #german}
 
-<table>
-  <thead>
-    <tr>
-      <th>
-        Feature
-      </th>
-      <th>
-        Standard support
-      </th>
-      <th>
-        <a href="/docs/natural-language-understanding?topic=natural-language-understanding-customizing">Custom model</a> support
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Categories</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Classifications</td>
-      <td></td>
-      <td>X</td>
-    </tr>
-    <tr>
-      <td>Concepts</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Emotion</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Entities</td>
-      <td>X</td>
-      <td>X</td>
-    </tr>
-    <tr>
-      <td>Keywords</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Metadata</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Relations</td>
-      <td>X</td>
-      <td>X</td>
-    </tr>
-    <tr>
-      <td>Semantic Roles</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Sentiment</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Syntax</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-  </tbody>
-</table>
+| Feature | Standard Support | [Custom model](/docs/natural-language-understanding?topic=natural-language-understanding-customizing) support |
+| --- | --- | --- |
+| Categories | X | |
+| Classifications | | X |
+| Concepts | X | |
+| Emotion | | |
+| Entities | X | X |
+| Keywords | X | |
+| Metadata | X | |
+| Relations | X | X |
+| Semantic roles | X | |
+| Sentiment | X | X |
+| Syntax | X | |
 
 ## Hebrew
 {: #hebrew}
 
-<table>
-  <thead>
-    <tr>
-      <th>
-        Feature
-      </th>
-      <th>
-        Standard support
-      </th>
-      <th>
-        <a href="/docs/natural-language-understanding?topic=natural-language-understanding-customizing">Custom model</a> support
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Categories</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Classifications</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Concepts</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Emotion</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Entities</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Keywords</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Metadata</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Relations</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Semantic Roles</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Sentiment</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Syntax</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-  </tbody>
-</table>
+| Feature | Standard Support | [Custom model](/docs/natural-language-understanding?topic=natural-language-understanding-customizing) support |
+| --- | --- | --- |
+| Categories | | |
+| Classifications | | |
+| Concepts | | |
+| Emotion | | |
+| Entities | | |
+| Keywords | X | |
+| Metadata | | |
+| Relations | | |
+| Semantic roles | | |
+| Sentiment | | |
+| Syntax | X | |
 
 ## Hindi
 {: #hindi}
 
-<table>
-  <thead>
-    <tr>
-      <th>
-        Feature
-      </th>
-      <th>
-        Standard support
-      </th>
-      <th>
-        <a href="/docs/natural-language-understanding?topic=natural-language-understanding-customizing">Custom model</a> support
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Categories</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Classifications</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Concepts</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Emotion</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Entities</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Keywords</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Metadata</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Relations</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Semantic Roles</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Sentiment</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Syntax</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-  </tbody>
-</table>
+| Feature | Standard Support | [Custom model](/docs/natural-language-understanding?topic=natural-language-understanding-customizing) support |
+| --- | --- | --- |
+| Categories | | |
+| Classifications | | |
+| Concepts | | |
+| Emotion | | |
+| Entities | | |
+| Keywords | X | |
+| Metadata | | |
+| Relations | | |
+| Semantic roles | | |
+| Sentiment | | |
+| Syntax | X | |
 
 ## Italian
 {: #italian}
 
-<table>
-  <thead>
-    <tr>
-      <th>
-        Feature
-      </th>
-      <th>
-        Standard support
-      </th>
-      <th>
-        <a href="/docs/natural-language-understanding?topic=natural-language-understanding-customizing">Custom model</a> support
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Categories</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Classifications</td>
-      <td></td>
-      <td>X</td>
-    </tr>
-    <tr>
-      <td>Concepts</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Emotion</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Entities</td>
-      <td>X</td>
-      <td>X</td>
-    </tr>
-    <tr>
-      <td>Keywords</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Metadata</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Relations</td>
-      <td>X</td>
-      <td>X</td>
-    </tr>
-    <tr>
-      <td>Semantic Roles</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Sentiment</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Syntax</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-  </tbody>
-</table>
+| Feature | Standard Support | [Custom model](/docs/natural-language-understanding?topic=natural-language-understanding-customizing) support |
+| --- | --- | --- |
+| Categories | X | |
+| Classifications | | X |
+| Concepts | X | |
+| Emotion | | |
+| Entities | X | X |
+| Keywords | X | |
+| Metadata | X | |
+| Relations | X | X |
+| Semantic roles | | |
+| Sentiment | X | |
+| Syntax | X | |
 
 ## Japanese
 {: #japanese}
 
-<table>
-  <thead>
-    <tr>
-      <th>
-        Feature
-      </th>
-      <th>
-        Standard support
-      </th>
-      <th>
-        <a href="/docs/natural-language-understanding?topic=natural-language-understanding-customizing">Custom model</a> support
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Categories</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Classifications</td>
-      <td></td>
-      <td>X</td>
-    </tr>
-    <tr>
-      <td>Concepts</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Emotion</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Entities</td>
-      <td>X</td>
-      <td>X</td>
-    </tr>
-    <tr>
-      <td>Keywords</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Metadata</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Relations</td>
-      <td>X</td>
-      <td>X</td>
-    </tr>
-    <tr>
-      <td>Semantic Roles</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Sentiment</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Syntax</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-  </tbody>
-</table>
+| Feature | Standard Support | [Custom model](/docs/natural-language-understanding?topic=natural-language-understanding-customizing) support |
+| --- | --- | --- |
+| Categories | X | |
+| Classifications | | X |
+| Concepts | X | |
+| Emotion | | |
+| Entities | X | X |
+| Keywords | X | |
+| Metadata | X | |
+| Relations | X | X |
+| Semantic roles | X | |
+| Sentiment | X | X |
+| Syntax | X | |
 
 ## Korean
 {: #korean}
 
-<table>
-  <thead>
-    <tr>
-      <th>
-        Feature
-      </th>
-      <th>
-        Standard support
-      </th>
-      <th>
-        <a href="/docs/natural-language-understanding?topic=natural-language-understanding-customizing">Custom model</a> support
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Categories</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Classifications</td>
-      <td></td>
-      <td>X</td>
-    </tr>
-    <tr>
-      <td>Concepts</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Emotion</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Entities</td>
-      <td>X</td>
-      <td>X</td>
-    </tr>
-    <tr>
-      <td>Keywords</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Metadata</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Relations</td>
-      <td>X</td>
-      <td>X</td>
-    </tr>
-    <tr>
-      <td>Semantic Roles</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Sentiment</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Syntax</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-  </tbody>
-</table>
+| Feature | Standard Support | [Custom model](/docs/natural-language-understanding?topic=natural-language-understanding-customizing) support |
+| --- | --- | --- |
+| Categories | X | |
+| Classifications | | X |
+| Concepts | X | |
+| Emotion | | |
+| Entities | X | X |
+| Keywords | X | |
+| Metadata | X | |
+| Relations | X | X |
+| Semantic roles | X | |
+| Sentiment | X | |
+| Syntax | X | |
 
 ## Norwegian
 {: #norwegian}
@@ -1075,78 +312,19 @@ The targeted sentiment option for entities is not supported for Arabic text.
 Please note that {{site.data.keyword.nlushort}} considers Norwegian (standard language code `no`) as equivalent to Norwegian-Bokmal (standard language code `nb`), and uses the same Norwegian-Bokmal model for both language codes.
 {: note}
 
-<table>
-  <thead>
-    <tr>
-      <th>
-        Feature
-      </th>
-      <th>
-        Standard support
-      </th>
-      <th>
-        <a href="/docs/natural-language-understanding?topic=natural-language-understanding-customizing">Custom model</a> support
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Categories</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Classifications</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Concepts</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Emotion</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Entities</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Keywords</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Metadata</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Relations</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Semantic Roles</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Sentiment</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Syntax</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-  </tbody>
-</table>
+| Feature | Standard Support | [Custom model](/docs/natural-language-understanding?topic=natural-language-understanding-customizing) support |
+| --- | --- | --- |
+| Categories | | |
+| Classifications | | |
+| Concepts | | |
+| Emotion | | |
+| Entities | | |
+| Keywords | X | |
+| Metadata | | |
+| Relations | | |
+| Semantic roles | | |
+| Sentiment | | |
+| Syntax | X | |
 
 ## Norwegian (Bokmal)
 {: #norwegian-bokmal}
@@ -1154,763 +332,173 @@ Please note that {{site.data.keyword.nlushort}} considers Norwegian (standard la
 Please note that {{site.data.keyword.nlushort}} considers Norwegian (standard language code `no`) as equivalent to Norwegian-Bokmal (standard language code `nb`), and uses the same Norwegian-Bokmal model for both language codes.
 {: note}
 
-<table>
-  <thead>
-    <tr>
-      <th>
-        Feature
-      </th>
-      <th>
-        Standard support
-      </th>
-      <th>
-        <a href="/docs/natural-language-understanding?topic=natural-language-understanding-customizing">Custom model</a> support
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Categories</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Classifications</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Concepts</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Emotion</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Entities</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Keywords</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Metadata</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Relations</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Semantic Roles</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Sentiment</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Syntax</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-  </tbody>
-</table>
+| Feature | Standard Support | [Custom model](/docs/natural-language-understanding?topic=natural-language-understanding-customizing) support |
+| --- | --- | --- |
+| Categories | | |
+| Classifications | | |
+| Concepts | | |
+| Emotion | | |
+| Entities | | |
+| Keywords | X | |
+| Metadata | | |
+| Relations | | |
+| Semantic roles | | |
+| Sentiment | | |
+| Syntax | X | |
 
 ## Norwegian (Nyorsk)
 {: #norwegian-nyorsk}
 
-<table>
-  <thead>
-    <tr>
-      <th>
-        Feature
-      </th>
-      <th>
-        Standard support
-      </th>
-      <th>
-        <a href="/docs/natural-language-understanding?topic=natural-language-understanding-customizing">Custom model</a> support
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Categories</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Classifications</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Concepts</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Emotion</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Entities</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Keywords</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Metadata</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Relations</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Semantic Roles</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Sentiment</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Syntax</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-  </tbody>
-</table>
+| Feature | Standard Support | [Custom model](/docs/natural-language-understanding?topic=natural-language-understanding-customizing) support |
+| --- | --- | --- |
+| Categories | | |
+| Classifications | | |
+| Concepts | | |
+| Emotion | | |
+| Entities | | |
+| Keywords | X | |
+| Metadata | | |
+| Relations | | |
+| Semantic roles | | |
+| Sentiment | | |
+| Syntax | X | |
 
 ## Polish
 {: #polish}
 
-<table>
-  <thead>
-    <tr>
-      <th>
-        Feature
-      </th>
-      <th>
-        Standard support
-      </th>
-      <th>
-        <a href="/docs/natural-language-understanding?topic=natural-language-understanding-customizing">Custom model</a> support
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Categories</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Classifications</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Concepts</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Emotion</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Entities</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Keywords</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Metadata</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Relations</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Semantic Roles</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Sentiment</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Syntax</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-  </tbody>
-</table>
+| Feature | Standard Support | [Custom model](/docs/natural-language-understanding?topic=natural-language-understanding-customizing) support |
+| --- | --- | --- |
+| Categories | | |
+| Classifications | | |
+| Concepts | | |
+| Emotion | | |
+| Entities | | |
+| Keywords | X | |
+| Metadata | | |
+| Relations | | |
+| Semantic roles | | |
+| Sentiment | | |
+| Syntax | X | |
 
 ## Portuguese
 {: #portuguese}
 
-<table>
-  <thead>
-    <tr>
-      <th>
-        Feature
-      </th>
-      <th>
-        Standard support
-      </th>
-      <th>
-        <a href="/docs/natural-language-understanding?topic=natural-language-understanding-customizing">Custom model</a> support
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Categories</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Classifications</td>
-      <td></td>
-      <td>X</td>
-    </tr>
-    <tr>
-      <td>Concepts</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Emotion</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Entities</td>
-      <td>X</td>
-      <td>X</td>
-    </tr>
-    <tr>
-      <td>Keywords</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Metadata</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Relations</td>
-      <td>X</td>
-      <td>X</td>
-    </tr>
-    <tr>
-      <td>Semantic Roles</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Sentiment</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Syntax</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-  </tbody>
-</table>
+| Feature | Standard Support | [Custom model](/docs/natural-language-understanding?topic=natural-language-understanding-customizing) support |
+| --- | --- | --- |
+| Categories | X | |
+| Classifications | | X |
+| Concepts | X | |
+| Emotion | | |
+| Entities | X | X |
+| Keywords | X | |
+| Metadata | X | |
+| Relations | X | X |
+| Semantic roles | | |
+| Sentiment | X | |
+| Syntax | X | |
 
 ## Romanian
 {: #romanian}
 
-<table>
-  <thead>
-    <tr>
-      <th>
-        Feature
-      </th>
-      <th>
-        Standard support
-      </th>
-      <th>
-        <a href="/docs/natural-language-understanding?topic=natural-language-understanding-customizing">Custom model</a> support
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Categories</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Classifications</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Concepts</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Emotion</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Entities</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Keywords</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Metadata</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Relations</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Semantic Roles</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Sentiment</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Syntax</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-  </tbody>
-</table>
+| Feature | Standard Support | [Custom model](/docs/natural-language-understanding?topic=natural-language-understanding-customizing) support |
+| --- | --- | --- |
+| Categories | | |
+| Classifications | | |
+| Concepts | | |
+| Emotion | | |
+| Entities | | |
+| Keywords | X | |
+| Metadata | | |
+| Relations | | |
+| Semantic roles | | |
+| Sentiment | | |
+| Syntax | X | |
 
 ## Russian
 {: #russian}
 
-<table>
-  <thead>
-    <tr>
-      <th>
-        Feature
-      </th>
-      <th>
-        Standard support
-      </th>
-      <th>
-        <a href="/docs/natural-language-understanding?topic=natural-language-understanding-customizing">Custom model</a> support
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Categories</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Classifications</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Concepts</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Emotion</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Entities</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Keywords</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Metadata</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Relations</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Semantic Roles</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Sentiment</td>
-      <td>X&ast;</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Syntax</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-  </tbody>
-</table>
+| Feature | Standard Support | [Custom model](/docs/natural-language-understanding?topic=natural-language-understanding-customizing) support |
+| --- | --- | --- |
+| Categories | | |
+| Classifications | | |
+| Concepts | | |
+| Emotion | | |
+| Entities | X | |
+| Keywords | X | |
+| Metadata | X | |
+| Relations | | |
+| Semantic roles | | |
+| Sentiment | X* | |
+| Syntax | X | |
 
-&ast; Sentiment detection for this language works best on social media based data, like tweets. Further accuracy improvements are planned in the near future.
+\* Sentiment detection for this language works best on social media based data, like tweets. Further accuracy improvements are planned in the near future.
 
 The targeted sentiment option for keywords is not supported for Russian text.
 
 ## Slovak
 {: #slovak}
 
-<table>
-  <thead>
-    <tr>
-      <th>
-        Feature
-      </th>
-      <th>
-        Standard support
-      </th>
-      <th>
-        <a href="/docs/natural-language-understanding?topic=natural-language-understanding-customizing">Custom model</a> support
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Categories</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Classifications</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Concepts</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Emotion</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Entities</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Keywords</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Metadata</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Relations</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Semantic Roles</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Sentiment</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Syntax</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-  </tbody>
-</table>
+| Feature | Standard Support | [Custom model](/docs/natural-language-understanding?topic=natural-language-understanding-customizing) support |
+| --- | --- | --- |
+| Categories | | |
+| Classifications | | |
+| Concepts | | |
+| Emotion | | |
+| Entities | | |
+| Keywords | X | |
+| Metadata | | |
+| Relations | | |
+| Semantic roles | | |
+| Sentiment | | |
+| Syntax | X | |
 
 ## Spanish
 {: #spanish}
 
-<table>
-  <thead>
-    <tr>
-      <th>
-        Feature
-      </th>
-      <th>
-        Standard support
-      </th>
-      <th>
-        <a href="/docs/natural-language-understanding?topic=natural-language-understanding-customizing">Custom model</a> support
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Categories</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Classifications</td>
-      <td></td>
-      <td>X</td>
-    </tr>
-    <tr>
-      <td>Concepts</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Emotion</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Entities</td>
-      <td>X</td>
-      <td>X</td>
-    </tr>
-    <tr>
-      <td>Keywords</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Metadata</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Relations</td>
-      <td>X</td>
-      <td>X</td>
-    </tr>
-    <tr>
-      <td>Semantic Roles</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Sentiment</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Syntax</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-  </tbody>
-</table>
+| Feature | Standard Support | [Custom model](/docs/natural-language-understanding?topic=natural-language-understanding-customizing) support |
+| --- | --- | --- |
+| Categories | X | |
+| Classifications | | X |
+| Concepts | X | |
+| Emotion | | |
+| Entities | X | X |
+| Keywords | X | |
+| Metadata | X | |
+| Relations | X | X |
+| Semantic roles | X | |
+| Sentiment | X | |
+| Syntax | X | |
 
 ## Swedish
 {: #swedish}
 
-<table>
-  <thead>
-    <tr>
-      <th>
-        Feature
-      </th>
-      <th>
-        Standard support
-      </th>
-      <th>
-        <a href="/docs/natural-language-understanding?topic=natural-language-understanding-customizing">Custom model</a> support
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Categories</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Classifications</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Concepts</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Emotion</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Entities</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Keywords</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Metadata</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Relations</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Semantic Roles</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Sentiment</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Syntax</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-  </tbody>
-</table>
+| Feature | Standard Support | [Custom model](/docs/natural-language-understanding?topic=natural-language-understanding-customizing) support |
+| --- | --- | --- |
+| Categories | | |
+| Classifications | | |
+| Concepts | | |
+| Emotion | | |
+| Entities | X | |
+| Keywords | X | |
+| Metadata | X | |
+| Relations | | |
+| Semantic roles | | |
+| Sentiment | | |
+| Syntax | X | |
 
 ## Turkish
 {: #turkish}
 
-<table>
-  <thead>
-    <tr>
-      <th>
-        Feature
-      </th>
-      <th>
-        Standard support
-      </th>
-      <th>
-        <a href="/docs/natural-language-understanding?topic=natural-language-understanding-customizing">Custom model</a> support
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Categories</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Classifications</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Concepts</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Emotion</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Entities</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Keywords</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Metadata</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Relations</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Semantic Roles</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Sentiment</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Syntax</td>
-      <td>X</td>
-      <td></td>
-    </tr>
-  </tbody>
-</table>
+| Feature | Standard Support | [Custom model](/docs/natural-language-understanding?topic=natural-language-understanding-customizing) support |
+| --- | --- | --- |
+| Categories | | |
+| Classifications | | |
+| Concepts | | |
+| Emotion | | |
+| Entities | | |
+| Keywords | X | |
+| Metadata | | |
+| Relations | | |
+| Semantic roles | | |
+| Sentiment | | |
+| Syntax | X | |
