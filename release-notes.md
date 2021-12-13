@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2021
-lastupdated: "2021-11-09"
+lastupdated: "2021-12-13"
 
 subcollection: natural-language-understanding
 
@@ -34,7 +34,6 @@ The following table shows the service behavior changes for each version date. Sw
 
 |Version date|Changes summary|
 |---|---|
-|[`2021-10-12`](#natural-language-understanding-oct1221)| <li>Additional languages supported for keywords and syntax.</li>|
 |[`2021-08-15`](#natural-language-understanding-aug1521)| <li>Classifications GA and Categories type system Version 2 features.</li>|
 |[`2021-03-25`](#natural-language-understanding-mar2521)| <li>Custom categories (beta) and custom classifications (beta) features.</li>|
 |[`2020-12-09`](#natural-language-understanding-dec0920)| <li>Version 2 English entity type system.</li>|
@@ -49,6 +48,12 @@ The following table shows the service behavior changes for each version date. Sw
 
 ## Changes
 {: #changes}
+
+### 1 December 2021
+{: #natural-language-understanding-dec1201}
+{: release-note}
+
+- [Tone analytics](/docs/natural-language-understanding?topic=natural-language-understanding-tone_analytics) is now available, for English and French languages only. The tone analytics feature detects `excited`, `frustrated`, `impolite`, `polite`, `sad`, `satisfied`, and `sympathetic` tones from text.
 
 ### 12 October 2021
 {: #natural-language-understanding-oct1221}
