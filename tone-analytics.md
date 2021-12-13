@@ -62,7 +62,7 @@ The language-specific tone model ID is formatted as `tone-classifications-xx-v1`
     curl --request POST \
     --header "Content-Type: application/json" \
     --user "apikey":"{apikey}" \
-    "{url}/v1/analyze?version=2021-12-01" \
+    "{url}/v1/analyze?version=2021-08-01" \
     --data @parameters.json
     ```
 
