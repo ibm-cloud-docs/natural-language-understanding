@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2021
-lastupdated: "2021-11-10"
+  years: 2015, 2022
+lastupdated: "2022-01-25"
 
 subcollection: natural-language-understanding
 
@@ -72,7 +72,7 @@ Headers are not expected for the CSV file.
 - `text` consists of the training examples and `labels` consists of 1 or more labels associated with an example.
 - `labels` are case-sensitive
 - Minimum number of unique labels required: `2`
-- Maximum number of unique labels allowed: `1000`
+- Maximum number of unique labels allowed: `3000`
 - Minimum number of examples required per label: `5`
 - Maximum size of each example (training and predict): `2000` [codepoints](https://en.wikipedia.org/wiki/Code_point)
 - Maximum number of examples: `20000`
