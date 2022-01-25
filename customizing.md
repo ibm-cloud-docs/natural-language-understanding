@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2021
-lastupdated: "2021-07-27"
+  years: 2015, 2022
+lastupdated: "2022-01-25"
 
 subcollection: natural-language-understanding
 
@@ -49,3 +49,8 @@ Check the *Custom model support* columns in the tables on the [Language support]
 {: #targeted-sentiment-for-custom-entities}
 
 For English only, you can get sentiment scores for each custom model entity that is detected by the service by setting the `sentiment: true` option in the entities object. No other languages support targeted sentiment for custom model entities.
+
+## Usage restrictions for custom models
+{: #usage-restrictions-for-custom-models}
+
+The maximum number of models that can be trained via the {{site.data.keyword.nlushort}} customization API in parallel is 3.
