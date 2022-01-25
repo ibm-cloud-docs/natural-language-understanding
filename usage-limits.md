@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2020
-lastupdated: "2020-10-29"
+  years: 2015, 2022
+lastupdated: "2022-01-25"
 
 subcollection: natural-language-understanding
 
@@ -50,6 +50,11 @@ Example parameters object:
 Each {{site.data.keyword.nlushort}} service instance is limited, based on the number of requests being processed. For the Lite plan, the limit is 5 requests per second; for the Standard plan, the limit is 150 requests per second. Requests exceeding these limits may receive a `429: Too Many Requests` error.
 
 The limit for the Standard plan can be increased by [opening a support ticket](https://ibm.biz/ibmcloudsupport).
+
+## Custom model training limit
+{: custom-model-training-limit}
+
+The maximum number of models that can be trained via the {{site.data.keyword.nlushort}} customization API in parallel is 3.
 
 ## Custom model size limit for Lite pricing plans
 {: #custom-models}
