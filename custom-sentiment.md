@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2021
-lastupdated: "2021-02-12"
+  years: 2015, 2022
+lastupdated: "2022-01-26"
 
 subcollection: natural-language-understanding
 
@@ -52,9 +52,9 @@ Each row of the CSV file contains a text sample under the `doc` column and a sen
 - Two columns with headers must be included
   - `doc` column that contains sample text phrases
   - `label` column that contains at least one sample for each one of the following sentiment labels:
-    - `negative`
-    - `neutral`
-    - `positive`
+        - `negative`
+        - `neutral`
+        - `positive`
 
 ## Training a custom sentiment model
 {: #training-a-custom-sentiment-model}
