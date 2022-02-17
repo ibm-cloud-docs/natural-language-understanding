@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2021
-lastupdated: "2021-12-06"
+lastupdated: "2022-02-17"
 
 subcollection: natural-language-understanding
 
@@ -193,7 +193,7 @@ The targeted sentiment option for entities is not supported for Arabic text.
 | Categories | X | |
 | Classifications | X* | X |
 | Concepts | X | |
-| Emotion | | |
+| Emotion | X | |
 | Entities | X | X |
 | Keywords | X | |
 | Metadata | X | |
