@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2021
-lastupdated: "2021-12-13"
+  years: 2015, 2022
+lastupdated: "2022-02-17"
 
 subcollection: natural-language-understanding
 
@@ -48,6 +48,16 @@ The following table shows the service behavior changes for each version date. Sw
 
 ## Changes
 {: #changes}
+
+### 14 February 2022
+{: #natural-language-understanding-feb1422}
+{: release-note}
+
+- Support for emotion is now available, for all public service instances, for French. For details, see [Language support](/docs/natural-language-understanding?topic=natural-language-understanding-language-support).
+- Improved error handling and validation for emotion:
+    - If a request contains both an error in the emotion feature and a valid feature request for another feature, the response will return a 200 with a warning for the emotion feature.
+    - The error log has been changed from `emotion request must specify at least one of: document, targets` to `emotion request must specify at least one of: document or targets`.
+    - Requests that include the emotion feature with any non-string elements in the targets list will return an error.
 
 ### 1 December 2021
 {: #natural-language-understanding-dec1201}
