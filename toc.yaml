@@ -2,6 +2,7 @@
 toc:
   properties:
     subcollection: natural-language-understanding
+    service-name: natural-language-understanding
     version: 2
     category: ai
     audience: service
