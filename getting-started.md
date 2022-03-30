@@ -42,7 +42,7 @@ Watch the following video for a visual summary of getting started with the {{sit
 {: #before-you-begin}
 
 - Create an instance of the service:
-    1.  Go to the [{{site.data.keyword.nlushort}}](https://{DomainName}/catalog/natural-language-understanding){: external} page in the {{site.data.keyword.cloud_notm}} catalog.
+    1.  Go to the [{{site.data.keyword.nlushort}}](https://cloud.ibm.com/catalog/services/natural-language-understanding){: external} page in the {{site.data.keyword.cloud_notm}} catalog.
     1.  Sign up for a free {{site.data.keyword.cloud_notm}} account or log in.
     1.  Click **Create**.
 - Copy the credentials to authenticate to your service instance:
@@ -131,5 +131,5 @@ curl -X POST -u "apikey:{apikey}" --header "Content-Type: application/json" --da
 ## Next steps
 {: #next-steps}
 
-- View the [API reference](https://{DomainName}/apidocs/natural-language-understanding){: external}.
+- View the [API reference](https://cloud.ibm.com/apidocs/natural-language-understanding){: external}.
 - Learn how to identify [custom entities and relations](/docs/natural-language-understanding?topic=natural-language-understanding-customizing).
