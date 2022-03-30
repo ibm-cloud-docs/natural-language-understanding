@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2021
-lastupdated: "2021-09-30"
+  years: 2015, 2022
+lastupdated: "2022-03-30"
 
 keywords: natural language understanding,getting started,analyze content,analyze text,text analysis
 
