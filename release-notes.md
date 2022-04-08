@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2022
-lastupdated: "2022-03-28"
+lastupdated: "2022-04-07"
 
 subcollection: natural-language-understanding
 
@@ -22,7 +22,7 @@ The following new features and changes to the service are available.
 {: #service-api-versioning}
 {: release-note}
 
-**Current API version**: 2021-08-15
+**Current API version**: 2022-04-07
 
 API requests require a version parameter that takes the date in the format `version=YYYY-MM-DD`. Send the version parameter with every API request.
 
@@ -36,6 +36,7 @@ The following table shows the service behavior changes for each version date. Sw
 
 |Version date|Changes summary|
 |---|---|
+|[`2022-04-07`](#natural-language-understanding-apr0722)| <li>Bug fix for Version 2 Categories type system.</li>|
 |[`2021-08-15`](#natural-language-understanding-aug1521)| <li>Classifications GA and Categories type system Version 2 features.</li>|
 |[`2021-03-25`](#natural-language-understanding-mar2521)| <li>Custom categories (beta) and custom classifications (beta) features.</li>|
 |[`2020-12-09`](#natural-language-understanding-dec0920)| <li>Version 2 English entity type system.</li>|
@@ -47,6 +48,13 @@ The following table shows the service behavior changes for each version date. Sw
 |[`2018-09-21`](#natural-language-understanding-sep2118)| <li>Version 2 Portuguese entity type system.</li>|
 |[`2018-03-16`](#natural-language-understanding-mar1618)| <li>Version 2 French entity type system.</li><li>Version 2 German entity type system.</li>|
 |[`2017-02-27`](#natural-language-understanding-feb2717)| Base version.|
+
+## 7 April 2022
+{: #natural-language-understanding-apr0722}
+{: release-note}
+
+Categories bug fix
+:   Fixed a bug in the Version 2 Categories type system.
 
 ## 14 February 2022
 {: #natural-language-understanding-feb1422}
