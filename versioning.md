@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019, 2020
-lastupdated: "2020-12-17"
+  years: 2019, 2022
+lastupdated: "2022-04-07"
 
 subcollection: natural-language-understanding
 
@@ -22,7 +22,7 @@ subcollection: natural-language-understanding
 # Versioning
 {: #versioning}
 
-**Current API version**: 2020-12-09
+**Current API version**: 2022-04-07
 
 API requests require a version parameter that takes the date in the format `version=YYYY-MM-DD`. Send the version parameter with every API request.
 
@@ -48,6 +48,7 @@ The following table shows the service behavior changes for each version date. Sw
 
 |Version date|Changes summary|Retirement date|
 |---|---|---|
+|[`2022-04-07`](/docs/natural-language-understanding?topic=natural-language-understanding-release-notes#natural-language-understanding-apr0722)| <li>Bug fix for Version 2 Categories type system.</li>|
 |[`2020-12-09`](/docs/natural-language-understanding?topic=natural-language-understanding-release-notes#9-december-2020)| <li>Version 2 English entity type system.</li>|   |
 |[`2020-12-02`](/docs/natural-language-understanding?topic=natural-language-understanding-release-notes#2-december-2020)| <li>Version 2 Korean entity type system.</li><li>Version 2 Spanish entity type system.</li>|   |
 |[`2020-08-01`](/docs/natural-language-understanding?topic=natural-language-understanding-release-notes#1-august-2020)| <li>Taxonomy changes aimed towards standardization of the label names in the default taxonomy.</li>|December 2, 2021|
