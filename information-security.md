@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2020
-lastupdated: "2020-04-17"
+  years: 2015, 2022
+lastupdated: "2022-04-19"
 
 subcollection: natural-language-understanding
 
@@ -46,7 +46,7 @@ Learn more about IBM's own GDPR readiness journey and our GDPR capabilities and 
 ## Health Insurance Portability and Accountability Act (HIPAA)
 {: #hipaa}
 
-US Health Insurance Portability and Accountability Act (HIPAA) support is available for Premium plans in the Washington, DC location created on or after 1 April 2019. See [Enabling EU and HIPAA supported settings](/docs/account?topic=account-eu-hipaa-supported#eu-hipaa-supported){: external} for more information.
+US Health Insurance Portability and Accountability Act (HIPAA) support is available for Premium plans in the Washington, DC location created on or after 1 April 2019. See [Enabling EU and HIPAA supported settings](/docs/account?topic=account-enabling-hipaa){: external} for more information.
 
 ## Labeling and deleting data in Natural Language Understanding
 {: #gdpr-in-service}
