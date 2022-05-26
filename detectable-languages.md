@@ -94,7 +94,7 @@ The following table lists the detectable languages and corresponding ISO 639-1 c
 |Polish|pl|
 |Portuguese|pt|
 |Punjabi|pa|
-|Pushto|ps|
+|Pashto|ps|
 |Romanian|ro|
 |Russian|ru|
 |Scots Gaelic|gd|

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2022
-lastupdated: "2022-04-07"
+lastupdated: "2022-05-26"
 
 subcollection: natural-language-understanding
 
@@ -26,13 +26,13 @@ The following new features and changes to the service are available.
 
 API requests require a version parameter that takes the date in the format `version=YYYY-MM-DD`. Send the version parameter with every API request.
 
-When we change the API in a backwards-incompatible way, we release a new minor version. To take advantage of the changes in a new version, change the value of the version parameter to the new date. If you're not ready to update to that version, don't change your version date.
+When IBM changes the API in a backwards-incompatible way, a new minor version is released. To take advantage of the changes in a new version, change the value of the version parameter to the new date. If you're not ready to update to that version, don't change your version date.
 
 ### Active version dates
 {: #active-version-dates}
 {: release-note}
 
-The following table shows the service behavior changes for each version date. Switching to a later version date will activate all changes introduced in earlier versions.
+The following table shows the service behavior changes for each version date. Switching to a later version date activates all changes that are introduced in earlier versions.
 
 |Version date|Changes summary|
 |---|---|
@@ -41,7 +41,7 @@ The following table shows the service behavior changes for each version date. Sw
 |[`2021-03-25`](#natural-language-understanding-mar2521)| <li>Custom categories (beta) and custom classifications (beta) features.</li>|
 |[`2020-12-09`](#natural-language-understanding-dec0920)| <li>Version 2 English entity type system.</li>|
 |[`2020-12-02`](#natural-language-understanding-dec0220)| <li>Version 2 Korean entity type system.</li><li>Version 2 Spanish entity type system.</li>|
-|[`2020-08-01`](#natural-language-understanding-aug0120)| <li>Taxonomy changes aimed towards standardization of the label names in the default taxonomy.</li>|
+|[`2020-08-01`](#natural-language-understanding-aug0120)| <li>Taxonomy changes aimed toward standardization of the label names in the default taxonomy.</li>|
 |[`2019-07-12`](#natural-language-understanding-jul1219)| <li>New English entities model with improved accuracy and confidence scores.</li>|
 |[`2019-06-04`](#natural-language-understanding-jun0419)| <li>Fixed a bug that caused entities requests with custom models to ignore the `limit` option.</li><li>The default `limit` value for all entities requests is now 50 for all models.</li><li>The maximum `limit` value of 250 entities has been removed.</li>|
 |[`2018-11-16`](#natural-language-understanding-nov1618)| <li>Version 2 Italian entity type system.</li>|
@@ -64,9 +64,9 @@ Emotion support
 :   Support for emotion is now available, for all public service instances, for French. For details, see [Language support](/docs/natural-language-understanding?topic=natural-language-understanding-language-support).
 
 Improved error handling and validation for emotion
-:   If a request contains both an error in the emotion feature and a valid feature request for another feature, the response will return a 200 with a warning for the emotion feature.
-:   The error log has been changed from `emotion request must specify at least one of: document, targets` to `emotion request must specify at least one of: document or targets`.
-:   Requests that include the emotion feature with any non-string elements in the targets list will return an error.
+:   If a request contains both an error in the emotion feature and a valid feature request for another feature, the response returns a 200 with a warning for the emotion feature.
+:   The error log has changed from `emotion request must specify at least one of: document, targets` to `emotion request must specify at least one of: document or targets`.
+:   Requests that include the emotion feature with any nonstring elements in the targets list returns an error.
 
 ## 1 December 2021
 {: #natural-language-understanding-dec0121}
@@ -104,7 +104,7 @@ Advanced Rules beta feature deprecated
 {: release-note}
 
 Custom classifications beta feature
-:   The [custom classifications (Beta)](/docs/natural-language-understanding?topic=natural-language-understanding-classifications) feature allows you to train a multi-label text classifier (English-only) using your own labeled data.
+:   The [custom classifications (Beta)](/docs/natural-language-understanding?topic=natural-language-understanding-classifications) feature allows you to train a multi-label text classifier (English-only) by using your own labeled data.
 
 ## 18 February 2021
 {: #natural-language-understanding-feb1821}
@@ -151,7 +151,7 @@ Keyword support for additional languages
 :   Support for keywords is now available, for all public and premium service instances, for the following languages: Czech, Danish, Finnish, Hebrew, Norwegian, Norwegian-Bokmal, Norwegian-Nynorsk, Polish, and Slovak. For details, see [Language support](/docs/natural-language-understanding?topic=natural-language-understanding-language-support).
 
 Improved keyword support for Russian and Swedish
-:   The code used for keyword support for Russian and Swedish has been improved, so different, higher quality results are expected.
+:   The code that is used for keyword support for Russian and Swedish has been improved, so different, higher quality results are expected.
 
 ## September 2020
 {: #natural-language-understanding-sep20}
@@ -248,7 +248,7 @@ Error response format change for advanced rules model endpoints (Beta)
 {: release-note}
 
 Enhanced sentiment analysis for English
-:   Enhanced English sentiment analysis to better identify and understand idioms in text. For more information on this update and other upcoming changes, see the [{{site.data.keyword.IBM_notm}} News Room announcement](https://newsroom.ibm.com/2020-03-11-IBM-Advances-Watsons-Ability-to-Understand-the-Language-of-Business,1).
+:   Enhanced English sentiment analysis to better identify and understand idioms in text.
 
 ## December 2019
 {: #natural-language-understanding-dec19}
@@ -811,7 +811,7 @@ Korean language support improved
 {: release-note}
 
 Limit number of characters processed
-:   You can control cost by using the optional `limit_text_characters` parameter to limit the number of characters that are processed. For example:
+:   You can control cost by using the optional `limit_text_characters` parameter to limit the number of characters that are processed. For example,
 
 ```bash
 {
@@ -832,13 +832,13 @@ Limit number of characters processed
 
 In addition to adding the `limit_text_characters` parameter, the following changes were made to text size limits and truncation:
 
-- All text greater than 50,000 characters will be truncated before processing. Previously, truncation was based on kilobytes, where one kilobyte equaled 1024 bytes.
+- All text greater than 50,000 characters is truncated before processing. Previously, truncation was based on kilobytes, where one kilobyte equaled 1024 bytes.
 
 - An informational message is returned in the response when text beyond 50,000 characters is truncated.
 
-- Text limit size for custom models has been bumped from 10,000 characters to 50,000 characters.
+- Text limit size for custom models has increased from 10,000 characters to 50,000 characters.
 
-- Usage information is added to the response for clarity around number of {{site.data.keyword.nlushort}} Items used for each request. For example:
+- Usage information is added to the response for clarity around number of {{site.data.keyword.nlushort}} Items used for each request. For example,
 
 ```bash
 {
@@ -856,7 +856,7 @@ In addition to adding the `limit_text_characters` parameter, the following chang
 {: release-note}
 
 Emotion tone score updates
-:   Updated the emotion tone score model. The training dataset was expanded and feature engineering was altered and as a result, the model has higher precision on our benchmark dataset.
+:   Updated the emotion tone score model. The training data set was expanded and feature engineering was altered and as a result, the model has higher precision on the IBM benchmark data set.
 
 ## March 2017
 {: #natural-language-understanding-mar17}
@@ -866,15 +866,15 @@ Emotion tone score updates
 {: release-note}
 
 Model improvements
-:   The entity and sentiment models have been improved, which means that when you call those features, you'll get better results.
-:   Relations now supports {{site.data.keyword.knowledgestudioshort}} custom models in French, German, Italian, and Portuguese.
+:   The entity and sentiment models have been improved, which means that when you call those features, you will get better results.
+:   Relations now support {{site.data.keyword.knowledgestudioshort}} custom models in French, German, Italian, and Portuguese.
 
 ### 15 March 2017
 {: #natural-language-understanding-mar1517}
 {: release-note}
 
 Emotion tone score updated
-:   We released updates to the emotion tone score model. The training dataset was expanded and as a result, the model has higher precision on our benchmark dataset.
+:   We released updates to the emotion tone score model. The training data set was expanded and as a result, the model has higher precision on the IBM benchmark data set.
 
 ## 27 February 2017
 {: #natural-language-understanding-feb2717}

@@ -57,7 +57,6 @@ subcollection: natural-language-understanding
 ## Blogs
 {: #blogs}
 
-- [Box and IBM Watson unveil new skills to power intelligent enterprise cloud content management](https://www.ibm.com/blogs/watson/2018/06/box-and-ibm-watson-unveil-new-skills-to-power-intelligent-enterprise-cloud-content-management/)
 - [Helvetia Seguros launches Watson-powered virtual assistant to support sales staff](https://www.ibm.com/blogs/cloud-computing/2018/12/04/helvetia-seguros-watson-virtual-assistant/)
 - [Clearscope makes it easy to improve organic search with Watson AI](https://www.ibm.com/blogs/watson/2018/09/clearscope-makes-it-easy-to-improve-organic-search-with-watson-ai/)
 - [Audioburst pioneers personalized on-demand audio with the power of Watson NLU](https://www.ibm.com/blogs/watson/2018/11/audioburst-pioneers-personalized-on-demand-audio-with-the-power-of-watson-nlu/)
@@ -65,7 +64,6 @@ subcollection: natural-language-understanding
 - [How to find new football stars with AI technology](https://www.ibm.com/blogs/client-voices/how-find-new-football-stars-ai/)
 - [How Trenity uses Watson NLU to build a sports engagement platform](https://developer.ibm.com/blogs/2018/10/24/multimedia5-uses-watson-to-make-video-creation-simple-smart/)
 - [How Multimedia5 uses Watson to make video creation simple and smart](https://developer.ibm.com/blogs/2018/11/06/trenity-uses-watson-nlu-to-build-a-sports-engagement-platform/)
-- [Using AI to Combat Human Trafficking](https://www.ibm.com/blogs/citizen-ibm/2018/10/bill-peace-stop-the-traffik/)
 - [Buzz Radar Cognitive Command Center makes insights actionable with IBM Watson](https://www.ibm.com/blogs/cloud-computing/2018/05/31/cognitive-command-center-buzz-radar-ibm-watson/)
 - [Looking to buy a home? Here’s how an AI chatbot can help](https://www.ibm.com/blogs/bluemix/2018/04/australias-first-home-loan-chatbot/)
 - [Analyse call recordings with Watson](https://www.ibm.com/blogs/bluemix/2018/04/analyse-call-recordings-watson/)
@@ -73,7 +71,6 @@ subcollection: natural-language-understanding
 - [How Thomson Reuters and IBM are bringing AI to data privacy professionals](https://www.ibm.com/blogs/watson/2018/01/thomson-reuters-ibm-bringing-ai-legal-professionals/)
 - [How to exploit the insights you just discovered with AI](https://www.ibm.com/blogs/watson/2018/01/how-to-exploiting-the-insights-you-just-discovered-with-ai/)
 - [All aboard for the Watson Salesforce SDK!](https://developer.ibm.com/dwblog/2018/watson-salesforce-sdk-apis-apex-applications/)
-- [How fund managers can apply AI to turn data into insights, reduce bias in decisions and generate alpha](https://www.ibm.com/blogs/watson/2017/11/how-fund-managers-can-apply-ai-to-turn-data-into-insights/)
 - [How to create a custom NLU annotation without writing a line of code](https://developer.ibm.com/dwblog/2017/create-custom-nlu-annotation-without-writing-line-code/)
 - [Security? Languages? Regions? Get it all with Watson Discovery and NLU](https://www.ibm.com/blogs/bluemix/2017/10/security-languages-regions-get-watson-discovery-nlu/)
 - [Creating content with the help of AI](https://www.ibm.com/blogs/cloud-computing/2017/08/03/creating-content-help-ai/)
