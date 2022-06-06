@@ -25,7 +25,7 @@ subcollection: natural-language-understanding
 
 ## Categories returned for version date 2021-08-15 and later
 
-Categories stock models including and later than {{site.data.keyword.nlushort}} version 2021-08-15 use the <a target="_blank" href="https://iabtechlab.com/standards/content-taxonomy/">IAB Tech Lab 2.0 taxonomy <img src="../../icons/launch-glyph.svg" alt="External link icon" title="External link icon" class="style-scope doc-content"></a>. A full spreadsheet of the IAB categories taxonomy used by the model may be downloaded here: <a target="_blank" href="https://github.com/watson-developer-cloud/doc-tutorial-downloads/blob/master/natural-language-understanding/categories-hierarchy-iab.xlsx" download>XLSX <img src="../../icons/launch-glyph.svg" alt="External link icon" title="External link icon" class="style-scope doc-content"></a>.
+Categories stock models including and later than {{site.data.keyword.nlushort}} version 2021-08-15 use the <a target="_blank" href="https://iabtechlab.com/standards/content-taxonomy/">IAB Tech Lab 2.0 taxonomy <img src="../../icons/launch-glyph.svg" alt="External link icon" title="External link icon" class="style-scope doc-content"></a>.
 
 | LEVEL 1                   | LEVEL 2                                | LEVEL 3                                | LEVEL 4                        |
 | ------------------------- | -------------------------------------- | -------------------------------------- | ------------------------------ |
