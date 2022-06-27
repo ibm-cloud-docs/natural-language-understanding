@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2021
-lastupdated: "2021-11-10"
+  years: 2015, 2022
+lastupdated: "2022-06-24"
 
 subcollection: natural-language-understanding
 
@@ -83,6 +83,9 @@ Create and train a custom categories model using the {{site.data.keyword.nlushor
           }
       ]
     ```
+
+If you do use a `label` hierarchy, you **must** define `key_phrases` for each label level.
+{: important}
 
 ## Training a custom categories model
 {: #training-a-custom-categories-model}
