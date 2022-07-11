@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2020
-lastupdated: "2020-09-03"
+  years: 2015, 2022
+lastupdated: "2022-07-11"
 
 subcollection: natural-language-understanding
 
@@ -197,7 +197,13 @@ In this Experimental release, Summarization is supported for English only.
 In this Experimental release, Summarization is supported only for instances hosted in the Dallas region/US-South data center.
 {: note}
 
-Return a summary of input source content. View a complete description in the [API reference](https://cloud.ibm.com/apidocs/natural-language-understanding#summarization). For example:
+Return a summary of input source content. The summarization feature analyzes sets of sentences from a summarized document, and then chooses the set of sentences that best combines 3 objectives:
+
+- Sentences that are the most similar to many other sentences in the document
+- Sentences that cover the most frequent words in the document
+- The set of sentences that are the least distant from the beginning of the document
+
+See additional information in the [API reference](https://cloud.ibm.com/apidocs/natural-language-understanding#summarization). For example:
 
 **Input**
 >url: "https://www.ibm.com/cloud/watson-natural-language-understanding"
