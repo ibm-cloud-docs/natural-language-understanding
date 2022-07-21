@@ -90,8 +90,5 @@ toc:
           links:
           - link:
               label: StackOverflow
-              href: https://github.com/watson-developer-cloud/
-          - link:
-              label: WDC Slack channel
-              href: http://wdc-slack-inviter.mybluemix.net/
+              href: https://stackoverflow.com/questions/tagged/watson-nlu
       
