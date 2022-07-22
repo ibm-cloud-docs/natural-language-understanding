@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2022
-lastupdated: "2022-05-26"
+lastupdated: "2022-07-22"
 
 subcollection: natural-language-understanding
 
@@ -36,7 +36,7 @@ The following table shows the service behavior changes for each version date. Sw
 
 |Version date|Changes summary|
 |---|---|
-|[`2022-07-21`](#natural-language-understanding-jul2122)| <li>Improvements to custom models.</li>|
+|[`2022-07-11`](#natural-language-understanding-jul1122)| <li>Improvements to custom models.</li>|
 |[`2022-06-08`](#natural-language-understanding-jun0822)| <li>Language expansion of entities.</li>|
 |[`2022-04-07`](#natural-language-understanding-apr0722)| <li>Bug fix for Version 2 Categories type system.</li>|
 |[`2021-08-15`](#natural-language-understanding-aug1521)| <li>Classifications GA and Categories type system Version 2 features.</li>|
@@ -52,8 +52,8 @@ The following table shows the service behavior changes for each version date. Sw
 |[`2017-02-27`](#natural-language-understanding-feb2717)| Base version.|
 
 
-## 21 July 2022
-{: #natural-language-understanding-jul2122}
+## 11 July 2022
+{: #natural-language-understanding-jul1122}
 {: release-note}
 
 Improved [custom classifications](/docs/natural-language-understanding?topic=natural-language-understanding-classifications) model - Japanese
