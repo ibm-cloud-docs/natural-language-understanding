@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2022
-lastupdated: "2022-01-25"
+lastupdated: "2022-08-02"
 
 subcollection: natural-language-understanding
 
@@ -45,7 +45,12 @@ You can extend {{site.data.keyword.nlushort}} with custom models for supported f
 
 Check the *Custom model support* columns in the tables on the [Language support](/docs/natural-language-understanding?topic=natural-language-understanding-language-support) page to see the features that support custom models for each language.
 
-### Targeted sentiment for custom model entities
+## Specifying training parameters for custom models
+{: #training-for-custom-models}
+
+As part of the request to create or update a custom model, you may optionally include a training parameters object that specifies attributes of the model. For details, see feature-specific [Classifications training parameters](/docs/natural-language-understanding?topic=natural-language-understanding-classifications#classification-training-parameters).
+
+## Targeted sentiment for custom model entities
 {: #targeted-sentiment-for-custom-entities}
 
 For English only, you can get sentiment scores for each custom model entity that is detected by the service by setting the `sentiment: true` option in the entities object. No other languages support targeted sentiment for custom model entities.
