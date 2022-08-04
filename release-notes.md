@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2022
-lastupdated: "2022-07-22"
+lastupdated: "2022-08-03"
 
 subcollection: natural-language-understanding
 
@@ -49,6 +49,12 @@ The following table shows the service behavior changes for each version date. Sw
 |[`2018-03-16`](#natural-language-understanding-mar1618)| <li>Version 2 French entity type system.</li><li>Version 2 German entity type system.</li>|
 |[`2017-02-27`](#natural-language-understanding-feb2717)| Base version.|
 
+## 3 August 2022
+{: #natural-language-understanding-aug0322}
+{: release-note}
+
+Support for Single Label Classifications
+:   Classifications now allows users to pass in a `model_type` training parameter when creating or updating a model, in order to train a single label classifier. See [Classifications training parameters](/docs/natural-language-understanding?topic=natural-language-understanding-classifications#classification-training-parameters) for more details.
 
 ## 11 July 2022
 {: #natural-language-understanding-jul1122}
