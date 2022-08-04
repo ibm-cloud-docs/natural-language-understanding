@@ -2,30 +2,18 @@
 
 copyright:
   years: 2015, 2022
-lastupdated: "2022-01-25"
+lastupdated: "2022-08-04"
 
 subcollection: natural-language-understanding
 
 ---
 
-{:shortdesc: .shortdesc}
-{:external: target="_blank" .external}
-{:tip: .tip}
-{:note: .note}
-{:beta: .beta}
-{:pre: .pre}
-{:important: .important}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:javascript: .ph data-hd-programlang='javascript'}
-{:java: .ph data-hd-programlang='java'}
-{:python: .ph data-hd-programlang='python'}
-{:swift: .ph data-hd-programlang='swift'}
+{{site.data.keyword.attribute-definition-list}}
 
 # Creating custom classification models
 {: #classifications}
 
-The custom classifications feature allows you to train a multi-label text classifier using your own labeled data. Once trained, the model will be automatically deployed in NLU and available for analyze calls.
+The custom classifications feature allows you to train a multi-label text classifier using your own labeled data. Once trained, the model will be automatically deployed in {{site.data.keyword.nlufull}} and available for analyze calls.
 
 ## Creating classifications model training data
 {: #create-classification-training-data}
@@ -77,10 +65,21 @@ Headers are not expected for the CSV file.
 - Maximum size of each example (training and predict): `2000` [codepoints](https://en.wikipedia.org/wiki/Code_point)
 - Maximum number of examples: `20000`
 
+### Classifications training parameters
+{: #classification-training-parameters}
+
+Passing in the optional `training_parameters` object allows you to specify characteristics of your classifier. Not passing in the object or an empty object into the request will train the model using default values.
+
+Supported training parameters:
+
+| Keys | Default Value | Optional Values |
+| --- | --- | --- |
+| `model_type` | `multi_label` | `single_label` |
+
 ## Training a custom classifications model
 {: #training-a-custom-classification}
 
-When your training data is ready, use the **Create classifications model** method to create your custom classifications model. Make sure to substitute your credentials for `{apikey}` and `{url}`, and use the path to your training data file in the `training_data` parameter.
+When your training data is ready, use the **Create classifications model** method to create your custom classifications model. Make sure to substitute your credentials for `{apikey}` and `{url}`, and use the path to your training data file in the `training_data` parameter. Optionally, you can also specify characteristics of your classifier using `training_parameters`.
 
 ```bash
 curl -X POST -u "apikey:{apikey}" \
@@ -88,9 +87,11 @@ curl -X POST -u "apikey:{apikey}" \
 -F "name=MyClassificationsModel" \
 -F "language=en" \
 -F "model_version=1.0.1" \
+-F 'training_parameters={"model_type": "multi_label"}' \
 -F "training_data=@classifications_data.json;type=application/json" \
 "{url}/v1/models/classifications?version=2021-03-23"
 ```
+{: pre}
 
 Use the `model_id` in the response to check the status of your model.
 
@@ -103,6 +104,7 @@ The following sample request for the **Get classifications model** method checks
 curl -X GET -u "apikey:{apikey}" \
 "{url}/v1/models/classifications/cb3755ad-d226-4587-b956-43a4a7202202?version=2021-03-23"
 ```
+{: pre}
 
 To get information for all classifications models deployed to your instance, use the **List classifications models** method.
 
@@ -110,6 +112,7 @@ To get information for all classifications models deployed to your instance, use
 curl -X GET -u "apikey:{apikey}" \
 "{url}/v1/models/classifications?version=2021-03-23"
 ```
+{: pre}
 
 When the status is `available`, the classification is ready to use.
 
@@ -140,6 +143,7 @@ To use your classifications model, specify the `model` that you deployed in the 
     "{url}/v1/analyze?version=2021-03-23" \
     --data @parameters.json
     ```
+    {: pre}
 
 ## Deleting a custom classifications model
 {: #deleting-a-custom-classifications-model}
@@ -153,6 +157,7 @@ To delete a classifications model from your service instance, use the **Delete c
   "{url}/v1/models/classifications/{model_id}?version=2021-03-23" \
   --request DELETE
   ```
+  {: pre}
 
 ## Migrating from {{site.data.keyword.nlclassifiershort}} to {{site.data.keyword.nlushort}}
 {: #migrating-natural-language-classifier}
@@ -161,10 +166,10 @@ On 9 August 2021, IBM announced the deprecation of the {{site.data.keyword.nlcla
 
 ### When training data is available
 
-- You can directly use the available training data to train `classifications` in {{site.data.keyword.nlushort}}. {{site.data.keyword.nlushort}} accepts the same CSV file format.
+You can directly use the available training data to train `classifications` in {{site.data.keyword.nlushort}}. {{site.data.keyword.nlushort}} accepts the same CSV file format.
 
 ### When training data is not available
 
-- You can fetch the data you used to train {{site.data.keyword.nlclassifiershort}} from the service. Refer to [this tutorial](https://github.com/watson-developer-cloud/doc-tutorial-downloads/blob/master/natural-language-understanding/custom_classifications_example.ipynb).
+You can fetch the data you used to train {{site.data.keyword.nlclassifiershort}} from the service. Refer to [this tutorial](https://github.com/watson-developer-cloud/doc-tutorial-downloads/blob/master/natural-language-understanding/custom_classifications_example.ipynb){: external}.
 
-For more information, see [Migrating to {{site.data.keyword.nlufull}}](https://cloud.ibm.com/docs/natural-language-classifier?topic=natural-language-classifier-migrating){: external}
+For more information, see [Migrating to {{site.data.keyword.nlushort}}](/docs/natural-language-classifier?topic=natural-language-classifier-migrating).
