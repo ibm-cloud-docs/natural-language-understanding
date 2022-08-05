@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2022
-lastupdated: "2022-08-04"
+lastupdated: "2022-08-05"
 
 subcollection: natural-language-understanding
 
@@ -75,6 +75,8 @@ Supported training parameters:
 | Keys | Default Value | Optional Values |
 | --- | --- | --- |
 | `model_type` | `multi_label` | `single_label` |
+
+- `model_type`: Passing the `single_label` value will result in a single-label classifier, capable of handling training datasets with only one label per example. The single-label classifier will output normalized (they add up to 1) confidence scores. Passing the `multi_label` value will result in a multi-label classifier, capable of handling training datasets with multiple labels per example. The multi-label classifier will not output normalized confidence scores, in order to account for the added flexibility of associating multiple labels with examples.
 
 ## Training a custom classifications model
 {: #training-a-custom-classification}
