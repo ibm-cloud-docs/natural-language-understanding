@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2022
-lastupdated: "2022-01-25"
+lastupdated: "2022-08-05"
 
 subcollection: natural-language-understanding
 
@@ -47,9 +47,11 @@ Example parameters object:
 ## Request limit
 {: #concurrent-requests}
 
-Each {{site.data.keyword.nlushort}} service instance is limited, based on the number of requests being processed. For the Lite plan, the limit is 5 requests per second; for the Standard plan, the limit is 150 requests per second. Requests exceeding these limits may receive a `429: Too Many Requests` error.
+Each {{site.data.keyword.nlushort}} service instance is limited, based on the number of analyze requests being processed. For the Lite plan, the limit is 5 analyze requests per second; for the Standard plan, the limit is 150 analyze requests per second. Analyze requests exceeding these limits may receive a `429: Too Many Requests` error.
 
 The limit for the Standard plan can be increased by [opening a support ticket](https://ibm.biz/ibmcloudsupport).
+
+All other requests are rate-limited at 5 requests per second.
 
 ## Custom model training limit
 {: custom-model-training-limit}
