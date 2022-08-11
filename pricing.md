@@ -22,7 +22,7 @@ subcollection: natural-language-understanding
 # Pricing
 {: #pricing}
 
-{{site.data.keyword.nlushort}} has three pricing plans: Lite, Standard and Premium.
+{{site.data.keyword.nlushort}} has two pricing plans: Lite and Standard.
 
 This page contains pricing information in USD. To view pricing information in your local currency, see the [{{site.data.keyword.nlushort}}](https://{DomainName}/catalog/natural-language-understanding) page in the {{site.data.keyword.cloud}} catalog.
 {: tip}
@@ -53,13 +53,6 @@ A "pay-as-you-go" plan that is recommended once you are ready to move your appli
 
 **Custom Classification Model** ($/custom classification model/month)
 - $25 for all tiers
-
-## Premium
-{: #premium}
-
-A plan that offers a higher level of security and isolation to help customers with sensitive data requirements.
-
-_Please [contact sales](https://www.ibm.com/account/reg/us-en/signup?formid=MAIL-watson) for details._
 
 ## What is an NLU item?
 {: #nlu-items}
