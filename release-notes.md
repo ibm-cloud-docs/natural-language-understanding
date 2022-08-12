@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2022
-lastupdated: "2022-08-03"
+lastupdated: "2022-08-10"
 
 subcollection: natural-language-understanding
 
@@ -22,32 +22,43 @@ The following new features and changes to the service are available.
 {: #service-api-versioning}
 {: release-note}
 
-**Current API version**: 2022-04-07
+**Current API version**: 2022-08-10
 
 API requests require a version parameter that takes the date in the format `version=YYYY-MM-DD`. Send the version parameter with every API request.
 
-When IBM changes the API in a backwards-incompatible way, a new minor version is released. To take advantage of the changes in a new version, change the value of the version parameter to the new date. If you're not ready to update to that version, don't change your version date.
+When we change the API in a backwards-incompatible way, we release a new minor version. To take advantage of the changes in a new version, change the value of the version parameter to the new date. If you're not ready to update to that version, don't change your version date.
 
 ### Active version dates
 {: #active-version-dates}
 {: release-note}
 
-The following table shows the service behavior changes for each version date. Switching to a later version date activates all changes that are introduced in earlier versions.
+The following table shows the service behavior changes for each version date. Switching to a later version date will activate all changes introduced in earlier versions.
 
 |Version date|Changes summary|
 |---|---|
+|[`2022-08-10`](#natural-language-understanding-aug1022)| <li>Language expansion of entities with a new model for improved accuracy and confidence scores.</li><li>Version 2 Russian entity type system.</li><li>Version 2 Swedish entity type system.</li>|
 |[`2022-04-07`](#natural-language-understanding-apr0722)| <li>Bug fix for Version 2 Categories type system.</li>|
 |[`2021-08-15`](#natural-language-understanding-aug1521)| <li>Classifications GA and Categories type system Version 2 features.</li>|
 |[`2021-03-25`](#natural-language-understanding-mar2521)| <li>Custom categories (beta) and custom classifications (beta) features.</li>|
 |[`2020-12-09`](#natural-language-understanding-dec0920)| <li>Version 2 English entity type system.</li>|
 |[`2020-12-02`](#natural-language-understanding-dec0220)| <li>Version 2 Korean entity type system.</li><li>Version 2 Spanish entity type system.</li>|
-|[`2020-08-01`](#natural-language-understanding-aug0120)| <li>Taxonomy changes aimed toward standardization of the label names in the default taxonomy.</li>|
+|[`2020-08-01`](#natural-language-understanding-aug0120)| <li>Taxonomy changes aimed towards standardization of the label names in the default taxonomy.</li>|
 |[`2019-07-12`](#natural-language-understanding-jul1219)| <li>New English entities model with improved accuracy and confidence scores.</li>|
 |[`2019-06-04`](#natural-language-understanding-jun0419)| <li>Fixed a bug that caused entities requests with custom models to ignore the `limit` option.</li><li>The default `limit` value for all entities requests is now 50 for all models.</li><li>The maximum `limit` value of 250 entities has been removed.</li>|
 |[`2018-11-16`](#natural-language-understanding-nov1618)| <li>Version 2 Italian entity type system.</li>|
 |[`2018-09-21`](#natural-language-understanding-sep2118)| <li>Version 2 Portuguese entity type system.</li>|
 |[`2018-03-16`](#natural-language-understanding-mar1618)| <li>Version 2 French entity type system.</li><li>Version 2 German entity type system.</li>|
 |[`2017-02-27`](#natural-language-understanding-feb2717)| Base version.|
+
+## 10 August 2022
+{: #natural-language-understanding-aug1022}
+{: release-note}
+
+Entities support for additional languages
+:   Support for entities is now available, for all public and premium service instances, for the following languages: Czech, Danish, Finnish, Hebrew, Hindi, Norwegian Bokmål, Norwegian Nynorsk, Polish, Romanian, Slovak, Turkish. For details, see [Language support](/docs/natural-language-understanding?topic=natural-language-understanding-language-support).
+
+Version 2 entity support for Russian and Swedish
+:   Version 2 entity type support is now available, for all public and premium service instances, for the following languages: Russian and Swedish. For details, see [Entity type systems](/docs/natural-language-understanding?topic=natural-language-understanding-entity-type-systems).
 
 ## 3 August 2022
 {: #natural-language-understanding-aug0322}
