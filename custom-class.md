@@ -177,3 +177,4 @@ You can directly use the available training data to train `classifications` in {
 You can fetch the data you used to train {{site.data.keyword.nlclassifiershort}} from the service. Refer to [this tutorial](https://github.com/watson-developer-cloud/doc-tutorial-downloads/blob/master/natural-language-understanding/custom_classifications_example.ipynb){: external}.
 
 For more information, see [Migrating to {{site.data.keyword.nlushort}}](/docs/natural-language-classifier?topic=natural-language-classifier-migrating).
+
