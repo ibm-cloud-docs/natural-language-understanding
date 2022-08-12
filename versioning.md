@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2022
-lastupdated: "2022-04-07"
+lastupdated: "2022-08-10"
 
 subcollection: natural-language-understanding
 
@@ -22,7 +22,7 @@ subcollection: natural-language-understanding
 # Versioning
 {: #versioning}
 
-**Current API version**: 2022-04-07
+**Current API version**: 2022-08-10
 
 API requests require a version parameter that takes the date in the format `version=YYYY-MM-DD`. Send the version parameter with every API request.
 
@@ -48,16 +48,14 @@ The following table shows the service behavior changes for each version date. Sw
 
 |Version date|Changes summary|Retirement date|
 |---|---|---|
+|[`2022-08-10`](/docs/natural-language-understanding?topic=natural-language-understanding-release-notes#natural-language-understanding-aug1022)| <li>Language expansion of entities with a new model for improved accuracy and confidence scores.</li><li>Version 2 Russian entity type system.</li><li>Version 2 Swedish entity type system.</li>|
 |[`2022-04-07`](/docs/natural-language-understanding?topic=natural-language-understanding-release-notes#natural-language-understanding-apr0722)| <li>Bug fix for Version 2 Categories type system.</li>|
-|[`2020-12-09`](/docs/natural-language-understanding?topic=natural-language-understanding-release-notes#9-december-2020)| <li>Version 2 English entity type system.</li>|   |
-|[`2020-12-02`](/docs/natural-language-understanding?topic=natural-language-understanding-release-notes#2-december-2020)| <li>Version 2 Korean entity type system.</li><li>Version 2 Spanish entity type system.</li>|   |
-|[`2020-08-01`](/docs/natural-language-understanding?topic=natural-language-understanding-release-notes#1-august-2020)| <li>Taxonomy changes aimed towards standardization of the label names in the default taxonomy.</li>|December 2, 2021|
-|[`2019-07-12`](/docs/natural-language-understanding?topic=natural-language-understanding-release-notes#7-july-2019)<br><i><strong>Deprecated</strong></i>| <li>New English entities model with improved accuracy and confidence scores.</li>|August 1, 2021|
-|[`2019-06-04`](/docs/natural-language-understanding?topic=natural-language-understanding-release-notes#4-june-2019)<br><i><strong>Deprecated</strong></i>|<li>Fixed a bug that caused entities requests with custom models to ignore the `limit` option.</li><li>The default `limit` value for all entities requests is now 50 for all models.</li><li>The maximum `limit` value of 250 entities has been removed.</li>|July 12, 2020|
-|[`2018-11-16`](/docs/natural-language-understanding?topic=natural-language-understanding-release-notes#16-november-2018)<br><i><strong>Deprecated</strong></i>| <li>Version 2 Italian entity type system.</li>|July 12, 2020|
-|[`2018-09-21`](/docs/natural-language-understanding?topic=natural-language-understanding-release-notes#21-september-2018)<br><i><strong>Deprecated</strong></i>| <li>Version 2 Portuguese entity type system.</li>|July 12, 2020|
-|[`2018-03-16`](/docs/natural-language-understanding?topic=natural-language-understanding-release-notes#16-march-2018)<br><i><strong>Deprecated</strong></i>| <li>Version 2 French entity type system.</li><li>Version 2 German entity type system.</li>|July 12, 2020|
-|[`2017-02-27`](/docs/natural-language-understanding?topic=natural-language-understanding-release-notes#27-february-2017)<br><i><strong>Deprecated</strong></i>| Base version.|July 12, 2020| 
-
-
-
+|[`2020-12-09`](/docs/natural-language-understanding?topic=natural-language-understanding-release-notes#natural-language-understanding-dec0920)| <li>Version 2 English entity type system.</li>|
+|[`2020-12-02`](/docs/natural-language-understanding?topic=natural-language-understanding-release-notes#natural-language-understanding-dec0220)| <li>Version 2 Korean entity type system.</li><li>Version 2 Spanish entity type system.</li>|
+|[`2020-08-01`](/docs/natural-language-understanding?topic=natural-language-understanding-release-notes#natural-language-understanding-aug0120)| <li>Taxonomy changes aimed towards standardization of the label names in the default taxonomy.</li>|
+|[`2019-07-12`](/docs/natural-language-understanding?topic=natural-language-understanding-release-notes#natural-language-understanding-jul1219)<br><i><strong>Deprecated</strong></i>| <li>New English entities model with improved accuracy and confidence scores.</li>|August 1, 2021|
+|[`2019-06-04`](/docs/natural-language-understanding?topic=natural-language-understanding-release-notes#natural-language-understanding-jun0419)<br><i><strong>Deprecated</strong></i>|<li>Fixed a bug that caused entities requests with custom models to ignore the `limit` option.</li><li>The default `limit` value for all entities requests is now 50 for all models.</li><li>The maximum `limit` value of 250 entities has been removed.</li>|July 12, 2020|
+|[`2018-11-16`](/docs/natural-language-understanding?topic=natural-language-understanding-release-notes#natural-language-understanding-nov1618)<br><i><strong>Deprecated</strong></i>| <li>Version 2 Italian entity type system.</li>|July 12, 2020|
+|[`2018-09-21`](/docs/natural-language-understanding?topic=natural-language-understanding-release-notes#natural-language-understanding-sep2118)<br><i><strong>Deprecated</strong></i>| <li>Version 2 Portuguese entity type system.</li>|July 12, 2020|
+|[`2018-03-16`](/docs/natural-language-understanding?topic=natural-language-understanding-release-notes#natural-language-understanding-mar1618)<br><i><strong>Deprecated</strong></i>| <li>Version 2 French entity type system.</li><li>Version 2 German entity type system.</li>|July 12, 2020|
+|[`2017-02-27`](/docs/natural-language-understanding?topic=natural-language-understanding-release-notes#natural-language-understanding-feb2717)<br><i><strong>Deprecated</strong></i>| Base version.|July 12, 2020|
