@@ -34,7 +34,6 @@ toc:
           topics:
           - customizing.md
           - custom-ent-rel.md
-          - custom-adv-rules.md
           - custom-sentiment.md
           - custom-categories.md
           - custom-class.md
