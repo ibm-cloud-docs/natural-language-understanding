@@ -35,7 +35,6 @@ You can extend {{site.data.keyword.nlushort}} with custom models for supported f
 1. Check [Language support for custom models](#language-support-for-custom-models) to make sure that the custom model you want to create is supported.
 1. Follow the customization instructions for one of the following features.
    - [Entities and relations](/docs/natural-language-understanding?topic=natural-language-understanding-entities-and-relations)
-   - [Advanced rules (Deprecated)](/docs/natural-language-understanding?topic=natural-language-understanding-advanced-rules)
    - [Sentiment (Beta)](/docs/natural-language-understanding?topic=natural-language-understanding-custom-sentiment)
    - [Categories (Beta)](/docs/natural-language-understanding?topic=natural-language-understanding-categories)
    - [Classifications](/docs/natural-language-understanding?topic=natural-language-understanding-classifications)
