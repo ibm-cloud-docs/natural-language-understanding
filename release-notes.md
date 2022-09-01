@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2022
-lastupdated: "2022-08-10"
+lastupdated: "2022-09-01"
 
 subcollection: natural-language-understanding
 
@@ -49,6 +49,13 @@ The following table shows the service behavior changes for each version date. Sw
 |[`2018-09-21`](#natural-language-understanding-sep2118)| <li>Version 2 Portuguese entity type system.</li>|
 |[`2018-03-16`](#natural-language-understanding-mar1618)| <li>Version 2 French entity type system.</li><li>Version 2 German entity type system.</li>|
 |[`2017-02-27`](#natural-language-understanding-feb2717)| Base version.|
+
+## 1 September 2022
+{: #natural-language-understanding-sep0122}
+{: release-note}
+
+Improved Categories and Custom Categories (beta) Models
+:   The model for Categories and Custom Categories (beta) now supports more contemporary vocabulary. For example, newer words such as "Covid-19" can be interpreted.
 
 ## 10 August 2022
 {: #natural-language-understanding-aug1022}
