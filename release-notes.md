@@ -55,7 +55,7 @@ The following table shows the service behavior changes for each version date. Sw
 {: release-note}
 
 Improved Categories and Custom Categories (beta) Models
-:   The model for Categories and Custom Categories (beta) now supports more contemporary vocabulary. For example, newer words such as "Covid-19" can be interpreted.
+:   The model for [Categories](/docs/natural-language-understanding?topic=natural-language-understanding-categories-hierarchy) and [Custom Categories (beta)](/docs/natural-language-understanding?topic=natural-language-understanding-categories) now supports more contemporary vocabulary. For example, newer words such as "Covid-19" can be interpreted.
 
 ## 10 August 2022
 {: #natural-language-understanding-aug1022}
