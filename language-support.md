@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2021
-lastupdated: "2022-02-17"
+  years: 2015, 2022
+lastupdated: "2022-06-07"
 
 subcollection: natural-language-understanding
 
@@ -105,13 +105,15 @@ The targeted sentiment option for entities is not supported for Arabic text.
 | Classifications | | |
 | Concepts | | |
 | Emotion | | |
-| Entities | | |
+| Entities | X* | |
 | Keywords | X | |
 | Metadata | | |
 | Relations | | |
 | Semantic roles | | |
 | Sentiment | | |
 | Syntax | X | |
+
+\* Relevance ranking is not supported.
 
 ## Danish
 {: #danish}
@@ -122,13 +124,15 @@ The targeted sentiment option for entities is not supported for Arabic text.
 | Classifications | | |
 | Concepts | | |
 | Emotion | | |
-| Entities | | |
+| Entities | X* | |
 | Keywords | X | |
 | Metadata | | |
 | Relations | | |
 | Semantic roles | | |
 | Sentiment | | |
 | Syntax | X | |
+
+\* Relevance ranking is not supported.
 
 ## Dutch
 {: #dutch}
@@ -177,13 +181,15 @@ The targeted sentiment option for entities is not supported for Arabic text.
 | Classifications | | |
 | Concepts | | |
 | Emotion | | |
-| Entities | | |
+| Entities | X* | |
 | Keywords | X | |
 | Metadata | | |
 | Relations | | |
 | Semantic roles | | |
 | Sentiment | | |
 | Syntax | X | |
+
+\* Relevance ranking is not supported.
 
 ## French
 {: #french}
@@ -230,13 +236,15 @@ The targeted sentiment option for entities is not supported for Arabic text.
 | Classifications | | |
 | Concepts | | |
 | Emotion | | |
-| Entities | | |
+| Entities | X* | |
 | Keywords | X | |
 | Metadata | | |
 | Relations | | |
 | Semantic roles | | |
 | Sentiment | | |
 | Syntax | X | |
+
+\* Relevance ranking is not supported.
 
 ## Hindi
 {: #hindi}
@@ -247,13 +255,15 @@ The targeted sentiment option for entities is not supported for Arabic text.
 | Classifications | | |
 | Concepts | | |
 | Emotion | | |
-| Entities | | |
+| Entities | X* | |
 | Keywords | X | |
 | Metadata | | |
 | Relations | | |
 | Semantic roles | | |
 | Sentiment | | |
 | Syntax | X | |
+
+\* Relevance ranking is not supported.
 
 ## Italian
 {: #italian}
@@ -318,13 +328,15 @@ Please note that {{site.data.keyword.nlushort}} considers Norwegian (standard la
 | Classifications | | |
 | Concepts | | |
 | Emotion | | |
-| Entities | | |
+| Entities | X* | |
 | Keywords | X | |
 | Metadata | | |
 | Relations | | |
 | Semantic roles | | |
 | Sentiment | | |
 | Syntax | X | |
+
+\* Relevance ranking is not supported.
 
 ## Norwegian (Bokmal)
 {: #norwegian-bokmal}
@@ -338,13 +350,15 @@ Please note that {{site.data.keyword.nlushort}} considers Norwegian (standard la
 | Classifications | | |
 | Concepts | | |
 | Emotion | | |
-| Entities | | |
+| Entities | X* | |
 | Keywords | X | |
 | Metadata | | |
 | Relations | | |
 | Semantic roles | | |
 | Sentiment | | |
 | Syntax | X | |
+
+\* Relevance ranking is not supported.
 
 ## Norwegian (Nyorsk)
 {: #norwegian-nyorsk}
@@ -355,13 +369,15 @@ Please note that {{site.data.keyword.nlushort}} considers Norwegian (standard la
 | Classifications | | |
 | Concepts | | |
 | Emotion | | |
-| Entities | | |
+| Entities | X* | |
 | Keywords | X | |
 | Metadata | | |
 | Relations | | |
 | Semantic roles | | |
 | Sentiment | | |
 | Syntax | X | |
+
+\* Relevance ranking is not supported.
 
 ## Polish
 {: #polish}
@@ -372,13 +388,15 @@ Please note that {{site.data.keyword.nlushort}} considers Norwegian (standard la
 | Classifications | | |
 | Concepts | | |
 | Emotion | | |
-| Entities | | |
+| Entities | X* | |
 | Keywords | X | |
 | Metadata | | |
 | Relations | | |
 | Semantic roles | | |
 | Sentiment | | |
 | Syntax | X | |
+
+\* Relevance ranking is not supported.
 
 ## Portuguese
 {: #portuguese}
@@ -406,13 +424,15 @@ Please note that {{site.data.keyword.nlushort}} considers Norwegian (standard la
 | Classifications | | |
 | Concepts | | |
 | Emotion | | |
-| Entities | | |
+| Entities | X* | |
 | Keywords | X | |
 | Metadata | | |
 | Relations | | |
 | Semantic roles | | |
 | Sentiment | | |
 | Syntax | X | |
+
+\* Relevance ranking is not supported.
 
 ## Russian
 {: #russian}
@@ -423,15 +443,17 @@ Please note that {{site.data.keyword.nlushort}} considers Norwegian (standard la
 | Classifications | | |
 | Concepts | | |
 | Emotion | | |
-| Entities | X | |
+| Entities | X* | |
 | Keywords | X | |
 | Metadata | X | |
 | Relations | | |
 | Semantic roles | | |
-| Sentiment | X* | |
+| Sentiment | X** | |
 | Syntax | X | |
 
-\* Sentiment detection for this language works best on social media based data, like tweets. Further accuracy improvements are planned in the near future.
+\* Relevance ranking is not supported.
+
+** Sentiment detection for this language works best on social media based data, like tweets. Further accuracy improvements are planned in the near future.
 
 The targeted sentiment option for keywords is not supported for Russian text.
 
@@ -444,13 +466,15 @@ The targeted sentiment option for keywords is not supported for Russian text.
 | Classifications | | |
 | Concepts | | |
 | Emotion | | |
-| Entities | | |
+| Entities | X* | |
 | Keywords | X | |
 | Metadata | | |
 | Relations | | |
 | Semantic roles | | |
 | Sentiment | | |
 | Syntax | X | |
+
+\* Relevance ranking is not supported.
 
 ## Spanish
 {: #spanish}
@@ -478,13 +502,15 @@ The targeted sentiment option for keywords is not supported for Russian text.
 | Classifications | | |
 | Concepts | | |
 | Emotion | | |
-| Entities | X | |
+| Entities | X* | |
 | Keywords | X | |
 | Metadata | X | |
 | Relations | | |
 | Semantic roles | | |
 | Sentiment | | |
 | Syntax | X | |
+
+\* Relevance ranking is not supported.
 
 ## Turkish
 {: #turkish}
@@ -495,10 +521,12 @@ The targeted sentiment option for keywords is not supported for Russian text.
 | Classifications | | |
 | Concepts | | |
 | Emotion | | |
-| Entities | | |
+| Entities | X* | |
 | Keywords | X | |
 | Metadata | | |
 | Relations | | |
 | Semantic roles | | |
 | Sentiment | | |
 | Syntax | X | |
+
+\* Relevance ranking is not supported.
