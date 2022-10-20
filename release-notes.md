@@ -56,7 +56,8 @@ The following table shows the service behavior changes for each version date. Sw
 
 Improved Error Handling and Validation for Sentiment and Custom Sentiment
 :   If a request contains both an error in the sentiment feature and a valid feature request for another feature, the response returns a 200 with a warning for the sentiment feature.
-:   Requests for Custom Sentiment that include at least one target found in the document will now return a 200 with sentiment analysis for the found targets.
+
+   Requests for Custom Sentiment that include at least one target found in the document will now return a 200 with sentiment analysis for the found targets.
 
 ## 1 September 2022
 {: #natural-language-understanding-sep0122}
