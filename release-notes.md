@@ -50,6 +50,14 @@ The following table shows the service behavior changes for each version date. Sw
 |[`2018-03-16`](#natural-language-understanding-mar1618)| <li>Version 2 French entity type system.</li><li>Version 2 German entity type system.</li>|
 |[`2017-02-27`](#natural-language-understanding-feb2717)| Base version.|
 
+## 6 October 2022
+{: #natural-language-understanding-oct0622}
+{: release-note}
+
+Improved Error Handling and Validation for Sentiment and Custom Sentiment
+:   If a request contains both an error in the sentiment feature and a valid feature request for another feature, the response returns a 200 with a warning for the sentiment feature.
+:   Requests for Custom Sentiment that include at least one target found in the document will now return a 200 with sentiment analysis for the found targets.
+
 ## 1 September 2022
 {: #natural-language-understanding-sep0122}
 {: release-note}
