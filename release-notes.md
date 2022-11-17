@@ -50,6 +50,12 @@ The following table shows the service behavior changes for each version date. Sw
 |[`2018-03-16`](#natural-language-understanding-mar1618)| <li>Version 2 French entity type system.</li><li>Version 2 German entity type system.</li>|
 |[`2017-02-27`](#natural-language-understanding-feb2717)| Base version.|
 
+## Entity types (Version 1) deprecation announcement
+{: #v1-entities-deprecation-16nov2022}
+
+Entity types (Version 1) is deprecated. As of 11 July 2023, the v1 Entities type system will no longer be available. Consider switching to the v2 Entities type system. By using the more generic v2 Entities type system together with other features, such as Concepts and Categories, you can achieve similar outcomes with more flexibility. For more information about v2 entity types, see [Entity types (Version 2)](https://cloud.ibm.com/docs/natural-language-understanding?topic=natural-language-understanding-entity-types-version-2).
+{: deprecated}
+
 ## 3 November 2022
 {: #natural-language-understanding-nov0322}
 {: release-note}
