@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2020
-lastupdated: "2020-06-05"
+lastupdated: "2020-11-22"
 
 subcollection: natural-language-understanding
 
@@ -11,6 +11,7 @@ subcollection: natural-language-understanding
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 {:tip: .tip}
+{:note: .note}
 {:pre: .pre}
 {:codeblock: .codeblock}
 {:screen: .screen}
@@ -25,7 +26,10 @@ subcollection: natural-language-understanding
 The following tables list the entity types and subtypes that are used in the _Version 2_ entity type system.
 {: shortdesc}
 
-The entity type system that {{site.data.keyword.nlushort}} uses differs based on which version date and which language you are using. For more details, see the [Entity types systems](/docs/natural-language-understanding?topic=natural-language-understanding-entity-type-systems) page.
+The entity type system that {{site.data.keyword.nlushort}} uses differs based on which version date and which language you are using.
+
+The _Version 1_ entity type system is deprecated. As of 11 July 2023, the v1 Entities type system will no longer be available. To understand which _Version 1_ entity types have been added to or removed in _Version 2_, see the [Entity type systems](/docs/natural-language-understanding?topic=natural-language-understanding-entity-type-systems) page.
+{: note}
 
 ## Entity types
 {: #types-version-2}
