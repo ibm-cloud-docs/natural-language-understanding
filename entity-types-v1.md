@@ -11,6 +11,7 @@ subcollection: natural-language-understanding
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 {:tip: .tip}
+{:note: .note}
 {:pre: .pre}
 {:codeblock: .codeblock}
 {:screen: .screen}
@@ -21,6 +22,9 @@ subcollection: natural-language-understanding
 
 # Entity types (Version 1)
 {: #entity-types-version-1}
+
+The _Version 1_ entity type system is deprecated. As of 11 July 2023, the v1 Entities type system will no longer be available. To understand which _Version 1_ entity types have been added to or removed in _Version 2_, see [Version 1 deprecation notes](/docs/natural-language-understanding?topic=natural-language-understanding-entity-type-systems#version-1-deprecation-notes).
+{: note}
 
 The following tables list the entity types and subtypes that are used in the _Version 1_ entity type system.
 {: shortdesc}
