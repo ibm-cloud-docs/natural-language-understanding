@@ -50,6 +50,12 @@ The following table shows the service behavior changes for each version date. Sw
 |[`2018-03-16`](#natural-language-understanding-mar1618)| <li>Version 2 French entity type system.</li><li>Version 2 German entity type system.</li>|
 |[`2017-02-27`](#natural-language-understanding-feb2717)| Base version.|
 
+## 11 January 2023
+{: #natural-language-understanding-jan1123}
+{: release-note}
+
+Fixed a bug that V2 entity type is not return properly in EN and KO
+
 ## Entity types (Version 1) deprecation announcement
 {: #v1-entities-deprecation-16nov2022}
 
