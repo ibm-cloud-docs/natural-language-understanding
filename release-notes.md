@@ -56,6 +56,13 @@ The following table shows the service behavior changes for each version date. Sw
 Entity types (Version 1) is deprecated. As of 11 July 2023, the v1 Entities type system will no longer be available. Consider switching to the v2 Entities type system. By using the more generic v2 Entities type system together with other features, such as Concepts and Categories, you can achieve similar outcomes with more flexibility. For more information about v2 entity types, see [Entity types (Version 2)](https://cloud.ibm.com/docs/natural-language-understanding?topic=natural-language-understanding-entity-types-version-2).
 {: deprecated}
 
+## 11 January 2023
+{: #natural-language-understanding-jan1123}
+{: release-note}
+
+Improved English and Korean Entities Model
+:   Fixed a bug for English and Korean models using Version 2 Entity type system where not all entities are returned properly.
+
 ## 3 November 2022
 {: #natural-language-understanding-nov0322}
 {: release-note}
