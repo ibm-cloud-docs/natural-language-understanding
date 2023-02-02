@@ -68,14 +68,10 @@ Language support might be different if you are a {{site.data.keyword.Bluemix_ded
 | Metadata | X | |
 | Relations | X | X |
 | Semantic roles | | |
-| Sentiment | X** | |
+| Sentiment | X | |
 | Syntax | X | |
 
 \* Relevance ranking is not supported.
-
-** Sentiment detection for this language works best on social media based data, like tweets. Further accuracy improvements are planned in the near future.
-
-The targeted sentiment option for entities is not supported for Arabic text.
 
 ## Chinese (Simplified)
 {: #chinese-simplified}
@@ -110,7 +106,7 @@ The targeted sentiment option for entities is not supported for Arabic text.
 | Metadata | | |
 | Relations | | |
 | Semantic roles | | |
-| Sentiment | | |
+| Sentiment | X | |
 | Syntax | X | |
 
 \* Relevance ranking is not supported.
@@ -129,7 +125,7 @@ The targeted sentiment option for entities is not supported for Arabic text.
 | Metadata | | |
 | Relations | | |
 | Semantic roles | | |
-| Sentiment | | |
+| Sentiment | X | |
 | Syntax | X | |
 
 \* Relevance ranking is not supported.
@@ -186,7 +182,7 @@ The targeted sentiment option for entities is not supported for Arabic text.
 | Metadata | | |
 | Relations | | |
 | Semantic roles | | |
-| Sentiment | | |
+| Sentiment | X | |
 | Syntax | X | |
 
 \* Relevance ranking is not supported.
@@ -241,7 +237,7 @@ The targeted sentiment option for entities is not supported for Arabic text.
 | Metadata | | |
 | Relations | | |
 | Semantic roles | | |
-| Sentiment | | |
+| Sentiment | X | |
 | Syntax | X | |
 
 \* Relevance ranking is not supported.
@@ -260,7 +256,7 @@ The targeted sentiment option for entities is not supported for Arabic text.
 | Metadata | | |
 | Relations | | |
 | Semantic roles | | |
-| Sentiment | | |
+| Sentiment | X | |
 | Syntax | X | |
 
 \* Relevance ranking is not supported.
@@ -333,7 +329,7 @@ Please note that {{site.data.keyword.nlushort}} considers Norwegian (standard la
 | Metadata | | |
 | Relations | | |
 | Semantic roles | | |
-| Sentiment | | |
+| Sentiment | X | |
 | Syntax | X | |
 
 \* Relevance ranking is not supported.
@@ -355,7 +351,7 @@ Please note that {{site.data.keyword.nlushort}} considers Norwegian (standard la
 | Metadata | | |
 | Relations | | |
 | Semantic roles | | |
-| Sentiment | | |
+| Sentiment | X | |
 | Syntax | X | |
 
 \* Relevance ranking is not supported.
@@ -374,7 +370,7 @@ Please note that {{site.data.keyword.nlushort}} considers Norwegian (standard la
 | Metadata | | |
 | Relations | | |
 | Semantic roles | | |
-| Sentiment | | |
+| Sentiment | X | |
 | Syntax | X | |
 
 \* Relevance ranking is not supported.
@@ -393,7 +389,7 @@ Please note that {{site.data.keyword.nlushort}} considers Norwegian (standard la
 | Metadata | | |
 | Relations | | |
 | Semantic roles | | |
-| Sentiment | | |
+| Sentiment | X | |
 | Syntax | X | |
 
 \* Relevance ranking is not supported.
@@ -429,7 +425,7 @@ Please note that {{site.data.keyword.nlushort}} considers Norwegian (standard la
 | Metadata | | |
 | Relations | | |
 | Semantic roles | | |
-| Sentiment | | |
+| Sentiment | X | |
 | Syntax | X | |
 
 \* Relevance ranking is not supported.
@@ -448,14 +444,10 @@ Please note that {{site.data.keyword.nlushort}} considers Norwegian (standard la
 | Metadata | X | |
 | Relations | | |
 | Semantic roles | | |
-| Sentiment | X** | |
+| Sentiment | X | |
 | Syntax | X | |
 
 \* Relevance ranking is not supported.
-
-** Sentiment detection for this language works best on social media based data, like tweets. Further accuracy improvements are planned in the near future.
-
-The targeted sentiment option for keywords is not supported for Russian text.
 
 ## Slovak
 {: #slovak}
@@ -471,7 +463,7 @@ The targeted sentiment option for keywords is not supported for Russian text.
 | Metadata | | |
 | Relations | | |
 | Semantic roles | | |
-| Sentiment | | |
+| Sentiment | X | |
 | Syntax | X | |
 
 \* Relevance ranking is not supported.
@@ -507,7 +499,7 @@ The targeted sentiment option for keywords is not supported for Russian text.
 | Metadata | X | |
 | Relations | | |
 | Semantic roles | | |
-| Sentiment | | |
+| Sentiment | X | |
 | Syntax | X | |
 
 \* Relevance ranking is not supported.
@@ -526,7 +518,7 @@ The targeted sentiment option for keywords is not supported for Russian text.
 | Metadata | | |
 | Relations | | |
 | Semantic roles | | |
-| Sentiment | | |
+| Sentiment | X | |
 | Syntax | X | |
 
 \* Relevance ranking is not supported.
