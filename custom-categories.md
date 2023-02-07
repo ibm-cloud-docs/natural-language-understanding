@@ -31,7 +31,7 @@ The custom categories feature is Beta. It is in a trial stage of development and
 Do not input any sensitive or personal information when you use the custom categories feature. The Beta release might not be compatible with legislation such as GDPR. For more information, see [Information security](/docs/natural-language-understanding?topic=natural-language-understanding-information-security).
 {: important}
 
-[Learn at-a-glance](https://github.com/watson-developer-cloud/doc-tutorial-downloads/blob/master/natural-language-understanding/Explainers/Custom%20Categories%20One%20Pager-2021.pdf) how the custom categories feature works, and best practices for training your model.
+[Learn at-a-glance](https://github.com/watson-developer-cloud/doc-tutorial-downloads/blob/master/natural-language-understanding/Explainers/Custom%20Categories%20One%20Pager-2023.pdf) how the custom categories feature works, and best practices for training your model.
 {: note}
 
 The custom categories feature allows you to train custom English categories models with service instances deployed in the Dallas location. A custom categories model can be trained when no data is available; the only fields required for training categories models are `labels` and `key_phrases`.
