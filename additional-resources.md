@@ -25,7 +25,7 @@ subcollection: natural-language-understanding
 ## Features at-a-glance
 {: at-a-glance}
 
-- [Custom categories (Beta)](https://github.com/watson-developer-cloud/doc-tutorial-downloads/blob/master/natural-language-understanding/Explainers/Custom%20Categories%20One%20Pager-2021.pdf): Learn how the custom categories feature works, and best practices for training your model.
+- [Custom categories (Beta)](https://github.com/watson-developer-cloud/doc-tutorial-downloads/blob/master/natural-language-understanding/Explainers/Custom%20Categories%20One%20Pager-2023.pdf): Learn how the custom categories feature works, and best practices for training your model.
 
 ## Case studies
 {: #case-studies}
