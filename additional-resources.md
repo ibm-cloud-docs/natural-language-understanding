@@ -39,7 +39,7 @@ subcollection: natural-language-understanding
 | Voice-of-Customer Analysis  | [Guardio](https://www.ibm.com/case-studies/guardio-cloud-bullying-detection-application) | Helping parents protect children from cyberbullying by flagging and detecting certain messages across social media accounts |
 | Data Mining  | [Bradesco](https://www.ibm.com/watson/stories/bradesco/) | Addressing and resolving customer conversations at scale through a trained virtual assistant |
 |   | [Legalmation](https://www.ibm.com/case-studies/legalmation) | Detecting citizens' civic concerns with 97% accuracy using IBM Watson |
-|   | [Accrete](https://www.ibm.com/case-studies/accreteai) | Delivering highly accurate insight into financial markets with artificial intelligence |
+|   | Accrete | Delivering highly accurate insight into financial markets with artificial intelligence |
 
 ## Blogs
 {: #blogs}
