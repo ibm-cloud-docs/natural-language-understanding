@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2022
-lastupdated: "2022-01-26"
+  years: 2015, 2023
+lastupdated: "2023-03-08"
 
 subcollection: natural-language-understanding
 
@@ -13,6 +13,7 @@ subcollection: natural-language-understanding
 {:tip: .tip}
 {:note: .note}
 {:beta: .beta}
+{:deprecated: .deprecated}
 {:pre: .pre}
 {:important: .important}
 {:codeblock: .codeblock}
@@ -24,6 +25,9 @@ subcollection: natural-language-understanding
 
 # Creating custom sentiment models (Beta)
 {: #custom-sentiment}
+
+IBM is sunsetting {{site.data.keyword.nlufull}} Custom Sentiment (BETA). From June 3, 2023 onward, you will no longer be able to use the Custom Sentiment feature.<br /><br />To ensure we continue providing our clients with robust and powerful text classification capabilities, IBM recently announced the general availability of a new [single-label text classification capability](https://cloud.ibm.com/docs/natural-language-understanding?topic=natural-language-understanding-classifications). This new feature includes extended language support and training data customizations suited for building a custom sentiment classifier.<br /><br />If you would like more information or further guidance, please contact IBM Cloud Support.
+{: deprecated}
 
 The custom sentiment feature is Beta. It is in a trial stage of development and is not recommended for production use.
 {: beta}
