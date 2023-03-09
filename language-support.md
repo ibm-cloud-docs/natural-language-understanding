@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2022
-lastupdated: "2022-06-07"
+  years: 2015, 2023
+lastupdated: "2023-03-09"
 
 subcollection: natural-language-understanding
 
@@ -201,7 +201,7 @@ Language support might be different if you are a {{site.data.keyword.Bluemix_ded
 | Metadata | X | |
 | Relations | X | X |
 | Semantic roles | | |
-| Sentiment | X | X |
+| Sentiment | X | |
 | Syntax | X | |
 
 \* Indicates support for tone analysis; see [Tone analytics (Classifications)](/docs/natural-language-understanding?topic=natural-language-understanding-tone_analytics) for more information.
@@ -220,7 +220,7 @@ Language support might be different if you are a {{site.data.keyword.Bluemix_ded
 | Metadata | X | |
 | Relations | X | X |
 | Semantic roles | X | |
-| Sentiment | X | X |
+| Sentiment | X | |
 | Syntax | X | |
 
 ## Hebrew
@@ -292,7 +292,7 @@ Language support might be different if you are a {{site.data.keyword.Bluemix_ded
 | Metadata | X | |
 | Relations | X | X |
 | Semantic roles | X | |
-| Sentiment | X | X |
+| Sentiment | X | |
 | Syntax | X | |
 
 ## Korean
