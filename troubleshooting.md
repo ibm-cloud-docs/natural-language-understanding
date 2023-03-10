@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2021
-lastupdated: "2021-10-04"
+  years: 2015, 2023
+lastupdated: "2023-03-10"
 
 subcollection: natural-language-understanding
 
@@ -67,3 +67,10 @@ Analyzing a webpage might return unexpected results in some cases. To investigat
 {: troubleshoot}
 
 {{site.data.keyword.nlushort}} does not provide any diagnostic tools to explain why a particular request returns a particular result. The service is designed to provide accurate results for as many text samples as possible, but due to the nature of the machine learning models we use, there is no guarantee that any particular result will look correct from a human perspective.
+
+## Unexpected changes in response and confidence scores
+{: #continuous-model-improvement}
+{: troubleshoot}
+NLU continuously updates pretrained models and the training algorithms powering custom models to give customers better results. These updates may include differences in overall response and confidence scores. NLU is agnostic to individual use cases and makes these updates to models for the sole purpose of better accuracy and better performance for all customers.
+
+See Section 5.1.2 regarding continuous model updates in our [Terms of Service](https://www.ibm.com/support/customer/csol/terms/?id=i128-0025&lc=en#detail-document).
