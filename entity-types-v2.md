@@ -12,7 +12,6 @@ subcollection: natural-language-understanding
 {:new_window: target="_blank"}
 {:tip: .tip}
 {:note: .note}
-{:deprecated: .deprecated}
 {:pre: .pre}
 {:codeblock: .codeblock}
 {:screen: .screen}
@@ -28,9 +27,6 @@ The following tables list the entity types and subtypes that are used in the _Ve
 {: shortdesc}
 
 The entity type system that {{site.data.keyword.nlushort}} uses differs based on which version date and which language you are using.
-
-The _Version 1_ entity type system is deprecated. As of 11 July 2023, the v1 Entities type system will no longer be available. To understand which _Version 1_ entity types have been added to or removed in _Version 2_, see the [Entity type systems](/docs/natural-language-understanding?topic=natural-language-understanding-entity-type-systems) page.
-{: deprecated}
 
 ## Entity types
 {: #types-version-2}
