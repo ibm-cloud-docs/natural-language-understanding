@@ -46,7 +46,7 @@ Learn more about IBM's own GDPR readiness journey and our GDPR capabilities and 
 ## Labeling and deleting data in Natural Language Understanding
 {: #gdpr-in-service}
 
-Users should not input any sensitive or personal information when using the custom sentiment feature. The Beta release may not be compatible with legislation such as GDPR.
+Users should not input any sensitive or personal information when using customization features. Beta releases may not be compatible with legislation such as GDPR.
 {: note} 
 
 The {{site.data.keyword.nlushort}} service processes but does not store users’ data. Users of the {{site.data.keyword.nlushort}} service do not need to take any action to identify, protect, or delete their data.
