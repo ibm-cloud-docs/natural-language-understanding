@@ -34,10 +34,8 @@ toc:
           topics:
           - customizing.md
           - custom-ent-rel.md
-          - custom-sentiment.md
           - custom-categories.md
           - custom-class.md
-      - evaluating-sentiment-model-quality.md
       - overriding-language-detection.md
       - /watson/watson-keyservice
       - /watson/watson-public-private-endpoints
