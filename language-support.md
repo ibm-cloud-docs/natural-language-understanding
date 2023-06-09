@@ -163,7 +163,7 @@ Language support might be different if you are a {{site.data.keyword.Bluemix_ded
 | Metadata | X | |
 | Relations | X | X |
 | Semantic roles | X | |
-| Sentiment | X | X (Beta) |
+| Sentiment | X | |
 | Syntax | X | |
 
 \* Indicates support for tone analysis; see [Tone analytics (Classifications)](/docs/natural-language-understanding?topic=natural-language-understanding-tone_analytics) for more information.
