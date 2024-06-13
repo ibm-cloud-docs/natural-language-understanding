@@ -11,7 +11,6 @@ toc:
     product-page: https://www.ibm.com/cloud/watson-natural-language-understanding/
     path: natural-language-understanding
     label: Natural Language Understanding
-
   entries:
   - navgroup:
       id: learn
@@ -24,7 +23,6 @@ toc:
       - additional-resources.md
       - topic: release-notes.md
         navtitle: Release notes
-
   - navgroup:
       id: howto
       topics:
@@ -37,7 +35,8 @@ toc:
           - custom-categories.md
           - custom-class.md
       - overriding-language-detection.md
-
+      - /watson/watson-keyservice
+      - /watson/watson-public-private-endpoints
   - navgroup:
       id: reference
       topics:
@@ -70,10 +69,10 @@ toc:
       - versioning.md
       - ha-dr.md
       - information-security.md
+      - /watson/watson-using-sdks
       - link:
           label: Watson GitHub repos
           href: https://github.com/watson-developer-cloud/
-
   - navgroup:
       id: help
       topics:
@@ -85,4 +84,3 @@ toc:
           - link:
               label: StackOverflow
               href: https://stackoverflow.com/questions/tagged/watson-nlu
-      
