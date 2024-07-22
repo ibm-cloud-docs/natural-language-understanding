@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2022
-lastupdated: "2022-07-11"
+  years: 2015, 2024
+lastupdated: "2024-07-22"
 
 subcollection: natural-language-understanding
 
