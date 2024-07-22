@@ -35,8 +35,8 @@ toc:
           - custom-categories.md
           - custom-class.md
       - overriding-language-detection.md
-      - /watson/watson-keyservice
-      - /watson/watson-public-private-endpoints
+      - include: /watson/watson-keyservice.md
+      - include: /watson/watson-public-private-endpoints.md
   - navgroup:
       id: reference
       topics:
@@ -69,7 +69,7 @@ toc:
       - versioning.md
       - ha-dr.md
       - information-security.md
-      - /watson/watson-using-sdks
+      - include: /watson/watson-using-sdks.md
       - link:
           label: Watson GitHub repos
           href: https://github.com/watson-developer-cloud/
