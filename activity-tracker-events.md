@@ -34,7 +34,7 @@ You can use the {{site.data.keyword.cloudaccesstrailfull}} service to track how 
 |:-----------------|:-----------------|
 | `natural-language-understanding.model.create` | Create a model |
 | `natural-language-understanding.model.delete` | Delete a model | 
-{: caption="Table 1. Actions that generate events" caption-side="top"}
+{: caption="Actions that generate events" caption-side="top"}
 
 ## Viewing events
 {: #viewing-events}
