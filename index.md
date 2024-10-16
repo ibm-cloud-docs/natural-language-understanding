@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2024
-lastupdated: "2024-07-22"
+lastupdated: "2024-10-17"
 
 subcollection: natural-language-understanding
 
