@@ -87,65 +87,6 @@ This table shows which deprecated _Version 1_ entity types have been added to, o
 
 ²This entity type is now an entity _subtype_ in the v2 type system.
 
-<!---
- ## Entity type systems for version 2018-11-16
-{: #2018-11-16}
-The following entity type systems are used when you set the `version` parameter to `2018-11-16`.
-|Language|Entity type system|
-| --- | ---|
-| English | [Version 1][v1] |
-| French | [Version 2][v2] |
-| German | [Version 2][v2] |
-| Italian | [Version 2][v2] |
-| Japanese | [Version 2][v2] |
-| Korean | [Version 1][v1] |
-| Portuguese | [Version 2][v2] |
-| Russian | [Version 1][v1] |
-| Spanish | [Version 1][v1] |
-| Swedish | [Version 1][v1] |
-## Entity type systems for version 2018-09-21
-{: #2018-09-21}
-The following entity type systems are used when you set the `version` parameter to `2018-09-21`.
-|Language|Entity type system|
-| --- | ---|
-| English | [Version 1][v1] |
-| French | [Version 2][v2] |
-| German | [Version 2][v2] |
-| Italian | [Version 1][v1] |
-| Japanese | [Version 2][v2] |
-| Korean | [Version 1][v1] |
-| Portuguese | [Version 2][v2] |
-| Russian | [Version 1][v1] |
-| Spanish | [Version 1][v1] |
-| Swedish | [Version 1][v1] |
-## Entity type systems for version 2018-03-16
-{: #2018-03-16}
-The following entity type systems are used when you set the `version` parameter to `2018-03-16`.
-|Language|Entity type system|
-| --- | ---|
-| English | [Version 1][v1] |
-| French | [Version 2][v2] |
-| German | [Version 2][v2] |
-| Italian | [Version 1][v1] |
-| Japanese | [Version 2][v2] |
-| Korean | [Version 1][v1] |
-| Portuguese | [Version 1][v1] |
-| Russian | [Version 1][v1] |
-| Spanish | [Version 1][v1] |
-| Swedish | [Version 1][v1] |
-## Entity type systems for version 2017-02-27
-{: #2017-02-27}
-The following entity type systems are used when you set the `version` parameter to `2017-02-27`.
-|Language|Entity type system|
-| --- | ---|
-| English | [Version 1][v1] |
-| French | [Version 1][v1] |
-| German | [Version 1][v1] |
-| Italian | [Version 1][v1] |
-| Korean | [Version 1][v1] |
-| Portuguese | [Version 1][v1] |
-| Russian | [Version 1][v1] |
-| Spanish | [Version 1][v1] |
-| Swedish | [Version 1][v1] | --->
+
 [v1]: /docs/natural-language-understanding/?topic=natural-language-understanding-entity-types-version-1
 [v2]: /docs/natural-language-understanding/?topic=natural-language-understanding-entity-types-version-2
