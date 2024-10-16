@@ -17,9 +17,6 @@ toc:
       topics:
       - getting-started.md
       - index.md
-      - link:
-          label: Demo
-          href: https://www.ibm.com/demos/live/natural-language-understanding/self-service
       - additional-resources.md
       - topic: release-notes.md
         navtitle: Release notes
