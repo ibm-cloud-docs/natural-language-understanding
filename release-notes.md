@@ -55,7 +55,7 @@ The following table shows the service behavior changes for each version date. Sw
 {: release-note}
 
 Retired Summarization (Experimental) Feature
-:   The Summarization (Experimental) feature of Watson Natural Language Understanding has been retied and is no longer available.
+:   The Summarization (Experimental) feature of Watson Natural Language Understanding has been retired and is no longer available.
 
 ## Entity types (Version 1) deprecation announcement
 {: #v1-entities-deprecation-16nov2022}
