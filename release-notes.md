@@ -51,7 +51,7 @@ The following table shows the service behavior changes for each version date. Sw
 |[`2017-02-27`](#natural-language-understanding-feb2717)| Base version.|
 
 ## 17 October 2024
-{: #natural-language-understanding-june0923}
+{: #natural-language-understanding-october1724}
 {: release-note}
 
 Retired Summarization (Experimental) Feature
