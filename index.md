@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2024
-lastupdated: "2024-07-22"
+lastupdated: "2024-10-17"
 
 subcollection: natural-language-understanding
 
@@ -184,33 +184,6 @@ Identify the sentences and tokens in your text. For example:
 | "like"    | "like"   | `VERB`         | `[24, 28]` |
 | "oranges" | "orange" | `NOUN`         | `[29, 36]` |
 | "."       |          | `NOUN`         | `[36, 37]` |
-
-### Summarization (Experimental)
-{: #summarization}
-
-Summarization is an experimental feature, and is not intended for use in production deployments. The details of the API, or the behavior of the underlying algorithm, may change with little notice.
-{: important:}
-
-In this Experimental release, Summarization is supported for English only.
-{: note}
-
-In this Experimental release, Summarization is supported only for instances hosted in the Dallas region/US-South data center.
-{: note}
-
-Return a summary of input source content. The summarization feature analyzes sets of sentences from a summarized document, and then chooses the set of sentences that best combines 3 objectives:
-
-- Sentences that are the most similar to many other sentences in the document
-- Sentences that cover the most frequent words in the document
-- The set of sentences that are the least distant from the beginning of the document
-
-See additional information in the [API reference](https://cloud.ibm.com/apidocs/natural-language-understanding#summarization). For example:
-
-**Input**
->url: "https://www.ibm.com/cloud/watson-natural-language-understanding"
-
-**Response**
-
->"Watson Natural Language Understanding is a cloud native product that uses deep learning to extract metadata from text such as entities, keywords, categories, sentiment, emotion, relations, and syntax. Get underneath the topics mentioned in your data by using text analysis to extract keywords, concepts, categories and more. Train Watson to understand the language of your business and extract customized insights with Watson Knowledge Studio."
 
 ## Supported languages
 {: #supported-languages}

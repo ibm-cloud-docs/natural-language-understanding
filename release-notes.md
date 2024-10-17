@@ -50,6 +50,13 @@ The following table shows the service behavior changes for each version date. Sw
 |[`2018-03-16`](#natural-language-understanding-mar1618)| <li>Version 2 French entity type system.</li><li>Version 2 German entity type system.</li>|
 |[`2017-02-27`](#natural-language-understanding-feb2717)| Base version.|
 
+## 17 October 2024
+{: #natural-language-understanding-october1724}
+{: release-note}
+
+Retired Summarization (Experimental) Feature
+:   The Summarization (Experimental) feature of Watson Natural Language Understanding has been retired and is no longer available.
+
 ## Entity types (Version 1) deprecation announcement
 {: #v1-entities-deprecation-16nov2022}
 
