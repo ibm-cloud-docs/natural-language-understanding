@@ -34,6 +34,7 @@ toc:
       - overriding-language-detection.md
       - include: /watson/watson-keyservice.md
       - include: /watson/watson-public-private-endpoints.md
+      - include: migrate-to-watson-nlp.md
   - navgroup:
       id: reference
       topics:
