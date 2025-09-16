@@ -1,0 +1,45 @@
+{
+    "version": 2,
+    "title": "IBM Watson® Natural Language Understanding",
+    "introduction": "This documentation describes the usage of Natural Languge Understanding for IBM Cloud as a Service.",
+    "product_page": "https://www.ibm.com/products/natural-language-understanding",
+    "console_page": "/catalog/services/natural-language-understanding",
+    "section_topics": {
+      "links": [
+        {
+          "title": "Getting started with Natural Language Understanding",
+          "href": "/docs/natural-language-understanding?topic=natural-language-understanding-getting-started"
+        },
+        {
+          "title": "Analyzing webpages",
+          "href": "/docs/natural-language-understanding?topic=natural-language-understanding-analyzing-webpages"
+        },
+        {
+          "title": "Customizing models",
+          "href": "/docs/natural-language-understanding?topic=natural-language-understanding-customizing"
+        },
+        {
+          "title": "Activity Tracker events for Natural Language Understanding",
+          "href": "/docs/natural-language-understanding?topic=natural-language-understanding-at_events"
+        },
+        {
+          "title": "Language support",
+          "href": "/docs/natural-language-understanding?topic=natural-language-understanding-language-support"
+        }
+      ]
+    },
+    "section_highlights": [
+      {
+        "title": "Stack Overflow",
+        "description": "To discuss questions with developers",
+        "href": "https://stackoverflow.com/questions/tagged/watson-nlu",
+        "type": "blog"
+      }
+    ],
+    "section_devtools": {
+      "api": "/apidocs/natural-language-understanding"
+    },
+    "section_updates": {
+      "view_more": "/docs/natural-language-understanding?topic=natural-language-understanding-release-notes"
+    }
+  }
