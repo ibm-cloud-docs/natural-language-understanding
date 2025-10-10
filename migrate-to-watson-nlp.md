@@ -643,7 +643,7 @@ def transform_syntax_sentences(wnlp_response):
 
 ## Customization
 This section describes customization features and corresponding functionality in watsonx.ai Studio with Watson NLP.
-- [Deploy a custom trained classification model from Watson NLP as a Python function](https://dataplatform.cloud.ibm.com/analytics/notebooks/v2/c7ec3d45-5431-42da-a776-c1b252f4abcc/view?projectid=aef46fc1-8852-471b-bec5-eff169410fe7&context=cpdaas)
-- [Deploy a pretrained emotions model from Watson NLP as a Python function](https://dataplatform.cloud.ibm.com/analytics/notebooks/v2/0c7a3371-f876-4d7b-8577-06f8666ceb57/view?projectid=aef46fc1-8852-471b-bec5-eff169410fe7&context=cpdaas)
-- [Deploy a pretrained sentiment model from Watson NLP as a Python function](https://dataplatform.cloud.ibm.com/analytics/notebooks/v2/f29d8301-7a8f-4e4d-8bc6-eb969fd97b91/view?projectid=aef46fc1-8852-471b-bec5-eff169410fe7&context=cpdaas)
-- [Deploy a pretrained categories model from Watson NLP as a Python function](https://dataplatform.cloud.ibm.com/analytics/notebooks/v2/384274b3-ba61-472e-a534-697bc84f14d6/view?projectid=aef46fc1-8852-471b-bec5-eff169410fe7&context=cpdaas)
+- [Convert sentiment prediction from Watson NLP to NLU](https://dataplatform.cloud.ibm.com/analytics/notebooks/v2/5a950803-c4b1-4f1f-ba87-e8500f0064f3/view?access_token=d075c474244bc48131d72164feacd81ac4c88bdedfe06700aef09efd4df949b4&context=cpdaas)
+- [Convert categories predictions from Watson NLP to NLU](https://dataplatform.cloud.ibm.com/analytics/notebooks/v2/384274b3-ba61-472e-a534-697bc84f14d6/view?access_token=78d5b1bba89f0b25756a53d116fd35dba3bb9a6c6acc1e4f4248b38cd0f1355c&context=cpdaas)
+- [Convert emotions predictions from Watson NLP to NLU](https://dataplatform.cloud.ibm.com/analytics/notebooks/v2/0c7a3371-f876-4d7b-8577-06f8666ceb57/view?access_token=a972522bb28dd7c3edb92e19dfa9a6bad4f97f26efab2e6c5f2fd70d130ef59e&context=cpdaas)
+- [Deploy custom classification model from Watson NLP](https://dataplatform.cloud.ibm.com/analytics/notebooks/v2/c7ec3d45-5431-42da-a776-c1b252f4abcc/view?access_token=e2cab1c7e744dc2ab4f4cfae3c72fde9b410521a44300a9dd6f7c266fb3b1f5a&context=cpdaas)
