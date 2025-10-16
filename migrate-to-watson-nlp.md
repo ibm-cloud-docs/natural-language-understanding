@@ -643,6 +643,7 @@ def transform_syntax_sentences(wnlp_response):
 
 ## Customization
 This section describes customization features and corresponding functionality in watsonx.ai Studio with Watson NLP.
+
 - [Convert sentiment prediction from Watson NLP to NLU](https://dataplatform.cloud.ibm.com/analytics/notebooks/v2/5a950803-c4b1-4f1f-ba87-e8500f0064f3/view?access_token=d075c474244bc48131d72164feacd81ac4c88bdedfe06700aef09efd4df949b4&context=cpdaas)
 - [Convert categories predictions from Watson NLP to NLU](https://dataplatform.cloud.ibm.com/analytics/notebooks/v2/384274b3-ba61-472e-a534-697bc84f14d6/view?access_token=78d5b1bba89f0b25756a53d116fd35dba3bb9a6c6acc1e4f4248b38cd0f1355c&context=cpdaas)
 - [Convert emotions predictions from Watson NLP to NLU](https://dataplatform.cloud.ibm.com/analytics/notebooks/v2/0c7a3371-f876-4d7b-8577-06f8666ceb57/view?access_token=a972522bb28dd7c3edb92e19dfa9a6bad4f97f26efab2e6c5f2fd70d130ef59e&context=cpdaas)
