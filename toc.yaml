@@ -1,4 +1,3 @@
----
 toc:
   properties:
     subcollection: natural-language-understanding
@@ -6,7 +5,7 @@ toc:
     version: 2
     category: ai
     audience: service
-    href: /docs/natural-language-understanding?topic=natural-language-understanding-getting-started
+    href: /docs/natural-language-understanding
     console-page: /catalog/services/natural-language-understanding
     product-page: https://www.ibm.com/cloud/watson-natural-language-understanding/
     path: natural-language-understanding
@@ -41,7 +40,7 @@ toc:
       - link:
           label: API reference
           href: https://cloud.ibm.com/apidocs/natural-language-understanding
-      - activity-tracker-events.md      
+      - activity-tracker-events.md
       - topicgroup:
           label: Categories type system
           topics:
