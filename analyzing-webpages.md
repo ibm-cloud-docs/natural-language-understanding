@@ -31,6 +31,7 @@ subcollection: natural-language-understanding
 {: #analyzing-webpages}
 
 {{site.data.keyword.nlushort}} enables you to analyze text from webpages programmatically. When you provide raw HTML or a publicly accessible URL in your API request, the service attempts to focus the analysis on the main content of the page, such as the text from a news article or blog post.
+The website that you want to fetch might block requests from all but a specific set of named entities. If possible, add the fetcher to the allowlist for the site. The identifying header for the fetcher is `User-Agent: IBM-Watson-NLU/V1`.
 
 **How it works:**
 
