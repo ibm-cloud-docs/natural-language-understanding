@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2025
-lastupdated: "2025-08-22"
+  years: 2025, 2026
+lastupdated: "2026-08-07"
 
 subcollection: natural-language-understanding
 
@@ -31,9 +31,19 @@ subcollection: natural-language-understanding
 ## Overview
 {: #overview}
 
+IBM Watson Natural Language Understanding (NLU) is deprecated. The following timeline applies to all existing NLU customers:
+
+|Milestones|Date|Description|
+|---|---|---|
+|End of marketing|31 July 2026|No new NLU instances can be provisioned or downloaded.|
+|End of support|31 July 2027|NLU can still be used but IBM support is no longer available.|
+|End of life|31 January 2028|NLU is decommissioned from IBM Cloud. All instances are permanently withdrawn.|
+
+Existing customers must migrate their workloads before 31 January 2028.
+
 Watson Natural Language Understanding (NLU) consists of a set of APIs to analyze various features of text content at scale. You can submit plain text, raw HTML, or a public URL and receive results for the features you request through NLU. To analyze text, Watson NLU uses Watson NLP as its underlying processing framework. 
 
-In watsonx.ai Studio, all Watson NLP models are available as a Python library. You can access these models from notebooks or deploy them as Python functions or scripts. Both online and batch deployment options are available for use.
+The following steps describe how to migrate from Watson NLU to watsonx.ai Studio with Watson NLP. In watsonx.ai Studio, all Watson NLP models are available as a Python library. You can access these models from notebooks or deploy them as Python functions or scripts. Both online and batch deployment options are available for use.
 
 ## Migration process
 {: #migration-process}
@@ -643,7 +653,6 @@ def transform_syntax_sentences(wnlp_response):
 
 ## Customization
 This section describes customization features and corresponding functionality in watsonx.ai Studio with Watson NLP.
-
 - [Convert sentiment prediction from Watson NLP to NLU](https://dataplatform.cloud.ibm.com/analytics/notebooks/v2/5a950803-c4b1-4f1f-ba87-e8500f0064f3/view?access_token=d075c474244bc48131d72164feacd81ac4c88bdedfe06700aef09efd4df949b4&context=cpdaas)
 - [Convert categories predictions from Watson NLP to NLU](https://dataplatform.cloud.ibm.com/analytics/notebooks/v2/384274b3-ba61-472e-a534-697bc84f14d6/view?access_token=78d5b1bba89f0b25756a53d116fd35dba3bb9a6c6acc1e4f4248b38cd0f1355c&context=cpdaas)
 - [Convert emotions predictions from Watson NLP to NLU](https://dataplatform.cloud.ibm.com/analytics/notebooks/v2/0c7a3371-f876-4d7b-8577-06f8666ceb57/view?access_token=a972522bb28dd7c3edb92e19dfa9a6bad4f97f26efab2e6c5f2fd70d130ef59e&context=cpdaas)

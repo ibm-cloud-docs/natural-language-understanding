@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2022
-lastupdated: "2022-09-01"
+  years: 2015, 2026
+lastupdated: "2026-08-07"
 
 subcollection: natural-language-understanding
 
@@ -17,6 +17,14 @@ content-type: release-note
 
 The following new features and changes to the service are available.
 {: shortdesc}
+
+## 31 July 2026
+{: #natural-language-understanding-july2026}
+{: release-note}
+
+Migrate from IBM Watson Natural Language Understanding to watsonx.ai
+IBM Watson Natural Language Understanding is deprecated. Existing customers must migrate their workloads before the service is removed from IBM Cloud on 31 January 2028. The migration documentation includes the service withdrawal timeline and the guidance for using watsonx.ai Studio with Watson Natural Language Processing. See [Migrating to Watson Natural Language Processing in watsonx.ai Studio](/docs/natural-language-understanding?topic=natural-language-understanding-migrating-to-watson-nlp).
+
 
 ## Service API versioning
 {: #service-api-versioning}
